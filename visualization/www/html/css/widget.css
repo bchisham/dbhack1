@@ -1,0 +1,231 @@
+body {
+  background:#EEEEEE;
+}
+
+#pwLogo {
+  position:absolute;
+  top:15px;
+  right:5px;
+  z-index:10;
+}
+
+.footerText {
+  margin-top:-5px;
+  font-size:10px;
+  text-align:center;
+  width:95%;
+}
+
+.link {
+  color:blue;
+  font-family:comic sans ms;
+  cursor:pointer;
+}
+
+span.link:hover {
+  color:gray;
+}
+
+h1,h2,h3 {
+  font-family:comic sans ms;
+}
+
+h1.header {
+  font-family:helvetica;
+  color:steelblue;
+  margin-bottom:-5px;
+  font-size:32pt;
+}
+
+.titlebar {
+  background:lightgrey;
+  border:1px solid lightgrey;
+  margin:-1px;
+  height:30px;
+  width:100%;
+  text-align:center;
+  font-family:helvetica;
+  font-size:12pt;
+  cursor:move;
+}
+
+.searchbar {
+  clear:both;
+}
+
+.container {
+  overflow:auto;
+  clear:both;
+  background:white;
+  padding:5px;
+  width:100%;
+  margin:5px;
+}
+
+.buttons {
+  float:right;
+  cursor:pointer;
+}
+
+#searchInput {
+  float:left;
+  width:55%;
+}
+
+#searchAutocompleteContainer {
+  float:left;
+  width:55%
+}
+
+#searchResultsContainer {
+  clear:both;
+}
+
+#header {
+  position:relative;
+  height:113px;
+  margin-top:0;
+  left:0px;
+  right:0px;
+  top:0px;
+  background: url('/images/phylowidget/stolen_logo.png') top left no-repeat;
+  background-color:#424242;
+}
+
+#navcontainer ul{
+  position:absolute;
+  bottom:0px;
+  //width:1024px;
+  margin:0;
+  margin-top: -3px;
+  background-color: #424242;
+  color: white;
+  font-family: arial, helvetica, sans-serif;
+  padding:0;
+}
+
+#navcontainer ul li {
+  margin-left:0;
+  text-align: center;
+  display:inline;
+  padding: 0.1em 1em;
+  font-size:12pt;
+  background-color: #424242;
+  color: #ABABAB;
+  font-weight: bold;
+  text-decoration: none;
+  float:left;
+  border: 1px solid #ABABAB;
+  cursor:pointer;
+}
+
+.menu {
+  display:none;
+  position:absolute;
+  font-size:11pt;
+  background-color: #424242;
+  color: #ABABAB;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #ABABAB;
+  z-index:999999;
+}
+
+.menu div {
+  border-top: 1px ridge black;
+  cursor: pointer;
+  width: 100%;
+}
+
+#navcontainer ul li:hover, .menu div:hover {
+  background-color: #555555;
+  color: #fff;
+}
+
+
+.hidden {
+  display:none;
+}
+
+#showhide {
+  position:fixed;
+  bottom:2px;
+  right:10px;
+  border:1px solid gray;
+  display:none;
+  padding:5px;
+  z-index:99999;
+}
+
+#showhide .label {
+  margin-top:-15px;
+  padding-left:5px;
+  padding-right:5px;
+  width:3em;
+  background:#EEEEEE;
+  border:none;
+}
+
+#nodeContainer {
+  font-size: 10pt;
+}
+
+
+/*
+/ Below, we override some properties of the YUI 'sam' skin for
+/ panel components
+*/
+
+#search,
+#widget,
+#user,
+#tree,
+#clip,
+#node {
+  border-right:4px solid gray;
+  border-left:3px solid lightgrey;
+  border-bottom:4px solid gray;
+  border-top:3px solid lightgrey;
+}
+
+#widget .bd {
+  visibility: inherit;
+}
+
+.yui-skin-sam .yui-panel .hd {
+  height:20px;
+  padding-bottom: 2px;
+  background:url('/images/phylowidget/sprite.png') repeat-x 0 -105px;
+  border-left:none;
+}
+
+.yui-skin-sam .yui-panel .ft {
+  height: 1px;
+  border-left:none;
+}
+
+.yui-skin-sam .yui-panel .bd {
+  background: white;
+  visibility: inherit;
+  border-left:none;
+}
+
+#node .bd {
+  overflow:auto;
+}
+
+.yui-skin-sam .yui-panel .yui-resize-handle-br {
+  right:0;
+  bottom:0;
+  height: 8px;
+  width: 8px;
+  position:absolute;
+  background:url(/images/phylowidget/resize_drag_handle.png) bottom right no-repeat;
+}
+
+.yui-skin-sam .container-close {
+  top:4px;
+}
+
+
+

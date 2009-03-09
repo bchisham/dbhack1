@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  
+  <!-- YAHOO! Move to local once we have decided what to keep -->
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/fonts/fonts-min.css" />
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/autocomplete/assets/skins/sam/autocomplete.css" />
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/resize/assets/skins/sam/resize.css" />
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" />
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/button/assets/skins/sam/button.css" />
+
+  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/element/element-beta-min.js"></script>
+  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/dragdrop/dragdrop-min.js"></script> 
+  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/resize/resize-min.js"></script>
+  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js"></script>
+  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/animation/animation-min.js"></script>
+  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/datasource/datasource-min.js"></script>
+  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/autocomplete/autocomplete-min.js"></script>
+  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js"></script>
+  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/button/button-min.js"></script>
+  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/cookie/cookie-min.js"></script>
+
+
+  <!-- Our very own stuff... -->
+  <link rel="stylesheet" type="text/css" href="/css/widget.css">
+
+  <script type="text/javascript" src="http://iptol.iplantcollaborative.org/phylowidget/scripts/phylowidget.js"></script>
+  <script type="text/javascript" src="/js/balloon.config.js"></script>
+  <script type="text/javascript" src="/js/balloon.js"></script>
+  <script type="text/javascript" src="/js/box.js"></script>
+  <script type="text/javascript" src="/js/widget.js"></script>
+
+  <script type="text/javascript" >
+    PhyloWidget.codebase = "/phylowidget/lib";
+    var widget  = new PWidget;
+    
+    // This updates the tree data without re-loading phylowidget
+    function loadTree(tree) {
+      if (tree) {
+        widget.treeText.value = tree;
+        PhyloWidget.updateTree(tree);
+      }
+    }      
+
+    // AJAX stuff for the tree database search
+    var sUrl, callback;
+    window.onload = function() {
+      var div = document.getElementById('searchResultsContainer');
+      var handleSuccess = function(o){
+        div.innerHTML = o.responseText;
+      };
+
+      var handleFailure = function(o){
+        div.innerHTML = 'AJAX FAILURE!';
+      };
+
+      callback = {
+        success:handleSuccess,
+        failure:handleFailure,
+        argument:['foo','bar']
+      };
+
+      sUrl = "/cgi-bin/tree_search.pl";
+    }
+
+  </script>
+</head>
+
+
+<body class="yui-skin-sam">
+
+<script type="text/javascript">
+  var balloon = new Balloon;
+  BalloonConfig(balloon,'GBubble');
+  var box     = new Box;
+  BalloonConfig(box,'GBox');
+</script>
+
+<img id="pwLogo" src="images/phylowidget/pw_small_transparent.png" />
+<div id="header">
+<!--  <img src="images/phylowidget/stolen_logo.png" width="100%" />-->
+  <div id="navcontainer">
+    <ul id="navlist">
+      <li onclick="window.location='http://iplantcollaborative.org'">iPlant Home</li>
+      <li onclick="window.location='http://phylowidget.org'">PhyloWidget Home</li>
+<!--
+      <li>Contacts</li>
+      <li onmouseover="fadeBalloon.showTooltip(event,'load:genericListItem',0,275)">Item1</li>
+      <li onmouseover="fadeBalloon.showTooltip(event,'load:genericListItem',0,275)">Item2</li>
+      <li onmouseover="fadeBalloon.showTooltip(event,'load:genericListItem',0,275)">Item3</li>
+      <li onmouseover="fadeBalloon.showTooltip(event,'load:genericListItem',0,275)">Option</li>
+-->
+      <li onclick="widget.saveTreeForm(event)">Save Tree</li>
+      <li onclick="widget.showMenu(this,'desktopMenu')">Desktop</li>
+   </ul>
+  </div>
+</div>
+
+
+<div id="desktopMenu" class="menu" onclick="widget.hideMenu('desktopMenu')">
+ <div onclick="widget.saveDesktop()">&nbsp;Save</div>
+ <div onclick="widget.resetDesktop()">&nbsp;Reset</div>
+ <div onclick="widget.hideMenu()">&nbsp;Cancel</div>
+</div>
+
+
+<span id="genericListItem" class="hidden">
+<table><tr>
+<td><img src="/images/phylowidget/uc.gif" style="margin-right:20px" width=60/></td>
+<th>Sorry, I am not yet implemented.</th></tr></table>
+</span>
+
+
+<div id="panels">
+
+<div id="search">
+ <div id="searchTitle" class="hd">Search</div>
+ <div class="bd" id="searchContainer" style="overflow:auto">
+  <div id="searchAutoComplete" class="searchbar">
+   <input id="searchInput" />
+   <div id="searchAutocompleteContainer"></div>
+   <div style="float:right">
+    <input type="submit" value="Search" onclick="widget.doSearch()">
+   </div>
+  </div>
+  <div id="searchResultsContainer"></div>
+ </div>
+ <div class="ft"></div>
+</div>
+
+
+<div id="tree">
+  <div id="treeTitle" class="hd">Tree Data</div>
+  <div id="treeContainer" class="bd">
+    <textarea onblur="PhyloWidget.updateTree(this.value)"
+              style="font-size:10px;width:100%;height:100%" 
+              id="treeText">
+    </textarea>
+  </div>
+ <div class="ft"></div>
+</div>
+
+<div id="clip">
+  <div id="clipTitle" class="hd">Clipboard</div>
+  <div id="clipContainer" class="bd">
+    <textarea onblur="PhyloWidget.updateClip(this.value)"
+              style="font-size:10px;width:100%;height:100%"
+              id="clipText">
+    </textarea>
+  </div>
+ <div class="ft"></div>
+</div>
+
+<div id="user">
+  <div id="userTitle" class="hd">User and Group</div>
+  <div id="userContainer" class="bd"></div>
+  <div class="ft"></div>
+</div>
+
+<div id="node">
+  <div id="nodeTitle" class="hd">Node Information</div>
+  <div id="nodeContainer" class="bd">
+    <div id="nodeText"></div>
+  </div>
+ <div class="ft"></div>
+</div>
+
+
+<div id="widget">
+ <div id="widgetTitle" class="hd">Phylowidget</div>
+ <div id="widgetContainer" class="bd" style="text-align:center;font-size:10pt">
+  <div style="padding-top:30%">
+     <p>
+       <img src="/images/phylowidget/pw-icon.png" />
+       PhyloWidget is an external application.<br>  
+       <a href="javascript:loadTree('(a,((b,c),(e,f)))')">Click here to launch.</a>
+     </p>
+  </div>
+ </div>
+ <div class="ft">
+   <div class="footerText">Click here to update</div>
+ </div>
+</div>
+
+</div> <!-- end 'panels' div -->
+
+
+<!-- The conatiner for show/hide buttons -->
+<div id="showhide">
+ <div class="label">Show</div>
+</div>
+
+<!-- Move this stuff to widget.js and fire with a window.onload event handler -->
+<script type="text/javascript">
+  widget.getLayout();
+
+  YAHOO.example.BasicRemote = function() {
+    // Use an XHRDataSource
+    var oDS = new YAHOO.util.XHRDataSource("/cgi-bin/species_search.pl");
+    // Set the responseType
+    oDS.responseType = YAHOO.util.XHRDataSource.TYPE_TEXT;
+    // Define the schema of the delimited results
+    oDS.responseSchema = {
+        recordDelim: "\n",
+        fieldDelim: "\t"
+    };
+    // Enable caching
+    oDS.maxCacheEntries = 5;
+
+    // Instantiate the AutoComplete
+    var oAC = new YAHOO.widget.AutoComplete("searchInput", "searchAutocompleteContainer", oDS);
+
+    return {
+        oDS: oDS,
+        oAC: oAC
+    };
+}();
+
+</script>
+
+</body>
+</html>
+
+
