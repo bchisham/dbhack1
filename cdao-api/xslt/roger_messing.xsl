@@ -160,11 +160,43 @@
 	    <rdf:Description>
 		    <xsl:attribute name="rdf:ID">
 			    <xsl:value-of select="../../@id"/>_<xsl:value-of select="@id"/>
-	            </xsl:attribute>
-		    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Character"/>
+		    </xsl:attribute>
+                    <xsl:choose>
+		         <xsl:when test="contains(../../@xsi:type, 'ContinuousCells')">
+			    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#ContinuousCharacter"/>
+		         </xsl:when>
+			 <xsl:when test="contains(../../@xsi:type , 'StandardCells')">
+		            <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#StandardCharacter"/>
+		         </xsl:when>
+		          <xsl:when test="contains(../../@xsi:type , 'DnaSeqs')">
+		            <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#NucleotideResidueCharacter"/>
+		        </xsl:when>
+                        <xsl:when test="contains(../../@xsi:type , 'RnaSeqs')">
+		            <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#RNAResidueCharacter"/>
+		        </xsl:when>
+		         <xsl:otherwise>
+		            <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Character"/>
+		         </xsl:otherwise>
+	            </xsl:choose>
             </rdf:Description>
     </xsl:template>
+ <!-- Process dna states -->
+    
+    <xsl:template name="dnastates">
+    </xsl:template>
+    
+    <!-- Process continuous states-->
+    
+    <xsl:template name="continuouscharacters">
+    </xsl:template>
 
+    <!-- Process state definitions-->
+    
+    <xsl:template match="states">
+           <rdf:Description>
+		
+	   </rdf:Description>
+   </xsl:template>
     
     <xsl:template match="*" priority="-1"/>
 
