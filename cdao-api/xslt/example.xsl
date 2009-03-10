@@ -7,6 +7,7 @@
 		xmlns:cdao="http://www.evolutionaryontology.org/cdao"
 		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns"
 		xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 		xsi:schemaLocation="http://www.nexml.org/1.0 http://www.nexml.org/nexml/xsd/nexml.xsd"
 		xmlns="">
    <!-- Define the output format. -->
@@ -41,10 +42,10 @@
 		<cdao:EdgeLength><xsl:text>&#10;</xsl:text>
 			<xsl:choose>
 			      <xsl:when test="contains(@xsi:type,FloatTree)">
-				      <cdao:has_Float_Value><xsl:value-of select="@length"/></cdao:has_Float_Value><xsl:text>&#10;</xsl:text>
+				      <cdao:has_Float_Value rdf:datatype="xsd:float"><xsl:value-of select="@length"/></cdao:has_Float_Value><xsl:text>&#10;</xsl:text>
 			      </xsl:when>
 			      <xsl:when test="contains(@xsi:type,IntTree)">
-				      <cdao:has_Int_Value><xsl:value-of select="@length"/></cdao:has_Int_Value>
+				      <cdao:has_Int_Value rdf:datatype="xsd:int"><xsl:value-of select="@length"/></cdao:has_Int_Value>
 		              </xsl:when>
 			</xsl:choose>
 		</cdao:EdgeLength><xsl:text>&#10;</xsl:text>
