@@ -157,7 +157,10 @@
     </xsl:template>
     
     <xsl:template match="char">
-	    <rdf:Description rdf:ID="{../@id}_{@id}">
+	    <rdf:Description>
+		    <xsl:attribute name="rdf:ID">
+			    <xsl:value-of select="../../@id"/>_<xsl:value-of select="@id"/>
+	            </xsl:attribute>
 		    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Character"/>
             </rdf:Description>
     </xsl:template>
