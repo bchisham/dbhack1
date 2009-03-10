@@ -18,7 +18,7 @@
     <xsl:template match="nex:otu">
         <rdf:Description>
             <xsl:attribute name="rdf:ID">
-                <xsl:value-of select="@id"/>
+		    <xsl:value-of select="../@id"/>_<xsl:value-of select="@id"/>
             </xsl:attribute>
             <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
         </rdf:Description>
@@ -180,7 +180,7 @@
 	            </xsl:choose>
             </rdf:Description>
     </xsl:template>
- <!-- Process dna states -->
+    <!-- Process dna states -->
     
     <xsl:template name="dnastates">
     </xsl:template>
@@ -192,12 +192,80 @@
 
     <!-- Process state definitions-->
     
-    <xsl:template match="states">
+    <xsl:template match="nex:states">
            <rdf:Description>
 		
 	   </rdf:Description>
    </xsl:template>
-    
+
+   <xsl:template name="processcell">
+	   <rdf:Description>
+		   <xsl:attribute name="rdf:ID"><xsl:value-of select="../../../@id"/>_<xsl:value-of select="../@id"/>_<xsl:value-of select="@char"/></xsl:attribute>
+		<xsl:choose>
+			<xsl:when test="contains(../../../@xsi:type, 'ContinuousCells')">
+				<rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#ContinuousStateDatum"/>
+			</xsl:when>
+			<xsl:when test="contains(../../../@xsi:type, 'StandardCells')">
+				<rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#StandardStateDatum"/>
+			</xsl:when>
+			<xsl:when test="contains(../../../@xsi:type, 'DnaSeqs')">
+				<rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#NucleotideStateDatum"/>
+			</xsl:when>
+			<xsl:when test="contains(../../../@xsi:type, 'RnaSeqs')">
+				<rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#RNAResidueStateDatum"/>			
+			</xsl:when>
+			<xsl:otherwise>
+				<rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#CharacterStateDatum"/>
+			</xsl:otherwise>
+		</xsl:choose>
+		<cdao:belongs_to_TU>
+			<xsl:attribute name="rdf:about">#<xsl:value-of select="../../../@otus"/>_<xsl:value-of select="../@otu"/></xsl:attribute>
+		</cdao:belongs_to_TU>
+		<cdao:belongs_to_Character>
+			<xsl:attribute name="rdf:about">#<xsl:value-of select="../../../@id"/>_<xsl:value-of select="@char"/></xsl:attribute>
+		</cdao:belongs_to_Character>
+		<xsl:choose>
+			<xsl:when test="contains(../../../@xsi:type, 'ContinuousCells')">
+				<cdao:has_Continuous_State>
+					<cdao:Continuous>
+						<cdao:has_Value><xsl:value-of select="@state"/></cdao:has_Value>
+					</cdao:Continuous>
+				</cdao:has_Continuous_State>
+			</xsl:when>
+			<xsl:when test="contains(../../../@xsi:type, 'StandardCells')">
+				<cdao:has_Standard_State><xsl:attribute name="rdf:about">#<xsl:value-of select="../../../format/states/@id"/>_<xsl:value-of select="@state"/></xsl:attribute></cdao:has_Standard_State>
+			</xsl:when>
+			<xsl:when test="contains(../../../@xsi:type, 'DnaSeqs')">
+				<cdao:has_Nucleotide_State>
+					<xsl:attribute name="rdf:about">#<xsl:value-of select="../../../format/states/@id"/>_<xsl:value-of select="@state"/></xsl:attribute>
+				</cdao:has_Nucleotide_State>
+			</xsl:when>
+			<xsl:when test="contains(../../../@xsi:type, 'RnaSeqs')">
+				<cdao:has_RNA_State><xsl:attribute name="rdf:about">#<xsl:value-of select="../../../format/states/@id"/>_<xsl:value-of select="@state"/></xsl:attribute></cdao:has_RNA_State>
+			</xsl:when>
+			<xsl:otherwise>
+				<cdao:has_State><xsl:attribute name="rdf:about">#<xsl:value-of select="../../../format/states/@id"/>_<xsl:value-of select="@state"/></xsl:attribute></cdao:has_State>
+			</xsl:otherwise>
+		</xsl:choose>
+	   </rdf:Description>
+   </xsl:template>
+
+   <xsl:template name="processrow">
+	   <xsl:for-each select="cell">
+                 <xsl:call-template name="processcell"/>     
+	   </xsl:for-each>
+   </xsl:template>
+
+   <xsl:template match="matrix">
+	   <rdf:Description>
+		   <xsl:attribute name="rdf:ID">matrix_<xsl:value-of select="../@id"/></xsl:attribute>
+		   <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#CharacterStateDataMatrix"/>
+	      <xsl:for-each select="row">
+		   <xsl:call-template name="processrow"/>
+	      </xsl:for-each>
+          </rdf:Description>
+   </xsl:template>
+
     <xsl:template match="*" priority="-1"/>
 
 </xsl:stylesheet>
