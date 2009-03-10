@@ -26,7 +26,7 @@
 
     
 
-    <xsl:template match="tree">
+    
     <xsl:template match="nex:tree">
         <rdf:Description>
             <xsl:attribute name="rdf:ID">
@@ -39,6 +39,7 @@
                 <xsl:when test="node/@root = 'true'">
 			<rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#RootedTree" />
 			<cdao:has_Root rdf:resource="{@id}_{node[@root = 'true']/@id}"/>
+	        </xsl:when>
                 <xsl:when test="nex:node/@root = 'true'">
                     <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#RootedTree"
                     />
@@ -95,6 +96,7 @@
                 <!-- edge id is concat of tree id and edge id -->
                 <xsl:value-of select="../@id"/>_<xsl:value-of select="@id"/>
 	</xsl:attribute>
+        
 	<xsl:choose>
 		<xsl:when test="../node/@root = 'true'">
 			<rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#DirectedEdge" />
@@ -108,18 +110,20 @@
 		 </xsl:otherwise>
            </xsl:choose>
             
-            </xsl:attribute>
             <xsl:choose>
                 <xsl:when test="../nex:node/@root = 'true'">
                     <rdf:type
-                        rdf:resource="http://www.evolutionaryontology.org/cdao.owl#DirectedEdge"/>
+			    rdf:resource="http://www.evolutionaryontology.org/cdao.owl#DirectedEdge"/>
+		    <cdao:has_Parent_Node rdf:resource="#{../@id}_{@source}"/>
+                    <cdao:has_Child_Node rdf:resource="#{../@id}_{@target}"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+			<rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+			<cdao:has_Node rdf:resource="#{../@id}_{@source}"/>
+            		<cdao:has_Node rdf:resource="#{../@id}_{@target}"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <cdao:has_Node rdf:resource="#{../@id}_{@source}"/>
-            <cdao:has_Node rdf:resource="#{../@id}_{@target}"/>
+            
             <cdao:belongs_to_Tree rdf:resource="#{../@id}"/>
             <xsl:if test="@length">
                 <cdao:has_Annotation>
@@ -151,14 +155,14 @@
             </xsl:if>
         </rdf:Description>
     </xsl:template>
+    
     <xsl:template match="char">
-	    <cdao:Character rdf:ID="{../@id}_{@id}"/>
+	    <rdf:Description rdf:ID="{../@id}_{@id}">
+		    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Character"/>
+            </rdf:Description>
     </xsl:template>
 
-    <xsl:template match="matrix">
-	
-    </xsl:template>
-
+    
     <xsl:template match="*" priority="-1"/>
 
 </xsl:stylesheet>
