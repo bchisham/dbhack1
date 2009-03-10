@@ -32,11 +32,13 @@
 <!-- This template is a skeletion example of processsing an single node -->
 <xsl:template match="node">
 	<xsl:param name="tree"/>
-	<cdao:Node ref:about="{@otu}" />
+	<cdao:Node rdf:ID="{@id}" />
 </xsl:template>
 <xsl:template name="edge">
+        <xsl:param name="parent"/>
 	<cdao:Edge rdf:ID="{@id}">
-	      <cdao:EdgeLength><xsl:value-of select="{@length}"/></cdao:EdgeLength>
+		<cdao:EdgeLength><xsl:value-of select="@length"/></cdao:EdgeLength>
+		<cdao:has_Parent><xsl:value-of select="parent"/></cdao:has_Parent>
 	</cdao:Edge>
 </xsl:template>
 <xsl:template name="rootedge">
@@ -49,30 +51,30 @@
       <xsl:choose>
          <xsl:when test="tree">
 	     <cdao:Tree rdf:ID="{@id}">
-	         <xsl:call-template name="rootedge"/>	       
-                      <xsl:for-each select="edge">
-			      <xsl:call-template name="edge">
-                                   <xsl:with-param name="parent" select="{../@id}"/>
-		              </xsl:call-template>
-                      </xsl:for-each>
-	              <xsl:for-each select="node">
-		          <xsl:call-template name="node" />
-	              </xsl:for-each>
+		     <!-- <xsl:call-template name="rootedge"/> -->	       
+                 <xsl:for-each select="edge">
+			 <xsl:call-template name="edge"/>
+			 <!--<xsl:with-param name="parent" select="../@id"/>
+		 </xsl:call-template>-->
+                 </xsl:for-each>
+	         <xsl:for-each select="node">
+		     <xsl:call-template name="node" />
+	         </xsl:for-each>
              </cdao:Tree>
-      </xsl:when>
-      <xsl:when test="network">
-       <cdao:Network rdf:ID="{@id}">
-          <xsl:for-each select="edge">
-		  <xsl:call-template name="edge">
-			<xsl:with-param name="parent" select="{../@id}"/>
-		</xsl:call-template>  
-	  </xsl:for-each>
-	  <xsl:for-each select="node">
-              <xsl:call-template name="node"/>
-          </xsl:for-each>
-       </cdao:Network>
-   </xsl:when>
-  <xsl:choose>   
+           </xsl:when>
+           <xsl:when test="network">
+              <cdao:Network rdf:ID="{@id}">
+                 <xsl:for-each select="edge">
+		     <xsl:call-template name="edge">
+			     <xsl:with-param name="parent" select="../@id"/>
+		     </xsl:call-template>  
+	         </xsl:for-each>
+	         <xsl:for-each select="node">
+                        <xsl:call-template name="node"/>
+                  </xsl:for-each>
+               </cdao:Network>
+            </xsl:when>
+    </xsl:choose>   
 </xsl:template>
 <!--
    Match and process the OTUS
