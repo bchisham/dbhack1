@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- 
-	For an explanation of the structure of the root element 
-	and the taxa element refer to the file taxa.xml.
+	An example with some RDFa annotations in.
 -->
-<nex:nexml 
-	version="0.8" 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<nex:nexml version="0.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:xml="http://www.w3.org/XML/1998/namespace"
 	xsi:schemaLocation="http://www.nexml.org/1.0 http://www.nexml.org/nexml/xsd/nexml.xsd"
-	xmlns="http://www.nexml.org/1.0"
-	xmlns:nex="http://www.nexml.org/1.0"
-	>
-	
+	xmlns="http://www.nexml.org/1.0" xmlns:nex="http://www.nexml.org/1.0">
+
 	<otus id="tax1" label="RootTaxaBlock">
-		<otu id="t1"/>
+		<otu id="t1" about="#t1">
+			<annotation rel="tc:hasName" xmlns:tc="http://rs.tdwg.org/ontology/voc/TaxonConcept#"
+				xmlns:tn="http://rs.tdwg.org/ontology/voc/TaxonName#">
+				<annotation typeof="tn:TaxonName" about="urn:lsid:ipni.org:names:333114-1:1.5">
+					<annotation property="tn:genusPart">Rhododendron</annotation>
+					<annotation property="tn:specificEpithet">ponticum</annotation>
+					<annotation property="tn:authorship">L.</annotation>
+				</annotation>
+			</annotation>
+		</otu>
 		<otu id="t2"/>
 		<otu id="t3"/>
 		<otu id="t4"/>
@@ -53,7 +57,7 @@
 			<node id="n7" label="n7"/>
 			<node id="n8" label="n8" otu="t5"/>
 			<node id="n9" label="n9" otu="t4"/>
-			<edge source="n1" target="n3" id="e1" length="0.34534"/>			
+			<edge source="n1" target="n3" id="e1" length="0.34534"/>
 			<edge source="n1" target="n2" id="e2" length="0.4353"/>
 			<edge source="n3" target="n4" id="e3" length="0.324"/>
 			<edge source="n3" target="n7" id="e4" length="0.3247"/>
@@ -74,15 +78,15 @@
 					<boolean id="has_tag">true</boolean>
 				</dict>
 			</node>
-			<node id="n5" label="n5" otu="t3" about="#t3">
-				<annotation property="http://banana.split.com/something" >Literal value of the thing.</annotation>
-				<annotation rel
+			<node id="n5" label="n5" otu="t3" about="#t3"
+				xmlns:tc="http://banana.split.com/ontology">
+				<annotation property="tc:yellow">Literal value of the thing.</annotation>
 			</node>
 			<node id="n6" label="n6" otu="t2"/>
 			<node id="n7" label="n7"/>
 			<node id="n8" label="n8" otu="t5"/>
 			<node id="n9" label="n9" otu="t4"/>
-			<edge source="n1" target="n3" id="e1" length="1"/>			
+			<edge source="n1" target="n3" id="e1" length="1"/>
 			<edge source="n1" target="n2" id="e2" length="2"/>
 			<edge source="n3" target="n4" id="e3" length="3"/>
 			<edge source="n3" target="n7" id="e4" length="1"/>
@@ -90,7 +94,7 @@
 			<edge source="n4" target="n6" id="e6" length="1"/>
 			<edge source="n7" target="n8" id="e7" length="1"/>
 			<edge source="n7" target="n9" id="e8" length="1"/>
-		</tree>	
+		</tree>
 		<!--  
 			A network with int edges.
 		-->
@@ -104,15 +108,16 @@
 			<node id="n7" label="n7"/>
 			<node id="n8" label="n8" otu="t5"/>
 			<node id="n9" label="n9" otu="t4"/>
-			<edge source="n1" target="n3" id="e1" length="1"/>			
+			<edge source="n1" target="n3" id="e1" length="1"/>
 			<edge source="n1" target="n2" id="e2" length="2"/>
 			<edge source="n3" target="n4" id="e3" length="3"/>
 			<edge source="n3" target="n7" id="e4" length="1"/>
 			<edge source="n4" target="n5" id="e5" length="2"/>
 			<edge source="n4" target="n6" id="e6" length="1"/>
-			<edge source="n7" target="n6" id="e7" length="1"/> <!-- extra edge -->
+			<edge source="n7" target="n6" id="e7" length="1"/>
+			<!-- extra edge -->
 			<edge source="n7" target="n8" id="e9" length="1"/>
 			<edge source="n7" target="n9" id="e8" length="1"/>
-		</network>				
+		</network>
 	</trees>
 </nex:nexml>
