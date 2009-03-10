@@ -24,13 +24,10 @@
         </rdf:Description>
     </xsl:template>
 
-<<<<<<< .mine
     
 
     <xsl:template match="tree">
-=======
     <xsl:template match="nex:tree">
->>>>>>> .r18
         <rdf:Description>
             <xsl:attribute name="rdf:ID">
                 <xsl:value-of select="@id"/>
@@ -39,15 +36,12 @@
                 <xsl:call-template name="label"/>
             </xsl:if>
             <xsl:choose>
-<<<<<<< .mine
                 <xsl:when test="node/@root = 'true'">
 			<rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#RootedTree" />
 			<cdao:has_Root rdf:resource="{@id}_{node[@root = 'true']/@id}"/>
-=======
                 <xsl:when test="nex:node/@root = 'true'">
                     <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#RootedTree"
                     />
->>>>>>> .r18
                 </xsl:when>
                 <xsl:otherwise>
                     <rdf:type
@@ -100,7 +94,6 @@
             <xsl:attribute name="rdf:ID">
                 <!-- edge id is concat of tree id and edge id -->
                 <xsl:value-of select="../@id"/>_<xsl:value-of select="@id"/>
-<<<<<<< .mine
 	</xsl:attribute>
 	<xsl:choose>
 		<xsl:when test="../node/@root = 'true'">
@@ -115,7 +108,6 @@
 		 </xsl:otherwise>
            </xsl:choose>
             
-=======
             </xsl:attribute>
             <xsl:choose>
                 <xsl:when test="../nex:node/@root = 'true'">
@@ -128,7 +120,6 @@
             </xsl:choose>
             <cdao:has_Node rdf:resource="#{../@id}_{@source}"/>
             <cdao:has_Node rdf:resource="#{../@id}_{@target}"/>
->>>>>>> .r18
             <cdao:belongs_to_Tree rdf:resource="#{../@id}"/>
             <xsl:if test="@length">
                 <cdao:has_Annotation>
