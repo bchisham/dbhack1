@@ -4,7 +4,7 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="gensrc"/>
 	<classpathentry kind="lib" path="lib/arq.jar"/>
-	<classpathentry kind="lib" path="lib/jastor-1.0.4.jar" sourcepath="/Users/vivek/Sources/jastor-1.0.4/src"/>
+	<classpathentry kind="lib" path="lib/jastor-1.0.4.jar"/>
 	<classpathentry kind="lib" path="lib/jena.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.12.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
