@@ -8,15 +8,15 @@ use strict;
 use Bio::Phylo::IO qw(parse unparse);
 use Data::Dumper;
 
-my $nexus_file = shift;
+my $nexml_file = shift;
 
 # returns an unblessed array reference of block objects,
 # i.e. taxa, matrix or forest objects
 my $blocks = parse(
-		    '-file'   => $nexus_file,
-		    '-format' => 'nexus',
+		    '-file'   => $nexml_file,
+		    '-format' => 'nexml',
 		    ) or die $!;
 
-print "$nexus_file parsed OK!\n";
+print "$nexml_file parsed OK!\n";
 print Dumper $blocks;
 
