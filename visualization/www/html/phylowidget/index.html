@@ -8,7 +8,149 @@
 
 <link rel="stylesheet" href="style.css"/>
 <link rel="shortcut icon" href="img/pw.ico"/>
-<script src="scripts/phylowidget.js"></script>
+<script src="./scripts/phylowidget.js"></script>
+
+<script type="text/javascript">
+// Last update: GJ 2009-02-16
+// See the phylowidet.js script for extensive documentation on general use of the PhyloWidget Javascript API.
+// I'll document what's going on here for anyone interested in how to implement callbacks using PhyloWidget.
+
+/* The three methods below are automatically called by the PhyloWidget applet when certain UI events occur:
+ *  - pw_tree : when the tree is modified.
+ *  - pw_clip : when the clipboard is updated.
+ *  - pw_hover : when a node is hovered with the mouse.
+ */ 
+pw_tree = function()
+{
+	// Get the latest PhyloWidget Java applet object.
+	var applet = PhyloWidget.getApplet();
+	// Get the Newick string.
+	var newickString = applet.getTreeString();
+	// Update the textbox with the newick string.
+	var el = getObject("pw_treetext");
+	if (el != null)
+		el.value = newickString;
+		
+	//pw_urlFocus();
+}
+pw_clip = function()
+{
+	// Get the Java applet.
+	var applet = PhyloWidget.getApplet();
+	// Get the clipboard string.
+	var newickString = applet.getClipboardString();
+	// Update the textbox.
+	var el = getObject("pw_cliptext");
+	if (el != null)
+		el.value = newickString;
+}
+pw_hover = function(json_data)
+{
+	// Get the Java applet.
+	var applet = PhyloWidget.getApplet();
+	
+	var json = eval("("+json_data+")");
+	var ann = json["Annotations"];
+	
+	// Create a mapping of key-value pairs.
+	// We're getting information on the currently hovered node by calling the "hoveredXYZ" methods from the PWPublicMethods.java definitions:
+	// http://phylowidget.googlecode.com/svn/trunk/PhyloWidget/src/org/phylowidget/PWPublicMethods.java
+	var map = {
+		"Name" : ann["Label"],
+		"Branch Length" : ann["Branch Length"],
+		"Enclosed Leaves" : json["Enclosed Leaves"],
+		"Depth to Root" : json["Depth to Root"],
+		"Branch Length to Root" : json["Branch Length to Root"]
+	};
+
+	// Create some HTML based on the key-value pairs.
+	var html = "<table>";
+	for (var key in map)
+	{
+		var val = map[key];
+		html += "<tr><td class='key'><b>"+key+":"+"</b></td>";
+		html += "<td class='val'>"+val+"</td>";
+		html += "</tr>";
+	}
+	html += "</table>";
+	
+	// Update the node info box.
+	var el = getObject("pw_nodeinfo");	
+	el.innerHTML = html;
+}
+
+pw_urlFocus = function()
+{
+	var applet = PhyloWidget.getApplet();
+	var urlQuery = applet.getUrlParameters();
+	
+	// Grab the vanilla URL for this page.
+	var url = top.location.href;
+	var idx = url.indexOf("?");
+    var baseURL = idx >= 0 ? url.substr(0,idx) : url;
+	idx = baseURL.lastIndexOf("#");
+	baseURL = idx >= 0 ? baseURL.substr(0, idx) : baseURL;
+	
+	// Update the url link box.
+	var el = getObject("pw_linktext");
+	el.value = baseURL+"?"+urlQuery;
+}
+
+// When the tree textbox is defocused, update the Java applet.
+pw_treeTextBlur = function()
+{
+	var treeText = getObject("pw_treetext").value;
+	PhyloWidget.getApplet().setTree(treeText);
+}
+// When the clip textbox is defocused, update the Java applet.
+pw_clipTextBlur = function()
+{
+	var clipText = getObject("pw_cliptext").value;
+	PhyloWidget.getApplet().setClipboard(clipText);
+}
+// When the tree textbox is focused, put a message into the Java applet.
+pw_treeTextFocus = function()
+{
+    pw_setMessage("Click away to update the tree.");
+}
+// When the clip textbos is focused, put a message into the Java applet.
+pw_clipTextFocus = function()
+{
+    pw_setMessage("Click away to update the clipboard.");
+}
+// A generic function for putting a message into the Java applet.
+pw_setMessage = function(message)
+{
+	var applet = PhyloWidget.getApplet();
+	applet.setMessage(message);
+}
+
+// A simple utility function to toggle the toolbox open or closed.
+toggleToolbox = function()
+{
+        var el = getObject("pw_toolbox");
+        if (el == null)
+                return;
+        if (el.style.display=="none")
+        {
+                el.style.display="";
+                text = getObject("hideshow");
+                text.innerHTML = "hide";
+        } else
+        {
+                el.style.display="none";
+                text = getObject("hideshow");
+                text.innerHTML = "show";
+        }
+}
+
+// Wrapper function to get an object from the DOM via its ID attribute.
+function getObject(id){
+        var el = document.getElementById(id);
+        return (el);
+};
+</script>
+
 </head>
 <body>
 
@@ -16,26 +158,57 @@
 	var totalWidth = PhyloWidget.getWidth()+300+50;
 	document.write('<div id="content-wrapper" style="width:'+totalWidth+'px;">');
 </script>
-<!-- <div id="content-wrapper"> -->
 
 <div id="content">
-
 <div id="floater" style="float:left;">
-	<h1>PhyloWidget Full</h1>
+	<h1>PhyloWidget Lite</h1>
 	
 	<script type="text/javascript">
 		document.write('<div id="PhyloWidget" style="width:'+PhyloWidget.getWidth()+'px;">');
-	</script>
+		
+		// Create a new PhyloWidget.object instance.
+		var pw = new PhyloWidget.object();
+		// Load the widget HTML into the element with the given ID.
+		pw.loadWidget("PhyloWidget");
+		
+		// Alternatively, we could have immediately written the embedding HTML into the document:
+		//pw.writeWidget();
+		
+		document.write('</div>');
+	</script> 
 	
-	<!-- <div id="PhyloWidget" style="width:400px;"> -->
-	</div>
 </div>
 	<div id="floater2" style="width:300px;float:right;">
-		<h1>PhyloWidget Full Toolbox (<a href="javascript:PhyloWidget.toggleToolbox();"><span id="hideshow">hide</span></a>)</h1>
-		<div id="toolbox"></div>
+		<h1>PhyloWidget Lite Toolbox (<a href="javascript:window.toggleToolbox();"><span id="hideshow">hide</span></a>)</h1>
+		<div id="pw_toolbox">
+			<h1>Tree:</h1>
+			<div class='indent'>
+				<textarea rows="3" cols="40" style="font-size:10px;" id="pw_treetext" onblur="javascript:pw_treeTextBlur()" onfocus="javascript:pw_treeTextFocus();">
+				</textarea>
+			</div>
+			
+			<h1>Clipboard:</h1>
+			<div class='indent'>
+				<textarea rows="3" cols="40" style="font-size:10px;" id="pw_cliptext" onblur="javascript:pw_clipTextBlur()" onfocus="javascript:pw_clipTextFocus();">
+				</textarea>
+			</div>
+			
+			<h1>Node Info:</h1>
+			<div class="indent">
+				<div id="pw_nodeinfo" style=''></div>
+			</div>
+		</div>
 	</div>
 	
 	<div style="width:300px;float:right;margin-top:15px;">
+	
+	<!--
+	<h1>Link to this page (experimental):</h1>
+	<div>
+		<textarea rows="2" cols="30" style="font-size:8px;" id="pw_linktext" onfocus="javascript:pw_urlFocus();">
+		</textarea>
+	</div>
+	-->
 	<h1>Problems?</h1>
 	Try visiting the <a href="../troubleshooting.html">Troubleshooting Page</a>
 	<p></p>
@@ -46,14 +219,6 @@
 	Head back to the <a href="../index.html">PhyloWidget Homepage</a>
 	</div>
 </div>
-
-<!-- BEGIN: JAVASCRIPT INSERTION -->
-<script type="text/javascript">
-	PhyloWidget.loadWidget('PhyloWidget');
-	PhyloWidget.loadToolbox('toolbox');
-	//PhyloWidget.loadWidgetPanel();
-</script>
-<!-- END: JAVASCRIPT INSERTION -->
 
 <div id="footer">
 Copyright © 2008 <a href="http://www.andrewberman.org/">Gregory Jordan</a>. Code released under the <a href="http://www.fsf.org/licensing/licenses/info/GPLv2.html">GPL</a> license.
