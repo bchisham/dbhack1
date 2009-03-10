@@ -11,8 +11,7 @@ var PWidget = function() {
 PWidget.prototype.saveTreeForm = function(evt) {
   var treeID = widget.treeID || widget.getTreeID();
   widget.saveTree();
-  window.open('/cgi-bin/tree_save.pl?query='+treeID,'saveTree','scrollbars=1,width=800,height=600,resizable=1,location=0,status=1');
-//  box.showTooltip(evt,'url:/cgi-bin/tree_save.pl?query='+treeID,1,1000,1000);
+  window.open('/cgi-bin/hackathon/tree_save.pl?query='+treeID,'saveTree','scrollbars=1,width=800,height=600,resizable=1,location=0,status=1');
 }
 
 PWidget.prototype.loadWidget  = function(force) {
@@ -87,7 +86,7 @@ PWidget.prototype.getLayout = function() {
   var narrow = parseInt(0.25 * pageWidth) - 10;
   var wide   = parseInt(0.30 * pageWidth) - 30;
   var wider  = parseInt(0.40 * pageWidth) - 30;
-  var top1   = 135;
+  var top1   = 80;
   var top2   = top1 + 90;
   var top3   = top2 + 100;
   var top4   = top3 + 100;   
@@ -115,7 +114,7 @@ PWidget.prototype.getLayout = function() {
   this.searchText = document.getElementById('searchInput');
 
   // user panel
-  this.panelConfig('user',panelParams,[left3,top1,narrow,small],cookie);
+  this.panelConfig('decoration',panelParams,[left3,top1,narrow,small],cookie);
 
   // tree data container
   this.panelConfig('tree',panelParams,[left3,top2,narrow,tall],cookie);
@@ -266,7 +265,7 @@ PWidget.prototype.panelInit = function(panel,params) {
     var dd = new YAHOO.util.DDOnTop(panel);
     dd.setHandleElId(pnl.header);
     // can't drag over page header
-    dd.setYConstraint( params['xy'][1]-120 , 5000 , 10 );
+    dd.setYConstraint( params['xy'][1]-80 , 5000 , 10 );
   }, pnl, true);
 
   this.panelObjects[panel] = pnl;
@@ -604,12 +603,12 @@ PWidget.prototype.showHide = function(button) {
 PWidget.prototype.buttonStyle = function(button,state) {
   switch(state) {
     case ('open')   : {
-      widget.setStyle(button,'background',"url('/images/phylowidget/sprite.png') repeat-x 0 -1400px");
+      widget.setStyle(button,'background',"url('/hackathon/images/phylowidget/sprite.png') repeat-x 0 -1400px");
       widget.setStyle(button,'color','white');
       break;
     }
     case ('closed') : {
-      widget.setStyle(button,'background',"url('/images/phylowidget/sprite.png') repeat-x")
+      widget.setStyle(button,'background',"url('/hackathon/images/phylowidget/sprite.png') repeat-x")
       widget.setStyle(button,'color','black');
       break;
     }

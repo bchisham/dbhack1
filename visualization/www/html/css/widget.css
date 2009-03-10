@@ -2,13 +2,6 @@ body {
   background:#EEEEEE;
 }
 
-#pwLogo {
-  position:absolute;
-  top:15px;
-  right:5px;
-  z-index:10;
-}
-
 .footerText {
   margin-top:-5px;
   font-size:10px;
@@ -30,11 +23,18 @@ h1,h2,h3 {
   font-family:comic sans ms;
 }
 
-h1.header {
+#header {
   font-family:helvetica;
   color:steelblue;
-  margin-bottom:-5px;
   font-size:32pt;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:60px;
+  padding-top:10px;
+  text-align:center;
+  border:2px solid black;
 }
 
 .titlebar {
@@ -81,16 +81,6 @@ h1.header {
   clear:both;
 }
 
-#header {
-  position:relative;
-  height:113px;
-  margin-top:0;
-  left:0px;
-  right:0px;
-  top:0px;
-  background: url('/images/phylowidget/stolen_logo.png') top left no-repeat;
-  background-color:#424242;
-}
 
 #navcontainer ul{
   position:absolute;
@@ -178,7 +168,8 @@ h1.header {
 
 #search,
 #widget,
-#user,
+#node,
+#decoration,
 #tree,
 #clip,
 #node {
@@ -195,7 +186,7 @@ h1.header {
 .yui-skin-sam .yui-panel .hd {
   height:20px;
   padding-bottom: 2px;
-  background:url('/images/phylowidget/sprite.png') repeat-x 0 -105px;
+  background:url('/hackathon/images/phylowidget/sprite.png') repeat-x 0 -105px;
   border-left:none;
 }
 
@@ -220,7 +211,7 @@ h1.header {
   height: 8px;
   width: 8px;
   position:absolute;
-  background:url(/images/phylowidget/resize_drag_handle.png) bottom right no-repeat;
+  background:url(/hackathon/images/phylowidget/resize_drag_handle.png) bottom right no-repeat;
 }
 
 .yui-skin-sam .container-close {

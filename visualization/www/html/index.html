@@ -3,33 +3,32 @@
 <head>
   
   <!-- YAHOO! Move to local once we have decided what to keep -->
-  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/fonts/fonts-min.css" />
-  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/autocomplete/assets/skins/sam/autocomplete.css" />
-  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/resize/assets/skins/sam/resize.css" />
-  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" />
-  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/button/assets/skins/sam/button.css" />
+  <link rel="stylesheet" type="text/css" href="/hackathon/css/fonts-min.css" />
+  <link rel="stylesheet" type="text/css" href="/hackathon/css/autocomplete.css" />
+  <link rel="stylesheet" type="text/css" href="/hackathon/css/resize.css" />
+  <link rel="stylesheet" type="text/css" href="/hackathon/css/container.css" />
+  <link rel="stylesheet" type="text/css" href="/hackathon/css/button.css" />
 
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/element/element-beta-min.js"></script>
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/dragdrop/dragdrop-min.js"></script> 
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/resize/resize-min.js"></script>
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/connection/connection-min.js"></script>
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/animation/animation-min.js"></script>
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/datasource/datasource-min.js"></script>
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/autocomplete/autocomplete-min.js"></script>
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/container/container-min.js"></script>
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/button/button-min.js"></script>
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/cookie/cookie-min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/hackathon/css/widget.css">
+
+  <script type="text/javascript" src="/hackathon/js/yahoo-dom-event.js"></script>
+  <script type="text/javascript" src="/hackathon/js/element-beta-min.js"></script>
+  <script type="text/javascript" src="/hackathon/js/dragdrop-min.js"></script>
+  <script type="text/javascript" src="/hackathon/js/resize-min.js"></script>
+  <script type="text/javascript" src="/hackathon/js/connection-min.js"></script>
+  <script type="text/javascript" src="/hackathon/js/animation-min.js"></script>
+  <script type="text/javascript" src="/hackathon/js/datasource-min.js"></script>
+  <script type="text/javascript" src="/hackathon/js/autocomplete-min.js"></script>
+  <script type="text/javascript" src="/hackathon/js/container-min.js"></script>
+  <script type="text/javascript" src="/hackathon/js/button-min.js"></script>
+  <script type="text/javascript" src="/hackathon/js/cookie-min.js"></script> 
 
 
-  <!-- Our very own stuff... -->
-  <link rel="stylesheet" type="text/css" href="/css/widget.css">
-
-  <script type="text/javascript" src="http://iptol.iplantcollaborative.org/phylowidget/scripts/phylowidget.js"></script>
-  <script type="text/javascript" src="/js/balloon.config.js"></script>
-  <script type="text/javascript" src="/js/balloon.js"></script>
-  <script type="text/javascript" src="/js/box.js"></script>
-  <script type="text/javascript" src="/js/widget.js"></script>
+  <script type="text/javascript" src="/hackathon/phylowidget/scripts/phylowidget.js"></script>
+  <script type="text/javascript" src="/hackathon/js/balloon.config.js"></script>
+  <script type="text/javascript" src="/hackathon/js/balloon.js"></script>
+  <script type="text/javascript" src="/hackathon/js/box.js"></script>
+  <script type="text/javascript" src="/hackathon/js/widget.js"></script>
 
   <script type="text/javascript" >
     PhyloWidget.codebase = "/phylowidget/lib";
@@ -61,7 +60,7 @@
         argument:['foo','bar']
       };
 
-      sUrl = "/cgi-bin/tree_search.pl";
+      sUrl = "/cgi-bin/hackathon/tree_search.pl";
     }
 
   </script>
@@ -77,40 +76,9 @@
   BalloonConfig(box,'GBox');
 </script>
 
-<img id="pwLogo" src="images/phylowidget/pw_small_transparent.png" />
 <div id="header">
-<!--  <img src="images/phylowidget/stolen_logo.png" width="100%" />-->
-  <div id="navcontainer">
-    <ul id="navlist">
-      <li onclick="window.location='http://iplantcollaborative.org'">iPlant Home</li>
-      <li onclick="window.location='http://phylowidget.org'">PhyloWidget Home</li>
-<!--
-      <li>Contacts</li>
-      <li onmouseover="fadeBalloon.showTooltip(event,'load:genericListItem',0,275)">Item1</li>
-      <li onmouseover="fadeBalloon.showTooltip(event,'load:genericListItem',0,275)">Item2</li>
-      <li onmouseover="fadeBalloon.showTooltip(event,'load:genericListItem',0,275)">Item3</li>
-      <li onmouseover="fadeBalloon.showTooltip(event,'load:genericListItem',0,275)">Option</li>
--->
-      <li onclick="widget.saveTreeForm(event)">Save Tree</li>
-      <li onclick="widget.showMenu(this,'desktopMenu')">Desktop</li>
-   </ul>
-  </div>
+<center>LOGO/BRANDING</center>
 </div>
-
-
-<div id="desktopMenu" class="menu" onclick="widget.hideMenu('desktopMenu')">
- <div onclick="widget.saveDesktop()">&nbsp;Save</div>
- <div onclick="widget.resetDesktop()">&nbsp;Reset</div>
- <div onclick="widget.hideMenu()">&nbsp;Cancel</div>
-</div>
-
-
-<span id="genericListItem" class="hidden">
-<table><tr>
-<td><img src="/images/phylowidget/uc.gif" style="margin-right:20px" width=60/></td>
-<th>Sorry, I am not yet implemented.</th></tr></table>
-</span>
-
 
 <div id="panels">
 
@@ -152,9 +120,9 @@
  <div class="ft"></div>
 </div>
 
-<div id="user">
-  <div id="userTitle" class="hd">User and Group</div>
-  <div id="userContainer" class="bd"></div>
+<div id="decoration">
+  <div id="decorationTitle" class="hd">Node Decorations</div>
+  <div id="decorationContainer" class="bd"></div>
   <div class="ft"></div>
 </div>
 
@@ -179,12 +147,11 @@
   </div>
  </div>
  <div class="ft">
-   <div class="footerText">Click here to update</div>
+   <div class="footerText">Click here to update &nbsp;&nbsp;<span onclick="widget.saveTreeForm(event)">Click here to save the tree</span></div>
  </div>
 </div>
 
 </div> <!-- end 'panels' div -->
-
 
 <!-- The conatiner for show/hide buttons -->
 <div id="showhide">
@@ -197,7 +164,7 @@
 
   YAHOO.example.BasicRemote = function() {
     // Use an XHRDataSource
-    var oDS = new YAHOO.util.XHRDataSource("/cgi-bin/species_search.pl");
+    var oDS = new YAHOO.util.XHRDataSource("/cgi-bin/hackathon/species_search.pl");
     // Set the responseType
     oDS.responseType = YAHOO.util.XHRDataSource.TYPE_TEXT;
     // Define the schema of the delimited results
