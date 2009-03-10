@@ -151,6 +151,13 @@
             </xsl:if>
         </rdf:Description>
     </xsl:template>
+    <xsl:template match="char">
+	    <cdao:Character rdf:ID="{../@id}_{@id}"/>
+    </xsl:template>
+
+    <xsl:template match="matrix">
+	
+    </xsl:template>
 
     <xsl:template match="*" priority="-1"/>
 
