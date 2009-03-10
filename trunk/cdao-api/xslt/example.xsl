@@ -10,7 +10,7 @@
 		xsi:schemaLocation="http://www.nexml.org/1.0 http://www.nexml.org/nexml/xsd/nexml.xsd"
 		xmlns="">
    <!-- Define the output format. -->
-   <xsl:output method="xml" encoding="string" omit-xml-declaration="no" indent="yes" />
+   <xsl:output method="xml" encoding="string" omit-xml-declaration="no" indent="no" />
 
 <!-- 
    Skeleton Example of an XSLT transformation.
@@ -34,11 +34,14 @@
 	<xsl:param name="tree"/>
 	<cdao:Node rdf:ID="{@id}" />
 </xsl:template>
-<xsl:template name="edge">
+<xsl:template match="edge">
         <xsl:param name="parent"/>
-	<cdao:Edge rdf:ID="{@id}">
-		<cdao:EdgeLength><xsl:value-of select="@length"/></cdao:EdgeLength>
-		<cdao:has_Parent><xsl:value-of select="parent"/></cdao:has_Parent>
+	<cdao:Edge rdf:ID="{@id}"><xsl:text>&#10;</xsl:text>
+		<cdao:EdgeLength><xsl:text>&#10;</xsl:text>
+			<cdao:has_Value><xsl:value-of select="@length"/></cdao:has_Value><xsl:text>&#10;</xsl:text>
+	        </cdao:EdgeLength><xsl:text>&#10;</xsl:text>
+		<cdao:has_Node rdf:about="{@source}"/><xsl:text>&#10;</xsl:text>
+		<cdao:has_Node rdf:about="{@target}"/><xsl:text>&#10;</xsl:text>
 	</cdao:Edge>
 </xsl:template>
 <xsl:template name="rootedge">
@@ -53,9 +56,9 @@
 	     <cdao:Tree rdf:ID="{@id}">
 		     <!-- <xsl:call-template name="rootedge"/> -->	       
                  <xsl:for-each select="edge">
-			 <xsl:call-template name="edge"/>
-			 <!--<xsl:with-param name="parent" select="../@id"/>
-		 </xsl:call-template>-->
+			 <xsl:call-template name="edge">
+			 <xsl:with-param name="parent" select="../@id"/>
+		 </xsl:call-template>
                  </xsl:for-each>
 	         <xsl:for-each select="node">
 		     <xsl:call-template name="node" />
