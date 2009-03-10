@@ -131,14 +131,13 @@
                         <rdf:type
                             rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
                         <xsl:choose>
-                            <!-- this is not pretty because we don't know the ns prefix used in the xsi attribute -->
-                            <xsl:when test="contains(../@xsi:type, 'FloatTree')">
+                            <xsl:when test="concat(namespace::*[.='http://www.nexml.org/1.0' and name(.)], ':FloatTree')">
                                 <cdao:has_Float_Value
                                     rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float">
                                     <xsl:value-of select="@length"/>
                                 </cdao:has_Float_Value>
                             </xsl:when>
-                            <xsl:when test="contains(../@xsi:type, 'IntTree')">
+                            <xsl:when test="concat(namespace::*[.='http://www.nexml.org/1.0' and name(.)], ':IntTree')">
                                 <cdao:has_Int_Value
                                     rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#integer">
                                     <xsl:value-of select="@length"/>
