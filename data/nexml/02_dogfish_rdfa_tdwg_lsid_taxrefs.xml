@@ -4,8 +4,8 @@
     <otu id="otu3" label="S. glaucus" about="foo" typeof="tc:TaxonConcept" xmlns:tc="http://rs.tdwg.org/ontology/voc/TaxonConcept#" xmlns:tn="http://rs.tdwg.org/ontology/voc/TaxonName#">
       <annotation rel="tc:hasName">
         <annotation typeof="tn:TaxonName" about="urn:lsid:zoobank.org:act:A6AD1B85-C65C-4079-B425-56828418620C">
-           <annotation property="tn:genusPart">Rhododendron</annotation>
-           <annotation property="tn:specificEpithet">ponticum</annotation>
+           <annotation property="tn:genusPart">Squalus</annotation>
+           <annotation property="tn:specificEpithet">glaucus</annotation>
            <annotation property="tn:authorship">L.</annotation>
         </annotation>
      </annotation>
