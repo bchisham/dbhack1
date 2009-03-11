@@ -1,84 +1,17 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-  
-  <!-- YAHOO! Move to local once we have decided what to keep -->
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/fonts-min.css" />
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/autocomplete.css" />
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/resize.css" />
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/container.css" />
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/button.css" />
-
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/widget.css">
-
-  <script type="text/javascript" src="/hackathon/js/yahoo-dom-event.js"></script>
-  <script type="text/javascript" src="/hackathon/js/element-beta-min.js"></script>
-  <script type="text/javascript" src="/hackathon/js/dragdrop-min.js"></script>
-  <script type="text/javascript" src="/hackathon/js/resize-min.js"></script>
-  <script type="text/javascript" src="/hackathon/js/connection-min.js"></script>
-  <script type="text/javascript" src="/hackathon/js/animation-min.js"></script>
-  <script type="text/javascript" src="/hackathon/js/datasource-min.js"></script>
-  <script type="text/javascript" src="/hackathon/js/autocomplete-min.js"></script>
-  <script type="text/javascript" src="/hackathon/js/container-min.js"></script>
-  <script type="text/javascript" src="/hackathon/js/button-min.js"></script>
-  <script type="text/javascript" src="/hackathon/js/cookie-min.js"></script> 
-
-
-  <script type="text/javascript" src="/hackathon/phylowidget/scripts/phylowidget.js"></script>
-  <script type="text/javascript" src="/hackathon/js/balloon.config.js"></script>
-  <script type="text/javascript" src="/hackathon/js/balloon.js"></script>
-  <script type="text/javascript" src="/hackathon/js/box.js"></script>
-  <script type="text/javascript" src="/hackathon/js/widget.js"></script>
-
-  <script type="text/javascript" >
-    PhyloWidget.codebase = "/phylowidget/lib";
-    var widget  = new PWidget;
-    
-    // This updates the tree data without re-loading phylowidget
-    function loadTree(tree) {
-      if (tree) {
-        widget.treeText.value = tree;
-        PhyloWidget.updateTree(tree);
-      }
-    }      
-
-    // AJAX stuff for the tree database search
-    var sUrl, callback;
-    window.onload = function() {
-      var div = document.getElementById('searchResultsContainer');
-      var handleSuccess = function(o){
-        div.innerHTML = o.responseText;
-      };
-
-      var handleFailure = function(o){
-        div.innerHTML = 'AJAX FAILURE!';
-      };
-
-      callback = {
-        success:handleSuccess,
-        failure:handleFailure,
-        argument:['foo','bar']
-      };
-
-      sUrl = "/cgi-bin/hackathon/tree_search.pl";
-    }
-
-  </script>
+  <title>I am PhyloWidget</title>
+  <!--This script loads all the CSS and JavaScript dependencies -->
+  <script type="text/javascript" src="/hackathon/js/pw_loader.js"></script>
 </head>
 
-
 <body class="yui-skin-sam">
-
-<script type="text/javascript">
-  var balloon = new Balloon;
-  BalloonConfig(balloon,'GBubble');
-  var box     = new Box;
-  BalloonConfig(box,'GBox');
-</script>
-
 <div id="header">
 <center>LOGO/BRANDING</center>
 </div>
+
+
 
 <div id="panels">
 
@@ -103,33 +36,24 @@
   <div id="treeContainer" class="bd">
     <textarea onblur="PhyloWidget.updateTree(this.value)"
               style="font-size:10px;width:100%;height:100%" 
-              id="treeText">
-    </textarea>
-  </div>
- <div class="ft"></div>
-</div>
-
-<div id="clip">
-  <div id="clipTitle" class="hd">Clipboard</div>
-  <div id="clipContainer" class="bd">
-    <textarea onblur="PhyloWidget.updateClip(this.value)"
-              style="font-size:10px;width:100%;height:100%"
-              id="clipText">
+              id="pw_treetext">
     </textarea>
   </div>
  <div class="ft"></div>
 </div>
 
 <div id="decoration">
-  <div id="decorationTitle" class="hd">Node Decorations</div>
-  <div id="decorationContainer" class="bd"></div>
+  <div id="decorationTitle" class="hd">Node Decorations BLAH</div>
+  <div id="decorationContainer" class="bd">
+    <div id="pw_nodedecorations"></div>
+  </div> 
   <div class="ft"></div>
 </div>
 
 <div id="node">
   <div id="nodeTitle" class="hd">Node Information</div>
   <div id="nodeContainer" class="bd">
-    <div id="nodeText"></div>
+    <div id="pw_nodeinfo"></div>
   </div>
  <div class="ft"></div>
 </div>
@@ -146,8 +70,15 @@
      </p>
   </div>
  </div>
- <div class="ft">
-   <div class="footerText">Click here to update &nbsp;&nbsp;<span onclick="widget.saveTreeForm(event)">Click here to save the tree</span></div>
+ <div class="ft" style="height:5px">
+   <div class="footerText">
+    <span class="clickableText">
+      Update Display
+    </span>
+    <span class="clickableText" onclick="widget.saveTreeForm(event)">
+      Save Tree
+    </span>
+ </div>
  </div>
 </div>
 

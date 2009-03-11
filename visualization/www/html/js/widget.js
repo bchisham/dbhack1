@@ -15,7 +15,6 @@ PWidget.prototype.saveTreeForm = function(evt) {
 }
 
 PWidget.prototype.loadWidget  = function(force) {
-  balloon.hideTooltip(1);
   this.keepWidgetInBox();
 
   var c = YAHOO.util.Cookie;
@@ -40,15 +39,9 @@ PWidget.prototype.loadWidget  = function(force) {
   if (!tree) {
     this.params['tree'] = c.get('tree') || '(a,((b,c),(d,e)))';
   }
+  
+  pw.loadWidget('widgetContainer',this.params);
 
-  PhyloWidget.loadWidget('widgetContainer',this.params);
-
-  // Make sure the clip board is up-to-date
-  // but wait a bit for phylowidget
-  var clipText = this.clipText.value;
-  if (clipText) {
-    setTimeout(function(){PhyloWidget.updateJavaClip(clipText)},10000);
-  }
 }
 
 // We must always cram the applet into its box,
@@ -89,8 +82,8 @@ PWidget.prototype.getLayout = function() {
   var top1   = 80;
   var top2   = top1 + 90;
   var top3   = top2 + 100;
-  var top4   = top3 + 100;   
-  var venti  = 420;
+  var top4   = top3 + 125;   
+  var venti  = 300;
   var grande = 130; 
   var tall   = 85;
   var small  = 75;  
@@ -113,28 +106,28 @@ PWidget.prototype.getLayout = function() {
   this.panelConfig('search',panelParams,[left1,top1,wide,venti],cookie); 
   this.searchText = document.getElementById('searchInput');
 
-  // user panel
-  this.panelConfig('decoration',panelParams,[left3,top1,narrow,small],cookie);
+  // tree decoration
+  this.panelConfig('decoration',panelParams,[left3,top1,narrow,210],cookie);
 
   // tree data container
-  this.panelConfig('tree',panelParams,[left3,top2,narrow,tall],cookie);
-  this.treeText = document.getElementById('treeText');
+  this.panelConfig('tree',panelParams,[left1,top4,wide,grande],cookie);
+  this.treeText = document.getElementById('pw_treetext');
 
   // clipboard
-  this.panelConfig('clip',panelParams,[left3,top3,narrow,tall],cookie);
-  this.clipText = document.getElementById('clipText');
+  //this.panelConfig('clip',panelParams,[left3,top3,narrow,tall],cookie);
+  //this.clipText = document.getElementById('clipText');
 
   // node info
-  this.panelConfig('node',panelParams,[left3,top4,narrow,grande],cookie);
+  this.panelConfig('node',panelParams,[left3,top3+40,narrow,210],cookie);
 
   // the container for phylowidget
-  this.panelConfig('widget',panelParams,[left2,top1,wider,venti],cookie);
+  this.panelConfig('widget',panelParams,[left2,top1,wider,440],cookie);
   this.widgetTitle = document.getElementById('widgetTitle');
   this.widgetLabel = this.widgetTitle.innerHTML;
   this.widgetContainer = document.getElementById('widgetContainer');
 
   this.treeText.value   = cookie.get('tree')   || '(a,((b,c),(d,e)));';
-  this.clipText.value   = cookie.get('clip')   || '';
+  //this.clipText.value   = cookie.get('clip')   || '';
   this.searchText.value = cookie.get('search') || 'Species name';
 
   // check for cached show/hide info
@@ -444,51 +437,23 @@ PhyloWidget.updateTree = function(newText) {
   }
 
   setTimeout( function() { 
-    document.getElementById('treeText').value = newText;
+    document.getElementById('pw_treetext').value = newText;
     PhyloWidget.updateJavaTree(newText);
   },100);
 }
 
-PhyloWidget.updateClip = function(newText) {
-  var treeID = widget.getTreeID();
-  newText = new String(newText);
- 
- // add a treeID tag unless this is a leaf node
-  if (treeID && newText.match(/\)/) && !newText.match(/origin_/)) {
-    var pf = 'origin_'+treeID+';';
-    newText = new String(newText);
-    newText = newText.replace(/\;/,pf);
-  }
-
-  setTimeout( function() {
-    document.getElementById('clipText').value = newText;
-    PhyloWidget.updateJavaClip(	newText);
-  },100);
-}
-
-PhyloWidget.updateNode = function(newText) {
-  setTimeout(function() {
-    document.getElementById('nodeText').innerHTML = newText;
-  },200);
-},
-
 // Push back to the applet
 PhyloWidget.updateJavaTree = function(value) {
   if (!value) {
-    value = document.getElementById('clipText').value;
+    value = document.getElementById('pw_treetext').value;
   }
   if (!value) {return false}
-  AppletLoader.callAppletMethod("updateTree",value);
-}
-
-PhyloWidget.updateJavaClip = function(value) {
-  if (!value) {
-    value = document.getElementById('clipText').value;
+  var applet = PhyloWidget.getApplet();
+  if (!applet) {
+    return false;
   }
-  if (!value) {return false}
-  AppletLoader.callAppletMethod("updateClip",value);
+  applet.updateTree(value);
 }
-
 
 /*
 * Cross-browser opacity setter
