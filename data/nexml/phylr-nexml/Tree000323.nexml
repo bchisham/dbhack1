@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S2x4x96c16c23c42"><citation>Anderberg, A. A. 1989. Phylogeny and reclassification of the tribe Inuleae (Asteraceae). Can. J. Bot. 67:2277-2296.</citation><author email="arne.anderberg@nrm.se" firstname="Arne A. " lastname="Anderberg" /></study></nex:external>
+    <otus id="_TaxaBlock52665">
+        <otu id="Vernonia" label="Vernonia" />
+        <otu id="Stenachaenium" label="Stenachaenium" />
+        <otu id="Neojeffreya" label="Neojeffreya" />
+        <otu id="Pluchea" label="Pluchea" />
+        <otu id="Tessaria" label="Tessaria" />
+        <otu id="Sphaeranthus" label="Sphaeranthus" />
+        <otu id="Pterocaulon" label="Pterocaulon" />
+        <otu id="Monenteles" label="Monenteles" />
+        <otu id="Laggera" label="Laggera" />
+        <otu id="Nicolasia" label="Nicolasia" />
+        <otu id="Phagnalon" label="Phagnalon" />
+        <otu id="Anisothrix" label="Anisothrix" />
+        <otu id="Aliella" label="Aliella" />
+        <otu id="Athrixia" label="Athrixia" />
+        <otu id="Filago" label="Filago" />
+        <otu id="Lucilia" label="Lucilia" />
+        <otu id="Oligandra" label="Oligandra" />
+        <otu id="Metalasia" label="Metalasia" />
+        <otu id="Phaenocoma" label="Phaenocoma" />
+        <otu id="Relhania" label="Relhania" />
+        <otu id="Loricaria" label="Loricaria" />
+        <otu id="Anaxeton" label="Anaxeton" />
+        <otu id="Cassinia" label="Cassinia" />
+        <otu id="Helichrysum" label="Helichrysum" />
+        <otu id="Leucostemma" label="Leucostemma" />
+        <otu id="Helipterum" label="Helipterum" />
+        <otu id="Waitzia" label="Waitzia" />
+        <otu id="Angianthus" label="Angianthus" />
+        <otu id="Blumea" label="Blumea" />
+        <otu id="Inula" label="Inula" />
+        <otu id="Nanothamnus" label="Nanothamnus" />
+        <otu id="Pulicaria" label="Pulicaria" />
+        <otu id="Nauplius" label="Nauplius" />
+        <otu id="Anisopappus" label="Anisopappus" />
+        <otu id="Jasonia" label="Jasonia" />
+        <otu id="Pegolettia" label="Pegolettia" />
+        <otu id="Inulacappa" label="Inula cappa" />
+        <otu id="Asteroideae" label="Asteroideae" />
+    </otus>
+    <trees id="_TreesBlock52666" otus="_TaxaBlock52665">
+        <tree id="_Tree52667" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A145c2x4x96c16c25c22" software="PAUP"><inputmatrix datatype="Morphological" name="Table 2" nchar="55" /></analysis></nex:external>
+            <node id="_Node52670" />
+            <node id="_Node52672" otu="Vernonia" />
+            <node id="_Node52675" />
+            <node id="_Node52677" />
+            <node id="_Node52679" />
+            <node id="_Node52681" otu="Stenachaenium" />
+            <node id="_Node52684" otu="Neojeffreya" />
+            <node id="_Node52687" />
+            <node id="_Node52689" />
+            <node id="_Node52691" />
+            <node id="_Node52693" />
+            <node id="_Node52695" otu="Pluchea" />
+            <node id="_Node52698" otu="Tessaria" />
+            <node id="_Node52701" otu="Sphaeranthus" />
+            <node id="_Node52704" />
+            <node id="_Node52706" otu="Pterocaulon" />
+            <node id="_Node52709" otu="Monenteles" />
+            <node id="_Node52712" />
+            <node id="_Node52714" otu="Laggera" />
+            <node id="_Node52717" otu="Nicolasia" />
+            <node id="_Node52720" />
+            <node id="_Node52722" />
+            <node id="_Node52724" />
+            <node id="_Node52726" otu="Phagnalon" />
+            <node id="_Node52729" otu="Anisothrix" />
+            <node id="_Node52732" />
+            <node id="_Node52734" otu="Aliella" />
+            <node id="_Node52737" />
+            <node id="_Node52739" otu="Athrixia" />
+            <node id="_Node52742" />
+            <node id="_Node52744" otu="Filago" />
+            <node id="_Node52747" />
+            <node id="_Node52749" />
+            <node id="_Node52751" otu="Lucilia" />
+            <node id="_Node52754" otu="Oligandra" />
+            <node id="_Node52757" />
+            <node id="_Node52759" />
+            <node id="_Node52761" />
+            <node id="_Node52763" />
+            <node id="_Node52765" />
+            <node id="_Node52767" />
+            <node id="_Node52769" otu="Metalasia" />
+            <node id="_Node52772" otu="Phaenocoma" />
+            <node id="_Node52775" otu="Relhania" />
+            <node id="_Node52778" otu="Loricaria" />
+            <node id="_Node52781" otu="Anaxeton" />
+            <node id="_Node52784" otu="Cassinia" />
+            <node id="_Node52787" />
+            <node id="_Node52789" otu="Helichrysum" />
+            <node id="_Node52792" />
+            <node id="_Node52794" />
+            <node id="_Node52796" otu="Leucostemma" />
+            <node id="_Node52799" otu="Helipterum" />
+            <node id="_Node52802" />
+            <node id="_Node52804" otu="Waitzia" />
+            <node id="_Node52807" otu="Angianthus" />
+            <node id="_Node52810" />
+            <node id="_Node52812" />
+            <node id="_Node52814" />
+            <node id="_Node52816" otu="Blumea" />
+            <node id="_Node52819" otu="Inula" />
+            <node id="_Node52822" />
+            <node id="_Node52824" />
+            <node id="_Node52826" />
+            <node id="_Node52828" otu="Nanothamnus" />
+            <node id="_Node52831" otu="Pulicaria" />
+            <node id="_Node52834" />
+            <node id="_Node52836" otu="Nauplius" />
+            <node id="_Node52839" otu="Anisopappus" />
+            <node id="_Node52842" otu="Jasonia" />
+            <node id="_Node52845" otu="Pegolettia" />
+            <node id="_Node52848" otu="Inulacappa" />
+            <node id="_Node52851" otu="Asteroideae" />
+            <rootedge id="_Edge52671" target="_Node52670" />
+            <edge id="_Edge52673" source="_Node52670" target="_Node52672" />
+            <edge id="_Edge52676" source="_Node52670" target="_Node52675" />
+            <edge id="_Edge52678" source="_Node52675" target="_Node52677" />
+            <edge id="_Edge52680" source="_Node52677" target="_Node52679" />
+            <edge id="_Edge52682" source="_Node52679" target="_Node52681" />
+            <edge id="_Edge52685" source="_Node52679" target="_Node52684" />
+            <edge id="_Edge52688" source="_Node52677" target="_Node52687" />
+            <edge id="_Edge52690" source="_Node52687" target="_Node52689" />
+            <edge id="_Edge52692" source="_Node52689" target="_Node52691" />
+            <edge id="_Edge52694" source="_Node52691" target="_Node52693" />
+            <edge id="_Edge52696" source="_Node52693" target="_Node52695" />
+            <edge id="_Edge52699" source="_Node52693" target="_Node52698" />
+            <edge id="_Edge52702" source="_Node52691" target="_Node52701" />
+            <edge id="_Edge52705" source="_Node52689" target="_Node52704" />
+            <edge id="_Edge52707" source="_Node52704" target="_Node52706" />
+            <edge id="_Edge52710" source="_Node52704" target="_Node52709" />
+            <edge id="_Edge52713" source="_Node52687" target="_Node52712" />
+            <edge id="_Edge52715" source="_Node52712" target="_Node52714" />
+            <edge id="_Edge52718" source="_Node52712" target="_Node52717" />
+            <edge id="_Edge52721" source="_Node52675" target="_Node52720" />
+            <edge id="_Edge52723" source="_Node52720" target="_Node52722" />
+            <edge id="_Edge52725" source="_Node52722" target="_Node52724" />
+            <edge id="_Edge52727" source="_Node52724" target="_Node52726" />
+            <edge id="_Edge52730" source="_Node52724" target="_Node52729" />
+            <edge id="_Edge52733" source="_Node52722" target="_Node52732" />
+            <edge id="_Edge52735" source="_Node52732" target="_Node52734" />
+            <edge id="_Edge52738" source="_Node52732" target="_Node52737" />
+            <edge id="_Edge52740" source="_Node52737" target="_Node52739" />
+            <edge id="_Edge52743" source="_Node52737" target="_Node52742" />
+            <edge id="_Edge52745" source="_Node52742" target="_Node52744" />
+            <edge id="_Edge52748" source="_Node52742" target="_Node52747" />
+            <edge id="_Edge52750" source="_Node52747" target="_Node52749" />
+            <edge id="_Edge52752" source="_Node52749" target="_Node52751" />
+            <edge id="_Edge52755" source="_Node52749" target="_Node52754" />
+            <edge id="_Edge52758" source="_Node52747" target="_Node52757" />
+            <edge id="_Edge52760" source="_Node52757" target="_Node52759" />
+            <edge id="_Edge52762" source="_Node52759" target="_Node52761" />
+            <edge id="_Edge52764" source="_Node52761" target="_Node52763" />
+            <edge id="_Edge52766" source="_Node52763" target="_Node52765" />
+            <edge id="_Edge52768" source="_Node52765" target="_Node52767" />
+            <edge id="_Edge52770" source="_Node52767" target="_Node52769" />
+            <edge id="_Edge52773" source="_Node52767" target="_Node52772" />
+            <edge id="_Edge52776" source="_Node52765" target="_Node52775" />
+            <edge id="_Edge52779" source="_Node52763" target="_Node52778" />
+            <edge id="_Edge52782" source="_Node52761" target="_Node52781" />
+            <edge id="_Edge52785" source="_Node52759" target="_Node52784" />
+            <edge id="_Edge52788" source="_Node52757" target="_Node52787" />
+            <edge id="_Edge52790" source="_Node52787" target="_Node52789" />
+            <edge id="_Edge52793" source="_Node52787" target="_Node52792" />
+            <edge id="_Edge52795" source="_Node52792" target="_Node52794" />
+            <edge id="_Edge52797" source="_Node52794" target="_Node52796" />
+            <edge id="_Edge52800" source="_Node52794" target="_Node52799" />
+            <edge id="_Edge52803" source="_Node52792" target="_Node52802" />
+            <edge id="_Edge52805" source="_Node52802" target="_Node52804" />
+            <edge id="_Edge52808" source="_Node52802" target="_Node52807" />
+            <edge id="_Edge52811" source="_Node52720" target="_Node52810" />
+            <edge id="_Edge52813" source="_Node52810" target="_Node52812" />
+            <edge id="_Edge52815" source="_Node52812" target="_Node52814" />
+            <edge id="_Edge52817" source="_Node52814" target="_Node52816" />
+            <edge id="_Edge52820" source="_Node52814" target="_Node52819" />
+            <edge id="_Edge52823" source="_Node52812" target="_Node52822" />
+            <edge id="_Edge52825" source="_Node52822" target="_Node52824" />
+            <edge id="_Edge52827" source="_Node52824" target="_Node52826" />
+            <edge id="_Edge52829" source="_Node52826" target="_Node52828" />
+            <edge id="_Edge52832" source="_Node52826" target="_Node52831" />
+            <edge id="_Edge52835" source="_Node52824" target="_Node52834" />
+            <edge id="_Edge52837" source="_Node52834" target="_Node52836" />
+            <edge id="_Edge52840" source="_Node52834" target="_Node52839" />
+            <edge id="_Edge52843" source="_Node52824" target="_Node52842" />
+            <edge id="_Edge52846" source="_Node52822" target="_Node52845" />
+            <edge id="_Edge52849" source="_Node52812" target="_Node52848" />
+            <edge id="_Edge52852" source="_Node52810" target="_Node52851" />
+        </tree>
+    </trees>
+</nex:nexml>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S345"><citation>Davis, J. I., M. P. Simmons, D. W. Stevenson, and J. F. Wendel. 1998. Data decisiveness, data quality, and incongrunce in phylogenetic analysis: and example from the monocotyledons using mitochondrial atpA sequences. Syst. Biol. 47(2):282-310.</citation><author email="jid1@cornell.edu" firstname="Jerrold I." lastname="Davis" /><author email="psimmons@lamar.colostate.edu" firstname="Mark P." lastname="Simmons" /><author email="dws@nybg.org" firstname="Dennis W." lastname="Stevenson" /><author email="jfw@iastate.edu" firstname="Jonathan F." lastname="Wendel" /></study></nex:external>
+    <otus id="_TaxaBlock149901">
+        <otu id="Piper" label="Piper" />
+        <otu id="Saruma" label="Saruma" />
+        <otu id="Acorus" label="Acorus" />
+        <otu id="Gymnostachys" label="Gymnostachys" />
+        <otu id="Symplocarpus" label="Symplocarpus" />
+        <otu id="Tacca" label="Tacca" />
+        <otu id="Vellozia" label="Vellozia" />
+        <otu id="Alstroemeria" label="Alstroemeria" />
+        <otu id="Smilax" label="Smilax" />
+        <otu id="Trillium" label="Trillium" />
+        <otu id="Veratrum" label="Veratrum" />
+        <otu id="Curculigo" label="Curculigo" />
+        <otu id="Xanthorrhoea" label="Xanthorrhoea" />
+        <otu id="Anigozanthos" label="Anigozanthos" />
+        <otu id="Canna" label="Canna" />
+        <otu id="Nypa" label="Nypa" />
+        <otu id="Catopsis" label="Catopsis" />
+        <otu id="Flagellaria" label="Flagellaria" />
+        <otu id="Eriocaulon" label="Eriocaulon" />
+        <otu id="Oryza" label="Oryza" />
+    </otus>
+    <trees id="_TreesBlock149902" otus="_TaxaBlock149901">
+        <tree id="_Tree149903" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S345A228" software="NONA"><inputmatrix datatype="Nucleic Acid" name="atpA" nchar="110" /><inputmatrix datatype="Nucleic Acid" name="rbcL" nchar="242" /><inputmatrix datatype="Restriction Site" name="RS" nchar="42" /></analysis></nex:external>
+            <node id="_Node149906" />
+            <node id="_Node149908" otu="Piper" />
+            <node id="_Node149911" otu="Saruma" />
+            <node id="_Node149914" />
+            <node id="_Node149916" otu="Acorus" />
+            <node id="_Node149919" />
+            <node id="_Node149921" />
+            <node id="_Node149923" otu="Gymnostachys" />
+            <node id="_Node149926" otu="Symplocarpus" />
+            <node id="_Node149929" />
+            <node id="_Node149931" otu="Tacca" />
+            <node id="_Node149934" />
+            <node id="_Node149936" />
+            <node id="_Node149938" otu="Vellozia" />
+            <node id="_Node149941" />
+            <node id="_Node149943" />
+            <node id="_Node149945" otu="Alstroemeria" />
+            <node id="_Node149948" otu="Smilax" />
+            <node id="_Node149951" />
+            <node id="_Node149953" otu="Trillium" />
+            <node id="_Node149956" otu="Veratrum" />
+            <node id="_Node149959" />
+            <node id="_Node149961" />
+            <node id="_Node149963" otu="Curculigo" />
+            <node id="_Node149966" otu="Xanthorrhoea" />
+            <node id="_Node149969" />
+            <node id="_Node149971" />
+            <node id="_Node149973" otu="Anigozanthos" />
+            <node id="_Node149976" otu="Canna" />
+            <node id="_Node149979" />
+            <node id="_Node149981" otu="Nypa" />
+            <node id="_Node149984" />
+            <node id="_Node149986" otu="Catopsis" />
+            <node id="_Node149989" />
+            <node id="_Node149991" otu="Flagellaria" />
+            <node id="_Node149994" />
+            <node id="_Node149996" otu="Eriocaulon" />
+            <node id="_Node149999" otu="Oryza" />
+            <rootedge id="_Edge149907" target="_Node149906" />
+            <edge id="_Edge149909" source="_Node149906" target="_Node149908" />
+            <edge id="_Edge149912" source="_Node149906" target="_Node149911" />
+            <edge id="_Edge149915" source="_Node149906" target="_Node149914" />
+            <edge id="_Edge149917" source="_Node149914" target="_Node149916" />
+            <edge id="_Edge149920" source="_Node149914" target="_Node149919" />
+            <edge id="_Edge149922" source="_Node149919" target="_Node149921" />
+            <edge id="_Edge149924" source="_Node149921" target="_Node149923" />
+            <edge id="_Edge149927" source="_Node149921" target="_Node149926" />
+            <edge id="_Edge149930" source="_Node149919" target="_Node149929" />
+            <edge id="_Edge149932" source="_Node149929" target="_Node149931" />
+            <edge id="_Edge149935" source="_Node149929" target="_Node149934" />
+            <edge id="_Edge149937" source="_Node149934" target="_Node149936" />
+            <edge id="_Edge149939" source="_Node149936" target="_Node149938" />
+            <edge id="_Edge149942" source="_Node149936" target="_Node149941" />
+            <edge id="_Edge149944" source="_Node149941" target="_Node149943" />
+            <edge id="_Edge149946" source="_Node149943" target="_Node149945" />
+            <edge id="_Edge149949" source="_Node149943" target="_Node149948" />
+            <edge id="_Edge149952" source="_Node149941" target="_Node149951" />
+            <edge id="_Edge149954" source="_Node149951" target="_Node149953" />
+            <edge id="_Edge149957" source="_Node149951" target="_Node149956" />
+            <edge id="_Edge149960" source="_Node149934" target="_Node149959" />
+            <edge id="_Edge149962" source="_Node149959" target="_Node149961" />
+            <edge id="_Edge149964" source="_Node149961" target="_Node149963" />
+            <edge id="_Edge149967" source="_Node149961" target="_Node149966" />
+            <edge id="_Edge149970" source="_Node149959" target="_Node149969" />
+            <edge id="_Edge149972" source="_Node149969" target="_Node149971" />
+            <edge id="_Edge149974" source="_Node149971" target="_Node149973" />
+            <edge id="_Edge149977" source="_Node149971" target="_Node149976" />
+            <edge id="_Edge149980" source="_Node149969" target="_Node149979" />
+            <edge id="_Edge149982" source="_Node149979" target="_Node149981" />
+            <edge id="_Edge149985" source="_Node149979" target="_Node149984" />
+            <edge id="_Edge149987" source="_Node149984" target="_Node149986" />
+            <edge id="_Edge149990" source="_Node149984" target="_Node149989" />
+            <edge id="_Edge149992" source="_Node149989" target="_Node149991" />
+            <edge id="_Edge149995" source="_Node149989" target="_Node149994" />
+            <edge id="_Edge149997" source="_Node149994" target="_Node149996" />
+            <edge id="_Edge150000" source="_Node149994" target="_Node149999" />
+        </tree>
+    </trees>
+</nex:nexml>

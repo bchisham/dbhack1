@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S279"><citation>Curry, K. J., L. M. McDowell, W. S. Judd and W. L. Stern. 1991. Osmophores, floral features, and systematics of Stanhopea (Orchidaceae). American Journal of Botany 78: 610-623.</citation><author firstname="Kenneth J." lastname="Curry" /><author email="wjudd@botany.ufl.edu" firstname="Walter S." lastname="Judd" /><author firstname="Lorraine M." lastname="McDowell" /><author firstname="William Louis" lastname="Stern" /></study></nex:external>
+    <otus id="_TaxaBlock119801">
+        <otu id="Sievekingiasuavis" label="Sievekingia suavis" />
+        <otu id="Sievekingiamarsupialis" label="Sievekingia marsupialis" />
+        <otu id="Stanhopeaecornuta" label="Stanhopea ecornuta" />
+        <otu id="Stanhopeapulla" label="Stanhopea pulla" />
+        <otu id="Stanhopeaannulata" label="Stanhopea annulata" />
+        <otu id="Stanhopeacandida" label="Stanhopea candida" />
+        <otu id="Stanhopeagibbosa" label="Stanhopea gibbosa" />
+        <otu id="Stanhopeavasquezii" label="Stanhopea vasquezii" />
+        <otu id="Stanhopeawardii" label="Stanhopea wardii" />
+        <otu id="Stanhopeashuttleworthii" label="Stanhopea shuttleworthii" />
+        <otu id="Stanhopearuckeri" label="Stanhopea ruckeri" />
+        <otu id="Stanhopeaoculata" label="Stanhopea oculata" />
+        <otu id="Stanhopeaanfracta" label="Stanhopea anfracta" />
+        <otu id="Stanhopeatigrina" label="Stanhopea tigrina" />
+        <otu id="Stanhopeatricornis" label="Stanhopea tricornis" />
+        <otu id="Stanhopeamartiana" label="Stanhopea martiana" />
+        <otu id="Stanhopeasaccata" label="Stanhopea saccata" />
+        <otu id="Stanhopearadiosa" label="Stanhopea radiosa" />
+    </otus>
+    <trees id="_TreesBlock119802" otus="_TaxaBlock119801">
+        <tree id="_Tree119803" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S279A41" software="PAUP"><inputmatrix datatype="Morphological" name="Table 1" nchar="13" /></analysis></nex:external>
+            <node id="_Node119806" />
+            <node id="_Node119808" />
+            <node id="_Node119810" otu="Sievekingiasuavis" />
+            <node id="_Node119813" otu="Sievekingiamarsupialis" />
+            <node id="_Node119816" />
+            <node id="_Node119818" otu="Stanhopeaecornuta" />
+            <node id="_Node119821" otu="Stanhopeapulla" />
+            <node id="_Node119824" otu="Stanhopeaannulata" />
+            <node id="_Node119827" otu="Stanhopeacandida" />
+            <node id="_Node119830" />
+            <node id="_Node119832" otu="Stanhopeagibbosa" />
+            <node id="_Node119835" otu="Stanhopeavasquezii" />
+            <node id="_Node119838" />
+            <node id="_Node119840" otu="Stanhopeawardii" />
+            <node id="_Node119843" otu="Stanhopeashuttleworthii" />
+            <node id="_Node119846" otu="Stanhopearuckeri" />
+            <node id="_Node119849" otu="Stanhopeaoculata" />
+            <node id="_Node119852" otu="Stanhopeaanfracta" />
+            <node id="_Node119855" otu="Stanhopeatigrina" />
+            <node id="_Node119858" />
+            <node id="_Node119860" otu="Stanhopeatricornis" />
+            <node id="_Node119863" />
+            <node id="_Node119865" otu="Stanhopeamartiana" />
+            <node id="_Node119868" />
+            <node id="_Node119870" otu="Stanhopeasaccata" />
+            <node id="_Node119873" otu="Stanhopearadiosa" />
+            <rootedge id="_Edge119807" target="_Node119806" />
+            <edge id="_Edge119809" source="_Node119806" target="_Node119808" />
+            <edge id="_Edge119811" source="_Node119808" target="_Node119810" />
+            <edge id="_Edge119814" source="_Node119808" target="_Node119813" />
+            <edge id="_Edge119817" source="_Node119806" target="_Node119816" />
+            <edge id="_Edge119819" source="_Node119816" target="_Node119818" />
+            <edge id="_Edge119822" source="_Node119816" target="_Node119821" />
+            <edge id="_Edge119825" source="_Node119816" target="_Node119824" />
+            <edge id="_Edge119828" source="_Node119816" target="_Node119827" />
+            <edge id="_Edge119831" source="_Node119816" target="_Node119830" />
+            <edge id="_Edge119833" source="_Node119830" target="_Node119832" />
+            <edge id="_Edge119836" source="_Node119830" target="_Node119835" />
+            <edge id="_Edge119839" source="_Node119830" target="_Node119838" />
+            <edge id="_Edge119841" source="_Node119838" target="_Node119840" />
+            <edge id="_Edge119844" source="_Node119838" target="_Node119843" />
+            <edge id="_Edge119847" source="_Node119838" target="_Node119846" />
+            <edge id="_Edge119850" source="_Node119838" target="_Node119849" />
+            <edge id="_Edge119853" source="_Node119838" target="_Node119852" />
+            <edge id="_Edge119856" source="_Node119830" target="_Node119855" />
+            <edge id="_Edge119859" source="_Node119830" target="_Node119858" />
+            <edge id="_Edge119861" source="_Node119858" target="_Node119860" />
+            <edge id="_Edge119864" source="_Node119858" target="_Node119863" />
+            <edge id="_Edge119866" source="_Node119863" target="_Node119865" />
+            <edge id="_Edge119869" source="_Node119863" target="_Node119868" />
+            <edge id="_Edge119871" source="_Node119868" target="_Node119870" />
+            <edge id="_Edge119874" source="_Node119868" target="_Node119873" />
+        </tree>
+    </trees>
+</nex:nexml>

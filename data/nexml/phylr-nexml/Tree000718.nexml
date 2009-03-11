@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S329"><citation>Brochu, C. A. 1997. Morphology, fossils, divergence timing, and the phylogenetic relationships of Gavialis. Syst. Biol. 46(3): 479-522.</citation><author email="gator@mail.utexas.edu" firstname="Christopher A." lastname="Brochu" /></study></nex:external>
+    <otus id="_TaxaBlock144495">
+        <otu id="Bernissartiafagesii" label="Bernissartia fagesii" />
+        <otu id="GlenRoseForm" label="Glen Rose Form" />
+        <otu id="Hylaeochampsavectiana" label="Hylaeochampsa vectiana" />
+        <otu id="Leidyosuchuswilsoni" label="Leidyosuchus wilsoni" />
+        <otu id="Leidyosuchusacutidentatus" label="Leidyosuchus acutidentatus" />
+        <otu id="Leidyosuchusformidabilis" label="Leidyosuchus formidabilis" />
+        <otu id="Leidyosuchussternbergii" label="Leidyosuchus sternbergii" />
+        <otu id="Pristichampsusvorax" label="Pristichampsus vorax" />
+        <otu id="Leidyosuchuscanadensis" label="Leidyosuchus canadensis" />
+        <otu id="Diplocynodonhantoniensis" label="Diplocynodon hantoniensis" />
+        <otu id="Diplocynodonratelii" label="Diplocynodon ratelii" />
+        <otu id="Diplocynodondarwini" label="Diplocynodon darwini" />
+        <otu id="Brachychampsamontana" label="Brachychampsa montana" />
+        <otu id="Stangerochampsamccabei" label="Stangerochampsa mccabei" />
+        <otu id="Alligatormississippiensis" label="Alligator mississippiensis" />
+        <otu id="Alligatorsinensis" label="Alligator sinensis" />
+        <otu id="Alligatormefferdi" label="Alligator mefferdi" />
+        <otu id="Alligatorolseni" label="Alligator olseni" />
+        <otu id="Alligatormcgrewi" label="Alligator mcgrewi" />
+        <otu id="Alligatorprenasalis" label="Alligator prenasalis" />
+        <otu id="Arambourgiagaudryi" label="Arambourgia gaudryi" />
+        <otu id="Wannaganosuchusbrachymanus" label="Wannaganosuchus brachymanus" />
+        <otu id="Allognathosuchuswartheni" label="Allognathosuchus wartheni" />
+        <otu id="Procaimanoideakayi" label="Procaimanoidea kayi" />
+        <otu id="Allognathosuchusmooki" label="Allognathosuchus mooki" />
+        <otu id="Eocaimancavernensis" label="Eocaiman cavernensis" />
+        <otu id="Paleosuchuspalpebrosus" label="Paleosuchus palpebrosus" />
+        <otu id="Paleosuchustrigonatus" label="Paleosuchus trigonatus" />
+        <otu id="Purussaurusneivensis" label="Purussaurus neivensis" />
+        <otu id="Nettosuchidae" label="Nettosuchidae" />
+        <otu id="Caimancrocodilus" label="Caiman crocodilus" />
+        <otu id="Caimanyacare" label="Caiman yacare" />
+        <otu id="Caimanlatirostris" label="Caiman latirostris" />
+        <otu id="Melanosuchusniger" label="Melanosuchus niger" />
+        <otu id="Prodiplocynodonlangi" label="Prodiplocynodon langi" />
+        <otu id="Asiatosuchusgermanicus" label="Asiatosuchus germanicus" />
+        <otu id="Crocodylusaffinis" label="Crocodylus affinis" />
+        <otu id="Dormaalcrocodyloid" label="Dormaal crocodyloid" />
+        <otu id="Brachyuranochampsaeversolei" label="Brachyuranochampsa eversolei" />
+        <otu id="Crocodylusacer" label="Crocodylus acer" />
+        <otu id="Thoracosaurusscanicus" label="Thoracosaurus scanicus" />
+        <otu id="Eogavialisafricanus" label="Eogavialis africanus" />
+        <otu id="Gryposuchuscolombianus" label="Gryposuchus colombianus" />
+        <otu id="Gavialislewisi" label="Gavialis lewisi" />
+        <otu id="Gavialisgangeticus" label="Gavialis gangeticus" />
+        <otu id="Crocodylusspenceri" label="Crocodylus spenceri" />
+        <otu id="Gavialosuchusamericanus" label="Gavialosuchus americanus" />
+        <otu id="Tomistomacairense" label="Tomistoma cairense" />
+        <otu id="Tomistomaschlegelii" label="Tomistoma schlegelii" />
+        <otu id="Tomistomalusitanica" label="Tomistoma lusitanica" />
+        <otu id="Australosuchusclarkae" label="Australosuchus clarkae" />
+        <otu id="Crocodylusmegarhinus" label="Crocodylus megarhinus" />
+        <otu id="Euthecodonarambourgii" label="Euthecodon arambourgii" />
+        <otu id="Crocodyluslloidi" label="Crocodylus lloidi" />
+        <otu id="Osteolaemustetraspis" label="Osteolaemus tetraspis" />
+        <otu id="Crocodylusrobustus" label="Crocodylus robustus" />
+        <otu id="Crocodyluscataphractus" label="Crocodylus cataphractus" />
+        <otu id="Crocodyluspalaeindicus" label="Crocodylus palaeindicus" />
+        <otu id="Crocodylusporosus" label="Crocodylus porosus" />
+        <otu id="Crocodylusrhombifer" label="Crocodylus rhombifer" />
+        <otu id="Crocodylusniloticus" label="Crocodylus niloticus" />
+    </otus>
+    <trees id="_TreesBlock144496" otus="_TaxaBlock144495">
+        <tree id="_Tree144497" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S329A198" software="PAUP"><inputmatrix datatype="Morphological" name="Appendix 2" nchar="164" /></analysis></nex:external>
+            <node id="_Node144500" />
+            <node id="_Node144502" otu="Bernissartiafagesii" />
+            <node id="_Node144505" />
+            <node id="_Node144507" otu="GlenRoseForm" />
+            <node id="_Node144510" />
+            <node id="_Node144512" otu="Hylaeochampsavectiana" />
+            <node id="_Node144515" />
+            <node id="_Node144517" />
+            <node id="_Node144519" />
+            <node id="_Node144521" />
+            <node id="_Node144523" otu="Leidyosuchuswilsoni" />
+            <node id="_Node144526" otu="Leidyosuchusacutidentatus" />
+            <node id="_Node144529" otu="Leidyosuchusformidabilis" />
+            <node id="_Node144532" otu="Leidyosuchussternbergii" />
+            <node id="_Node144535" />
+            <node id="_Node144537" otu="Pristichampsusvorax" />
+            <node id="_Node144540" />
+            <node id="_Node144542" />
+            <node id="_Node144544" otu="Leidyosuchuscanadensis" />
+            <node id="_Node144547" />
+            <node id="_Node144549" />
+            <node id="_Node144551" />
+            <node id="_Node144553" otu="Diplocynodonhantoniensis" />
+            <node id="_Node144556" otu="Diplocynodonratelii" />
+            <node id="_Node144559" otu="Diplocynodondarwini" />
+            <node id="_Node144562" />
+            <node id="_Node144564" otu="Brachychampsamontana" />
+            <node id="_Node144567" otu="Stangerochampsamccabei" />
+            <node id="_Node144570" />
+            <node id="_Node144572" />
+            <node id="_Node144574" />
+            <node id="_Node144576" />
+            <node id="_Node144578" />
+            <node id="_Node144580" />
+            <node id="_Node144582" />
+            <node id="_Node144584" />
+            <node id="_Node144586" otu="Alligatormississippiensis" />
+            <node id="_Node144589" otu="Alligatorsinensis" />
+            <node id="_Node144592" otu="Alligatormefferdi" />
+            <node id="_Node144595" otu="Alligatorolseni" />
+            <node id="_Node144598" otu="Alligatormcgrewi" />
+            <node id="_Node144601" otu="Alligatorprenasalis" />
+            <node id="_Node144604" otu="Arambourgiagaudryi" />
+            <node id="_Node144607" otu="Wannaganosuchusbrachymanus" />
+            <node id="_Node144610" />
+            <node id="_Node144612" otu="Allognathosuchuswartheni" />
+            <node id="_Node144615" otu="Procaimanoideakayi" />
+            <node id="_Node144618" otu="Allognathosuchusmooki" />
+            <node id="_Node144621" />
+            <node id="_Node144623" otu="Eocaimancavernensis" />
+            <node id="_Node144626" />
+            <node id="_Node144628" />
+            <node id="_Node144630" otu="Paleosuchuspalpebrosus" />
+            <node id="_Node144633" otu="Paleosuchustrigonatus" />
+            <node id="_Node144636" />
+            <node id="_Node144638" />
+            <node id="_Node144640" otu="Purussaurusneivensis" />
+            <node id="_Node144643" otu="Nettosuchidae" />
+            <node id="_Node144646" />
+            <node id="_Node144648" />
+            <node id="_Node144650" otu="Caimancrocodilus" />
+            <node id="_Node144653" otu="Caimanyacare" />
+            <node id="_Node144656" />
+            <node id="_Node144658" otu="Caimanlatirostris" />
+            <node id="_Node144661" otu="Melanosuchusniger" />
+            <node id="_Node144664" />
+            <node id="_Node144666" otu="Prodiplocynodonlangi" />
+            <node id="_Node144669" otu="Asiatosuchusgermanicus" />
+            <node id="_Node144672" />
+            <node id="_Node144674" otu="Crocodylusaffinis" />
+            <node id="_Node144677" />
+            <node id="_Node144679" otu="Dormaalcrocodyloid" />
+            <node id="_Node144682" />
+            <node id="_Node144684" otu="Brachyuranochampsaeversolei" />
+            <node id="_Node144687" otu="Crocodylusacer" />
+            <node id="_Node144690" />
+            <node id="_Node144692" />
+            <node id="_Node144694" />
+            <node id="_Node144696" otu="Thoracosaurusscanicus" />
+            <node id="_Node144699" />
+            <node id="_Node144701" otu="Eogavialisafricanus" />
+            <node id="_Node144704" />
+            <node id="_Node144706" otu="Gryposuchuscolombianus" />
+            <node id="_Node144709" />
+            <node id="_Node144711" otu="Gavialislewisi" />
+            <node id="_Node144714" otu="Gavialisgangeticus" />
+            <node id="_Node144717" otu="Crocodylusspenceri" />
+            <node id="_Node144720" otu="Gavialosuchusamericanus" />
+            <node id="_Node144723" otu="Tomistomacairense" />
+            <node id="_Node144726" otu="Tomistomaschlegelii" />
+            <node id="_Node144729" otu="Tomistomalusitanica" />
+            <node id="_Node144732" />
+            <node id="_Node144734" otu="Australosuchusclarkae" />
+            <node id="_Node144737" otu="Crocodylusmegarhinus" />
+            <node id="_Node144740" />
+            <node id="_Node144742" />
+            <node id="_Node144744" otu="Euthecodonarambourgii" />
+            <node id="_Node144747" otu="Crocodyluslloidi" />
+            <node id="_Node144750" />
+            <node id="_Node144752" otu="Osteolaemustetraspis" />
+            <node id="_Node144755" otu="Crocodylusrobustus" />
+            <node id="_Node144758" />
+            <node id="_Node144760" otu="Crocodyluscataphractus" />
+            <node id="_Node144763" />
+            <node id="_Node144765" otu="Crocodyluspalaeindicus" />
+            <node id="_Node144768" otu="Crocodylusporosus" />
+            <node id="_Node144771" />
+            <node id="_Node144773" otu="Crocodylusrhombifer" />
+            <node id="_Node144776" otu="Crocodylusniloticus" />
+            <rootedge id="_Edge144501" target="_Node144500" />
+            <edge id="_Edge144503" source="_Node144500" target="_Node144502" />
+            <edge id="_Edge144506" source="_Node144500" target="_Node144505" />
+            <edge id="_Edge144508" source="_Node144505" target="_Node144507" />
+            <edge id="_Edge144511" source="_Node144505" target="_Node144510" />
+            <edge id="_Edge144513" source="_Node144510" target="_Node144512" />
+            <edge id="_Edge144516" source="_Node144510" target="_Node144515" />
+            <edge id="_Edge144518" source="_Node144515" target="_Node144517" />
+            <edge id="_Edge144520" source="_Node144517" target="_Node144519" />
+            <edge id="_Edge144522" source="_Node144519" target="_Node144521" />
+            <edge id="_Edge144524" source="_Node144521" target="_Node144523" />
+            <edge id="_Edge144527" source="_Node144521" target="_Node144526" />
+            <edge id="_Edge144530" source="_Node144519" target="_Node144529" />
+            <edge id="_Edge144533" source="_Node144517" target="_Node144532" />
+            <edge id="_Edge144536" source="_Node144515" target="_Node144535" />
+            <edge id="_Edge144538" source="_Node144535" target="_Node144537" />
+            <edge id="_Edge144541" source="_Node144535" target="_Node144540" />
+            <edge id="_Edge144543" source="_Node144540" target="_Node144542" />
+            <edge id="_Edge144545" source="_Node144542" target="_Node144544" />
+            <edge id="_Edge144548" source="_Node144542" target="_Node144547" />
+            <edge id="_Edge144550" source="_Node144547" target="_Node144549" />
+            <edge id="_Edge144552" source="_Node144549" target="_Node144551" />
+            <edge id="_Edge144554" source="_Node144551" target="_Node144553" />
+            <edge id="_Edge144557" source="_Node144551" target="_Node144556" />
+            <edge id="_Edge144560" source="_Node144549" target="_Node144559" />
+            <edge id="_Edge144563" source="_Node144547" target="_Node144562" />
+            <edge id="_Edge144565" source="_Node144562" target="_Node144564" />
+            <edge id="_Edge144568" source="_Node144562" target="_Node144567" />
+            <edge id="_Edge144571" source="_Node144562" target="_Node144570" />
+            <edge id="_Edge144573" source="_Node144570" target="_Node144572" />
+            <edge id="_Edge144575" source="_Node144572" target="_Node144574" />
+            <edge id="_Edge144577" source="_Node144574" target="_Node144576" />
+            <edge id="_Edge144579" source="_Node144576" target="_Node144578" />
+            <edge id="_Edge144581" source="_Node144578" target="_Node144580" />
+            <edge id="_Edge144583" source="_Node144580" target="_Node144582" />
+            <edge id="_Edge144585" source="_Node144582" target="_Node144584" />
+            <edge id="_Edge144587" source="_Node144584" target="_Node144586" />
+            <edge id="_Edge144590" source="_Node144584" target="_Node144589" />
+            <edge id="_Edge144593" source="_Node144582" target="_Node144592" />
+            <edge id="_Edge144596" source="_Node144580" target="_Node144595" />
+            <edge id="_Edge144599" source="_Node144578" target="_Node144598" />
+            <edge id="_Edge144602" source="_Node144576" target="_Node144601" />
+            <edge id="_Edge144605" source="_Node144574" target="_Node144604" />
+            <edge id="_Edge144608" source="_Node144574" target="_Node144607" />
+            <edge id="_Edge144611" source="_Node144574" target="_Node144610" />
+            <edge id="_Edge144613" source="_Node144610" target="_Node144612" />
+            <edge id="_Edge144616" source="_Node144610" target="_Node144615" />
+            <edge id="_Edge144619" source="_Node144572" target="_Node144618" />
+            <edge id="_Edge144622" source="_Node144570" target="_Node144621" />
+            <edge id="_Edge144624" source="_Node144621" target="_Node144623" />
+            <edge id="_Edge144627" source="_Node144621" target="_Node144626" />
+            <edge id="_Edge144629" source="_Node144626" target="_Node144628" />
+            <edge id="_Edge144631" source="_Node144628" target="_Node144630" />
+            <edge id="_Edge144634" source="_Node144628" target="_Node144633" />
+            <edge id="_Edge144637" source="_Node144626" target="_Node144636" />
+            <edge id="_Edge144639" source="_Node144636" target="_Node144638" />
+            <edge id="_Edge144641" source="_Node144638" target="_Node144640" />
+            <edge id="_Edge144644" source="_Node144638" target="_Node144643" />
+            <edge id="_Edge144647" source="_Node144636" target="_Node144646" />
+            <edge id="_Edge144649" source="_Node144646" target="_Node144648" />
+            <edge id="_Edge144651" source="_Node144648" target="_Node144650" />
+            <edge id="_Edge144654" source="_Node144648" target="_Node144653" />
+            <edge id="_Edge144657" source="_Node144646" target="_Node144656" />
+            <edge id="_Edge144659" source="_Node144656" target="_Node144658" />
+            <edge id="_Edge144662" source="_Node144656" target="_Node144661" />
+            <edge id="_Edge144665" source="_Node144540" target="_Node144664" />
+            <edge id="_Edge144667" source="_Node144664" target="_Node144666" />
+            <edge id="_Edge144670" source="_Node144664" target="_Node144669" />
+            <edge id="_Edge144673" source="_Node144664" target="_Node144672" />
+            <edge id="_Edge144675" source="_Node144672" target="_Node144674" />
+            <edge id="_Edge144678" source="_Node144672" target="_Node144677" />
+            <edge id="_Edge144680" source="_Node144677" target="_Node144679" />
+            <edge id="_Edge144683" source="_Node144677" target="_Node144682" />
+            <edge id="_Edge144685" source="_Node144682" target="_Node144684" />
+            <edge id="_Edge144688" source="_Node144682" target="_Node144687" />
+            <edge id="_Edge144691" source="_Node144682" target="_Node144690" />
+            <edge id="_Edge144693" source="_Node144690" target="_Node144692" />
+            <edge id="_Edge144695" source="_Node144692" target="_Node144694" />
+            <edge id="_Edge144697" source="_Node144694" target="_Node144696" />
+            <edge id="_Edge144700" source="_Node144694" target="_Node144699" />
+            <edge id="_Edge144702" source="_Node144699" target="_Node144701" />
+            <edge id="_Edge144705" source="_Node144699" target="_Node144704" />
+            <edge id="_Edge144707" source="_Node144704" target="_Node144706" />
+            <edge id="_Edge144710" source="_Node144704" target="_Node144709" />
+            <edge id="_Edge144712" source="_Node144709" target="_Node144711" />
+            <edge id="_Edge144715" source="_Node144709" target="_Node144714" />
+            <edge id="_Edge144718" source="_Node144692" target="_Node144717" />
+            <edge id="_Edge144721" source="_Node144692" target="_Node144720" />
+            <edge id="_Edge144724" source="_Node144692" target="_Node144723" />
+            <edge id="_Edge144727" source="_Node144692" target="_Node144726" />
+            <edge id="_Edge144730" source="_Node144692" target="_Node144729" />
+            <edge id="_Edge144733" source="_Node144690" target="_Node144732" />
+            <edge id="_Edge144735" source="_Node144732" target="_Node144734" />
+            <edge id="_Edge144738" source="_Node144732" target="_Node144737" />
+            <edge id="_Edge144741" source="_Node144732" target="_Node144740" />
+            <edge id="_Edge144743" source="_Node144740" target="_Node144742" />
+            <edge id="_Edge144745" source="_Node144742" target="_Node144744" />
+            <edge id="_Edge144748" source="_Node144742" target="_Node144747" />
+            <edge id="_Edge144751" source="_Node144742" target="_Node144750" />
+            <edge id="_Edge144753" source="_Node144750" target="_Node144752" />
+            <edge id="_Edge144756" source="_Node144750" target="_Node144755" />
+            <edge id="_Edge144759" source="_Node144740" target="_Node144758" />
+            <edge id="_Edge144761" source="_Node144758" target="_Node144760" />
+            <edge id="_Edge144764" source="_Node144758" target="_Node144763" />
+            <edge id="_Edge144766" source="_Node144763" target="_Node144765" />
+            <edge id="_Edge144769" source="_Node144763" target="_Node144768" />
+            <edge id="_Edge144772" source="_Node144763" target="_Node144771" />
+            <edge id="_Edge144774" source="_Node144771" target="_Node144773" />
+            <edge id="_Edge144777" source="_Node144771" target="_Node144776" />
+        </tree>
+    </trees>
+</nex:nexml>

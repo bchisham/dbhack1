@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1496"><citation>Islam, M.B., M.P. Simmons, and R.H. Archer. 2006. Phylogeny of the Elaeodendron Group (Celastraceae) Inferred from Morphological Characters and Nuclear and Plastid Genes. Systematic Botany, in press.</citation><author firstname="Robert H." lastname="Archer" /><author email="mislam@lamar.colostate.edu" firstname="Melissa " lastname="Islam" /><author email="psimmons@lamar.colostate.edu" firstname="Mark P." lastname="Simmons" /></study></nex:external>
+    <otus id="_TaxaBlock1188915">
+        <otu id="Mortoniagreggii" label="Mortonia greggii" />
+        <otu id="Allocassinelaurifolia" label="Allocassine laurifolia" />
+        <otu id="Cassineperagua" label="Cassine peragua" />
+        <otu id="Cassineschinoides" label="Cassine schinoides" />
+        <otu id="Lydenburgiacassinoides" label="Lydenburgia cassinoides" />
+        <otu id="Lydenburgiaabbottii" label="Lydenburgia abbottii" />
+        <otu id="Cathaedulis" label="Catha edulis" />
+        <otu id="Gymnosporiamossambicensis" label="Gymnosporia mossambicensis" />
+        <otu id="Putterlickiaverrucosa" label="Putterlickia verrucosa" />
+        <otu id="Lauridiareticulata" label="Lauridia reticulata" />
+        <otu id="Lauridiatetragona" label="Lauridia tetragona" />
+        <otu id="Mauroceniafrangula" label="Maurocenia frangula" />
+        <otu id="Brexiamadagascariensis" label="Brexia madagascariensis" />
+        <otu id="Canotiaholacantha" label="Canotia holacantha" />
+        <otu id="Elaeodendronaustrale" label="Elaeodendron australe" />
+        <otu id="ElaeodendronaustraleSBG" label="Elaeodendron australeSBG" />
+        <otu id="Elaeodendronmelanocarpum" label="Elaeodendron melanocarpum" />
+        <otu id="Elaeodendroncunninghamii" label="Elaeodendron cunninghamii" />
+        <otu id="Elaeodendroncurtipendulum" label="Elaeodendron curtipendulum" />
+        <otu id="Elaeodendronpininsulare" label="Elaeodendron pininsulare" />
+        <otu id="Elaeodendronmatabelicum" label="Elaeodendron matabelicum" />
+        <otu id="Elaeodendronxylocarpum" label="Elaeodendron xylocarpum" />
+        <otu id="Elaeodendronorientale" label="Elaeodendron orientale" />
+        <otu id="Elaeodendronvitiense" label="Elaeodendron vitiense" />
+        <otu id="Empleuridiumjuniperinum" label="Empleuridium juniperinum" />
+        <otu id="Pseudosalaciastreyi" label="Pseudosalacia streyi" />
+        <otu id="Robsonodendroneucleiforme" label="Robsonodendron eucleiforme" />
+        <otu id="Mystroxylonaethiopicum" label="Mystroxylon aethiopicum" />
+        <otu id="Loeseneriellaafricana" label="Loeseneriella africana" />
+        <otu id="Pleurostyliacapensis" label="Pleurostylia capensis" />
+        <otu id="Pleurostylialeucocarpa" label="Pleurostylia leucocarpa" />
+        <otu id="Pleurostyliaopposita" label="Pleurostylia opposita" />
+        <otu id="Salaciaimpressifolia" label="Salacia impressifolia" />
+        <otu id="Salaciopsisglomerata" label="Salaciopsis glomerata" />
+        <otu id="Lepuropetalonspathulatum" label="Lepuropetalon spathulatum" />
+    </otus>
+    <trees id="_TreesBlock1188916" otus="_TaxaBlock1188915">
+        <tree id="_Tree1188917" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1496A5469" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="26 nrDNA" nchar="909" /></analysis></nex:external>
+            <node id="_Node1188920" />
+            <node id="_Node1188922" otu="Mortoniagreggii" />
+            <node id="_Node1188925" />
+            <node id="_Node1188927" />
+            <node id="_Node1188929" otu="Allocassinelaurifolia" />
+            <node id="_Node1188932" otu="Cassineperagua" />
+            <node id="_Node1188935" />
+            <node id="_Node1188937" otu="Cassineschinoides" />
+            <node id="_Node1188940" otu="Lydenburgiacassinoides" />
+            <node id="_Node1188943" otu="Lydenburgiaabbottii" />
+            <node id="_Node1188946" otu="Cathaedulis" />
+            <node id="_Node1188949" />
+            <node id="_Node1188951" otu="Gymnosporiamossambicensis" />
+            <node id="_Node1188954" otu="Putterlickiaverrucosa" />
+            <node id="_Node1188957" otu="Lauridiareticulata" />
+            <node id="_Node1188960" otu="Lauridiatetragona" />
+            <node id="_Node1188963" otu="Mauroceniafrangula" />
+            <node id="_Node1188966" otu="Brexiamadagascariensis" />
+            <node id="_Node1188969" otu="Canotiaholacantha" />
+            <node id="_Node1188972" />
+            <node id="_Node1188974" />
+            <node id="_Node1188976" otu="Elaeodendronaustrale" />
+            <node id="_Node1188979" otu="ElaeodendronaustraleSBG" />
+            <node id="_Node1188982" otu="Elaeodendronmelanocarpum" />
+            <node id="_Node1188985" otu="Elaeodendroncunninghamii" />
+            <node id="_Node1188988" otu="Elaeodendroncurtipendulum" />
+            <node id="_Node1188991" otu="Elaeodendronpininsulare" />
+            <node id="_Node1188994" />
+            <node id="_Node1188996" otu="Elaeodendronmatabelicum" />
+            <node id="_Node1188999" otu="Elaeodendronxylocarpum" />
+            <node id="_Node1189002" otu="Elaeodendronorientale" />
+            <node id="_Node1189005" otu="Elaeodendronvitiense" />
+            <node id="_Node1189008" />
+            <node id="_Node1189010" otu="Empleuridiumjuniperinum" />
+            <node id="_Node1189013" otu="Pseudosalaciastreyi" />
+            <node id="_Node1189016" otu="Robsonodendroneucleiforme" />
+            <node id="_Node1189019" otu="Mystroxylonaethiopicum" />
+            <node id="_Node1189022" otu="Loeseneriellaafricana" />
+            <node id="_Node1189025" />
+            <node id="_Node1189027" otu="Pleurostyliacapensis" />
+            <node id="_Node1189030" />
+            <node id="_Node1189032" otu="Pleurostylialeucocarpa" />
+            <node id="_Node1189035" otu="Pleurostyliaopposita" />
+            <node id="_Node1189038" otu="Salaciaimpressifolia" />
+            <node id="_Node1189041" otu="Salaciopsisglomerata" />
+            <node id="_Node1189044" otu="Lepuropetalonspathulatum" />
+            <rootedge id="_Edge1188921" target="_Node1188920" />
+            <edge id="_Edge1188923" source="_Node1188920" target="_Node1188922" />
+            <edge id="_Edge1188926" source="_Node1188920" target="_Node1188925" />
+            <edge id="_Edge1188928" source="_Node1188925" target="_Node1188927" />
+            <edge id="_Edge1188930" source="_Node1188927" target="_Node1188929" />
+            <edge id="_Edge1188933" source="_Node1188927" target="_Node1188932" />
+            <edge id="_Edge1188936" source="_Node1188927" target="_Node1188935" />
+            <edge id="_Edge1188938" source="_Node1188935" target="_Node1188937" />
+            <edge id="_Edge1188941" source="_Node1188935" target="_Node1188940" />
+            <edge id="_Edge1188944" source="_Node1188927" target="_Node1188943" />
+            <edge id="_Edge1188947" source="_Node1188927" target="_Node1188946" />
+            <edge id="_Edge1188950" source="_Node1188927" target="_Node1188949" />
+            <edge id="_Edge1188952" source="_Node1188949" target="_Node1188951" />
+            <edge id="_Edge1188955" source="_Node1188949" target="_Node1188954" />
+            <edge id="_Edge1188958" source="_Node1188927" target="_Node1188957" />
+            <edge id="_Edge1188961" source="_Node1188927" target="_Node1188960" />
+            <edge id="_Edge1188964" source="_Node1188927" target="_Node1188963" />
+            <edge id="_Edge1188967" source="_Node1188925" target="_Node1188966" />
+            <edge id="_Edge1188970" source="_Node1188925" target="_Node1188969" />
+            <edge id="_Edge1188973" source="_Node1188925" target="_Node1188972" />
+            <edge id="_Edge1188975" source="_Node1188972" target="_Node1188974" />
+            <edge id="_Edge1188977" source="_Node1188974" target="_Node1188976" />
+            <edge id="_Edge1188980" source="_Node1188974" target="_Node1188979" />
+            <edge id="_Edge1188983" source="_Node1188974" target="_Node1188982" />
+            <edge id="_Edge1188986" source="_Node1188972" target="_Node1188985" />
+            <edge id="_Edge1188989" source="_Node1188972" target="_Node1188988" />
+            <edge id="_Edge1188992" source="_Node1188972" target="_Node1188991" />
+            <edge id="_Edge1188995" source="_Node1188925" target="_Node1188994" />
+            <edge id="_Edge1188997" source="_Node1188994" target="_Node1188996" />
+            <edge id="_Edge1189000" source="_Node1188994" target="_Node1188999" />
+            <edge id="_Edge1189003" source="_Node1188925" target="_Node1189002" />
+            <edge id="_Edge1189006" source="_Node1188925" target="_Node1189005" />
+            <edge id="_Edge1189009" source="_Node1188925" target="_Node1189008" />
+            <edge id="_Edge1189011" source="_Node1189008" target="_Node1189010" />
+            <edge id="_Edge1189014" source="_Node1189008" target="_Node1189013" />
+            <edge id="_Edge1189017" source="_Node1189008" target="_Node1189016" />
+            <edge id="_Edge1189020" source="_Node1189008" target="_Node1189019" />
+            <edge id="_Edge1189023" source="_Node1188925" target="_Node1189022" />
+            <edge id="_Edge1189026" source="_Node1188925" target="_Node1189025" />
+            <edge id="_Edge1189028" source="_Node1189025" target="_Node1189027" />
+            <edge id="_Edge1189031" source="_Node1189025" target="_Node1189030" />
+            <edge id="_Edge1189033" source="_Node1189030" target="_Node1189032" />
+            <edge id="_Edge1189036" source="_Node1189030" target="_Node1189035" />
+            <edge id="_Edge1189039" source="_Node1188925" target="_Node1189038" />
+            <edge id="_Edge1189042" source="_Node1188925" target="_Node1189041" />
+            <edge id="_Edge1189045" source="_Node1188920" target="_Node1189044" />
+        </tree>
+    </trees>
+</nex:nexml>

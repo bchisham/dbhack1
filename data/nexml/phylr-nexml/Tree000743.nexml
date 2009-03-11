@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S343"><citation>Ram&#195;&#173;rez, M. J. 1995. A phylogenetic analysis of the subfamilies of Anyphaenidae (Arachnida, Araneae). Ent. scand. 26: 361-384.</citation><author email="ramirez@denison.edu" firstname="Mart&#195;&#173;n J." lastname="Ram&#195;&#173;rez" /></study></nex:external>
+    <otus id="_TaxaBlock149528">
+        <otu id="Malenella" label="Malenella" />
+        <otu id="Wulfila" label="Wulfila" />
+        <otu id="Anyphaena" label="Anyphaena" />
+        <otu id="Coptoprepes" label="Coptoprepes" />
+        <otu id="Amaurobioides" label="Amaurobioides" />
+        <otu id="Ferrieria" label="Ferrieria" />
+        <otu id="Gayenna" label="Gayenna" />
+        <otu id="Arachosia" label="Arachosia" />
+        <otu id="Sanogasta" label="Sanogasta" />
+    </otus>
+    <trees id="_TreesBlock149529" otus="_TaxaBlock149528">
+        <tree id="_Tree149530" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S343A226" software="NONA"><inputmatrix datatype="Morphological" name="Table 1" nchar="20" /></analysis></nex:external>
+            <node id="_Node149533" />
+            <node id="_Node149535" otu="Malenella" />
+            <node id="_Node149538" />
+            <node id="_Node149540" />
+            <node id="_Node149542" otu="Wulfila" />
+            <node id="_Node149545" otu="Anyphaena" />
+            <node id="_Node149548" />
+            <node id="_Node149550" />
+            <node id="_Node149552" otu="Coptoprepes" />
+            <node id="_Node149555" otu="Amaurobioides" />
+            <node id="_Node149558" otu="Ferrieria" />
+            <node id="_Node149561" />
+            <node id="_Node149563" otu="Gayenna" />
+            <node id="_Node149566" />
+            <node id="_Node149568" otu="Arachosia" />
+            <node id="_Node149571" otu="Sanogasta" />
+            <rootedge id="_Edge149534" target="_Node149533" />
+            <edge id="_Edge149536" source="_Node149533" target="_Node149535" />
+            <edge id="_Edge149539" source="_Node149533" target="_Node149538" />
+            <edge id="_Edge149541" source="_Node149538" target="_Node149540" />
+            <edge id="_Edge149543" source="_Node149540" target="_Node149542" />
+            <edge id="_Edge149546" source="_Node149540" target="_Node149545" />
+            <edge id="_Edge149549" source="_Node149538" target="_Node149548" />
+            <edge id="_Edge149551" source="_Node149548" target="_Node149550" />
+            <edge id="_Edge149553" source="_Node149550" target="_Node149552" />
+            <edge id="_Edge149556" source="_Node149550" target="_Node149555" />
+            <edge id="_Edge149559" source="_Node149550" target="_Node149558" />
+            <edge id="_Edge149562" source="_Node149548" target="_Node149561" />
+            <edge id="_Edge149564" source="_Node149561" target="_Node149563" />
+            <edge id="_Edge149567" source="_Node149561" target="_Node149566" />
+            <edge id="_Edge149569" source="_Node149566" target="_Node149568" />
+            <edge id="_Edge149572" source="_Node149566" target="_Node149571" />
+        </tree>
+    </trees>
+</nex:nexml>

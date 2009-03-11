@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1x28x96c13c56c45"><citation>Anderberg, A. A., and S. A. Freire. 1991. A cladistic and biogeographic analysis of the Lucilia group (Asteraceae, Gnaphalieae). Bot. J. Linn. Soc. 106:173-198.</citation><author email="arne.anderberg@nrm.se" firstname="Arne A. " lastname="Anderberg" /><author firstname="S. A." lastname="Freire" /></study></nex:external>
+    <otus id="_TaxaBlock29635">
+        <otu id="Gamochaeta" label="Gamochaeta" />
+        <otu id="Jalcophilaecuadoriensis" label="Jalcophila ecuadoriensis" />
+        <otu id="Jalcophilaboliviensis" label="Jalcophila boliviensis" />
+        <otu id="Jalcophilperuviana" label="Jalcophil peruviana" />
+        <otu id="Cuatrecasasiellaisernii" label="Cuatrecasasiella isernii" />
+        <otu id="Cuatrecasasiellaargentina" label="Cuatrecasasiella argentina" />
+        <otu id="Chevreuliadiemii" label="Chevreulia diemii" />
+        <otu id="Chevreulialycopodioides" label="Chevreulia lycopodioides" />
+        <otu id="Chevreuliapusilla" label="Chevreulia pusilla" />
+        <otu id="Chevreuliasarmentosa" label="Chevreulia sarmentosa" />
+        <otu id="Chevreuliaacuminata" label="Chevreulia acuminata" />
+        <otu id="Gamochaetopsisalpina" label="Gamochaetopsis alpina" />
+        <otu id="Lucilioclinecatamarcensis" label="Luciliocline catamarcensis" />
+        <otu id="Lucilioclinelopezmirandae" label="Luciliocline lopezmirandae" />
+        <otu id="Lucilioclineburkartii" label="Luciliocline burkartii" />
+        <otu id="Lucilioclinesubspicata" label="Luciliocline subspicata" />
+        <otu id="Lucilioclinesantanica" label="Luciliocline santanica" />
+        <otu id="Facelisplumosa" label="Facelis plumosa" />
+        <otu id="Facelislasiocarpa" label="Facelis lasiocarpa" />
+        <otu id="Facelisretusa" label="Facelis retusa" />
+        <otu id="Berroagnaphalioides" label="Berroa gnaphalioides" />
+        <otu id="Luciliaeriophora" label="Lucilia eriophora" />
+        <otu id="Luciliaacutifolia" label="Lucilia acutifolia" />
+        <otu id="Lucilialinearifolia" label="Lucilia linearifolia" />
+        <otu id="Luciliaferruginea" label="Lucilia ferruginea" />
+        <otu id="Luciliatomentosa" label="Lucilia tomentosa" />
+        <otu id="Lucilialycopodioides" label="Lucilia lycopodioides" />
+        <otu id="Lucilianitens" label="Lucilia nitens" />
+        <otu id="Luciliarecurva" label="Lucilia recurva" />
+        <otu id="Belloaplicatifolia" label="Belloa plicatifolia" />
+        <otu id="Belloapickeringii" label="Belloa pickeringii" />
+        <otu id="Belloapiptolepis" label="Belloa piptolepis" />
+        <otu id="Belloaschultzii" label="Belloa schultzii" />
+        <otu id="Belloalongifolia" label="Belloa longifolia" />
+        <otu id="Belloaradians" label="Belloa radians" />
+        <otu id="Belloachilensis" label="Belloa chilensis" />
+        <otu id="Belloakunthiana" label="Belloa kunthiana" />
+        <otu id="Belloalehmanni" label="Belloa lehmanni" />
+    </otus>
+    <trees id="_TreesBlock29636" otus="_TaxaBlock29635">
+        <tree id="_Tree29637" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A63c1x28x96c14c02c08" software="Hennig86"><inputmatrix datatype="Morphological" name="Table 1" nchar="35" /></analysis></nex:external>
+            <node id="_Node29640" />
+            <node id="_Node29642" otu="Gamochaeta" />
+            <node id="_Node29645" />
+            <node id="_Node29647" />
+            <node id="_Node29649" />
+            <node id="_Node29651" />
+            <node id="_Node29653" otu="Jalcophilaecuadoriensis" />
+            <node id="_Node29656" otu="Jalcophilaboliviensis" />
+            <node id="_Node29659" otu="Jalcophilperuviana" />
+            <node id="_Node29662" />
+            <node id="_Node29664" />
+            <node id="_Node29666" otu="Cuatrecasasiellaisernii" />
+            <node id="_Node29669" otu="Cuatrecasasiellaargentina" />
+            <node id="_Node29672" />
+            <node id="_Node29674" otu="Chevreuliadiemii" />
+            <node id="_Node29677" otu="Chevreulialycopodioides" />
+            <node id="_Node29680" />
+            <node id="_Node29682" otu="Chevreuliapusilla" />
+            <node id="_Node29685" />
+            <node id="_Node29687" otu="Chevreuliasarmentosa" />
+            <node id="_Node29690" otu="Chevreuliaacuminata" />
+            <node id="_Node29693" />
+            <node id="_Node29695" otu="Gamochaetopsisalpina" />
+            <node id="_Node29698" />
+            <node id="_Node29700" />
+            <node id="_Node29702" />
+            <node id="_Node29704" />
+            <node id="_Node29706" />
+            <node id="_Node29708" otu="Lucilioclinecatamarcensis" />
+            <node id="_Node29711" otu="Lucilioclinelopezmirandae" />
+            <node id="_Node29714" otu="Lucilioclineburkartii" />
+            <node id="_Node29717" otu="Lucilioclinesubspicata" />
+            <node id="_Node29720" otu="Lucilioclinesantanica" />
+            <node id="_Node29723" />
+            <node id="_Node29725" />
+            <node id="_Node29727" />
+            <node id="_Node29729" />
+            <node id="_Node29731" />
+            <node id="_Node29733" otu="Facelisplumosa" />
+            <node id="_Node29736" otu="Facelislasiocarpa" />
+            <node id="_Node29739" otu="Facelisretusa" />
+            <node id="_Node29742" otu="Berroagnaphalioides" />
+            <node id="_Node29745" />
+            <node id="_Node29747" otu="Luciliaeriophora" />
+            <node id="_Node29750" />
+            <node id="_Node29752" />
+            <node id="_Node29754" otu="Luciliaacutifolia" />
+            <node id="_Node29757" otu="Lucilialinearifolia" />
+            <node id="_Node29760" />
+            <node id="_Node29762" otu="Luciliaferruginea" />
+            <node id="_Node29765" otu="Luciliatomentosa" />
+            <node id="_Node29768" />
+            <node id="_Node29770" otu="Lucilialycopodioides" />
+            <node id="_Node29773" otu="Lucilianitens" />
+            <node id="_Node29776" otu="Luciliarecurva" />
+            <node id="_Node29779" />
+            <node id="_Node29781" otu="Belloaplicatifolia" />
+            <node id="_Node29784" />
+            <node id="_Node29786" />
+            <node id="_Node29788" otu="Belloapickeringii" />
+            <node id="_Node29791" />
+            <node id="_Node29793" otu="Belloapiptolepis" />
+            <node id="_Node29796" otu="Belloaschultzii" />
+            <node id="_Node29799" />
+            <node id="_Node29801" otu="Belloalongifolia" />
+            <node id="_Node29804" />
+            <node id="_Node29806" otu="Belloaradians" />
+            <node id="_Node29809" />
+            <node id="_Node29811" otu="Belloachilensis" />
+            <node id="_Node29814" />
+            <node id="_Node29816" otu="Belloakunthiana" />
+            <node id="_Node29819" otu="Belloalehmanni" />
+            <rootedge id="_Edge29641" target="_Node29640" />
+            <edge id="_Edge29643" source="_Node29640" target="_Node29642" />
+            <edge id="_Edge29646" source="_Node29640" target="_Node29645" />
+            <edge id="_Edge29648" source="_Node29645" target="_Node29647" />
+            <edge id="_Edge29650" source="_Node29647" target="_Node29649" />
+            <edge id="_Edge29652" source="_Node29649" target="_Node29651" />
+            <edge id="_Edge29654" source="_Node29651" target="_Node29653" />
+            <edge id="_Edge29657" source="_Node29651" target="_Node29656" />
+            <edge id="_Edge29660" source="_Node29649" target="_Node29659" />
+            <edge id="_Edge29663" source="_Node29647" target="_Node29662" />
+            <edge id="_Edge29665" source="_Node29662" target="_Node29664" />
+            <edge id="_Edge29667" source="_Node29664" target="_Node29666" />
+            <edge id="_Edge29670" source="_Node29664" target="_Node29669" />
+            <edge id="_Edge29673" source="_Node29662" target="_Node29672" />
+            <edge id="_Edge29675" source="_Node29672" target="_Node29674" />
+            <edge id="_Edge29678" source="_Node29672" target="_Node29677" />
+            <edge id="_Edge29681" source="_Node29672" target="_Node29680" />
+            <edge id="_Edge29683" source="_Node29680" target="_Node29682" />
+            <edge id="_Edge29686" source="_Node29680" target="_Node29685" />
+            <edge id="_Edge29688" source="_Node29685" target="_Node29687" />
+            <edge id="_Edge29691" source="_Node29685" target="_Node29690" />
+            <edge id="_Edge29694" source="_Node29645" target="_Node29693" />
+            <edge id="_Edge29696" source="_Node29693" target="_Node29695" />
+            <edge id="_Edge29699" source="_Node29693" target="_Node29698" />
+            <edge id="_Edge29701" source="_Node29698" target="_Node29700" />
+            <edge id="_Edge29703" source="_Node29700" target="_Node29702" />
+            <edge id="_Edge29705" source="_Node29702" target="_Node29704" />
+            <edge id="_Edge29707" source="_Node29704" target="_Node29706" />
+            <edge id="_Edge29709" source="_Node29706" target="_Node29708" />
+            <edge id="_Edge29712" source="_Node29706" target="_Node29711" />
+            <edge id="_Edge29715" source="_Node29704" target="_Node29714" />
+            <edge id="_Edge29718" source="_Node29702" target="_Node29717" />
+            <edge id="_Edge29721" source="_Node29700" target="_Node29720" />
+            <edge id="_Edge29724" source="_Node29698" target="_Node29723" />
+            <edge id="_Edge29726" source="_Node29723" target="_Node29725" />
+            <edge id="_Edge29728" source="_Node29725" target="_Node29727" />
+            <edge id="_Edge29730" source="_Node29727" target="_Node29729" />
+            <edge id="_Edge29732" source="_Node29729" target="_Node29731" />
+            <edge id="_Edge29734" source="_Node29731" target="_Node29733" />
+            <edge id="_Edge29737" source="_Node29731" target="_Node29736" />
+            <edge id="_Edge29740" source="_Node29729" target="_Node29739" />
+            <edge id="_Edge29743" source="_Node29727" target="_Node29742" />
+            <edge id="_Edge29746" source="_Node29725" target="_Node29745" />
+            <edge id="_Edge29748" source="_Node29745" target="_Node29747" />
+            <edge id="_Edge29751" source="_Node29745" target="_Node29750" />
+            <edge id="_Edge29753" source="_Node29750" target="_Node29752" />
+            <edge id="_Edge29755" source="_Node29752" target="_Node29754" />
+            <edge id="_Edge29758" source="_Node29752" target="_Node29757" />
+            <edge id="_Edge29761" source="_Node29750" target="_Node29760" />
+            <edge id="_Edge29763" source="_Node29760" target="_Node29762" />
+            <edge id="_Edge29766" source="_Node29760" target="_Node29765" />
+            <edge id="_Edge29769" source="_Node29760" target="_Node29768" />
+            <edge id="_Edge29771" source="_Node29768" target="_Node29770" />
+            <edge id="_Edge29774" source="_Node29768" target="_Node29773" />
+            <edge id="_Edge29777" source="_Node29768" target="_Node29776" />
+            <edge id="_Edge29780" source="_Node29723" target="_Node29779" />
+            <edge id="_Edge29782" source="_Node29779" target="_Node29781" />
+            <edge id="_Edge29785" source="_Node29779" target="_Node29784" />
+            <edge id="_Edge29787" source="_Node29784" target="_Node29786" />
+            <edge id="_Edge29789" source="_Node29786" target="_Node29788" />
+            <edge id="_Edge29792" source="_Node29786" target="_Node29791" />
+            <edge id="_Edge29794" source="_Node29791" target="_Node29793" />
+            <edge id="_Edge29797" source="_Node29791" target="_Node29796" />
+            <edge id="_Edge29800" source="_Node29784" target="_Node29799" />
+            <edge id="_Edge29802" source="_Node29799" target="_Node29801" />
+            <edge id="_Edge29805" source="_Node29799" target="_Node29804" />
+            <edge id="_Edge29807" source="_Node29804" target="_Node29806" />
+            <edge id="_Edge29810" source="_Node29804" target="_Node29809" />
+            <edge id="_Edge29812" source="_Node29809" target="_Node29811" />
+            <edge id="_Edge29815" source="_Node29809" target="_Node29814" />
+            <edge id="_Edge29817" source="_Node29814" target="_Node29816" />
+            <edge id="_Edge29820" source="_Node29814" target="_Node29819" />
+        </tree>
+    </trees>
+</nex:nexml>

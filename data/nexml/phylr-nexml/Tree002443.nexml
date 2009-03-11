@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1107"><citation>Schroers, H. J., M. H. Schoeman, M. M. Geldenhuis, M. J. Wingfield, and B. D. Wingfield. 2004. Taxonomy of Nalanthamala. Mycologia, in press.</citation><author email="nonnie.geldenhuis@fabi.up.ac.za" firstname="Nonnie M." lastname="Geldenhuis" /><author email="maritha@itsc.agric.za" firstname="Maritha H." lastname="Schoeman" /><author email="hans.schroers@kis.si" firstname="Hans-Josef" lastname="Schroers" /><author email="mike.wingfield@fabi.up.ac.za" firstname="Michael J." lastname="Wingfield" /><author email="brenda.wingfield@fabi.up.ac.za" firstname="Brenda D." lastname="Wingfield" /></study></nex:external>
+    <otus id="_TaxaBlock749006">
+        <otu id="Verticilliumdahliae" label="Verticillium dahliae" />
+        <otu id="Penicilliumexpansum" label="Penicillium expansum" />
+        <otu id="Stanjemoniumgrisellum" label="Stanjemonium grisellum" />
+        <otu id="Acremoniumalternatum" label="Acremonium alternatum" />
+        <otu id="Geosmithialavendula" label="Geosmithia lavendula" />
+        <otu id="Geosmithiasp" label="Geosmithia sp" />
+        <otu id="Geosmithiaputterillii" label="Geosmithia putterillii" />
+        <otu id="Bionectriaochroleuca" label="Bionectria ochroleuca" />
+        <otu id="Bionectriazelandiaenovae" label="Bionectria zelandiaenovae" />
+        <otu id="Clonostachysmiodochialis" label="Clonostachys miodochialis" />
+        <otu id="Bionectriaralfsii" label="Bionectria ralfsii" />
+        <otu id="Nectriopsisviolacea" label="Nectriopsis violacea" />
+        <otu id="Nectriopsissporangiicola" label="Nectriopsis sporangiicola" />
+        <otu id="Hydropisphaerapeziza" label="Hydropisphaera peziza" />
+        <otu id="Roumegueriellarufula" label="Roumegueriella rufula" />
+        <otu id="Hydropisphaeraarenula" label="Hydropisphaera arenula" />
+        <otu id="Hydropisphaeraerubescens" label="Hydropisphaera erubescens" />
+        <otu id="Nalanthamalasquamicola" label="Nalanthamala squamicola" />
+        <otu id="Lecanicilliumlecanii" label="Lecanicillium lecanii" />
+        <otu id="Neotyphodiumcoenophialum" label="Neotyphodium coenophialum" />
+        <otu id="Epichloetyphina" label="Epichloe typhina" />
+        <otu id="Metarhiziumanisopliae" label="Metarhizium anisopliae" />
+        <otu id="Paecilomycescinnamomeus" label="Paecilomyces cinnamomeus" />
+        <otu id="Torrubiellaluteorostrata" label="Torrubiella luteorostrata" />
+        <otu id="Sphaerostilbellaaureonitens" label="Sphaerostilbella aureonitens" />
+        <otu id="Hypomycesodoratus" label="Hypomyces odoratus" />
+        <otu id="Hypocreaschweinitzii" label="Hypocrea schweinitzii" />
+        <otu id="Hypocrealutea" label="Hypocrea lutea" />
+        <otu id="Nectriacinnabarina" label="Nectria cinnabarina" />
+        <otu id="Nectriapseudotrichia" label="Nectria pseudotrichia" />
+        <otu id="Nalanthamaladiospyri" label="Nalanthamala diospyri" />
+        <otu id="Nalanthamalaguajavae" label="Nalanthamala guajavae" />
+        <otu id="Rubrinectriaolivacea" label="Rubrinectria olivacea" />
+        <otu id="Nalanthamalavermoesenii" label="Nalanthamala vermoesenii" />
+        <otu id="Rubrinectriasp" label="Rubrinectria sp" />
+        <otu id="Neonectriaradicicola" label="Neonectria radicicola" />
+        <otu id="Calonectriapyrochroa" label="Calonectria pyrochroa" />
+        <otu id="Calonectriamorganii" label="Calonectria morganii" />
+        <otu id="Nectriamariannaea" label="Nectria mariannaea" />
+        <otu id="Mariannaeacamptospora" label="Mariannaea camptospora" />
+        <otu id="Mariannaeaelegans" label="Mariannaea elegans" />
+        <otu id="Viridisporadiparietispora" label="Viridispora diparietispora" />
+        <otu id="Haematonectriahaematococca" label="Haematonectria haematococca" />
+        <otu id="Neocosmosporavasinfecta" label="Neocosmospora vasinfecta" />
+        <otu id="Fusariumfujikuroi" label="Fusarium fujikuroi" />
+        <otu id="Fusariumverticillioides" label="Fusarium verticillioides" />
+        <otu id="Albonectriarigidiuscula" label="Albonectria rigidiuscula" />
+        <otu id="Albonectriaalbosuccinea" label="Albonectria albosuccinea" />
+        <otu id="Stachybotrysbisbyi" label="Stachybotrys bisbyi" />
+        <otu id="Stachybotrysechinata" label="Stachybotrys echinata" />
+        <otu id="Stachybotryschartarum" label="Stachybotrys chartarum" />
+        <otu id="Peethambarasundara" label="Peethambara sundara" />
+        <otu id="Myrotheciuminundatum" label="Myrothecium inundatum" />
+    </otus>
+    <trees id="_TreesBlock749007" otus="_TaxaBlock749006">
+        <tree id="_Tree749008" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1107A3331" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="LSU rDNA" nchar="536" /></analysis></nex:external>
+            <node id="_Node749011" />
+            <node id="_Node749013" otu="Verticilliumdahliae" />
+            <node id="_Node749016" otu="Penicilliumexpansum" />
+            <node id="_Node749019" />
+            <node id="_Node749021" />
+            <node id="_Node749023" />
+            <node id="_Node749025" />
+            <node id="_Node749027" otu="Stanjemoniumgrisellum" />
+            <node id="_Node749030" />
+            <node id="_Node749032" otu="Acremoniumalternatum" />
+            <node id="_Node749035" />
+            <node id="_Node749037" otu="Geosmithialavendula" />
+            <node id="_Node749040" />
+            <node id="_Node749042" otu="Geosmithiasp" />
+            <node id="_Node749045" otu="Geosmithiaputterillii" />
+            <node id="_Node749048" />
+            <node id="_Node749050" />
+            <node id="_Node749052" />
+            <node id="_Node749054" otu="Bionectriaochroleuca" />
+            <node id="_Node749057" otu="Bionectriazelandiaenovae" />
+            <node id="_Node749060" />
+            <node id="_Node749062" otu="Clonostachysmiodochialis" />
+            <node id="_Node749065" otu="Bionectriaralfsii" />
+            <node id="_Node749068" />
+            <node id="_Node749070" />
+            <node id="_Node749072" otu="Nectriopsisviolacea" />
+            <node id="_Node749075" otu="Nectriopsissporangiicola" />
+            <node id="_Node749078" />
+            <node id="_Node749080" />
+            <node id="_Node749082" otu="Hydropisphaerapeziza" />
+            <node id="_Node749085" otu="Roumegueriellarufula" />
+            <node id="_Node749088" />
+            <node id="_Node749090" otu="Hydropisphaeraarenula" />
+            <node id="_Node749093" />
+            <node id="_Node749095" otu="Hydropisphaeraerubescens" />
+            <node id="_Node749098" otu="Nalanthamalasquamicola" />
+            <node id="_Node749101" />
+            <node id="_Node749103" />
+            <node id="_Node749105" />
+            <node id="_Node749107" otu="Lecanicilliumlecanii" />
+            <node id="_Node749110" />
+            <node id="_Node749112" otu="Neotyphodiumcoenophialum" />
+            <node id="_Node749115" otu="Epichloetyphina" />
+            <node id="_Node749118" />
+            <node id="_Node749120" otu="Metarhiziumanisopliae" />
+            <node id="_Node749123" />
+            <node id="_Node749125" otu="Paecilomycescinnamomeus" />
+            <node id="_Node749128" otu="Torrubiellaluteorostrata" />
+            <node id="_Node749131" />
+            <node id="_Node749133" />
+            <node id="_Node749135" otu="Sphaerostilbellaaureonitens" />
+            <node id="_Node749138" />
+            <node id="_Node749140" otu="Hypomycesodoratus" />
+            <node id="_Node749143" />
+            <node id="_Node749145" otu="Hypocreaschweinitzii" />
+            <node id="_Node749148" otu="Hypocrealutea" />
+            <node id="_Node749151" />
+            <node id="_Node749153" />
+            <node id="_Node749155" />
+            <node id="_Node749157" otu="Nectriacinnabarina" />
+            <node id="_Node749160" otu="Nectriapseudotrichia" />
+            <node id="_Node749163" />
+            <node id="_Node749165" otu="Nalanthamaladiospyri" />
+            <node id="_Node749168" />
+            <node id="_Node749170" otu="Nalanthamalaguajavae" />
+            <node id="_Node749173" />
+            <node id="_Node749175" otu="Rubrinectriaolivacea" />
+            <node id="_Node749178" />
+            <node id="_Node749180" otu="Nalanthamalavermoesenii" />
+            <node id="_Node749183" otu="Rubrinectriasp" />
+            <node id="_Node749186" />
+            <node id="_Node749188" otu="Neonectriaradicicola" />
+            <node id="_Node749191" />
+            <node id="_Node749193" />
+            <node id="_Node749195" />
+            <node id="_Node749197" otu="Calonectriapyrochroa" />
+            <node id="_Node749200" otu="Calonectriamorganii" />
+            <node id="_Node749203" />
+            <node id="_Node749205" otu="Nectriamariannaea" />
+            <node id="_Node749208" />
+            <node id="_Node749210" otu="Mariannaeacamptospora" />
+            <node id="_Node749213" otu="Mariannaeaelegans" />
+            <node id="_Node749216" />
+            <node id="_Node749218" />
+            <node id="_Node749220" otu="Viridisporadiparietispora" />
+            <node id="_Node749223" />
+            <node id="_Node749225" otu="Haematonectriahaematococca" />
+            <node id="_Node749228" otu="Neocosmosporavasinfecta" />
+            <node id="_Node749231" />
+            <node id="_Node749233" />
+            <node id="_Node749235" otu="Fusariumfujikuroi" />
+            <node id="_Node749238" otu="Fusariumverticillioides" />
+            <node id="_Node749241" />
+            <node id="_Node749243" otu="Albonectriarigidiuscula" />
+            <node id="_Node749246" otu="Albonectriaalbosuccinea" />
+            <node id="_Node749249" />
+            <node id="_Node749251" otu="Stachybotrysbisbyi" />
+            <node id="_Node749254" />
+            <node id="_Node749256" />
+            <node id="_Node749258" otu="Stachybotrysechinata" />
+            <node id="_Node749261" otu="Stachybotryschartarum" />
+            <node id="_Node749264" />
+            <node id="_Node749266" otu="Peethambarasundara" />
+            <node id="_Node749269" otu="Myrotheciuminundatum" />
+            <rootedge id="_Edge749012" target="_Node749011" />
+            <edge id="_Edge749014" source="_Node749011" target="_Node749013" />
+            <edge id="_Edge749017" source="_Node749011" target="_Node749016" />
+            <edge id="_Edge749020" source="_Node749011" target="_Node749019" />
+            <edge id="_Edge749022" source="_Node749019" target="_Node749021" />
+            <edge id="_Edge749024" source="_Node749021" target="_Node749023" />
+            <edge id="_Edge749026" source="_Node749023" target="_Node749025" />
+            <edge id="_Edge749028" source="_Node749025" target="_Node749027" />
+            <edge id="_Edge749031" source="_Node749025" target="_Node749030" />
+            <edge id="_Edge749033" source="_Node749030" target="_Node749032" />
+            <edge id="_Edge749036" source="_Node749030" target="_Node749035" />
+            <edge id="_Edge749038" source="_Node749035" target="_Node749037" />
+            <edge id="_Edge749041" source="_Node749035" target="_Node749040" />
+            <edge id="_Edge749043" source="_Node749040" target="_Node749042" />
+            <edge id="_Edge749046" source="_Node749040" target="_Node749045" />
+            <edge id="_Edge749049" source="_Node749023" target="_Node749048" />
+            <edge id="_Edge749051" source="_Node749048" target="_Node749050" />
+            <edge id="_Edge749053" source="_Node749050" target="_Node749052" />
+            <edge id="_Edge749055" source="_Node749052" target="_Node749054" />
+            <edge id="_Edge749058" source="_Node749052" target="_Node749057" />
+            <edge id="_Edge749061" source="_Node749050" target="_Node749060" />
+            <edge id="_Edge749063" source="_Node749060" target="_Node749062" />
+            <edge id="_Edge749066" source="_Node749060" target="_Node749065" />
+            <edge id="_Edge749069" source="_Node749048" target="_Node749068" />
+            <edge id="_Edge749071" source="_Node749068" target="_Node749070" />
+            <edge id="_Edge749073" source="_Node749070" target="_Node749072" />
+            <edge id="_Edge749076" source="_Node749070" target="_Node749075" />
+            <edge id="_Edge749079" source="_Node749068" target="_Node749078" />
+            <edge id="_Edge749081" source="_Node749078" target="_Node749080" />
+            <edge id="_Edge749083" source="_Node749080" target="_Node749082" />
+            <edge id="_Edge749086" source="_Node749080" target="_Node749085" />
+            <edge id="_Edge749089" source="_Node749078" target="_Node749088" />
+            <edge id="_Edge749091" source="_Node749088" target="_Node749090" />
+            <edge id="_Edge749094" source="_Node749088" target="_Node749093" />
+            <edge id="_Edge749096" source="_Node749093" target="_Node749095" />
+            <edge id="_Edge749099" source="_Node749093" target="_Node749098" />
+            <edge id="_Edge749102" source="_Node749021" target="_Node749101" />
+            <edge id="_Edge749104" source="_Node749101" target="_Node749103" />
+            <edge id="_Edge749106" source="_Node749103" target="_Node749105" />
+            <edge id="_Edge749108" source="_Node749105" target="_Node749107" />
+            <edge id="_Edge749111" source="_Node749105" target="_Node749110" />
+            <edge id="_Edge749113" source="_Node749110" target="_Node749112" />
+            <edge id="_Edge749116" source="_Node749110" target="_Node749115" />
+            <edge id="_Edge749119" source="_Node749103" target="_Node749118" />
+            <edge id="_Edge749121" source="_Node749118" target="_Node749120" />
+            <edge id="_Edge749124" source="_Node749118" target="_Node749123" />
+            <edge id="_Edge749126" source="_Node749123" target="_Node749125" />
+            <edge id="_Edge749129" source="_Node749123" target="_Node749128" />
+            <edge id="_Edge749132" source="_Node749101" target="_Node749131" />
+            <edge id="_Edge749134" source="_Node749131" target="_Node749133" />
+            <edge id="_Edge749136" source="_Node749133" target="_Node749135" />
+            <edge id="_Edge749139" source="_Node749133" target="_Node749138" />
+            <edge id="_Edge749141" source="_Node749138" target="_Node749140" />
+            <edge id="_Edge749144" source="_Node749138" target="_Node749143" />
+            <edge id="_Edge749146" source="_Node749143" target="_Node749145" />
+            <edge id="_Edge749149" source="_Node749143" target="_Node749148" />
+            <edge id="_Edge749152" source="_Node749131" target="_Node749151" />
+            <edge id="_Edge749154" source="_Node749151" target="_Node749153" />
+            <edge id="_Edge749156" source="_Node749153" target="_Node749155" />
+            <edge id="_Edge749158" source="_Node749155" target="_Node749157" />
+            <edge id="_Edge749161" source="_Node749155" target="_Node749160" />
+            <edge id="_Edge749164" source="_Node749153" target="_Node749163" />
+            <edge id="_Edge749166" source="_Node749163" target="_Node749165" />
+            <edge id="_Edge749169" source="_Node749163" target="_Node749168" />
+            <edge id="_Edge749171" source="_Node749168" target="_Node749170" />
+            <edge id="_Edge749174" source="_Node749168" target="_Node749173" />
+            <edge id="_Edge749176" source="_Node749173" target="_Node749175" />
+            <edge id="_Edge749179" source="_Node749173" target="_Node749178" />
+            <edge id="_Edge749181" source="_Node749178" target="_Node749180" />
+            <edge id="_Edge749184" source="_Node749178" target="_Node749183" />
+            <edge id="_Edge749187" source="_Node749151" target="_Node749186" />
+            <edge id="_Edge749189" source="_Node749186" target="_Node749188" />
+            <edge id="_Edge749192" source="_Node749186" target="_Node749191" />
+            <edge id="_Edge749194" source="_Node749191" target="_Node749193" />
+            <edge id="_Edge749196" source="_Node749193" target="_Node749195" />
+            <edge id="_Edge749198" source="_Node749195" target="_Node749197" />
+            <edge id="_Edge749201" source="_Node749195" target="_Node749200" />
+            <edge id="_Edge749204" source="_Node749193" target="_Node749203" />
+            <edge id="_Edge749206" source="_Node749203" target="_Node749205" />
+            <edge id="_Edge749209" source="_Node749203" target="_Node749208" />
+            <edge id="_Edge749211" source="_Node749208" target="_Node749210" />
+            <edge id="_Edge749214" source="_Node749208" target="_Node749213" />
+            <edge id="_Edge749217" source="_Node749191" target="_Node749216" />
+            <edge id="_Edge749219" source="_Node749216" target="_Node749218" />
+            <edge id="_Edge749221" source="_Node749218" target="_Node749220" />
+            <edge id="_Edge749224" source="_Node749218" target="_Node749223" />
+            <edge id="_Edge749226" source="_Node749223" target="_Node749225" />
+            <edge id="_Edge749229" source="_Node749223" target="_Node749228" />
+            <edge id="_Edge749232" source="_Node749216" target="_Node749231" />
+            <edge id="_Edge749234" source="_Node749231" target="_Node749233" />
+            <edge id="_Edge749236" source="_Node749233" target="_Node749235" />
+            <edge id="_Edge749239" source="_Node749233" target="_Node749238" />
+            <edge id="_Edge749242" source="_Node749231" target="_Node749241" />
+            <edge id="_Edge749244" source="_Node749241" target="_Node749243" />
+            <edge id="_Edge749247" source="_Node749241" target="_Node749246" />
+            <edge id="_Edge749250" source="_Node749019" target="_Node749249" />
+            <edge id="_Edge749252" source="_Node749249" target="_Node749251" />
+            <edge id="_Edge749255" source="_Node749249" target="_Node749254" />
+            <edge id="_Edge749257" source="_Node749254" target="_Node749256" />
+            <edge id="_Edge749259" source="_Node749256" target="_Node749258" />
+            <edge id="_Edge749262" source="_Node749256" target="_Node749261" />
+            <edge id="_Edge749265" source="_Node749254" target="_Node749264" />
+            <edge id="_Edge749267" source="_Node749264" target="_Node749266" />
+            <edge id="_Edge749270" source="_Node749264" target="_Node749269" />
+        </tree>
+    </trees>
+</nex:nexml>

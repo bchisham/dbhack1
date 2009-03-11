@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S11x5x95c15c48c19"><citation>Kress, W. J. 1990. The phylogeny and classification of the Zingiberales. Ann. Mo Bot. Gard. 77:698-721.</citation><author firstname="W. J." lastname="Kress" /></study></nex:external>
+    <otus id="_TaxaBlock7031">
+        <otu id="Costaceae" label="Costaceae" />
+        <otu id="Zingiberaceae" label="Zingiberaceae" />
+        <otu id="Cannaceae" label="Cannaceae" />
+        <otu id="Marantaceae" label="Marantaceae" />
+        <otu id="Lowiaceae" label="Lowiaceae" />
+        <otu id="Heliconiaceae" label="Heliconiaceae" />
+        <otu id="Musaceae" label="Musaceae" />
+        <otu id="Strelitziaceae" label="Strelitziaceae" />
+        <otu id="Bromeliiflorae" label="Bromeliiflorae" />
+    </otus>
+    <trees id="_TreesBlock7032" otus="_TaxaBlock7031">
+        <tree id="_Tree7033" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A20c11x5x95c15c51c40" software="PAUP"><inputmatrix datatype="Morphological" name="Table 3a" nchar="32" /></analysis></nex:external>
+            <node id="_Node7036" />
+            <node id="_Node7038" />
+            <node id="_Node7040" />
+            <node id="_Node7042" />
+            <node id="_Node7044" />
+            <node id="_Node7046" otu="Costaceae" />
+            <node id="_Node7049" />
+            <node id="_Node7051" otu="Zingiberaceae" />
+            <node id="_Node7054" />
+            <node id="_Node7056" otu="Cannaceae" />
+            <node id="_Node7059" otu="Marantaceae" />
+            <node id="_Node7062" otu="Lowiaceae" />
+            <node id="_Node7065" otu="Heliconiaceae" />
+            <node id="_Node7068" />
+            <node id="_Node7070" otu="Musaceae" />
+            <node id="_Node7073" otu="Strelitziaceae" />
+            <node id="_Node7076" otu="Bromeliiflorae" />
+            <rootedge id="_Edge7037" target="_Node7036" />
+            <edge id="_Edge7039" source="_Node7036" target="_Node7038" />
+            <edge id="_Edge7041" source="_Node7038" target="_Node7040" />
+            <edge id="_Edge7043" source="_Node7040" target="_Node7042" />
+            <edge id="_Edge7045" source="_Node7042" target="_Node7044" />
+            <edge id="_Edge7047" source="_Node7044" target="_Node7046" />
+            <edge id="_Edge7050" source="_Node7044" target="_Node7049" />
+            <edge id="_Edge7052" source="_Node7049" target="_Node7051" />
+            <edge id="_Edge7055" source="_Node7049" target="_Node7054" />
+            <edge id="_Edge7057" source="_Node7054" target="_Node7056" />
+            <edge id="_Edge7060" source="_Node7054" target="_Node7059" />
+            <edge id="_Edge7063" source="_Node7042" target="_Node7062" />
+            <edge id="_Edge7066" source="_Node7040" target="_Node7065" />
+            <edge id="_Edge7069" source="_Node7038" target="_Node7068" />
+            <edge id="_Edge7071" source="_Node7068" target="_Node7070" />
+            <edge id="_Edge7074" source="_Node7068" target="_Node7073" />
+            <edge id="_Edge7077" source="_Node7036" target="_Node7076" />
+        </tree>
+    </trees>
+</nex:nexml>

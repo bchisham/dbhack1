@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S11x4x95c20c37c39"><citation>Ayers, T. J. 1990. Systematics of Heterotoma (Campanulaceae) and the evolution of nectar spurs in the New World Lobelioideae. Syst. Bot. 15:296-327.</citation><author firstname="T. J. " lastname="Ayers" /></study></nex:external>
+    <otus id="_TaxaBlock1292">
+        <otu id="Lobelialaxiflora" label="Lobelia laxiflora" />
+        <otu id="Heterotomalobelioides" label="Heterotoma lobelioides" />
+        <otu id="Lobeliamargarita" label="Lobelia margarita" />
+        <otu id="Heterotomapringlei" label="Heterotoma pringlei" />
+        <otu id="Lobeliaberlandieri" label="Lobelia berlandieri" />
+        <otu id="Cordifoliagroup" label="Cordifolia "group"" />
+        <otu id="Macrocentrongroup" label="Macrocentron "group"" />
+    </otus>
+    <trees id="_TreesBlock1293" otus="_TaxaBlock1292">
+        <tree id="_Tree1294" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A4c11x4x95c20c42c21" software="Hennig86"><inputmatrix datatype="Morphological" name="Table 1" nchar="10" /></analysis></nex:external>
+            <node id="_Node1297" />
+            <node id="_Node1299" />
+            <node id="_Node1301" otu="Lobelialaxiflora" />
+            <node id="_Node1304" otu="Heterotomalobelioides" />
+            <node id="_Node1307" />
+            <node id="_Node1309" />
+            <node id="_Node1311" otu="Lobeliamargarita" />
+            <node id="_Node1314" otu="Heterotomapringlei" />
+            <node id="_Node1317" otu="Lobeliaberlandieri" />
+            <node id="_Node1320" />
+            <node id="_Node1322" otu="Cordifoliagroup" />
+            <node id="_Node1325" otu="Macrocentrongroup" />
+            <rootedge id="_Edge1298" target="_Node1297" />
+            <edge id="_Edge1300" source="_Node1297" target="_Node1299" />
+            <edge id="_Edge1302" source="_Node1299" target="_Node1301" />
+            <edge id="_Edge1305" source="_Node1299" target="_Node1304" />
+            <edge id="_Edge1308" source="_Node1297" target="_Node1307" />
+            <edge id="_Edge1310" source="_Node1307" target="_Node1309" />
+            <edge id="_Edge1312" source="_Node1309" target="_Node1311" />
+            <edge id="_Edge1315" source="_Node1309" target="_Node1314" />
+            <edge id="_Edge1318" source="_Node1307" target="_Node1317" />
+            <edge id="_Edge1321" source="_Node1307" target="_Node1320" />
+            <edge id="_Edge1323" source="_Node1320" target="_Node1322" />
+            <edge id="_Edge1326" source="_Node1320" target="_Node1325" />
+        </tree>
+    </trees>
+</nex:nexml>

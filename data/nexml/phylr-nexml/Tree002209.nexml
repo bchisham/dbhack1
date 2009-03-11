@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S987"><citation>Linder, H.P., P. Elden&#195;&#164;s, and B.G. Briggs. 2003. Contrasting patterns of radiation in African and Australian Restionaceae. Evolution 57 (12), in press.</citation><author email="barbara.briggs@rbgsyd.nsw.gov.au" firstname="Barbara G." lastname="Briggs" /><author email="Pia.Eldenas@nrm.se" firstname="Pia" lastname="Elden&#195;&#164;s" /><author email="plinder@systbot.unizh.ch" firstname="Hans Peter" lastname="Linder" /></study></nex:external>
+    <otus id="_TaxaBlock651792">
+        <otu id="Anarthriapolyphylla" label="Anarthria polyphylla" />
+        <otu id="Hopkinsiaadscendens" label="Hopkinsia adscendens" />
+        <otu id="Lyginiabarbata" label="Lyginia barbata" />
+        <otu id="Calorophuselongatus" label="Calorophus elongatus" />
+        <otu id="Lepyrodiaglauca" label="Lepyrodia glauca" />
+        <otu id="Sporadanthustasmanicus" label="Sporadanthus tasmanicus" />
+        <otu id="Eurychordacomplanata" label="Eurychorda complanata" />
+        <otu id="Baloskiongracile" label="Baloskion gracile" />
+        <otu id="Dapsilanthusramosus" label="Dapsilanthus ramosus" />
+        <otu id="Chaetanthusaristatus" label="Chaetanthus aristatus" />
+        <otu id="Meeboldinacoangustata" label="Meeboldina coangustata" />
+        <otu id="Leptocarpustenax" label="Leptocarpus tenax" />
+        <otu id="Alexgeorgeaganopoda" label="Alexgeorgea ganopoda" />
+        <otu id="Winifrediasola" label="Winifredia sola" />
+        <otu id="Taraxisgrossa" label="Taraxis grossa" />
+        <otu id="Empodismaminus" label="Empodisma minus" />
+        <otu id="Loxocaryagigas" label="Loxocarya gigas" />
+        <otu id="Melanostachyaustulata" label="Melanostachya ustulata" />
+        <otu id="Coleocaryagracilis" label="Coleocarya gracilis" />
+        <otu id="Desmocladuscastaneus" label="Desmocladus castaneus" />
+        <otu id="Harperialateriflora" label="Harperia lateriflora" />
+        <otu id="Lepidoboluschaetocephalus" label="Lepidobolus chaetocephalus" />
+        <otu id="Kuliniaeludens" label="Kulinia eludens" />
+        <otu id="Dielsiastenostachya" label="Dielsia stenostachya" />
+        <otu id="Tyrbastesglaucescens" label="Tyrbastes glaucescens" />
+        <otu id="Chordifexjacksonii" label="Chordifex jacksonii" />
+        <otu id="Guringaliadimorpha" label="Guringalia dimorpha" />
+        <otu id="Acionhookeri" label="Acion hookeri" />
+        <otu id="Saropsisfastigiata" label="Saropsis fastigiata" />
+        <otu id="Tremulinatremula" label="Tremulina tremula" />
+        <otu id="Platycauloscompressus" label="Platycaulos compressus" />
+        <otu id="Restioegregius" label="Restio egregius" />
+        <otu id="Elegiacuspidata" label="Elegia cuspidata" />
+        <otu id="Elegiastipularis" label="Elegia stipularis" />
+        <otu id="Chondropetalumebracteatum" label="Chondropetalum ebracteatum" />
+        <otu id="Askidiospermaesterhuyseniae" label="Askidiosperma esterhuyseniae" />
+        <otu id="Staberohabanksii" label="Staberoha banksii" />
+        <otu id="Ischyrolepisocreata" label="Ischyrolepis ocreata" />
+        <otu id="Calopsishyalina" label="Calopsis hyalina" />
+        <otu id="Restioburchellii" label="Restio burchellii" />
+        <otu id="Restiododii" label="Restio dodii" />
+        <otu id="Calopsispaniculata" label="Calopsis paniculata" />
+        <otu id="Rhodocomacapensis" label="Rhodocoma capensis" />
+        <otu id="Thamnochortusspicigerus" label="Thamnochortus spicigerus" />
+        <otu id="Restiosimilis" label="Restio similis" />
+        <otu id="Restioquadratus" label="Restio quadratus" />
+        <otu id="Anthochortuscapensis" label="Anthochortus capensis" />
+        <otu id="Hypodiscusaristatus" label="Hypodiscus aristatus" />
+        <otu id="Ceratocaryumargenteum" label="Ceratocaryum argenteum" />
+        <otu id="Nevilleaobtussissima" label="Nevillea obtussissima" />
+    </otus>
+    <trees id="_TreesBlock651793" otus="_TaxaBlock651792">
+        <tree id="_Tree651794" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S987A2761" software="PAUP"><inputmatrix datatype="Combination" name="Restionaceae" nchar="2819" /></analysis></nex:external>
+            <node id="_Node651797" />
+            <node id="_Node651799" otu="Anarthriapolyphylla" />
+            <node id="_Node651802" />
+            <node id="_Node651804" otu="Hopkinsiaadscendens" />
+            <node id="_Node651807" otu="Lyginiabarbata" />
+            <node id="_Node651810" />
+            <node id="_Node651812" />
+            <node id="_Node651814" />
+            <node id="_Node651816" otu="Calorophuselongatus" />
+            <node id="_Node651819" otu="Lepyrodiaglauca" />
+            <node id="_Node651822" otu="Sporadanthustasmanicus" />
+            <node id="_Node651825" />
+            <node id="_Node651827" />
+            <node id="_Node651829" />
+            <node id="_Node651831" otu="Eurychordacomplanata" />
+            <node id="_Node651834" otu="Baloskiongracile" />
+            <node id="_Node651837" />
+            <node id="_Node651839" />
+            <node id="_Node651841" />
+            <node id="_Node651843" />
+            <node id="_Node651845" otu="Dapsilanthusramosus" />
+            <node id="_Node651848" otu="Chaetanthusaristatus" />
+            <node id="_Node651851" />
+            <node id="_Node651853" otu="Meeboldinacoangustata" />
+            <node id="_Node651856" otu="Leptocarpustenax" />
+            <node id="_Node651859" otu="Alexgeorgeaganopoda" />
+            <node id="_Node651862" />
+            <node id="_Node651864" otu="Winifrediasola" />
+            <node id="_Node651867" />
+            <node id="_Node651869" otu="Taraxisgrossa" />
+            <node id="_Node651872" otu="Empodismaminus" />
+            <node id="_Node651875" />
+            <node id="_Node651877" />
+            <node id="_Node651879" />
+            <node id="_Node651881" otu="Loxocaryagigas" />
+            <node id="_Node651884" otu="Melanostachyaustulata" />
+            <node id="_Node651887" />
+            <node id="_Node651889" />
+            <node id="_Node651891" otu="Coleocaryagracilis" />
+            <node id="_Node651894" otu="Desmocladuscastaneus" />
+            <node id="_Node651897" otu="Harperialateriflora" />
+            <node id="_Node651900" otu="Lepidoboluschaetocephalus" />
+            <node id="_Node651903" otu="Kuliniaeludens" />
+            <node id="_Node651906" />
+            <node id="_Node651908" otu="Dielsiastenostachya" />
+            <node id="_Node651911" otu="Tyrbastesglaucescens" />
+            <node id="_Node651914" />
+            <node id="_Node651916" otu="Chordifexjacksonii" />
+            <node id="_Node651919" />
+            <node id="_Node651921" otu="Guringaliadimorpha" />
+            <node id="_Node651924" />
+            <node id="_Node651926" otu="Acionhookeri" />
+            <node id="_Node651929" otu="Saropsisfastigiata" />
+            <node id="_Node651932" otu="Tremulinatremula" />
+            <node id="_Node651935" />
+            <node id="_Node651937" />
+            <node id="_Node651939" otu="Platycauloscompressus" />
+            <node id="_Node651942" otu="Restioegregius" />
+            <node id="_Node651945" otu="Elegiacuspidata" />
+            <node id="_Node651948" otu="Elegiastipularis" />
+            <node id="_Node651951" otu="Chondropetalumebracteatum" />
+            <node id="_Node651954" otu="Askidiospermaesterhuyseniae" />
+            <node id="_Node651957" otu="Staberohabanksii" />
+            <node id="_Node651960" otu="Ischyrolepisocreata" />
+            <node id="_Node651963" otu="Calopsishyalina" />
+            <node id="_Node651966" otu="Restioburchellii" />
+            <node id="_Node651969" />
+            <node id="_Node651971" otu="Restiododii" />
+            <node id="_Node651974" otu="Calopsispaniculata" />
+            <node id="_Node651977" otu="Rhodocomacapensis" />
+            <node id="_Node651980" otu="Thamnochortusspicigerus" />
+            <node id="_Node651983" otu="Restiosimilis" />
+            <node id="_Node651986" otu="Restioquadratus" />
+            <node id="_Node651989" />
+            <node id="_Node651991" otu="Anthochortuscapensis" />
+            <node id="_Node651994" />
+            <node id="_Node651996" />
+            <node id="_Node651998" otu="Hypodiscusaristatus" />
+            <node id="_Node652001" otu="Ceratocaryumargenteum" />
+            <node id="_Node652004" otu="Nevilleaobtussissima" />
+            <rootedge id="_Edge651798" target="_Node651797" />
+            <edge id="_Edge651800" source="_Node651797" target="_Node651799" />
+            <edge id="_Edge651803" source="_Node651797" target="_Node651802" />
+            <edge id="_Edge651805" source="_Node651802" target="_Node651804" />
+            <edge id="_Edge651808" source="_Node651802" target="_Node651807" />
+            <edge id="_Edge651811" source="_Node651797" target="_Node651810" />
+            <edge id="_Edge651813" source="_Node651810" target="_Node651812" />
+            <edge id="_Edge651815" source="_Node651812" target="_Node651814" />
+            <edge id="_Edge651817" source="_Node651814" target="_Node651816" />
+            <edge id="_Edge651820" source="_Node651814" target="_Node651819" />
+            <edge id="_Edge651823" source="_Node651814" target="_Node651822" />
+            <edge id="_Edge651826" source="_Node651812" target="_Node651825" />
+            <edge id="_Edge651828" source="_Node651825" target="_Node651827" />
+            <edge id="_Edge651830" source="_Node651827" target="_Node651829" />
+            <edge id="_Edge651832" source="_Node651829" target="_Node651831" />
+            <edge id="_Edge651835" source="_Node651829" target="_Node651834" />
+            <edge id="_Edge651838" source="_Node651827" target="_Node651837" />
+            <edge id="_Edge651840" source="_Node651837" target="_Node651839" />
+            <edge id="_Edge651842" source="_Node651839" target="_Node651841" />
+            <edge id="_Edge651844" source="_Node651841" target="_Node651843" />
+            <edge id="_Edge651846" source="_Node651843" target="_Node651845" />
+            <edge id="_Edge651849" source="_Node651843" target="_Node651848" />
+            <edge id="_Edge651852" source="_Node651841" target="_Node651851" />
+            <edge id="_Edge651854" source="_Node651851" target="_Node651853" />
+            <edge id="_Edge651857" source="_Node651851" target="_Node651856" />
+            <edge id="_Edge651860" source="_Node651839" target="_Node651859" />
+            <edge id="_Edge651863" source="_Node651837" target="_Node651862" />
+            <edge id="_Edge651865" source="_Node651862" target="_Node651864" />
+            <edge id="_Edge651868" source="_Node651862" target="_Node651867" />
+            <edge id="_Edge651870" source="_Node651867" target="_Node651869" />
+            <edge id="_Edge651873" source="_Node651867" target="_Node651872" />
+            <edge id="_Edge651876" source="_Node651825" target="_Node651875" />
+            <edge id="_Edge651878" source="_Node651875" target="_Node651877" />
+            <edge id="_Edge651880" source="_Node651877" target="_Node651879" />
+            <edge id="_Edge651882" source="_Node651879" target="_Node651881" />
+            <edge id="_Edge651885" source="_Node651879" target="_Node651884" />
+            <edge id="_Edge651888" source="_Node651877" target="_Node651887" />
+            <edge id="_Edge651890" source="_Node651887" target="_Node651889" />
+            <edge id="_Edge651892" source="_Node651889" target="_Node651891" />
+            <edge id="_Edge651895" source="_Node651889" target="_Node651894" />
+            <edge id="_Edge651898" source="_Node651889" target="_Node651897" />
+            <edge id="_Edge651901" source="_Node651887" target="_Node651900" />
+            <edge id="_Edge651904" source="_Node651887" target="_Node651903" />
+            <edge id="_Edge651907" source="_Node651877" target="_Node651906" />
+            <edge id="_Edge651909" source="_Node651906" target="_Node651908" />
+            <edge id="_Edge651912" source="_Node651906" target="_Node651911" />
+            <edge id="_Edge651915" source="_Node651877" target="_Node651914" />
+            <edge id="_Edge651917" source="_Node651914" target="_Node651916" />
+            <edge id="_Edge651920" source="_Node651914" target="_Node651919" />
+            <edge id="_Edge651922" source="_Node651919" target="_Node651921" />
+            <edge id="_Edge651925" source="_Node651919" target="_Node651924" />
+            <edge id="_Edge651927" source="_Node651924" target="_Node651926" />
+            <edge id="_Edge651930" source="_Node651924" target="_Node651929" />
+            <edge id="_Edge651933" source="_Node651875" target="_Node651932" />
+            <edge id="_Edge651936" source="_Node651810" target="_Node651935" />
+            <edge id="_Edge651938" source="_Node651935" target="_Node651937" />
+            <edge id="_Edge651940" source="_Node651937" target="_Node651939" />
+            <edge id="_Edge651943" source="_Node651937" target="_Node651942" />
+            <edge id="_Edge651946" source="_Node651937" target="_Node651945" />
+            <edge id="_Edge651949" source="_Node651937" target="_Node651948" />
+            <edge id="_Edge651952" source="_Node651937" target="_Node651951" />
+            <edge id="_Edge651955" source="_Node651937" target="_Node651954" />
+            <edge id="_Edge651958" source="_Node651937" target="_Node651957" />
+            <edge id="_Edge651961" source="_Node651937" target="_Node651960" />
+            <edge id="_Edge651964" source="_Node651937" target="_Node651963" />
+            <edge id="_Edge651967" source="_Node651937" target="_Node651966" />
+            <edge id="_Edge651970" source="_Node651937" target="_Node651969" />
+            <edge id="_Edge651972" source="_Node651969" target="_Node651971" />
+            <edge id="_Edge651975" source="_Node651969" target="_Node651974" />
+            <edge id="_Edge651978" source="_Node651937" target="_Node651977" />
+            <edge id="_Edge651981" source="_Node651937" target="_Node651980" />
+            <edge id="_Edge651984" source="_Node651937" target="_Node651983" />
+            <edge id="_Edge651987" source="_Node651937" target="_Node651986" />
+            <edge id="_Edge651990" source="_Node651935" target="_Node651989" />
+            <edge id="_Edge651992" source="_Node651989" target="_Node651991" />
+            <edge id="_Edge651995" source="_Node651989" target="_Node651994" />
+            <edge id="_Edge651997" source="_Node651994" target="_Node651996" />
+            <edge id="_Edge651999" source="_Node651996" target="_Node651998" />
+            <edge id="_Edge652002" source="_Node651996" target="_Node652001" />
+            <edge id="_Edge652005" source="_Node651994" target="_Node652004" />
+        </tree>
+    </trees>
+</nex:nexml>

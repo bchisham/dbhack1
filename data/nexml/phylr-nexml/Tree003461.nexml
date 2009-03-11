@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1494"><citation>Stewart, J.E., Kim, M.-S., James, R.L., Dumerose, R.K., and N.B. Klopfenstein. 2006. Molecular characterizion of highly pathogenic F. oxysporum from a conifer nursery. Phytopathology, in press.</citation><author email="kdumroses@fs.fed.us" firstname="R. Kasten" lastname="Dumroese" /><author email="rjames@fs.fed.us" firstname="Robert L." lastname="James" /><author email="mkim@fs.fed.us" firstname="Mee-Sook" lastname="Kim" /><author email="nklopfenstein@fs.fed.us" firstname="Ned B." lastname="Klopfenstein" /><author email="janestewart@fs.fed.us" firstname="Jane E. " lastname="Stewart" /></study></nex:external>
+    <otus id="_TaxaBlock1187188">
+        <otu id="FusariumredolensNRRL31255" label="Fusarium redolens NRRL31255" />
+        <otu id="Fusariumprolifertum9223F" label="Fusarium prolifertum 9223F" />
+        <otu id="Fusariumprolifertum9721B" label="Fusarium prolifertum 9721B" />
+        <otu id="Fusariumoxysporum9245H" label="Fusarium oxysporum 9245H" />
+        <otu id="Fusariumoxysporum9447J" label="Fusarium oxysporum 9447J" />
+        <otu id="Fusariumoxysporum9449A" label="Fusarium oxysporum 9449A" />
+        <otu id="Fusariumoxysporum9312D" label="Fusarium oxysporum 9312D" />
+        <otu id="Fusariumoxysporum9313Q" label="Fusarium oxysporum 9313Q" />
+        <otu id="Fusariumoxysporum9302G" label="Fusarium oxysporum 9302G" />
+        <otu id="Fusariumoxysporum9448M" label="Fusarium oxysporum 9448M" />
+        <otu id="Fusariumoxysporum9302A" label="Fusarium oxysporum 9302A" />
+        <otu id="Fusariumoxysporum9458B" label="Fusarium oxysporum 9458B" />
+        <otu id="Fusariumoxysporum9315G" label="Fusarium oxysporum 9315G" />
+        <otu id="Fusariumoxysporum9343E" label="Fusarium oxysporum 9343E" />
+        <otu id="Fusariumoxysporum9348F" label="Fusarium oxysporum 9348F" />
+        <otu id="Fusariumoxysporum9411B" label="Fusarium oxysporum 9411B" />
+        <otu id="Fusariumlycopersici0350" label="Fusarium lycopersici 0350" />
+        <otu id="Fusariumoxysporum9665J" label="Fusarium oxysporum 9665J" />
+        <otu id="Fusariummelonis0348" label="Fusarium melonis 0348" />
+        <otu id="Fusariumoxysporum9302E" label="Fusarium oxysporum 9302E" />
+    </otus>
+    <trees id="_TreesBlock1187189" otus="_TaxaBlock1187188">
+        <tree id="_Tree1187190" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1494A5458" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Fig 4 Stewart et al" nchar="661" /></analysis></nex:external>
+            <node id="_Node1187193" />
+            <node id="_Node1187195" otu="FusariumredolensNRRL31255" />
+            <node id="_Node1187198" />
+            <node id="_Node1187200" />
+            <node id="_Node1187202" otu="Fusariumprolifertum9223F" />
+            <node id="_Node1187205" otu="Fusariumprolifertum9721B" />
+            <node id="_Node1187208" />
+            <node id="_Node1187210" />
+            <node id="_Node1187212" otu="Fusariumoxysporum9245H" />
+            <node id="_Node1187215" otu="Fusariumoxysporum9447J" />
+            <node id="_Node1187218" otu="Fusariumoxysporum9449A" />
+            <node id="_Node1187221" />
+            <node id="_Node1187223" />
+            <node id="_Node1187225" otu="Fusariumoxysporum9312D" />
+            <node id="_Node1187228" otu="Fusariumoxysporum9313Q" />
+            <node id="_Node1187231" otu="Fusariumoxysporum9302G" />
+            <node id="_Node1187234" />
+            <node id="_Node1187236" otu="Fusariumoxysporum9448M" />
+            <node id="_Node1187239" otu="Fusariumoxysporum9302A" />
+            <node id="_Node1187242" otu="Fusariumoxysporum9458B" />
+            <node id="_Node1187245" />
+            <node id="_Node1187247" />
+            <node id="_Node1187249" />
+            <node id="_Node1187251" />
+            <node id="_Node1187253" />
+            <node id="_Node1187255" />
+            <node id="_Node1187257" otu="Fusariumoxysporum9315G" />
+            <node id="_Node1187260" otu="Fusariumoxysporum9343E" />
+            <node id="_Node1187263" otu="Fusariumoxysporum9348F" />
+            <node id="_Node1187266" otu="Fusariumoxysporum9411B" />
+            <node id="_Node1187269" otu="Fusariumlycopersici0350" />
+            <node id="_Node1187272" />
+            <node id="_Node1187274" otu="Fusariumoxysporum9665J" />
+            <node id="_Node1187277" otu="Fusariummelonis0348" />
+            <node id="_Node1187280" otu="Fusariumoxysporum9302E" />
+            <rootedge id="_Edge1187194" target="_Node1187193" />
+            <edge id="_Edge1187196" source="_Node1187193" target="_Node1187195" />
+            <edge id="_Edge1187199" source="_Node1187193" target="_Node1187198" />
+            <edge id="_Edge1187201" source="_Node1187198" target="_Node1187200" />
+            <edge id="_Edge1187203" source="_Node1187200" target="_Node1187202" />
+            <edge id="_Edge1187206" source="_Node1187200" target="_Node1187205" />
+            <edge id="_Edge1187209" source="_Node1187198" target="_Node1187208" />
+            <edge id="_Edge1187211" source="_Node1187208" target="_Node1187210" />
+            <edge id="_Edge1187213" source="_Node1187210" target="_Node1187212" />
+            <edge id="_Edge1187216" source="_Node1187210" target="_Node1187215" />
+            <edge id="_Edge1187219" source="_Node1187210" target="_Node1187218" />
+            <edge id="_Edge1187222" source="_Node1187208" target="_Node1187221" />
+            <edge id="_Edge1187224" source="_Node1187221" target="_Node1187223" />
+            <edge id="_Edge1187226" source="_Node1187223" target="_Node1187225" />
+            <edge id="_Edge1187229" source="_Node1187223" target="_Node1187228" />
+            <edge id="_Edge1187232" source="_Node1187223" target="_Node1187231" />
+            <edge id="_Edge1187235" source="_Node1187223" target="_Node1187234" />
+            <edge id="_Edge1187237" source="_Node1187234" target="_Node1187236" />
+            <edge id="_Edge1187240" source="_Node1187234" target="_Node1187239" />
+            <edge id="_Edge1187243" source="_Node1187221" target="_Node1187242" />
+            <edge id="_Edge1187246" source="_Node1187193" target="_Node1187245" />
+            <edge id="_Edge1187248" source="_Node1187245" target="_Node1187247" />
+            <edge id="_Edge1187250" source="_Node1187247" target="_Node1187249" />
+            <edge id="_Edge1187252" source="_Node1187249" target="_Node1187251" />
+            <edge id="_Edge1187254" source="_Node1187251" target="_Node1187253" />
+            <edge id="_Edge1187256" source="_Node1187253" target="_Node1187255" />
+            <edge id="_Edge1187258" source="_Node1187255" target="_Node1187257" />
+            <edge id="_Edge1187261" source="_Node1187255" target="_Node1187260" />
+            <edge id="_Edge1187264" source="_Node1187253" target="_Node1187263" />
+            <edge id="_Edge1187267" source="_Node1187251" target="_Node1187266" />
+            <edge id="_Edge1187270" source="_Node1187249" target="_Node1187269" />
+            <edge id="_Edge1187273" source="_Node1187247" target="_Node1187272" />
+            <edge id="_Edge1187275" source="_Node1187272" target="_Node1187274" />
+            <edge id="_Edge1187278" source="_Node1187272" target="_Node1187277" />
+            <edge id="_Edge1187281" source="_Node1187245" target="_Node1187280" />
+        </tree>
+    </trees>
+</nex:nexml>

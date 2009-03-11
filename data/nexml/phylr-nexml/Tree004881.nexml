@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S2052"><citation>Ota, Y. and T. Hattori. 2008. Relationships among three Japanese Laetiporus taxa based on phylogenetic analysis and incompatibility tests. Mycoscience, in press.</citation><author email="hattori@ffpri.affrc.go.jp" firstname="Tsutomu" lastname="Hattori" /><author email="yuota@ffpri.affrc.go.jp" firstname="Yuko " lastname="Ota" /></study></nex:external>
+    <otus id="_TaxaBlock1865275">
+        <otu id="Laetiporussulphureusvar.sulphureusauct.jap.WD820" label="Laetiporus sulphureus var. sulphureus auct. jap. WD820" />
+        <otu id="Laetiporussulphureusvar.sulphureusauct.jap.L97a" label="Laetiporus sulphureus var. sulphureus auct. jap. L97a" />
+        <otu id="Laetiporussulphureusvar.sulphureusauct.jap.L85s1" label="Laetiporus sulphureus var. sulphureus auct. jap. L85s1" />
+        <otu id="LaetiporusversisporusWD153" label="Laetiporus versisporus WD153" />
+        <otu id="LaetiporusversisporusL5" label="Laetiporus versisporus L5" />
+        <otu id="Laetiporussulphureusvar.sulphureusauct.jap.L54s7" label="Laetiporus sulphureus var. sulphureus auct. jap. L54s7" />
+        <otu id="Laetiporussulphureusvar.sulphureusauct.jap.L68s6" label="Laetiporus sulphureus var. sulphureus auct. jap. L68s6" />
+        <otu id="Laetiporussulphureusvar.sulphureusauct.jap.L97b" label="Laetiporus sulphureus var. sulphureus auct. jap. L97b" />
+        <otu id="Laetiporussulphureusvar.sulphureusauct.jap.L50s5" label="Laetiporus sulphureus var. sulphureus auct. jap. L50s5" />
+        <otu id="Laetiporussulphureusvar.sulphureusauct.jap.L90s3" label="Laetiporus sulphureus var. sulphureus auct. jap. L90s3" />
+        <otu id="Laetiporussulphureusvar.miniatusWD1058" label="Laetiporus sulphureus var. miniatus WD1058" />
+        <otu id="Laetiporussulphureusvar.miniatusFH1206" label="Laetiporus sulphureus var. miniatus FH1206" />
+        <otu id="Laetiporussulphureusvar.miniatusL23s4" label="Laetiporus sulphureus var. miniatus L23s4" />
+        <otu id="Laetiporussulphureusvar.miniatusL27s4" label="Laetiporus sulphureus var. miniatus L27s4" />
+        <otu id="Laetiporussulphureusvar.miniatusFH1019" label="Laetiporus sulphureus var. miniatus FH1019" />
+        <otu id="Laetiporussulphureusvar.miniatusL114s1" label="Laetiporus sulphureus var. miniatus L114s1" />
+        <otu id="Laetiporussulphureusvar.miniatusFH1122" label="Laetiporus sulphureus var. miniatus FH1122" />
+        <otu id="Laetiporussulphureusvar.miniatusL24" label="Laetiporus sulphureus var. miniatus L24" />
+        <otu id="Laetiporussulphureusvar.miniatusL67s5" label="Laetiporus sulphureus var. miniatus L67s5" />
+        <otu id="Laetiporussulphureusvar.miniatusL72s1" label="Laetiporus sulphureus var. miniatus L72s1" />
+        <otu id="Laetiporussulphureusvar.miniatusL34s2" label="Laetiporus sulphureus var. miniatus L34s2" />
+        <otu id="Laetiporussulphureusvar.miniatusL43s4" label="Laetiporus sulphureus var. miniatus L43s4" />
+    </otus>
+    <trees id="_TreesBlock1865276" otus="_TaxaBlock1865275">
+        <tree id="_Tree1865277" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="neighbor joining" id="S2052A8470" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="btub" nchar="419" /></analysis></nex:external>
+            <node id="_Node1865280" />
+            <node id="_Node1865282" />
+            <node id="_Node1865284" />
+            <node id="_Node1865286" />
+            <node id="_Node1865288" otu="Laetiporussulphureusvar.sulphureusauct.jap.WD820" />
+            <node id="_Node1865291" otu="Laetiporussulphureusvar.sulphureusauct.jap.L97a" />
+            <node id="_Node1865294" otu="Laetiporussulphureusvar.sulphureusauct.jap.L85s1" />
+            <node id="_Node1865297" />
+            <node id="_Node1865299" otu="LaetiporusversisporusWD153" />
+            <node id="_Node1865302" otu="LaetiporusversisporusL5" />
+            <node id="_Node1865305" />
+            <node id="_Node1865307" />
+            <node id="_Node1865309" />
+            <node id="_Node1865311" />
+            <node id="_Node1865313" otu="Laetiporussulphureusvar.sulphureusauct.jap.L54s7" />
+            <node id="_Node1865316" otu="Laetiporussulphureusvar.sulphureusauct.jap.L68s6" />
+            <node id="_Node1865319" otu="Laetiporussulphureusvar.sulphureusauct.jap.L97b" />
+            <node id="_Node1865322" />
+            <node id="_Node1865324" />
+            <node id="_Node1865326" otu="Laetiporussulphureusvar.sulphureusauct.jap.L50s5" />
+            <node id="_Node1865329" otu="Laetiporussulphureusvar.sulphureusauct.jap.L90s3" />
+            <node id="_Node1865332" />
+            <node id="_Node1865334" />
+            <node id="_Node1865336" />
+            <node id="_Node1865338" otu="Laetiporussulphureusvar.miniatusWD1058" />
+            <node id="_Node1865341" otu="Laetiporussulphureusvar.miniatusFH1206" />
+            <node id="_Node1865344" />
+            <node id="_Node1865346" otu="Laetiporussulphureusvar.miniatusL23s4" />
+            <node id="_Node1865349" otu="Laetiporussulphureusvar.miniatusL27s4" />
+            <node id="_Node1865352" />
+            <node id="_Node1865354" otu="Laetiporussulphureusvar.miniatusFH1019" />
+            <node id="_Node1865357" otu="Laetiporussulphureusvar.miniatusL114s1" />
+            <node id="_Node1865360" />
+            <node id="_Node1865362" />
+            <node id="_Node1865364" />
+            <node id="_Node1865366" />
+            <node id="_Node1865368" />
+            <node id="_Node1865370" otu="Laetiporussulphureusvar.miniatusFH1122" />
+            <node id="_Node1865373" otu="Laetiporussulphureusvar.miniatusL24" />
+            <node id="_Node1865376" otu="Laetiporussulphureusvar.miniatusL67s5" />
+            <node id="_Node1865379" otu="Laetiporussulphureusvar.miniatusL72s1" />
+            <node id="_Node1865382" otu="Laetiporussulphureusvar.miniatusL34s2" />
+            <node id="_Node1865385" otu="Laetiporussulphureusvar.miniatusL43s4" />
+            <rootedge id="_Edge1865281" target="_Node1865280" />
+            <edge id="_Edge1865283" source="_Node1865280" target="_Node1865282" />
+            <edge id="_Edge1865285" source="_Node1865282" target="_Node1865284" />
+            <edge id="_Edge1865287" source="_Node1865284" target="_Node1865286" />
+            <edge id="_Edge1865289" source="_Node1865286" target="_Node1865288" />
+            <edge id="_Edge1865292" source="_Node1865286" target="_Node1865291" />
+            <edge id="_Edge1865295" source="_Node1865284" target="_Node1865294" />
+            <edge id="_Edge1865298" source="_Node1865282" target="_Node1865297" />
+            <edge id="_Edge1865300" source="_Node1865297" target="_Node1865299" />
+            <edge id="_Edge1865303" source="_Node1865297" target="_Node1865302" />
+            <edge id="_Edge1865306" source="_Node1865280" target="_Node1865305" />
+            <edge id="_Edge1865308" source="_Node1865305" target="_Node1865307" />
+            <edge id="_Edge1865310" source="_Node1865307" target="_Node1865309" />
+            <edge id="_Edge1865312" source="_Node1865309" target="_Node1865311" />
+            <edge id="_Edge1865314" source="_Node1865311" target="_Node1865313" />
+            <edge id="_Edge1865317" source="_Node1865311" target="_Node1865316" />
+            <edge id="_Edge1865320" source="_Node1865309" target="_Node1865319" />
+            <edge id="_Edge1865323" source="_Node1865307" target="_Node1865322" />
+            <edge id="_Edge1865325" source="_Node1865322" target="_Node1865324" />
+            <edge id="_Edge1865327" source="_Node1865324" target="_Node1865326" />
+            <edge id="_Edge1865330" source="_Node1865324" target="_Node1865329" />
+            <edge id="_Edge1865333" source="_Node1865322" target="_Node1865332" />
+            <edge id="_Edge1865335" source="_Node1865332" target="_Node1865334" />
+            <edge id="_Edge1865337" source="_Node1865334" target="_Node1865336" />
+            <edge id="_Edge1865339" source="_Node1865336" target="_Node1865338" />
+            <edge id="_Edge1865342" source="_Node1865336" target="_Node1865341" />
+            <edge id="_Edge1865345" source="_Node1865334" target="_Node1865344" />
+            <edge id="_Edge1865347" source="_Node1865344" target="_Node1865346" />
+            <edge id="_Edge1865350" source="_Node1865344" target="_Node1865349" />
+            <edge id="_Edge1865353" source="_Node1865332" target="_Node1865352" />
+            <edge id="_Edge1865355" source="_Node1865352" target="_Node1865354" />
+            <edge id="_Edge1865358" source="_Node1865352" target="_Node1865357" />
+            <edge id="_Edge1865361" source="_Node1865305" target="_Node1865360" />
+            <edge id="_Edge1865363" source="_Node1865360" target="_Node1865362" />
+            <edge id="_Edge1865365" source="_Node1865362" target="_Node1865364" />
+            <edge id="_Edge1865367" source="_Node1865364" target="_Node1865366" />
+            <edge id="_Edge1865369" source="_Node1865366" target="_Node1865368" />
+            <edge id="_Edge1865371" source="_Node1865368" target="_Node1865370" />
+            <edge id="_Edge1865374" source="_Node1865368" target="_Node1865373" />
+            <edge id="_Edge1865377" source="_Node1865366" target="_Node1865376" />
+            <edge id="_Edge1865380" source="_Node1865364" target="_Node1865379" />
+            <edge id="_Edge1865383" source="_Node1865362" target="_Node1865382" />
+            <edge id="_Edge1865386" source="_Node1865360" target="_Node1865385" />
+        </tree>
+    </trees>
+</nex:nexml>

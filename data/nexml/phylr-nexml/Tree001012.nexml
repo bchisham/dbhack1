@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S464"><citation>Abeln, E. C. A., M. A. de Pagter, and G. J. M. Verkley. 2000. Phylogeny of Pezicula, Dermea and Neofabraea inferred from partial sequences of the nuclear ribosomal RNA gene cluster. Mycologia, in press.</citation><author email="abeln@cbs.knaw.nl" firstname="Edwin C.A." lastname="Abeln" /><author email="dePagter@cbs.knaw.nl" firstname="Marian A." lastname="de Pagter" /><author firstname="Gerard J.M." lastname="Verkley" /></study></nex:external>
+    <otus id="_TaxaBlock227453">
+        <otu id="Peziculamalicorticis355.72" label="Pezicula malicorticis 355.72" />
+        <otu id="Peziculamalicorticis141.22" label="Pezicula malicorticis 141.22" />
+        <otu id="Ocellariaocellata267.39" label="Ocellaria ocellata 267.39" />
+        <otu id="Peziculacarpinea921.96" label="Pezicula carpinea 921.96" />
+        <otu id="Peziculacorylina243.38" label="Pezicula corylina 243.38" />
+        <otu id="Dermeaariae134.46" label="Dermea ariae 134.46" />
+        <otu id="Dermeacerasi136.46" label="Dermea cerasi 136.46" />
+        <otu id="Calycellinapunctata" label="Calycellina punctata" />
+        <otu id="Peziculaalnicola474.97" label="Pezicula alnicola 474.97" />
+        <otu id="Microscyphaellisii" label="Microscypha ellisii" />
+        <otu id="Pycnopezizasympodialis" label="Pycnopeziza sympodialis" />
+        <otu id="Sclerotiniasclerotiorum" label="Sclerotinia sclerotiorum" />
+        <otu id="Myriosclerotiniascirpicola" label="Myriosclerotinia scirpicola" />
+        <otu id="Poculumhenningsianum" label="Poculum henningsianum" />
+        <otu id="Scleromitrulacalthicola" label="Scleromitrula calthicola" />
+        <otu id="Trichopezizellanidulus" label="Trichopezizella nidulus" />
+        <otu id="Neodasyscyphacerina" label="Neodasyscypha cerina" />
+        <otu id="Proliferodiscusalboviridis" label="Proliferodiscus alboviridis" />
+        <otu id="Solenopeziasolenia" label="Solenopezia solenia" />
+        <otu id="Lachnumnudipes" label="Lachnum nudipes" />
+    </otus>
+    <trees id="_TreesBlock227454" otus="_TaxaBlock227453">
+        <tree id="_Tree227455" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S464A601" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Fig. 3" nchar="544" /></analysis></nex:external>
+            <node id="_Node227458" />
+            <node id="_Node227460" />
+            <node id="_Node227462" />
+            <node id="_Node227464" />
+            <node id="_Node227466" otu="Peziculamalicorticis355.72" />
+            <node id="_Node227469" otu="Peziculamalicorticis141.22" />
+            <node id="_Node227472" />
+            <node id="_Node227474" />
+            <node id="_Node227476" otu="Ocellariaocellata267.39" />
+            <node id="_Node227479" />
+            <node id="_Node227481" otu="Peziculacarpinea921.96" />
+            <node id="_Node227484" otu="Peziculacorylina243.38" />
+            <node id="_Node227487" />
+            <node id="_Node227489" otu="Dermeaariae134.46" />
+            <node id="_Node227492" otu="Dermeacerasi136.46" />
+            <node id="_Node227495" />
+            <node id="_Node227497" />
+            <node id="_Node227499" />
+            <node id="_Node227501" otu="Calycellinapunctata" />
+            <node id="_Node227504" otu="Peziculaalnicola474.97" />
+            <node id="_Node227507" otu="Microscyphaellisii" />
+            <node id="_Node227510" />
+            <node id="_Node227512" />
+            <node id="_Node227514" otu="Pycnopezizasympodialis" />
+            <node id="_Node227517" />
+            <node id="_Node227519" otu="Sclerotiniasclerotiorum" />
+            <node id="_Node227522" otu="Myriosclerotiniascirpicola" />
+            <node id="_Node227525" otu="Poculumhenningsianum" />
+            <node id="_Node227528" otu="Scleromitrulacalthicola" />
+            <node id="_Node227531" />
+            <node id="_Node227533" otu="Trichopezizellanidulus" />
+            <node id="_Node227536" otu="Neodasyscyphacerina" />
+            <node id="_Node227539" otu="Proliferodiscusalboviridis" />
+            <node id="_Node227542" otu="Solenopeziasolenia" />
+            <node id="_Node227545" otu="Lachnumnudipes" />
+            <rootedge id="_Edge227459" target="_Node227458" />
+            <edge id="_Edge227461" source="_Node227458" target="_Node227460" />
+            <edge id="_Edge227463" source="_Node227460" target="_Node227462" />
+            <edge id="_Edge227465" source="_Node227462" target="_Node227464" />
+            <edge id="_Edge227467" source="_Node227464" target="_Node227466" />
+            <edge id="_Edge227470" source="_Node227464" target="_Node227469" />
+            <edge id="_Edge227473" source="_Node227462" target="_Node227472" />
+            <edge id="_Edge227475" source="_Node227472" target="_Node227474" />
+            <edge id="_Edge227477" source="_Node227474" target="_Node227476" />
+            <edge id="_Edge227480" source="_Node227474" target="_Node227479" />
+            <edge id="_Edge227482" source="_Node227479" target="_Node227481" />
+            <edge id="_Edge227485" source="_Node227479" target="_Node227484" />
+            <edge id="_Edge227488" source="_Node227472" target="_Node227487" />
+            <edge id="_Edge227490" source="_Node227487" target="_Node227489" />
+            <edge id="_Edge227493" source="_Node227487" target="_Node227492" />
+            <edge id="_Edge227496" source="_Node227460" target="_Node227495" />
+            <edge id="_Edge227498" source="_Node227495" target="_Node227497" />
+            <edge id="_Edge227500" source="_Node227497" target="_Node227499" />
+            <edge id="_Edge227502" source="_Node227499" target="_Node227501" />
+            <edge id="_Edge227505" source="_Node227499" target="_Node227504" />
+            <edge id="_Edge227508" source="_Node227497" target="_Node227507" />
+            <edge id="_Edge227511" source="_Node227495" target="_Node227510" />
+            <edge id="_Edge227513" source="_Node227510" target="_Node227512" />
+            <edge id="_Edge227515" source="_Node227512" target="_Node227514" />
+            <edge id="_Edge227518" source="_Node227512" target="_Node227517" />
+            <edge id="_Edge227520" source="_Node227517" target="_Node227519" />
+            <edge id="_Edge227523" source="_Node227517" target="_Node227522" />
+            <edge id="_Edge227526" source="_Node227510" target="_Node227525" />
+            <edge id="_Edge227529" source="_Node227510" target="_Node227528" />
+            <edge id="_Edge227532" source="_Node227458" target="_Node227531" />
+            <edge id="_Edge227534" source="_Node227531" target="_Node227533" />
+            <edge id="_Edge227537" source="_Node227531" target="_Node227536" />
+            <edge id="_Edge227540" source="_Node227531" target="_Node227539" />
+            <edge id="_Edge227543" source="_Node227531" target="_Node227542" />
+            <edge id="_Edge227546" source="_Node227531" target="_Node227545" />
+        </tree>
+    </trees>
+</nex:nexml>

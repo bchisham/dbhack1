@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S536"><citation>Schultheis, L.M. 2000. Systematics of Downingia (Campanulaceae) based on molecular sequence data: implications for floral and chromosome evolution. Systematic Botany, in press.</citation><author email="schultheislisa@foothill.edu" firstname="Lisa M." lastname="Schultheis" /></study></nex:external>
+    <otus id="_TaxaBlock275804">
+        <otu id="Downingiabicornutab" label="Downingia bicornuta b" />
+        <otu id="Downingiabicornutaa" label="Downingia bicornuta a" />
+        <otu id="Downingiabicornutad" label="Downingia bicornuta d" />
+        <otu id="Downingiapulchellaa" label="Downingia pulchella a" />
+        <otu id="Downingialaetab" label="Downingia laeta b" />
+        <otu id="Downingiapulchellac" label="Downingia pulchella c" />
+        <otu id="Downingialaetac" label="Downingia laeta c" />
+        <otu id="Downingiainsignisb" label="Downingia insignis b" />
+        <otu id="Downingiabellab" label="Downingia bella b" />
+        <otu id="Downingiabellad" label="Downingia bella d" />
+        <otu id="Downingiacuspidatag" label="Downingia cuspidata g" />
+        <otu id="Downingiapusillab" label="Downingia pusilla b" />
+        <otu id="Downingiacuspidatah" label="Downingia cuspidata h" />
+        <otu id="Downingiaornatissimac" label="Downingia ornatissima c" />
+        <otu id="Downingiaornatissimad" label="Downingia ornatissima d" />
+        <otu id="Downingiaelegansb" label="Downingia elegans b" />
+        <otu id="Downingiaelegansc" label="Downingia elegans c" />
+        <otu id="Downingiayinah" label="Downingia yina h" />
+        <otu id="Downingiaelegansa" label="Downingia elegans a" />
+        <otu id="Downingiayinag" label="Downingia yina g" />
+        <otu id="Downingiabacigalupiic" label="Downingia bacigalupii c" />
+        <otu id="Downingiayinaa" label="Downingia yina a" />
+        <otu id="Downingiayinab" label="Downingia yina b" />
+        <otu id="Downingiayinac" label="Downingia yina c" />
+        <otu id="Downingiabacigalupiib" label="Downingia bacigalupii b" />
+        <otu id="Downingiaconcolorb" label="Downingia concolor b" />
+        <otu id="Downingiamontanaa" label="Downingia montana a" />
+        <otu id="Downingiamontanab" label="Downingia montana b" />
+        <otu id="Porterellacarnosulaa" label="Porterella carnosula a" />
+        <otu id="Legenerelimosa" label="Legenere limosa" />
+        <otu id="Lobeliadunnii" label="Lobelia dunnii" />
+        <otu id="Lobeliatupa" label="Lobelia tupa" />
+        <otu id="Lobeliaaberdarica" label="Lobelia aberdarica" />
+        <otu id="Grammatothecabergiana" label="Grammatotheca bergiana" />
+    </otus>
+    <trees id="_TreesBlock275805" otus="_TaxaBlock275804">
+        <tree id="_Tree275806" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S536A848" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="3 trnK" nchar="458" /></analysis></nex:external>
+            <node id="_Node275809" />
+            <node id="_Node275811" />
+            <node id="_Node275813" />
+            <node id="_Node275815" />
+            <node id="_Node275817" />
+            <node id="_Node275819" />
+            <node id="_Node275821" />
+            <node id="_Node275823" />
+            <node id="_Node275825" />
+            <node id="_Node275827" otu="Downingiabicornutab" />
+            <node id="_Node275830" otu="Downingiabicornutaa" />
+            <node id="_Node275833" otu="Downingiabicornutad" />
+            <node id="_Node275836" />
+            <node id="_Node275838" />
+            <node id="_Node275840" otu="Downingiapulchellaa" />
+            <node id="_Node275843" otu="Downingialaetab" />
+            <node id="_Node275846" otu="Downingiapulchellac" />
+            <node id="_Node275849" otu="Downingialaetac" />
+            <node id="_Node275852" otu="Downingiainsignisb" />
+            <node id="_Node275855" otu="Downingiabellab" />
+            <node id="_Node275858" otu="Downingiabellad" />
+            <node id="_Node275861" />
+            <node id="_Node275863" otu="Downingiacuspidatag" />
+            <node id="_Node275866" otu="Downingiapusillab" />
+            <node id="_Node275869" otu="Downingiacuspidatah" />
+            <node id="_Node275872" />
+            <node id="_Node275874" />
+            <node id="_Node275876" />
+            <node id="_Node275878" />
+            <node id="_Node275880" otu="Downingiaornatissimac" />
+            <node id="_Node275883" otu="Downingiaornatissimad" />
+            <node id="_Node275886" />
+            <node id="_Node275888" otu="Downingiaelegansb" />
+            <node id="_Node275891" otu="Downingiaelegansc" />
+            <node id="_Node275894" otu="Downingiayinah" />
+            <node id="_Node275897" otu="Downingiaelegansa" />
+            <node id="_Node275900" otu="Downingiayinag" />
+            <node id="_Node275903" />
+            <node id="_Node275905" otu="Downingiabacigalupiic" />
+            <node id="_Node275908" otu="Downingiayinaa" />
+            <node id="_Node275911" otu="Downingiayinab" />
+            <node id="_Node275914" otu="Downingiayinac" />
+            <node id="_Node275917" otu="Downingiabacigalupiib" />
+            <node id="_Node275920" otu="Downingiaconcolorb" />
+            <node id="_Node275923" />
+            <node id="_Node275925" otu="Downingiamontanaa" />
+            <node id="_Node275928" otu="Downingiamontanab" />
+            <node id="_Node275931" otu="Porterellacarnosulaa" />
+            <node id="_Node275934" otu="Legenerelimosa" />
+            <node id="_Node275937" />
+            <node id="_Node275939" />
+            <node id="_Node275941" otu="Lobeliadunnii" />
+            <node id="_Node275944" otu="Lobeliatupa" />
+            <node id="_Node275947" otu="Lobeliaaberdarica" />
+            <node id="_Node275950" otu="Grammatothecabergiana" />
+            <rootedge id="_Edge275810" target="_Node275809" />
+            <edge id="_Edge275812" source="_Node275809" target="_Node275811" />
+            <edge id="_Edge275814" source="_Node275811" target="_Node275813" />
+            <edge id="_Edge275816" source="_Node275813" target="_Node275815" />
+            <edge id="_Edge275818" source="_Node275815" target="_Node275817" />
+            <edge id="_Edge275820" source="_Node275817" target="_Node275819" />
+            <edge id="_Edge275822" source="_Node275819" target="_Node275821" />
+            <edge id="_Edge275824" source="_Node275821" target="_Node275823" />
+            <edge id="_Edge275826" source="_Node275823" target="_Node275825" />
+            <edge id="_Edge275828" source="_Node275825" target="_Node275827" />
+            <edge id="_Edge275831" source="_Node275825" target="_Node275830" />
+            <edge id="_Edge275834" source="_Node275825" target="_Node275833" />
+            <edge id="_Edge275837" source="_Node275823" target="_Node275836" />
+            <edge id="_Edge275839" source="_Node275836" target="_Node275838" />
+            <edge id="_Edge275841" source="_Node275838" target="_Node275840" />
+            <edge id="_Edge275844" source="_Node275838" target="_Node275843" />
+            <edge id="_Edge275847" source="_Node275838" target="_Node275846" />
+            <edge id="_Edge275850" source="_Node275838" target="_Node275849" />
+            <edge id="_Edge275853" source="_Node275836" target="_Node275852" />
+            <edge id="_Edge275856" source="_Node275821" target="_Node275855" />
+            <edge id="_Edge275859" source="_Node275821" target="_Node275858" />
+            <edge id="_Edge275862" source="_Node275819" target="_Node275861" />
+            <edge id="_Edge275864" source="_Node275861" target="_Node275863" />
+            <edge id="_Edge275867" source="_Node275861" target="_Node275866" />
+            <edge id="_Edge275870" source="_Node275861" target="_Node275869" />
+            <edge id="_Edge275873" source="_Node275817" target="_Node275872" />
+            <edge id="_Edge275875" source="_Node275872" target="_Node275874" />
+            <edge id="_Edge275877" source="_Node275874" target="_Node275876" />
+            <edge id="_Edge275879" source="_Node275876" target="_Node275878" />
+            <edge id="_Edge275881" source="_Node275878" target="_Node275880" />
+            <edge id="_Edge275884" source="_Node275878" target="_Node275883" />
+            <edge id="_Edge275887" source="_Node275876" target="_Node275886" />
+            <edge id="_Edge275889" source="_Node275886" target="_Node275888" />
+            <edge id="_Edge275892" source="_Node275886" target="_Node275891" />
+            <edge id="_Edge275895" source="_Node275886" target="_Node275894" />
+            <edge id="_Edge275898" source="_Node275886" target="_Node275897" />
+            <edge id="_Edge275901" source="_Node275886" target="_Node275900" />
+            <edge id="_Edge275904" source="_Node275874" target="_Node275903" />
+            <edge id="_Edge275906" source="_Node275903" target="_Node275905" />
+            <edge id="_Edge275909" source="_Node275903" target="_Node275908" />
+            <edge id="_Edge275912" source="_Node275903" target="_Node275911" />
+            <edge id="_Edge275915" source="_Node275903" target="_Node275914" />
+            <edge id="_Edge275918" source="_Node275903" target="_Node275917" />
+            <edge id="_Edge275921" source="_Node275872" target="_Node275920" />
+            <edge id="_Edge275924" source="_Node275872" target="_Node275923" />
+            <edge id="_Edge275926" source="_Node275923" target="_Node275925" />
+            <edge id="_Edge275929" source="_Node275923" target="_Node275928" />
+            <edge id="_Edge275932" source="_Node275815" target="_Node275931" />
+            <edge id="_Edge275935" source="_Node275813" target="_Node275934" />
+            <edge id="_Edge275938" source="_Node275811" target="_Node275937" />
+            <edge id="_Edge275940" source="_Node275937" target="_Node275939" />
+            <edge id="_Edge275942" source="_Node275939" target="_Node275941" />
+            <edge id="_Edge275945" source="_Node275939" target="_Node275944" />
+            <edge id="_Edge275948" source="_Node275937" target="_Node275947" />
+            <edge id="_Edge275951" source="_Node275809" target="_Node275950" />
+        </tree>
+    </trees>
+</nex:nexml>

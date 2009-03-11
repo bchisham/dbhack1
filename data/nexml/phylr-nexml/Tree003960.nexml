@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1709"><citation>Inuma, T., S. A. Khodaparast and S. Takamatsu. 2007. Multilocus phylogenetic analyses within Blumeria graminis, a powdery mildew fungus of cereals. Mol. Phylo. Evol., in press.</citation><author firstname="Takashi" lastname="Inuma" /><author email="khodaparast@kadous.gu.ac.ir" firstname="Seyed Akbar" lastname="Khodaparast" /><author email="takamatu@bio.mie-u.ac.jp" firstname="Susumu" lastname="Takamatsu" /></study></nex:external>
+    <otus id="_TaxaBlock1424937">
+        <otu id="BlumeriagraminisexDiarrhenaMUMH92" label="Blumeria graminis ex Diarrhena MUMH92" />
+        <otu id="BlumeriagraminisexBromusAB000935" label="Blumeria graminis ex Bromus AB000935" />
+        <otu id="BlumeriagraminisexBromusMUMH3273" label="Blumeria graminis ex Bromus MUMH3273" />
+        <otu id="BlumeriagraminisexBromusAF011283" label="Blumeria graminis ex Bromus AF011283" />
+        <otu id="BlumeriagraminisexPoaMUMH123" label="Blumeria graminis ex Poa MUMH123" />
+        <otu id="BlumeriagraminisexLoliumMUMH2288" label="Blumeria graminis ex Lolium MUMH2288" />
+        <otu id="BlumeriagraminisexPoaMUMH2291" label="Blumeria graminis ex Poa MUMH2291" />
+        <otu id="BlumeriagraminisexPoaMUMH839" label="Blumeria graminis ex Poa MUMH839" />
+        <otu id="BlumeriagraminisexPoaMUMH1620" label="Blumeria graminis ex Poa MUMH1620" />
+        <otu id="BlumeriagraminisexPoaMUMH1619" label="Blumeria graminis ex Poa MUMH1619" />
+        <otu id="BlumeriagraminisexPoaMUMH1705" label="Blumeria graminis ex Poa MUMH1705" />
+        <otu id="BlumeriagraminisexPoaMUMH1040" label="Blumeria graminis ex Poa MUMH1040" />
+        <otu id="BlumeriagraminisexAperaMUMH1699" label="Blumeria graminis ex Apera MUMH1699" />
+        <otu id="BlumeriagraminisexPoaMUMH1718" label="Blumeria graminis ex Poa MUMH1718" />
+        <otu id="BlumeriagraminisexPoaMUMH1706" label="Blumeria graminis ex Poa MUMH1706" />
+        <otu id="BlumeriagraminisexPoaMUMH1725" label="Blumeria graminis ex Poa MUMH1725" />
+        <otu id="BlumeriagraminisexBromusMUMH968" label="Blumeria graminis ex Bromus MUMH968" />
+        <otu id="BlumeriagraminisexBromusMUMH1701" label="Blumeria graminis ex Bromus MUMH1701" />
+        <otu id="BlumeriagraminisexBromusMUMH1720" label="Blumeria graminis ex Bromus MUMH1720" />
+        <otu id="BlumeriagraminisexBromusMUMH1702" label="Blumeria graminis ex Bromus MUMH1702" />
+        <otu id="BlumeriagraminisexHordeumD84372" label="Blumeria graminis ex Hordeum D84372" />
+        <otu id="BlumeriagraminisexHordeumMUMH1719" label="Blumeria graminis ex Hordeum MUMH1719" />
+        <otu id="BlumeriagraminisexHordeumMUMH1722" label="Blumeria graminis ex Hordeum MUMH1722" />
+        <otu id="BlumeriagraminisexHordeumMUMH1723" label="Blumeria graminis ex Hordeum MUMH1723" />
+        <otu id="BlumeriagraminisexHordeumAF011285" label="Blumeria graminis ex Hordeum AF011285" />
+        <otu id="BlumeriagraminisexHordeumAF073352" label="Blumeria graminis ex Hordeum AF073352" />
+        <otu id="BlumeriagraminisexHordeumMUMH1704" label="Blumeria graminis ex Hordeum MUMH1704" />
+        <otu id="BlumeriagraminisexTriticumAB022377" label="Blumeria graminis ex Triticum AB022377" />
+        <otu id="BlumeriagraminisexAneurolepidiumMUMH341" label="Blumeria graminis ex Aneurolepidium MUMH341" />
+        <otu id="BlumeriagraminisexSecaleMUMH839" label="Blumeria graminis ex Secale MUMH839" />
+        <otu id="BlumeriagraminisexAgropyronMUMH1697" label="Blumeria graminis ex Agropyron MUMH1697" />
+        <otu id="BlumeriagraminisexTriticumMUMH1707" label="Blumeria graminis ex Triticum MUMH1707" />
+        <otu id="BlumeriagraminisexTriticumMUMH1708" label="Blumeria graminis ex Triticum MUMH1708" />
+        <otu id="BlumeriagraminisexTriticumMUMH1709" label="Blumeria graminis ex Triticum MUMH1709" />
+        <otu id="BlumeriagraminisexTriticumMUMH1710" label="Blumeria graminis ex Triticum MUMH1710" />
+        <otu id="BlumeriagraminisexTriticumMUMH1711" label="Blumeria graminis ex Triticum MUMH1711" />
+        <otu id="BlumeriagraminisexTriticumMUMH1712" label="Blumeria graminis ex Triticum MUMH1712" />
+        <otu id="BlumeriagraminisexTriticumMUMH1713" label="Blumeria graminis ex Triticum MUMH1713" />
+        <otu id="BlumeriagraminisexTriticumMUMH1714" label="Blumeria graminis ex Triticum MUMH1714" />
+        <otu id="BlumeriagraminisexAegilopsMUMH1717" label="Blumeria graminis ex Aegilops MUMH1717" />
+        <otu id="BlumeriagraminisexElymusMUMH1721" label="Blumeria graminis ex Elymus MUMH1721" />
+        <otu id="BlumeriagraminisexSecaleMUMH2289" label="Blumeria graminis ex Secale MUMH2289" />
+        <otu id="BlumeriagraminisexAgropyronMUMH2335" label="Blumeria graminis ex Agropyron MUMH2335" />
+        <otu id="BlumeriagraminisexAgropyronDNA158" label="Blumeria graminis ex Agropyron DNA158" />
+        <otu id="BlumeriagraminisexSecaleDNA163" label="Blumeria graminis ex Secale DNA163" />
+        <otu id="BlumeriagraminisexSecaleAF011286" label="Blumeria graminis ex Secale AF011286" />
+        <otu id="BlumeriagraminisexTriticumAF011287" label="Blumeria graminis ex Triticum AF011287" />
+        <otu id="BlumeriagraminisexBromusMUMH2192" label="Blumeria graminis ex Bromus MUMH2192" />
+        <otu id="BlumeriagraminisexDactylisMUMH815" label="Blumeria graminis ex Dactylis MUMH815" />
+        <otu id="BlumeriagraminisexLoliumMUMH903" label="Blumeria graminis ex Lolium MUMH903" />
+        <otu id="BlumeriagraminisexDactylisMUMH1621" label="Blumeria graminis ex Dactylis MUMH1621" />
+        <otu id="BlumeriagraminisexAnthoxanthumMUMH1698" label="Blumeria graminis ex Anthoxanthum MUMH1698" />
+        <otu id="BlumeriagraminisexDactylisMUMH1703" label="Blumeria graminis ex Dactylis MUMH1703" />
+        <otu id="BlumeriagraminisexDactylisglomerata" label="Blumeria graminis ex Dactylis glomerata" />
+        <otu id="BlumeriagraminisexAvenaMUMH1700" label="Blumeria graminis ex Avena MUMH1700" />
+        <otu id="BlumeriagraminisexAvenaMUMH1724" label="Blumeria graminis ex Avena MUMH1724" />
+        <otu id="BlumeriagraminisexAvenaAF011284" label="Blumeria graminis ex Avena AF011284" />
+    </otus>
+    <trees id="_TreesBlock1424938" otus="_TaxaBlock1424937">
+        <tree id="_Tree1424939" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1709A6601" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Fig. 1a" nchar="493" /></analysis></nex:external>
+            <node id="_Node1424942" />
+            <node id="_Node1424944" otu="BlumeriagraminisexDiarrhenaMUMH92" />
+            <node id="_Node1424947" />
+            <node id="_Node1424949" />
+            <node id="_Node1424951" />
+            <node id="_Node1424953" />
+            <node id="_Node1424955" />
+            <node id="_Node1424957" otu="BlumeriagraminisexBromusAB000935" />
+            <node id="_Node1424960" otu="BlumeriagraminisexBromusMUMH3273" />
+            <node id="_Node1424963" otu="BlumeriagraminisexBromusAF011283" />
+            <node id="_Node1424966" />
+            <node id="_Node1424968" />
+            <node id="_Node1424970" />
+            <node id="_Node1424972" />
+            <node id="_Node1424974" otu="BlumeriagraminisexPoaMUMH123" />
+            <node id="_Node1424977" otu="BlumeriagraminisexLoliumMUMH2288" />
+            <node id="_Node1424980" otu="BlumeriagraminisexPoaMUMH2291" />
+            <node id="_Node1424983" />
+            <node id="_Node1424985" otu="BlumeriagraminisexPoaMUMH839" />
+            <node id="_Node1424988" otu="BlumeriagraminisexPoaMUMH1620" />
+            <node id="_Node1424991" otu="BlumeriagraminisexPoaMUMH1619" />
+            <node id="_Node1424994" otu="BlumeriagraminisexPoaMUMH1705" />
+            <node id="_Node1424997" />
+            <node id="_Node1424999" otu="BlumeriagraminisexPoaMUMH1040" />
+            <node id="_Node1425002" />
+            <node id="_Node1425004" otu="BlumeriagraminisexAperaMUMH1699" />
+            <node id="_Node1425007" otu="BlumeriagraminisexPoaMUMH1718" />
+            <node id="_Node1425010" otu="BlumeriagraminisexPoaMUMH1706" />
+            <node id="_Node1425013" otu="BlumeriagraminisexPoaMUMH1725" />
+            <node id="_Node1425016" />
+            <node id="_Node1425018" />
+            <node id="_Node1425020" otu="BlumeriagraminisexBromusMUMH968" />
+            <node id="_Node1425023" />
+            <node id="_Node1425025" otu="BlumeriagraminisexBromusMUMH1701" />
+            <node id="_Node1425028" otu="BlumeriagraminisexBromusMUMH1720" />
+            <node id="_Node1425031" otu="BlumeriagraminisexBromusMUMH1702" />
+            <node id="_Node1425034" />
+            <node id="_Node1425036" />
+            <node id="_Node1425038" />
+            <node id="_Node1425040" otu="BlumeriagraminisexHordeumD84372" />
+            <node id="_Node1425043" otu="BlumeriagraminisexHordeumMUMH1719" />
+            <node id="_Node1425046" otu="BlumeriagraminisexHordeumMUMH1722" />
+            <node id="_Node1425049" otu="BlumeriagraminisexHordeumMUMH1723" />
+            <node id="_Node1425052" otu="BlumeriagraminisexHordeumAF011285" />
+            <node id="_Node1425055" otu="BlumeriagraminisexHordeumAF073352" />
+            <node id="_Node1425058" otu="BlumeriagraminisexHordeumMUMH1704" />
+            <node id="_Node1425061" />
+            <node id="_Node1425063" />
+            <node id="_Node1425065" otu="BlumeriagraminisexTriticumAB022377" />
+            <node id="_Node1425068" otu="BlumeriagraminisexAneurolepidiumMUMH341" />
+            <node id="_Node1425071" otu="BlumeriagraminisexSecaleMUMH839" />
+            <node id="_Node1425074" otu="BlumeriagraminisexAgropyronMUMH1697" />
+            <node id="_Node1425077" otu="BlumeriagraminisexTriticumMUMH1707" />
+            <node id="_Node1425080" otu="BlumeriagraminisexTriticumMUMH1708" />
+            <node id="_Node1425083" otu="BlumeriagraminisexTriticumMUMH1709" />
+            <node id="_Node1425086" otu="BlumeriagraminisexTriticumMUMH1710" />
+            <node id="_Node1425089" otu="BlumeriagraminisexTriticumMUMH1711" />
+            <node id="_Node1425092" otu="BlumeriagraminisexTriticumMUMH1712" />
+            <node id="_Node1425095" />
+            <node id="_Node1425097" otu="BlumeriagraminisexTriticumMUMH1713" />
+            <node id="_Node1425100" otu="BlumeriagraminisexTriticumMUMH1714" />
+            <node id="_Node1425103" otu="BlumeriagraminisexAegilopsMUMH1717" />
+            <node id="_Node1425106" otu="BlumeriagraminisexElymusMUMH1721" />
+            <node id="_Node1425109" otu="BlumeriagraminisexSecaleMUMH2289" />
+            <node id="_Node1425112" otu="BlumeriagraminisexAgropyronMUMH2335" />
+            <node id="_Node1425115" otu="BlumeriagraminisexAgropyronDNA158" />
+            <node id="_Node1425118" otu="BlumeriagraminisexSecaleDNA163" />
+            <node id="_Node1425121" otu="BlumeriagraminisexSecaleAF011286" />
+            <node id="_Node1425124" otu="BlumeriagraminisexTriticumAF011287" />
+            <node id="_Node1425127" otu="BlumeriagraminisexBromusMUMH2192" />
+            <node id="_Node1425130" />
+            <node id="_Node1425132" otu="BlumeriagraminisexDactylisMUMH815" />
+            <node id="_Node1425135" otu="BlumeriagraminisexLoliumMUMH903" />
+            <node id="_Node1425138" otu="BlumeriagraminisexDactylisMUMH1621" />
+            <node id="_Node1425141" otu="BlumeriagraminisexAnthoxanthumMUMH1698" />
+            <node id="_Node1425144" otu="BlumeriagraminisexDactylisMUMH1703" />
+            <node id="_Node1425147" otu="BlumeriagraminisexDactylisglomerata" />
+            <node id="_Node1425150" />
+            <node id="_Node1425152" otu="BlumeriagraminisexAvenaMUMH1700" />
+            <node id="_Node1425155" otu="BlumeriagraminisexAvenaMUMH1724" />
+            <node id="_Node1425158" otu="BlumeriagraminisexAvenaAF011284" />
+            <rootedge id="_Edge1424943" target="_Node1424942" />
+            <edge id="_Edge1424945" source="_Node1424942" target="_Node1424944" />
+            <edge id="_Edge1424948" source="_Node1424942" target="_Node1424947" />
+            <edge id="_Edge1424950" source="_Node1424947" target="_Node1424949" />
+            <edge id="_Edge1424952" source="_Node1424949" target="_Node1424951" />
+            <edge id="_Edge1424954" source="_Node1424951" target="_Node1424953" />
+            <edge id="_Edge1424956" source="_Node1424953" target="_Node1424955" />
+            <edge id="_Edge1424958" source="_Node1424955" target="_Node1424957" />
+            <edge id="_Edge1424961" source="_Node1424955" target="_Node1424960" />
+            <edge id="_Edge1424964" source="_Node1424955" target="_Node1424963" />
+            <edge id="_Edge1424967" source="_Node1424953" target="_Node1424966" />
+            <edge id="_Edge1424969" source="_Node1424966" target="_Node1424968" />
+            <edge id="_Edge1424971" source="_Node1424968" target="_Node1424970" />
+            <edge id="_Edge1424973" source="_Node1424970" target="_Node1424972" />
+            <edge id="_Edge1424975" source="_Node1424972" target="_Node1424974" />
+            <edge id="_Edge1424978" source="_Node1424972" target="_Node1424977" />
+            <edge id="_Edge1424981" source="_Node1424972" target="_Node1424980" />
+            <edge id="_Edge1424984" source="_Node1424970" target="_Node1424983" />
+            <edge id="_Edge1424986" source="_Node1424983" target="_Node1424985" />
+            <edge id="_Edge1424989" source="_Node1424983" target="_Node1424988" />
+            <edge id="_Edge1424992" source="_Node1424970" target="_Node1424991" />
+            <edge id="_Edge1424995" source="_Node1424970" target="_Node1424994" />
+            <edge id="_Edge1424998" source="_Node1424968" target="_Node1424997" />
+            <edge id="_Edge1425000" source="_Node1424997" target="_Node1424999" />
+            <edge id="_Edge1425003" source="_Node1424997" target="_Node1425002" />
+            <edge id="_Edge1425005" source="_Node1425002" target="_Node1425004" />
+            <edge id="_Edge1425008" source="_Node1425002" target="_Node1425007" />
+            <edge id="_Edge1425011" source="_Node1424997" target="_Node1425010" />
+            <edge id="_Edge1425014" source="_Node1424997" target="_Node1425013" />
+            <edge id="_Edge1425017" source="_Node1424966" target="_Node1425016" />
+            <edge id="_Edge1425019" source="_Node1425016" target="_Node1425018" />
+            <edge id="_Edge1425021" source="_Node1425018" target="_Node1425020" />
+            <edge id="_Edge1425024" source="_Node1425018" target="_Node1425023" />
+            <edge id="_Edge1425026" source="_Node1425023" target="_Node1425025" />
+            <edge id="_Edge1425029" source="_Node1425023" target="_Node1425028" />
+            <edge id="_Edge1425032" source="_Node1425016" target="_Node1425031" />
+            <edge id="_Edge1425035" source="_Node1424951" target="_Node1425034" />
+            <edge id="_Edge1425037" source="_Node1425034" target="_Node1425036" />
+            <edge id="_Edge1425039" source="_Node1425036" target="_Node1425038" />
+            <edge id="_Edge1425041" source="_Node1425038" target="_Node1425040" />
+            <edge id="_Edge1425044" source="_Node1425038" target="_Node1425043" />
+            <edge id="_Edge1425047" source="_Node1425038" target="_Node1425046" />
+            <edge id="_Edge1425050" source="_Node1425038" target="_Node1425049" />
+            <edge id="_Edge1425053" source="_Node1425038" target="_Node1425052" />
+            <edge id="_Edge1425056" source="_Node1425038" target="_Node1425055" />
+            <edge id="_Edge1425059" source="_Node1425036" target="_Node1425058" />
+            <edge id="_Edge1425062" source="_Node1425034" target="_Node1425061" />
+            <edge id="_Edge1425064" source="_Node1425061" target="_Node1425063" />
+            <edge id="_Edge1425066" source="_Node1425063" target="_Node1425065" />
+            <edge id="_Edge1425069" source="_Node1425063" target="_Node1425068" />
+            <edge id="_Edge1425072" source="_Node1425063" target="_Node1425071" />
+            <edge id="_Edge1425075" source="_Node1425063" target="_Node1425074" />
+            <edge id="_Edge1425078" source="_Node1425063" target="_Node1425077" />
+            <edge id="_Edge1425081" source="_Node1425063" target="_Node1425080" />
+            <edge id="_Edge1425084" source="_Node1425063" target="_Node1425083" />
+            <edge id="_Edge1425087" source="_Node1425063" target="_Node1425086" />
+            <edge id="_Edge1425090" source="_Node1425063" target="_Node1425089" />
+            <edge id="_Edge1425093" source="_Node1425063" target="_Node1425092" />
+            <edge id="_Edge1425096" source="_Node1425063" target="_Node1425095" />
+            <edge id="_Edge1425098" source="_Node1425095" target="_Node1425097" />
+            <edge id="_Edge1425101" source="_Node1425095" target="_Node1425100" />
+            <edge id="_Edge1425104" source="_Node1425063" target="_Node1425103" />
+            <edge id="_Edge1425107" source="_Node1425063" target="_Node1425106" />
+            <edge id="_Edge1425110" source="_Node1425063" target="_Node1425109" />
+            <edge id="_Edge1425113" source="_Node1425063" target="_Node1425112" />
+            <edge id="_Edge1425116" source="_Node1425063" target="_Node1425115" />
+            <edge id="_Edge1425119" source="_Node1425063" target="_Node1425118" />
+            <edge id="_Edge1425122" source="_Node1425063" target="_Node1425121" />
+            <edge id="_Edge1425125" source="_Node1425063" target="_Node1425124" />
+            <edge id="_Edge1425128" source="_Node1425061" target="_Node1425127" />
+            <edge id="_Edge1425131" source="_Node1424949" target="_Node1425130" />
+            <edge id="_Edge1425133" source="_Node1425130" target="_Node1425132" />
+            <edge id="_Edge1425136" source="_Node1425130" target="_Node1425135" />
+            <edge id="_Edge1425139" source="_Node1425130" target="_Node1425138" />
+            <edge id="_Edge1425142" source="_Node1425130" target="_Node1425141" />
+            <edge id="_Edge1425145" source="_Node1425130" target="_Node1425144" />
+            <edge id="_Edge1425148" source="_Node1425130" target="_Node1425147" />
+            <edge id="_Edge1425151" source="_Node1424947" target="_Node1425150" />
+            <edge id="_Edge1425153" source="_Node1425150" target="_Node1425152" />
+            <edge id="_Edge1425156" source="_Node1425150" target="_Node1425155" />
+            <edge id="_Edge1425159" source="_Node1425150" target="_Node1425158" />
+        </tree>
+    </trees>
+</nex:nexml>

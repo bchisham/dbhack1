@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1539"><citation>Thines, M., M. Goeker, O. Spring, and F. Oberwinkler. 2006. A revision of Bremia graminicola. Mycological Research, in press.</citation><author email="markus.goeker@uni-tuebingen.de" firstname="Markus" lastname="Goeker" /><author email="franz.oberwinkler@uni-tuebingen.de" firstname="Franz" lastname="Oberwinkler" /><author email="spring@uni-hohenheim.de" firstname="Otmar" lastname="Spring" /><author email="thines@uni-hohenheim.de" firstname="Marco" lastname="Thines" /></study></nex:external>
+    <otus id="_TaxaBlock1246940">
+        <otu id="Peronosporatrifoliirepentis" label="Peronospora trifolii repentis" />
+        <otu id="Peronosporatrifoliialpestris" label="Peronospora trifolii alpestris" />
+        <otu id="Peronosporatrifoliorum" label="Peronospora trifoliorum" />
+        <otu id="Peronosporaaestivalis" label="Peronospora aestivalis" />
+        <otu id="Peronosporavariabilis" label="Peronospora variabilis" />
+        <otu id="Peronosporatrivialis" label="Peronospora trivialis" />
+        <otu id="Peronosporarumicis" label="Peronospora rumicis" />
+        <otu id="Peronosporabonihenrici" label="Peronospora boni henrici" />
+        <otu id="Peronosporaalpicola" label="Peronospora alpicola" />
+        <otu id="Peronosporapulveracea" label="Peronospora pulveracea" />
+        <otu id="Peronosporahiemalis" label="Peronospora hiemalis" />
+        <otu id="Peronosporaaparines" label="Peronospora aparines" />
+        <otu id="Peronosporacalotheca" label="Peronospora calotheca" />
+        <otu id="Peronosporapotentillaesterilis" label="Peronospora potentillae sterilis" />
+        <otu id="Peronosporasanguisorbae" label="Peronospora sanguisorbae" />
+        <otu id="Pseudoperonosporahumuli" label="Pseudoperonospora humuli" />
+        <otu id="Pseudoperonosporaurticae" label="Pseudoperonospora urticae" />
+        <otu id="Peronosporaaquatica" label="Peronospora aquatica" />
+        <otu id="Peronosporaarvensis" label="Peronospora arvensis" />
+        <otu id="Peronosporaverna" label="Peronospora verna" />
+        <otu id="Peronosporaconglomerata" label="Peronospora conglomerata" />
+        <otu id="Peronosporaalta" label="Peronospora alta" />
+        <otu id="Peronosporalamii" label="Peronospora lamii" />
+        <otu id="Peronosporasordida" label="Peronospora sordida" />
+        <otu id="Phytophthorainfestans" label="Phytophthora infestans" />
+        <otu id="Phytophthoraarecae" label="Phytophthora arecae" />
+        <otu id="Phytophthoralitchii" label="Phytophthora litchii" />
+        <otu id="Plasmoparaviticola" label="Plasmopara viticola" />
+        <otu id="Plasmoparaobducens" label="Plasmopara obducens" />
+        <otu id="Plasmoparadensa" label="Plasmopara densa" />
+        <otu id="Plasmoparapusilla" label="Plasmopara pusilla" />
+        <otu id="Plasmoparanivea" label="Plasmopara nivea" />
+        <otu id="Plasmoparabaudysii" label="Plasmopara baudysii" />
+        <otu id="Plasmoparapimpinellae" label="Plasmopara pimpinellae" />
+        <otu id="Plasmoparamegasperma" label="Plasmopara megasperma" />
+        <otu id="Bremialactucae" label="Bremia lactucae" />
+        <otu id="Paraperonosporaleptosperma" label="Paraperonospora leptosperma" />
+        <otu id="Plasmovernapygmaea" label="Plasmoverna pygmaea" />
+        <otu id="Basidiophoraentospora" label="Basidiophora entospora" />
+        <otu id="Hyaloperonosporaparasiticas.str." label="Hyaloperonospora parasitica s.str." />
+        <otu id="Hyaloperonosporalunariae" label="Hyaloperonospora lunariae" />
+        <otu id="Hyaloperonosporabrassicae" label="Hyaloperonospora brassicae" />
+        <otu id="Hyaloperonosporaparasiticas.l.1" label="Hyaloperonospora parasitica s.l. 1" />
+        <otu id="Hyaloperonosporaerophilae" label="Hyaloperonospora erophilae" />
+        <otu id="Hyaloperonosporathlaspeosperfoliati" label="Hyaloperonospora thlaspeos perfoliati" />
+        <otu id="Hyaloperonosporaniessleana" label="Hyaloperonospora niessleana" />
+        <otu id="Hyaloperonosporaparasiticas.l.2" label="Hyaloperonospora parasitica s.l. 2" />
+        <otu id="Viennotiaoplismeni" label="Viennotia oplismeni" />
+        <otu id="Bremiagraminicola" label="Bremia graminicola" />
+        <otu id="Sclerosporagraminicola" label="Sclerospora graminicola" />
+        <otu id="Pythiumundulatum" label="Pythium undulatum" />
+        <otu id="Pythiummonospermum" label="Pythium monospermum" />
+    </otus>
+    <trees id="_TreesBlock1246941" otus="_TaxaBlock1246940">
+        <tree id="_Tree1246942" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1539A5660" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="LSU nrDNA" nchar="1896" /></analysis></nex:external>
+            <node id="_Node1246945" />
+            <node id="_Node1246947" />
+            <node id="_Node1246949" />
+            <node id="_Node1246951" />
+            <node id="_Node1246953" />
+            <node id="_Node1246955" />
+            <node id="_Node1246957" />
+            <node id="_Node1246959" />
+            <node id="_Node1246961" />
+            <node id="_Node1246963" />
+            <node id="_Node1246965" otu="Peronosporatrifoliirepentis" />
+            <node id="_Node1246968" otu="Peronosporatrifoliialpestris" />
+            <node id="_Node1246971" otu="Peronosporatrifoliorum" />
+            <node id="_Node1246974" otu="Peronosporaaestivalis" />
+            <node id="_Node1246977" />
+            <node id="_Node1246979" />
+            <node id="_Node1246981" otu="Peronosporavariabilis" />
+            <node id="_Node1246984" />
+            <node id="_Node1246986" otu="Peronosporatrivialis" />
+            <node id="_Node1246989" />
+            <node id="_Node1246991" otu="Peronosporarumicis" />
+            <node id="_Node1246994" otu="Peronosporabonihenrici" />
+            <node id="_Node1246997" />
+            <node id="_Node1246999" />
+            <node id="_Node1247001" otu="Peronosporaalpicola" />
+            <node id="_Node1247004" otu="Peronosporapulveracea" />
+            <node id="_Node1247007" otu="Peronosporahiemalis" />
+            <node id="_Node1247010" />
+            <node id="_Node1247012" otu="Peronosporaaparines" />
+            <node id="_Node1247015" otu="Peronosporacalotheca" />
+            <node id="_Node1247018" otu="Peronosporapotentillaesterilis" />
+            <node id="_Node1247021" />
+            <node id="_Node1247023" otu="Peronosporasanguisorbae" />
+            <node id="_Node1247026" />
+            <node id="_Node1247028" otu="Pseudoperonosporahumuli" />
+            <node id="_Node1247031" otu="Pseudoperonosporaurticae" />
+            <node id="_Node1247034" />
+            <node id="_Node1247036" />
+            <node id="_Node1247038" otu="Peronosporaaquatica" />
+            <node id="_Node1247041" />
+            <node id="_Node1247043" otu="Peronosporaarvensis" />
+            <node id="_Node1247046" otu="Peronosporaverna" />
+            <node id="_Node1247049" otu="Peronosporaconglomerata" />
+            <node id="_Node1247052" otu="Peronosporaalta" />
+            <node id="_Node1247055" otu="Peronosporalamii" />
+            <node id="_Node1247058" otu="Peronosporasordida" />
+            <node id="_Node1247061" />
+            <node id="_Node1247063" otu="Phytophthorainfestans" />
+            <node id="_Node1247066" />
+            <node id="_Node1247068" otu="Phytophthoraarecae" />
+            <node id="_Node1247071" otu="Phytophthoralitchii" />
+            <node id="_Node1247074" />
+            <node id="_Node1247076" />
+            <node id="_Node1247078" />
+            <node id="_Node1247080" />
+            <node id="_Node1247082" otu="Plasmoparaviticola" />
+            <node id="_Node1247085" />
+            <node id="_Node1247087" otu="Plasmoparaobducens" />
+            <node id="_Node1247090" otu="Plasmoparadensa" />
+            <node id="_Node1247093" />
+            <node id="_Node1247095" otu="Plasmoparapusilla" />
+            <node id="_Node1247098" />
+            <node id="_Node1247100" />
+            <node id="_Node1247102" otu="Plasmoparanivea" />
+            <node id="_Node1247105" otu="Plasmoparabaudysii" />
+            <node id="_Node1247108" otu="Plasmoparapimpinellae" />
+            <node id="_Node1247111" otu="Plasmoparamegasperma" />
+            <node id="_Node1247114" />
+            <node id="_Node1247116" />
+            <node id="_Node1247118" otu="Bremialactucae" />
+            <node id="_Node1247121" otu="Paraperonosporaleptosperma" />
+            <node id="_Node1247124" />
+            <node id="_Node1247126" otu="Plasmovernapygmaea" />
+            <node id="_Node1247129" otu="Basidiophoraentospora" />
+            <node id="_Node1247132" />
+            <node id="_Node1247134" />
+            <node id="_Node1247136" />
+            <node id="_Node1247138" />
+            <node id="_Node1247140" otu="Hyaloperonosporaparasiticas.str." />
+            <node id="_Node1247143" />
+            <node id="_Node1247145" />
+            <node id="_Node1247147" />
+            <node id="_Node1247149" />
+            <node id="_Node1247151" otu="Hyaloperonosporalunariae" />
+            <node id="_Node1247154" otu="Hyaloperonosporabrassicae" />
+            <node id="_Node1247157" otu="Hyaloperonosporaparasiticas.l.1" />
+            <node id="_Node1247160" />
+            <node id="_Node1247162" otu="Hyaloperonosporaerophilae" />
+            <node id="_Node1247165" otu="Hyaloperonosporathlaspeosperfoliati" />
+            <node id="_Node1247168" otu="Hyaloperonosporaniessleana" />
+            <node id="_Node1247171" otu="Hyaloperonosporaparasiticas.l.2" />
+            <node id="_Node1247174" />
+            <node id="_Node1247176" otu="Viennotiaoplismeni" />
+            <node id="_Node1247179" otu="Bremiagraminicola" />
+            <node id="_Node1247182" otu="Sclerosporagraminicola" />
+            <node id="_Node1247185" />
+            <node id="_Node1247187" otu="Pythiumundulatum" />
+            <node id="_Node1247190" otu="Pythiummonospermum" />
+            <rootedge id="_Edge1246946" target="_Node1246945" />
+            <edge id="_Edge1246948" source="_Node1246945" target="_Node1246947" />
+            <edge id="_Edge1246950" source="_Node1246947" target="_Node1246949" />
+            <edge id="_Edge1246952" source="_Node1246949" target="_Node1246951" />
+            <edge id="_Edge1246954" source="_Node1246951" target="_Node1246953" />
+            <edge id="_Edge1246956" source="_Node1246953" target="_Node1246955" />
+            <edge id="_Edge1246958" source="_Node1246955" target="_Node1246957" />
+            <edge id="_Edge1246960" source="_Node1246957" target="_Node1246959" />
+            <edge id="_Edge1246962" source="_Node1246959" target="_Node1246961" />
+            <edge id="_Edge1246964" source="_Node1246961" target="_Node1246963" />
+            <edge id="_Edge1246966" source="_Node1246963" target="_Node1246965" />
+            <edge id="_Edge1246969" source="_Node1246963" target="_Node1246968" />
+            <edge id="_Edge1246972" source="_Node1246963" target="_Node1246971" />
+            <edge id="_Edge1246975" source="_Node1246961" target="_Node1246974" />
+            <edge id="_Edge1246978" source="_Node1246959" target="_Node1246977" />
+            <edge id="_Edge1246980" source="_Node1246977" target="_Node1246979" />
+            <edge id="_Edge1246982" source="_Node1246979" target="_Node1246981" />
+            <edge id="_Edge1246985" source="_Node1246979" target="_Node1246984" />
+            <edge id="_Edge1246987" source="_Node1246984" target="_Node1246986" />
+            <edge id="_Edge1246990" source="_Node1246984" target="_Node1246989" />
+            <edge id="_Edge1246992" source="_Node1246989" target="_Node1246991" />
+            <edge id="_Edge1246995" source="_Node1246989" target="_Node1246994" />
+            <edge id="_Edge1246998" source="_Node1246977" target="_Node1246997" />
+            <edge id="_Edge1247000" source="_Node1246997" target="_Node1246999" />
+            <edge id="_Edge1247002" source="_Node1246999" target="_Node1247001" />
+            <edge id="_Edge1247005" source="_Node1246999" target="_Node1247004" />
+            <edge id="_Edge1247008" source="_Node1246997" target="_Node1247007" />
+            <edge id="_Edge1247011" source="_Node1246959" target="_Node1247010" />
+            <edge id="_Edge1247013" source="_Node1247010" target="_Node1247012" />
+            <edge id="_Edge1247016" source="_Node1247010" target="_Node1247015" />
+            <edge id="_Edge1247019" source="_Node1246957" target="_Node1247018" />
+            <edge id="_Edge1247022" source="_Node1246955" target="_Node1247021" />
+            <edge id="_Edge1247024" source="_Node1247021" target="_Node1247023" />
+            <edge id="_Edge1247027" source="_Node1247021" target="_Node1247026" />
+            <edge id="_Edge1247029" source="_Node1247026" target="_Node1247028" />
+            <edge id="_Edge1247032" source="_Node1247026" target="_Node1247031" />
+            <edge id="_Edge1247035" source="_Node1246953" target="_Node1247034" />
+            <edge id="_Edge1247037" source="_Node1247034" target="_Node1247036" />
+            <edge id="_Edge1247039" source="_Node1247036" target="_Node1247038" />
+            <edge id="_Edge1247042" source="_Node1247036" target="_Node1247041" />
+            <edge id="_Edge1247044" source="_Node1247041" target="_Node1247043" />
+            <edge id="_Edge1247047" source="_Node1247041" target="_Node1247046" />
+            <edge id="_Edge1247050" source="_Node1247036" target="_Node1247049" />
+            <edge id="_Edge1247053" source="_Node1247036" target="_Node1247052" />
+            <edge id="_Edge1247056" source="_Node1247036" target="_Node1247055" />
+            <edge id="_Edge1247059" source="_Node1247034" target="_Node1247058" />
+            <edge id="_Edge1247062" source="_Node1246951" target="_Node1247061" />
+            <edge id="_Edge1247064" source="_Node1247061" target="_Node1247063" />
+            <edge id="_Edge1247067" source="_Node1247061" target="_Node1247066" />
+            <edge id="_Edge1247069" source="_Node1247066" target="_Node1247068" />
+            <edge id="_Edge1247072" source="_Node1247066" target="_Node1247071" />
+            <edge id="_Edge1247075" source="_Node1246949" target="_Node1247074" />
+            <edge id="_Edge1247077" source="_Node1247074" target="_Node1247076" />
+            <edge id="_Edge1247079" source="_Node1247076" target="_Node1247078" />
+            <edge id="_Edge1247081" source="_Node1247078" target="_Node1247080" />
+            <edge id="_Edge1247083" source="_Node1247080" target="_Node1247082" />
+            <edge id="_Edge1247086" source="_Node1247080" target="_Node1247085" />
+            <edge id="_Edge1247088" source="_Node1247085" target="_Node1247087" />
+            <edge id="_Edge1247091" source="_Node1247085" target="_Node1247090" />
+            <edge id="_Edge1247094" source="_Node1247078" target="_Node1247093" />
+            <edge id="_Edge1247096" source="_Node1247093" target="_Node1247095" />
+            <edge id="_Edge1247099" source="_Node1247093" target="_Node1247098" />
+            <edge id="_Edge1247101" source="_Node1247098" target="_Node1247100" />
+            <edge id="_Edge1247103" source="_Node1247100" target="_Node1247102" />
+            <edge id="_Edge1247106" source="_Node1247100" target="_Node1247105" />
+            <edge id="_Edge1247109" source="_Node1247098" target="_Node1247108" />
+            <edge id="_Edge1247112" source="_Node1247076" target="_Node1247111" />
+            <edge id="_Edge1247115" source="_Node1247074" target="_Node1247114" />
+            <edge id="_Edge1247117" source="_Node1247114" target="_Node1247116" />
+            <edge id="_Edge1247119" source="_Node1247116" target="_Node1247118" />
+            <edge id="_Edge1247122" source="_Node1247116" target="_Node1247121" />
+            <edge id="_Edge1247125" source="_Node1247114" target="_Node1247124" />
+            <edge id="_Edge1247127" source="_Node1247124" target="_Node1247126" />
+            <edge id="_Edge1247130" source="_Node1247124" target="_Node1247129" />
+            <edge id="_Edge1247133" source="_Node1246947" target="_Node1247132" />
+            <edge id="_Edge1247135" source="_Node1247132" target="_Node1247134" />
+            <edge id="_Edge1247137" source="_Node1247134" target="_Node1247136" />
+            <edge id="_Edge1247139" source="_Node1247136" target="_Node1247138" />
+            <edge id="_Edge1247141" source="_Node1247138" target="_Node1247140" />
+            <edge id="_Edge1247144" source="_Node1247138" target="_Node1247143" />
+            <edge id="_Edge1247146" source="_Node1247143" target="_Node1247145" />
+            <edge id="_Edge1247148" source="_Node1247145" target="_Node1247147" />
+            <edge id="_Edge1247150" source="_Node1247147" target="_Node1247149" />
+            <edge id="_Edge1247152" source="_Node1247149" target="_Node1247151" />
+            <edge id="_Edge1247155" source="_Node1247149" target="_Node1247154" />
+            <edge id="_Edge1247158" source="_Node1247147" target="_Node1247157" />
+            <edge id="_Edge1247161" source="_Node1247145" target="_Node1247160" />
+            <edge id="_Edge1247163" source="_Node1247160" target="_Node1247162" />
+            <edge id="_Edge1247166" source="_Node1247160" target="_Node1247165" />
+            <edge id="_Edge1247169" source="_Node1247143" target="_Node1247168" />
+            <edge id="_Edge1247172" source="_Node1247136" target="_Node1247171" />
+            <edge id="_Edge1247175" source="_Node1247134" target="_Node1247174" />
+            <edge id="_Edge1247177" source="_Node1247174" target="_Node1247176" />
+            <edge id="_Edge1247180" source="_Node1247174" target="_Node1247179" />
+            <edge id="_Edge1247183" source="_Node1247132" target="_Node1247182" />
+            <edge id="_Edge1247186" source="_Node1246945" target="_Node1247185" />
+            <edge id="_Edge1247188" source="_Node1247185" target="_Node1247187" />
+            <edge id="_Edge1247191" source="_Node1247185" target="_Node1247190" />
+        </tree>
+    </trees>
+</nex:nexml>

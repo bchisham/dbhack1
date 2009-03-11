@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S720"><citation>Sabo, A., L. G. L. Reis, E. Krall, M. Mundo-Ocampo, and V. R. Ferris. 2002. Phylogenetic Relationships of a Distinct Species of Globodera from Portugal and Two Punctodera Species. Journal of Nematology, in press.</citation><author firstname="V.R." lastname="Ferris" /><author firstname="M." lastname="Mundo-Ocampo" /><author firstname="L.G.L." lastname="Reis" /><author email="anisabo@purdue.edu" firstname="Aniko" lastname="Sabo" /></study></nex:external>
+    <otus id="_TaxaBlock514009">
+        <otu id="Cactoderaweissi" label="Cactodera weissi" />
+        <otu id="Cactoderamilleri" label="Cactodera milleri" />
+        <otu id="Globoderaartemisiae" label="Globodera artemisiae" />
+        <otu id="Globoderasp.Bouro" label="Globodera sp.  Bouro" />
+        <otu id="Globoderasp.Ladoeiro" label="Globodera sp.  Ladoeiro" />
+        <otu id="Globoderasp.Canha" label="Globodera sp.  Canha" />
+        <otu id="Globoderapallida" label="Globodera pallida" />
+        <otu id="Globoderarostochiensis" label="Globodera rostochiensis" />
+        <otu id="Punctoderachalcoensis" label="Punctodera chalcoensis" />
+        <otu id="Punctoderapunctata" label="Punctodera punctata" />
+        <otu id="Heteroderaavenae" label="Heterodera avenae" />
+    </otus>
+    <trees id="_TreesBlock514010" otus="_TaxaBlock514009">
+        <tree id="_Tree514011" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S720A1600" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="rDNA (ITS1+5.8S+ITS2) default alignment" nchar="971" /></analysis></nex:external>
+            <node id="_Node514014" />
+            <node id="_Node514016" otu="Cactoderaweissi" />
+            <node id="_Node514019" />
+            <node id="_Node514021" otu="Cactoderamilleri" />
+            <node id="_Node514024" />
+            <node id="_Node514026" otu="Globoderaartemisiae" />
+            <node id="_Node514029" />
+            <node id="_Node514031" />
+            <node id="_Node514033" />
+            <node id="_Node514035" />
+            <node id="_Node514037" otu="Globoderasp.Bouro" />
+            <node id="_Node514040" otu="Globoderasp.Ladoeiro" />
+            <node id="_Node514043" otu="Globoderasp.Canha" />
+            <node id="_Node514046" />
+            <node id="_Node514048" />
+            <node id="_Node514050" otu="Globoderapallida" />
+            <node id="_Node514053" otu="Globoderarostochiensis" />
+            <node id="_Node514056" />
+            <node id="_Node514058" otu="Punctoderachalcoensis" />
+            <node id="_Node514061" otu="Punctoderapunctata" />
+            <node id="_Node514064" otu="Heteroderaavenae" />
+            <rootedge id="_Edge514015" target="_Node514014" />
+            <edge id="_Edge514017" source="_Node514014" target="_Node514016" />
+            <edge id="_Edge514020" source="_Node514014" target="_Node514019" />
+            <edge id="_Edge514022" source="_Node514019" target="_Node514021" />
+            <edge id="_Edge514025" source="_Node514019" target="_Node514024" />
+            <edge id="_Edge514027" source="_Node514024" target="_Node514026" />
+            <edge id="_Edge514030" source="_Node514024" target="_Node514029" />
+            <edge id="_Edge514032" source="_Node514029" target="_Node514031" />
+            <edge id="_Edge514034" source="_Node514031" target="_Node514033" />
+            <edge id="_Edge514036" source="_Node514033" target="_Node514035" />
+            <edge id="_Edge514038" source="_Node514035" target="_Node514037" />
+            <edge id="_Edge514041" source="_Node514035" target="_Node514040" />
+            <edge id="_Edge514044" source="_Node514033" target="_Node514043" />
+            <edge id="_Edge514047" source="_Node514031" target="_Node514046" />
+            <edge id="_Edge514049" source="_Node514046" target="_Node514048" />
+            <edge id="_Edge514051" source="_Node514048" target="_Node514050" />
+            <edge id="_Edge514054" source="_Node514048" target="_Node514053" />
+            <edge id="_Edge514057" source="_Node514046" target="_Node514056" />
+            <edge id="_Edge514059" source="_Node514056" target="_Node514058" />
+            <edge id="_Edge514062" source="_Node514056" target="_Node514061" />
+            <edge id="_Edge514065" source="_Node514029" target="_Node514064" />
+        </tree>
+    </trees>
+</nex:nexml>

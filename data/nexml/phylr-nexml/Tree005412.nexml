@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S2261"><citation>Joly, S., P. B. Heenan, and P. J. Lockhart. 2009. A Pleistocene inter-tribal allopolyploidization event precedes the species radiation of Pachycladon (Brassicaceae) in New Zealand. Molecular Phylogenetics and Evolution, in press.</citation><author email="heenanp@landcarereserach.co.nz" firstname="Peter B." lastname="Heenan" /><author email="simon.joly@umontreal.ca" firstname="Simon" lastname="Joly" /><author email="p.j.lockhart@massey.ac.nz" firstname="Peter J." lastname="Lockhart" /></study></nex:external>
+    <otus id="_TaxaBlock2167992">
+        <otu id="Physariafendlericlone1" label="Physaria fendleri clone1" />
+        <otu id="Lepidiumapelatum" label="Lepidium apelatum" />
+        <otu id="Thellungiellasppclone1" label="Thellungiella spp clone1" />
+        <otu id="Pachycladonfastigiataclone2" label="Pachycladon fastigiata clone2" />
+        <otu id="Olimarabidopsiscabulicaclone1" label="Olimarabidopsis cabulica clone1" />
+        <otu id="Crucihimalayamollissimaclone3" label="Crucihimalaya mollissima clone3" />
+        <otu id="Boecheraholboelliiclone1" label="Boechera holboellii clone1" />
+        <otu id="Pachycladonfastigiataclone5" label="Pachycladon fastigiata clone5" />
+        <otu id="Pachycladonexilis11A" label="Pachycladon exilis 1 1 A" />
+        <otu id="Crucihimalayamollissimaclone1" label="Crucihimalaya mollissima clone1" />
+        <otu id="Transberingiabursifoliabursifoliaclone1" label="Transberingia bursifolia bursifolia clone1" />
+        <otu id="Arabidopsislyrataclone1" label="Arabidopsis lyrata clone1" />
+        <otu id="Arabidopsisthaliana" label="Arabidopsis thaliana" />
+    </otus>
+    <trees id="_TreesBlock2167993" otus="_TaxaBlock2167992">
+        <tree id="_Tree2167994" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S2261A9597" software="Phyml"><inputmatrix datatype="Nucleic Acid" name="MtN21" nchar="572" /></analysis></nex:external>
+            <node id="_Node2167997" />
+            <node id="_Node2167999" otu="Physariafendlericlone1" />
+            <node id="_Node2168002" />
+            <node id="_Node2168004" otu="Lepidiumapelatum" />
+            <node id="_Node2168007" />
+            <node id="_Node2168009" otu="Thellungiellasppclone1" />
+            <node id="_Node2168012" />
+            <node id="_Node2168014" />
+            <node id="_Node2168016" otu="Pachycladonfastigiataclone2" />
+            <node id="_Node2168019" />
+            <node id="_Node2168021" otu="Olimarabidopsiscabulicaclone1" />
+            <node id="_Node2168024" />
+            <node id="_Node2168026" otu="Crucihimalayamollissimaclone3" />
+            <node id="_Node2168029" />
+            <node id="_Node2168031" />
+            <node id="_Node2168033" otu="Boecheraholboelliiclone1" />
+            <node id="_Node2168036" />
+            <node id="_Node2168038" otu="Pachycladonfastigiataclone5" />
+            <node id="_Node2168041" otu="Pachycladonexilis11A" />
+            <node id="_Node2168044" />
+            <node id="_Node2168046" otu="Crucihimalayamollissimaclone1" />
+            <node id="_Node2168049" otu="Transberingiabursifoliabursifoliaclone1" />
+            <node id="_Node2168052" />
+            <node id="_Node2168054" otu="Arabidopsislyrataclone1" />
+            <node id="_Node2168057" otu="Arabidopsisthaliana" />
+            <rootedge id="_Edge2167998" target="_Node2167997" />
+            <edge id="_Edge2168000" source="_Node2167997" target="_Node2167999" />
+            <edge id="_Edge2168003" source="_Node2167997" target="_Node2168002" />
+            <edge id="_Edge2168005" source="_Node2168002" target="_Node2168004" />
+            <edge id="_Edge2168008" source="_Node2168002" target="_Node2168007" />
+            <edge id="_Edge2168010" source="_Node2168007" target="_Node2168009" />
+            <edge id="_Edge2168013" source="_Node2168007" target="_Node2168012" />
+            <edge id="_Edge2168015" source="_Node2168012" target="_Node2168014" />
+            <edge id="_Edge2168017" source="_Node2168014" target="_Node2168016" />
+            <edge id="_Edge2168020" source="_Node2168014" target="_Node2168019" />
+            <edge id="_Edge2168022" source="_Node2168019" target="_Node2168021" />
+            <edge id="_Edge2168025" source="_Node2168019" target="_Node2168024" />
+            <edge id="_Edge2168027" source="_Node2168024" target="_Node2168026" />
+            <edge id="_Edge2168030" source="_Node2168024" target="_Node2168029" />
+            <edge id="_Edge2168032" source="_Node2168029" target="_Node2168031" />
+            <edge id="_Edge2168034" source="_Node2168031" target="_Node2168033" />
+            <edge id="_Edge2168037" source="_Node2168031" target="_Node2168036" />
+            <edge id="_Edge2168039" source="_Node2168036" target="_Node2168038" />
+            <edge id="_Edge2168042" source="_Node2168036" target="_Node2168041" />
+            <edge id="_Edge2168045" source="_Node2168029" target="_Node2168044" />
+            <edge id="_Edge2168047" source="_Node2168044" target="_Node2168046" />
+            <edge id="_Edge2168050" source="_Node2168044" target="_Node2168049" />
+            <edge id="_Edge2168053" source="_Node2168012" target="_Node2168052" />
+            <edge id="_Edge2168055" source="_Node2168052" target="_Node2168054" />
+            <edge id="_Edge2168058" source="_Node2168052" target="_Node2168057" />
+        </tree>
+    </trees>
+</nex:nexml>

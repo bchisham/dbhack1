@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S910"><citation>Susko, E., Field, C., Blouin, C. and A.J. Roger 2003. Estimation of Rates-Across-Sites Distributions in Phylogenetic Substitution Models. Systematic Biology, in press.</citation><author email="bongo@hades.biochem.dal.ca" firstname="Christian" lastname="Blouin" /><author email="field@mathstat.dal.ca" firstname="Chris" lastname="Field" /><author email="roger@hades.biochem.dal.ca" firstname="Andrew J." lastname="Roger" /><author email="susko@mathstat.dal.ca" firstname="Edward" lastname="Susko" /></study></nex:external>
+    <otus id="_TaxaBlock599800">
+        <otu id="Halobacteriumspecies" label="Halobacterium species" />
+        <otu id="Haloferaxvolcanii" label="Haloferax volcanii" />
+        <otu id="Methanosarcinamazei" label="Methanosarcina mazei" />
+        <otu id="Methanobacteriumthermoautotrophicum" label="Methanobacterium thermoautotrophicum" />
+        <otu id="Methanococcusjannaschii" label="Methanococcus jannaschii" />
+        <otu id="Pyrococcusabyssii" label="Pyrococcus abyssii" />
+        <otu id="Pyrococcusfuriosus" label="Pyrococcus furiosus" />
+        <otu id="Pyrococcushorikoshii" label="Pyrococcus horikoshii" />
+        <otu id="Sulfolobussolfataricus" label="Sulfolobus solfataricus" />
+        <otu id="Aeropyrumpernix" label="Aeropyrum pernix" />
+        <otu id="Pyrobaculumaerophilum" label="Pyrobaculum aerophilum" />
+    </otus>
+    <trees id="_TreesBlock599801" otus="_TaxaBlock599800">
+        <tree id="_Tree599802" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="Fitch Margoliash" id="S910A2374" software="Phylip"><inputmatrix datatype="Amino Acid" name="Archaebacterial HMG-CoA" nchar="251" /></analysis></nex:external>
+            <node id="_Node599805" />
+            <node id="_Node599807" otu="Halobacteriumspecies" />
+            <node id="_Node599810" otu="Haloferaxvolcanii" />
+            <node id="_Node599813" />
+            <node id="_Node599815" otu="Methanosarcinamazei" />
+            <node id="_Node599818" />
+            <node id="_Node599820" />
+            <node id="_Node599822" otu="Methanobacteriumthermoautotrophicum" />
+            <node id="_Node599825" otu="Methanococcusjannaschii" />
+            <node id="_Node599828" />
+            <node id="_Node599830" />
+            <node id="_Node599832" otu="Pyrococcusabyssii" />
+            <node id="_Node599835" />
+            <node id="_Node599837" otu="Pyrococcusfuriosus" />
+            <node id="_Node599840" otu="Pyrococcushorikoshii" />
+            <node id="_Node599843" />
+            <node id="_Node599845" otu="Sulfolobussolfataricus" />
+            <node id="_Node599848" />
+            <node id="_Node599850" otu="Aeropyrumpernix" />
+            <node id="_Node599853" otu="Pyrobaculumaerophilum" />
+            <rootedge id="_Edge599806" target="_Node599805" />
+            <edge id="_Edge599808" source="_Node599805" target="_Node599807" />
+            <edge id="_Edge599811" source="_Node599805" target="_Node599810" />
+            <edge id="_Edge599814" source="_Node599805" target="_Node599813" />
+            <edge id="_Edge599816" source="_Node599813" target="_Node599815" />
+            <edge id="_Edge599819" source="_Node599813" target="_Node599818" />
+            <edge id="_Edge599821" source="_Node599818" target="_Node599820" />
+            <edge id="_Edge599823" source="_Node599820" target="_Node599822" />
+            <edge id="_Edge599826" source="_Node599820" target="_Node599825" />
+            <edge id="_Edge599829" source="_Node599818" target="_Node599828" />
+            <edge id="_Edge599831" source="_Node599828" target="_Node599830" />
+            <edge id="_Edge599833" source="_Node599830" target="_Node599832" />
+            <edge id="_Edge599836" source="_Node599830" target="_Node599835" />
+            <edge id="_Edge599838" source="_Node599835" target="_Node599837" />
+            <edge id="_Edge599841" source="_Node599835" target="_Node599840" />
+            <edge id="_Edge599844" source="_Node599828" target="_Node599843" />
+            <edge id="_Edge599846" source="_Node599843" target="_Node599845" />
+            <edge id="_Edge599849" source="_Node599843" target="_Node599848" />
+            <edge id="_Edge599851" source="_Node599848" target="_Node599850" />
+            <edge id="_Edge599854" source="_Node599848" target="_Node599853" />
+        </tree>
+    </trees>
+</nex:nexml>

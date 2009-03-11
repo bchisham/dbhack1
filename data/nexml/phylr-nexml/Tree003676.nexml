@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1579"><citation>Gruber, K. F., R. S. Voss, and S. A. Jansa. 2006. Base-Compositional Heterogeneity in the RAG1 Locus Among Didelphid Marsupials: Implications for Phylogenetic Inference and the Evolution of GC-content. Systematic Biology, in press.</citation><author email="grub0121@umn.edu" firstname="Karl F" lastname="Gruber" /><author email="jansa003@umn.edu" firstname="Sharon A." lastname="Jansa" /><author email="voss@amnh.org" firstname="Robert S" lastname="Voss" /></study></nex:external>
+    <otus id="_TaxaBlock1297813">
+        <otu id="Caluromyslanatus" label="Caluromys lanatus" />
+        <otu id="Caluromysphilander" label="Caluromys philander" />
+        <otu id="Chironectesminimus" label="Chironectes minimus" />
+        <otu id="Didelphisalbiventris" label="Didelphis albiventris" />
+        <otu id="Didelphismarsupialis" label="Didelphis marsupialis" />
+        <otu id="Didelphisvirginiana" label="Didelphis virginiana" />
+        <otu id="Philanderfrenata" label="Philander frenata" />
+        <otu id="Philandermcilhennyi" label="Philander mcilhennyi" />
+        <otu id="Philanderopossum" label="Philander opossum" />
+        <otu id="Lutreolinacrassicaudata" label="Lutreolina crassicaudata" />
+        <otu id="Metachirusnudicaudatus" label="Metachirus nudicaudatus" />
+        <otu id="Cryptonanuschacoensis" label="Cryptonanus chacoensis" />
+        <otu id="Cryptonanusunduaviensis" label="Cryptonanus unduaviensis" />
+        <otu id="Gracilinanusaceramarcae" label="Gracilinanus aceramarcae" />
+        <otu id="Gracilinanusagilis" label="Gracilinanus agilis" />
+        <otu id="Gracilinanusmicrotarsus" label="Gracilinanus microtarsus" />
+        <otu id="Gracilinanusemiliae" label="Gracilinanus emiliae" />
+        <otu id="Thylamysmacrurus" label="Thylamys macrurus" />
+        <otu id="Thylamyspallidior" label="Thylamys pallidior" />
+        <otu id="Thylamyspusillus" label="Thylamys pusillus" />
+        <otu id="Thylamysvenustus" label="Thylamys venustus" />
+        <otu id="Marmosalepida" label="Marmosa lepida" />
+        <otu id="Marmosamurina" label="Marmosa murina" />
+        <otu id="Micoureusdemerarae" label="Micoureus demerarae" />
+        <otu id="Micoureusparaguayanus" label="Micoureus paraguayanus" />
+        <otu id="Micoureusregina" label="Micoureus regina" />
+        <otu id="Marmosamexicana" label="Marmosa mexicana" />
+        <otu id="Marmosarobinsoni" label="Marmosa robinsoni" />
+        <otu id="Marmosarubra" label="Marmosa rubra" />
+        <otu id="Marmosopsimpavidus" label="Marmosops impavidus" />
+        <otu id="Marmosopsnoctivagus" label="Marmosops noctivagus" />
+        <otu id="Marmosopsincanus" label="Marmosops incanus" />
+        <otu id="Marmosopsparvidens" label="Marmosops parvidens" />
+        <otu id="Marmosopspinheiroi" label="Marmosops pinheiroi" />
+        <otu id="Monodelphisadusta" label="Monodelphis adusta" />
+        <otu id="Monodelphisbrevicaudata" label="Monodelphis brevicaudata" />
+        <otu id="Monodelphisemiliae" label="Monodelphis emiliae" />
+        <otu id="Monodelphistheresa" label="Monodelphis theresa" />
+        <otu id="Tlacuatzincanescens" label="Tlacuatzin canescens" />
+        <otu id="Hyladelphyskalinowski" label="Hyladelphys kalinowski" />
+        <otu id="Glironiavenusta" label="Glironia venusta" />
+    </otus>
+    <trees id="_TreesBlock1297814" otus="_TaxaBlock1297813">
+        <tree id="_Tree1297815" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1579A5925" software="PAUP"><inputmatrix datatype="Combination" name="Didelphid Genes and Morphology" nchar="5195" /></analysis></nex:external>
+            <node id="_Node1297818" />
+            <node id="_Node1297820" />
+            <node id="_Node1297822" />
+            <node id="_Node1297824" otu="Caluromyslanatus" />
+            <node id="_Node1297827" otu="Caluromysphilander" />
+            <node id="_Node1297830" />
+            <node id="_Node1297832" />
+            <node id="_Node1297834" />
+            <node id="_Node1297836" otu="Chironectesminimus" />
+            <node id="_Node1297839" />
+            <node id="_Node1297841" />
+            <node id="_Node1297843" otu="Didelphisalbiventris" />
+            <node id="_Node1297846" otu="Didelphismarsupialis" />
+            <node id="_Node1297849" otu="Didelphisvirginiana" />
+            <node id="_Node1297852" otu="Philanderfrenata" />
+            <node id="_Node1297855" />
+            <node id="_Node1297857" otu="Philandermcilhennyi" />
+            <node id="_Node1297860" otu="Philanderopossum" />
+            <node id="_Node1297863" otu="Lutreolinacrassicaudata" />
+            <node id="_Node1297866" otu="Metachirusnudicaudatus" />
+            <node id="_Node1297869" />
+            <node id="_Node1297871" />
+            <node id="_Node1297873" />
+            <node id="_Node1297875" />
+            <node id="_Node1297877" otu="Cryptonanuschacoensis" />
+            <node id="_Node1297880" otu="Cryptonanusunduaviensis" />
+            <node id="_Node1297883" />
+            <node id="_Node1297885" />
+            <node id="_Node1297887" otu="Gracilinanusaceramarcae" />
+            <node id="_Node1297890" />
+            <node id="_Node1297892" otu="Gracilinanusagilis" />
+            <node id="_Node1297895" otu="Gracilinanusmicrotarsus" />
+            <node id="_Node1297898" otu="Gracilinanusemiliae" />
+            <node id="_Node1297901" />
+            <node id="_Node1297903" />
+            <node id="_Node1297905" otu="Thylamysmacrurus" />
+            <node id="_Node1297908" />
+            <node id="_Node1297910" otu="Thylamyspallidior" />
+            <node id="_Node1297913" otu="Thylamyspusillus" />
+            <node id="_Node1297916" otu="Thylamysvenustus" />
+            <node id="_Node1297919" />
+            <node id="_Node1297921" />
+            <node id="_Node1297923" otu="Marmosalepida" />
+            <node id="_Node1297926" />
+            <node id="_Node1297928" otu="Marmosamurina" />
+            <node id="_Node1297931" />
+            <node id="_Node1297933" />
+            <node id="_Node1297935" otu="Micoureusdemerarae" />
+            <node id="_Node1297938" otu="Micoureusparaguayanus" />
+            <node id="_Node1297941" otu="Micoureusregina" />
+            <node id="_Node1297944" />
+            <node id="_Node1297946" />
+            <node id="_Node1297948" otu="Marmosamexicana" />
+            <node id="_Node1297951" otu="Marmosarobinsoni" />
+            <node id="_Node1297954" otu="Marmosarubra" />
+            <node id="_Node1297957" />
+            <node id="_Node1297959" />
+            <node id="_Node1297961" otu="Marmosopsimpavidus" />
+            <node id="_Node1297964" otu="Marmosopsnoctivagus" />
+            <node id="_Node1297967" otu="Marmosopsincanus" />
+            <node id="_Node1297970" />
+            <node id="_Node1297972" otu="Marmosopsparvidens" />
+            <node id="_Node1297975" otu="Marmosopspinheiroi" />
+            <node id="_Node1297978" />
+            <node id="_Node1297980" otu="Monodelphisadusta" />
+            <node id="_Node1297983" otu="Monodelphisbrevicaudata" />
+            <node id="_Node1297986" otu="Monodelphisemiliae" />
+            <node id="_Node1297989" otu="Monodelphistheresa" />
+            <node id="_Node1297992" otu="Tlacuatzincanescens" />
+            <node id="_Node1297995" otu="Hyladelphyskalinowski" />
+            <node id="_Node1297998" otu="Glironiavenusta" />
+            <rootedge id="_Edge1297819" target="_Node1297818" />
+            <edge id="_Edge1297821" source="_Node1297818" target="_Node1297820" />
+            <edge id="_Edge1297823" source="_Node1297820" target="_Node1297822" />
+            <edge id="_Edge1297825" source="_Node1297822" target="_Node1297824" />
+            <edge id="_Edge1297828" source="_Node1297822" target="_Node1297827" />
+            <edge id="_Edge1297831" source="_Node1297820" target="_Node1297830" />
+            <edge id="_Edge1297833" source="_Node1297830" target="_Node1297832" />
+            <edge id="_Edge1297835" source="_Node1297832" target="_Node1297834" />
+            <edge id="_Edge1297837" source="_Node1297834" target="_Node1297836" />
+            <edge id="_Edge1297840" source="_Node1297834" target="_Node1297839" />
+            <edge id="_Edge1297842" source="_Node1297839" target="_Node1297841" />
+            <edge id="_Edge1297844" source="_Node1297841" target="_Node1297843" />
+            <edge id="_Edge1297847" source="_Node1297841" target="_Node1297846" />
+            <edge id="_Edge1297850" source="_Node1297841" target="_Node1297849" />
+            <edge id="_Edge1297853" source="_Node1297841" target="_Node1297852" />
+            <edge id="_Edge1297856" source="_Node1297841" target="_Node1297855" />
+            <edge id="_Edge1297858" source="_Node1297855" target="_Node1297857" />
+            <edge id="_Edge1297861" source="_Node1297855" target="_Node1297860" />
+            <edge id="_Edge1297864" source="_Node1297839" target="_Node1297863" />
+            <edge id="_Edge1297867" source="_Node1297832" target="_Node1297866" />
+            <edge id="_Edge1297870" source="_Node1297830" target="_Node1297869" />
+            <edge id="_Edge1297872" source="_Node1297869" target="_Node1297871" />
+            <edge id="_Edge1297874" source="_Node1297871" target="_Node1297873" />
+            <edge id="_Edge1297876" source="_Node1297873" target="_Node1297875" />
+            <edge id="_Edge1297878" source="_Node1297875" target="_Node1297877" />
+            <edge id="_Edge1297881" source="_Node1297875" target="_Node1297880" />
+            <edge id="_Edge1297884" source="_Node1297873" target="_Node1297883" />
+            <edge id="_Edge1297886" source="_Node1297883" target="_Node1297885" />
+            <edge id="_Edge1297888" source="_Node1297885" target="_Node1297887" />
+            <edge id="_Edge1297891" source="_Node1297885" target="_Node1297890" />
+            <edge id="_Edge1297893" source="_Node1297890" target="_Node1297892" />
+            <edge id="_Edge1297896" source="_Node1297890" target="_Node1297895" />
+            <edge id="_Edge1297899" source="_Node1297883" target="_Node1297898" />
+            <edge id="_Edge1297902" source="_Node1297871" target="_Node1297901" />
+            <edge id="_Edge1297904" source="_Node1297901" target="_Node1297903" />
+            <edge id="_Edge1297906" source="_Node1297903" target="_Node1297905" />
+            <edge id="_Edge1297909" source="_Node1297903" target="_Node1297908" />
+            <edge id="_Edge1297911" source="_Node1297908" target="_Node1297910" />
+            <edge id="_Edge1297914" source="_Node1297908" target="_Node1297913" />
+            <edge id="_Edge1297917" source="_Node1297901" target="_Node1297916" />
+            <edge id="_Edge1297920" source="_Node1297869" target="_Node1297919" />
+            <edge id="_Edge1297922" source="_Node1297919" target="_Node1297921" />
+            <edge id="_Edge1297924" source="_Node1297921" target="_Node1297923" />
+            <edge id="_Edge1297927" source="_Node1297921" target="_Node1297926" />
+            <edge id="_Edge1297929" source="_Node1297926" target="_Node1297928" />
+            <edge id="_Edge1297932" source="_Node1297926" target="_Node1297931" />
+            <edge id="_Edge1297934" source="_Node1297931" target="_Node1297933" />
+            <edge id="_Edge1297936" source="_Node1297933" target="_Node1297935" />
+            <edge id="_Edge1297939" source="_Node1297933" target="_Node1297938" />
+            <edge id="_Edge1297942" source="_Node1297931" target="_Node1297941" />
+            <edge id="_Edge1297945" source="_Node1297919" target="_Node1297944" />
+            <edge id="_Edge1297947" source="_Node1297944" target="_Node1297946" />
+            <edge id="_Edge1297949" source="_Node1297946" target="_Node1297948" />
+            <edge id="_Edge1297952" source="_Node1297946" target="_Node1297951" />
+            <edge id="_Edge1297955" source="_Node1297944" target="_Node1297954" />
+            <edge id="_Edge1297958" source="_Node1297830" target="_Node1297957" />
+            <edge id="_Edge1297960" source="_Node1297957" target="_Node1297959" />
+            <edge id="_Edge1297962" source="_Node1297959" target="_Node1297961" />
+            <edge id="_Edge1297965" source="_Node1297959" target="_Node1297964" />
+            <edge id="_Edge1297968" source="_Node1297957" target="_Node1297967" />
+            <edge id="_Edge1297971" source="_Node1297957" target="_Node1297970" />
+            <edge id="_Edge1297973" source="_Node1297970" target="_Node1297972" />
+            <edge id="_Edge1297976" source="_Node1297970" target="_Node1297975" />
+            <edge id="_Edge1297979" source="_Node1297830" target="_Node1297978" />
+            <edge id="_Edge1297981" source="_Node1297978" target="_Node1297980" />
+            <edge id="_Edge1297984" source="_Node1297978" target="_Node1297983" />
+            <edge id="_Edge1297987" source="_Node1297978" target="_Node1297986" />
+            <edge id="_Edge1297990" source="_Node1297978" target="_Node1297989" />
+            <edge id="_Edge1297993" source="_Node1297830" target="_Node1297992" />
+            <edge id="_Edge1297996" source="_Node1297830" target="_Node1297995" />
+            <edge id="_Edge1297999" source="_Node1297818" target="_Node1297998" />
+        </tree>
+    </trees>
+</nex:nexml>

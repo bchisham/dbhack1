@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S866"><citation>Donoghue, M. J., T. Eriksson, P. A. Reeves and R. G. Olmstead. 2001. Phylogeny and Phylogenetic Taxonomy of Dipsacales, with special reference to Sinadoxa and Tetradoxa (Adoxaceae). Harvard Papers in Botany, 6(2):459-479.</citation><author email="michael.donoghue@yale.edu" firstname="Michael J. " lastname="Donoghue" /><author email="torsten.eriksson@botan.su.se" firstname="Torsten" lastname="Eriksson" /><author email="olmstead@u.washington.edu" firstname="Richard G." lastname="Olmstead" /><author firstname="Patrick A" lastname="Reeves" /></study></nex:external>
+    <otus id="_TaxaBlock557860">
+        <otu id="Diervillasessilifolia" label="Diervilla sessilifolia" />
+        <otu id="Weigelahortensis" label="Weigela hortensis" />
+        <otu id="Tetradoxaomeiensis" label="Tetradoxa omeiensis" />
+        <otu id="Adoxamoschatellina" label="Adoxa moschatellina" />
+        <otu id="Sinadoxacorydalifolia" label="Sinadoxa corydalifolia" />
+        <otu id="Sambucusracemosa" label="Sambucus racemosa" />
+        <otu id="Sambucuscaerulea" label="Sambucus caerulea" />
+        <otu id="Viburnumacerifolium" label="Viburnum acerifolium" />
+        <otu id="Viburnumplicatum" label="Viburnum plicatum" />
+        <otu id="Viburnumsieboldii" label="Viburnum sieboldii" />
+    </otus>
+    <trees id="_TreesBlock557861" otus="_TaxaBlock557860">
+        <tree id="_Tree557862" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S866A2130" software="PAUP"><inputmatrix datatype="Combination" name="rbcL plus ITS" nchar="2107" /></analysis></nex:external>
+            <node id="_Node557865" />
+            <node id="_Node557867" />
+            <node id="_Node557869" otu="Diervillasessilifolia" />
+            <node id="_Node557872" otu="Weigelahortensis" />
+            <node id="_Node557875" />
+            <node id="_Node557877" />
+            <node id="_Node557879" />
+            <node id="_Node557881" />
+            <node id="_Node557883" otu="Tetradoxaomeiensis" />
+            <node id="_Node557886" otu="Adoxamoschatellina" />
+            <node id="_Node557889" otu="Sinadoxacorydalifolia" />
+            <node id="_Node557892" />
+            <node id="_Node557894" otu="Sambucusracemosa" />
+            <node id="_Node557897" otu="Sambucuscaerulea" />
+            <node id="_Node557900" />
+            <node id="_Node557902" otu="Viburnumacerifolium" />
+            <node id="_Node557905" />
+            <node id="_Node557907" otu="Viburnumplicatum" />
+            <node id="_Node557910" otu="Viburnumsieboldii" />
+            <rootedge id="_Edge557866" target="_Node557865" />
+            <edge id="_Edge557868" source="_Node557865" target="_Node557867" />
+            <edge id="_Edge557870" source="_Node557867" target="_Node557869" />
+            <edge id="_Edge557873" source="_Node557867" target="_Node557872" />
+            <edge id="_Edge557876" source="_Node557865" target="_Node557875" />
+            <edge id="_Edge557878" source="_Node557875" target="_Node557877" />
+            <edge id="_Edge557880" source="_Node557877" target="_Node557879" />
+            <edge id="_Edge557882" source="_Node557879" target="_Node557881" />
+            <edge id="_Edge557884" source="_Node557881" target="_Node557883" />
+            <edge id="_Edge557887" source="_Node557881" target="_Node557886" />
+            <edge id="_Edge557890" source="_Node557879" target="_Node557889" />
+            <edge id="_Edge557893" source="_Node557877" target="_Node557892" />
+            <edge id="_Edge557895" source="_Node557892" target="_Node557894" />
+            <edge id="_Edge557898" source="_Node557892" target="_Node557897" />
+            <edge id="_Edge557901" source="_Node557875" target="_Node557900" />
+            <edge id="_Edge557903" source="_Node557900" target="_Node557902" />
+            <edge id="_Edge557906" source="_Node557900" target="_Node557905" />
+            <edge id="_Edge557908" source="_Node557905" target="_Node557907" />
+            <edge id="_Edge557911" source="_Node557905" target="_Node557910" />
+        </tree>
+    </trees>
+</nex:nexml>

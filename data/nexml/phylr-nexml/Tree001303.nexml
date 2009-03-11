@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S593"><citation>Peterson, S. W., Ito, Y., Horn, B. W. and Goto, T. 2001.  Aspergillus bombycis, a new aflatoxigenic species and genetic variation in its sibling species, A. nomius. Mycologia in press</citation><author email="tgoto@nfri.affrc.go.jp" firstname="Tetsuhisa" lastname="Goto" /><author firstname="Bruce W." lastname="Horn" /><author email="colette@nivot.affrc.go.jp" firstname="Yoko" lastname="Ito" /><author email="speterson@sunca.ncaur.usda.gov" firstname="Stephen W." lastname="Peterson" /></study></nex:external>
+    <otus id="_TaxaBlock328494">
+        <otu id="AspergillusparasiticusNRRL502" label="Aspergillus parasiticus NRRL502" />
+        <otu id="AspergillusflavusNRRL1957" label="Aspergillus flavus NRRL1957" />
+        <otu id="AspergilluspseudotamariiNRRL25517" label="Aspergillus pseudotamarii NRRL25517" />
+        <otu id="AspergilluspseudotamariiNRRL443" label="Aspergillus pseudotamarii NRRL443" />
+        <otu id="AspergilluscaelatusNRRL26102" label="Aspergillus caelatus NRRL26102" />
+        <otu id="AspergillusnomiusNRRL13137" label="Aspergillus nomius NRRL13137" />
+        <otu id="AspergillusnomiusNRRL13138" label="Aspergillus nomius NRRL13138" />
+        <otu id="AspergillusnomiusNRRL25585" label="Aspergillus nomius NRRL25585" />
+        <otu id="AspergillusnomiusNRRL26453" label="Aspergillus nomius NRRL26453" />
+        <otu id="AspergillusnomiusNRRL26887" label="Aspergillus nomius NRRL26887" />
+        <otu id="AspergillusnomiusNRRL29212" label="Aspergillus nomius NRRL29212" />
+        <otu id="AspergillusnomiusNRRL29213" label="Aspergillus nomius NRRL29213" />
+        <otu id="AspergillusnomiusNRRL29234" label="Aspergillus nomius NRRL29234" />
+        <otu id="AspergillusnomiusNRRL29238" label="Aspergillus nomius NRRL29238" />
+        <otu id="AspergillusnomiusNRRL29239" label="Aspergillus nomius NRRL29239" />
+        <otu id="AspergillusnomiusNRRL3161" label="Aspergillus nomius NRRL3161" />
+        <otu id="AspergillusnomiusNRRL6107" label="Aspergillus nomius NRRL6107" />
+        <otu id="AspergillusnomiusNRRL6108" label="Aspergillus nomius NRRL6108" />
+        <otu id="AspergillusnomiusNRRL20745" label="Aspergillus nomius NRRL20745" />
+        <otu id="AspergillusnomiusNRRL26450" label="Aspergillus nomius NRRL26450" />
+        <otu id="AspergillusnomiusNRRL26451" label="Aspergillus nomius NRRL26451" />
+        <otu id="AspergillusnomiusNRRL26452" label="Aspergillus nomius NRRL26452" />
+        <otu id="AspergillusnomiusNRRL26454" label="Aspergillus nomius NRRL26454" />
+        <otu id="AspergillusnomiusNRRL26455" label="Aspergillus nomius NRRL26455" />
+        <otu id="AspergillusnomiusNRRL26883" label="Aspergillus nomius NRRL26883" />
+        <otu id="AspergillusnomiusNRRL26878" label="Aspergillus nomius NRRL26878" />
+        <otu id="AspergillusnomiusNRRL26879" label="Aspergillus nomius NRRL26879" />
+        <otu id="AspergillusnomiusNRRL26880" label="Aspergillus nomius NRRL26880" />
+        <otu id="AspergillusnomiusNRRL26881" label="Aspergillus nomius NRRL26881" />
+        <otu id="AspergillusnomiusNRRL26882" label="Aspergillus nomius NRRL26882" />
+        <otu id="AspergillusnomiusNRRL26884" label="Aspergillus nomius NRRL26884" />
+        <otu id="AspergillusnomiusNRRL26885" label="Aspergillus nomius NRRL26885" />
+        <otu id="AspergillusnomiusNRRL26886" label="Aspergillus nomius NRRL26886" />
+        <otu id="AspergillusnomiusNRRL3353" label="Aspergillus nomius NRRL3353" />
+        <otu id="AspergillusnomiusNRRL5919" label="Aspergillus nomius NRRL5919" />
+        <otu id="AspergillusnomiusNRRL6343" label="Aspergillus nomius NRRL6343" />
+        <otu id="AspergillusnomiusNRRL6552" label="Aspergillus nomius NRRL6552" />
+        <otu id="AspergillusbombycisNRRL25593" label="Aspergillus bombycis NRRL25593" />
+        <otu id="AspergillusbombycisNRRL26010" label="Aspergillus bombycis NRRL26010" />
+        <otu id="AspergillusbombycisNRRL29241" label="Aspergillus bombycis NRRL29241" />
+        <otu id="AspergillusbombycisNRRL28900" label="Aspergillus bombycis NRRL28900" />
+        <otu id="AspergillusbombycisNRRL28901" label="Aspergillus bombycis NRRL28901" />
+        <otu id="AspergillusbombycisNRRL29235" label="Aspergillus bombycis NRRL29235" />
+        <otu id="AspergillusbombycisNRRL29236" label="Aspergillus bombycis NRRL29236" />
+        <otu id="AspergillusbombycisNRRL29237" label="Aspergillus bombycis NRRL29237" />
+        <otu id="AspergillusbombycisNRRL29253" label="Aspergillus bombycis NRRL29253" />
+    </otus>
+    <trees id="_TreesBlock328495" otus="_TaxaBlock328494">
+        <tree id="_Tree328496" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S593A1071" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Norsolorinic acid reductase partial gene" nchar="300" /></analysis></nex:external>
+            <node id="_Node328499" />
+            <node id="_Node328501" otu="AspergillusparasiticusNRRL502" />
+            <node id="_Node328504" />
+            <node id="_Node328506" otu="AspergillusflavusNRRL1957" />
+            <node id="_Node328509" />
+            <node id="_Node328511" />
+            <node id="_Node328513" />
+            <node id="_Node328515" otu="AspergilluspseudotamariiNRRL25517" />
+            <node id="_Node328518" otu="AspergilluspseudotamariiNRRL443" />
+            <node id="_Node328521" otu="AspergilluscaelatusNRRL26102" />
+            <node id="_Node328524" />
+            <node id="_Node328526" />
+            <node id="_Node328528" />
+            <node id="_Node328530" />
+            <node id="_Node328532" otu="AspergillusnomiusNRRL13137" />
+            <node id="_Node328535" otu="AspergillusnomiusNRRL13138" />
+            <node id="_Node328538" otu="AspergillusnomiusNRRL25585" />
+            <node id="_Node328541" otu="AspergillusnomiusNRRL26453" />
+            <node id="_Node328544" otu="AspergillusnomiusNRRL26887" />
+            <node id="_Node328547" otu="AspergillusnomiusNRRL29212" />
+            <node id="_Node328550" otu="AspergillusnomiusNRRL29213" />
+            <node id="_Node328553" otu="AspergillusnomiusNRRL29234" />
+            <node id="_Node328556" otu="AspergillusnomiusNRRL29238" />
+            <node id="_Node328559" otu="AspergillusnomiusNRRL29239" />
+            <node id="_Node328562" otu="AspergillusnomiusNRRL3161" />
+            <node id="_Node328565" otu="AspergillusnomiusNRRL6107" />
+            <node id="_Node328568" otu="AspergillusnomiusNRRL6108" />
+            <node id="_Node328571" otu="AspergillusnomiusNRRL20745" />
+            <node id="_Node328574" otu="AspergillusnomiusNRRL26450" />
+            <node id="_Node328577" otu="AspergillusnomiusNRRL26451" />
+            <node id="_Node328580" otu="AspergillusnomiusNRRL26452" />
+            <node id="_Node328583" otu="AspergillusnomiusNRRL26454" />
+            <node id="_Node328586" />
+            <node id="_Node328588" otu="AspergillusnomiusNRRL26455" />
+            <node id="_Node328591" otu="AspergillusnomiusNRRL26883" />
+            <node id="_Node328594" otu="AspergillusnomiusNRRL26878" />
+            <node id="_Node328597" otu="AspergillusnomiusNRRL26879" />
+            <node id="_Node328600" otu="AspergillusnomiusNRRL26880" />
+            <node id="_Node328603" otu="AspergillusnomiusNRRL26881" />
+            <node id="_Node328606" otu="AspergillusnomiusNRRL26882" />
+            <node id="_Node328609" otu="AspergillusnomiusNRRL26884" />
+            <node id="_Node328612" otu="AspergillusnomiusNRRL26885" />
+            <node id="_Node328615" otu="AspergillusnomiusNRRL26886" />
+            <node id="_Node328618" otu="AspergillusnomiusNRRL3353" />
+            <node id="_Node328621" otu="AspergillusnomiusNRRL5919" />
+            <node id="_Node328624" otu="AspergillusnomiusNRRL6343" />
+            <node id="_Node328627" otu="AspergillusnomiusNRRL6552" />
+            <node id="_Node328630" />
+            <node id="_Node328632" />
+            <node id="_Node328634" otu="AspergillusbombycisNRRL25593" />
+            <node id="_Node328637" otu="AspergillusbombycisNRRL26010" />
+            <node id="_Node328640" otu="AspergillusbombycisNRRL29241" />
+            <node id="_Node328643" />
+            <node id="_Node328645" otu="AspergillusbombycisNRRL28900" />
+            <node id="_Node328648" otu="AspergillusbombycisNRRL28901" />
+            <node id="_Node328651" otu="AspergillusbombycisNRRL29235" />
+            <node id="_Node328654" otu="AspergillusbombycisNRRL29236" />
+            <node id="_Node328657" otu="AspergillusbombycisNRRL29237" />
+            <node id="_Node328660" otu="AspergillusbombycisNRRL29253" />
+            <rootedge id="_Edge328500" target="_Node328499" />
+            <edge id="_Edge328502" source="_Node328499" target="_Node328501" />
+            <edge id="_Edge328505" source="_Node328499" target="_Node328504" />
+            <edge id="_Edge328507" source="_Node328504" target="_Node328506" />
+            <edge id="_Edge328510" source="_Node328504" target="_Node328509" />
+            <edge id="_Edge328512" source="_Node328509" target="_Node328511" />
+            <edge id="_Edge328514" source="_Node328511" target="_Node328513" />
+            <edge id="_Edge328516" source="_Node328513" target="_Node328515" />
+            <edge id="_Edge328519" source="_Node328513" target="_Node328518" />
+            <edge id="_Edge328522" source="_Node328511" target="_Node328521" />
+            <edge id="_Edge328525" source="_Node328509" target="_Node328524" />
+            <edge id="_Edge328527" source="_Node328524" target="_Node328526" />
+            <edge id="_Edge328529" source="_Node328526" target="_Node328528" />
+            <edge id="_Edge328531" source="_Node328528" target="_Node328530" />
+            <edge id="_Edge328533" source="_Node328530" target="_Node328532" />
+            <edge id="_Edge328536" source="_Node328530" target="_Node328535" />
+            <edge id="_Edge328539" source="_Node328530" target="_Node328538" />
+            <edge id="_Edge328542" source="_Node328530" target="_Node328541" />
+            <edge id="_Edge328545" source="_Node328530" target="_Node328544" />
+            <edge id="_Edge328548" source="_Node328530" target="_Node328547" />
+            <edge id="_Edge328551" source="_Node328530" target="_Node328550" />
+            <edge id="_Edge328554" source="_Node328530" target="_Node328553" />
+            <edge id="_Edge328557" source="_Node328530" target="_Node328556" />
+            <edge id="_Edge328560" source="_Node328530" target="_Node328559" />
+            <edge id="_Edge328563" source="_Node328530" target="_Node328562" />
+            <edge id="_Edge328566" source="_Node328530" target="_Node328565" />
+            <edge id="_Edge328569" source="_Node328530" target="_Node328568" />
+            <edge id="_Edge328572" source="_Node328528" target="_Node328571" />
+            <edge id="_Edge328575" source="_Node328526" target="_Node328574" />
+            <edge id="_Edge328578" source="_Node328526" target="_Node328577" />
+            <edge id="_Edge328581" source="_Node328526" target="_Node328580" />
+            <edge id="_Edge328584" source="_Node328526" target="_Node328583" />
+            <edge id="_Edge328587" source="_Node328526" target="_Node328586" />
+            <edge id="_Edge328589" source="_Node328586" target="_Node328588" />
+            <edge id="_Edge328592" source="_Node328586" target="_Node328591" />
+            <edge id="_Edge328595" source="_Node328526" target="_Node328594" />
+            <edge id="_Edge328598" source="_Node328526" target="_Node328597" />
+            <edge id="_Edge328601" source="_Node328526" target="_Node328600" />
+            <edge id="_Edge328604" source="_Node328526" target="_Node328603" />
+            <edge id="_Edge328607" source="_Node328526" target="_Node328606" />
+            <edge id="_Edge328610" source="_Node328526" target="_Node328609" />
+            <edge id="_Edge328613" source="_Node328526" target="_Node328612" />
+            <edge id="_Edge328616" source="_Node328526" target="_Node328615" />
+            <edge id="_Edge328619" source="_Node328526" target="_Node328618" />
+            <edge id="_Edge328622" source="_Node328526" target="_Node328621" />
+            <edge id="_Edge328625" source="_Node328526" target="_Node328624" />
+            <edge id="_Edge328628" source="_Node328526" target="_Node328627" />
+            <edge id="_Edge328631" source="_Node328524" target="_Node328630" />
+            <edge id="_Edge328633" source="_Node328630" target="_Node328632" />
+            <edge id="_Edge328635" source="_Node328632" target="_Node328634" />
+            <edge id="_Edge328638" source="_Node328632" target="_Node328637" />
+            <edge id="_Edge328641" source="_Node328632" target="_Node328640" />
+            <edge id="_Edge328644" source="_Node328630" target="_Node328643" />
+            <edge id="_Edge328646" source="_Node328643" target="_Node328645" />
+            <edge id="_Edge328649" source="_Node328643" target="_Node328648" />
+            <edge id="_Edge328652" source="_Node328643" target="_Node328651" />
+            <edge id="_Edge328655" source="_Node328643" target="_Node328654" />
+            <edge id="_Edge328658" source="_Node328643" target="_Node328657" />
+            <edge id="_Edge328661" source="_Node328643" target="_Node328660" />
+        </tree>
+    </trees>
+</nex:nexml>

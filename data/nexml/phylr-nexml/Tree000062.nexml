@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S11x5x95c17c54c24"><citation>Rodman, J. E. 1991. A taxonomic analysis of glucosinolate-producing plants, Part 2: Cladistics. Syst. Bot. 16:619-629.</citation><author email="jrodman@nsf.gov" firstname="James E. " lastname="Rodman" /></study></nex:external>
+    <otus id="_TaxaBlock9281">
+        <otu id="Dillenia" label="Dillenia" />
+        <otu id="Flacourtiaceae" label="Flacourtiaceae" />
+        <otu id="Euphorbiaceae" label="Euphorbiaceae" />
+        <otu id="Drypetes" label="Drypetes" />
+        <otu id="Caricaceae" label="Caricaceae" />
+        <otu id="Salvadoraceae" label="Salvadoraceae" />
+        <otu id="Bataceae" label="Bataceae" />
+        <otu id="Koeberliniaceae" label="Koeberliniaceae" />
+        <otu id="Gyrostemonaceae" label="Gyrostemonaceae" />
+        <otu id="Brassicaceae" label="Brassicaceae" />
+        <otu id="Capparaceae" label="Capparaceae" />
+        <otu id="Resedaceae" label="Resedaceae" />
+        <otu id="Tovariaceae" label="Tovariaceae" />
+        <otu id="Tropaeolaceae" label="Tropaeolaceae" />
+        <otu id="Moringaceae" label="Moringaceae" />
+        <otu id="Akaniaceae" label="Akaniaceae" />
+        <otu id="Bretschneideraceae" label="Bretschneideraceae" />
+        <otu id="Limnanthaceae" label="Limnanthaceae" />
+        <otu id="Balsaminaceae" label="Balsaminaceae" />
+        <otu id="Centrospermae" label="Centrospermae" />
+        <otu id="Pentadiplandraceae" label="Pentadiplandraceae" />
+        <otu id="Geraniaceae" label="Geraniaceae" />
+        <otu id="Oxalidaceae" label="Oxalidaceae" />
+        <otu id="Celastraceae" label="Celastraceae" />
+        <otu id="Sapindaceae" label="Sapindaceae" />
+        <otu id="Passifloraceae" label="Passifloraceae" />
+    </otus>
+    <trees id="_TreesBlock9282" otus="_TaxaBlock9281">
+        <tree id="_Tree9283" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A27c11x5x95c17c58c53" software="PAUP"><inputmatrix datatype="Morphological" name="Appendix 2" nchar="93" /></analysis></nex:external>
+            <node id="_Node9286" />
+            <node id="_Node9288" otu="Dillenia" />
+            <node id="_Node9291" />
+            <node id="_Node9293" otu="Flacourtiaceae" />
+            <node id="_Node9296" />
+            <node id="_Node9298" />
+            <node id="_Node9300" otu="Euphorbiaceae" />
+            <node id="_Node9303" otu="Drypetes" />
+            <node id="_Node9306" />
+            <node id="_Node9308" />
+            <node id="_Node9310" />
+            <node id="_Node9312" otu="Caricaceae" />
+            <node id="_Node9315" />
+            <node id="_Node9317" />
+            <node id="_Node9319" />
+            <node id="_Node9321" />
+            <node id="_Node9323" />
+            <node id="_Node9325" otu="Salvadoraceae" />
+            <node id="_Node9328" otu="Bataceae" />
+            <node id="_Node9331" otu="Koeberliniaceae" />
+            <node id="_Node9334" />
+            <node id="_Node9336" />
+            <node id="_Node9338" otu="Gyrostemonaceae" />
+            <node id="_Node9341" />
+            <node id="_Node9343" />
+            <node id="_Node9345" otu="Brassicaceae" />
+            <node id="_Node9348" otu="Capparaceae" />
+            <node id="_Node9351" otu="Resedaceae" />
+            <node id="_Node9354" otu="Tovariaceae" />
+            <node id="_Node9357" />
+            <node id="_Node9359" otu="Tropaeolaceae" />
+            <node id="_Node9362" otu="Moringaceae" />
+            <node id="_Node9365" />
+            <node id="_Node9367" otu="Akaniaceae" />
+            <node id="_Node9370" otu="Bretschneideraceae" />
+            <node id="_Node9373" otu="Limnanthaceae" />
+            <node id="_Node9376" otu="Balsaminaceae" />
+            <node id="_Node9379" otu="Centrospermae" />
+            <node id="_Node9382" otu="Pentadiplandraceae" />
+            <node id="_Node9385" />
+            <node id="_Node9387" otu="Geraniaceae" />
+            <node id="_Node9390" otu="Oxalidaceae" />
+            <node id="_Node9393" otu="Celastraceae" />
+            <node id="_Node9396" otu="Sapindaceae" />
+            <node id="_Node9399" otu="Passifloraceae" />
+            <rootedge id="_Edge9287" target="_Node9286" />
+            <edge id="_Edge9289" source="_Node9286" target="_Node9288" />
+            <edge id="_Edge9292" source="_Node9286" target="_Node9291" />
+            <edge id="_Edge9294" source="_Node9291" target="_Node9293" />
+            <edge id="_Edge9297" source="_Node9291" target="_Node9296" />
+            <edge id="_Edge9299" source="_Node9296" target="_Node9298" />
+            <edge id="_Edge9301" source="_Node9298" target="_Node9300" />
+            <edge id="_Edge9304" source="_Node9298" target="_Node9303" />
+            <edge id="_Edge9307" source="_Node9296" target="_Node9306" />
+            <edge id="_Edge9309" source="_Node9306" target="_Node9308" />
+            <edge id="_Edge9311" source="_Node9308" target="_Node9310" />
+            <edge id="_Edge9313" source="_Node9310" target="_Node9312" />
+            <edge id="_Edge9316" source="_Node9310" target="_Node9315" />
+            <edge id="_Edge9318" source="_Node9315" target="_Node9317" />
+            <edge id="_Edge9320" source="_Node9317" target="_Node9319" />
+            <edge id="_Edge9322" source="_Node9319" target="_Node9321" />
+            <edge id="_Edge9324" source="_Node9321" target="_Node9323" />
+            <edge id="_Edge9326" source="_Node9323" target="_Node9325" />
+            <edge id="_Edge9329" source="_Node9323" target="_Node9328" />
+            <edge id="_Edge9332" source="_Node9321" target="_Node9331" />
+            <edge id="_Edge9335" source="_Node9319" target="_Node9334" />
+            <edge id="_Edge9337" source="_Node9334" target="_Node9336" />
+            <edge id="_Edge9339" source="_Node9336" target="_Node9338" />
+            <edge id="_Edge9342" source="_Node9336" target="_Node9341" />
+            <edge id="_Edge9344" source="_Node9341" target="_Node9343" />
+            <edge id="_Edge9346" source="_Node9343" target="_Node9345" />
+            <edge id="_Edge9349" source="_Node9343" target="_Node9348" />
+            <edge id="_Edge9352" source="_Node9341" target="_Node9351" />
+            <edge id="_Edge9355" source="_Node9334" target="_Node9354" />
+            <edge id="_Edge9358" source="_Node9317" target="_Node9357" />
+            <edge id="_Edge9360" source="_Node9357" target="_Node9359" />
+            <edge id="_Edge9363" source="_Node9357" target="_Node9362" />
+            <edge id="_Edge9366" source="_Node9315" target="_Node9365" />
+            <edge id="_Edge9368" source="_Node9365" target="_Node9367" />
+            <edge id="_Edge9371" source="_Node9365" target="_Node9370" />
+            <edge id="_Edge9374" source="_Node9310" target="_Node9373" />
+            <edge id="_Edge9377" source="_Node9310" target="_Node9376" />
+            <edge id="_Edge9380" source="_Node9310" target="_Node9379" />
+            <edge id="_Edge9383" source="_Node9310" target="_Node9382" />
+            <edge id="_Edge9386" source="_Node9308" target="_Node9385" />
+            <edge id="_Edge9388" source="_Node9385" target="_Node9387" />
+            <edge id="_Edge9391" source="_Node9385" target="_Node9390" />
+            <edge id="_Edge9394" source="_Node9306" target="_Node9393" />
+            <edge id="_Edge9397" source="_Node9306" target="_Node9396" />
+            <edge id="_Edge9400" source="_Node9291" target="_Node9399" />
+        </tree>
+    </trees>
+</nex:nexml>

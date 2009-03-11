@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S540"><citation>Hugot J.P. New evidence of Hystricognath Rodents monophyly from the phylogeny of their pinworms, In: Cophylogeny: the comparative study of phylogenesis in symbiotic organisms, Roderic D. M. Page (ed.), Chicago University Press, in press.</citation><author email="hugot@cimrs1.mnhn.fr" firstname="Jean-Pierre A. J." lastname="Hugot" /></study></nex:external>
+    <otus id="_TaxaBlock279549">
+        <otu id="Hilgertiahilgerti" label="Hilgertia hilgerti" />
+        <otu id="Acanthoxyurusbeecrofti" label="Acanthoxyurus beecrofti" />
+        <otu id="Protozoophagaobesa" label="Protozoophaga obesa" />
+        <otu id="Wellcomiadolichotis" label="Wellcomia dolichotis" />
+        <otu id="Wellcomiaroussillhoni" label="Wellcomia roussillhoni" />
+        <otu id="Wellcomiasauvisy" label="Wellcomia sauvisy" />
+        <otu id="Wellcomiacompar" label="Wellcomia compar" />
+        <otu id="Wellcomiabranickii" label="Wellcomia branickii" />
+        <otu id="Wellcomiacarolodominici" label="Wellcomia carolodominici" />
+        <otu id="Wellcomiadecorata" label="Wellcomia decorata" />
+        <otu id="Petronemashortridgei" label="Petronema shortridgei" />
+        <otu id="Helminthoxysurichi" label="Helminthoxys urichi" />
+        <otu id="Helminthoxysquentini" label="Helminthoxys quentini" />
+        <otu id="Helminthoxystiflophila" label="Helminthoxys tiflophila" />
+        <otu id="Helminthoxysgigantea" label="Helminthoxys gigantea" />
+        <otu id="Helminthoxysfreitasi" label="Helminthoxys freitasi" />
+        <otu id="Helminthoxysabrocomae" label="Helminthoxys abrocomae" />
+        <otu id="Helminthoxyscaudatus" label="Helminthoxys caudatus" />
+        <otu id="Helminthoxyspujoli" label="Helminthoxys pujoli" />
+        <otu id="Helminthoxyseffilatus" label="Helminthoxys effilatus" />
+        <otu id="Helminthoxysvelizy" label="Helminthoxys velizy" />
+    </otus>
+    <trees id="_TreesBlock279550" otus="_TaxaBlock279549">
+        <tree id="_Tree279551" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S540A850" software="PAUP"><inputmatrix datatype="Unspecified" nchar="22" /></analysis></nex:external>
+            <node id="_Node279554" />
+            <node id="_Node279556" otu="Hilgertiahilgerti" />
+            <node id="_Node279559" />
+            <node id="_Node279561" otu="Acanthoxyurusbeecrofti" />
+            <node id="_Node279564" />
+            <node id="_Node279566" />
+            <node id="_Node279568" otu="Protozoophagaobesa" />
+            <node id="_Node279571" />
+            <node id="_Node279573" otu="Wellcomiadolichotis" />
+            <node id="_Node279576" />
+            <node id="_Node279578" />
+            <node id="_Node279580" otu="Wellcomiaroussillhoni" />
+            <node id="_Node279583" otu="Wellcomiasauvisy" />
+            <node id="_Node279586" />
+            <node id="_Node279588" otu="Wellcomiacompar" />
+            <node id="_Node279591" />
+            <node id="_Node279593" otu="Wellcomiabranickii" />
+            <node id="_Node279596" otu="Wellcomiacarolodominici" />
+            <node id="_Node279599" otu="Wellcomiadecorata" />
+            <node id="_Node279602" />
+            <node id="_Node279604" otu="Petronemashortridgei" />
+            <node id="_Node279607" />
+            <node id="_Node279609" otu="Helminthoxysurichi" />
+            <node id="_Node279612" />
+            <node id="_Node279614" />
+            <node id="_Node279616" otu="Helminthoxysquentini" />
+            <node id="_Node279619" otu="Helminthoxystiflophila" />
+            <node id="_Node279622" />
+            <node id="_Node279624" />
+            <node id="_Node279626" otu="Helminthoxysgigantea" />
+            <node id="_Node279629" otu="Helminthoxysfreitasi" />
+            <node id="_Node279632" />
+            <node id="_Node279634" otu="Helminthoxysabrocomae" />
+            <node id="_Node279637" />
+            <node id="_Node279639" />
+            <node id="_Node279641" otu="Helminthoxyscaudatus" />
+            <node id="_Node279644" otu="Helminthoxyspujoli" />
+            <node id="_Node279647" />
+            <node id="_Node279649" otu="Helminthoxyseffilatus" />
+            <node id="_Node279652" otu="Helminthoxysvelizy" />
+            <rootedge id="_Edge279555" target="_Node279554" />
+            <edge id="_Edge279557" source="_Node279554" target="_Node279556" />
+            <edge id="_Edge279560" source="_Node279554" target="_Node279559" />
+            <edge id="_Edge279562" source="_Node279559" target="_Node279561" />
+            <edge id="_Edge279565" source="_Node279559" target="_Node279564" />
+            <edge id="_Edge279567" source="_Node279564" target="_Node279566" />
+            <edge id="_Edge279569" source="_Node279566" target="_Node279568" />
+            <edge id="_Edge279572" source="_Node279566" target="_Node279571" />
+            <edge id="_Edge279574" source="_Node279571" target="_Node279573" />
+            <edge id="_Edge279577" source="_Node279571" target="_Node279576" />
+            <edge id="_Edge279579" source="_Node279576" target="_Node279578" />
+            <edge id="_Edge279581" source="_Node279578" target="_Node279580" />
+            <edge id="_Edge279584" source="_Node279578" target="_Node279583" />
+            <edge id="_Edge279587" source="_Node279576" target="_Node279586" />
+            <edge id="_Edge279589" source="_Node279586" target="_Node279588" />
+            <edge id="_Edge279592" source="_Node279586" target="_Node279591" />
+            <edge id="_Edge279594" source="_Node279591" target="_Node279593" />
+            <edge id="_Edge279597" source="_Node279591" target="_Node279596" />
+            <edge id="_Edge279600" source="_Node279591" target="_Node279599" />
+            <edge id="_Edge279603" source="_Node279564" target="_Node279602" />
+            <edge id="_Edge279605" source="_Node279602" target="_Node279604" />
+            <edge id="_Edge279608" source="_Node279602" target="_Node279607" />
+            <edge id="_Edge279610" source="_Node279607" target="_Node279609" />
+            <edge id="_Edge279613" source="_Node279607" target="_Node279612" />
+            <edge id="_Edge279615" source="_Node279612" target="_Node279614" />
+            <edge id="_Edge279617" source="_Node279614" target="_Node279616" />
+            <edge id="_Edge279620" source="_Node279614" target="_Node279619" />
+            <edge id="_Edge279623" source="_Node279612" target="_Node279622" />
+            <edge id="_Edge279625" source="_Node279622" target="_Node279624" />
+            <edge id="_Edge279627" source="_Node279624" target="_Node279626" />
+            <edge id="_Edge279630" source="_Node279624" target="_Node279629" />
+            <edge id="_Edge279633" source="_Node279622" target="_Node279632" />
+            <edge id="_Edge279635" source="_Node279632" target="_Node279634" />
+            <edge id="_Edge279638" source="_Node279632" target="_Node279637" />
+            <edge id="_Edge279640" source="_Node279637" target="_Node279639" />
+            <edge id="_Edge279642" source="_Node279639" target="_Node279641" />
+            <edge id="_Edge279645" source="_Node279639" target="_Node279644" />
+            <edge id="_Edge279648" source="_Node279637" target="_Node279647" />
+            <edge id="_Edge279650" source="_Node279647" target="_Node279649" />
+            <edge id="_Edge279653" source="_Node279647" target="_Node279652" />
+        </tree>
+    </trees>
+</nex:nexml>

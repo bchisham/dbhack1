@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S818"><citation>Myllys, L., S. Stenroos, A. Thell, and T. Ahti. 2002. Phylogeny of bipolar Cladonia arbuscula and C. mitis (Lecanorales, Euascomycetes). Molecular Phylogenetics and Evolution, in press</citation><author email="teuvo.ahti@helsinki.fi" firstname="Teuvo" lastname="Ahti" /><author email="leena.myllys@helsinki.fi" firstname="Leena" lastname="Myllys" /><author email="soili.stenroos@utu.fi" firstname="Soili" lastname="Stenroos" /><author email="Arne.Thell@sysbot.lu.se" firstname="Arne" lastname="Thell" /></study></nex:external>
+    <otus id="_TaxaBlock526888">
+        <otu id="Cladoniarangiferina" label="Cladonia rangiferina" />
+        <otu id="Cladoniasubtenuis" label="Cladonia subtenuis" />
+        <otu id="Cladoniaarbuscula5323" label="Cladonia arbuscula 5323" />
+        <otu id="Cladoniaarbuscula5536" label="Cladonia arbuscula 5536" />
+        <otu id="Cladoniaarbuscula5471" label="Cladonia arbuscula 5471" />
+        <otu id="Cladoniaarbuscula5537" label="Cladonia arbuscula 5537" />
+        <otu id="Cladoniaarbuscula5429" label="Cladonia arbuscula 5429" />
+        <otu id="Cladoniaarbuscula9910" label="Cladonia arbuscula 9910" />
+        <otu id="Cladoniaarbuscula202" label="Cladonia arbuscula 202" />
+        <otu id="Cladoniaarbuscula215" label="Cladonia arbuscula 215" />
+        <otu id="Cladoniaarbuscula5122" label="Cladonia arbuscula 5122" />
+        <otu id="Cladoniaarbuscula5124" label="Cladonia arbuscula 5124" />
+        <otu id="Cladoniaarbuscula212" label="Cladonia arbuscula 212" />
+        <otu id="Cladoniaarbuscula5372" label="Cladonia arbuscula 5372" />
+        <otu id="Cladoniaarbuscula5300" label="Cladonia arbuscula 5300" />
+        <otu id="Cladoniaarbuscula57256" label="Cladonia arbuscula 57256" />
+        <otu id="Cladoniaarbuscula57095" label="Cladonia arbuscula 57095" />
+        <otu id="Cladoniamitis201" label="Cladonia mitis 201" />
+        <otu id="Cladoniamitis217" label="Cladonia mitis 217" />
+        <otu id="Cladoniamitiss.n." label="Cladonia mitis s.n." />
+        <otu id="Cladoniamitis9915" label="Cladonia mitis 9915" />
+        <otu id="Cladoniamitis5304" label="Cladonia mitis 5304" />
+        <otu id="Cladoniamitis216" label="Cladonia mitis 216" />
+        <otu id="Cladoniamitis5501" label="Cladonia mitis 5501" />
+        <otu id="Cladoniamitis5524" label="Cladonia mitis 5524" />
+        <otu id="Cladoniamitis218" label="Cladonia mitis 218" />
+        <otu id="Cladoniamitis5500" label="Cladonia mitis 5500" />
+        <otu id="Cladoniamitis5376" label="Cladonia mitis 5376" />
+        <otu id="Cladoniamitis5339" label="Cladonia mitis 5339" />
+        <otu id="Cladoniamitis5381" label="Cladonia mitis 5381" />
+    </otus>
+    <trees id="_TreesBlock526889" otus="_TaxaBlock526888">
+        <tree id="_Tree526890" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S818A1926" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Fig2a, betatubulin" nchar="790" /></analysis></nex:external>
+            <node id="_Node526893" />
+            <node id="_Node526895" otu="Cladoniarangiferina" />
+            <node id="_Node526898" otu="Cladoniasubtenuis" />
+            <node id="_Node526901" />
+            <node id="_Node526903" />
+            <node id="_Node526905" otu="Cladoniaarbuscula5323" />
+            <node id="_Node526908" otu="Cladoniaarbuscula5536" />
+            <node id="_Node526911" otu="Cladoniaarbuscula5471" />
+            <node id="_Node526914" otu="Cladoniaarbuscula5537" />
+            <node id="_Node526917" />
+            <node id="_Node526919" />
+            <node id="_Node526921" otu="Cladoniaarbuscula5429" />
+            <node id="_Node526924" />
+            <node id="_Node526926" otu="Cladoniaarbuscula9910" />
+            <node id="_Node526929" otu="Cladoniaarbuscula202" />
+            <node id="_Node526932" otu="Cladoniaarbuscula215" />
+            <node id="_Node526935" otu="Cladoniaarbuscula5122" />
+            <node id="_Node526938" otu="Cladoniaarbuscula5124" />
+            <node id="_Node526941" otu="Cladoniaarbuscula212" />
+            <node id="_Node526944" />
+            <node id="_Node526946" />
+            <node id="_Node526948" otu="Cladoniaarbuscula5372" />
+            <node id="_Node526951" otu="Cladoniaarbuscula5300" />
+            <node id="_Node526954" />
+            <node id="_Node526956" otu="Cladoniaarbuscula57256" />
+            <node id="_Node526959" otu="Cladoniaarbuscula57095" />
+            <node id="_Node526962" />
+            <node id="_Node526964" otu="Cladoniamitis201" />
+            <node id="_Node526967" otu="Cladoniamitis217" />
+            <node id="_Node526970" />
+            <node id="_Node526972" otu="Cladoniamitiss.n." />
+            <node id="_Node526975" otu="Cladoniamitis9915" />
+            <node id="_Node526978" otu="Cladoniamitis5304" />
+            <node id="_Node526981" />
+            <node id="_Node526983" otu="Cladoniamitis216" />
+            <node id="_Node526986" otu="Cladoniamitis5501" />
+            <node id="_Node526989" otu="Cladoniamitis5524" />
+            <node id="_Node526992" />
+            <node id="_Node526994" otu="Cladoniamitis218" />
+            <node id="_Node526997" />
+            <node id="_Node526999" otu="Cladoniamitis5500" />
+            <node id="_Node527002" otu="Cladoniamitis5376" />
+            <node id="_Node527005" otu="Cladoniamitis5339" />
+            <node id="_Node527008" otu="Cladoniamitis5381" />
+            <rootedge id="_Edge526894" target="_Node526893" />
+            <edge id="_Edge526896" source="_Node526893" target="_Node526895" />
+            <edge id="_Edge526899" source="_Node526893" target="_Node526898" />
+            <edge id="_Edge526902" source="_Node526893" target="_Node526901" />
+            <edge id="_Edge526904" source="_Node526901" target="_Node526903" />
+            <edge id="_Edge526906" source="_Node526903" target="_Node526905" />
+            <edge id="_Edge526909" source="_Node526903" target="_Node526908" />
+            <edge id="_Edge526912" source="_Node526903" target="_Node526911" />
+            <edge id="_Edge526915" source="_Node526903" target="_Node526914" />
+            <edge id="_Edge526918" source="_Node526901" target="_Node526917" />
+            <edge id="_Edge526920" source="_Node526917" target="_Node526919" />
+            <edge id="_Edge526922" source="_Node526919" target="_Node526921" />
+            <edge id="_Edge526925" source="_Node526919" target="_Node526924" />
+            <edge id="_Edge526927" source="_Node526924" target="_Node526926" />
+            <edge id="_Edge526930" source="_Node526924" target="_Node526929" />
+            <edge id="_Edge526933" source="_Node526924" target="_Node526932" />
+            <edge id="_Edge526936" source="_Node526924" target="_Node526935" />
+            <edge id="_Edge526939" source="_Node526924" target="_Node526938" />
+            <edge id="_Edge526942" source="_Node526917" target="_Node526941" />
+            <edge id="_Edge526945" source="_Node526917" target="_Node526944" />
+            <edge id="_Edge526947" source="_Node526944" target="_Node526946" />
+            <edge id="_Edge526949" source="_Node526946" target="_Node526948" />
+            <edge id="_Edge526952" source="_Node526946" target="_Node526951" />
+            <edge id="_Edge526955" source="_Node526944" target="_Node526954" />
+            <edge id="_Edge526957" source="_Node526954" target="_Node526956" />
+            <edge id="_Edge526960" source="_Node526954" target="_Node526959" />
+            <edge id="_Edge526963" source="_Node526917" target="_Node526962" />
+            <edge id="_Edge526965" source="_Node526962" target="_Node526964" />
+            <edge id="_Edge526968" source="_Node526962" target="_Node526967" />
+            <edge id="_Edge526971" source="_Node526917" target="_Node526970" />
+            <edge id="_Edge526973" source="_Node526970" target="_Node526972" />
+            <edge id="_Edge526976" source="_Node526970" target="_Node526975" />
+            <edge id="_Edge526979" source="_Node526917" target="_Node526978" />
+            <edge id="_Edge526982" source="_Node526917" target="_Node526981" />
+            <edge id="_Edge526984" source="_Node526981" target="_Node526983" />
+            <edge id="_Edge526987" source="_Node526981" target="_Node526986" />
+            <edge id="_Edge526990" source="_Node526981" target="_Node526989" />
+            <edge id="_Edge526993" source="_Node526917" target="_Node526992" />
+            <edge id="_Edge526995" source="_Node526992" target="_Node526994" />
+            <edge id="_Edge526998" source="_Node526992" target="_Node526997" />
+            <edge id="_Edge527000" source="_Node526997" target="_Node526999" />
+            <edge id="_Edge527003" source="_Node526997" target="_Node527002" />
+            <edge id="_Edge527006" source="_Node526997" target="_Node527005" />
+            <edge id="_Edge527009" source="_Node526997" target="_Node527008" />
+        </tree>
+    </trees>
+</nex:nexml>
