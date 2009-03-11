@@ -11,15 +11,15 @@
 
 <body>
 <?php
+
+//need to figure out most useful way for user to give file, prolly location of xml
+//no validation on files which is a problem
 $nex =  '52.xml';
 
-$returnotunames = otu($nex);
+returnotus($nex);
 
 
-	foreach ($returnotunames as $array){
-	$mbserviceurl = imageurl($array);
-	print_r($mbserviceurl);
-		}
+
 	
 
 ?>
