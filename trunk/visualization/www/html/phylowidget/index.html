@@ -50,17 +50,18 @@ pw_hover = function(json_data)
 	var applet = PhyloWidget.getApplet();
 	
 	var json = eval("("+json_data+")");
-	var ann = json["Annotations"];
-	
+	var ann = json["annotations"];
+        var cal = json["calculations"];	
+
 	// Create a mapping of key-value pairs.
 	// We're getting information on the currently hovered node by calling the "hoveredXYZ" methods from the PWPublicMethods.java definitions:
 	// http://phylowidget.googlecode.com/svn/trunk/PhyloWidget/src/org/phylowidget/PWPublicMethods.java
 	var map = {
 		"Name" : ann["Label"],
 		"Branch Length" : ann["Branch Length"],
-		"Enclosed Leaves" : json["Enclosed Leaves"],
-		"Depth to Root" : json["Depth to Root"],
-		"Branch Length to Root" : json["Branch Length to Root"]
+		"Enclosed Leaves" : cal["Enclosed Leaves"],
+		"Depth to Root" : cal["Depth to Root"],
+		"Branch Length to Root" : cal["Branch Length to Root"]
 	};
 
 	// Create some HTML based on the key-value pairs.
