@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S3x21x98c10c02c04"><citation>Hallenberg, N. and E. Parmasto. 1998. Phylogenetic studies in species of Corticiaceae growing on branches. Mycologia, in press.</citation><author email="nils.hallenberg@systbot.gu.se" firstname="Nils" lastname="Hallenberg" /><author firstname="Erast" lastname="Parmasto" /></study></nex:external>
+    <otus id="_TaxaBlock78427">
+        <otu id="Acanthophysiumweirii" label="Acanthophysium weirii" />
+        <otu id="Aleurodiscusaurantius" label="Aleurodiscus aurantius" />
+        <otu id="Vuilleminiacystidiata" label="Vuilleminia cystidiata" />
+        <otu id="Dendrocorticiumpolygonioides" label="Dendrocorticium polygonioides" />
+        <otu id="Vuilleminiacomedens" label="Vuilleminia comedens" />
+        <otu id="Cytidiasalicina" label="Cytidia salicina" />
+        <otu id="Duportellatristicula" label="Duportella tristicula" />
+        <otu id="Corticiumroseum" label="Corticium roseum" />
+        <otu id="Aleurocystidiellumsubcruentatum" label="Aleurocystidiellum subcruentatum" />
+        <otu id="Aleurocystidiellumdisciforme" label="Aleurocystidiellum disciforme" />
+        <otu id="Acanthophysiumcerrusatum" label="Acanthophysium cerrusatum" />
+        <otu id="Acanthophysiumlividocaeruleum" label="Acanthophysium lividocaeruleum" />
+        <otu id="Aleurodiscuswakefieldiae" label="Aleurodiscus wakefieldiae" />
+        <otu id="Stereumrugosum" label="Stereum rugosum" />
+        <otu id="Stereumhirsutum" label="Stereum hirsutum" />
+        <otu id="Amylostereumchailletii" label="Amylostereum chailletii" />
+        <otu id="Peniophoraincarnata" label="Peniophora incarnata" />
+        <otu id="Peniophoraaurantiaca" label="Peniophora aurantiaca" />
+        <otu id="Peniophorameridionalis" label="Peniophora meridionalis" />
+        <otu id="Peniophoradecorticans" label="Peniophora decorticans" />
+        <otu id="Peniophoranuda" label="Peniophora nuda" />
+        <otu id="Peniophoracinereafagicola" label="Peniophora cinerea fagicola" />
+        <otu id="Peniophoracinereacinerea" label="Peniophora cinerea cinerea" />
+        <otu id="Peniophoraversicolor" label="Peniophora versicolor" />
+        <otu id="Peniophoraproxima" label="Peniophora proxima" />
+        <otu id="Peniophorapiceae" label="Peniophora piceae" />
+        <otu id="Peniophorapini" label="Peniophora pini" />
+        <otu id="Peniophorarufa" label="Peniophora rufa" />
+        <otu id="Peniophorapolygonia" label="Peniophora polygonia" />
+    </otus>
+    <trees id="_TreesBlock78428" otus="_TaxaBlock78427">
+        <tree id="_Tree78429" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A218c3x21x98c10c41c23" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Molecular" nchar="485" /><inputmatrix datatype="Morphological" name="Table II" nchar="48" /></analysis></nex:external>
+            <node id="_Node78432" />
+            <node id="_Node78434" otu="Acanthophysiumweirii" />
+            <node id="_Node78437" />
+            <node id="_Node78439" otu="Aleurodiscusaurantius" />
+            <node id="_Node78442" />
+            <node id="_Node78444" />
+            <node id="_Node78446" otu="Vuilleminiacystidiata" />
+            <node id="_Node78449" />
+            <node id="_Node78451" otu="Dendrocorticiumpolygonioides" />
+            <node id="_Node78454" />
+            <node id="_Node78456" />
+            <node id="_Node78458" otu="Vuilleminiacomedens" />
+            <node id="_Node78461" otu="Cytidiasalicina" />
+            <node id="_Node78464" />
+            <node id="_Node78466" otu="Duportellatristicula" />
+            <node id="_Node78469" otu="Corticiumroseum" />
+            <node id="_Node78472" />
+            <node id="_Node78474" />
+            <node id="_Node78476" otu="Aleurocystidiellumsubcruentatum" />
+            <node id="_Node78479" otu="Aleurocystidiellumdisciforme" />
+            <node id="_Node78482" />
+            <node id="_Node78484" />
+            <node id="_Node78486" />
+            <node id="_Node78488" otu="Acanthophysiumcerrusatum" />
+            <node id="_Node78491" otu="Acanthophysiumlividocaeruleum" />
+            <node id="_Node78494" />
+            <node id="_Node78496" otu="Aleurodiscuswakefieldiae" />
+            <node id="_Node78499" />
+            <node id="_Node78501" otu="Stereumrugosum" />
+            <node id="_Node78504" otu="Stereumhirsutum" />
+            <node id="_Node78507" />
+            <node id="_Node78509" otu="Amylostereumchailletii" />
+            <node id="_Node78512" />
+            <node id="_Node78514" />
+            <node id="_Node78516" otu="Peniophoraincarnata" />
+            <node id="_Node78519" otu="Peniophoraaurantiaca" />
+            <node id="_Node78522" />
+            <node id="_Node78524" />
+            <node id="_Node78526" otu="Peniophorameridionalis" />
+            <node id="_Node78529" />
+            <node id="_Node78531" otu="Peniophoradecorticans" />
+            <node id="_Node78534" />
+            <node id="_Node78536" otu="Peniophoranuda" />
+            <node id="_Node78539" />
+            <node id="_Node78541" otu="Peniophoracinereafagicola" />
+            <node id="_Node78544" otu="Peniophoracinereacinerea" />
+            <node id="_Node78547" />
+            <node id="_Node78549" otu="Peniophoraversicolor" />
+            <node id="_Node78552" />
+            <node id="_Node78554" otu="Peniophoraproxima" />
+            <node id="_Node78557" />
+            <node id="_Node78559" otu="Peniophorapiceae" />
+            <node id="_Node78562" />
+            <node id="_Node78564" otu="Peniophorapini" />
+            <node id="_Node78567" />
+            <node id="_Node78569" otu="Peniophorarufa" />
+            <node id="_Node78572" otu="Peniophorapolygonia" />
+            <rootedge id="_Edge78433" target="_Node78432" />
+            <edge id="_Edge78435" source="_Node78432" target="_Node78434" />
+            <edge id="_Edge78438" source="_Node78432" target="_Node78437" />
+            <edge id="_Edge78440" source="_Node78437" target="_Node78439" />
+            <edge id="_Edge78443" source="_Node78437" target="_Node78442" />
+            <edge id="_Edge78445" source="_Node78442" target="_Node78444" />
+            <edge id="_Edge78447" source="_Node78444" target="_Node78446" />
+            <edge id="_Edge78450" source="_Node78444" target="_Node78449" />
+            <edge id="_Edge78452" source="_Node78449" target="_Node78451" />
+            <edge id="_Edge78455" source="_Node78449" target="_Node78454" />
+            <edge id="_Edge78457" source="_Node78454" target="_Node78456" />
+            <edge id="_Edge78459" source="_Node78456" target="_Node78458" />
+            <edge id="_Edge78462" source="_Node78456" target="_Node78461" />
+            <edge id="_Edge78465" source="_Node78454" target="_Node78464" />
+            <edge id="_Edge78467" source="_Node78464" target="_Node78466" />
+            <edge id="_Edge78470" source="_Node78464" target="_Node78469" />
+            <edge id="_Edge78473" source="_Node78442" target="_Node78472" />
+            <edge id="_Edge78475" source="_Node78472" target="_Node78474" />
+            <edge id="_Edge78477" source="_Node78474" target="_Node78476" />
+            <edge id="_Edge78480" source="_Node78474" target="_Node78479" />
+            <edge id="_Edge78483" source="_Node78472" target="_Node78482" />
+            <edge id="_Edge78485" source="_Node78482" target="_Node78484" />
+            <edge id="_Edge78487" source="_Node78484" target="_Node78486" />
+            <edge id="_Edge78489" source="_Node78486" target="_Node78488" />
+            <edge id="_Edge78492" source="_Node78486" target="_Node78491" />
+            <edge id="_Edge78495" source="_Node78484" target="_Node78494" />
+            <edge id="_Edge78497" source="_Node78494" target="_Node78496" />
+            <edge id="_Edge78500" source="_Node78494" target="_Node78499" />
+            <edge id="_Edge78502" source="_Node78499" target="_Node78501" />
+            <edge id="_Edge78505" source="_Node78499" target="_Node78504" />
+            <edge id="_Edge78508" source="_Node78482" target="_Node78507" />
+            <edge id="_Edge78510" source="_Node78507" target="_Node78509" />
+            <edge id="_Edge78513" source="_Node78507" target="_Node78512" />
+            <edge id="_Edge78515" source="_Node78512" target="_Node78514" />
+            <edge id="_Edge78517" source="_Node78514" target="_Node78516" />
+            <edge id="_Edge78520" source="_Node78514" target="_Node78519" />
+            <edge id="_Edge78523" source="_Node78512" target="_Node78522" />
+            <edge id="_Edge78525" source="_Node78522" target="_Node78524" />
+            <edge id="_Edge78527" source="_Node78524" target="_Node78526" />
+            <edge id="_Edge78530" source="_Node78524" target="_Node78529" />
+            <edge id="_Edge78532" source="_Node78529" target="_Node78531" />
+            <edge id="_Edge78535" source="_Node78529" target="_Node78534" />
+            <edge id="_Edge78537" source="_Node78534" target="_Node78536" />
+            <edge id="_Edge78540" source="_Node78534" target="_Node78539" />
+            <edge id="_Edge78542" source="_Node78539" target="_Node78541" />
+            <edge id="_Edge78545" source="_Node78539" target="_Node78544" />
+            <edge id="_Edge78548" source="_Node78522" target="_Node78547" />
+            <edge id="_Edge78550" source="_Node78547" target="_Node78549" />
+            <edge id="_Edge78553" source="_Node78547" target="_Node78552" />
+            <edge id="_Edge78555" source="_Node78552" target="_Node78554" />
+            <edge id="_Edge78558" source="_Node78552" target="_Node78557" />
+            <edge id="_Edge78560" source="_Node78557" target="_Node78559" />
+            <edge id="_Edge78563" source="_Node78557" target="_Node78562" />
+            <edge id="_Edge78565" source="_Node78562" target="_Node78564" />
+            <edge id="_Edge78568" source="_Node78562" target="_Node78567" />
+            <edge id="_Edge78570" source="_Node78567" target="_Node78569" />
+            <edge id="_Edge78573" source="_Node78567" target="_Node78572" />
+        </tree>
+    </trees>
+</nex:nexml>

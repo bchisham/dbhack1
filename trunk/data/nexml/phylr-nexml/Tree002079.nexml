@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S914"><citation>Smith, J. J., M. Jaycox, M.R.B. Smith-Caldas, and G. L. Bush. 2003. Analysis of mitochondrial DNA and morphological characters in the subtribe Carpomyina (Diptera: Tephritidae), in press. In: (A. Freidberg, Ed.) Proceedings of the First Tephritidologist Conference, Tel Aviv University, May 2000.</citation><author email="bushfly@msu.edu" firstname="Guy L." lastname="Bush" /><author email="jaycoxma@msu.edu" firstname="Matthew" lastname="Jaycox" /><author email="jimsmith@msu.edu" firstname="James J." lastname="Smith" /><author email="msbressan@hotmail.com" firstname="Martha R.B." lastname="Smith-Caldas" /></study></nex:external>
+    <otus id="_TaxaBlock603865">
+        <otu id="Euphrantacanadensis" label="Euphranta canadensis" />
+        <otu id="Rhagoletisalmatensis" label="Rhagoletis almatensis" />
+        <otu id="Rhagoletiscerasi" label="Rhagoletis cerasi" />
+        <otu id="Rhagoletisflavicincta" label="Rhagoletis flavicincta" />
+        <otu id="Rhagoletisalternata" label="Rhagoletis alternata" />
+        <otu id="Rhagoletisbasiola" label="Rhagoletis basiola" />
+        <otu id="Rhagoletisbatava" label="Rhagoletis batava" />
+        <otu id="Rhagoletisberberis" label="Rhagoletis berberis" />
+        <otu id="Rhagoletisribicola" label="Rhagoletis ribicola" />
+        <otu id="Rhagoletisboycei" label="Rhagoletis boycei" />
+        <otu id="Rhagoletiscompleta" label="Rhagoletis completa" />
+        <otu id="Rhagoletiszoqui" label="Rhagoletis zoqui" />
+        <otu id="Rhagoletisjuglandis" label="Rhagoletis juglandis" />
+        <otu id="Rhagoletissuavis" label="Rhagoletis suavis" />
+        <otu id="Rhagoletischionanthi" label="Rhagoletis chionanthi" />
+        <otu id="Rhagoletiscingulata" label="Rhagoletis cingulata" />
+        <otu id="Rhagoletisindifferens" label="Rhagoletis indifferens" />
+        <otu id="Rhagoletisosmanthi" label="Rhagoletis osmanthi" />
+        <otu id="Rhagoletiscornivora" label="Rhagoletis cornivora" />
+        <otu id="Rhagoletiselectromorpha" label="Rhagoletis electromorpha" />
+        <otu id="Rhagoletisnrtabellaria" label="Rhagoletis nr tabellaria" />
+        <otu id="Rhagoletistabellaria" label="Rhagoletis tabellaria" />
+        <otu id="Rhagoletispersimilis" label="Rhagoletis persimilis" />
+        <otu id="Rhagoletismendax" label="Rhagoletis mendax" />
+        <otu id="Rhagoletisnrmendax" label="Rhagoletis nr mendax" />
+        <otu id="Rhagoletispomonella" label="Rhagoletis pomonella" />
+        <otu id="Rhagoletiszephyria" label="Rhagoletis zephyria" />
+        <otu id="Rhagoletisfausta" label="Rhagoletis fausta" />
+        <otu id="Rhagoletisjuniperina" label="Rhagoletis juniperina" />
+        <otu id="Rhagoletisflavigenualis" label="Rhagoletis flavigenualis" />
+        <otu id="Rhagoletismagniterebra" label="Rhagoletis magniterebra" />
+        <otu id="Rhagoletismeigenii" label="Rhagoletis meigenii" />
+        <otu id="Rhagoletisstriatella" label="Rhagoletis striatella" />
+        <otu id="Carpomyaschineri" label="Carpomya schineri" />
+        <otu id="Rhagoletisblanchardi" label="Rhagoletis blanchardi" />
+        <otu id="Rhagoletisferruginea" label="Rhagoletis ferruginea" />
+        <otu id="Rhagoletisconversa" label="Rhagoletis conversa" />
+        <otu id="Rhagoletisnova" label="Rhagoletis nova" />
+        <otu id="Rhagoletislycopersella" label="Rhagoletis lycopersella" />
+        <otu id="Rhagoletispsalida" label="Rhagoletis psalida" />
+        <otu id="Zonosemataelecta" label="Zonosemata electa" />
+        <otu id="Rhagoletotrypetapastranai" label="Rhagoletotrypeta pastranai" />
+        <otu id="Rhagoletisberberidis" label="Rhagoletis berberidis" />
+        <otu id="Oedicarenalatifrons" label="Oedicarena latifrons" />
+    </otus>
+    <trees id="_TreesBlock603866" otus="_TaxaBlock603865">
+        <tree id="_Tree603867" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S914A2398" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Carpomyina mtDNA" nchar="1027" /></analysis></nex:external>
+            <node id="_Node603870" />
+            <node id="_Node603872" otu="Euphrantacanadensis" />
+            <node id="_Node603875" />
+            <node id="_Node603877" />
+            <node id="_Node603879" />
+            <node id="_Node603881" />
+            <node id="_Node603883" otu="Rhagoletisalmatensis" />
+            <node id="_Node603886" otu="Rhagoletiscerasi" />
+            <node id="_Node603889" otu="Rhagoletisflavicincta" />
+            <node id="_Node603892" />
+            <node id="_Node603894" />
+            <node id="_Node603896" otu="Rhagoletisalternata" />
+            <node id="_Node603899" otu="Rhagoletisbasiola" />
+            <node id="_Node603902" />
+            <node id="_Node603904" otu="Rhagoletisbatava" />
+            <node id="_Node603907" />
+            <node id="_Node603909" />
+            <node id="_Node603911" />
+            <node id="_Node603913" otu="Rhagoletisberberis" />
+            <node id="_Node603916" otu="Rhagoletisribicola" />
+            <node id="_Node603919" />
+            <node id="_Node603921" />
+            <node id="_Node603923" />
+            <node id="_Node603925" />
+            <node id="_Node603927" otu="Rhagoletisboycei" />
+            <node id="_Node603930" />
+            <node id="_Node603932" otu="Rhagoletiscompleta" />
+            <node id="_Node603935" otu="Rhagoletiszoqui" />
+            <node id="_Node603938" otu="Rhagoletisjuglandis" />
+            <node id="_Node603941" otu="Rhagoletissuavis" />
+            <node id="_Node603944" />
+            <node id="_Node603946" otu="Rhagoletischionanthi" />
+            <node id="_Node603949" otu="Rhagoletiscingulata" />
+            <node id="_Node603952" otu="Rhagoletisindifferens" />
+            <node id="_Node603955" otu="Rhagoletisosmanthi" />
+            <node id="_Node603958" />
+            <node id="_Node603960" />
+            <node id="_Node603962" />
+            <node id="_Node603964" />
+            <node id="_Node603966" otu="Rhagoletiscornivora" />
+            <node id="_Node603969" />
+            <node id="_Node603971" />
+            <node id="_Node603973" />
+            <node id="_Node603975" otu="Rhagoletiselectromorpha" />
+            <node id="_Node603978" otu="Rhagoletisnrtabellaria" />
+            <node id="_Node603981" otu="Rhagoletistabellaria" />
+            <node id="_Node603984" otu="Rhagoletispersimilis" />
+            <node id="_Node603987" />
+            <node id="_Node603989" otu="Rhagoletismendax" />
+            <node id="_Node603992" otu="Rhagoletisnrmendax" />
+            <node id="_Node603995" otu="Rhagoletispomonella" />
+            <node id="_Node603998" otu="Rhagoletiszephyria" />
+            <node id="_Node604001" />
+            <node id="_Node604003" otu="Rhagoletisfausta" />
+            <node id="_Node604006" otu="Rhagoletisjuniperina" />
+            <node id="_Node604009" otu="Rhagoletisflavigenualis" />
+            <node id="_Node604012" />
+            <node id="_Node604014" otu="Rhagoletismagniterebra" />
+            <node id="_Node604017" otu="Rhagoletismeigenii" />
+            <node id="_Node604020" otu="Rhagoletisstriatella" />
+            <node id="_Node604023" otu="Carpomyaschineri" />
+            <node id="_Node604026" />
+            <node id="_Node604028" />
+            <node id="_Node604030" />
+            <node id="_Node604032" otu="Rhagoletisblanchardi" />
+            <node id="_Node604035" otu="Rhagoletisferruginea" />
+            <node id="_Node604038" />
+            <node id="_Node604040" />
+            <node id="_Node604042" />
+            <node id="_Node604044" otu="Rhagoletisconversa" />
+            <node id="_Node604047" otu="Rhagoletisnova" />
+            <node id="_Node604050" otu="Rhagoletislycopersella" />
+            <node id="_Node604053" otu="Rhagoletispsalida" />
+            <node id="_Node604056" otu="Zonosemataelecta" />
+            <node id="_Node604059" otu="Rhagoletotrypetapastranai" />
+            <node id="_Node604062" />
+            <node id="_Node604064" otu="Rhagoletisberberidis" />
+            <node id="_Node604067" otu="Oedicarenalatifrons" />
+            <rootedge id="_Edge603871" target="_Node603870" />
+            <edge id="_Edge603873" source="_Node603870" target="_Node603872" />
+            <edge id="_Edge603876" source="_Node603870" target="_Node603875" />
+            <edge id="_Edge603878" source="_Node603875" target="_Node603877" />
+            <edge id="_Edge603880" source="_Node603877" target="_Node603879" />
+            <edge id="_Edge603882" source="_Node603879" target="_Node603881" />
+            <edge id="_Edge603884" source="_Node603881" target="_Node603883" />
+            <edge id="_Edge603887" source="_Node603881" target="_Node603886" />
+            <edge id="_Edge603890" source="_Node603881" target="_Node603889" />
+            <edge id="_Edge603893" source="_Node603879" target="_Node603892" />
+            <edge id="_Edge603895" source="_Node603892" target="_Node603894" />
+            <edge id="_Edge603897" source="_Node603894" target="_Node603896" />
+            <edge id="_Edge603900" source="_Node603894" target="_Node603899" />
+            <edge id="_Edge603903" source="_Node603892" target="_Node603902" />
+            <edge id="_Edge603905" source="_Node603902" target="_Node603904" />
+            <edge id="_Edge603908" source="_Node603902" target="_Node603907" />
+            <edge id="_Edge603910" source="_Node603907" target="_Node603909" />
+            <edge id="_Edge603912" source="_Node603909" target="_Node603911" />
+            <edge id="_Edge603914" source="_Node603911" target="_Node603913" />
+            <edge id="_Edge603917" source="_Node603911" target="_Node603916" />
+            <edge id="_Edge603920" source="_Node603909" target="_Node603919" />
+            <edge id="_Edge603922" source="_Node603919" target="_Node603921" />
+            <edge id="_Edge603924" source="_Node603921" target="_Node603923" />
+            <edge id="_Edge603926" source="_Node603923" target="_Node603925" />
+            <edge id="_Edge603928" source="_Node603925" target="_Node603927" />
+            <edge id="_Edge603931" source="_Node603925" target="_Node603930" />
+            <edge id="_Edge603933" source="_Node603930" target="_Node603932" />
+            <edge id="_Edge603936" source="_Node603930" target="_Node603935" />
+            <edge id="_Edge603939" source="_Node603923" target="_Node603938" />
+            <edge id="_Edge603942" source="_Node603921" target="_Node603941" />
+            <edge id="_Edge603945" source="_Node603919" target="_Node603944" />
+            <edge id="_Edge603947" source="_Node603944" target="_Node603946" />
+            <edge id="_Edge603950" source="_Node603944" target="_Node603949" />
+            <edge id="_Edge603953" source="_Node603944" target="_Node603952" />
+            <edge id="_Edge603956" source="_Node603944" target="_Node603955" />
+            <edge id="_Edge603959" source="_Node603907" target="_Node603958" />
+            <edge id="_Edge603961" source="_Node603958" target="_Node603960" />
+            <edge id="_Edge603963" source="_Node603960" target="_Node603962" />
+            <edge id="_Edge603965" source="_Node603962" target="_Node603964" />
+            <edge id="_Edge603967" source="_Node603964" target="_Node603966" />
+            <edge id="_Edge603970" source="_Node603964" target="_Node603969" />
+            <edge id="_Edge603972" source="_Node603969" target="_Node603971" />
+            <edge id="_Edge603974" source="_Node603971" target="_Node603973" />
+            <edge id="_Edge603976" source="_Node603973" target="_Node603975" />
+            <edge id="_Edge603979" source="_Node603973" target="_Node603978" />
+            <edge id="_Edge603982" source="_Node603971" target="_Node603981" />
+            <edge id="_Edge603985" source="_Node603969" target="_Node603984" />
+            <edge id="_Edge603988" source="_Node603962" target="_Node603987" />
+            <edge id="_Edge603990" source="_Node603987" target="_Node603989" />
+            <edge id="_Edge603993" source="_Node603987" target="_Node603992" />
+            <edge id="_Edge603996" source="_Node603987" target="_Node603995" />
+            <edge id="_Edge603999" source="_Node603987" target="_Node603998" />
+            <edge id="_Edge604002" source="_Node603960" target="_Node604001" />
+            <edge id="_Edge604004" source="_Node604001" target="_Node604003" />
+            <edge id="_Edge604007" source="_Node604001" target="_Node604006" />
+            <edge id="_Edge604010" source="_Node603958" target="_Node604009" />
+            <edge id="_Edge604013" source="_Node603879" target="_Node604012" />
+            <edge id="_Edge604015" source="_Node604012" target="_Node604014" />
+            <edge id="_Edge604018" source="_Node604012" target="_Node604017" />
+            <edge id="_Edge604021" source="_Node603879" target="_Node604020" />
+            <edge id="_Edge604024" source="_Node603879" target="_Node604023" />
+            <edge id="_Edge604027" source="_Node603877" target="_Node604026" />
+            <edge id="_Edge604029" source="_Node604026" target="_Node604028" />
+            <edge id="_Edge604031" source="_Node604028" target="_Node604030" />
+            <edge id="_Edge604033" source="_Node604030" target="_Node604032" />
+            <edge id="_Edge604036" source="_Node604030" target="_Node604035" />
+            <edge id="_Edge604039" source="_Node604028" target="_Node604038" />
+            <edge id="_Edge604041" source="_Node604038" target="_Node604040" />
+            <edge id="_Edge604043" source="_Node604040" target="_Node604042" />
+            <edge id="_Edge604045" source="_Node604042" target="_Node604044" />
+            <edge id="_Edge604048" source="_Node604042" target="_Node604047" />
+            <edge id="_Edge604051" source="_Node604040" target="_Node604050" />
+            <edge id="_Edge604054" source="_Node604038" target="_Node604053" />
+            <edge id="_Edge604057" source="_Node604026" target="_Node604056" />
+            <edge id="_Edge604060" source="_Node603875" target="_Node604059" />
+            <edge id="_Edge604063" source="_Node603870" target="_Node604062" />
+            <edge id="_Edge604065" source="_Node604062" target="_Node604064" />
+            <edge id="_Edge604068" source="_Node604062" target="_Node604067" />
+        </tree>
+    </trees>
+</nex:nexml>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S852"><citation>Rokas, A., N. King, J. Finnerty, and S. B. Carroll. 2003. Conflicting Phylogenetic Signals at the Base of the Metazoan Tree. Evolution and Development, in press.</citation><author email="sbcarrol@facstaff.wisc.edu" firstname="Sean B." lastname="Carroll" /><author email="jrf3@acs-pop.bu.edu" firstname="John" lastname="Finnerty" /><author email="nicoleking@wiscmail.wisc.edu" firstname="Nicole" lastname="King" /><author email="arokas@facstaff.wisc.edu" firstname="Antonis" lastname="Rokas" /></study></nex:external>
+    <otus id="_TaxaBlock550460">
+        <otu id="Monosiga" label="Monosiga" />
+        <otu id="Leucosolenia" label="Leucosolenia" />
+        <otu id="Scypha" label="Scypha" />
+        <otu id="Halichondria" label="Halichondria" />
+        <otu id="Suberites" label="Suberites" />
+        <otu id="Haliclona" label="Haliclona" />
+        <otu id="Saccharomyces" label="Saccharomyces" />
+        <otu id="Schizosaccharomyces" label="Schizosaccharomyces" />
+        <otu id="Caenorhabditis" label="Caenorhabditis" />
+        <otu id="Drosophila" label="Drosophila" />
+        <otu id="Nematostella" label="Nematostella" />
+        <otu id="Aurelia" label="Aurelia" />
+        <otu id="Danio" label="Danio" />
+        <otu id="Mus" label="Mus" />
+        <otu id="Clypeatula" label="Clypeatula" />
+        <otu id="Mnemiopsis" label="Mnemiopsis" />
+        <otu id="Schistosoma" label="Schistosoma" />
+        <otu id="ATCC50818" label="ATCC 50818" />
+    </otus>
+    <trees id="_TreesBlock550461" otus="_TaxaBlock550460">
+        <tree id="_Tree550462" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S852A2058" software="Tree-Puzzle"><inputmatrix datatype="Amino Acid" name="Fig3B" nchar="1561" /></analysis></nex:external>
+            <node id="_Node550465" />
+            <node id="_Node550467" otu="Monosiga" />
+            <node id="_Node550470" />
+            <node id="_Node550472" />
+            <node id="_Node550474" otu="Leucosolenia" />
+            <node id="_Node550477" otu="Scypha" />
+            <node id="_Node550480" />
+            <node id="_Node550482" />
+            <node id="_Node550484" otu="Halichondria" />
+            <node id="_Node550487" otu="Suberites" />
+            <node id="_Node550490" otu="Haliclona" />
+            <node id="_Node550493" />
+            <node id="_Node550495" otu="Saccharomyces" />
+            <node id="_Node550498" otu="Schizosaccharomyces" />
+            <node id="_Node550501" />
+            <node id="_Node550503" otu="Caenorhabditis" />
+            <node id="_Node550506" otu="Drosophila" />
+            <node id="_Node550509" />
+            <node id="_Node550511" otu="Nematostella" />
+            <node id="_Node550514" otu="Aurelia" />
+            <node id="_Node550517" />
+            <node id="_Node550519" otu="Danio" />
+            <node id="_Node550522" otu="Mus" />
+            <node id="_Node550525" otu="Clypeatula" />
+            <node id="_Node550528" otu="Mnemiopsis" />
+            <node id="_Node550531" otu="Schistosoma" />
+            <node id="_Node550534" otu="ATCC50818" />
+            <rootedge id="_Edge550466" target="_Node550465" />
+            <edge id="_Edge550468" source="_Node550465" target="_Node550467" />
+            <edge id="_Edge550471" source="_Node550465" target="_Node550470" />
+            <edge id="_Edge550473" source="_Node550470" target="_Node550472" />
+            <edge id="_Edge550475" source="_Node550472" target="_Node550474" />
+            <edge id="_Edge550478" source="_Node550472" target="_Node550477" />
+            <edge id="_Edge550481" source="_Node550470" target="_Node550480" />
+            <edge id="_Edge550483" source="_Node550480" target="_Node550482" />
+            <edge id="_Edge550485" source="_Node550482" target="_Node550484" />
+            <edge id="_Edge550488" source="_Node550482" target="_Node550487" />
+            <edge id="_Edge550491" source="_Node550480" target="_Node550490" />
+            <edge id="_Edge550494" source="_Node550470" target="_Node550493" />
+            <edge id="_Edge550496" source="_Node550493" target="_Node550495" />
+            <edge id="_Edge550499" source="_Node550493" target="_Node550498" />
+            <edge id="_Edge550502" source="_Node550470" target="_Node550501" />
+            <edge id="_Edge550504" source="_Node550501" target="_Node550503" />
+            <edge id="_Edge550507" source="_Node550501" target="_Node550506" />
+            <edge id="_Edge550510" source="_Node550470" target="_Node550509" />
+            <edge id="_Edge550512" source="_Node550509" target="_Node550511" />
+            <edge id="_Edge550515" source="_Node550509" target="_Node550514" />
+            <edge id="_Edge550518" source="_Node550470" target="_Node550517" />
+            <edge id="_Edge550520" source="_Node550517" target="_Node550519" />
+            <edge id="_Edge550523" source="_Node550517" target="_Node550522" />
+            <edge id="_Edge550526" source="_Node550470" target="_Node550525" />
+            <edge id="_Edge550529" source="_Node550470" target="_Node550528" />
+            <edge id="_Edge550532" source="_Node550470" target="_Node550531" />
+            <edge id="_Edge550535" source="_Node550465" target="_Node550534" />
+        </tree>
+    </trees>
+</nex:nexml>

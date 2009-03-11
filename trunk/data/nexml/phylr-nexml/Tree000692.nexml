@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S322"><citation>Friedrich, M. and D. Tautz. 1997. Evolution and phylogeny of the Diptera: A molecular phylogenetic analysis using 28S rDNA sequences. Syst. Biol. 46(4): 674-698.</citation><author email="mf@cco.caltech.edu" firstname="Markus" lastname="Friedrich" /><author email="tautz@zi.biologie.uni-munechen.de" firstname="Diethard" lastname="Tautz" /></study></nex:external>
+    <otus id="_TaxaBlock137129">
+        <otu id="Panorpacommunis" label="Panorpa communis" />
+        <otu id="Manducasexta" label="Manduca sexta" />
+        <otu id="Archaeopsyllaerinacei" label="Archaeopsylla erinacei" />
+        <otu id="Limonianebulosa" label="Limonia nebulosa" />
+        <otu id="Tipulapaludosa" label="Tipula paludosa" />
+        <otu id="Trichoceraregelationis" label="Trichocera regelationis" />
+        <otu id="Chironomustentans" label="Chironomus tentans" />
+        <otu id="Simuliumeuryadminiculum" label="Simulium euryadminiculum" />
+        <otu id="Culexpipiens" label="Culex pipiens" />
+        <otu id="Aedesalbopictus" label="Aedes albopictus" />
+        <otu id="Dilophusfebrilis" label="Dilophus febrilis" />
+        <otu id="Sylvicolafenestralis" label="Sylvicola fenestralis" />
+        <otu id="Crinodiplosiscilirus" label="Crinodiplosis cilirus" />
+        <otu id="Anapausisinermis" label="Anapausis inermis" />
+        <otu id="Bolitophilacinerea" label="Bolitophila cinerea" />
+        <otu id="Bradysiacoprophila" label="Bradysia coprophila" />
+        <otu id="Psychodacinerea" label="Psychoda cinerea" />
+        <otu id="Drosophilamelanogaster" label="Drosophila melanogaster" />
+        <otu id="Tabanussudeticus" label="Tabanus sudeticus" />
+    </otus>
+    <trees id="_TreesBlock137130" otus="_TaxaBlock137129">
+        <tree id="_Tree137131" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S322A160" software="Phylip"><inputmatrix datatype="Nucleic Acid" name="Appendix 1" nchar="663" /></analysis></nex:external>
+            <node id="_Node137134" />
+            <node id="_Node137136" otu="Panorpacommunis" />
+            <node id="_Node137139" />
+            <node id="_Node137141" otu="Manducasexta" />
+            <node id="_Node137144" />
+            <node id="_Node137146" otu="Archaeopsyllaerinacei" />
+            <node id="_Node137149" />
+            <node id="_Node137151" />
+            <node id="_Node137153" otu="Limonianebulosa" />
+            <node id="_Node137156" otu="Tipulapaludosa" />
+            <node id="_Node137159" />
+            <node id="_Node137161" otu="Trichoceraregelationis" />
+            <node id="_Node137164" />
+            <node id="_Node137166" />
+            <node id="_Node137168" />
+            <node id="_Node137170" otu="Chironomustentans" />
+            <node id="_Node137173" />
+            <node id="_Node137175" otu="Simuliumeuryadminiculum" />
+            <node id="_Node137178" />
+            <node id="_Node137180" otu="Culexpipiens" />
+            <node id="_Node137183" otu="Aedesalbopictus" />
+            <node id="_Node137186" />
+            <node id="_Node137188" />
+            <node id="_Node137190" otu="Dilophusfebrilis" />
+            <node id="_Node137193" />
+            <node id="_Node137195" otu="Sylvicolafenestralis" />
+            <node id="_Node137198" otu="Crinodiplosiscilirus" />
+            <node id="_Node137201" />
+            <node id="_Node137203" otu="Anapausisinermis" />
+            <node id="_Node137206" />
+            <node id="_Node137208" otu="Bolitophilacinerea" />
+            <node id="_Node137211" otu="Bradysiacoprophila" />
+            <node id="_Node137214" />
+            <node id="_Node137216" otu="Psychodacinerea" />
+            <node id="_Node137219" />
+            <node id="_Node137221" otu="Drosophilamelanogaster" />
+            <node id="_Node137224" otu="Tabanussudeticus" />
+            <rootedge id="_Edge137135" target="_Node137134" />
+            <edge id="_Edge137137" source="_Node137134" target="_Node137136" />
+            <edge id="_Edge137140" source="_Node137134" target="_Node137139" />
+            <edge id="_Edge137142" source="_Node137139" target="_Node137141" />
+            <edge id="_Edge137145" source="_Node137139" target="_Node137144" />
+            <edge id="_Edge137147" source="_Node137144" target="_Node137146" />
+            <edge id="_Edge137150" source="_Node137144" target="_Node137149" />
+            <edge id="_Edge137152" source="_Node137149" target="_Node137151" />
+            <edge id="_Edge137154" source="_Node137151" target="_Node137153" />
+            <edge id="_Edge137157" source="_Node137151" target="_Node137156" />
+            <edge id="_Edge137160" source="_Node137149" target="_Node137159" />
+            <edge id="_Edge137162" source="_Node137159" target="_Node137161" />
+            <edge id="_Edge137165" source="_Node137159" target="_Node137164" />
+            <edge id="_Edge137167" source="_Node137164" target="_Node137166" />
+            <edge id="_Edge137169" source="_Node137166" target="_Node137168" />
+            <edge id="_Edge137171" source="_Node137168" target="_Node137170" />
+            <edge id="_Edge137174" source="_Node137168" target="_Node137173" />
+            <edge id="_Edge137176" source="_Node137173" target="_Node137175" />
+            <edge id="_Edge137179" source="_Node137173" target="_Node137178" />
+            <edge id="_Edge137181" source="_Node137178" target="_Node137180" />
+            <edge id="_Edge137184" source="_Node137178" target="_Node137183" />
+            <edge id="_Edge137187" source="_Node137166" target="_Node137186" />
+            <edge id="_Edge137189" source="_Node137186" target="_Node137188" />
+            <edge id="_Edge137191" source="_Node137188" target="_Node137190" />
+            <edge id="_Edge137194" source="_Node137188" target="_Node137193" />
+            <edge id="_Edge137196" source="_Node137193" target="_Node137195" />
+            <edge id="_Edge137199" source="_Node137193" target="_Node137198" />
+            <edge id="_Edge137202" source="_Node137186" target="_Node137201" />
+            <edge id="_Edge137204" source="_Node137201" target="_Node137203" />
+            <edge id="_Edge137207" source="_Node137201" target="_Node137206" />
+            <edge id="_Edge137209" source="_Node137206" target="_Node137208" />
+            <edge id="_Edge137212" source="_Node137206" target="_Node137211" />
+            <edge id="_Edge137215" source="_Node137164" target="_Node137214" />
+            <edge id="_Edge137217" source="_Node137214" target="_Node137216" />
+            <edge id="_Edge137220" source="_Node137214" target="_Node137219" />
+            <edge id="_Edge137222" source="_Node137219" target="_Node137221" />
+            <edge id="_Edge137225" source="_Node137219" target="_Node137224" />
+        </tree>
+    </trees>
+</nex:nexml>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1730"><citation>Bruneau, A., J. R. Starr, and S. Joly. 2007. Phylogenetic relationships in the genus Rosa: new evidence from chloroplast DNA sequences and appraisal of current knowledge. Systematic Botany, in press.</citation><author email="bruneaua@irbv.umontreal.ca" firstname="Anne" lastname="Bruneau" /><author email="simon.joly@umontreal.ca" firstname="Simon" lastname="Joly" /><author email="julian.starr@umontreal.ca" firstname="Julian R." lastname="Starr" /></study></nex:external>
+    <otus id="_TaxaBlock1454863">
+        <otu id="Rosaacicularisacicularis1" label="Rosa acicularis acicularis 1" />
+        <otu id="Rosaarkansana" label="Rosa arkansana" />
+        <otu id="Rosablanda1" label="Rosa blanda 1" />
+        <otu id="Rosadavidiielongata" label="Rosa davidii elongata" />
+        <otu id="Rosablanda2" label="Rosa blanda 2" />
+        <otu id="Rosanitida" label="Rosa nitida" />
+        <otu id="Rosablanda3" label="Rosa blanda 3" />
+        <otu id="Rosabridgesii" label="Rosa bridgesii" />
+        <otu id="Rosalesterae" label="Rosa lesterae" />
+        <otu id="Rosacorymbulosa" label="Rosa corymbulosa" />
+        <otu id="Rosawebbiana" label="Rosa webbiana" />
+        <otu id="Rosagranulata" label="Rosa granulata" />
+        <otu id="Rosaspithamea" label="Rosa spithamea" />
+        <otu id="Rosamarretii" label="Rosa marretii" />
+        <otu id="Rosaacicularisnipponensis" label="Rosa acicularis nipponensis" />
+        <otu id="Rosarugosa" label="Rosa rugosa" />
+        <otu id="Rosacalifornica2" label="Rosa californica 2" />
+        <otu id="Rosafedtschenkoana" label="Rosa fedtschenkoana" />
+        <otu id="Rosahemsleyana" label="Rosa hemsleyana" />
+        <otu id="Rosamohavensis" label="Rosa mohavensis" />
+        <otu id="Rosanutkananutkana" label="Rosa nutkana nutkana" />
+        <otu id="Rosabrownii" label="Rosa brownii" />
+        <otu id="Rosayainacensis" label="Rosa yainacensis" />
+        <otu id="Rosacarolina1" label="Rosa carolina 1" />
+        <otu id="Rosacarolina2" label="Rosa carolina 2" />
+        <otu id="Rosafoliolosa" label="Rosa foliolosa" />
+        <otu id="Rosapalustris" label="Rosa palustris" />
+        <otu id="Rosapisocarpa" label="Rosa pisocarpa" />
+        <otu id="Rosavirginiana" label="Rosa virginiana" />
+        <otu id="Rosawoodsiiwoodsii" label="Rosa woodsii woodsii" />
+        <otu id="Rosawoodsiiultramontana" label="Rosa woodsii ultramontana" />
+        <otu id="Rosaalbertii" label="Rosa albertii" />
+        <otu id="Rosabanksiopsis" label="Rosa banksiopsis" />
+        <otu id="Rosakoreana" label="Rosa koreana" />
+        <otu id="Rosaandegavensis" label="Rosa andegavensis" />
+        <otu id="Rosawillmottiae" label="Rosa willmottiae" />
+        <otu id="Rosacalifornica1" label="Rosa californica 1" />
+        <otu id="Rosapinetorum" label="Rosa pinetorum" />
+        <otu id="Rosagymnocarpa" label="Rosa gymnocarpa" />
+        <otu id="Rosaacicularisacicularis2" label="Rosa acicularis acicularis 2" />
+        <otu id="Rosaacicularisacicularis3" label="Rosa acicularis acicularis 3" />
+        <otu id="Rosaspinosissimaaltaica" label="Rosa spinosissima altaica" />
+        <otu id="Rosabeggeriana" label="Rosa beggeriana" />
+        <otu id="Rosalaxa" label="Rosa laxa" />
+        <otu id="Rosabella" label="Rosa bella" />
+        <otu id="Rosacaudata" label="Rosa caudata" />
+        <otu id="Rosamultibracteata" label="Rosa multibracteata" />
+        <otu id="Rosanutkanahispida" label="Rosa nutkana hispida" />
+        <otu id="Rosaagrestis" label="Rosa agrestis" />
+        <otu id="Rosabracteata" label="Rosa bracteata" />
+        <otu id="Rosarubiginosa" label="Rosa rubiginosa" />
+        <otu id="Rosamarginata" label="Rosa marginata" />
+        <otu id="Rosaxalba" label="Rosa x alba" />
+        <otu id="Rosacorymbifera1" label="Rosa corymbifera 1" />
+        <otu id="Rosaxcentifolia" label="Rosa x centifolia" />
+        <otu id="Rosagallica" label="Rosa gallica" />
+        <otu id="Rosacorymbifera2" label="Rosa corymbifera 2" />
+        <otu id="Rosaleschenaultii" label="Rosa leschenaultii" />
+        <otu id="Rosamoschata" label="Rosa moschata" />
+        <otu id="Rosaorientalis" label="Rosa orientalis" />
+        <otu id="Rosasetigera" label="Rosa setigera" />
+        <otu id="Rosachinensisspontanea" label="Rosa chinensis spontanea" />
+        <otu id="Rosacymosa" label="Rosa cymosa" />
+        <otu id="Rosagigantea" label="Rosa gigantea" />
+        <otu id="Rosaxanthina1" label="Rosa xanthina 1" />
+        <otu id="Rosaxanthina2" label="Rosa xanthina 2" />
+        <otu id="Rosahenryi" label="Rosa henryi" />
+        <otu id="Rosalaevigata" label="Rosa laevigata" />
+        <otu id="Rosamultiflora" label="Rosa multiflora" />
+        <otu id="Rosawichurianapoteriifolia" label="Rosa wichuriana poteriifolia" />
+        <otu id="Rosabanksiaenormalis" label="Rosa banksiae normalis" />
+        <otu id="Rosaroxburghiihirtula" label="Rosa roxburghii hirtula" />
+        <otu id="Rosapersica" label="Rosa persica" />
+        <otu id="Rosaarvensis" label="Rosa arvensis" />
+        <otu id="Rosawichurianawichuriana" label="Rosa wichuriana wichuriana" />
+        <otu id="Rosaminutifolia1" label="Rosa minutifolia 1" />
+        <otu id="Rosaminutifolia2" label="Rosa minutifolia 2" />
+        <otu id="Rosafoetida" label="Rosa foetida" />
+        <otu id="Rosaprimula" label="Rosa primula" />
+        <otu id="Potentillanivea" label="Potentilla nivea" />
+    </otus>
+    <trees id="_TreesBlock1454864" otus="_TaxaBlock1454863">
+        <tree id="_Tree1454865" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="bayesian inference" id="S1730A6619" software="MrBayes"><inputmatrix datatype="Nucleic Acid" name="trnL + psbA" nchar="1475" /></analysis></nex:external>
+            <node id="_Node1454868" />
+            <node id="_Node1454870" />
+            <node id="_Node1454872" />
+            <node id="_Node1454874" />
+            <node id="_Node1454876" />
+            <node id="_Node1454878" />
+            <node id="_Node1454880" />
+            <node id="_Node1454882" otu="Rosaacicularisacicularis1" />
+            <node id="_Node1454885" otu="Rosaarkansana" />
+            <node id="_Node1454888" otu="Rosablanda1" />
+            <node id="_Node1454891" otu="Rosadavidiielongata" />
+            <node id="_Node1454894" otu="Rosablanda2" />
+            <node id="_Node1454897" otu="Rosanitida" />
+            <node id="_Node1454900" otu="Rosablanda3" />
+            <node id="_Node1454903" />
+            <node id="_Node1454905" otu="Rosabridgesii" />
+            <node id="_Node1454908" otu="Rosalesterae" />
+            <node id="_Node1454911" />
+            <node id="_Node1454913" otu="Rosacorymbulosa" />
+            <node id="_Node1454916" otu="Rosawebbiana" />
+            <node id="_Node1454919" />
+            <node id="_Node1454921" otu="Rosagranulata" />
+            <node id="_Node1454924" otu="Rosaspithamea" />
+            <node id="_Node1454927" />
+            <node id="_Node1454929" otu="Rosamarretii" />
+            <node id="_Node1454932" />
+            <node id="_Node1454934" otu="Rosaacicularisnipponensis" />
+            <node id="_Node1454937" otu="Rosarugosa" />
+            <node id="_Node1454940" />
+            <node id="_Node1454942" otu="Rosacalifornica2" />
+            <node id="_Node1454945" otu="Rosafedtschenkoana" />
+            <node id="_Node1454948" otu="Rosahemsleyana" />
+            <node id="_Node1454951" otu="Rosamohavensis" />
+            <node id="_Node1454954" otu="Rosanutkananutkana" />
+            <node id="_Node1454957" otu="Rosabrownii" />
+            <node id="_Node1454960" otu="Rosayainacensis" />
+            <node id="_Node1454963" otu="Rosacarolina1" />
+            <node id="_Node1454966" otu="Rosacarolina2" />
+            <node id="_Node1454969" otu="Rosafoliolosa" />
+            <node id="_Node1454972" otu="Rosapalustris" />
+            <node id="_Node1454975" otu="Rosapisocarpa" />
+            <node id="_Node1454978" otu="Rosavirginiana" />
+            <node id="_Node1454981" otu="Rosawoodsiiwoodsii" />
+            <node id="_Node1454984" otu="Rosawoodsiiultramontana" />
+            <node id="_Node1454987" />
+            <node id="_Node1454989" otu="Rosaalbertii" />
+            <node id="_Node1454992" otu="Rosabanksiopsis" />
+            <node id="_Node1454995" otu="Rosakoreana" />
+            <node id="_Node1454998" otu="Rosaandegavensis" />
+            <node id="_Node1455001" otu="Rosawillmottiae" />
+            <node id="_Node1455004" />
+            <node id="_Node1455006" />
+            <node id="_Node1455008" otu="Rosacalifornica1" />
+            <node id="_Node1455011" otu="Rosapinetorum" />
+            <node id="_Node1455014" otu="Rosagymnocarpa" />
+            <node id="_Node1455017" />
+            <node id="_Node1455019" otu="Rosaacicularisacicularis2" />
+            <node id="_Node1455022" otu="Rosaacicularisacicularis3" />
+            <node id="_Node1455025" otu="Rosaspinosissimaaltaica" />
+            <node id="_Node1455028" />
+            <node id="_Node1455030" />
+            <node id="_Node1455032" otu="Rosabeggeriana" />
+            <node id="_Node1455035" otu="Rosalaxa" />
+            <node id="_Node1455038" otu="Rosabella" />
+            <node id="_Node1455041" otu="Rosacaudata" />
+            <node id="_Node1455044" otu="Rosamultibracteata" />
+            <node id="_Node1455047" otu="Rosanutkanahispida" />
+            <node id="_Node1455050" />
+            <node id="_Node1455052" />
+            <node id="_Node1455054" />
+            <node id="_Node1455056" />
+            <node id="_Node1455058" />
+            <node id="_Node1455060" />
+            <node id="_Node1455062" />
+            <node id="_Node1455064" otu="Rosaagrestis" />
+            <node id="_Node1455067" otu="Rosabracteata" />
+            <node id="_Node1455070" otu="Rosarubiginosa" />
+            <node id="_Node1455073" otu="Rosamarginata" />
+            <node id="_Node1455076" />
+            <node id="_Node1455078" otu="Rosaxalba" />
+            <node id="_Node1455081" otu="Rosacorymbifera1" />
+            <node id="_Node1455084" />
+            <node id="_Node1455086" otu="Rosaxcentifolia" />
+            <node id="_Node1455089" otu="Rosagallica" />
+            <node id="_Node1455092" otu="Rosacorymbifera2" />
+            <node id="_Node1455095" otu="Rosaleschenaultii" />
+            <node id="_Node1455098" otu="Rosamoschata" />
+            <node id="_Node1455101" otu="Rosaorientalis" />
+            <node id="_Node1455104" otu="Rosasetigera" />
+            <node id="_Node1455107" />
+            <node id="_Node1455109" otu="Rosachinensisspontanea" />
+            <node id="_Node1455112" otu="Rosacymosa" />
+            <node id="_Node1455115" />
+            <node id="_Node1455117" otu="Rosagigantea" />
+            <node id="_Node1455120" otu="Rosaxanthina1" />
+            <node id="_Node1455123" otu="Rosaxanthina2" />
+            <node id="_Node1455126" otu="Rosahenryi" />
+            <node id="_Node1455129" otu="Rosalaevigata" />
+            <node id="_Node1455132" otu="Rosamultiflora" />
+            <node id="_Node1455135" otu="Rosawichurianapoteriifolia" />
+            <node id="_Node1455138" otu="Rosabanksiaenormalis" />
+            <node id="_Node1455141" otu="Rosaroxburghiihirtula" />
+            <node id="_Node1455144" otu="Rosapersica" />
+            <node id="_Node1455147" />
+            <node id="_Node1455149" otu="Rosaarvensis" />
+            <node id="_Node1455152" otu="Rosawichurianawichuriana" />
+            <node id="_Node1455155" />
+            <node id="_Node1455157" otu="Rosaminutifolia1" />
+            <node id="_Node1455160" otu="Rosaminutifolia2" />
+            <node id="_Node1455163" otu="Rosafoetida" />
+            <node id="_Node1455166" otu="Rosaprimula" />
+            <node id="_Node1455169" otu="Potentillanivea" />
+            <rootedge id="_Edge1454869" target="_Node1454868" />
+            <edge id="_Edge1454871" source="_Node1454868" target="_Node1454870" />
+            <edge id="_Edge1454873" source="_Node1454870" target="_Node1454872" />
+            <edge id="_Edge1454875" source="_Node1454872" target="_Node1454874" />
+            <edge id="_Edge1454877" source="_Node1454874" target="_Node1454876" />
+            <edge id="_Edge1454879" source="_Node1454876" target="_Node1454878" />
+            <edge id="_Edge1454881" source="_Node1454878" target="_Node1454880" />
+            <edge id="_Edge1454883" source="_Node1454880" target="_Node1454882" />
+            <edge id="_Edge1454886" source="_Node1454880" target="_Node1454885" />
+            <edge id="_Edge1454889" source="_Node1454880" target="_Node1454888" />
+            <edge id="_Edge1454892" source="_Node1454880" target="_Node1454891" />
+            <edge id="_Edge1454895" source="_Node1454880" target="_Node1454894" />
+            <edge id="_Edge1454898" source="_Node1454880" target="_Node1454897" />
+            <edge id="_Edge1454901" source="_Node1454880" target="_Node1454900" />
+            <edge id="_Edge1454904" source="_Node1454878" target="_Node1454903" />
+            <edge id="_Edge1454906" source="_Node1454903" target="_Node1454905" />
+            <edge id="_Edge1454909" source="_Node1454903" target="_Node1454908" />
+            <edge id="_Edge1454912" source="_Node1454903" target="_Node1454911" />
+            <edge id="_Edge1454914" source="_Node1454911" target="_Node1454913" />
+            <edge id="_Edge1454917" source="_Node1454911" target="_Node1454916" />
+            <edge id="_Edge1454920" source="_Node1454903" target="_Node1454919" />
+            <edge id="_Edge1454922" source="_Node1454919" target="_Node1454921" />
+            <edge id="_Edge1454925" source="_Node1454919" target="_Node1454924" />
+            <edge id="_Edge1454928" source="_Node1454903" target="_Node1454927" />
+            <edge id="_Edge1454930" source="_Node1454927" target="_Node1454929" />
+            <edge id="_Edge1454933" source="_Node1454927" target="_Node1454932" />
+            <edge id="_Edge1454935" source="_Node1454932" target="_Node1454934" />
+            <edge id="_Edge1454938" source="_Node1454932" target="_Node1454937" />
+            <edge id="_Edge1454941" source="_Node1454878" target="_Node1454940" />
+            <edge id="_Edge1454943" source="_Node1454940" target="_Node1454942" />
+            <edge id="_Edge1454946" source="_Node1454940" target="_Node1454945" />
+            <edge id="_Edge1454949" source="_Node1454940" target="_Node1454948" />
+            <edge id="_Edge1454952" source="_Node1454940" target="_Node1454951" />
+            <edge id="_Edge1454955" source="_Node1454940" target="_Node1454954" />
+            <edge id="_Edge1454958" source="_Node1454940" target="_Node1454957" />
+            <edge id="_Edge1454961" source="_Node1454940" target="_Node1454960" />
+            <edge id="_Edge1454964" source="_Node1454878" target="_Node1454963" />
+            <edge id="_Edge1454967" source="_Node1454878" target="_Node1454966" />
+            <edge id="_Edge1454970" source="_Node1454878" target="_Node1454969" />
+            <edge id="_Edge1454973" source="_Node1454878" target="_Node1454972" />
+            <edge id="_Edge1454976" source="_Node1454878" target="_Node1454975" />
+            <edge id="_Edge1454979" source="_Node1454878" target="_Node1454978" />
+            <edge id="_Edge1454982" source="_Node1454878" target="_Node1454981" />
+            <edge id="_Edge1454985" source="_Node1454878" target="_Node1454984" />
+            <edge id="_Edge1454988" source="_Node1454876" target="_Node1454987" />
+            <edge id="_Edge1454990" source="_Node1454987" target="_Node1454989" />
+            <edge id="_Edge1454993" source="_Node1454987" target="_Node1454992" />
+            <edge id="_Edge1454996" source="_Node1454987" target="_Node1454995" />
+            <edge id="_Edge1454999" source="_Node1454987" target="_Node1454998" />
+            <edge id="_Edge1455002" source="_Node1454987" target="_Node1455001" />
+            <edge id="_Edge1455005" source="_Node1454876" target="_Node1455004" />
+            <edge id="_Edge1455007" source="_Node1455004" target="_Node1455006" />
+            <edge id="_Edge1455009" source="_Node1455006" target="_Node1455008" />
+            <edge id="_Edge1455012" source="_Node1455006" target="_Node1455011" />
+            <edge id="_Edge1455015" source="_Node1455004" target="_Node1455014" />
+            <edge id="_Edge1455018" source="_Node1454874" target="_Node1455017" />
+            <edge id="_Edge1455020" source="_Node1455017" target="_Node1455019" />
+            <edge id="_Edge1455023" source="_Node1455017" target="_Node1455022" />
+            <edge id="_Edge1455026" source="_Node1454874" target="_Node1455025" />
+            <edge id="_Edge1455029" source="_Node1454872" target="_Node1455028" />
+            <edge id="_Edge1455031" source="_Node1455028" target="_Node1455030" />
+            <edge id="_Edge1455033" source="_Node1455030" target="_Node1455032" />
+            <edge id="_Edge1455036" source="_Node1455030" target="_Node1455035" />
+            <edge id="_Edge1455039" source="_Node1455028" target="_Node1455038" />
+            <edge id="_Edge1455042" source="_Node1455028" target="_Node1455041" />
+            <edge id="_Edge1455045" source="_Node1455028" target="_Node1455044" />
+            <edge id="_Edge1455048" source="_Node1454872" target="_Node1455047" />
+            <edge id="_Edge1455051" source="_Node1454870" target="_Node1455050" />
+            <edge id="_Edge1455053" source="_Node1455050" target="_Node1455052" />
+            <edge id="_Edge1455055" source="_Node1455052" target="_Node1455054" />
+            <edge id="_Edge1455057" source="_Node1455054" target="_Node1455056" />
+            <edge id="_Edge1455059" source="_Node1455056" target="_Node1455058" />
+            <edge id="_Edge1455061" source="_Node1455058" target="_Node1455060" />
+            <edge id="_Edge1455063" source="_Node1455060" target="_Node1455062" />
+            <edge id="_Edge1455065" source="_Node1455062" target="_Node1455064" />
+            <edge id="_Edge1455068" source="_Node1455062" target="_Node1455067" />
+            <edge id="_Edge1455071" source="_Node1455062" target="_Node1455070" />
+            <edge id="_Edge1455074" source="_Node1455062" target="_Node1455073" />
+            <edge id="_Edge1455077" source="_Node1455060" target="_Node1455076" />
+            <edge id="_Edge1455079" source="_Node1455076" target="_Node1455078" />
+            <edge id="_Edge1455082" source="_Node1455076" target="_Node1455081" />
+            <edge id="_Edge1455085" source="_Node1455076" target="_Node1455084" />
+            <edge id="_Edge1455087" source="_Node1455084" target="_Node1455086" />
+            <edge id="_Edge1455090" source="_Node1455084" target="_Node1455089" />
+            <edge id="_Edge1455093" source="_Node1455076" target="_Node1455092" />
+            <edge id="_Edge1455096" source="_Node1455076" target="_Node1455095" />
+            <edge id="_Edge1455099" source="_Node1455076" target="_Node1455098" />
+            <edge id="_Edge1455102" source="_Node1455076" target="_Node1455101" />
+            <edge id="_Edge1455105" source="_Node1455058" target="_Node1455104" />
+            <edge id="_Edge1455108" source="_Node1455056" target="_Node1455107" />
+            <edge id="_Edge1455110" source="_Node1455107" target="_Node1455109" />
+            <edge id="_Edge1455113" source="_Node1455107" target="_Node1455112" />
+            <edge id="_Edge1455116" source="_Node1455107" target="_Node1455115" />
+            <edge id="_Edge1455118" source="_Node1455115" target="_Node1455117" />
+            <edge id="_Edge1455121" source="_Node1455115" target="_Node1455120" />
+            <edge id="_Edge1455124" source="_Node1455115" target="_Node1455123" />
+            <edge id="_Edge1455127" source="_Node1455107" target="_Node1455126" />
+            <edge id="_Edge1455130" source="_Node1455107" target="_Node1455129" />
+            <edge id="_Edge1455133" source="_Node1455107" target="_Node1455132" />
+            <edge id="_Edge1455136" source="_Node1455107" target="_Node1455135" />
+            <edge id="_Edge1455139" source="_Node1455054" target="_Node1455138" />
+            <edge id="_Edge1455142" source="_Node1455054" target="_Node1455141" />
+            <edge id="_Edge1455145" source="_Node1455052" target="_Node1455144" />
+            <edge id="_Edge1455148" source="_Node1455050" target="_Node1455147" />
+            <edge id="_Edge1455150" source="_Node1455147" target="_Node1455149" />
+            <edge id="_Edge1455153" source="_Node1455147" target="_Node1455152" />
+            <edge id="_Edge1455156" source="_Node1455050" target="_Node1455155" />
+            <edge id="_Edge1455158" source="_Node1455155" target="_Node1455157" />
+            <edge id="_Edge1455161" source="_Node1455155" target="_Node1455160" />
+            <edge id="_Edge1455164" source="_Node1454870" target="_Node1455163" />
+            <edge id="_Edge1455167" source="_Node1454870" target="_Node1455166" />
+            <edge id="_Edge1455170" source="_Node1454868" target="_Node1455169" />
+        </tree>
+    </trees>
+</nex:nexml>

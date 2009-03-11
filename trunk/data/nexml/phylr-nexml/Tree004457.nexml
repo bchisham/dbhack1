@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1879"><citation>Ranwez V., V. Berry, A. Criscuolo, P.-H. Fabre, S. Guillemot, C. Scornavacca and E. J. P. Douzery. 2007. PhySIC: a veto supertree method with desirable properties. Systematic Biology, in press.</citation><author email="vberry@lirmm.fr" firstname="Vincent" lastname="Berry" /><author email="criscuol@lirmm.fr" firstname="Alexis" lastname="Criscuolo" /><author email="douzery@isem.univ-montp2.fr" firstname="Emmanuel J. P." lastname="Douzery" /><author email="fabreph@isem.univ-montp2.fr" firstname="Pierre-Henri" lastname="Fabre" /><author email="Sylvain.Guillemot@lirmm.fr" firstname="Sylvain" lastname="Guillemot" /><author email="ranwez@isem.univ-montp2.fr" firstname="Vincent" lastname="Ranwez" /><author email="Celine.Scornavacca@lirmm.fr" firstname="C&#195;&#169;line" lastname="Scornavacca" /></study></nex:external>
+    <otus id="_TaxaBlock1645230">
+        <otu id="Tupaia" label="Tupaia" />
+        <otu id="Cynocephalus" label="Cynocephalus" />
+        <otu id="Tarsius" label="Tarsius" />
+        <otu id="Aotus" label="Aotus" />
+        <otu id="Callithrix" label="Callithrix" />
+        <otu id="Callimico" label="Callimico" />
+        <otu id="Saguinus" label="Saguinus" />
+        <otu id="Leontopithecus" label="Leontopithecus" />
+        <otu id="Saimiri" label="Saimiri" />
+        <otu id="Cebus" label="Cebus" />
+        <otu id="Callicebus" label="Callicebus" />
+        <otu id="Pithecia" label="Pithecia" />
+        <otu id="Chiropotes" label="Chiropotes" />
+        <otu id="Cacajao" label="Cacajao" />
+        <otu id="Alouatta" label="Alouatta" />
+        <otu id="Ateles" label="Ateles" />
+        <otu id="Lagothrix" label="Lagothrix" />
+        <otu id="Brachyteles" label="Brachyteles" />
+        <otu id="Macaca" label="Macaca" />
+        <otu id="Hylobates" label="Hylobates" />
+        <otu id="Pongo" label="Pongo" />
+        <otu id="Gorilla" label="Gorilla" />
+        <otu id="Homo" label="Homo" />
+        <otu id="Pan" label="Pan" />
+        <otu id="Perodicticus" label="Perodicticus" />
+        <otu id="Otolemur" label="Otolemur" />
+        <otu id="Daubentonia" label="Daubentonia" />
+        <otu id="Propithecus" label="Propithecus" />
+        <otu id="Eulemur" label="Eulemur" />
+        <otu id="Microcebus" label="Microcebus" />
+        <otu id="Cheirogaleus" label="Cheirogaleus" />
+        <otu id="Mus" label="Mus" />
+        <otu id="Rattus" label="Rattus" />
+    </otus>
+    <trees id="_TreesBlock1645231" otus="_TaxaBlock1645230">
+        <tree id="_Tree1645232" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="veto supertree" id="S1879A7486" software="PhySIC"><inputmatrix datatype="Matrix Representation" name="PhySIC Supertree" nchar="126" /></analysis></nex:external>
+            <node id="_Node1645235" />
+            <node id="_Node1645237" />
+            <node id="_Node1645239" otu="Tupaia" />
+            <node id="_Node1645242" />
+            <node id="_Node1645244" otu="Cynocephalus" />
+            <node id="_Node1645247" />
+            <node id="_Node1645249" />
+            <node id="_Node1645251" otu="Tarsius" />
+            <node id="_Node1645254" />
+            <node id="_Node1645256" />
+            <node id="_Node1645258" />
+            <node id="_Node1645260" />
+            <node id="_Node1645262" otu="Aotus" />
+            <node id="_Node1645265" />
+            <node id="_Node1645267" />
+            <node id="_Node1645269" otu="Callithrix" />
+            <node id="_Node1645272" otu="Callimico" />
+            <node id="_Node1645275" />
+            <node id="_Node1645277" otu="Saguinus" />
+            <node id="_Node1645280" otu="Leontopithecus" />
+            <node id="_Node1645283" />
+            <node id="_Node1645285" otu="Saimiri" />
+            <node id="_Node1645288" otu="Cebus" />
+            <node id="_Node1645291" />
+            <node id="_Node1645293" />
+            <node id="_Node1645295" otu="Callicebus" />
+            <node id="_Node1645298" />
+            <node id="_Node1645300" otu="Pithecia" />
+            <node id="_Node1645303" />
+            <node id="_Node1645305" otu="Chiropotes" />
+            <node id="_Node1645308" otu="Cacajao" />
+            <node id="_Node1645311" />
+            <node id="_Node1645313" otu="Alouatta" />
+            <node id="_Node1645316" />
+            <node id="_Node1645318" otu="Ateles" />
+            <node id="_Node1645321" />
+            <node id="_Node1645323" otu="Lagothrix" />
+            <node id="_Node1645326" otu="Brachyteles" />
+            <node id="_Node1645329" />
+            <node id="_Node1645331" otu="Macaca" />
+            <node id="_Node1645334" />
+            <node id="_Node1645336" otu="Hylobates" />
+            <node id="_Node1645339" />
+            <node id="_Node1645341" otu="Pongo" />
+            <node id="_Node1645344" />
+            <node id="_Node1645346" otu="Gorilla" />
+            <node id="_Node1645349" />
+            <node id="_Node1645351" otu="Homo" />
+            <node id="_Node1645354" otu="Pan" />
+            <node id="_Node1645357" />
+            <node id="_Node1645359" />
+            <node id="_Node1645361" otu="Perodicticus" />
+            <node id="_Node1645364" otu="Otolemur" />
+            <node id="_Node1645367" />
+            <node id="_Node1645369" otu="Daubentonia" />
+            <node id="_Node1645372" />
+            <node id="_Node1645374" otu="Propithecus" />
+            <node id="_Node1645377" />
+            <node id="_Node1645379" otu="Eulemur" />
+            <node id="_Node1645382" />
+            <node id="_Node1645384" otu="Microcebus" />
+            <node id="_Node1645387" otu="Cheirogaleus" />
+            <node id="_Node1645390" />
+            <node id="_Node1645392" otu="Mus" />
+            <node id="_Node1645395" otu="Rattus" />
+            <rootedge id="_Edge1645236" target="_Node1645235" />
+            <edge id="_Edge1645238" source="_Node1645235" target="_Node1645237" />
+            <edge id="_Edge1645240" source="_Node1645237" target="_Node1645239" />
+            <edge id="_Edge1645243" source="_Node1645237" target="_Node1645242" />
+            <edge id="_Edge1645245" source="_Node1645242" target="_Node1645244" />
+            <edge id="_Edge1645248" source="_Node1645242" target="_Node1645247" />
+            <edge id="_Edge1645250" source="_Node1645247" target="_Node1645249" />
+            <edge id="_Edge1645252" source="_Node1645249" target="_Node1645251" />
+            <edge id="_Edge1645255" source="_Node1645249" target="_Node1645254" />
+            <edge id="_Edge1645257" source="_Node1645254" target="_Node1645256" />
+            <edge id="_Edge1645259" source="_Node1645256" target="_Node1645258" />
+            <edge id="_Edge1645261" source="_Node1645258" target="_Node1645260" />
+            <edge id="_Edge1645263" source="_Node1645260" target="_Node1645262" />
+            <edge id="_Edge1645266" source="_Node1645260" target="_Node1645265" />
+            <edge id="_Edge1645268" source="_Node1645265" target="_Node1645267" />
+            <edge id="_Edge1645270" source="_Node1645267" target="_Node1645269" />
+            <edge id="_Edge1645273" source="_Node1645267" target="_Node1645272" />
+            <edge id="_Edge1645276" source="_Node1645265" target="_Node1645275" />
+            <edge id="_Edge1645278" source="_Node1645275" target="_Node1645277" />
+            <edge id="_Edge1645281" source="_Node1645275" target="_Node1645280" />
+            <edge id="_Edge1645284" source="_Node1645258" target="_Node1645283" />
+            <edge id="_Edge1645286" source="_Node1645283" target="_Node1645285" />
+            <edge id="_Edge1645289" source="_Node1645283" target="_Node1645288" />
+            <edge id="_Edge1645292" source="_Node1645256" target="_Node1645291" />
+            <edge id="_Edge1645294" source="_Node1645291" target="_Node1645293" />
+            <edge id="_Edge1645296" source="_Node1645293" target="_Node1645295" />
+            <edge id="_Edge1645299" source="_Node1645293" target="_Node1645298" />
+            <edge id="_Edge1645301" source="_Node1645298" target="_Node1645300" />
+            <edge id="_Edge1645304" source="_Node1645298" target="_Node1645303" />
+            <edge id="_Edge1645306" source="_Node1645303" target="_Node1645305" />
+            <edge id="_Edge1645309" source="_Node1645303" target="_Node1645308" />
+            <edge id="_Edge1645312" source="_Node1645291" target="_Node1645311" />
+            <edge id="_Edge1645314" source="_Node1645311" target="_Node1645313" />
+            <edge id="_Edge1645317" source="_Node1645311" target="_Node1645316" />
+            <edge id="_Edge1645319" source="_Node1645316" target="_Node1645318" />
+            <edge id="_Edge1645322" source="_Node1645316" target="_Node1645321" />
+            <edge id="_Edge1645324" source="_Node1645321" target="_Node1645323" />
+            <edge id="_Edge1645327" source="_Node1645321" target="_Node1645326" />
+            <edge id="_Edge1645330" source="_Node1645254" target="_Node1645329" />
+            <edge id="_Edge1645332" source="_Node1645329" target="_Node1645331" />
+            <edge id="_Edge1645335" source="_Node1645329" target="_Node1645334" />
+            <edge id="_Edge1645337" source="_Node1645334" target="_Node1645336" />
+            <edge id="_Edge1645340" source="_Node1645334" target="_Node1645339" />
+            <edge id="_Edge1645342" source="_Node1645339" target="_Node1645341" />
+            <edge id="_Edge1645345" source="_Node1645339" target="_Node1645344" />
+            <edge id="_Edge1645347" source="_Node1645344" target="_Node1645346" />
+            <edge id="_Edge1645350" source="_Node1645344" target="_Node1645349" />
+            <edge id="_Edge1645352" source="_Node1645349" target="_Node1645351" />
+            <edge id="_Edge1645355" source="_Node1645349" target="_Node1645354" />
+            <edge id="_Edge1645358" source="_Node1645247" target="_Node1645357" />
+            <edge id="_Edge1645360" source="_Node1645357" target="_Node1645359" />
+            <edge id="_Edge1645362" source="_Node1645359" target="_Node1645361" />
+            <edge id="_Edge1645365" source="_Node1645359" target="_Node1645364" />
+            <edge id="_Edge1645368" source="_Node1645357" target="_Node1645367" />
+            <edge id="_Edge1645370" source="_Node1645367" target="_Node1645369" />
+            <edge id="_Edge1645373" source="_Node1645367" target="_Node1645372" />
+            <edge id="_Edge1645375" source="_Node1645372" target="_Node1645374" />
+            <edge id="_Edge1645378" source="_Node1645372" target="_Node1645377" />
+            <edge id="_Edge1645380" source="_Node1645377" target="_Node1645379" />
+            <edge id="_Edge1645383" source="_Node1645377" target="_Node1645382" />
+            <edge id="_Edge1645385" source="_Node1645382" target="_Node1645384" />
+            <edge id="_Edge1645388" source="_Node1645382" target="_Node1645387" />
+            <edge id="_Edge1645391" source="_Node1645235" target="_Node1645390" />
+            <edge id="_Edge1645393" source="_Node1645390" target="_Node1645392" />
+            <edge id="_Edge1645396" source="_Node1645390" target="_Node1645395" />
+        </tree>
+    </trees>
+</nex:nexml>

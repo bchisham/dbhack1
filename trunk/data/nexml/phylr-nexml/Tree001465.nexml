@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S647"><citation>Monteiro, A. and N. E. Pierce. 2001. Phylogeny of Bicyclus (Lepidoptera: Nymphalidae) inferred from COI, COII, and EF-1a gene sequences. Molecular Phylogenetics and Evolution, 18(2): 264-281.</citation><author email="monteiro@acsu.buffalo.edu" firstname="Ant&#195;&#179;nia" lastname="Monteiro" /><author email="npierce@oeb.harvard.edu" firstname="Naomi E." lastname="Pierce" /></study></nex:external>
+    <otus id="_TaxaBlock378311">
+        <otu id="Bicyclusbuea" label="Bicyclus buea" />
+        <otu id="Bicyclussanaos" label="Bicyclus sanaos" />
+        <otu id="Bicycluspersimilis" label="Bicyclus persimilis" />
+        <otu id="Bicyclusistaris" label="Bicyclus istaris" />
+        <otu id="Bicyclussophrosyne" label="Bicyclus sophrosyne" />
+        <otu id="Bicyclusgolo" label="Bicyclus golo" />
+        <otu id="Bicyclusmadetes" label="Bicyclus madetes" />
+        <otu id="Bicyclussmithi" label="Bicyclus smithi" />
+        <otu id="Bicyclusmatuta" label="Bicyclus matuta" />
+        <otu id="Bicyclusdubius" label="Bicyclus dubius" />
+        <otu id="Bicyclusfunebris" label="Bicyclus funebris" />
+        <otu id="BicyclussafitzaM" label="Bicyclus safitza M" />
+        <otu id="BicyclussafitzaSA" label="Bicyclus safitza SA" />
+        <otu id="BicyclussafitzaU" label="Bicyclus safitza U" />
+        <otu id="Bicycluscottrelli" label="Bicyclus cottrelli" />
+        <otu id="Bicyclusangulosus" label="Bicyclus angulosus" />
+        <otu id="Bicycluscampus" label="Bicyclus campus" />
+        <otu id="Bicyclusanynana" label="Bicyclus anynana" />
+        <otu id="Bicyclusmollitia" label="Bicyclus mollitia" />
+        <otu id="Bicyclusauricrudus" label="Bicyclus auricrudus" />
+        <otu id="Bicycluskenia" label="Bicyclus kenia" />
+        <otu id="Bicyclusmandanes" label="Bicyclus mandanes" />
+        <otu id="Bicyclusdorothea" label="Bicyclus dorothea" />
+        <otu id="Bicyclusmoyses" label="Bicyclus moyses" />
+        <otu id="Bicyclusjefferyi" label="Bicyclus jefferyi" />
+        <otu id="Bicyclusvulgaris" label="Bicyclus vulgaris" />
+        <otu id="Bicyclussandace" label="Bicyclus sandace" />
+        <otu id="Bicyclusena" label="Bicyclus ena" />
+        <otu id="Bicyclusmesogenus" label="Bicyclus mesogenus" />
+        <otu id="Bicyclussambulos" label="Bicyclus sambulos" />
+        <otu id="Bicyclustechnatis" label="Bicyclus technatis" />
+        <otu id="Bicyclusvansoni" label="Bicyclus vansoni" />
+        <otu id="Bicyclusdentatus" label="Bicyclus dentatus" />
+        <otu id="Bicyclustaenias" label="Bicyclus taenias" />
+        <otu id="Bicycluspavonis" label="Bicyclus pavonis" />
+        <otu id="Bicyclustrilophus" label="Bicyclus trilophus" />
+        <otu id="Bicyclusignobilis" label="Bicyclus ignobilis" />
+        <otu id="Bicyclusanalis" label="Bicyclus analis" />
+        <otu id="Bicyclusuniformis" label="Bicyclus uniformis" />
+        <otu id="Bicyclushyperanthus" label="Bicyclus hyperanthus" />
+        <otu id="Bicyclusprocorus" label="Bicyclus procorus" />
+        <otu id="Bicyclussciathis" label="Bicyclus sciathis" />
+        <otu id="Bicyclusgraueri" label="Bicyclus graueri" />
+        <otu id="Bicyclussebetus" label="Bicyclus sebetus" />
+        <otu id="Bicyclusitalus" label="Bicyclus italus" />
+        <otu id="Bicycluszinebi" label="Bicyclus zinebi" />
+        <otu id="Bicyclusiccius" label="Bicyclus iccius" />
+        <otu id="Bicyclusmedontias" label="Bicyclus medontias" />
+        <otu id="Bicyclushewitsoni" label="Bicyclus hewitsoni" />
+        <otu id="Bicyclusalboplagus" label="Bicyclus alboplagus" />
+        <otu id="Bicyclusxeneoides" label="Bicyclus xeneoides" />
+        <otu id="Bicyclusxeneas" label="Bicyclus xeneas" />
+        <otu id="Bicyclusevadne" label="Bicyclus evadne" />
+        <otu id="Henotesiapeitho" label="Henotesia peitho" />
+        <otu id="Mycalesisfranscisca" label="Mycalesis franscisca" />
+        <otu id="Henotesiaperspicua" label="Henotesia perspicua" />
+        <otu id="Halelesisasochis" label="Halelesis asochis" />
+    </otus>
+    <trees id="_TreesBlock378312" otus="_TaxaBlock378311">
+        <tree id="_Tree378313" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S647A1345" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="COII" nchar="1002" /></analysis></nex:external>
+            <node id="_Node378316" />
+            <node id="_Node378318" />
+            <node id="_Node378320" />
+            <node id="_Node378322" />
+            <node id="_Node378324" />
+            <node id="_Node378326" />
+            <node id="_Node378328" />
+            <node id="_Node378330" />
+            <node id="_Node378332" />
+            <node id="_Node378334" otu="Bicyclusbuea" />
+            <node id="_Node378337" otu="Bicyclussanaos" />
+            <node id="_Node378340" otu="Bicycluspersimilis" />
+            <node id="_Node378343" />
+            <node id="_Node378345" otu="Bicyclusistaris" />
+            <node id="_Node378348" otu="Bicyclussophrosyne" />
+            <node id="_Node378351" />
+            <node id="_Node378353" />
+            <node id="_Node378355" />
+            <node id="_Node378357" otu="Bicyclusgolo" />
+            <node id="_Node378360" otu="Bicyclusmadetes" />
+            <node id="_Node378363" otu="Bicyclussmithi" />
+            <node id="_Node378366" otu="Bicyclusmatuta" />
+            <node id="_Node378369" />
+            <node id="_Node378371" otu="Bicyclusdubius" />
+            <node id="_Node378374" otu="Bicyclusfunebris" />
+            <node id="_Node378377" />
+            <node id="_Node378379" />
+            <node id="_Node378381" />
+            <node id="_Node378383" otu="BicyclussafitzaM" />
+            <node id="_Node378386" otu="BicyclussafitzaSA" />
+            <node id="_Node378389" otu="BicyclussafitzaU" />
+            <node id="_Node378392" otu="Bicycluscottrelli" />
+            <node id="_Node378395" />
+            <node id="_Node378397" otu="Bicyclusangulosus" />
+            <node id="_Node378400" otu="Bicycluscampus" />
+            <node id="_Node378403" otu="Bicyclusanynana" />
+            <node id="_Node378406" otu="Bicyclusmollitia" />
+            <node id="_Node378409" />
+            <node id="_Node378411" otu="Bicyclusauricrudus" />
+            <node id="_Node378414" />
+            <node id="_Node378416" otu="Bicycluskenia" />
+            <node id="_Node378419" otu="Bicyclusmandanes" />
+            <node id="_Node378422" />
+            <node id="_Node378424" />
+            <node id="_Node378426" />
+            <node id="_Node378428" />
+            <node id="_Node378430" otu="Bicyclusdorothea" />
+            <node id="_Node378433" otu="Bicyclusmoyses" />
+            <node id="_Node378436" otu="Bicyclusjefferyi" />
+            <node id="_Node378439" otu="Bicyclusvulgaris" />
+            <node id="_Node378442" otu="Bicyclussandace" />
+            <node id="_Node378445" otu="Bicyclusena" />
+            <node id="_Node378448" />
+            <node id="_Node378450" otu="Bicyclusmesogenus" />
+            <node id="_Node378453" otu="Bicyclussambulos" />
+            <node id="_Node378456" otu="Bicyclustechnatis" />
+            <node id="_Node378459" otu="Bicyclusvansoni" />
+            <node id="_Node378462" />
+            <node id="_Node378464" otu="Bicyclusdentatus" />
+            <node id="_Node378467" otu="Bicyclustaenias" />
+            <node id="_Node378470" />
+            <node id="_Node378472" otu="Bicycluspavonis" />
+            <node id="_Node378475" otu="Bicyclustrilophus" />
+            <node id="_Node378478" otu="Bicyclusignobilis" />
+            <node id="_Node378481" />
+            <node id="_Node378483" />
+            <node id="_Node378485" otu="Bicyclusanalis" />
+            <node id="_Node378488" otu="Bicyclusuniformis" />
+            <node id="_Node378491" />
+            <node id="_Node378493" otu="Bicyclushyperanthus" />
+            <node id="_Node378496" />
+            <node id="_Node378498" otu="Bicyclusprocorus" />
+            <node id="_Node378501" otu="Bicyclussciathis" />
+            <node id="_Node378504" />
+            <node id="_Node378506" />
+            <node id="_Node378508" />
+            <node id="_Node378510" />
+            <node id="_Node378512" />
+            <node id="_Node378514" otu="Bicyclusgraueri" />
+            <node id="_Node378517" otu="Bicyclussebetus" />
+            <node id="_Node378520" />
+            <node id="_Node378522" otu="Bicyclusitalus" />
+            <node id="_Node378525" otu="Bicycluszinebi" />
+            <node id="_Node378528" otu="Bicyclusiccius" />
+            <node id="_Node378531" otu="Bicyclusmedontias" />
+            <node id="_Node378534" otu="Bicyclushewitsoni" />
+            <node id="_Node378537" />
+            <node id="_Node378539" />
+            <node id="_Node378541" />
+            <node id="_Node378543" otu="Bicyclusalboplagus" />
+            <node id="_Node378546" otu="Bicyclusxeneoides" />
+            <node id="_Node378549" otu="Bicyclusxeneas" />
+            <node id="_Node378552" otu="Bicyclusevadne" />
+            <node id="_Node378555" />
+            <node id="_Node378557" />
+            <node id="_Node378559" otu="Henotesiapeitho" />
+            <node id="_Node378562" otu="Mycalesisfranscisca" />
+            <node id="_Node378565" />
+            <node id="_Node378567" otu="Henotesiaperspicua" />
+            <node id="_Node378570" otu="Halelesisasochis" />
+            <rootedge id="_Edge378317" target="_Node378316" />
+            <edge id="_Edge378319" source="_Node378316" target="_Node378318" />
+            <edge id="_Edge378321" source="_Node378318" target="_Node378320" />
+            <edge id="_Edge378323" source="_Node378320" target="_Node378322" />
+            <edge id="_Edge378325" source="_Node378322" target="_Node378324" />
+            <edge id="_Edge378327" source="_Node378324" target="_Node378326" />
+            <edge id="_Edge378329" source="_Node378326" target="_Node378328" />
+            <edge id="_Edge378331" source="_Node378328" target="_Node378330" />
+            <edge id="_Edge378333" source="_Node378330" target="_Node378332" />
+            <edge id="_Edge378335" source="_Node378332" target="_Node378334" />
+            <edge id="_Edge378338" source="_Node378332" target="_Node378337" />
+            <edge id="_Edge378341" source="_Node378330" target="_Node378340" />
+            <edge id="_Edge378344" source="_Node378328" target="_Node378343" />
+            <edge id="_Edge378346" source="_Node378343" target="_Node378345" />
+            <edge id="_Edge378349" source="_Node378343" target="_Node378348" />
+            <edge id="_Edge378352" source="_Node378326" target="_Node378351" />
+            <edge id="_Edge378354" source="_Node378351" target="_Node378353" />
+            <edge id="_Edge378356" source="_Node378353" target="_Node378355" />
+            <edge id="_Edge378358" source="_Node378355" target="_Node378357" />
+            <edge id="_Edge378361" source="_Node378355" target="_Node378360" />
+            <edge id="_Edge378364" source="_Node378353" target="_Node378363" />
+            <edge id="_Edge378367" source="_Node378351" target="_Node378366" />
+            <edge id="_Edge378370" source="_Node378324" target="_Node378369" />
+            <edge id="_Edge378372" source="_Node378369" target="_Node378371" />
+            <edge id="_Edge378375" source="_Node378369" target="_Node378374" />
+            <edge id="_Edge378378" source="_Node378322" target="_Node378377" />
+            <edge id="_Edge378380" source="_Node378377" target="_Node378379" />
+            <edge id="_Edge378382" source="_Node378379" target="_Node378381" />
+            <edge id="_Edge378384" source="_Node378381" target="_Node378383" />
+            <edge id="_Edge378387" source="_Node378381" target="_Node378386" />
+            <edge id="_Edge378390" source="_Node378379" target="_Node378389" />
+            <edge id="_Edge378393" source="_Node378377" target="_Node378392" />
+            <edge id="_Edge378396" source="_Node378322" target="_Node378395" />
+            <edge id="_Edge378398" source="_Node378395" target="_Node378397" />
+            <edge id="_Edge378401" source="_Node378395" target="_Node378400" />
+            <edge id="_Edge378404" source="_Node378322" target="_Node378403" />
+            <edge id="_Edge378407" source="_Node378322" target="_Node378406" />
+            <edge id="_Edge378410" source="_Node378322" target="_Node378409" />
+            <edge id="_Edge378412" source="_Node378409" target="_Node378411" />
+            <edge id="_Edge378415" source="_Node378409" target="_Node378414" />
+            <edge id="_Edge378417" source="_Node378414" target="_Node378416" />
+            <edge id="_Edge378420" source="_Node378414" target="_Node378419" />
+            <edge id="_Edge378423" source="_Node378322" target="_Node378422" />
+            <edge id="_Edge378425" source="_Node378422" target="_Node378424" />
+            <edge id="_Edge378427" source="_Node378424" target="_Node378426" />
+            <edge id="_Edge378429" source="_Node378426" target="_Node378428" />
+            <edge id="_Edge378431" source="_Node378428" target="_Node378430" />
+            <edge id="_Edge378434" source="_Node378428" target="_Node378433" />
+            <edge id="_Edge378437" source="_Node378426" target="_Node378436" />
+            <edge id="_Edge378440" source="_Node378424" target="_Node378439" />
+            <edge id="_Edge378443" source="_Node378422" target="_Node378442" />
+            <edge id="_Edge378446" source="_Node378322" target="_Node378445" />
+            <edge id="_Edge378449" source="_Node378322" target="_Node378448" />
+            <edge id="_Edge378451" source="_Node378448" target="_Node378450" />
+            <edge id="_Edge378454" source="_Node378448" target="_Node378453" />
+            <edge id="_Edge378457" source="_Node378322" target="_Node378456" />
+            <edge id="_Edge378460" source="_Node378322" target="_Node378459" />
+            <edge id="_Edge378463" source="_Node378322" target="_Node378462" />
+            <edge id="_Edge378465" source="_Node378462" target="_Node378464" />
+            <edge id="_Edge378468" source="_Node378462" target="_Node378467" />
+            <edge id="_Edge378471" source="_Node378320" target="_Node378470" />
+            <edge id="_Edge378473" source="_Node378470" target="_Node378472" />
+            <edge id="_Edge378476" source="_Node378470" target="_Node378475" />
+            <edge id="_Edge378479" source="_Node378318" target="_Node378478" />
+            <edge id="_Edge378482" source="_Node378318" target="_Node378481" />
+            <edge id="_Edge378484" source="_Node378481" target="_Node378483" />
+            <edge id="_Edge378486" source="_Node378483" target="_Node378485" />
+            <edge id="_Edge378489" source="_Node378483" target="_Node378488" />
+            <edge id="_Edge378492" source="_Node378481" target="_Node378491" />
+            <edge id="_Edge378494" source="_Node378491" target="_Node378493" />
+            <edge id="_Edge378497" source="_Node378491" target="_Node378496" />
+            <edge id="_Edge378499" source="_Node378496" target="_Node378498" />
+            <edge id="_Edge378502" source="_Node378496" target="_Node378501" />
+            <edge id="_Edge378505" source="_Node378318" target="_Node378504" />
+            <edge id="_Edge378507" source="_Node378504" target="_Node378506" />
+            <edge id="_Edge378509" source="_Node378506" target="_Node378508" />
+            <edge id="_Edge378511" source="_Node378508" target="_Node378510" />
+            <edge id="_Edge378513" source="_Node378510" target="_Node378512" />
+            <edge id="_Edge378515" source="_Node378512" target="_Node378514" />
+            <edge id="_Edge378518" source="_Node378512" target="_Node378517" />
+            <edge id="_Edge378521" source="_Node378510" target="_Node378520" />
+            <edge id="_Edge378523" source="_Node378520" target="_Node378522" />
+            <edge id="_Edge378526" source="_Node378520" target="_Node378525" />
+            <edge id="_Edge378529" source="_Node378508" target="_Node378528" />
+            <edge id="_Edge378532" source="_Node378506" target="_Node378531" />
+            <edge id="_Edge378535" source="_Node378504" target="_Node378534" />
+            <edge id="_Edge378538" source="_Node378318" target="_Node378537" />
+            <edge id="_Edge378540" source="_Node378537" target="_Node378539" />
+            <edge id="_Edge378542" source="_Node378539" target="_Node378541" />
+            <edge id="_Edge378544" source="_Node378541" target="_Node378543" />
+            <edge id="_Edge378547" source="_Node378541" target="_Node378546" />
+            <edge id="_Edge378550" source="_Node378539" target="_Node378549" />
+            <edge id="_Edge378553" source="_Node378537" target="_Node378552" />
+            <edge id="_Edge378556" source="_Node378316" target="_Node378555" />
+            <edge id="_Edge378558" source="_Node378555" target="_Node378557" />
+            <edge id="_Edge378560" source="_Node378557" target="_Node378559" />
+            <edge id="_Edge378563" source="_Node378557" target="_Node378562" />
+            <edge id="_Edge378566" source="_Node378555" target="_Node378565" />
+            <edge id="_Edge378568" source="_Node378565" target="_Node378567" />
+            <edge id="_Edge378571" source="_Node378565" target="_Node378570" />
+        </tree>
+    </trees>
+</nex:nexml>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1842"><citation>Tsutsumi, C., X-C. Zhang, and M. Kato. 2007. Molecular phylogeny of Davalliaceae and implications for the classification. Systematic Botany, in press.</citation><author email="sorang@kahaku.go.jp" firstname="Masahiro" lastname="Kato" /><author email="tsutsumi@kahaku.go.jp" firstname="Chie" lastname="Tsutsumi" /><author email="Zhangxc@ibcas.ac.cn" firstname="Xian-Chun" lastname="Zhang" /></study></nex:external>
+    <otus id="_TaxaBlock1593926">
+        <otu id="Arthropterisbeckleri" label="Arthropteris beckleri" />
+        <otu id="Oleandrawallichii" label="Oleandra wallichii" />
+        <otu id="Davalliaembolostegia" label="Davallia embolostegia" />
+        <otu id="DavalliadenticulataS" label="Davallia denticulata S" />
+        <otu id="DavalliadenticulataP" label="Davallia denticulata P" />
+        <otu id="Davalliaepiphylla" label="Davallia epiphylla" />
+        <otu id="Davalliachaerophylloides" label="Davallia chaerophylloides" />
+        <otu id="Davalliadivaricata" label="Davallia divaricata" />
+        <otu id="Davalliaformosana" label="Davallia formosana" />
+        <otu id="Davalliamariesiivarstenolepis" label="Davallia mariesii var stenolepis" />
+        <otu id="Davalliamariesii" label="Davallia mariesii" />
+        <otu id="Davalliaaffmariesii" label="Davallia aff mariesii" />
+        <otu id="Davalliatyermanii" label="Davallia tyermanii" />
+        <otu id="Davalliagriffithiana" label="Davallia griffithiana" />
+        <otu id="Davalliapetelotii" label="Davallia petelotii" />
+        <otu id="Davalliatrichomanoides" label="Davallia trichomanoides" />
+        <otu id="DavalliasolidaWS" label="Davallia solida WS" />
+        <otu id="Davalliafejeensis" label="Davallia fejeensis" />
+        <otu id="DavalliasolidaNC" label="Davallia solida NC" />
+        <otu id="Davalliapyxidata" label="Davallia pyxidata" />
+        <otu id="Davalliatasmani" label="Davallia tasmani" />
+        <otu id="Scyphulariapentaphylla" label="Scyphularia pentaphylla" />
+        <otu id="Scyphulariapycnocarpa" label="Scyphularia pycnocarpa" />
+        <otu id="Davalliaplumosa" label="Davallia plumosa" />
+        <otu id="Scyphulariatriphylla" label="Scyphularia triphylla" />
+        <otu id="Humatavestita" label="Humata vestita" />
+        <otu id="Humatabanksii" label="Humata banksii" />
+        <otu id="Humatamelanophlebia" label="Humata melanophlebia" />
+        <otu id="Humataaffparvula" label="Humata aff parvula" />
+        <otu id="Humataparvula" label="Humata parvula" />
+        <otu id="Davalliacorniculata" label="Davallia corniculata" />
+        <otu id="Humatapolypodioides" label="Humata polypodioides" />
+        <otu id="Humataaffpolypodioides" label="Humata aff polypodioides" />
+        <otu id="Humataheterophylla" label="Humata heterophylla" />
+        <otu id="Araiostegiaperdurans" label="Araiostegia perdurans" />
+        <otu id="Araiostegiaparvipinnula" label="Araiostegia parvipinnula" />
+        <otu id="Araiostegiafaberiana" label="Araiostegia faberiana" />
+        <otu id="Davallodesgymnocarpum" label="Davallodes gymnocarpum" />
+        <otu id="Davallodesburbidgei" label="Davallodes burbidgei" />
+        <otu id="Davallodesborneense" label="Davallodes borneense" />
+        <otu id="Araiostegiahymenophylloides" label="Araiostegia hymenophylloides" />
+        <otu id="Araiostegiayunnanensis" label="Araiostegia yunnanensis" />
+        <otu id="Araiostegiapulchra" label="Araiostegia pulchra" />
+        <otu id="Paradavallodesmultidentatum" label="Paradavallodes multidentatum" />
+    </otus>
+    <trees id="_TreesBlock1593927" otus="_TaxaBlock1593926">
+        <tree id="_Tree1593928" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S1842A7280" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Davalliaceae 070412" nchar="4937" /></analysis></nex:external>
+            <node id="_Node1593931" />
+            <node id="_Node1593933" />
+            <node id="_Node1593935" otu="Arthropterisbeckleri" />
+            <node id="_Node1593938" otu="Oleandrawallichii" />
+            <node id="_Node1593941" />
+            <node id="_Node1593943" />
+            <node id="_Node1593945" />
+            <node id="_Node1593947" />
+            <node id="_Node1593949" />
+            <node id="_Node1593951" otu="Davalliaembolostegia" />
+            <node id="_Node1593954" />
+            <node id="_Node1593956" otu="DavalliadenticulataS" />
+            <node id="_Node1593959" otu="DavalliadenticulataP" />
+            <node id="_Node1593962" otu="Davalliaepiphylla" />
+            <node id="_Node1593965" otu="Davalliachaerophylloides" />
+            <node id="_Node1593968" />
+            <node id="_Node1593970" otu="Davalliadivaricata" />
+            <node id="_Node1593973" otu="Davalliaformosana" />
+            <node id="_Node1593976" />
+            <node id="_Node1593978" />
+            <node id="_Node1593980" />
+            <node id="_Node1593982" />
+            <node id="_Node1593984" />
+            <node id="_Node1593986" />
+            <node id="_Node1593988" otu="Davalliamariesiivarstenolepis" />
+            <node id="_Node1593991" otu="Davalliamariesii" />
+            <node id="_Node1593994" />
+            <node id="_Node1593996" />
+            <node id="_Node1593998" otu="Davalliaaffmariesii" />
+            <node id="_Node1594001" otu="Davalliatyermanii" />
+            <node id="_Node1594004" otu="Davalliagriffithiana" />
+            <node id="_Node1594007" />
+            <node id="_Node1594009" otu="Davalliapetelotii" />
+            <node id="_Node1594012" otu="Davalliatrichomanoides" />
+            <node id="_Node1594015" />
+            <node id="_Node1594017" />
+            <node id="_Node1594019" />
+            <node id="_Node1594021" />
+            <node id="_Node1594023" />
+            <node id="_Node1594025" otu="DavalliasolidaWS" />
+            <node id="_Node1594028" otu="Davalliafejeensis" />
+            <node id="_Node1594031" otu="DavalliasolidaNC" />
+            <node id="_Node1594034" otu="Davalliapyxidata" />
+            <node id="_Node1594037" otu="Davalliatasmani" />
+            <node id="_Node1594040" />
+            <node id="_Node1594042" />
+            <node id="_Node1594044" otu="Scyphulariapentaphylla" />
+            <node id="_Node1594047" otu="Scyphulariapycnocarpa" />
+            <node id="_Node1594050" otu="Davalliaplumosa" />
+            <node id="_Node1594053" otu="Scyphulariatriphylla" />
+            <node id="_Node1594056" />
+            <node id="_Node1594058" />
+            <node id="_Node1594060" />
+            <node id="_Node1594062" />
+            <node id="_Node1594064" otu="Humatavestita" />
+            <node id="_Node1594067" />
+            <node id="_Node1594069" otu="Humatabanksii" />
+            <node id="_Node1594072" otu="Humatamelanophlebia" />
+            <node id="_Node1594075" />
+            <node id="_Node1594077" otu="Humataaffparvula" />
+            <node id="_Node1594080" otu="Humataparvula" />
+            <node id="_Node1594083" otu="Davalliacorniculata" />
+            <node id="_Node1594086" />
+            <node id="_Node1594088" />
+            <node id="_Node1594090" otu="Humatapolypodioides" />
+            <node id="_Node1594093" otu="Humataaffpolypodioides" />
+            <node id="_Node1594096" otu="Humataheterophylla" />
+            <node id="_Node1594099" />
+            <node id="_Node1594101" />
+            <node id="_Node1594103" otu="Araiostegiaperdurans" />
+            <node id="_Node1594106" otu="Araiostegiaparvipinnula" />
+            <node id="_Node1594109" otu="Araiostegiafaberiana" />
+            <node id="_Node1594112" />
+            <node id="_Node1594114" />
+            <node id="_Node1594116" />
+            <node id="_Node1594118" />
+            <node id="_Node1594120" otu="Davallodesgymnocarpum" />
+            <node id="_Node1594123" otu="Davallodesburbidgei" />
+            <node id="_Node1594126" />
+            <node id="_Node1594128" otu="Davallodesborneense" />
+            <node id="_Node1594131" otu="Araiostegiahymenophylloides" />
+            <node id="_Node1594134" otu="Araiostegiayunnanensis" />
+            <node id="_Node1594137" />
+            <node id="_Node1594139" otu="Araiostegiapulchra" />
+            <node id="_Node1594142" otu="Paradavallodesmultidentatum" />
+            <rootedge id="_Edge1593932" target="_Node1593931" />
+            <edge id="_Edge1593934" source="_Node1593931" target="_Node1593933" />
+            <edge id="_Edge1593936" source="_Node1593933" target="_Node1593935" />
+            <edge id="_Edge1593939" source="_Node1593933" target="_Node1593938" />
+            <edge id="_Edge1593942" source="_Node1593931" target="_Node1593941" />
+            <edge id="_Edge1593944" source="_Node1593941" target="_Node1593943" />
+            <edge id="_Edge1593946" source="_Node1593943" target="_Node1593945" />
+            <edge id="_Edge1593948" source="_Node1593945" target="_Node1593947" />
+            <edge id="_Edge1593950" source="_Node1593947" target="_Node1593949" />
+            <edge id="_Edge1593952" source="_Node1593949" target="_Node1593951" />
+            <edge id="_Edge1593955" source="_Node1593949" target="_Node1593954" />
+            <edge id="_Edge1593957" source="_Node1593954" target="_Node1593956" />
+            <edge id="_Edge1593960" source="_Node1593954" target="_Node1593959" />
+            <edge id="_Edge1593963" source="_Node1593949" target="_Node1593962" />
+            <edge id="_Edge1593966" source="_Node1593947" target="_Node1593965" />
+            <edge id="_Edge1593969" source="_Node1593945" target="_Node1593968" />
+            <edge id="_Edge1593971" source="_Node1593968" target="_Node1593970" />
+            <edge id="_Edge1593974" source="_Node1593968" target="_Node1593973" />
+            <edge id="_Edge1593977" source="_Node1593943" target="_Node1593976" />
+            <edge id="_Edge1593979" source="_Node1593976" target="_Node1593978" />
+            <edge id="_Edge1593981" source="_Node1593978" target="_Node1593980" />
+            <edge id="_Edge1593983" source="_Node1593980" target="_Node1593982" />
+            <edge id="_Edge1593985" source="_Node1593982" target="_Node1593984" />
+            <edge id="_Edge1593987" source="_Node1593984" target="_Node1593986" />
+            <edge id="_Edge1593989" source="_Node1593986" target="_Node1593988" />
+            <edge id="_Edge1593992" source="_Node1593986" target="_Node1593991" />
+            <edge id="_Edge1593995" source="_Node1593984" target="_Node1593994" />
+            <edge id="_Edge1593997" source="_Node1593994" target="_Node1593996" />
+            <edge id="_Edge1593999" source="_Node1593996" target="_Node1593998" />
+            <edge id="_Edge1594002" source="_Node1593996" target="_Node1594001" />
+            <edge id="_Edge1594005" source="_Node1593994" target="_Node1594004" />
+            <edge id="_Edge1594008" source="_Node1593982" target="_Node1594007" />
+            <edge id="_Edge1594010" source="_Node1594007" target="_Node1594009" />
+            <edge id="_Edge1594013" source="_Node1594007" target="_Node1594012" />
+            <edge id="_Edge1594016" source="_Node1593980" target="_Node1594015" />
+            <edge id="_Edge1594018" source="_Node1594015" target="_Node1594017" />
+            <edge id="_Edge1594020" source="_Node1594017" target="_Node1594019" />
+            <edge id="_Edge1594022" source="_Node1594019" target="_Node1594021" />
+            <edge id="_Edge1594024" source="_Node1594021" target="_Node1594023" />
+            <edge id="_Edge1594026" source="_Node1594023" target="_Node1594025" />
+            <edge id="_Edge1594029" source="_Node1594023" target="_Node1594028" />
+            <edge id="_Edge1594032" source="_Node1594023" target="_Node1594031" />
+            <edge id="_Edge1594035" source="_Node1594021" target="_Node1594034" />
+            <edge id="_Edge1594038" source="_Node1594019" target="_Node1594037" />
+            <edge id="_Edge1594041" source="_Node1594017" target="_Node1594040" />
+            <edge id="_Edge1594043" source="_Node1594040" target="_Node1594042" />
+            <edge id="_Edge1594045" source="_Node1594042" target="_Node1594044" />
+            <edge id="_Edge1594048" source="_Node1594042" target="_Node1594047" />
+            <edge id="_Edge1594051" source="_Node1594040" target="_Node1594050" />
+            <edge id="_Edge1594054" source="_Node1594015" target="_Node1594053" />
+            <edge id="_Edge1594057" source="_Node1593978" target="_Node1594056" />
+            <edge id="_Edge1594059" source="_Node1594056" target="_Node1594058" />
+            <edge id="_Edge1594061" source="_Node1594058" target="_Node1594060" />
+            <edge id="_Edge1594063" source="_Node1594060" target="_Node1594062" />
+            <edge id="_Edge1594065" source="_Node1594062" target="_Node1594064" />
+            <edge id="_Edge1594068" source="_Node1594062" target="_Node1594067" />
+            <edge id="_Edge1594070" source="_Node1594067" target="_Node1594069" />
+            <edge id="_Edge1594073" source="_Node1594067" target="_Node1594072" />
+            <edge id="_Edge1594076" source="_Node1594060" target="_Node1594075" />
+            <edge id="_Edge1594078" source="_Node1594075" target="_Node1594077" />
+            <edge id="_Edge1594081" source="_Node1594075" target="_Node1594080" />
+            <edge id="_Edge1594084" source="_Node1594058" target="_Node1594083" />
+            <edge id="_Edge1594087" source="_Node1594056" target="_Node1594086" />
+            <edge id="_Edge1594089" source="_Node1594086" target="_Node1594088" />
+            <edge id="_Edge1594091" source="_Node1594088" target="_Node1594090" />
+            <edge id="_Edge1594094" source="_Node1594088" target="_Node1594093" />
+            <edge id="_Edge1594097" source="_Node1594086" target="_Node1594096" />
+            <edge id="_Edge1594100" source="_Node1593976" target="_Node1594099" />
+            <edge id="_Edge1594102" source="_Node1594099" target="_Node1594101" />
+            <edge id="_Edge1594104" source="_Node1594101" target="_Node1594103" />
+            <edge id="_Edge1594107" source="_Node1594101" target="_Node1594106" />
+            <edge id="_Edge1594110" source="_Node1594099" target="_Node1594109" />
+            <edge id="_Edge1594113" source="_Node1593941" target="_Node1594112" />
+            <edge id="_Edge1594115" source="_Node1594112" target="_Node1594114" />
+            <edge id="_Edge1594117" source="_Node1594114" target="_Node1594116" />
+            <edge id="_Edge1594119" source="_Node1594116" target="_Node1594118" />
+            <edge id="_Edge1594121" source="_Node1594118" target="_Node1594120" />
+            <edge id="_Edge1594124" source="_Node1594118" target="_Node1594123" />
+            <edge id="_Edge1594127" source="_Node1594116" target="_Node1594126" />
+            <edge id="_Edge1594129" source="_Node1594126" target="_Node1594128" />
+            <edge id="_Edge1594132" source="_Node1594126" target="_Node1594131" />
+            <edge id="_Edge1594135" source="_Node1594114" target="_Node1594134" />
+            <edge id="_Edge1594138" source="_Node1594112" target="_Node1594137" />
+            <edge id="_Edge1594140" source="_Node1594137" target="_Node1594139" />
+            <edge id="_Edge1594143" source="_Node1594137" target="_Node1594142" />
+        </tree>
+    </trees>
+</nex:nexml>

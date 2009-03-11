@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S461"><citation>Vandemark, G., O. Martinez, V. Pecina, and M. Alvarado. 2000. Assessment of genetic relationships among isolates of Macrophomina phaseolina using a simplified AFLP technique and two different methods of analysis. Mycologia, in press.</citation><author email="malvarad@irapuato.ira.cinvestav.mx" firstname="Maria de Jesus" lastname="Alvarado" /><author email="omartine@irapuato.ira.cinvestav.mx" firstname="Octavio" lastname="Martinez" /><author email="vpecina@irapuato.ira.cinvestav.mx" firstname="Victor" lastname="Pecina" /><author email="gvandema@tricity.wsu.edu" firstname="George" lastname="Vandemark" /></study></nex:external>
+    <otus id="_TaxaBlock225308">
+        <otu id="Macrophominaphaseolinaiso117" label="Macrophomina phaseolina iso 117" />
+        <otu id="Macrophominaphaseolinaiso24" label="Macrophomina phaseolina iso 24" />
+        <otu id="Macrophominaphaseolinaiso87" label="Macrophomina phaseolina iso 87" />
+        <otu id="Macrophominaphaseolinaiso8" label="Macrophomina phaseolina iso 8" />
+        <otu id="Macrophominaphaseolinaiso65" label="Macrophomina phaseolina iso 65" />
+        <otu id="Macrophominaphaseolinaiso70" label="Macrophomina phaseolina iso 70" />
+        <otu id="Macrophominaphaseolinaiso53" label="Macrophomina phaseolina iso 53" />
+        <otu id="Macrophominaphaseolinaiso18" label="Macrophomina phaseolina iso 18" />
+        <otu id="Macrophominaphaseolinaiso12" label="Macrophomina phaseolina iso 12" />
+        <otu id="Macrophominaphaseolinaiso73" label="Macrophomina phaseolina iso 73" />
+        <otu id="Macrophominaphaseolinaiso64" label="Macrophomina phaseolina iso 64" />
+        <otu id="Macrophominaphaseolinaiso54" label="Macrophomina phaseolina iso 54" />
+        <otu id="Macrophominaphaseolinaiso1" label="Macrophomina phaseolina iso 1" />
+        <otu id="Macrophominaphaseolinaiso94" label="Macrophomina phaseolina iso 94" />
+        <otu id="Macrophominaphaseolinaiso91" label="Macrophomina phaseolina iso 91" />
+        <otu id="Macrophominaphaseolinaiso84" label="Macrophomina phaseolina iso 84" />
+        <otu id="Macrophominaphaseolinaiso11" label="Macrophomina phaseolina iso 11" />
+        <otu id="Macrophominaphaseolinaiso77" label="Macrophomina phaseolina iso 77" />
+        <otu id="Macrophominaphaseolinaiso40" label="Macrophomina phaseolina iso 40" />
+        <otu id="Macrophominaphaseolinaiso105" label="Macrophomina phaseolina iso 105" />
+        <otu id="Macrophominaphaseolinaiso43" label="Macrophomina phaseolina iso 43" />
+        <otu id="Macrophominaphaseolinaiso96" label="Macrophomina phaseolina iso 96" />
+        <otu id="Macrophominaphaseolinaiso67" label="Macrophomina phaseolina iso 67" />
+        <otu id="Macrophominaphaseolinaiso92" label="Macrophomina phaseolina iso 92" />
+    </otus>
+    <trees id="_TreesBlock225309" otus="_TaxaBlock225308">
+        <tree id="_Tree225310" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="Genetic Distance" id="S461A597" software="Ni and Li Distance"><inputmatrix datatype="AFLP" name="AFLP of Macrophomina phaseolina" nchar="312" /></analysis></nex:external>
+            <node id="_Node225313" />
+            <node id="_Node225315" />
+            <node id="_Node225317" />
+            <node id="_Node225319" />
+            <node id="_Node225321" />
+            <node id="_Node225323" />
+            <node id="_Node225325" />
+            <node id="_Node225327" />
+            <node id="_Node225329" />
+            <node id="_Node225331" otu="Macrophominaphaseolinaiso117" />
+            <node id="_Node225334" otu="Macrophominaphaseolinaiso24" />
+            <node id="_Node225337" otu="Macrophominaphaseolinaiso87" />
+            <node id="_Node225340" otu="Macrophominaphaseolinaiso8" />
+            <node id="_Node225343" otu="Macrophominaphaseolinaiso65" />
+            <node id="_Node225346" />
+            <node id="_Node225348" otu="Macrophominaphaseolinaiso70" />
+            <node id="_Node225351" otu="Macrophominaphaseolinaiso53" />
+            <node id="_Node225354" />
+            <node id="_Node225356" />
+            <node id="_Node225358" />
+            <node id="_Node225360" />
+            <node id="_Node225362" />
+            <node id="_Node225364" />
+            <node id="_Node225366" />
+            <node id="_Node225368" otu="Macrophominaphaseolinaiso18" />
+            <node id="_Node225371" otu="Macrophominaphaseolinaiso12" />
+            <node id="_Node225374" otu="Macrophominaphaseolinaiso73" />
+            <node id="_Node225377" otu="Macrophominaphaseolinaiso64" />
+            <node id="_Node225380" otu="Macrophominaphaseolinaiso54" />
+            <node id="_Node225383" otu="Macrophominaphaseolinaiso1" />
+            <node id="_Node225386" otu="Macrophominaphaseolinaiso94" />
+            <node id="_Node225389" otu="Macrophominaphaseolinaiso91" />
+            <node id="_Node225392" />
+            <node id="_Node225394" />
+            <node id="_Node225396" />
+            <node id="_Node225398" otu="Macrophominaphaseolinaiso84" />
+            <node id="_Node225401" otu="Macrophominaphaseolinaiso11" />
+            <node id="_Node225404" otu="Macrophominaphaseolinaiso77" />
+            <node id="_Node225407" otu="Macrophominaphaseolinaiso40" />
+            <node id="_Node225410" />
+            <node id="_Node225412" otu="Macrophominaphaseolinaiso105" />
+            <node id="_Node225415" otu="Macrophominaphaseolinaiso43" />
+            <node id="_Node225418" />
+            <node id="_Node225420" />
+            <node id="_Node225422" otu="Macrophominaphaseolinaiso96" />
+            <node id="_Node225425" otu="Macrophominaphaseolinaiso67" />
+            <node id="_Node225428" otu="Macrophominaphaseolinaiso92" />
+            <rootedge id="_Edge225314" target="_Node225313" />
+            <edge id="_Edge225316" source="_Node225313" target="_Node225315" />
+            <edge id="_Edge225318" source="_Node225315" target="_Node225317" />
+            <edge id="_Edge225320" source="_Node225317" target="_Node225319" />
+            <edge id="_Edge225322" source="_Node225319" target="_Node225321" />
+            <edge id="_Edge225324" source="_Node225321" target="_Node225323" />
+            <edge id="_Edge225326" source="_Node225323" target="_Node225325" />
+            <edge id="_Edge225328" source="_Node225325" target="_Node225327" />
+            <edge id="_Edge225330" source="_Node225327" target="_Node225329" />
+            <edge id="_Edge225332" source="_Node225329" target="_Node225331" />
+            <edge id="_Edge225335" source="_Node225329" target="_Node225334" />
+            <edge id="_Edge225338" source="_Node225327" target="_Node225337" />
+            <edge id="_Edge225341" source="_Node225325" target="_Node225340" />
+            <edge id="_Edge225344" source="_Node225323" target="_Node225343" />
+            <edge id="_Edge225347" source="_Node225321" target="_Node225346" />
+            <edge id="_Edge225349" source="_Node225346" target="_Node225348" />
+            <edge id="_Edge225352" source="_Node225346" target="_Node225351" />
+            <edge id="_Edge225355" source="_Node225319" target="_Node225354" />
+            <edge id="_Edge225357" source="_Node225354" target="_Node225356" />
+            <edge id="_Edge225359" source="_Node225356" target="_Node225358" />
+            <edge id="_Edge225361" source="_Node225358" target="_Node225360" />
+            <edge id="_Edge225363" source="_Node225360" target="_Node225362" />
+            <edge id="_Edge225365" source="_Node225362" target="_Node225364" />
+            <edge id="_Edge225367" source="_Node225364" target="_Node225366" />
+            <edge id="_Edge225369" source="_Node225366" target="_Node225368" />
+            <edge id="_Edge225372" source="_Node225366" target="_Node225371" />
+            <edge id="_Edge225375" source="_Node225364" target="_Node225374" />
+            <edge id="_Edge225378" source="_Node225362" target="_Node225377" />
+            <edge id="_Edge225381" source="_Node225360" target="_Node225380" />
+            <edge id="_Edge225384" source="_Node225358" target="_Node225383" />
+            <edge id="_Edge225387" source="_Node225356" target="_Node225386" />
+            <edge id="_Edge225390" source="_Node225354" target="_Node225389" />
+            <edge id="_Edge225393" source="_Node225317" target="_Node225392" />
+            <edge id="_Edge225395" source="_Node225392" target="_Node225394" />
+            <edge id="_Edge225397" source="_Node225394" target="_Node225396" />
+            <edge id="_Edge225399" source="_Node225396" target="_Node225398" />
+            <edge id="_Edge225402" source="_Node225396" target="_Node225401" />
+            <edge id="_Edge225405" source="_Node225394" target="_Node225404" />
+            <edge id="_Edge225408" source="_Node225392" target="_Node225407" />
+            <edge id="_Edge225411" source="_Node225315" target="_Node225410" />
+            <edge id="_Edge225413" source="_Node225410" target="_Node225412" />
+            <edge id="_Edge225416" source="_Node225410" target="_Node225415" />
+            <edge id="_Edge225419" source="_Node225313" target="_Node225418" />
+            <edge id="_Edge225421" source="_Node225418" target="_Node225420" />
+            <edge id="_Edge225423" source="_Node225420" target="_Node225422" />
+            <edge id="_Edge225426" source="_Node225420" target="_Node225425" />
+            <edge id="_Edge225429" source="_Node225418" target="_Node225428" />
+        </tree>
+    </trees>
+</nex:nexml>

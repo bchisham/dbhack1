@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S2211"><citation>Uit de Weerd, D.R. 2008. Delimitation and phylogenetics of the highly diverse land snail family Urocoptidae (Gastropoda, Pulmonata) based on 28S rRNA sequence data: A reunion with Cerion. Journal of Molluscan Studies, in press.</citation><author email="uitdeweerd@gmail.com" firstname="Dennis Ren&#195;&#169;" lastname="Uit de Weerd" /></study></nex:external>
+    <otus id="_TaxaBlock2102396">
+        <otu id="Arionsilvaticus" label="Arion silvaticus" />
+        <otu id="Derocerasreticulatum" label="Deroceras reticulatum" />
+        <otu id="Mesomphixglobosus" label="Mesomphix globosus" />
+        <otu id="Praticolellamartensiana" label="Praticolella martensiana" />
+        <otu id="Polygyracereolus" label="Polygyra cereolus" />
+        <otu id="Bulimulusdiaphanus" label="Bulimulus diaphanus" />
+        <otu id="Sagdaspei" label="Sagda spei" />
+        <otu id="Cerionstriatellum" label="Cerion striatellum" />
+        <otu id="Coelostemmasp.nov." label="Coelostemma sp. nov." />
+        <otu id="Hendersoniellaluxlux" label="Hendersoniella lux lux" />
+        <otu id="Holospirafortisculpta" label="Holospira fortisculpta" />
+        <otu id="Epirobiapolygyra" label="Epirobia polygyra" />
+        <otu id="Macroceramusmicrodon" label="Macroceramus microdon" />
+        <otu id="Microceramuspontificus" label="Microceramus pontificus" />
+        <otu id="Torrecoptisholguinensis" label="Torrecoptis holguinensis" />
+        <otu id="Autocoptismenkeana" label="Autocoptis menkeana" />
+        <otu id="Simplicervixinornata" label="Simplicervix inornata" />
+        <otu id="Brachypodelladominicensisgabbi" label="Brachypodella dominicensis gabbi" />
+        <otu id="Dissotropissp.nov." label="Dissotropis sp. nov." />
+        <otu id="Anisospiraliebmanni" label="Anisospira liebmanni" />
+        <otu id="Archegocoptiscrenata" label="Archegocoptis crenata" />
+        <otu id="Eucalodiumsp." label="Eucalodium sp." />
+        <otu id="Neniatridens" label="Nenia tridens" />
+        <otu id="Coelocionaustralis" label="Coelocion australis" />
+        <otu id="Helicodiscusparallelus" label="Helicodiscus parallelus" />
+        <otu id="Lamellaxisgracilis" label="Lamellaxis gracilis" />
+    </otus>
+    <trees id="_TreesBlock2102397" otus="_TaxaBlock2102396">
+        <tree id="_Tree2102398" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S2211A9343" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Urocoptidae 28S D1 to D7b" nchar="2268" /></analysis></nex:external>
+            <node id="_Node2102401" />
+            <node id="_Node2102403" />
+            <node id="_Node2102405" />
+            <node id="_Node2102407" />
+            <node id="_Node2102409" />
+            <node id="_Node2102411" />
+            <node id="_Node2102413" otu="Arionsilvaticus" />
+            <node id="_Node2102416" otu="Derocerasreticulatum" />
+            <node id="_Node2102419" otu="Mesomphixglobosus" />
+            <node id="_Node2102422" />
+            <node id="_Node2102424" />
+            <node id="_Node2102426" />
+            <node id="_Node2102428" otu="Praticolellamartensiana" />
+            <node id="_Node2102431" otu="Polygyracereolus" />
+            <node id="_Node2102434" />
+            <node id="_Node2102436" otu="Bulimulusdiaphanus" />
+            <node id="_Node2102439" otu="Sagdaspei" />
+            <node id="_Node2102442" />
+            <node id="_Node2102444" />
+            <node id="_Node2102446" />
+            <node id="_Node2102448" otu="Cerionstriatellum" />
+            <node id="_Node2102451" />
+            <node id="_Node2102453" />
+            <node id="_Node2102455" otu="Coelostemmasp.nov." />
+            <node id="_Node2102458" otu="Hendersoniellaluxlux" />
+            <node id="_Node2102461" otu="Holospirafortisculpta" />
+            <node id="_Node2102464" otu="Epirobiapolygyra" />
+            <node id="_Node2102467" />
+            <node id="_Node2102469" />
+            <node id="_Node2102471" />
+            <node id="_Node2102473" otu="Macroceramusmicrodon" />
+            <node id="_Node2102476" otu="Microceramuspontificus" />
+            <node id="_Node2102479" />
+            <node id="_Node2102481" otu="Torrecoptisholguinensis" />
+            <node id="_Node2102484" otu="Autocoptismenkeana" />
+            <node id="_Node2102487" />
+            <node id="_Node2102489" otu="Simplicervixinornata" />
+            <node id="_Node2102492" otu="Brachypodelladominicensisgabbi" />
+            <node id="_Node2102495" />
+            <node id="_Node2102497" />
+            <node id="_Node2102499" />
+            <node id="_Node2102501" otu="Dissotropissp.nov." />
+            <node id="_Node2102504" otu="Anisospiraliebmanni" />
+            <node id="_Node2102507" otu="Archegocoptiscrenata" />
+            <node id="_Node2102510" otu="Eucalodiumsp." />
+            <node id="_Node2102513" otu="Neniatridens" />
+            <node id="_Node2102516" otu="Coelocionaustralis" />
+            <node id="_Node2102519" otu="Helicodiscusparallelus" />
+            <node id="_Node2102522" otu="Lamellaxisgracilis" />
+            <rootedge id="_Edge2102402" target="_Node2102401" />
+            <edge id="_Edge2102404" source="_Node2102401" target="_Node2102403" />
+            <edge id="_Edge2102406" source="_Node2102403" target="_Node2102405" />
+            <edge id="_Edge2102408" source="_Node2102405" target="_Node2102407" />
+            <edge id="_Edge2102410" source="_Node2102407" target="_Node2102409" />
+            <edge id="_Edge2102412" source="_Node2102409" target="_Node2102411" />
+            <edge id="_Edge2102414" source="_Node2102411" target="_Node2102413" />
+            <edge id="_Edge2102417" source="_Node2102411" target="_Node2102416" />
+            <edge id="_Edge2102420" source="_Node2102409" target="_Node2102419" />
+            <edge id="_Edge2102423" source="_Node2102407" target="_Node2102422" />
+            <edge id="_Edge2102425" source="_Node2102422" target="_Node2102424" />
+            <edge id="_Edge2102427" source="_Node2102424" target="_Node2102426" />
+            <edge id="_Edge2102429" source="_Node2102426" target="_Node2102428" />
+            <edge id="_Edge2102432" source="_Node2102426" target="_Node2102431" />
+            <edge id="_Edge2102435" source="_Node2102424" target="_Node2102434" />
+            <edge id="_Edge2102437" source="_Node2102434" target="_Node2102436" />
+            <edge id="_Edge2102440" source="_Node2102434" target="_Node2102439" />
+            <edge id="_Edge2102443" source="_Node2102422" target="_Node2102442" />
+            <edge id="_Edge2102445" source="_Node2102442" target="_Node2102444" />
+            <edge id="_Edge2102447" source="_Node2102444" target="_Node2102446" />
+            <edge id="_Edge2102449" source="_Node2102446" target="_Node2102448" />
+            <edge id="_Edge2102452" source="_Node2102446" target="_Node2102451" />
+            <edge id="_Edge2102454" source="_Node2102451" target="_Node2102453" />
+            <edge id="_Edge2102456" source="_Node2102453" target="_Node2102455" />
+            <edge id="_Edge2102459" source="_Node2102453" target="_Node2102458" />
+            <edge id="_Edge2102462" source="_Node2102453" target="_Node2102461" />
+            <edge id="_Edge2102465" source="_Node2102451" target="_Node2102464" />
+            <edge id="_Edge2102468" source="_Node2102444" target="_Node2102467" />
+            <edge id="_Edge2102470" source="_Node2102467" target="_Node2102469" />
+            <edge id="_Edge2102472" source="_Node2102469" target="_Node2102471" />
+            <edge id="_Edge2102474" source="_Node2102471" target="_Node2102473" />
+            <edge id="_Edge2102477" source="_Node2102471" target="_Node2102476" />
+            <edge id="_Edge2102480" source="_Node2102469" target="_Node2102479" />
+            <edge id="_Edge2102482" source="_Node2102479" target="_Node2102481" />
+            <edge id="_Edge2102485" source="_Node2102479" target="_Node2102484" />
+            <edge id="_Edge2102488" source="_Node2102467" target="_Node2102487" />
+            <edge id="_Edge2102490" source="_Node2102487" target="_Node2102489" />
+            <edge id="_Edge2102493" source="_Node2102487" target="_Node2102492" />
+            <edge id="_Edge2102496" source="_Node2102442" target="_Node2102495" />
+            <edge id="_Edge2102498" source="_Node2102495" target="_Node2102497" />
+            <edge id="_Edge2102500" source="_Node2102497" target="_Node2102499" />
+            <edge id="_Edge2102502" source="_Node2102499" target="_Node2102501" />
+            <edge id="_Edge2102505" source="_Node2102499" target="_Node2102504" />
+            <edge id="_Edge2102508" source="_Node2102497" target="_Node2102507" />
+            <edge id="_Edge2102511" source="_Node2102495" target="_Node2102510" />
+            <edge id="_Edge2102514" source="_Node2102405" target="_Node2102513" />
+            <edge id="_Edge2102517" source="_Node2102403" target="_Node2102516" />
+            <edge id="_Edge2102520" source="_Node2102401" target="_Node2102519" />
+            <edge id="_Edge2102523" source="_Node2102401" target="_Node2102522" />
+        </tree>
+    </trees>
+</nex:nexml>

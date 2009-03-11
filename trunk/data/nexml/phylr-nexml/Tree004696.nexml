@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1971"><citation>Weiblen, G. D. 2001. Phylogenetic relationships of fig wasps pollinating functionally dioecious figs based on mitochondrial DNA sequences and morphology. Syst. Biol. 50: 243-267.</citation><author email="gweiblen@umn.edu" firstname="George" lastname="Weiblen" /></study></nex:external>
+    <otus id="_TaxaBlock1766326">
+        <otu id="Apocryptophagusspinitarus" label="Apocryptophagus spinitarus" />
+        <otu id="Blastophagaintermedia" label="Blastophaga intermedia" />
+        <otu id="Ceratosolenappendiculatus" label="Ceratosolen appendiculatus" />
+        <otu id="Ceratosolenblommersi" label="Ceratosolen blommersi" />
+        <otu id="Ceratosolenabnormis" label="Ceratosolen abnormis" />
+        <otu id="Ceratosolengrandii" label="Ceratosolen grandii" />
+        <otu id="Ceratosolenmedlerianus" label="Ceratosolen medlerianus" />
+        <otu id="Ceratosolenriparianus" label="Ceratosolen riparianus" />
+        <otu id="Ceratosolenarmipes" label="Ceratosolen armipes" />
+        <otu id="Ceratosolenkaironkensis" label="Ceratosolen kaironkensis" />
+        <otu id="Ceratosolennexilis" label="Ceratosolen nexilis" />
+        <otu id="Ceratosolencfnexilis" label="Ceratosolen cf nexilis" />
+        <otu id="Ceratosolenbisulcatus" label="Ceratosolen bisulcatus" />
+        <otu id="Ceratosolennanus" label="Ceratosolen nanus" />
+        <otu id="Ceratosolencorneri" label="Ceratosolen corneri" />
+        <otu id="Ceratosolencapensis" label="Ceratosolen capensis" />
+        <otu id="Ceratosolenfusciceps" label="Ceratosolen fusciceps" />
+        <otu id="Ceratosolenemarginatus" label="Ceratosolen emarginatus" />
+        <otu id="Ceratosolendentifer" label="Ceratosolen dentifer" />
+        <otu id="Ceratosolenvechti" label="Ceratosolen vechti" />
+        <otu id="Ceratosolenhooglandi" label="Ceratosolen hooglandi" />
+        <otu id="Ceratosolenvissali" label="Ceratosolen vissali" />
+        <otu id="Kradibiacopiosae" label="Kradibia copiosae" />
+        <otu id="Kradibiaohuensis" label="Kradibia ohuensis" />
+        <otu id="Kradibiasalembensis" label="Kradibia salembensis" />
+        <otu id="Kradibiawassae" label="Kradibia wassae" />
+        <otu id="Kradibiajacobsi" label="Kradibia jacobsi" />
+        <otu id="Blastophagamalayana" label="Blastophaga malayana" />
+        <otu id="Liporrhopalumgibbosae" label="Liporrhopalum gibbosae" />
+        <otu id="Liporrhopalumvirgatae" label="Liporrhopalum virgatae" />
+        <otu id="Wiebesiabrusi" label="Wiebesia brusi" />
+        <otu id="Wiebesiafrustrata" label="Wiebesia frustrata" />
+        <otu id="Wiebesiapunctatae" label="Wiebesia punctatae" />
+        <otu id="Dolichorisinornata" label="Dolichoris inornata" />
+        <otu id="Dolichorishombronianae" label="Dolichoris hombronianae" />
+        <otu id="Dolichorisvasculosae" label="Dolichoris vasculosae" />
+        <otu id="Platyscapacorneri" label="Platyscapa corneri" />
+        <otu id="Platyscapafischeri" label="Platyscapa fischeri" />
+        <otu id="Eupristinaverticillata" label="Eupristina verticillata" />
+        <otu id="Waterstonielladubium" label="Waterstoniella dubium" />
+        <otu id="Waterstoniellabrevigena" label="Waterstoniella brevigena" />
+        <otu id="Pleistodontesplebejus" label="Pleistodontes plebejus" />
+        <otu id="Pleistodontesrieki" label="Pleistodontes rieki" />
+        <otu id="Pleistodontesrigisamos" label="Pleistodontes rigisamos" />
+    </otus>
+    <trees id="_TreesBlock1766327" otus="_TaxaBlock1766326">
+        <tree id="_Tree1766328" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1971A8027" software="PAUP"><inputmatrix datatype="Morphological" name="Morphology" nchar="57" /></analysis></nex:external>
+            <node id="_Node1766331" />
+            <node id="_Node1766333" otu="Apocryptophagusspinitarus" />
+            <node id="_Node1766336" />
+            <node id="_Node1766338" />
+            <node id="_Node1766340" />
+            <node id="_Node1766342" />
+            <node id="_Node1766344" />
+            <node id="_Node1766346" />
+            <node id="_Node1766348" />
+            <node id="_Node1766350" />
+            <node id="_Node1766352" />
+            <node id="_Node1766354" />
+            <node id="_Node1766356" />
+            <node id="_Node1766358" />
+            <node id="_Node1766360" otu="Blastophagaintermedia" />
+            <node id="_Node1766363" />
+            <node id="_Node1766365" />
+            <node id="_Node1766367" />
+            <node id="_Node1766369" otu="Ceratosolenappendiculatus" />
+            <node id="_Node1766372" />
+            <node id="_Node1766374" />
+            <node id="_Node1766376" otu="Ceratosolenblommersi" />
+            <node id="_Node1766379" otu="Ceratosolenabnormis" />
+            <node id="_Node1766382" />
+            <node id="_Node1766384" />
+            <node id="_Node1766386" />
+            <node id="_Node1766388" otu="Ceratosolengrandii" />
+            <node id="_Node1766391" />
+            <node id="_Node1766393" otu="Ceratosolenmedlerianus" />
+            <node id="_Node1766396" otu="Ceratosolenriparianus" />
+            <node id="_Node1766399" />
+            <node id="_Node1766401" otu="Ceratosolenarmipes" />
+            <node id="_Node1766404" otu="Ceratosolenkaironkensis" />
+            <node id="_Node1766407" />
+            <node id="_Node1766409" otu="Ceratosolennexilis" />
+            <node id="_Node1766412" otu="Ceratosolencfnexilis" />
+            <node id="_Node1766415" />
+            <node id="_Node1766417" />
+            <node id="_Node1766419" />
+            <node id="_Node1766421" otu="Ceratosolenbisulcatus" />
+            <node id="_Node1766424" otu="Ceratosolennanus" />
+            <node id="_Node1766427" otu="Ceratosolencorneri" />
+            <node id="_Node1766430" />
+            <node id="_Node1766432" />
+            <node id="_Node1766434" />
+            <node id="_Node1766436" />
+            <node id="_Node1766438" otu="Ceratosolencapensis" />
+            <node id="_Node1766441" otu="Ceratosolenfusciceps" />
+            <node id="_Node1766444" otu="Ceratosolenemarginatus" />
+            <node id="_Node1766447" />
+            <node id="_Node1766449" />
+            <node id="_Node1766451" otu="Ceratosolendentifer" />
+            <node id="_Node1766454" otu="Ceratosolenvechti" />
+            <node id="_Node1766457" otu="Ceratosolenhooglandi" />
+            <node id="_Node1766460" otu="Ceratosolenvissali" />
+            <node id="_Node1766463" />
+            <node id="_Node1766465" />
+            <node id="_Node1766467" otu="Kradibiacopiosae" />
+            <node id="_Node1766470" />
+            <node id="_Node1766472" />
+            <node id="_Node1766474" otu="Kradibiaohuensis" />
+            <node id="_Node1766477" otu="Kradibiasalembensis" />
+            <node id="_Node1766480" otu="Kradibiawassae" />
+            <node id="_Node1766483" otu="Kradibiajacobsi" />
+            <node id="_Node1766486" otu="Blastophagamalayana" />
+            <node id="_Node1766489" />
+            <node id="_Node1766491" />
+            <node id="_Node1766493" otu="Liporrhopalumgibbosae" />
+            <node id="_Node1766496" otu="Liporrhopalumvirgatae" />
+            <node id="_Node1766499" />
+            <node id="_Node1766501" />
+            <node id="_Node1766503" otu="Wiebesiabrusi" />
+            <node id="_Node1766506" otu="Wiebesiafrustrata" />
+            <node id="_Node1766509" otu="Wiebesiapunctatae" />
+            <node id="_Node1766512" otu="Dolichorisinornata" />
+            <node id="_Node1766515" otu="Dolichorishombronianae" />
+            <node id="_Node1766518" otu="Dolichorisvasculosae" />
+            <node id="_Node1766521" otu="Platyscapacorneri" />
+            <node id="_Node1766524" otu="Platyscapafischeri" />
+            <node id="_Node1766527" otu="Eupristinaverticillata" />
+            <node id="_Node1766530" otu="Waterstonielladubium" />
+            <node id="_Node1766533" otu="Waterstoniellabrevigena" />
+            <node id="_Node1766536" />
+            <node id="_Node1766538" />
+            <node id="_Node1766540" otu="Pleistodontesplebejus" />
+            <node id="_Node1766543" otu="Pleistodontesrieki" />
+            <node id="_Node1766546" otu="Pleistodontesrigisamos" />
+            <rootedge id="_Edge1766332" target="_Node1766331" />
+            <edge id="_Edge1766334" source="_Node1766331" target="_Node1766333" />
+            <edge id="_Edge1766337" source="_Node1766331" target="_Node1766336" />
+            <edge id="_Edge1766339" source="_Node1766336" target="_Node1766338" />
+            <edge id="_Edge1766341" source="_Node1766338" target="_Node1766340" />
+            <edge id="_Edge1766343" source="_Node1766340" target="_Node1766342" />
+            <edge id="_Edge1766345" source="_Node1766342" target="_Node1766344" />
+            <edge id="_Edge1766347" source="_Node1766344" target="_Node1766346" />
+            <edge id="_Edge1766349" source="_Node1766346" target="_Node1766348" />
+            <edge id="_Edge1766351" source="_Node1766348" target="_Node1766350" />
+            <edge id="_Edge1766353" source="_Node1766350" target="_Node1766352" />
+            <edge id="_Edge1766355" source="_Node1766352" target="_Node1766354" />
+            <edge id="_Edge1766357" source="_Node1766354" target="_Node1766356" />
+            <edge id="_Edge1766359" source="_Node1766356" target="_Node1766358" />
+            <edge id="_Edge1766361" source="_Node1766358" target="_Node1766360" />
+            <edge id="_Edge1766364" source="_Node1766358" target="_Node1766363" />
+            <edge id="_Edge1766366" source="_Node1766363" target="_Node1766365" />
+            <edge id="_Edge1766368" source="_Node1766365" target="_Node1766367" />
+            <edge id="_Edge1766370" source="_Node1766367" target="_Node1766369" />
+            <edge id="_Edge1766373" source="_Node1766367" target="_Node1766372" />
+            <edge id="_Edge1766375" source="_Node1766372" target="_Node1766374" />
+            <edge id="_Edge1766377" source="_Node1766374" target="_Node1766376" />
+            <edge id="_Edge1766380" source="_Node1766374" target="_Node1766379" />
+            <edge id="_Edge1766383" source="_Node1766372" target="_Node1766382" />
+            <edge id="_Edge1766385" source="_Node1766382" target="_Node1766384" />
+            <edge id="_Edge1766387" source="_Node1766384" target="_Node1766386" />
+            <edge id="_Edge1766389" source="_Node1766386" target="_Node1766388" />
+            <edge id="_Edge1766392" source="_Node1766386" target="_Node1766391" />
+            <edge id="_Edge1766394" source="_Node1766391" target="_Node1766393" />
+            <edge id="_Edge1766397" source="_Node1766391" target="_Node1766396" />
+            <edge id="_Edge1766400" source="_Node1766384" target="_Node1766399" />
+            <edge id="_Edge1766402" source="_Node1766399" target="_Node1766401" />
+            <edge id="_Edge1766405" source="_Node1766399" target="_Node1766404" />
+            <edge id="_Edge1766408" source="_Node1766382" target="_Node1766407" />
+            <edge id="_Edge1766410" source="_Node1766407" target="_Node1766409" />
+            <edge id="_Edge1766413" source="_Node1766407" target="_Node1766412" />
+            <edge id="_Edge1766416" source="_Node1766365" target="_Node1766415" />
+            <edge id="_Edge1766418" source="_Node1766415" target="_Node1766417" />
+            <edge id="_Edge1766420" source="_Node1766417" target="_Node1766419" />
+            <edge id="_Edge1766422" source="_Node1766419" target="_Node1766421" />
+            <edge id="_Edge1766425" source="_Node1766419" target="_Node1766424" />
+            <edge id="_Edge1766428" source="_Node1766417" target="_Node1766427" />
+            <edge id="_Edge1766431" source="_Node1766415" target="_Node1766430" />
+            <edge id="_Edge1766433" source="_Node1766430" target="_Node1766432" />
+            <edge id="_Edge1766435" source="_Node1766432" target="_Node1766434" />
+            <edge id="_Edge1766437" source="_Node1766434" target="_Node1766436" />
+            <edge id="_Edge1766439" source="_Node1766436" target="_Node1766438" />
+            <edge id="_Edge1766442" source="_Node1766436" target="_Node1766441" />
+            <edge id="_Edge1766445" source="_Node1766434" target="_Node1766444" />
+            <edge id="_Edge1766448" source="_Node1766432" target="_Node1766447" />
+            <edge id="_Edge1766450" source="_Node1766447" target="_Node1766449" />
+            <edge id="_Edge1766452" source="_Node1766449" target="_Node1766451" />
+            <edge id="_Edge1766455" source="_Node1766449" target="_Node1766454" />
+            <edge id="_Edge1766458" source="_Node1766447" target="_Node1766457" />
+            <edge id="_Edge1766461" source="_Node1766430" target="_Node1766460" />
+            <edge id="_Edge1766464" source="_Node1766363" target="_Node1766463" />
+            <edge id="_Edge1766466" source="_Node1766463" target="_Node1766465" />
+            <edge id="_Edge1766468" source="_Node1766465" target="_Node1766467" />
+            <edge id="_Edge1766471" source="_Node1766465" target="_Node1766470" />
+            <edge id="_Edge1766473" source="_Node1766470" target="_Node1766472" />
+            <edge id="_Edge1766475" source="_Node1766472" target="_Node1766474" />
+            <edge id="_Edge1766478" source="_Node1766472" target="_Node1766477" />
+            <edge id="_Edge1766481" source="_Node1766470" target="_Node1766480" />
+            <edge id="_Edge1766484" source="_Node1766463" target="_Node1766483" />
+            <edge id="_Edge1766487" source="_Node1766356" target="_Node1766486" />
+            <edge id="_Edge1766490" source="_Node1766354" target="_Node1766489" />
+            <edge id="_Edge1766492" source="_Node1766489" target="_Node1766491" />
+            <edge id="_Edge1766494" source="_Node1766491" target="_Node1766493" />
+            <edge id="_Edge1766497" source="_Node1766491" target="_Node1766496" />
+            <edge id="_Edge1766500" source="_Node1766489" target="_Node1766499" />
+            <edge id="_Edge1766502" source="_Node1766499" target="_Node1766501" />
+            <edge id="_Edge1766504" source="_Node1766501" target="_Node1766503" />
+            <edge id="_Edge1766507" source="_Node1766501" target="_Node1766506" />
+            <edge id="_Edge1766510" source="_Node1766499" target="_Node1766509" />
+            <edge id="_Edge1766513" source="_Node1766352" target="_Node1766512" />
+            <edge id="_Edge1766516" source="_Node1766350" target="_Node1766515" />
+            <edge id="_Edge1766519" source="_Node1766348" target="_Node1766518" />
+            <edge id="_Edge1766522" source="_Node1766346" target="_Node1766521" />
+            <edge id="_Edge1766525" source="_Node1766344" target="_Node1766524" />
+            <edge id="_Edge1766528" source="_Node1766342" target="_Node1766527" />
+            <edge id="_Edge1766531" source="_Node1766340" target="_Node1766530" />
+            <edge id="_Edge1766534" source="_Node1766338" target="_Node1766533" />
+            <edge id="_Edge1766537" source="_Node1766336" target="_Node1766536" />
+            <edge id="_Edge1766539" source="_Node1766536" target="_Node1766538" />
+            <edge id="_Edge1766541" source="_Node1766538" target="_Node1766540" />
+            <edge id="_Edge1766544" source="_Node1766538" target="_Node1766543" />
+            <edge id="_Edge1766547" source="_Node1766536" target="_Node1766546" />
+        </tree>
+    </trees>
+</nex:nexml>

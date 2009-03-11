@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S664"><citation>Krienitz, L., I. Ustinova, T. Friedl, and V. A. R. Huss. 2001. Traditional generic concepts versus 18S rRNA gene phylogeny in the green algal family Selenastraceae (Chlorophyceae, Chlorophyta). J. Phycol, 37: in press.</citation><author email="tfriedl@gwdg.de" firstname="Thomas" lastname="Friedl" /><author email="krie@igb-berlin.de" firstname="Lothar" lastname="Krienitz" /><author firstname="Iana" lastname="Ustinova" /></study></nex:external>
+    <otus id="_TaxaBlock396463">
+        <otu id="Ankistrodesmusgracilis" label="Ankistrodesmus gracilis" />
+        <otu id="Monoraphidiumdybowskii" label="Monoraphidium dybowskii" />
+        <otu id="Quadrigulaclosterioides" label="Quadrigula closterioides" />
+        <otu id="Monoraphidiumneglectum" label="Monoraphidium neglectum" />
+        <otu id="Podohedriellafalcata" label="Podohedriella falcata" />
+        <otu id="Ankistrodesmusstipitatus" label="Ankistrodesmus stipitatus" />
+        <otu id="Ankistrodesmusfusiformis" label="Ankistrodesmus fusiformis" />
+        <otu id="Monoraphidiumterrestre" label="Monoraphidium terrestre" />
+        <otu id="Ankistrodesmusbibraianus" label="Ankistrodesmus bibraianus" />
+        <otu id="Kirchneriellaaperta" label="Kirchneriella aperta" />
+        <otu id="Monoraphidiumbraunii" label="Monoraphidium braunii" />
+        <otu id="Desmodesmuscommunis" label="Desmodesmus communis" />
+        <otu id="Scenedesmusobliquus" label="Scenedesmus obliquus" />
+        <otu id="Neochlorisaquatica" label="Neochloris aquatica" />
+        <otu id="Hydrodictyonreticulatum" label="Hydrodictyon reticulatum" />
+        <otu id="Bracteacoccusgrandis" label="Bracteacoccus grandis" />
+        <otu id="Bracteacoccusminor" label="Bracteacoccus minor" />
+        <otu id="Bracteacoccusaerius" label="Bracteacoccus aerius" />
+        <otu id="Botryococcusbraunii" label="Botryococcus braunii" />
+        <otu id="Chlamydopodiumvacuolatum" label="Chlamydopodium vacuolatum" />
+        <otu id="Protosiphonbotryoides" label="Protosiphon botryoides" />
+        <otu id="Haematococcuspluvialis" label="Haematococcus pluvialis" />
+        <otu id="Dunaliellasalina" label="Dunaliella salina" />
+        <otu id="Hormotilopsistetravacuolaris" label="Hormotilopsis tetravacuolaris" />
+        <otu id="Chaetopeltisorbicularis" label="Chaetopeltis orbicularis" />
+        <otu id="Planophilaterrestris" label="Planophila terrestris" />
+        <otu id="Trebouxiaimpressa" label="Trebouxia impressa" />
+        <otu id="Myrmeciaastigmatica" label="Myrmecia astigmatica" />
+        <otu id="Dictyochloropsisreticulata" label="Dictyochloropsis reticulata" />
+        <otu id="Watanabeareniformis" label="Watanabea reniformis" />
+        <otu id="Microthamnionkuetzingianum" label="Microthamnion kuetzingianum" />
+        <otu id="Fusochlorisperforata" label="Fusochloris perforata" />
+        <otu id="Choricystisminor" label="Choricystis minor" />
+        <otu id="Chlorellavulgaris" label="Chlorella vulgaris" />
+        <otu id="Nanochlorumeucaryotum" label="Nanochlorum eucaryotum" />
+        <otu id="Acrosiphoniasp.UO3757" label="Acrosiphonia sp. UO3757" />
+        <otu id="Ulothrixzonata" label="Ulothrix zonata" />
+        <otu id="Monostromagrevillei" label="Monostroma grevillei" />
+        <otu id="Enteromorphaintestinalis" label="Enteromorpha intestinalis" />
+        <otu id="Ulvacurvata" label="Ulva curvata" />
+        <otu id="Scherffeliadubia" label="Scherffelia dubia" />
+        <otu id="Tetraselmisstriata" label="Tetraselmis striata" />
+        <otu id="Pseudoscourfieldiamarina" label="Pseudoscourfieldia marina" />
+        <otu id="Nephroselmisolivacea" label="Nephroselmis olivacea" />
+    </otus>
+    <trees id="_TreesBlock396464" otus="_TaxaBlock396463">
+        <tree id="_Tree396465" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S664A1400" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Krienitz et al. 18S" nchar="1864" /></analysis></nex:external>
+            <node id="_Node396468" />
+            <node id="_Node396470" />
+            <node id="_Node396472" />
+            <node id="_Node396474" />
+            <node id="_Node396476" />
+            <node id="_Node396478" />
+            <node id="_Node396480" />
+            <node id="_Node396482" />
+            <node id="_Node396484" />
+            <node id="_Node396486" />
+            <node id="_Node396488" />
+            <node id="_Node396490" />
+            <node id="_Node396492" />
+            <node id="_Node396494" />
+            <node id="_Node396496" />
+            <node id="_Node396498" otu="Ankistrodesmusgracilis" />
+            <node id="_Node396501" otu="Monoraphidiumdybowskii" />
+            <node id="_Node396504" otu="Quadrigulaclosterioides" />
+            <node id="_Node396507" />
+            <node id="_Node396509" otu="Monoraphidiumneglectum" />
+            <node id="_Node396512" otu="Podohedriellafalcata" />
+            <node id="_Node396515" />
+            <node id="_Node396517" otu="Ankistrodesmusstipitatus" />
+            <node id="_Node396520" otu="Ankistrodesmusfusiformis" />
+            <node id="_Node396523" otu="Monoraphidiumterrestre" />
+            <node id="_Node396526" />
+            <node id="_Node396528" otu="Ankistrodesmusbibraianus" />
+            <node id="_Node396531" otu="Kirchneriellaaperta" />
+            <node id="_Node396534" otu="Monoraphidiumbraunii" />
+            <node id="_Node396537" />
+            <node id="_Node396539" />
+            <node id="_Node396541" otu="Desmodesmuscommunis" />
+            <node id="_Node396544" otu="Scenedesmusobliquus" />
+            <node id="_Node396547" />
+            <node id="_Node396549" otu="Neochlorisaquatica" />
+            <node id="_Node396552" otu="Hydrodictyonreticulatum" />
+            <node id="_Node396555" />
+            <node id="_Node396557" />
+            <node id="_Node396559" otu="Bracteacoccusgrandis" />
+            <node id="_Node396562" otu="Bracteacoccusminor" />
+            <node id="_Node396565" otu="Bracteacoccusaerius" />
+            <node id="_Node396568" />
+            <node id="_Node396570" />
+            <node id="_Node396572" />
+            <node id="_Node396574" />
+            <node id="_Node396576" otu="Botryococcusbraunii" />
+            <node id="_Node396579" otu="Chlamydopodiumvacuolatum" />
+            <node id="_Node396582" otu="Protosiphonbotryoides" />
+            <node id="_Node396585" otu="Haematococcuspluvialis" />
+            <node id="_Node396588" otu="Dunaliellasalina" />
+            <node id="_Node396591" />
+            <node id="_Node396593" otu="Hormotilopsistetravacuolaris" />
+            <node id="_Node396596" />
+            <node id="_Node396598" otu="Chaetopeltisorbicularis" />
+            <node id="_Node396601" otu="Planophilaterrestris" />
+            <node id="_Node396604" />
+            <node id="_Node396606" />
+            <node id="_Node396608" />
+            <node id="_Node396610" otu="Trebouxiaimpressa" />
+            <node id="_Node396613" otu="Myrmeciaastigmatica" />
+            <node id="_Node396616" />
+            <node id="_Node396618" />
+            <node id="_Node396620" otu="Dictyochloropsisreticulata" />
+            <node id="_Node396623" otu="Watanabeareniformis" />
+            <node id="_Node396626" />
+            <node id="_Node396628" />
+            <node id="_Node396630" otu="Microthamnionkuetzingianum" />
+            <node id="_Node396633" otu="Fusochlorisperforata" />
+            <node id="_Node396636" otu="Choricystisminor" />
+            <node id="_Node396639" />
+            <node id="_Node396641" otu="Chlorellavulgaris" />
+            <node id="_Node396644" otu="Nanochlorumeucaryotum" />
+            <node id="_Node396647" />
+            <node id="_Node396649" />
+            <node id="_Node396651" otu="Acrosiphoniasp.UO3757" />
+            <node id="_Node396654" />
+            <node id="_Node396656" otu="Ulothrixzonata" />
+            <node id="_Node396659" otu="Monostromagrevillei" />
+            <node id="_Node396662" />
+            <node id="_Node396664" otu="Enteromorphaintestinalis" />
+            <node id="_Node396667" otu="Ulvacurvata" />
+            <node id="_Node396670" />
+            <node id="_Node396672" otu="Scherffeliadubia" />
+            <node id="_Node396675" otu="Tetraselmisstriata" />
+            <node id="_Node396678" otu="Pseudoscourfieldiamarina" />
+            <node id="_Node396681" otu="Nephroselmisolivacea" />
+            <rootedge id="_Edge396469" target="_Node396468" />
+            <edge id="_Edge396471" source="_Node396468" target="_Node396470" />
+            <edge id="_Edge396473" source="_Node396470" target="_Node396472" />
+            <edge id="_Edge396475" source="_Node396472" target="_Node396474" />
+            <edge id="_Edge396477" source="_Node396474" target="_Node396476" />
+            <edge id="_Edge396479" source="_Node396476" target="_Node396478" />
+            <edge id="_Edge396481" source="_Node396478" target="_Node396480" />
+            <edge id="_Edge396483" source="_Node396480" target="_Node396482" />
+            <edge id="_Edge396485" source="_Node396482" target="_Node396484" />
+            <edge id="_Edge396487" source="_Node396484" target="_Node396486" />
+            <edge id="_Edge396489" source="_Node396486" target="_Node396488" />
+            <edge id="_Edge396491" source="_Node396488" target="_Node396490" />
+            <edge id="_Edge396493" source="_Node396490" target="_Node396492" />
+            <edge id="_Edge396495" source="_Node396492" target="_Node396494" />
+            <edge id="_Edge396497" source="_Node396494" target="_Node396496" />
+            <edge id="_Edge396499" source="_Node396496" target="_Node396498" />
+            <edge id="_Edge396502" source="_Node396496" target="_Node396501" />
+            <edge id="_Edge396505" source="_Node396494" target="_Node396504" />
+            <edge id="_Edge396508" source="_Node396492" target="_Node396507" />
+            <edge id="_Edge396510" source="_Node396507" target="_Node396509" />
+            <edge id="_Edge396513" source="_Node396507" target="_Node396512" />
+            <edge id="_Edge396516" source="_Node396490" target="_Node396515" />
+            <edge id="_Edge396518" source="_Node396515" target="_Node396517" />
+            <edge id="_Edge396521" source="_Node396515" target="_Node396520" />
+            <edge id="_Edge396524" source="_Node396488" target="_Node396523" />
+            <edge id="_Edge396527" source="_Node396486" target="_Node396526" />
+            <edge id="_Edge396529" source="_Node396526" target="_Node396528" />
+            <edge id="_Edge396532" source="_Node396526" target="_Node396531" />
+            <edge id="_Edge396535" source="_Node396484" target="_Node396534" />
+            <edge id="_Edge396538" source="_Node396482" target="_Node396537" />
+            <edge id="_Edge396540" source="_Node396537" target="_Node396539" />
+            <edge id="_Edge396542" source="_Node396539" target="_Node396541" />
+            <edge id="_Edge396545" source="_Node396539" target="_Node396544" />
+            <edge id="_Edge396548" source="_Node396537" target="_Node396547" />
+            <edge id="_Edge396550" source="_Node396547" target="_Node396549" />
+            <edge id="_Edge396553" source="_Node396547" target="_Node396552" />
+            <edge id="_Edge396556" source="_Node396480" target="_Node396555" />
+            <edge id="_Edge396558" source="_Node396555" target="_Node396557" />
+            <edge id="_Edge396560" source="_Node396557" target="_Node396559" />
+            <edge id="_Edge396563" source="_Node396557" target="_Node396562" />
+            <edge id="_Edge396566" source="_Node396555" target="_Node396565" />
+            <edge id="_Edge396569" source="_Node396478" target="_Node396568" />
+            <edge id="_Edge396571" source="_Node396568" target="_Node396570" />
+            <edge id="_Edge396573" source="_Node396570" target="_Node396572" />
+            <edge id="_Edge396575" source="_Node396572" target="_Node396574" />
+            <edge id="_Edge396577" source="_Node396574" target="_Node396576" />
+            <edge id="_Edge396580" source="_Node396574" target="_Node396579" />
+            <edge id="_Edge396583" source="_Node396572" target="_Node396582" />
+            <edge id="_Edge396586" source="_Node396570" target="_Node396585" />
+            <edge id="_Edge396589" source="_Node396568" target="_Node396588" />
+            <edge id="_Edge396592" source="_Node396476" target="_Node396591" />
+            <edge id="_Edge396594" source="_Node396591" target="_Node396593" />
+            <edge id="_Edge396597" source="_Node396591" target="_Node396596" />
+            <edge id="_Edge396599" source="_Node396596" target="_Node396598" />
+            <edge id="_Edge396602" source="_Node396596" target="_Node396601" />
+            <edge id="_Edge396605" source="_Node396474" target="_Node396604" />
+            <edge id="_Edge396607" source="_Node396604" target="_Node396606" />
+            <edge id="_Edge396609" source="_Node396606" target="_Node396608" />
+            <edge id="_Edge396611" source="_Node396608" target="_Node396610" />
+            <edge id="_Edge396614" source="_Node396608" target="_Node396613" />
+            <edge id="_Edge396617" source="_Node396606" target="_Node396616" />
+            <edge id="_Edge396619" source="_Node396616" target="_Node396618" />
+            <edge id="_Edge396621" source="_Node396618" target="_Node396620" />
+            <edge id="_Edge396624" source="_Node396618" target="_Node396623" />
+            <edge id="_Edge396627" source="_Node396616" target="_Node396626" />
+            <edge id="_Edge396629" source="_Node396626" target="_Node396628" />
+            <edge id="_Edge396631" source="_Node396628" target="_Node396630" />
+            <edge id="_Edge396634" source="_Node396628" target="_Node396633" />
+            <edge id="_Edge396637" source="_Node396626" target="_Node396636" />
+            <edge id="_Edge396640" source="_Node396604" target="_Node396639" />
+            <edge id="_Edge396642" source="_Node396639" target="_Node396641" />
+            <edge id="_Edge396645" source="_Node396639" target="_Node396644" />
+            <edge id="_Edge396648" source="_Node396472" target="_Node396647" />
+            <edge id="_Edge396650" source="_Node396647" target="_Node396649" />
+            <edge id="_Edge396652" source="_Node396649" target="_Node396651" />
+            <edge id="_Edge396655" source="_Node396649" target="_Node396654" />
+            <edge id="_Edge396657" source="_Node396654" target="_Node396656" />
+            <edge id="_Edge396660" source="_Node396654" target="_Node396659" />
+            <edge id="_Edge396663" source="_Node396647" target="_Node396662" />
+            <edge id="_Edge396665" source="_Node396662" target="_Node396664" />
+            <edge id="_Edge396668" source="_Node396662" target="_Node396667" />
+            <edge id="_Edge396671" source="_Node396470" target="_Node396670" />
+            <edge id="_Edge396673" source="_Node396670" target="_Node396672" />
+            <edge id="_Edge396676" source="_Node396670" target="_Node396675" />
+            <edge id="_Edge396679" source="_Node396468" target="_Node396678" />
+            <edge id="_Edge396682" source="_Node396468" target="_Node396681" />
+        </tree>
+    </trees>
+</nex:nexml>

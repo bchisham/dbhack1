@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S588"><citation>Huhndorf, S. M., F. A. Fern&#195;&#161;ndez, J. E. Taylor and K. D. Hyde. 2001. Two pantropical Ascomycetes: Chaetosphaeria cylindrospora sp. nov. and Rimaconus, a new genus for Lasiosphaeria jamaicensis. Mycologia, 93, in press.</citation><author email="ffernandez@fmnh.org" firstname="Fernando A." lastname="Fernandez" /><author email="shuhndorf@fmnh.org" firstname="Sabine M." lastname="Huhndorf" /><author email="kdhyde@hkucc.hku.hk" firstname="Kevin D." lastname="Hyde" /><author firstname="J. E." lastname="Taylor" /></study></nex:external>
+    <otus id="_TaxaBlock325926">
+        <otu id="DiaporthephaseolorumDPU47830" label="Diaporthe phaseolorum DPU47830" />
+        <otu id="CercophoranewfieldianaAFO6464" label="Cercophora newfieldiana AFO6464" />
+        <otu id="LasiosphaeriaovinaAFO64643" label="Lasiosphaeria ovina AFO64643" />
+        <otu id="Chaetosphaeriadecastyla" label="Chaetosphaeria decastyla" />
+        <otu id="Chaetosphaeriacylindrospora" label="Chaetosphaeria cylindrospora" />
+        <otu id="Chaetosphaeriachalaroides" label="Chaetosphaeria chalaroides" />
+        <otu id="Chaetosphaeriainnumera" label="Chaetosphaeria innumera" />
+        <otu id="ChaetosphaeriaovoideaAFO64641" label="Chaetosphaeria ovoidea AFO64641" />
+        <otu id="Chaetosphaeriavermic.AFO64644" label="Chaetosphaeria vermic. AFO64644" />
+    </otus>
+    <trees id="_TreesBlock325927" otus="_TaxaBlock325926">
+        <tree id="_Tree325928" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S588A1048" software="PAUP"><inputmatrix datatype="Nucleic Acid" nchar="1062" /></analysis></nex:external>
+            <node id="_Node325931" />
+            <node id="_Node325933" otu="DiaporthephaseolorumDPU47830" />
+            <node id="_Node325936" />
+            <node id="_Node325938" />
+            <node id="_Node325940" otu="CercophoranewfieldianaAFO6464" />
+            <node id="_Node325943" otu="LasiosphaeriaovinaAFO64643" />
+            <node id="_Node325946" />
+            <node id="_Node325948" />
+            <node id="_Node325950" />
+            <node id="_Node325952" otu="Chaetosphaeriadecastyla" />
+            <node id="_Node325955" otu="Chaetosphaeriacylindrospora" />
+            <node id="_Node325958" otu="Chaetosphaeriachalaroides" />
+            <node id="_Node325961" />
+            <node id="_Node325963" otu="Chaetosphaeriainnumera" />
+            <node id="_Node325966" />
+            <node id="_Node325968" otu="ChaetosphaeriaovoideaAFO64641" />
+            <node id="_Node325971" otu="Chaetosphaeriavermic.AFO64644" />
+            <rootedge id="_Edge325932" target="_Node325931" />
+            <edge id="_Edge325934" source="_Node325931" target="_Node325933" />
+            <edge id="_Edge325937" source="_Node325931" target="_Node325936" />
+            <edge id="_Edge325939" source="_Node325936" target="_Node325938" />
+            <edge id="_Edge325941" source="_Node325938" target="_Node325940" />
+            <edge id="_Edge325944" source="_Node325938" target="_Node325943" />
+            <edge id="_Edge325947" source="_Node325936" target="_Node325946" />
+            <edge id="_Edge325949" source="_Node325946" target="_Node325948" />
+            <edge id="_Edge325951" source="_Node325948" target="_Node325950" />
+            <edge id="_Edge325953" source="_Node325950" target="_Node325952" />
+            <edge id="_Edge325956" source="_Node325950" target="_Node325955" />
+            <edge id="_Edge325959" source="_Node325948" target="_Node325958" />
+            <edge id="_Edge325962" source="_Node325946" target="_Node325961" />
+            <edge id="_Edge325964" source="_Node325961" target="_Node325963" />
+            <edge id="_Edge325967" source="_Node325961" target="_Node325966" />
+            <edge id="_Edge325969" source="_Node325966" target="_Node325968" />
+            <edge id="_Edge325972" source="_Node325966" target="_Node325971" />
+        </tree>
+    </trees>
+</nex:nexml>

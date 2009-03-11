@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1818"><citation>Bleidorn, C., I. Eeckhaut, L. Podsiadlowski, N. Schult, D. McHugh, K.M. Halanych, M.C. Milinkovitch, and R. Tiedemann. 2007. Mitochondrial genome and nuclear sequence data support Myzostomida as part of the annelid radiation. Molecular Biology and Evolution, in press.</citation><author email="cbleidorn@zoosyst-berlin.de" firstname="Christoph" lastname="Bleidorn" /><author email="Igor.Eeckhaut@umh.ac.be" firstname="Igor" lastname="Eeckhaut" /><author email="ken@auburn.edu" firstname="Kenneth M." lastname="Halanych" /><author email="dmchugh@mail.colgate.edu" firstname="Damhnait" lastname="McHugh" /><author firstname="Michel C." lastname="Milinkovitch" /><author email="podsi.lars@t-online.de" firstname="Lars" lastname="Podsiadlowski" /><author email="NSchult@mail.colgate.edu" firstname="Nancy" lastname="Schult" /><author email="tiedeman@rz.uni-potsdam.de" firstname="Ralph" lastname="Tiedemann" /></study></nex:external>
+    <otus id="_TaxaBlock1557560">
+        <otu id="Balanoglossuscarnosus" label="Balanoglossus carnosus" />
+        <otu id="Leptorhynchoidesthecatus" label="Leptorhynchoides thecatus" />
+        <otu id="Terebratulinaretusa" label="Terebratulina retusa" />
+        <otu id="Flustrellidrahispida" label="Flustrellidra hispida" />
+        <otu id="Trichinellaspiralis" label="Trichinella spiralis" />
+        <otu id="Phoronispsammophila" label="Phoronis psammophila" />
+        <otu id="Katharinatunicata" label="Katharina tunicata" />
+        <otu id="Haliotisrubra" label="Haliotis rubra" />
+        <otu id="Octopusvulgaris" label="Octopus vulgaris" />
+        <otu id="Limuluspolyphemus" label="Limulus polyphemus" />
+        <otu id="Drosophilamelanogaster" label="Drosophila melanogaster" />
+        <otu id="Platynereisdumerilii" label="Platynereis dumerilii" />
+        <otu id="Lumbricusterrestris" label="Lumbricus terrestris" />
+        <otu id="Clymenellatorquata" label="Clymenella torquata" />
+        <otu id="Orbinialatreillii" label="Orbinia latreillii" />
+        <otu id="Urechiscaupo" label="Urechis caupo" />
+        <otu id="Myzostomaseymourcollegiorum" label="Myzostoma seymourcollegiorum" />
+        <otu id="Schistosomamansoni" label="Schistosoma mansoni" />
+        <otu id="Fasciolahepatica" label="Fasciola hepatica" />
+        <otu id="Taeniasolium" label="Taenia solium" />
+        <otu id="Hymenolepisdiminuta" label="Hymenolepis diminuta" />
+        <otu id="Terebrataliatransversa" label="Terebratalia transversa" />
+        <otu id="Laqueusrubellus" label="Laqueus rubellus" />
+        <otu id="Gymnocrinusricheri" label="Gymnocrinus richeri" />
+        <otu id="Arbacialixula" label="Arbacia lixula" />
+    </otus>
+    <trees id="_TreesBlock1557561" otus="_TaxaBlock1557560">
+        <tree id="_Tree1557562" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1818A7173" software="PAUP"><inputmatrix datatype="Unspecified" name="mito gene order" nchar="319" /></analysis></nex:external>
+            <node id="_Node1557565" />
+            <node id="_Node1557567" otu="Balanoglossuscarnosus" />
+            <node id="_Node1557570" />
+            <node id="_Node1557572" otu="Leptorhynchoidesthecatus" />
+            <node id="_Node1557575" />
+            <node id="_Node1557577" otu="Terebratulinaretusa" />
+            <node id="_Node1557580" otu="Flustrellidrahispida" />
+            <node id="_Node1557583" />
+            <node id="_Node1557585" otu="Trichinellaspiralis" />
+            <node id="_Node1557588" />
+            <node id="_Node1557590" />
+            <node id="_Node1557592" otu="Phoronispsammophila" />
+            <node id="_Node1557595" />
+            <node id="_Node1557597" otu="Katharinatunicata" />
+            <node id="_Node1557600" otu="Haliotisrubra" />
+            <node id="_Node1557603" otu="Octopusvulgaris" />
+            <node id="_Node1557606" />
+            <node id="_Node1557608" otu="Limuluspolyphemus" />
+            <node id="_Node1557611" otu="Drosophilamelanogaster" />
+            <node id="_Node1557614" />
+            <node id="_Node1557616" otu="Platynereisdumerilii" />
+            <node id="_Node1557619" otu="Lumbricusterrestris" />
+            <node id="_Node1557622" otu="Clymenellatorquata" />
+            <node id="_Node1557625" otu="Orbinialatreillii" />
+            <node id="_Node1557628" otu="Urechiscaupo" />
+            <node id="_Node1557631" otu="Myzostomaseymourcollegiorum" />
+            <node id="_Node1557634" />
+            <node id="_Node1557636" otu="Schistosomamansoni" />
+            <node id="_Node1557639" />
+            <node id="_Node1557641" otu="Fasciolahepatica" />
+            <node id="_Node1557644" otu="Taeniasolium" />
+            <node id="_Node1557647" otu="Hymenolepisdiminuta" />
+            <node id="_Node1557650" />
+            <node id="_Node1557652" otu="Terebrataliatransversa" />
+            <node id="_Node1557655" otu="Laqueusrubellus" />
+            <node id="_Node1557658" />
+            <node id="_Node1557660" otu="Gymnocrinusricheri" />
+            <node id="_Node1557663" otu="Arbacialixula" />
+            <rootedge id="_Edge1557566" target="_Node1557565" />
+            <edge id="_Edge1557568" source="_Node1557565" target="_Node1557567" />
+            <edge id="_Edge1557571" source="_Node1557565" target="_Node1557570" />
+            <edge id="_Edge1557573" source="_Node1557570" target="_Node1557572" />
+            <edge id="_Edge1557576" source="_Node1557570" target="_Node1557575" />
+            <edge id="_Edge1557578" source="_Node1557575" target="_Node1557577" />
+            <edge id="_Edge1557581" source="_Node1557575" target="_Node1557580" />
+            <edge id="_Edge1557584" source="_Node1557575" target="_Node1557583" />
+            <edge id="_Edge1557586" source="_Node1557583" target="_Node1557585" />
+            <edge id="_Edge1557589" source="_Node1557583" target="_Node1557588" />
+            <edge id="_Edge1557591" source="_Node1557588" target="_Node1557590" />
+            <edge id="_Edge1557593" source="_Node1557590" target="_Node1557592" />
+            <edge id="_Edge1557596" source="_Node1557590" target="_Node1557595" />
+            <edge id="_Edge1557598" source="_Node1557595" target="_Node1557597" />
+            <edge id="_Edge1557601" source="_Node1557595" target="_Node1557600" />
+            <edge id="_Edge1557604" source="_Node1557595" target="_Node1557603" />
+            <edge id="_Edge1557607" source="_Node1557588" target="_Node1557606" />
+            <edge id="_Edge1557609" source="_Node1557606" target="_Node1557608" />
+            <edge id="_Edge1557612" source="_Node1557606" target="_Node1557611" />
+            <edge id="_Edge1557615" source="_Node1557575" target="_Node1557614" />
+            <edge id="_Edge1557617" source="_Node1557614" target="_Node1557616" />
+            <edge id="_Edge1557620" source="_Node1557614" target="_Node1557619" />
+            <edge id="_Edge1557623" source="_Node1557614" target="_Node1557622" />
+            <edge id="_Edge1557626" source="_Node1557614" target="_Node1557625" />
+            <edge id="_Edge1557629" source="_Node1557614" target="_Node1557628" />
+            <edge id="_Edge1557632" source="_Node1557614" target="_Node1557631" />
+            <edge id="_Edge1557635" source="_Node1557575" target="_Node1557634" />
+            <edge id="_Edge1557637" source="_Node1557634" target="_Node1557636" />
+            <edge id="_Edge1557640" source="_Node1557634" target="_Node1557639" />
+            <edge id="_Edge1557642" source="_Node1557639" target="_Node1557641" />
+            <edge id="_Edge1557645" source="_Node1557639" target="_Node1557644" />
+            <edge id="_Edge1557648" source="_Node1557639" target="_Node1557647" />
+            <edge id="_Edge1557651" source="_Node1557575" target="_Node1557650" />
+            <edge id="_Edge1557653" source="_Node1557650" target="_Node1557652" />
+            <edge id="_Edge1557656" source="_Node1557650" target="_Node1557655" />
+            <edge id="_Edge1557659" source="_Node1557565" target="_Node1557658" />
+            <edge id="_Edge1557661" source="_Node1557658" target="_Node1557660" />
+            <edge id="_Edge1557664" source="_Node1557658" target="_Node1557663" />
+        </tree>
+    </trees>
+</nex:nexml>

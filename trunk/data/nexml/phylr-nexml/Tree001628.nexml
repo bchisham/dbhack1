@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S700"><citation>Lundrigan, B. L., S. A. Jansa, and P. K. Tucker. 2002. Phylogenetic relationships in the genus Mus, based on paternally, maternally, and biparentally inherited characters. Systematic Biology, in press.</citation><author email="jansa003@umn.edu" firstname="Sharon A." lastname="Jansa" /><author email="lundriga@pilot.msu.edu" firstname="Barbara L." lastname="Lundrigan" /><author email="ptuck@umich.edu" firstname="Priscilla K." lastname="Tucker" /></study></nex:external>
+    <otus id="_TaxaBlock432896">
+        <otu id="Musmusculusmusculus" label="Mus musculus musculus" />
+        <otu id="Musmusculusmolossinus" label="Mus musculus molossinus" />
+        <otu id="Musmusculuscastaneus" label="Mus musculus castaneus" />
+        <otu id="Musmusculusdomesticus" label="Mus musculus domesticus" />
+        <otu id="Musmacedonicus" label="Mus macedonicus" />
+        <otu id="Musspicilegus" label="Mus spicilegus" />
+        <otu id="Musspretus" label="Mus spretus" />
+        <otu id="Muscervicolor" label="Mus cervicolor" />
+        <otu id="Muscookii" label="Mus cookii" />
+        <otu id="Muscaroli" label="Mus caroli" />
+        <otu id="Mussaxicola" label="Mus saxicola" />
+        <otu id="Musminutoides" label="Mus minutoides" />
+        <otu id="Muspahari" label="Mus pahari" />
+        <otu id="Hylomyscus" label="Hylomyscus" />
+        <otu id="Mastomys" label="Mastomys" />
+        <otu id="Rattus" label="Rattus" />
+    </otus>
+    <trees id="_TreesBlock432897" otus="_TaxaBlock432896">
+        <tree id="_Tree432898" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S700A1532" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Six genes" nchar="5270" /></analysis></nex:external>
+            <node id="_Node432901" />
+            <node id="_Node432903" />
+            <node id="_Node432905" />
+            <node id="_Node432907" />
+            <node id="_Node432909" />
+            <node id="_Node432911" />
+            <node id="_Node432913" />
+            <node id="_Node432915" />
+            <node id="_Node432917" />
+            <node id="_Node432919" />
+            <node id="_Node432921" otu="Musmusculusmusculus" />
+            <node id="_Node432924" otu="Musmusculusmolossinus" />
+            <node id="_Node432927" otu="Musmusculuscastaneus" />
+            <node id="_Node432930" otu="Musmusculusdomesticus" />
+            <node id="_Node432933" />
+            <node id="_Node432935" otu="Musmacedonicus" />
+            <node id="_Node432938" otu="Musspicilegus" />
+            <node id="_Node432941" otu="Musspretus" />
+            <node id="_Node432944" />
+            <node id="_Node432946" />
+            <node id="_Node432948" otu="Muscervicolor" />
+            <node id="_Node432951" otu="Muscookii" />
+            <node id="_Node432954" otu="Muscaroli" />
+            <node id="_Node432957" otu="Mussaxicola" />
+            <node id="_Node432960" otu="Musminutoides" />
+            <node id="_Node432963" otu="Muspahari" />
+            <node id="_Node432966" />
+            <node id="_Node432968" />
+            <node id="_Node432970" otu="Hylomyscus" />
+            <node id="_Node432973" otu="Mastomys" />
+            <node id="_Node432976" otu="Rattus" />
+            <rootedge id="_Edge432902" target="_Node432901" />
+            <edge id="_Edge432904" source="_Node432901" target="_Node432903" />
+            <edge id="_Edge432906" source="_Node432903" target="_Node432905" />
+            <edge id="_Edge432908" source="_Node432905" target="_Node432907" />
+            <edge id="_Edge432910" source="_Node432907" target="_Node432909" />
+            <edge id="_Edge432912" source="_Node432909" target="_Node432911" />
+            <edge id="_Edge432914" source="_Node432911" target="_Node432913" />
+            <edge id="_Edge432916" source="_Node432913" target="_Node432915" />
+            <edge id="_Edge432918" source="_Node432915" target="_Node432917" />
+            <edge id="_Edge432920" source="_Node432917" target="_Node432919" />
+            <edge id="_Edge432922" source="_Node432919" target="_Node432921" />
+            <edge id="_Edge432925" source="_Node432919" target="_Node432924" />
+            <edge id="_Edge432928" source="_Node432917" target="_Node432927" />
+            <edge id="_Edge432931" source="_Node432915" target="_Node432930" />
+            <edge id="_Edge432934" source="_Node432913" target="_Node432933" />
+            <edge id="_Edge432936" source="_Node432933" target="_Node432935" />
+            <edge id="_Edge432939" source="_Node432933" target="_Node432938" />
+            <edge id="_Edge432942" source="_Node432911" target="_Node432941" />
+            <edge id="_Edge432945" source="_Node432909" target="_Node432944" />
+            <edge id="_Edge432947" source="_Node432944" target="_Node432946" />
+            <edge id="_Edge432949" source="_Node432946" target="_Node432948" />
+            <edge id="_Edge432952" source="_Node432946" target="_Node432951" />
+            <edge id="_Edge432955" source="_Node432944" target="_Node432954" />
+            <edge id="_Edge432958" source="_Node432907" target="_Node432957" />
+            <edge id="_Edge432961" source="_Node432905" target="_Node432960" />
+            <edge id="_Edge432964" source="_Node432903" target="_Node432963" />
+            <edge id="_Edge432967" source="_Node432901" target="_Node432966" />
+            <edge id="_Edge432969" source="_Node432966" target="_Node432968" />
+            <edge id="_Edge432971" source="_Node432968" target="_Node432970" />
+            <edge id="_Edge432974" source="_Node432968" target="_Node432973" />
+            <edge id="_Edge432977" source="_Node432966" target="_Node432976" />
+        </tree>
+    </trees>
+</nex:nexml>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S11x4x95c21c00c08"><citation>Boufford, D. E., J. V. Crisci, H. Tobe, and P. C. Hoch. 1990. A cladistic analysis of Circaea (Onagraceae). Cladistics 6:171-182.</citation><author firstname="D. E. " lastname="Boufford" /><author email="crisci@fcnym.unlp.edu.ar" firstname="Jorge V. " lastname="Crisci" /><author firstname="P. C." lastname="Hoch" /><author firstname="H." lastname="Tobe" /></study></nex:external>
+    <otus id="_TaxaBlock3779">
+        <otu id="OutgrouptoCircaea" label="Outgroup to Circaea" />
+        <otu id="Circaeacordata" label="Circaea cordata" />
+        <otu id="Circaeamollis" label="Circaea mollis" />
+        <otu id="Circaealutetianacanadensis" label="Circaea lutetiana canadensis" />
+        <otu id="Circaealutetianaquadrisulcata" label="Circaea lutetiana quadrisulcata" />
+        <otu id="Circaeaerubescens" label="Circaea erubescens" />
+        <otu id="Circaealutetianalutetiana" label="Circaea lutetiana lutetiana" />
+        <otu id="Circaearepens" label="Circaea repens" />
+        <otu id="Circaeaalpinaalpina" label="Circaea alpina alpina" />
+        <otu id="Circaeaalpinamicrantha" label="Circaea alpina micrantha" />
+        <otu id="Circaeaalpinapacifica" label="Circaea alpina pacifica" />
+        <otu id="Circaeaalpinaimaicola" label="Circaea alpina imaicola" />
+        <otu id="Circaeaalpinaangustifolia" label="Circaea alpina angustifolia" />
+        <otu id="Circaeaalpinacaulescens" label="Circaea alpina caulescens" />
+        <otu id="Circaeaglabrescens" label="Circaea glabrescens" />
+    </otus>
+    <trees id="_TreesBlock3780" otus="_TaxaBlock3779">
+        <tree id="_Tree3781" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A89c1x30x96c20c26c20" software="Hennig86"><inputmatrix datatype="Morphological" name="Table 3" nchar="22" /></analysis></nex:external>
+            <node id="_Node3784" />
+            <node id="_Node3786" otu="OutgrouptoCircaea" />
+            <node id="_Node3789" />
+            <node id="_Node3791" />
+            <node id="_Node3793" otu="Circaeacordata" />
+            <node id="_Node3796" />
+            <node id="_Node3798" />
+            <node id="_Node3800" />
+            <node id="_Node3802" />
+            <node id="_Node3804" />
+            <node id="_Node3806" otu="Circaeamollis" />
+            <node id="_Node3809" otu="Circaealutetianacanadensis" />
+            <node id="_Node3812" otu="Circaealutetianaquadrisulcata" />
+            <node id="_Node3815" otu="Circaeaerubescens" />
+            <node id="_Node3818" otu="Circaealutetianalutetiana" />
+            <node id="_Node3821" />
+            <node id="_Node3823" otu="Circaearepens" />
+            <node id="_Node3826" />
+            <node id="_Node3828" />
+            <node id="_Node3830" />
+            <node id="_Node3832" />
+            <node id="_Node3834" otu="Circaeaalpinaalpina" />
+            <node id="_Node3837" otu="Circaeaalpinamicrantha" />
+            <node id="_Node3840" otu="Circaeaalpinapacifica" />
+            <node id="_Node3843" otu="Circaeaalpinaimaicola" />
+            <node id="_Node3846" otu="Circaeaalpinaangustifolia" />
+            <node id="_Node3849" otu="Circaeaalpinacaulescens" />
+            <node id="_Node3852" otu="Circaeaglabrescens" />
+            <rootedge id="_Edge3785" target="_Node3784" />
+            <edge id="_Edge3787" source="_Node3784" target="_Node3786" />
+            <edge id="_Edge3790" source="_Node3784" target="_Node3789" />
+            <edge id="_Edge3792" source="_Node3789" target="_Node3791" />
+            <edge id="_Edge3794" source="_Node3791" target="_Node3793" />
+            <edge id="_Edge3797" source="_Node3791" target="_Node3796" />
+            <edge id="_Edge3799" source="_Node3796" target="_Node3798" />
+            <edge id="_Edge3801" source="_Node3798" target="_Node3800" />
+            <edge id="_Edge3803" source="_Node3800" target="_Node3802" />
+            <edge id="_Edge3805" source="_Node3802" target="_Node3804" />
+            <edge id="_Edge3807" source="_Node3804" target="_Node3806" />
+            <edge id="_Edge3810" source="_Node3804" target="_Node3809" />
+            <edge id="_Edge3813" source="_Node3802" target="_Node3812" />
+            <edge id="_Edge3816" source="_Node3800" target="_Node3815" />
+            <edge id="_Edge3819" source="_Node3798" target="_Node3818" />
+            <edge id="_Edge3822" source="_Node3796" target="_Node3821" />
+            <edge id="_Edge3824" source="_Node3821" target="_Node3823" />
+            <edge id="_Edge3827" source="_Node3821" target="_Node3826" />
+            <edge id="_Edge3829" source="_Node3826" target="_Node3828" />
+            <edge id="_Edge3831" source="_Node3828" target="_Node3830" />
+            <edge id="_Edge3833" source="_Node3830" target="_Node3832" />
+            <edge id="_Edge3835" source="_Node3832" target="_Node3834" />
+            <edge id="_Edge3838" source="_Node3832" target="_Node3837" />
+            <edge id="_Edge3841" source="_Node3830" target="_Node3840" />
+            <edge id="_Edge3844" source="_Node3828" target="_Node3843" />
+            <edge id="_Edge3847" source="_Node3826" target="_Node3846" />
+            <edge id="_Edge3850" source="_Node3826" target="_Node3849" />
+            <edge id="_Edge3853" source="_Node3789" target="_Node3852" />
+        </tree>
+    </trees>
+</nex:nexml>

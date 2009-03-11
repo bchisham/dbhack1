@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xmlns="http://www.nexml.org/1.0"
+    xmlns:nex="http://www.nexml.org/1.0">
+<nex:external xmlns="dbhack1/phylr"><study id="S1436"><citation>Loo, A. H. B., J. Dransfield, M. W. Chase, and W. J. Baker. 2006. Low copy nuclear DNA, phylogeny and the evolution of dichogamy in the betel nut palms and their relatives (Arecinae; Arecaceae). Molecular Phylogenetics and Evolution, in press.</citation><author email="w.baker@rbgkew.org.uk" firstname="William J." lastname="Baker" /><author firstname="Mark W." lastname="Chase" /><author firstname="John" lastname="Dransfield" /><author firstname="Adrian H.B." lastname="Loo" /></study></nex:external>
+    <otus id="_TaxaBlock1128137">
+        <otu id="Chamaeropshumilis" label="Chamaerops humilis" />
+        <otu id="Ammandradecasperma" label="Ammandra decasperma" />
+        <otu id="Cyphospermabalansae" label="Cyphosperma balansae" />
+        <otu id="Kentiopsisoliviformis" label="Kentiopsis oliviformis" />
+        <otu id="Normanbyanormanbyi" label="Normanbya normanbyi" />
+        <otu id="Ptychospermasalomonense" label="Ptychosperma salomonense" />
+        <otu id="Loxococcusrupicola" label="Loxococcus rupicola" />
+        <otu id="Iguanurawallichiana" label="Iguanura wallichiana" />
+        <otu id="ArecacatechuTCMK21" label="Areca catechu TCMK 21" />
+        <otu id="Arecaconcinna" label="Areca concinna" />
+        <otu id="ArecatriandraLoo307" label="Areca triandra Loo 307" />
+        <otu id="Arecatriandra19842295" label="Areca triandra 1984 2295" />
+        <otu id="Arecarheophytica" label="Areca rheophytica" />
+        <otu id="PinangacoronataBaker1145" label="Pinanga coronata Baker 1145" />
+        <otu id="PinangacoronataLoo303" label="Pinanga coronata Loo 303" />
+        <otu id="PinangadistichaBaker1144" label="Pinanga disticha Baker 1144" />
+        <otu id="PinangapuniceaBaker1091" label="Pinanga punicea Baker 1091" />
+        <otu id="PinangapuniceaBaker850" label="Pinanga punicea Baker 850" />
+        <otu id="Pinangasimplicifrons" label="Pinanga simplicifrons" />
+        <otu id="PinangaspLoo309" label="Pinanga sp Loo 309" />
+        <otu id="Nengagajah" label="Nenga gajah" />
+        <otu id="NengapumilaBaker994" label="Nenga pumila Baker 994" />
+        <otu id="NengapumilaLoo304" label="Nenga pumila Loo 304" />
+        <otu id="Siphokentiabeguinii" label="Siphokentia beguinii" />
+        <otu id="GronophyllumbrassiiBaker823" label="Gronophyllum brassii Baker 823" />
+        <otu id="GronophyllumbrassiiDransfield7682" label="Gronophyllum brassii Dransfield 7682" />
+        <otu id="GronophyllumpinangoidesBaker1137" label="Gronophyllum pinangoides Baker 1137" />
+        <otu id="GronophyllumrhopalocarpumBaker879" label="Gronophyllum rhopalocarpum Baker 879" />
+        <otu id="GronophyllumrhopalocarpumWitono23" label="Gronophyllum rhopalocarpum Witono 23" />
+        <otu id="Siphokentiadransfieldii" label="Siphokentia dransfieldii" />
+        <otu id="HydriastelemicrospadixBaker573" label="Hydriastele microspadix Baker 573" />
+        <otu id="HydriastelespBaker1043" label="Hydriastele sp Baker 1043" />
+        <otu id="HydriastelemicrospadixWomersleysn" label="Hydriastele microspadix Womersley sn" />
+        <otu id="HydriastelemicrospadixZona890" label="Hydriastele microspadix Zona 890" />
+        <otu id="HydriastelespHeatubun269" label="Hydriastele sp Heatubun 269" />
+        <otu id="HydriastelemicrospadixLoo305" label="Hydriastele microspadix Loo 305" />
+        <otu id="HydriastelespZona895" label="Hydriastele sp Zona 895" />
+        <otu id="HydriastelespZona894" label="Hydriastele sp Zona 894" />
+        <otu id="HydriastelemicrospadixBaker1127" label="Hydriastele microspadix Baker 1127" />
+        <otu id="HydriastelespBaker884" label="Hydriastele sp Baker 884" />
+        <otu id="HydriastelespWitono20" label="Hydriastele sp Witono 20" />
+        <otu id="Gulubiahombronii" label="Gulubia hombronii" />
+        <otu id="Gulubiamacrospadix" label="Gulubia macrospadix" />
+        <otu id="Gulubiamicrocarpa" label="Gulubia microcarpa" />
+        <otu id="Gulubiacylindrocarpa" label="Gulubia cylindrocarpa" />
+        <otu id="GulubiaspBouma" label="Gulubia sp Bouma" />
+        <otu id="GronophyllumspBaker1135" label="Gronophyllum sp Baker 1135" />
+        <otu id="GulubialongispathaBaker622" label="Gulubia longispatha Baker 622" />
+        <otu id="GulubialongispathaBaker882" label="Gulubia longispatha Baker 882" />
+        <otu id="GronophyllumchaunostachysBanka2000" label="Gronophyllum chaunostachys Banka 2000" />
+        <otu id="GronophyllumspBaker1096" label="Gronophyllum sp Baker 1096" />
+        <otu id="GronophyllumspBaker1068" label="Gronophyllum sp Baker 1068" />
+        <otu id="GulubiacostataBaker1095" label="Gulubia costata Baker 1095" />
+        <otu id="GulubiacostataBaker836" label="Gulubia costata Baker 836" />
+        <otu id="Gulubiapalauensis" label="Gulubia palauensis" />
+        <otu id="GronophyllumramsayiDowe711" label="Gronophyllum ramsayi Dowe 711" />
+        <otu id="GronophyllumramsayiDowe731" label="Gronophyllum ramsayi Dowe 731" />
+        <otu id="Rhopaloblasteaugusta" label="Rhopaloblaste augusta" />
+        <otu id="Leopoldiniapulchra" label="Leopoldinia pulchra" />
+        <otu id="Manicariasaccifera" label="Manicaria saccifera" />
+        <otu id="Socrateaexorrhiza" label="Socratea exorrhiza" />
+        <otu id="Reinhardtiagracilis" label="Reinhardtia gracilis" />
+    </otus>
+    <trees id="_TreesBlock1128138" otus="_TaxaBlock1128137">
+        <tree id="_Tree1128139" xsi:type="nex:FloatTree">
+<nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1436A5042" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Loo et al PRK RPB2.nex" nchar="1910" /></analysis></nex:external>
+            <node id="_Node1128142" />
+            <node id="_Node1128144" otu="Chamaeropshumilis" />
+            <node id="_Node1128147" />
+            <node id="_Node1128149" otu="Ammandradecasperma" />
+            <node id="_Node1128152" />
+            <node id="_Node1128154" />
+            <node id="_Node1128156" />
+            <node id="_Node1128158" />
+            <node id="_Node1128160" />
+            <node id="_Node1128162" />
+            <node id="_Node1128164" />
+            <node id="_Node1128166" />
+            <node id="_Node1128168" otu="Cyphospermabalansae" />
+            <node id="_Node1128171" />
+            <node id="_Node1128173" otu="Kentiopsisoliviformis" />
+            <node id="_Node1128176" />
+            <node id="_Node1128178" otu="Normanbyanormanbyi" />
+            <node id="_Node1128181" otu="Ptychospermasalomonense" />
+            <node id="_Node1128184" otu="Loxococcusrupicola" />
+            <node id="_Node1128187" />
+            <node id="_Node1128189" />
+            <node id="_Node1128191" otu="Iguanurawallichiana" />
+            <node id="_Node1128194" />
+            <node id="_Node1128196" />
+            <node id="_Node1128198" otu="ArecacatechuTCMK21" />
+            <node id="_Node1128201" />
+            <node id="_Node1128203" />
+            <node id="_Node1128205" otu="Arecaconcinna" />
+            <node id="_Node1128208" otu="ArecatriandraLoo307" />
+            <node id="_Node1128211" otu="Arecatriandra19842295" />
+            <node id="_Node1128214" otu="Arecarheophytica" />
+            <node id="_Node1128217" />
+            <node id="_Node1128219" />
+            <node id="_Node1128221" />
+            <node id="_Node1128223" />
+            <node id="_Node1128225" />
+            <node id="_Node1128227" otu="PinangacoronataBaker1145" />
+            <node id="_Node1128230" otu="PinangacoronataLoo303" />
+            <node id="_Node1128233" otu="PinangadistichaBaker1144" />
+            <node id="_Node1128236" />
+            <node id="_Node1128238" otu="PinangapuniceaBaker1091" />
+            <node id="_Node1128241" otu="PinangapuniceaBaker850" />
+            <node id="_Node1128244" />
+            <node id="_Node1128246" otu="Pinangasimplicifrons" />
+            <node id="_Node1128249" otu="PinangaspLoo309" />
+            <node id="_Node1128252" />
+            <node id="_Node1128254" otu="Nengagajah" />
+            <node id="_Node1128257" />
+            <node id="_Node1128259" otu="NengapumilaBaker994" />
+            <node id="_Node1128262" otu="NengapumilaLoo304" />
+            <node id="_Node1128265" />
+            <node id="_Node1128267" />
+            <node id="_Node1128269" />
+            <node id="_Node1128271" />
+            <node id="_Node1128273" />
+            <node id="_Node1128275" otu="Siphokentiabeguinii" />
+            <node id="_Node1128278" />
+            <node id="_Node1128280" otu="GronophyllumbrassiiBaker823" />
+            <node id="_Node1128283" otu="GronophyllumbrassiiDransfield7682" />
+            <node id="_Node1128286" />
+            <node id="_Node1128288" otu="GronophyllumpinangoidesBaker1137" />
+            <node id="_Node1128291" />
+            <node id="_Node1128293" otu="GronophyllumrhopalocarpumBaker879" />
+            <node id="_Node1128296" otu="GronophyllumrhopalocarpumWitono23" />
+            <node id="_Node1128299" otu="Siphokentiadransfieldii" />
+            <node id="_Node1128302" />
+            <node id="_Node1128304" />
+            <node id="_Node1128306" />
+            <node id="_Node1128308" />
+            <node id="_Node1128310" />
+            <node id="_Node1128312" />
+            <node id="_Node1128314" otu="HydriastelemicrospadixBaker573" />
+            <node id="_Node1128317" otu="HydriastelespBaker1043" />
+            <node id="_Node1128320" />
+            <node id="_Node1128322" otu="HydriastelemicrospadixWomersleysn" />
+            <node id="_Node1128325" otu="HydriastelemicrospadixZona890" />
+            <node id="_Node1128328" otu="HydriastelespHeatubun269" />
+            <node id="_Node1128331" />
+            <node id="_Node1128333" />
+            <node id="_Node1128335" otu="HydriastelemicrospadixLoo305" />
+            <node id="_Node1128338" otu="HydriastelespZona895" />
+            <node id="_Node1128341" otu="HydriastelespZona894" />
+            <node id="_Node1128344" otu="HydriastelemicrospadixBaker1127" />
+            <node id="_Node1128347" otu="HydriastelespBaker884" />
+            <node id="_Node1128350" otu="HydriastelespWitono20" />
+            <node id="_Node1128353" />
+            <node id="_Node1128355" />
+            <node id="_Node1128357" />
+            <node id="_Node1128359" otu="Gulubiahombronii" />
+            <node id="_Node1128362" otu="Gulubiamacrospadix" />
+            <node id="_Node1128365" />
+            <node id="_Node1128367" />
+            <node id="_Node1128369" />
+            <node id="_Node1128371" otu="Gulubiamicrocarpa" />
+            <node id="_Node1128374" otu="Gulubiacylindrocarpa" />
+            <node id="_Node1128377" otu="GulubiaspBouma" />
+            <node id="_Node1128380" otu="GronophyllumspBaker1135" />
+            <node id="_Node1128383" />
+            <node id="_Node1128385" />
+            <node id="_Node1128387" otu="GulubialongispathaBaker622" />
+            <node id="_Node1128390" otu="GulubialongispathaBaker882" />
+            <node id="_Node1128393" />
+            <node id="_Node1128395" otu="GronophyllumchaunostachysBanka2000" />
+            <node id="_Node1128398" otu="GronophyllumspBaker1096" />
+            <node id="_Node1128401" otu="GronophyllumspBaker1068" />
+            <node id="_Node1128404" />
+            <node id="_Node1128406" />
+            <node id="_Node1128408" />
+            <node id="_Node1128410" otu="GulubiacostataBaker1095" />
+            <node id="_Node1128413" otu="GulubiacostataBaker836" />
+            <node id="_Node1128416" otu="Gulubiapalauensis" />
+            <node id="_Node1128419" />
+            <node id="_Node1128421" otu="GronophyllumramsayiDowe711" />
+            <node id="_Node1128424" otu="GronophyllumramsayiDowe731" />
+            <node id="_Node1128427" otu="Rhopaloblasteaugusta" />
+            <node id="_Node1128430" otu="Leopoldiniapulchra" />
+            <node id="_Node1128433" otu="Manicariasaccifera" />
+            <node id="_Node1128436" otu="Socrateaexorrhiza" />
+            <node id="_Node1128439" otu="Reinhardtiagracilis" />
+            <rootedge id="_Edge1128143" target="_Node1128142" />
+            <edge id="_Edge1128145" source="_Node1128142" target="_Node1128144" />
+            <edge id="_Edge1128148" source="_Node1128142" target="_Node1128147" />
+            <edge id="_Edge1128150" source="_Node1128147" target="_Node1128149" />
+            <edge id="_Edge1128153" source="_Node1128147" target="_Node1128152" />
+            <edge id="_Edge1128155" source="_Node1128152" target="_Node1128154" />
+            <edge id="_Edge1128157" source="_Node1128154" target="_Node1128156" />
+            <edge id="_Edge1128159" source="_Node1128156" target="_Node1128158" />
+            <edge id="_Edge1128161" source="_Node1128158" target="_Node1128160" />
+            <edge id="_Edge1128163" source="_Node1128160" target="_Node1128162" />
+            <edge id="_Edge1128165" source="_Node1128162" target="_Node1128164" />
+            <edge id="_Edge1128167" source="_Node1128164" target="_Node1128166" />
+            <edge id="_Edge1128169" source="_Node1128166" target="_Node1128168" />
+            <edge id="_Edge1128172" source="_Node1128166" target="_Node1128171" />
+            <edge id="_Edge1128174" source="_Node1128171" target="_Node1128173" />
+            <edge id="_Edge1128177" source="_Node1128171" target="_Node1128176" />
+            <edge id="_Edge1128179" source="_Node1128176" target="_Node1128178" />
+            <edge id="_Edge1128182" source="_Node1128176" target="_Node1128181" />
+            <edge id="_Edge1128185" source="_Node1128164" target="_Node1128184" />
+            <edge id="_Edge1128188" source="_Node1128162" target="_Node1128187" />
+            <edge id="_Edge1128190" source="_Node1128187" target="_Node1128189" />
+            <edge id="_Edge1128192" source="_Node1128189" target="_Node1128191" />
+            <edge id="_Edge1128195" source="_Node1128189" target="_Node1128194" />
+            <edge id="_Edge1128197" source="_Node1128194" target="_Node1128196" />
+            <edge id="_Edge1128199" source="_Node1128196" target="_Node1128198" />
+            <edge id="_Edge1128202" source="_Node1128196" target="_Node1128201" />
+            <edge id="_Edge1128204" source="_Node1128201" target="_Node1128203" />
+            <edge id="_Edge1128206" source="_Node1128203" target="_Node1128205" />
+            <edge id="_Edge1128209" source="_Node1128203" target="_Node1128208" />
+            <edge id="_Edge1128212" source="_Node1128201" target="_Node1128211" />
+            <edge id="_Edge1128215" source="_Node1128196" target="_Node1128214" />
+            <edge id="_Edge1128218" source="_Node1128194" target="_Node1128217" />
+            <edge id="_Edge1128220" source="_Node1128217" target="_Node1128219" />
+            <edge id="_Edge1128222" source="_Node1128219" target="_Node1128221" />
+            <edge id="_Edge1128224" source="_Node1128221" target="_Node1128223" />
+            <edge id="_Edge1128226" source="_Node1128223" target="_Node1128225" />
+            <edge id="_Edge1128228" source="_Node1128225" target="_Node1128227" />
+            <edge id="_Edge1128231" source="_Node1128225" target="_Node1128230" />
+            <edge id="_Edge1128234" source="_Node1128223" target="_Node1128233" />
+            <edge id="_Edge1128237" source="_Node1128221" target="_Node1128236" />
+            <edge id="_Edge1128239" source="_Node1128236" target="_Node1128238" />
+            <edge id="_Edge1128242" source="_Node1128236" target="_Node1128241" />
+            <edge id="_Edge1128245" source="_Node1128219" target="_Node1128244" />
+            <edge id="_Edge1128247" source="_Node1128244" target="_Node1128246" />
+            <edge id="_Edge1128250" source="_Node1128244" target="_Node1128249" />
+            <edge id="_Edge1128253" source="_Node1128217" target="_Node1128252" />
+            <edge id="_Edge1128255" source="_Node1128252" target="_Node1128254" />
+            <edge id="_Edge1128258" source="_Node1128252" target="_Node1128257" />
+            <edge id="_Edge1128260" source="_Node1128257" target="_Node1128259" />
+            <edge id="_Edge1128263" source="_Node1128257" target="_Node1128262" />
+            <edge id="_Edge1128266" source="_Node1128187" target="_Node1128265" />
+            <edge id="_Edge1128268" source="_Node1128265" target="_Node1128267" />
+            <edge id="_Edge1128270" source="_Node1128267" target="_Node1128269" />
+            <edge id="_Edge1128272" source="_Node1128269" target="_Node1128271" />
+            <edge id="_Edge1128274" source="_Node1128271" target="_Node1128273" />
+            <edge id="_Edge1128276" source="_Node1128273" target="_Node1128275" />
+            <edge id="_Edge1128279" source="_Node1128273" target="_Node1128278" />
+            <edge id="_Edge1128281" source="_Node1128278" target="_Node1128280" />
+            <edge id="_Edge1128284" source="_Node1128278" target="_Node1128283" />
+            <edge id="_Edge1128287" source="_Node1128273" target="_Node1128286" />
+            <edge id="_Edge1128289" source="_Node1128286" target="_Node1128288" />
+            <edge id="_Edge1128292" source="_Node1128286" target="_Node1128291" />
+            <edge id="_Edge1128294" source="_Node1128291" target="_Node1128293" />
+            <edge id="_Edge1128297" source="_Node1128291" target="_Node1128296" />
+            <edge id="_Edge1128300" source="_Node1128271" target="_Node1128299" />
+            <edge id="_Edge1128303" source="_Node1128269" target="_Node1128302" />
+            <edge id="_Edge1128305" source="_Node1128302" target="_Node1128304" />
+            <edge id="_Edge1128307" source="_Node1128304" target="_Node1128306" />
+            <edge id="_Edge1128309" source="_Node1128306" target="_Node1128308" />
+            <edge id="_Edge1128311" source="_Node1128308" target="_Node1128310" />
+            <edge id="_Edge1128313" source="_Node1128310" target="_Node1128312" />
+            <edge id="_Edge1128315" source="_Node1128312" target="_Node1128314" />
+            <edge id="_Edge1128318" source="_Node1128312" target="_Node1128317" />
+            <edge id="_Edge1128321" source="_Node1128310" target="_Node1128320" />
+            <edge id="_Edge1128323" source="_Node1128320" target="_Node1128322" />
+            <edge id="_Edge1128326" source="_Node1128320" target="_Node1128325" />
+            <edge id="_Edge1128329" source="_Node1128308" target="_Node1128328" />
+            <edge id="_Edge1128332" source="_Node1128306" target="_Node1128331" />
+            <edge id="_Edge1128334" source="_Node1128331" target="_Node1128333" />
+            <edge id="_Edge1128336" source="_Node1128333" target="_Node1128335" />
+            <edge id="_Edge1128339" source="_Node1128333" target="_Node1128338" />
+            <edge id="_Edge1128342" source="_Node1128331" target="_Node1128341" />
+            <edge id="_Edge1128345" source="_Node1128306" target="_Node1128344" />
+            <edge id="_Edge1128348" source="_Node1128304" target="_Node1128347" />
+            <edge id="_Edge1128351" source="_Node1128302" target="_Node1128350" />
+            <edge id="_Edge1128354" source="_Node1128267" target="_Node1128353" />
+            <edge id="_Edge1128356" source="_Node1128353" target="_Node1128355" />
+            <edge id="_Edge1128358" source="_Node1128355" target="_Node1128357" />
+            <edge id="_Edge1128360" source="_Node1128357" target="_Node1128359" />
+            <edge id="_Edge1128363" source="_Node1128357" target="_Node1128362" />
+            <edge id="_Edge1128366" source="_Node1128355" target="_Node1128365" />
+            <edge id="_Edge1128368" source="_Node1128365" target="_Node1128367" />
+            <edge id="_Edge1128370" source="_Node1128367" target="_Node1128369" />
+            <edge id="_Edge1128372" source="_Node1128369" target="_Node1128371" />
+            <edge id="_Edge1128375" source="_Node1128369" target="_Node1128374" />
+            <edge id="_Edge1128378" source="_Node1128367" target="_Node1128377" />
+            <edge id="_Edge1128381" source="_Node1128365" target="_Node1128380" />
+            <edge id="_Edge1128384" source="_Node1128353" target="_Node1128383" />
+            <edge id="_Edge1128386" source="_Node1128383" target="_Node1128385" />
+            <edge id="_Edge1128388" source="_Node1128385" target="_Node1128387" />
+            <edge id="_Edge1128391" source="_Node1128385" target="_Node1128390" />
+            <edge id="_Edge1128394" source="_Node1128383" target="_Node1128393" />
+            <edge id="_Edge1128396" source="_Node1128393" target="_Node1128395" />
+            <edge id="_Edge1128399" source="_Node1128393" target="_Node1128398" />
+            <edge id="_Edge1128402" source="_Node1128383" target="_Node1128401" />
+            <edge id="_Edge1128405" source="_Node1128265" target="_Node1128404" />
+            <edge id="_Edge1128407" source="_Node1128404" target="_Node1128406" />
+            <edge id="_Edge1128409" source="_Node1128406" target="_Node1128408" />
+            <edge id="_Edge1128411" source="_Node1128408" target="_Node1128410" />
+            <edge id="_Edge1128414" source="_Node1128408" target="_Node1128413" />
+            <edge id="_Edge1128417" source="_Node1128406" target="_Node1128416" />
+            <edge id="_Edge1128420" source="_Node1128404" target="_Node1128419" />
+            <edge id="_Edge1128422" source="_Node1128419" target="_Node1128421" />
+            <edge id="_Edge1128425" source="_Node1128419" target="_Node1128424" />
+            <edge id="_Edge1128428" source="_Node1128160" target="_Node1128427" />
+            <edge id="_Edge1128431" source="_Node1128158" target="_Node1128430" />
+            <edge id="_Edge1128434" source="_Node1128156" target="_Node1128433" />
+            <edge id="_Edge1128437" source="_Node1128154" target="_Node1128436" />
+            <edge id="_Edge1128440" source="_Node1128152" target="_Node1128439" />
+        </tree>
+    </trees>
+</nex:nexml>
