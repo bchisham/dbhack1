@@ -25,7 +25,7 @@
 				    <!--
 				         TODO: select the parent of the current edge.
 				       -->
-				       <xsl:with-param name="parent" select="$parent[@id = ../edge/@target]"/>
+				       <xsl:with-param name="parent" select="../node[../node/@id = ../edge/@source and ../edge/@target = $parent/@id]"/>
 			    </xsl:call-template>
 			    <cdao:has_Ancestor rdf:resource="#{../@id}_{@source}"/>
 		    </xsl:otherwise>
