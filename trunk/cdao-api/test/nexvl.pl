@@ -104,14 +104,10 @@ use LWP::UserAgent;
 use HTML::Parser;
 use Getopt::Std;
 use File::Spec;
-use constant VURL =>'http://nexml.org/nexml/validator.cgi';
+use constant VURL =>'http://nexml-dev.nescent.org/nexml/validator.cgi';
 
 $main::VERSION = 0.1;
 my %opts;
-# opts
-# -q : no details even on FAIL
-# -v : verbose ( the "detailed output" )
-# -V : very verbose ( "detailed output" plus the input file as returned )
 getopts('qQvV12345', \%opts);
 
 my ($rsp, $fmref);
