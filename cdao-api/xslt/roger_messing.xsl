@@ -59,6 +59,26 @@
             <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Network"/>
         </rdf:Description>
     </xsl:template>
+<xsl:template name="processancestor">
+	    <xsl:param name="cnodeid" />
+	    <xsl:variable name="treeid" select="../@id"/>
+	    <!--<xsl:variable name="cnode" select="../node[@id = n3]"/>-->
+	    <xsl:choose>
+		    <xsl:when test="../*[ name()='node' and @id = $cnodeid and @root = 'true' ]">
+		    </xsl:when>
+		    <xsl:when test="../*[ name()='node' and @id = $cnodeid ]">
+                            <xsl:variable name="edge" select="../*[name() = 'edge' and @target = $cnodeid]"/>
+			    <cdao:has_Ancestor rdf:resource="#{../@id}_{$edge/@source}"/>
+			    
+			    <xsl:call-template name="processancestor">	    
+				       <xsl:with-param name="cnodeid" select="$edge/@source"/>
+			       </xsl:call-template>
+		    </xsl:when>
+		    <xsl:otherwise>
+			    
+		    </xsl:otherwise>
+	    </xsl:choose> 
+    </xsl:template>
 
     <xsl:template match="nex:node">
         <rdf:Description>
@@ -74,7 +94,10 @@
             <cdao:belongs_to_Tree rdf:resource="#{../../@id}_{../@id}"/>
             <xsl:if test="@otu">
                 <cdao:represents_TU rdf:resource="#{../../@otus}_{@otu}"/>
-            </xsl:if>
+	    </xsl:if>
+            <xsl:call-template name="processancestor">
+		    <xsl:with-param name="cnodeid" select="./@id"/>
+	    </xsl:call-template>
         </rdf:Description>
     </xsl:template>
 
@@ -369,7 +392,7 @@
     <xsl:template match="matrix">
     </xsl:template>
     <xsl:template match="dict"/>
-	    
+    
     <xsl:template match="/">
 	    <rdf:RDF>
 		    <xsl:apply-templates/>
