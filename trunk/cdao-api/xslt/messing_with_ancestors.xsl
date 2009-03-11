@@ -16,22 +16,27 @@
         </dc:label>
     </xsl:template>
 
+ 
+
     <xsl:template name="processancestor">
-	    <xsl:param name="parent"/>
+	    <xsl:param name="cnodeid" />
+	    <xsl:variable name="treeid" select="../@id"/>
+	    <!--<xsl:variable name="cnode" select="../node[@id = n3]"/>-->
 	    <xsl:choose>
-		    <xsl:when test="$parent/@root ='true'"></xsl:when>
+		    <xsl:when test="../*[ name()='node' and @id = $cnodeid and @root = 'true' ]">
+		    </xsl:when>
+		    <xsl:when test="../*[ name()='node' and @id = $cnodeid ]">
+                            <xsl:variable name="edge" select="../*[name() = 'edge' and @target = $cnodeid]"/>
+			    <cdao:has_Ancestor rdf:resource="#{../@id}_{$edge/@source}"/>
+			    
+			    <xsl:call-template name="processancestor">	    
+				       <xsl:with-param name="cnodeid" select="$edge/@source"/>
+			       </xsl:call-template>
+		    </xsl:when>
 		    <xsl:otherwise>
-			    <xsl:call-template name="processancestor">
-				    <!--
-				         TODO: select the parent of the current edge.
-				       -->
-				       <xsl:with-param name="parent" select="../node[../node/@id = ../edge/@source and ../edge/@target = $parent/@id]"/>
-			    </xsl:call-template>
-			    <cdao:has_Ancestor rdf:resource="#{../@id}_{@source}"/>
+			    
 		    </xsl:otherwise>
-	    </xsl:choose>
-	    
-	    
+	    </xsl:choose> 
     </xsl:template>
     <xsl:template match="nex:node">
         <rdf:Description>
@@ -47,7 +52,12 @@
             <xsl:if test="@otu">
                 <cdao:represents_TU rdf:resource="#{@otu}"/>
             </xsl:if>
-            <!-- link to OTU here? -->
+	    <!-- link to OTU here? -->	
+	    <xsl:call-template name="processancestor">
+		    <xsl:with-param name="cnodeid" select="./@id"/>
+	    </xsl:call-template>
+	    
+
         </rdf:Description>
     </xsl:template>
     <xsl:template match="nex:edge">
@@ -62,12 +72,7 @@
 			<rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#DirectedEdge" />
                         <cdao:has_Parent_Node rdf:resource="#{../@id}_{@source}"/>
 			<cdao:has_Child_Node rdf:resource="#{../@id}_{@target}"/>
-			<xsl:call-template name="processancestor">
-				<!--
-				   Select the node corresponding to the source of the current edge.
-			          -->
-				<xsl:with-param name="parent" select="../node[@id = @source]"/>
-			</xsl:call-template>
+			
 		 </xsl:when>
 		 <xsl:otherwise>
 			 <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge" />
