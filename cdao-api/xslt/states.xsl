@@ -22,6 +22,28 @@
 	    
     </xsl:template>
 
+    <xsl:template name="makepolymorhicstateset">
+ 	    <xsl:param name="classname"/>
+	    <xsl:param name="individualid"/>
+	    <xsl:param name="symbol"/>
+
+	    <rdf:Description>
+		    <xsl:attribute name="rdf:about">#<xsl:value-of select="$classname"/>_<xsl:value-of select="$individualid"/></xsl:attribute>
+		    <rdf:type>
+			    <xsl:attribute name="rdf:resource">#<xsl:value-of select="$classname"/></xsl:attribute>
+		    </rdf:type>
+		    <rdfs:label><xsl:value-of select="$symbol"/></rdfs:label>
+		    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#PolymorphicStateDomain"/>
+		    <xsl:for-each select="member">
+			    <cdao:has>
+				    <xsl:attribute name="rdf:resource">#<xsl:value-of select="$classname"/>_<xsl:value-of select="@state"/></xsl:attribute>
+			    </cdao:has>
+		    </xsl:for-each>
+	    </rdf:Description>
+
+
+    </xsl:template>
+
     <xsl:template match="states">
 	    <xsl:variable name="otus" select="../../@otus"/>
 	    <xsl:variable name="statesid" select="@id" />
@@ -33,6 +55,13 @@
 	    <xsl:for-each select="state">
 		    <xsl:call-template name="makestate">
 			    <xsl:with-param name="classname" select="$classname"/>
+			    <xsl:with-param name="individualid" select="./@id"/>
+			    <xsl:with-param name="symbol" select="./@symbol"/>
+		    </xsl:call-template>
+	    </xsl:for-each>
+	    <xsl:for-each select="polymorphic_state_set">
+		    <xsl:call-template name="makepolymorhicstateset">
+ 		            <xsl:with-param name="classname" select="$classname"/>
 			    <xsl:with-param name="individualid" select="./@id"/>
 			    <xsl:with-param name="symbol" select="./@symbol"/>
 		    </xsl:call-template>
