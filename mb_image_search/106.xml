@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nex:nexml xsi:schemaLocation="http://www.nexml.org/1.0 http://www.nexml.org/nexml/xsd/nexml.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2003/XInclude" xmlns:nex="http://www.nexml.org/1.0" version="0.8" generator="mx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.nexml.org/1.0">
+  <otus label="taxa_block" xlink:href="#taxa1" class="taxset1" xml:lang="EN" xml:id="taxa1" id="taxa1" xml:base="http://foo.bar.org/">
+    <otu label="Westwoodia sp.1" id="t7641"/>
+    <otu label="Westwoodia sp.2" id="t7642"/>
+    <otu label="Westwoodia sp.3" id="t7643"/>
+    <otu label="Westwoodia sp.4" id="t7644"/>
+    <otu label="Westwoodia sp.5" id="t7645"/>
+    <otu label="Westwoodia sp.6" id="t8121"/>
+    <otu label="Clunes " id="t8676"/>
+    <otu label="Meredith " id="t8677"/>
+    <otu label="Dictyopheltes_sp.2" id="t8679"/>
+    <otu label="Dictyopheltes_sp.1" id="t8678"/>
+    <otu label="Genus 1" id="t8680"/>
+  </otus>
+  <characters label="characters block" otus="taxa1" xsi:type="nex:StandardCells" id="c0">
+    <format>
+      <states id="states_for_chr_1573">
+        <state label="Sparsely punctate throughout" symbol="0" id="cs4240"/>
+        <state label="Densely punctate medially, sparsely punctate laterally" symbol="1" id="cs4241"/>
+        <state label="Rugose" symbol="2" id="cs4242"/>
+        <state label="?" symbol="3" id="missing1573"/>
+      </states>
+      <states id="states_for_chr_1561">
+        <state label="Shallow, barely indicated" symbol="0" id="cs4204"/>
+        <state label="Deep, with prominant bulge adjacent compound eye" symbol="1" id="cs4205"/>
+        <state label="?" symbol="2" id="missing1561"/>
+      </states>
+      <states id="states_for_chr_1560">
+        <state label="With rounded lateral margin posteriorly" symbol="0" id="cs4202"/>
+        <state label="With carinate lateral margin posteriorly" symbol="1" id="cs4203"/>
+        <state label="?" symbol="2" id="missing1560"/>
+      </states>
+      <states id="states_for_chr_1562">
+        <state label="Without elevated flange, though sometimes with traces of a low median carina" symbol="0" id="cs4206"/>
+        <state label="With strongly elevated flange between torceli" symbol="1" id="cs4207"/>
+        <state label="?" symbol="2" id="missing1562"/>
+      </states>
+      <states id="states_for_chr_1563">
+        <state label="Posteriorly diverging carinae usually absent, occasionally barely indicated" symbol="0" id="cs4208"/>
+        <state label="Posteriorly diverging from midline, distinct" symbol="1" id="cs4209"/>
+        <state label="?" symbol="2" id="missing1563"/>
+      </states>
+      <states id="states_for_chr_1566">
+        <state label="Sharp and well developed throughout" symbol="0" id="cs4215"/>
+        <state label="Partly effaced mid dorsally and laterally" symbol="1" id="cs4216"/>
+        <state label="?" symbol="2" id="missing1566"/>
+      </states>
+      <states id="states_for_chr_1565">
+        <state label="Less than 40" symbol="0" id="cs4213"/>
+        <state label="More than 40" symbol="1" id="cs4214"/>
+        <state label="?" symbol="2" id="missing1565"/>
+      </states>
+      <states id="states_for_chr_1564">
+        <state label="Uniformly dense" symbol="0" id="cs4210"/>
+        <state label="Sparse, irregular" symbol="1" id="cs4211"/>
+        <state label="Sparse, irregular, but with denser set of decumbeut setae" symbol="2" id="cs4212"/>
+        <state label="?" symbol="3" id="missing1564"/>
+      </states>
+      <states id="states_for_chr_1574">
+        <state label="Setae absent of nearly so" symbol="0" id="cs4243"/>
+        <state label="Densely setose" symbol="1" id="cs4244"/>
+        <state label="?" symbol="2" id="missing1574"/>
+      </states>
+      <states id="states_for_chr_1575">
+        <state label="Present" symbol="0" id="cs4245"/>
+        <state label="Absent" symbol="1" id="cs4246"/>
+        <state label="?" symbol="2" id="missing1575"/>
+        <uncertain_state_set symbol="3" id="cs1575unc_42454246">
+          <member state="cs4245"/>
+          <member state="cs4246"/>
+        </uncertain_state_set>
+      </states>
+      <states id="states_for_chr_1577">
+        <state label="Originating in basal half of areolet" symbol="0" id="cs4248"/>
+        <state label="Originating in distal half of areolet" symbol="1" id="cs4250"/>
+        <state label="?" symbol="2" id="missing1577"/>
+        <uncertain_state_set symbol="5" id="cs1577unc_42484250">
+          <member state="cs4248"/>
+          <member state="cs4250"/>
+        </uncertain_state_set>
+        <uncertain_state_set symbol="3" id="cs1577unc_42484250">
+          <member state="cs4248"/>
+          <member state="cs4250"/>
+        </uncertain_state_set>
+        <uncertain_state_set symbol="4" id="cs1577unc_42484250">
+          <member state="cs4248"/>
+          <member state="cs4250"/>
+        </uncertain_state_set>
+      </states>
+      <states id="states_for_chr_1578">
+        <state label="Uniformly setose or nearly so" symbol="0" id="cs4254"/>
+        <state label="Densely setose basally, sparsely setose to nearly bare medioposteriorly" symbol="1" id="cs4257"/>
+        <state label="?" symbol="2" id="missing1578"/>
+      </states>
+      <states id="states_for_chr_1580">
+        <state label="Basitarsus 6-8x longer than wide; &gt;1,5x longer than 5th tarsomere" symbol="0" id="cs4260"/>
+        <state label="Basitarsus 3-4x longer than wise; 1.1-1.2x longer than 5th tarsomere" symbol="1" id="cs4262"/>
+        <state label="?" symbol="2" id="missing1580"/>
+      </states>
+      <states id="states_for_chr_1579">
+        <state label="Basitarsus 5-7x longer than wide" symbol="0" id="cs4258"/>
+        <state label="Basitarsus 1-2x longer than wide" symbol="1" id="cs4259"/>
+        <state label="?" symbol="2" id="missing1579"/>
+      </states>
+      <states id="states_for_chr_1582">
+        <state label="Dark brown to black at least over basal half" symbol="0" id="cs4264"/>
+        <state label="At least basal half entirely orange" symbol="1" id="cs4265"/>
+        <state label="?" symbol="2" id="missing1582"/>
+      </states>
+      <states id="states_for_chr_1584">
+        <state label="Brown to dark brown" symbol="0" id="cs4267"/>
+        <state label="Yellow" symbol="1" id="cs4268"/>
+        <state label="?" symbol="2" id="missing1584"/>
+      </states>
+      <states id="states_for_chr_1585">
+        <state label="Pale (yellow to orange)" symbol="0" id="cs4270"/>
+        <state label="Dark (brown to black)" symbol="1" id="cs4272"/>
+        <state label="?" symbol="2" id="missing1585"/>
+        <uncertain_state_set symbol="3" id="cs1585unc_42704272">
+          <member state="cs4270"/>
+          <member state="cs4272"/>
+        </uncertain_state_set>
+      </states>
+      <states id="states_for_chr_1586">
+        <state label="Black" symbol="0" id="cs4273"/>
+        <state label="Red or orange" symbol="1" id="cs4274"/>
+        <state label="Reddish Brown" symbol="2" id="cs4275"/>
+        <state label="Red with brown transverse band medially" symbol="3" id="cs4276"/>
+        <state label="?" symbol="4" id="missing1586"/>
+      </states>
+      <states id="states_for_chr_1607">
+        <state label="Dark brown to black" symbol="0" id="cs4358"/>
+        <state label="Pale, yellow-orange to reddish-orange" symbol="1" id="cs4359"/>
+        <state label="?" symbol="2" id="missing1607"/>
+      </states>
+      <states id="states_for_chr_1608">
+        <state label="Smooth, polished" symbol="0" id="cs4360"/>
+        <state label="Densely punctate to rugose" symbol="1" id="cs4361"/>
+        <state label="?" symbol="2" id="missing1608"/>
+      </states>
+      <char label="Face Sculpture" states="states_for_chr_1573" id="c1573"/>
+      <char label="Frontal depression (2)" states="states_for_chr_1561" id="c1561"/>
+      <char label="Frontal depression" states="states_for_chr_1560" id="c1560"/>
+      <char label="Frontal depression, along midline" states="states_for_chr_1562" id="c1562"/>
+      <char label="Carinae in frontal depression" states="states_for_chr_1563" id="c1563"/>
+      <char label="Occipital Carina" states="states_for_chr_1566" id="c1566"/>
+      <char label="Number of flagellomeres" states="states_for_chr_1565" id="c1565"/>
+      <char label="Setal pattern on first flagellomere" states="states_for_chr_1564" id="c1564"/>
+      <char label="Setal Pattern on subalar depression" states="states_for_chr_1574" id="c1574"/>
+      <char label="Forewing areolet" states="states_for_chr_1575" id="c1575"/>
+      <char label="Forewing 2m-cu" states="states_for_chr_1577" id="c1577"/>
+      <char label="Setal pattern on anterior (outer) face of hind coxa" states="states_for_chr_1578" id="c1578"/>
+      <char label="Tarsi of foreleg (male)" states="states_for_chr_1580" id="c1580"/>
+      <char label="Tarsi of foreleg (female)" states="states_for_chr_1579" id="c1579"/>
+      <char label="Color of flagellum (male)" states="states_for_chr_1582" id="c1582"/>
+      <char label="Color of forewing stigma" states="states_for_chr_1584" id="c1584"/>
+      <char label="Color of foreleg tarsi" states="states_for_chr_1585" id="c1585"/>
+      <char label="Color of petiole" states="states_for_chr_1586" id="c1586"/>
+      <char label="Head color" states="states_for_chr_1607" id="c1607"/>
+      <char label="Sculpture of vertex" states="states_for_chr_1608" id="c1608"/>
+    </format>
+    <matrix>
+      <row otu="t7641" id="row7641">
+        <cell char="c1573" state="cs4240"/>
+        <cell char="c1561" state="cs4205"/>
+        <cell char="c1560" state="cs4202"/>
+        <cell char="c1562" state="cs4207"/>
+        <cell char="c1563" state="cs4208"/>
+        <cell char="c1566" state="cs4215"/>
+        <cell char="c1565" state="cs4213"/>
+        <cell char="c1564" state="cs4211"/>
+        <cell char="c1574" state="cs4243"/>
+        <cell char="c1575" state="cs4245"/>
+        <cell char="c1577" state="cs4250"/>
+        <cell char="c1578" state="cs4257"/>
+        <cell char="c1580" state="cs4262"/>
+        <cell char="c1579" state="cs4259"/>
+        <cell char="c1582" state="cs4264"/>
+        <cell char="c1584" state="cs4268"/>
+        <cell char="c1585" state="cs4270"/>
+        <cell char="c1586" state="cs4274"/>
+        <cell char="c1607" state="cs4359"/>
+        <cell char="c1608" state="cs4360"/>
+      </row>
+      <row otu="t7642" id="row7642">
+        <cell char="c1573" state="cs4241"/>
+        <cell char="c1561" state="cs4205"/>
+        <cell char="c1560" state="cs4203"/>
+        <cell char="c1562" state="cs4207"/>
+        <cell char="c1563" state="cs4209"/>
+        <cell char="c1566" state="cs4215"/>
+        <cell char="c1565" state="cs4213"/>
+        <cell char="c1564" state="cs4210"/>
+        <cell char="c1574" state="cs4244"/>
+        <cell char="c1575" state="cs4245"/>
+        <cell char="c1577" state="cs1577unc_42484250"/>
+        <cell char="c1578" state="cs4254"/>
+        <cell char="c1580" state="cs4260"/>
+        <cell char="c1579" state="cs4258"/>
+        <cell char="c1582" state="cs4264"/>
+        <cell char="c1584" state="cs4267"/>
+        <cell char="c1585" state="cs4270"/>
+        <cell char="c1586" state="cs4273"/>
+        <cell char="c1607" state="cs4359"/>
+        <cell char="c1608" state="cs4360"/>
+      </row>
+      <row otu="t7643" id="row7643">
+        <cell char="c1573" state="cs4242"/>
+        <cell char="c1561" state="cs4204"/>
+        <cell char="c1560" state="cs4203"/>
+        <cell char="c1562" state="cs4206"/>
+        <cell char="c1563" state="cs4208"/>
+        <cell char="c1566" state="cs4215"/>
+        <cell char="c1565" state="cs4213"/>
+        <cell char="c1564" state="cs4210"/>
+        <cell char="c1574" state="cs4243"/>
+        <cell char="c1575" state="cs4245"/>
+        <cell char="c1577" state="cs1577unc_42484250"/>
+        <cell char="c1578" state="cs4254"/>
+        <cell char="c1580" state="cs4260"/>
+        <cell char="c1579" state="missing1579"/>
+        <cell char="c1582" state="cs4265"/>
+        <cell char="c1584" state="cs4267"/>
+        <cell char="c1585" state="cs4270"/>
+        <cell char="c1586" state="cs4274"/>
+        <cell char="c1607" state="cs4359"/>
+        <cell char="c1608" state="cs4360"/>
+      </row>
+      <row otu="t7644" id="row7644">
+        <cell char="c1573" state="cs4241"/>
+        <cell char="c1561" state="cs4205"/>
+        <cell char="c1560" state="cs4203"/>
+        <cell char="c1562" state="cs4206"/>
+        <cell char="c1563" state="cs4209"/>
+        <cell char="c1566" state="cs4215"/>
+        <cell char="c1565" state="cs4214"/>
+        <cell char="c1564" state="cs4210"/>
+        <cell char="c1574" state="cs4244"/>
+        <cell char="c1575" state="cs4245"/>
+        <cell char="c1577" state="cs4248"/>
+        <cell char="c1578" state="cs4254"/>
+        <cell char="c1580" state="cs4260"/>
+        <cell char="c1579" state="cs4258"/>
+        <cell char="c1582" state="cs4264"/>
+        <cell char="c1584" state="cs4267"/>
+        <cell char="c1585" state="cs4270"/>
+        <cell char="c1586" state="cs4276"/>
+        <cell char="c1607" state="cs4359"/>
+        <cell char="c1608" state="cs4360"/>
+      </row>
+      <row otu="t7645" id="row7645">
+        <cell char="c1573" state="cs4240"/>
+        <cell char="c1561" state="cs4205"/>
+        <cell char="c1560" state="cs4202"/>
+        <cell char="c1562" state="cs4207"/>
+        <cell char="c1563" state="cs4208"/>
+        <cell char="c1566" state="cs4215"/>
+        <cell char="c1565" state="cs4213"/>
+        <cell char="c1564" state="cs4211"/>
+        <cell char="c1574" state="cs4244"/>
+        <cell char="c1575" state="cs4245"/>
+        <cell char="c1577" state="cs4250"/>
+        <cell char="c1578" state="cs4257"/>
+        <cell char="c1580" state="missing1580"/>
+        <cell char="c1579" state="cs4259"/>
+        <cell char="c1582" state="missing1582"/>
+        <cell char="c1584" state="cs4267"/>
+        <cell char="c1585" state="cs4272"/>
+        <cell char="c1586" state="cs4273"/>
+        <cell char="c1607" state="cs4359"/>
+        <cell char="c1608" state="cs4360"/>
+      </row>
+      <row otu="t8121" id="row8121">
+        <cell char="c1573" state="cs4241"/>
+        <cell char="c1561" state="cs4204"/>
+        <cell char="c1560" state="cs4203"/>
+        <cell char="c1562" state="cs4206"/>
+        <cell char="c1563" state="cs4209"/>
+        <cell char="c1566" state="cs4216"/>
+        <cell char="c1565" state="cs4214"/>
+        <cell char="c1564" state="cs4210"/>
+        <cell char="c1574" state="cs4244"/>
+        <cell char="c1575" state="cs4246"/>
+        <cell char="c1577" state="missing1577"/>
+        <cell char="c1578" state="cs4254"/>
+        <cell char="c1580" state="cs4260"/>
+        <cell char="c1579" state="missing1579"/>
+        <cell char="c1582" state="cs4264"/>
+        <cell char="c1584" state="cs4267"/>
+        <cell char="c1585" state="cs4270"/>
+        <cell char="c1586" state="cs4274"/>
+        <cell char="c1607" state="cs4359"/>
+        <cell char="c1608" state="cs4360"/>
+      </row>
+      <row otu="t8676" id="row8676">
+        <cell char="c1573" state="cs4240"/>
+        <cell char="c1561" state="cs4205"/>
+        <cell char="c1560" state="cs4203"/>
+        <cell char="c1562" state="cs4207"/>
+        <cell char="c1563" state="cs4209"/>
+        <cell char="c1566" state="cs4215"/>
+        <cell char="c1565" state="cs4213"/>
+        <cell char="c1564" state="cs4212"/>
+        <cell char="c1574" state="cs4244"/>
+        <cell char="c1575" state="cs4245"/>
+        <cell char="c1577" state="cs4250"/>
+        <cell char="c1578" state="cs4257"/>
+        <cell char="c1580" state="cs4262"/>
+        <cell char="c1579" state="cs4259"/>
+        <cell char="c1582" state="cs4264"/>
+        <cell char="c1584" state="cs4267"/>
+        <cell char="c1585" state="cs1585unc_42704272"/>
+        <cell char="c1586" state="cs4275"/>
+        <cell char="c1607" state="cs4359"/>
+        <cell char="c1608" state="cs4360"/>
+      </row>
+      <row otu="t8677" id="row8677">
+        <cell char="c1573" state="cs4240"/>
+        <cell char="c1561" state="cs4205"/>
+        <cell char="c1560" state="cs4202"/>
+        <cell char="c1562" state="cs4207"/>
+        <cell char="c1563" state="cs4209"/>
+        <cell char="c1566" state="cs4215"/>
+        <cell char="c1565" state="cs4213"/>
+        <cell char="c1564" state="cs4211"/>
+        <cell char="c1574" state="cs4243"/>
+        <cell char="c1575" state="cs4245"/>
+        <cell char="c1577" state="cs4250"/>
+        <cell char="c1578" state="cs4257"/>
+        <cell char="c1580" state="missing1580"/>
+        <cell char="c1579" state="cs4259"/>
+        <cell char="c1582" state="missing1582"/>
+        <cell char="c1584" state="cs4267"/>
+        <cell char="c1585" state="cs4270"/>
+        <cell char="c1586" state="cs4275"/>
+        <cell char="c1607" state="cs4359"/>
+        <cell char="c1608" state="cs4360"/>
+      </row>
+      <row otu="t8679" id="row8679">
+        <cell char="c1573" state="cs4242"/>
+        <cell char="c1561" state="cs4205"/>
+        <cell char="c1560" state="cs4202"/>
+        <cell char="c1562" state="cs4206"/>
+        <cell char="c1563" state="cs4209"/>
+        <cell char="c1566" state="cs4215"/>
+        <cell char="c1565" state="cs4213"/>
+        <cell char="c1564" state="cs4210"/>
+        <cell char="c1574" state="cs4244"/>
+        <cell char="c1575" state="cs4245"/>
+        <cell char="c1577" state="cs4248"/>
+        <cell char="c1578" state="cs4254"/>
+        <cell char="c1580" state="missing1580"/>
+        <cell char="c1579" state="cs4258"/>
+        <cell char="c1582" state="missing1582"/>
+        <cell char="c1584" state="cs4267"/>
+        <cell char="c1585" state="cs4270"/>
+        <cell char="c1586" state="cs4273"/>
+        <cell char="c1607" state="cs4358"/>
+        <cell char="c1608" state="cs4361"/>
+      </row>
+      <row otu="t8678" id="row8678">
+        <cell char="c1573" state="cs4242"/>
+        <cell char="c1561" state="cs4205"/>
+        <cell char="c1560" state="cs4202"/>
+        <cell char="c1562" state="cs4207"/>
+        <cell char="c1563" state="cs4209"/>
+        <cell char="c1566" state="cs4215"/>
+        <cell char="c1565" state="cs4213"/>
+        <cell char="c1564" state="missing1564"/>
+        <cell char="c1574" state="cs4244"/>
+        <cell char="c1575" state="cs4246"/>
+        <cell char="c1577" state="missing1577"/>
+        <cell char="c1578" state="cs4254"/>
+        <cell char="c1580" state="cs4260"/>
+        <cell char="c1579" state="missing1579"/>
+        <cell char="c1582" state="missing1582"/>
+        <cell char="c1584" state="cs4267"/>
+        <cell char="c1585" state="cs4270"/>
+        <cell char="c1586" state="cs4273"/>
+        <cell char="c1607" state="cs4358"/>
+        <cell char="c1608" state="cs4361"/>
+      </row>
+      <row otu="t8680" id="row8680">
+        <cell char="c1573" state="cs4242"/>
+        <cell char="c1561" state="cs4205"/>
+        <cell char="c1560" state="cs4202"/>
+        <cell char="c1562" state="cs4207"/>
+        <cell char="c1563" state="cs4209"/>
+        <cell char="c1566" state="cs4215"/>
+        <cell char="c1565" state="cs4214"/>
+        <cell char="c1564" state="cs4210"/>
+        <cell char="c1574" state="cs4244"/>
+        <cell char="c1575" state="cs1575unc_42454246"/>
+        <cell char="c1577" state="cs1577unc_42484250"/>
+        <cell char="c1578" state="cs4254"/>
+        <cell char="c1580" state="missing1580"/>
+        <cell char="c1579" state="cs4258"/>
+        <cell char="c1582" state="missing1582"/>
+        <cell char="c1584" state="cs4267"/>
+        <cell char="c1585" state="cs4270"/>
+        <cell char="c1586" state="cs4273"/>
+        <cell char="c1607" state="cs4358"/>
+        <cell char="c1608" state="cs4361"/>
+      </row>
+    </matrix>
+  </characters>
+  <trees label="Westwoodia matrix analyzed in Wharton et al. (2008)" otus="taxa1" id="tree_106">
+    <tree label="1 of 4" xsi:type="nex:IntTree" id="t1">
+      <node label="n106" otu="t5026" root="true" id="node_106"/>
+      <node label="n107" otu="t5026" id="node_107"/>
+      <node label="n108" id="node_108"/>
+      <node label="n109" otu="t5026" id="node_109"/>
+      <node label="n110" otu="t5026" id="node_110"/>
+      <node label="n111" otu="t5026" id="node_111"/>
+      <node label="n112" otu="t5026" id="node_112"/>
+      <node label="n113" id="node_113"/>
+      <node label="n114" otu="t5026" id="node_114"/>
+      <node label="n115" id="node_115"/>
+      <node label="n116" otu="t5026" id="node_116"/>
+      <node label="n117" id="node_117"/>
+      <node label="n118" id="node_118"/>
+      <node label="n119" otu="t5026" id="node_119"/>
+      <node label="n120" id="node_120"/>
+      <node label="n121" id="node_121"/>
+      <node label="n122" id="node_122"/>
+      <node label="n123" otu="t5026" id="node_123"/>
+      <node label="n124" id="node_124"/>
+      <node label="n125" id="node_125"/>
+      <node label="n126" id="node_126"/>
+      <edge source="node_106" target="node_107" length="1" id="e107"/>
+      <edge source="node_107" target="node_108" length="1" id="e108"/>
+      <edge source="node_107" target="node_109" length="1" id="e109"/>
+      <edge source="node_109" target="node_110" length="1" id="e110"/>
+      <edge source="node_110" target="node_111" length="1" id="e111"/>
+      <edge source="node_111" target="node_112" length="1" id="e112"/>
+      <edge source="node_112" target="node_113" length="1" id="e113"/>
+      <edge source="node_112" target="node_114" length="1" id="e114"/>
+      <edge source="node_114" target="node_115" length="1" id="e115"/>
+      <edge source="node_114" target="node_116" length="1" id="e116"/>
+      <edge source="node_116" target="node_117" length="1" id="e117"/>
+      <edge source="node_116" target="node_118" length="1" id="e118"/>
+      <edge source="node_111" target="node_119" length="1" id="e119"/>
+      <edge source="node_119" target="node_120" length="1" id="e120"/>
+      <edge source="node_119" target="node_121" length="1" id="e121"/>
+      <edge source="node_119" target="node_122" length="1" id="e122"/>
+      <edge source="node_110" target="node_123" length="1" id="e123"/>
+      <edge source="node_123" target="node_124" length="1" id="e124"/>
+      <edge source="node_123" target="node_125" length="1" id="e125"/>
+      <edge source="node_109" target="node_126" length="1" id="e126"/>
+    </tree>
+    <tree label="2 of 4" xsi:type="nex:IntTree" id="t2">
+      <node label="n127" otu="t5026" root="true" id="node_127"/>
+      <node label="n128" otu="t5026" id="node_128"/>
+      <node label="n129" id="node_129"/>
+      <node label="n130" otu="t5026" id="node_130"/>
+      <node label="n131" otu="t5026" id="node_131"/>
+      <node label="n132" otu="t5026" id="node_132"/>
+      <node label="n133" otu="t5026" id="node_133"/>
+      <node label="n134" id="node_134"/>
+      <node label="n135" otu="t5026" id="node_135"/>
+      <node label="n136" otu="t5026" id="node_136"/>
+      <node label="n137" id="node_137"/>
+      <node label="n138" id="node_138"/>
+      <node label="n139" id="node_139"/>
+      <node label="n140" otu="t5026" id="node_140"/>
+      <node label="n141" id="node_141"/>
+      <node label="n142" id="node_142"/>
+      <node label="n143" id="node_143"/>
+      <node label="n144" otu="t5026" id="node_144"/>
+      <node label="n145" id="node_145"/>
+      <node label="n146" id="node_146"/>
+      <node label="n147" id="node_147"/>
+      <edge source="node_127" target="node_128" length="1" id="e128"/>
+      <edge source="node_128" target="node_129" length="1" id="e129"/>
+      <edge source="node_128" target="node_130" length="1" id="e130"/>
+      <edge source="node_130" target="node_131" length="1" id="e131"/>
+      <edge source="node_131" target="node_132" length="1" id="e132"/>
+      <edge source="node_132" target="node_133" length="1" id="e133"/>
+      <edge source="node_133" target="node_134" length="1" id="e134"/>
+      <edge source="node_133" target="node_135" length="1" id="e135"/>
+      <edge source="node_135" target="node_136" length="1" id="e136"/>
+      <edge source="node_136" target="node_137" length="1" id="e137"/>
+      <edge source="node_136" target="node_138" length="1" id="e138"/>
+      <edge source="node_135" target="node_139" length="1" id="e139"/>
+      <edge source="node_132" target="node_140" length="1" id="e140"/>
+      <edge source="node_140" target="node_141" length="1" id="e141"/>
+      <edge source="node_140" target="node_142" length="1" id="e142"/>
+      <edge source="node_140" target="node_143" length="1" id="e143"/>
+      <edge source="node_131" target="node_144" length="1" id="e144"/>
+      <edge source="node_144" target="node_145" length="1" id="e145"/>
+      <edge source="node_144" target="node_146" length="1" id="e146"/>
+      <edge source="node_130" target="node_147" length="1" id="e147"/>
+    </tree>
+    <tree label="3 of 4" xsi:type="nex:IntTree" id="t3">
+      <node label="n148" otu="t5026" root="true" id="node_148"/>
+      <node label="n149" otu="t5026" id="node_149"/>
+      <node label="n150" id="node_150"/>
+      <node label="n151" otu="t5026" id="node_151"/>
+      <node label="n152" otu="t5026" id="node_152"/>
+      <node label="n153" otu="t5026" id="node_153"/>
+      <node label="n154" otu="t5026" id="node_154"/>
+      <node label="n155" otu="t5026" id="node_155"/>
+      <node label="n156" id="node_156"/>
+      <node label="n157" otu="t5026" id="node_157"/>
+      <node label="n158" id="node_158"/>
+      <node label="n159" otu="t5026" id="node_159"/>
+      <node label="n160" id="node_160"/>
+      <node label="n161" id="node_161"/>
+      <node label="n162" otu="t5026" id="node_162"/>
+      <node label="n163" id="node_163"/>
+      <node label="n164" id="node_164"/>
+      <node label="n165" id="node_165"/>
+      <node label="n166" id="node_166"/>
+      <node label="n167" id="node_167"/>
+      <node label="n168" id="node_168"/>
+      <edge source="node_148" target="node_149" length="1" id="e149"/>
+      <edge source="node_149" target="node_150" length="1" id="e150"/>
+      <edge source="node_149" target="node_151" length="1" id="e151"/>
+      <edge source="node_151" target="node_152" length="1" id="e152"/>
+      <edge source="node_152" target="node_153" length="1" id="e153"/>
+      <edge source="node_153" target="node_154" length="1" id="e154"/>
+      <edge source="node_154" target="node_155" length="1" id="e155"/>
+      <edge source="node_155" target="node_156" length="1" id="e156"/>
+      <edge source="node_155" target="node_157" length="1" id="e157"/>
+      <edge source="node_157" target="node_158" length="1" id="e158"/>
+      <edge source="node_157" target="node_159" length="1" id="e159"/>
+      <edge source="node_159" target="node_160" length="1" id="e160"/>
+      <edge source="node_159" target="node_161" length="1" id="e161"/>
+      <edge source="node_154" target="node_162" length="1" id="e162"/>
+      <edge source="node_162" target="node_163" length="1" id="e163"/>
+      <edge source="node_162" target="node_164" length="1" id="e164"/>
+      <edge source="node_162" target="node_165" length="1" id="e165"/>
+      <edge source="node_153" target="node_166" length="1" id="e166"/>
+      <edge source="node_152" target="node_167" length="1" id="e167"/>
+      <edge source="node_151" target="node_168" length="1" id="e168"/>
+    </tree>
+    <tree label="4 of 4" xsi:type="nex:IntTree" id="t4">
+      <node label="n169" otu="t5026" root="true" id="node_169"/>
+      <node label="n170" otu="t5026" id="node_170"/>
+      <node label="n171" id="node_171"/>
+      <node label="n172" otu="t5026" id="node_172"/>
+      <node label="n173" otu="t5026" id="node_173"/>
+      <node label="n174" otu="t5026" id="node_174"/>
+      <node label="n175" otu="t5026" id="node_175"/>
+      <node label="n176" otu="t5026" id="node_176"/>
+      <node label="n177" id="node_177"/>
+      <node label="n178" otu="t5026" id="node_178"/>
+      <node label="n179" otu="t5026" id="node_179"/>
+      <node label="n180" id="node_180"/>
+      <node label="n181" id="node_181"/>
+      <node label="n182" id="node_182"/>
+      <node label="n183" otu="t5026" id="node_183"/>
+      <node label="n184" id="node_184"/>
+      <node label="n185" id="node_185"/>
+      <node label="n186" id="node_186"/>
+      <node label="n187" id="node_187"/>
+      <node label="n188" id="node_188"/>
+      <node label="n189" id="node_189"/>
+      <edge source="node_169" target="node_170" length="1" id="e170"/>
+      <edge source="node_170" target="node_171" length="1" id="e171"/>
+      <edge source="node_170" target="node_172" length="1" id="e172"/>
+      <edge source="node_172" target="node_173" length="1" id="e173"/>
+      <edge source="node_173" target="node_174" length="1" id="e174"/>
+      <edge source="node_174" target="node_175" length="1" id="e175"/>
+      <edge source="node_175" target="node_176" length="1" id="e176"/>
+      <edge source="node_176" target="node_177" length="1" id="e177"/>
+      <edge source="node_176" target="node_178" length="1" id="e178"/>
+      <edge source="node_178" target="node_179" length="1" id="e179"/>
+      <edge source="node_179" target="node_180" length="1" id="e180"/>
+      <edge source="node_179" target="node_181" length="1" id="e181"/>
+      <edge source="node_178" target="node_182" length="1" id="e182"/>
+      <edge source="node_175" target="node_183" length="1" id="e183"/>
+      <edge source="node_183" target="node_184" length="1" id="e184"/>
+      <edge source="node_183" target="node_185" length="1" id="e185"/>
+      <edge source="node_183" target="node_186" length="1" id="e186"/>
+      <edge source="node_174" target="node_187" length="1" id="e187"/>
+      <edge source="node_173" target="node_188" length="1" id="e188"/>
+      <edge source="node_172" target="node_189" length="1" id="e189"/>
+    </tree>
+  </trees>
+</nex:nexml>
