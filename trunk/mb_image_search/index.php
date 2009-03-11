@@ -5,18 +5,23 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>mb image return</title>
 
-<?php include_once("process_book.php"); ?>
+<?php include_once("simple_loads.php"); ?>
 
 </head>
 
 <body>
 <?php
-	  
-$xml_file = 'mb_request.xml';
-echo function mb_image($xml_file);
-function process_book();
+$nex =  '52.xml';
+
+$returnotunames = otu($nex);
+
+
+	foreach ($returnotunames as $array){
+	$mbserviceurl = imageurl($array);
+	print_r($mbserviceurl);
+		}
+	
 
 ?>
-
 </body>
 </html>
