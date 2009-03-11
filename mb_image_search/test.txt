@@ -1,2 +1,0 @@
-
-Fatal error: Call to undefined function: simplexml_load_file() in /Library/WebServer/Documents/xml_transformation/simple_load.php on line 2
