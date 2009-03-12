@@ -224,6 +224,9 @@ pw_hover = function(json_data) {
   for (var key in cal) {
     var val = cal[key];
     if (val) {
+      if (Math.round(val) > 10) {
+        val = Math.round(val);
+      }
       annotation_display_row(key,val,tab1);
     }
   }
