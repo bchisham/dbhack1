@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S357"><citation>Nadler, S. A. and D. S. S. Hudspeth. 1998. Ribosomal DNA and Phylogeny of the Ascaridoidea (Nemata: Secernentea): Implications for Morphological Evolution and Classification. Molecular Phylogenetics and Evolution. 10(2):221-236.</citation><author firstname="Deborah S. S." lastname="Hudspeth" /><author email="sanadler@ucdavis.edu" firstname="Steven A." lastname="Nadler" /></study></nex:external>
-    <otus id="_TaxaBlock268761">
+<nex:external xmlns="dbhack1/phylr"><study id="S357"><citation>Nadler, S. A. and D. S. S. Hudspeth. 1998. Ribosomal DNA and Phylogeny of the Ascaridoidea (Nemata: Secernentea): Implications for Morphological Evolution and Classification. Molecular Phylogenetics and Evolution. 10(2):221-236.</citation><abstract>Nematodes of the superfamily Ascaridoidea are parasites of the alimentary tract of vertebrates and include species that are of medical and economic importance. Existing evolutionary hypotheses for these organisms have frequently been based on interpretation of one or few "key" structural or life history features. We used nuclear-encoded small (1,764 characters) and large subunit (757 characters) ribosomal DNA sequences to estimate the phylogeny of representative taxa from this superfamily. Trees inferred by maximum parsimony and maximum likelihood methods strongly support clades that are primarily consistent with one recent classification of the group. In contrast, most previously proposed phylogenetic hypotheses were significantly worse when compared to the maximum likelihood tree by a statistical method. Hypotheses for the evolution of morphological and life history characters were explored by parsimony mapping these features on several tree topologies, including optimal molecular trees and alternative topologies reflecting traditional expectations deemed not worse in statistical tests. The results identify some consistent putative shared-derived morphological features, but also strongly suggest that some "key" features emphasized by previous workers represent ancestral states or highly homoplastic characters.</abstract><author firstname="Deborah S. S." lastname="Hudspeth" /><author email="sanadler@ucdavis.edu" firstname="Steven A." lastname="Nadler" /></study></nex:external>
+    <otus id="_TaxaBlock266666">
         <otu id="Haemonchussimilis" label="Haemonchus similis" />
         <otu id="Anisakissp." label="Anisakis sp." />
         <otu id="Pseudoterranovadecipiens" label="Pseudoterranova decipiens" />
@@ -29,85 +29,85 @@
         <otu id="Heterocheilustunicatus" label="Heterocheilus tunicatus" />
         <otu id="Cruziaamericana" label="Cruzia americana" />
     </otus>
-    <trees id="_TreesBlock268762" otus="_TaxaBlock268761">
+    <trees id="_TreesBlock266667" otus="_TaxaBlock266666">
         <tree id="Tree1136" label="Fig. 1.4" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S357A266" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="SSU" nchar="1795" /></analysis></nex:external>
-            <node id="_Node268766" />
-            <node id="_Node268768" otu="Haemonchussimilis" />
-            <node id="_Node268771" />
-            <node id="_Node268773" />
-            <node id="_Node268775" />
-            <node id="_Node268777" />
-            <node id="_Node268779" />
-            <node id="_Node268781" otu="Anisakissp." />
-            <node id="_Node268784" otu="Pseudoterranovadecipiens" />
-            <node id="_Node268787" otu="Terranovacaballeroi" />
-            <node id="_Node268790" />
-            <node id="_Node268792" />
-            <node id="_Node268794" />
-            <node id="_Node268796" />
-            <node id="_Node268798" />
-            <node id="_Node268800" />
-            <node id="_Node268802" />
-            <node id="_Node268804" otu="Ascarislumbricoides" />
-            <node id="_Node268807" otu="Parascarisequorum" />
-            <node id="_Node268810" otu="Ascarissuum" />
-            <node id="_Node268813" otu="Baylisascarisprocyonis" />
-            <node id="_Node268816" otu="Baylisascaristransfuga" />
-            <node id="_Node268819" otu="Toxascarisleonina" />
-            <node id="_Node268822" />
-            <node id="_Node268824" otu="Contracaecummultipapillatum" />
-            <node id="_Node268827" otu="Toxocaracanis" />
-            <node id="_Node268830" otu="Porrocaecumdepressum" />
-            <node id="_Node268833" />
-            <node id="_Node268835" otu="Goeziapelagia" />
-            <node id="_Node268838" />
-            <node id="_Node268840" />
-            <node id="_Node268842" otu="Hysterothylaciumfortalezae" />
-            <node id="_Node268845" otu="Hysterothylaciumreliquens" />
-            <node id="_Node268848" />
-            <node id="_Node268850" otu="Hysterothylaciumpelagicum" />
-            <node id="_Node268853" otu="Iheringascarisinquies" />
-            <node id="_Node268856" otu="Heterocheilustunicatus" />
-            <node id="_Node268859" otu="Cruziaamericana" />
-            <rootedge id="_Edge268767" target="_Node268766" />
-            <edge id="_Edge268769" source="_Node268766" target="_Node268768" />
-            <edge id="_Edge268772" source="_Node268766" target="_Node268771" />
-            <edge id="_Edge268774" source="_Node268771" target="_Node268773" />
-            <edge id="_Edge268776" source="_Node268773" target="_Node268775" />
-            <edge id="_Edge268778" source="_Node268775" target="_Node268777" />
-            <edge id="_Edge268780" source="_Node268777" target="_Node268779" />
-            <edge id="_Edge268782" source="_Node268779" target="_Node268781" />
-            <edge id="_Edge268785" source="_Node268779" target="_Node268784" />
-            <edge id="_Edge268788" source="_Node268777" target="_Node268787" />
-            <edge id="_Edge268791" source="_Node268775" target="_Node268790" />
-            <edge id="_Edge268793" source="_Node268790" target="_Node268792" />
-            <edge id="_Edge268795" source="_Node268792" target="_Node268794" />
-            <edge id="_Edge268797" source="_Node268794" target="_Node268796" />
-            <edge id="_Edge268799" source="_Node268796" target="_Node268798" />
-            <edge id="_Edge268801" source="_Node268798" target="_Node268800" />
-            <edge id="_Edge268803" source="_Node268800" target="_Node268802" />
-            <edge id="_Edge268805" source="_Node268802" target="_Node268804" />
-            <edge id="_Edge268808" source="_Node268802" target="_Node268807" />
-            <edge id="_Edge268811" source="_Node268800" target="_Node268810" />
-            <edge id="_Edge268814" source="_Node268798" target="_Node268813" />
-            <edge id="_Edge268817" source="_Node268798" target="_Node268816" />
-            <edge id="_Edge268820" source="_Node268796" target="_Node268819" />
-            <edge id="_Edge268823" source="_Node268794" target="_Node268822" />
-            <edge id="_Edge268825" source="_Node268822" target="_Node268824" />
-            <edge id="_Edge268828" source="_Node268822" target="_Node268827" />
-            <edge id="_Edge268831" source="_Node268792" target="_Node268830" />
-            <edge id="_Edge268834" source="_Node268790" target="_Node268833" />
-            <edge id="_Edge268836" source="_Node268833" target="_Node268835" />
-            <edge id="_Edge268839" source="_Node268833" target="_Node268838" />
-            <edge id="_Edge268841" source="_Node268838" target="_Node268840" />
-            <edge id="_Edge268843" source="_Node268840" target="_Node268842" />
-            <edge id="_Edge268846" source="_Node268840" target="_Node268845" />
-            <edge id="_Edge268849" source="_Node268838" target="_Node268848" />
-            <edge id="_Edge268851" source="_Node268848" target="_Node268850" />
-            <edge id="_Edge268854" source="_Node268848" target="_Node268853" />
-            <edge id="_Edge268857" source="_Node268773" target="_Node268856" />
-            <edge id="_Edge268860" source="_Node268771" target="_Node268859" />
+            <node id="_Node266671" />
+            <node id="_Node266673" otu="Haemonchussimilis" />
+            <node id="_Node266676" />
+            <node id="_Node266678" />
+            <node id="_Node266680" />
+            <node id="_Node266682" />
+            <node id="_Node266684" />
+            <node id="_Node266686" otu="Anisakissp." />
+            <node id="_Node266689" otu="Pseudoterranovadecipiens" />
+            <node id="_Node266692" otu="Terranovacaballeroi" />
+            <node id="_Node266695" />
+            <node id="_Node266697" />
+            <node id="_Node266699" />
+            <node id="_Node266701" />
+            <node id="_Node266703" />
+            <node id="_Node266705" />
+            <node id="_Node266707" />
+            <node id="_Node266709" otu="Ascarislumbricoides" />
+            <node id="_Node266712" otu="Parascarisequorum" />
+            <node id="_Node266715" otu="Ascarissuum" />
+            <node id="_Node266718" otu="Baylisascarisprocyonis" />
+            <node id="_Node266721" otu="Baylisascaristransfuga" />
+            <node id="_Node266724" otu="Toxascarisleonina" />
+            <node id="_Node266727" />
+            <node id="_Node266729" otu="Contracaecummultipapillatum" />
+            <node id="_Node266732" otu="Toxocaracanis" />
+            <node id="_Node266735" otu="Porrocaecumdepressum" />
+            <node id="_Node266738" />
+            <node id="_Node266740" otu="Goeziapelagia" />
+            <node id="_Node266743" />
+            <node id="_Node266745" />
+            <node id="_Node266747" otu="Hysterothylaciumfortalezae" />
+            <node id="_Node266750" otu="Hysterothylaciumreliquens" />
+            <node id="_Node266753" />
+            <node id="_Node266755" otu="Hysterothylaciumpelagicum" />
+            <node id="_Node266758" otu="Iheringascarisinquies" />
+            <node id="_Node266761" otu="Heterocheilustunicatus" />
+            <node id="_Node266764" otu="Cruziaamericana" />
+            <rootedge id="_Edge266672" target="_Node266671" />
+            <edge id="_Edge266674" source="_Node266671" target="_Node266673" />
+            <edge id="_Edge266677" source="_Node266671" target="_Node266676" />
+            <edge id="_Edge266679" source="_Node266676" target="_Node266678" />
+            <edge id="_Edge266681" source="_Node266678" target="_Node266680" />
+            <edge id="_Edge266683" source="_Node266680" target="_Node266682" />
+            <edge id="_Edge266685" source="_Node266682" target="_Node266684" />
+            <edge id="_Edge266687" source="_Node266684" target="_Node266686" />
+            <edge id="_Edge266690" source="_Node266684" target="_Node266689" />
+            <edge id="_Edge266693" source="_Node266682" target="_Node266692" />
+            <edge id="_Edge266696" source="_Node266680" target="_Node266695" />
+            <edge id="_Edge266698" source="_Node266695" target="_Node266697" />
+            <edge id="_Edge266700" source="_Node266697" target="_Node266699" />
+            <edge id="_Edge266702" source="_Node266699" target="_Node266701" />
+            <edge id="_Edge266704" source="_Node266701" target="_Node266703" />
+            <edge id="_Edge266706" source="_Node266703" target="_Node266705" />
+            <edge id="_Edge266708" source="_Node266705" target="_Node266707" />
+            <edge id="_Edge266710" source="_Node266707" target="_Node266709" />
+            <edge id="_Edge266713" source="_Node266707" target="_Node266712" />
+            <edge id="_Edge266716" source="_Node266705" target="_Node266715" />
+            <edge id="_Edge266719" source="_Node266703" target="_Node266718" />
+            <edge id="_Edge266722" source="_Node266703" target="_Node266721" />
+            <edge id="_Edge266725" source="_Node266701" target="_Node266724" />
+            <edge id="_Edge266728" source="_Node266699" target="_Node266727" />
+            <edge id="_Edge266730" source="_Node266727" target="_Node266729" />
+            <edge id="_Edge266733" source="_Node266727" target="_Node266732" />
+            <edge id="_Edge266736" source="_Node266697" target="_Node266735" />
+            <edge id="_Edge266739" source="_Node266695" target="_Node266738" />
+            <edge id="_Edge266741" source="_Node266738" target="_Node266740" />
+            <edge id="_Edge266744" source="_Node266738" target="_Node266743" />
+            <edge id="_Edge266746" source="_Node266743" target="_Node266745" />
+            <edge id="_Edge266748" source="_Node266745" target="_Node266747" />
+            <edge id="_Edge266751" source="_Node266745" target="_Node266750" />
+            <edge id="_Edge266754" source="_Node266743" target="_Node266753" />
+            <edge id="_Edge266756" source="_Node266753" target="_Node266755" />
+            <edge id="_Edge266759" source="_Node266753" target="_Node266758" />
+            <edge id="_Edge266762" source="_Node266678" target="_Node266761" />
+            <edge id="_Edge266765" source="_Node266676" target="_Node266764" />
         </tree>
     </trees>
 </nex:nexml>

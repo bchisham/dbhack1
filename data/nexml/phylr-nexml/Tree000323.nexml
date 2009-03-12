@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,7 +6,7 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S2x4x96c16c23c42"><citation>Anderberg, A. A. 1989. Phylogeny and reclassification of the tribe Inuleae (Asteraceae). Can. J. Bot. 67:2277-2296.</citation><author email="arne.anderberg@nrm.se" firstname="Arne A. " lastname="Anderberg" /></study></nex:external>
+<nex:external xmlns="dbhack1/phylr"><study id="S2x4x96c16c23c42"><citation>Anderberg, A. A. 1989. Phylogeny and reclassification of the tribe Inuleae (Asteraceae). Can. J. Bot. 67:2277-2296.</citation><abstract>The tribe Inuleae Cass. has been subject to a critical investigation. The many technical characters that are traditionally used in classification of the Inuleae are scrutinized, discussed, and analysed by means of a computerized parsimony program (PAUP). With one representative from each of the tribes Vernonieae, Liabeae, and Lactuceae as outgroups, three different analyses have been performed. Strict consensus trees for the three separate analyses are presented and discussed. A consensus tree based on the cladogram topologies obtained from all the three analyses is also presented. The taxonomic implication of the analyses is that the tribe Inuleae is an unnatural, not monophyletic group, which must be divided in better defined monophyletic tribes. Hence, three tribes are recognized and the majority of the described genera of the Inuleae are tentatively referred to one of these tribes . The tribes Gnaphalieae Rydb. (comprising the Inuleae&#195;&#145;Gnaphaliinae and the Inuleae - Athrixiinae sensu Merxmuller et al.) and the Inuleae s.str., are accepted. Furthermore, the former subtribe Inuleae&#195;&#145;Plucheinae Benth. is recognized and described as the new tribe Plucheae (Benth.) A. Anderb.</abstract><author email="arne.anderberg@nrm.se" firstname="Arne A. " lastname="Anderberg" /></study></nex:external>
     <otus id="_TaxaBlock90140">
         <otu id="Vernonia" label="Vernonia" />
         <otu id="Stenachaenium" label="Stenachaenium" />

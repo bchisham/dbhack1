@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S720"><citation>Sabo, A., L. G. L. Reis, E. Krall, M. Mundo-Ocampo, and V. R. Ferris. 2002. Phylogenetic Relationships of a Distinct Species of Globodera from Portugal and Two Punctodera Species. Journal of Nematology, in press.</citation><author firstname="V.R." lastname="Ferris" /><author firstname="M." lastname="Mundo-Ocampo" /><author firstname="L.G.L." lastname="Reis" /><author email="anisabo@purdue.edu" firstname="Aniko" lastname="Sabo" /></study></nex:external>
-    <otus id="_TaxaBlock875153">
+<nex:external xmlns="dbhack1/phylr"><study id="S720"><citation>Sabo, A., L. G. L. Reis, E. Krall, M. Mundo-Ocampo, and V. R. Ferris. 2002. Phylogenetic Relationships of a Distinct Species of Globodera from Portugal and Two Punctodera Species. Journal of Nematology, in press.</citation><abstract>Evolutionary relationships based on ribosomal DNA (rDNA) sequence data for a previously unknown species of Globodera from Portugal, Punctodera chalcoensis from Mexico, and P. punctata from Estonia, plus previously published sequences, support the following relationships: (((Cactodera weissi, G. artemisiae, C. milleri),((G. sp. Bouro, G. sp. Canha, G. sp. Ladoeiro),((G. pallida, G. rostochiensis),(P. chalcoensis, P. punctata)))), Heterodera avenae). Globodera sp. from Portugal, which can be confused with potato cyst nematodes by phytosanitary services when the identification is based only on morphological characters, is clearly different based on our molecular data. In addition, the rDNA data show the Globodera sp. to be only distantly related to other European Globodera species that parasitize Asteraceae. Punctodera chalcoensis and P. punctata form a sister clade to the G. pallida + G. rostochiensis clade.</abstract><author firstname="V.R." lastname="Ferris" /><author firstname="M." lastname="Mundo-Ocampo" /><author firstname="L.G.L." lastname="Reis" /><author email="anisabo@purdue.edu" firstname="Aniko" lastname="Sabo" /></study></nex:external>
+    <otus id="_TaxaBlock871522">
         <otu id="Cactoderaweissi" label="Cactodera weissi" />
         <otu id="Cactoderamilleri" label="Cactodera milleri" />
         <otu id="Globoderaartemisiae" label="Globodera artemisiae" />
@@ -20,51 +20,51 @@
         <otu id="Punctoderapunctata" label="Punctodera punctata" />
         <otu id="Heteroderaavenae" label="Heterodera avenae" />
     </otus>
-    <trees id="_TreesBlock875154" otus="_TaxaBlock875153">
+    <trees id="_TreesBlock871523" otus="_TaxaBlock871522">
         <tree id="Tree2352" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S720A1600" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="rDNA (ITS1+5.8S+ITS2) default alignment" nchar="971" /></analysis></nex:external>
-            <node id="_Node875158" />
-            <node id="_Node875160" otu="Cactoderaweissi" />
-            <node id="_Node875163" />
-            <node id="_Node875165" otu="Cactoderamilleri" />
-            <node id="_Node875168" />
-            <node id="_Node875170" otu="Globoderaartemisiae" />
-            <node id="_Node875173" />
-            <node id="_Node875175" />
-            <node id="_Node875177" />
-            <node id="_Node875179" />
-            <node id="_Node875181" otu="Globoderasp.Bouro" />
-            <node id="_Node875184" otu="Globoderasp.Ladoeiro" />
-            <node id="_Node875187" otu="Globoderasp.Canha" />
-            <node id="_Node875190" />
-            <node id="_Node875192" />
-            <node id="_Node875194" otu="Globoderapallida" />
-            <node id="_Node875197" otu="Globoderarostochiensis" />
-            <node id="_Node875200" />
-            <node id="_Node875202" otu="Punctoderachalcoensis" />
-            <node id="_Node875205" otu="Punctoderapunctata" />
-            <node id="_Node875208" otu="Heteroderaavenae" />
-            <rootedge id="_Edge875159" target="_Node875158" />
-            <edge id="_Edge875161" source="_Node875158" target="_Node875160" />
-            <edge id="_Edge875164" source="_Node875158" target="_Node875163" />
-            <edge id="_Edge875166" source="_Node875163" target="_Node875165" />
-            <edge id="_Edge875169" source="_Node875163" target="_Node875168" />
-            <edge id="_Edge875171" source="_Node875168" target="_Node875170" />
-            <edge id="_Edge875174" source="_Node875168" target="_Node875173" />
-            <edge id="_Edge875176" source="_Node875173" target="_Node875175" />
-            <edge id="_Edge875178" source="_Node875175" target="_Node875177" />
-            <edge id="_Edge875180" source="_Node875177" target="_Node875179" />
-            <edge id="_Edge875182" source="_Node875179" target="_Node875181" />
-            <edge id="_Edge875185" source="_Node875179" target="_Node875184" />
-            <edge id="_Edge875188" source="_Node875177" target="_Node875187" />
-            <edge id="_Edge875191" source="_Node875175" target="_Node875190" />
-            <edge id="_Edge875193" source="_Node875190" target="_Node875192" />
-            <edge id="_Edge875195" source="_Node875192" target="_Node875194" />
-            <edge id="_Edge875198" source="_Node875192" target="_Node875197" />
-            <edge id="_Edge875201" source="_Node875190" target="_Node875200" />
-            <edge id="_Edge875203" source="_Node875200" target="_Node875202" />
-            <edge id="_Edge875206" source="_Node875200" target="_Node875205" />
-            <edge id="_Edge875209" source="_Node875173" target="_Node875208" />
+            <node id="_Node871527" />
+            <node id="_Node871529" otu="Cactoderaweissi" />
+            <node id="_Node871532" />
+            <node id="_Node871534" otu="Cactoderamilleri" />
+            <node id="_Node871537" />
+            <node id="_Node871539" otu="Globoderaartemisiae" />
+            <node id="_Node871542" />
+            <node id="_Node871544" />
+            <node id="_Node871546" />
+            <node id="_Node871548" />
+            <node id="_Node871550" otu="Globoderasp.Bouro" />
+            <node id="_Node871553" otu="Globoderasp.Ladoeiro" />
+            <node id="_Node871556" otu="Globoderasp.Canha" />
+            <node id="_Node871559" />
+            <node id="_Node871561" />
+            <node id="_Node871563" otu="Globoderapallida" />
+            <node id="_Node871566" otu="Globoderarostochiensis" />
+            <node id="_Node871569" />
+            <node id="_Node871571" otu="Punctoderachalcoensis" />
+            <node id="_Node871574" otu="Punctoderapunctata" />
+            <node id="_Node871577" otu="Heteroderaavenae" />
+            <rootedge id="_Edge871528" target="_Node871527" />
+            <edge id="_Edge871530" source="_Node871527" target="_Node871529" />
+            <edge id="_Edge871533" source="_Node871527" target="_Node871532" />
+            <edge id="_Edge871535" source="_Node871532" target="_Node871534" />
+            <edge id="_Edge871538" source="_Node871532" target="_Node871537" />
+            <edge id="_Edge871540" source="_Node871537" target="_Node871539" />
+            <edge id="_Edge871543" source="_Node871537" target="_Node871542" />
+            <edge id="_Edge871545" source="_Node871542" target="_Node871544" />
+            <edge id="_Edge871547" source="_Node871544" target="_Node871546" />
+            <edge id="_Edge871549" source="_Node871546" target="_Node871548" />
+            <edge id="_Edge871551" source="_Node871548" target="_Node871550" />
+            <edge id="_Edge871554" source="_Node871548" target="_Node871553" />
+            <edge id="_Edge871557" source="_Node871546" target="_Node871556" />
+            <edge id="_Edge871560" source="_Node871544" target="_Node871559" />
+            <edge id="_Edge871562" source="_Node871559" target="_Node871561" />
+            <edge id="_Edge871564" source="_Node871561" target="_Node871563" />
+            <edge id="_Edge871567" source="_Node871561" target="_Node871566" />
+            <edge id="_Edge871570" source="_Node871559" target="_Node871569" />
+            <edge id="_Edge871572" source="_Node871569" target="_Node871571" />
+            <edge id="_Edge871575" source="_Node871569" target="_Node871574" />
+            <edge id="_Edge871578" source="_Node871542" target="_Node871577" />
         </tree>
     </trees>
 </nex:nexml>

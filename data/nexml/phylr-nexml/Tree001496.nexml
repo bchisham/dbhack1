@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S654"><citation>Olson, M. E. 2001. Combining data from DNA sequences and morphology for a phylogeny of Moringaceae (Brassicales). Systematic Botany, in press.</citation><author email="olsonm@mobot.mobot.org" firstname="Mark E. " lastname="Olson" /></study></nex:external>
-    <otus id="_TaxaBlock659771">
+<nex:external xmlns="dbhack1/phylr"><study id="S654"><citation>Olson, M. E. 2001. Combining data from DNA sequences and morphology for a phylogeny of Moringaceae (Brassicales). Systematic Botany, in press.</citation><abstract>ABSTRACT. The Old World dry tropical family Moringaceae is remarkable for the great diversity of habit and floral morphology found within its only genus, Moringa. To infer the phylogenetic relationships of all 13 species, parsimony analyses of morphological data and DNA sequences from a low-copy nuclear region (PEPC), a chloroplast region (trnG), and a tandemly-repeated nuclear region present in high copy number (ITS) were conducted of each data set separately and combined. Characters from studies of ontogeny substantially enhanced the resolution of the morphological data set. The Incongruence Length Difference test indicated the congruence of all data sets, as did Templeton tests comparing the single tree resulting from the combined analysis in the context of the individual data sets. This tree is presented as the preferred topology, in which the four bottle trees appear as a basal paraphyletic assemblage, with the three Asian species of slender trees (including the economically important M. oleifera) forming a clade that is sister to a clade of the six species of tuberous shrubs and trees of northeast Africa. Moringa is currently divided into three sections, but because of the basal grade, it is not possible to divide Moringa into useful monophyletic infrageneric taxa. The phylogeny-based informal terms "bottle tree grade", "slender tree clade", and "tuberous clade" are suggested as alternatives. Relationships within Moringa were found to be largely congruent with a previous study of wood anatomy.</abstract><author email="olsonm@mobot.mobot.org" firstname="Mark E. " lastname="Olson" /></study></nex:external>
+    <otus id="_TaxaBlock656140">
         <otu id="JacaratiacorumbensisOlsons.n." label="Jacaratia corumbensis Olson s.n." />
         <otu id="CaricamicrocarpaWaimeaArbore" label="Carica microcarpa Waimea Arbore" />
         <otu id="JarillaheterophyllaOlsons.n." label="Jarilla heterophylla Olson s.n." />
@@ -38,109 +38,109 @@
         <otu id="MoringaperegrinaDanins.n." label="Moringa peregrina Danin s.n." />
         <otu id="MoringaperegrinaOlsons.n." label="Moringa peregrina Olson s.n." />
     </otus>
-    <trees id="_TreesBlock659772" otus="_TaxaBlock659771">
+    <trees id="_TreesBlock656141" otus="_TaxaBlock656140">
         <tree id="Tree2004" label="ITS tree 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S654A1373" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="ITS" nchar="705" /></analysis></nex:external>
-            <node id="_Node659776" />
-            <node id="_Node659778" otu="JacaratiacorumbensisOlsons.n." />
-            <node id="_Node659781" />
-            <node id="_Node659783" />
-            <node id="_Node659785" />
-            <node id="_Node659787" otu="CaricamicrocarpaWaimeaArbore" />
-            <node id="_Node659790" />
-            <node id="_Node659792" otu="JarillaheterophyllaOlsons.n." />
-            <node id="_Node659795" otu="JarillachocolaReina99.962.A" />
-            <node id="_Node659798" />
-            <node id="_Node659800" otu="CylicomorphaparvifloraCK1296" />
-            <node id="_Node659803" otu="CylicomorphaparvifloraMM387" />
-            <node id="_Node659806" />
-            <node id="_Node659808" />
-            <node id="_Node659810" otu="MoringadrouhardiiOlsonAmboa" />
-            <node id="_Node659813" otu="MoringadrouhardiiOlson679" />
-            <node id="_Node659816" />
-            <node id="_Node659818" />
-            <node id="_Node659820" />
-            <node id="_Node659822" otu="MoringahildebrandtiiOlson2" />
-            <node id="_Node659825" />
-            <node id="_Node659827" otu="MoringastenopetalaOlson675" />
-            <node id="_Node659830" otu="MoringaovalifoliaOlsons.n." />
-            <node id="_Node659833" />
-            <node id="_Node659835" />
-            <node id="_Node659837" otu="MoringaarboreaOlson714" />
-            <node id="_Node659840" otu="MoringaborzianaOlson678" />
-            <node id="_Node659843" otu="MoringarivaeOlson677" />
-            <node id="_Node659846" otu="MoringarivaeOlson701" />
-            <node id="_Node659849" />
-            <node id="_Node659851" otu="MoringaruspolianaOlson703" />
-            <node id="_Node659854" otu="MoringaruspolianaOlson702" />
-            <node id="_Node659857" />
-            <node id="_Node659859" otu="MoringalongitubaOlson704" />
-            <node id="_Node659862" otu="MoringalongitubaOlson708f" />
-            <node id="_Node659865" otu="MoringalongitubaHorwoods.n." />
-            <node id="_Node659868" otu="MoringalongitubaOlson709a" />
-            <node id="_Node659871" otu="MoringalongitubaOlson710a" />
-            <node id="_Node659874" otu="MoringalongitubaOlson712" />
-            <node id="_Node659877" />
-            <node id="_Node659879" otu="MoringaconcanensisOlson700.1" />
-            <node id="_Node659882" />
-            <node id="_Node659884" otu="MoringaconcanensisOlson700.2" />
-            <node id="_Node659887" />
-            <node id="_Node659889" />
-            <node id="_Node659891" otu="MoringaoleiferaStanleys.n." />
-            <node id="_Node659894" otu="MoringaoleiferaOlsons.n." />
-            <node id="_Node659897" />
-            <node id="_Node659899" otu="MoringaperegrinaDanins.n." />
-            <node id="_Node659902" otu="MoringaperegrinaOlsons.n." />
-            <rootedge id="_Edge659777" target="_Node659776" />
-            <edge id="_Edge659779" source="_Node659776" target="_Node659778" />
-            <edge id="_Edge659782" source="_Node659776" target="_Node659781" />
-            <edge id="_Edge659784" source="_Node659781" target="_Node659783" />
-            <edge id="_Edge659786" source="_Node659783" target="_Node659785" />
-            <edge id="_Edge659788" source="_Node659785" target="_Node659787" />
-            <edge id="_Edge659791" source="_Node659785" target="_Node659790" />
-            <edge id="_Edge659793" source="_Node659790" target="_Node659792" />
-            <edge id="_Edge659796" source="_Node659790" target="_Node659795" />
-            <edge id="_Edge659799" source="_Node659783" target="_Node659798" />
-            <edge id="_Edge659801" source="_Node659798" target="_Node659800" />
-            <edge id="_Edge659804" source="_Node659798" target="_Node659803" />
-            <edge id="_Edge659807" source="_Node659781" target="_Node659806" />
-            <edge id="_Edge659809" source="_Node659806" target="_Node659808" />
-            <edge id="_Edge659811" source="_Node659808" target="_Node659810" />
-            <edge id="_Edge659814" source="_Node659808" target="_Node659813" />
-            <edge id="_Edge659817" source="_Node659806" target="_Node659816" />
-            <edge id="_Edge659819" source="_Node659816" target="_Node659818" />
-            <edge id="_Edge659821" source="_Node659818" target="_Node659820" />
-            <edge id="_Edge659823" source="_Node659820" target="_Node659822" />
-            <edge id="_Edge659826" source="_Node659820" target="_Node659825" />
-            <edge id="_Edge659828" source="_Node659825" target="_Node659827" />
-            <edge id="_Edge659831" source="_Node659825" target="_Node659830" />
-            <edge id="_Edge659834" source="_Node659818" target="_Node659833" />
-            <edge id="_Edge659836" source="_Node659833" target="_Node659835" />
-            <edge id="_Edge659838" source="_Node659835" target="_Node659837" />
-            <edge id="_Edge659841" source="_Node659835" target="_Node659840" />
-            <edge id="_Edge659844" source="_Node659835" target="_Node659843" />
-            <edge id="_Edge659847" source="_Node659835" target="_Node659846" />
-            <edge id="_Edge659850" source="_Node659835" target="_Node659849" />
-            <edge id="_Edge659852" source="_Node659849" target="_Node659851" />
-            <edge id="_Edge659855" source="_Node659849" target="_Node659854" />
-            <edge id="_Edge659858" source="_Node659833" target="_Node659857" />
-            <edge id="_Edge659860" source="_Node659857" target="_Node659859" />
-            <edge id="_Edge659863" source="_Node659857" target="_Node659862" />
-            <edge id="_Edge659866" source="_Node659857" target="_Node659865" />
-            <edge id="_Edge659869" source="_Node659857" target="_Node659868" />
-            <edge id="_Edge659872" source="_Node659857" target="_Node659871" />
-            <edge id="_Edge659875" source="_Node659857" target="_Node659874" />
-            <edge id="_Edge659878" source="_Node659816" target="_Node659877" />
-            <edge id="_Edge659880" source="_Node659877" target="_Node659879" />
-            <edge id="_Edge659883" source="_Node659877" target="_Node659882" />
-            <edge id="_Edge659885" source="_Node659882" target="_Node659884" />
-            <edge id="_Edge659888" source="_Node659882" target="_Node659887" />
-            <edge id="_Edge659890" source="_Node659887" target="_Node659889" />
-            <edge id="_Edge659892" source="_Node659889" target="_Node659891" />
-            <edge id="_Edge659895" source="_Node659889" target="_Node659894" />
-            <edge id="_Edge659898" source="_Node659887" target="_Node659897" />
-            <edge id="_Edge659900" source="_Node659897" target="_Node659899" />
-            <edge id="_Edge659903" source="_Node659897" target="_Node659902" />
+            <node id="_Node656145" />
+            <node id="_Node656147" otu="JacaratiacorumbensisOlsons.n." />
+            <node id="_Node656150" />
+            <node id="_Node656152" />
+            <node id="_Node656154" />
+            <node id="_Node656156" otu="CaricamicrocarpaWaimeaArbore" />
+            <node id="_Node656159" />
+            <node id="_Node656161" otu="JarillaheterophyllaOlsons.n." />
+            <node id="_Node656164" otu="JarillachocolaReina99.962.A" />
+            <node id="_Node656167" />
+            <node id="_Node656169" otu="CylicomorphaparvifloraCK1296" />
+            <node id="_Node656172" otu="CylicomorphaparvifloraMM387" />
+            <node id="_Node656175" />
+            <node id="_Node656177" />
+            <node id="_Node656179" otu="MoringadrouhardiiOlsonAmboa" />
+            <node id="_Node656182" otu="MoringadrouhardiiOlson679" />
+            <node id="_Node656185" />
+            <node id="_Node656187" />
+            <node id="_Node656189" />
+            <node id="_Node656191" otu="MoringahildebrandtiiOlson2" />
+            <node id="_Node656194" />
+            <node id="_Node656196" otu="MoringastenopetalaOlson675" />
+            <node id="_Node656199" otu="MoringaovalifoliaOlsons.n." />
+            <node id="_Node656202" />
+            <node id="_Node656204" />
+            <node id="_Node656206" otu="MoringaarboreaOlson714" />
+            <node id="_Node656209" otu="MoringaborzianaOlson678" />
+            <node id="_Node656212" otu="MoringarivaeOlson677" />
+            <node id="_Node656215" otu="MoringarivaeOlson701" />
+            <node id="_Node656218" />
+            <node id="_Node656220" otu="MoringaruspolianaOlson703" />
+            <node id="_Node656223" otu="MoringaruspolianaOlson702" />
+            <node id="_Node656226" />
+            <node id="_Node656228" otu="MoringalongitubaOlson704" />
+            <node id="_Node656231" otu="MoringalongitubaOlson708f" />
+            <node id="_Node656234" otu="MoringalongitubaHorwoods.n." />
+            <node id="_Node656237" otu="MoringalongitubaOlson709a" />
+            <node id="_Node656240" otu="MoringalongitubaOlson710a" />
+            <node id="_Node656243" otu="MoringalongitubaOlson712" />
+            <node id="_Node656246" />
+            <node id="_Node656248" otu="MoringaconcanensisOlson700.1" />
+            <node id="_Node656251" />
+            <node id="_Node656253" otu="MoringaconcanensisOlson700.2" />
+            <node id="_Node656256" />
+            <node id="_Node656258" />
+            <node id="_Node656260" otu="MoringaoleiferaStanleys.n." />
+            <node id="_Node656263" otu="MoringaoleiferaOlsons.n." />
+            <node id="_Node656266" />
+            <node id="_Node656268" otu="MoringaperegrinaDanins.n." />
+            <node id="_Node656271" otu="MoringaperegrinaOlsons.n." />
+            <rootedge id="_Edge656146" target="_Node656145" />
+            <edge id="_Edge656148" source="_Node656145" target="_Node656147" />
+            <edge id="_Edge656151" source="_Node656145" target="_Node656150" />
+            <edge id="_Edge656153" source="_Node656150" target="_Node656152" />
+            <edge id="_Edge656155" source="_Node656152" target="_Node656154" />
+            <edge id="_Edge656157" source="_Node656154" target="_Node656156" />
+            <edge id="_Edge656160" source="_Node656154" target="_Node656159" />
+            <edge id="_Edge656162" source="_Node656159" target="_Node656161" />
+            <edge id="_Edge656165" source="_Node656159" target="_Node656164" />
+            <edge id="_Edge656168" source="_Node656152" target="_Node656167" />
+            <edge id="_Edge656170" source="_Node656167" target="_Node656169" />
+            <edge id="_Edge656173" source="_Node656167" target="_Node656172" />
+            <edge id="_Edge656176" source="_Node656150" target="_Node656175" />
+            <edge id="_Edge656178" source="_Node656175" target="_Node656177" />
+            <edge id="_Edge656180" source="_Node656177" target="_Node656179" />
+            <edge id="_Edge656183" source="_Node656177" target="_Node656182" />
+            <edge id="_Edge656186" source="_Node656175" target="_Node656185" />
+            <edge id="_Edge656188" source="_Node656185" target="_Node656187" />
+            <edge id="_Edge656190" source="_Node656187" target="_Node656189" />
+            <edge id="_Edge656192" source="_Node656189" target="_Node656191" />
+            <edge id="_Edge656195" source="_Node656189" target="_Node656194" />
+            <edge id="_Edge656197" source="_Node656194" target="_Node656196" />
+            <edge id="_Edge656200" source="_Node656194" target="_Node656199" />
+            <edge id="_Edge656203" source="_Node656187" target="_Node656202" />
+            <edge id="_Edge656205" source="_Node656202" target="_Node656204" />
+            <edge id="_Edge656207" source="_Node656204" target="_Node656206" />
+            <edge id="_Edge656210" source="_Node656204" target="_Node656209" />
+            <edge id="_Edge656213" source="_Node656204" target="_Node656212" />
+            <edge id="_Edge656216" source="_Node656204" target="_Node656215" />
+            <edge id="_Edge656219" source="_Node656204" target="_Node656218" />
+            <edge id="_Edge656221" source="_Node656218" target="_Node656220" />
+            <edge id="_Edge656224" source="_Node656218" target="_Node656223" />
+            <edge id="_Edge656227" source="_Node656202" target="_Node656226" />
+            <edge id="_Edge656229" source="_Node656226" target="_Node656228" />
+            <edge id="_Edge656232" source="_Node656226" target="_Node656231" />
+            <edge id="_Edge656235" source="_Node656226" target="_Node656234" />
+            <edge id="_Edge656238" source="_Node656226" target="_Node656237" />
+            <edge id="_Edge656241" source="_Node656226" target="_Node656240" />
+            <edge id="_Edge656244" source="_Node656226" target="_Node656243" />
+            <edge id="_Edge656247" source="_Node656185" target="_Node656246" />
+            <edge id="_Edge656249" source="_Node656246" target="_Node656248" />
+            <edge id="_Edge656252" source="_Node656246" target="_Node656251" />
+            <edge id="_Edge656254" source="_Node656251" target="_Node656253" />
+            <edge id="_Edge656257" source="_Node656251" target="_Node656256" />
+            <edge id="_Edge656259" source="_Node656256" target="_Node656258" />
+            <edge id="_Edge656261" source="_Node656258" target="_Node656260" />
+            <edge id="_Edge656264" source="_Node656258" target="_Node656263" />
+            <edge id="_Edge656267" source="_Node656256" target="_Node656266" />
+            <edge id="_Edge656269" source="_Node656266" target="_Node656268" />
+            <edge id="_Edge656272" source="_Node656266" target="_Node656271" />
         </tree>
     </trees>
 </nex:nexml>

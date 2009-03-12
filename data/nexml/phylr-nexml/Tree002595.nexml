@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S1159"><citation>Clement, W. L., M. C. Tebbitt, L. L. Forrest, J. E. Blair, L. Brouillet, T. Eriksson, and S. M. Swensen. 2004. Phylogenetic position and biogeography of Hillebrandia sandwicensis (Begoniaceae): A rare Hawaiian relict. American Journal of Botany, 91: 905-917.</citation><author firstname="Jaime E." lastname="Blair" /><author firstname="Luc" lastname="Brouillet" /><author firstname="Wendy L." lastname="Clement" /><author email="torsten.eriksson@botan.su.se" firstname="Torsten" lastname="Eriksson" /><author email="lforrest@siu.edu" firstname="Laura Lowe" lastname="Forrest" /><author email="sswensen@ithaca.edu" firstname="Susan M." lastname="Swensen" /><author firstname="Mark C." lastname="Tebbitt" /></study></nex:external>
-    <otus id="_TaxaBlock1364928">
+<nex:external xmlns="dbhack1/phylr"><study id="S1159"><citation>Clement, W. L., M. C. Tebbitt, L. L. Forrest, J. E. Blair, L. Brouillet, T. Eriksson, and S. M. Swensen. 2004. Phylogenetic position and biogeography of Hillebrandia sandwicensis (Begoniaceae): A rare Hawaiian relict. American Journal of Botany, 91: 905-917.</citation><abstract>The Begoniaceae consist of two genera, Begonia, with approximately 1400 species that are widely distributed in the tropics, and Hillebrandia, with one species that is endemic to the Hawaiian Islands and the only member of the family native to those islands. To help explain the history of Hillebrandia on the Hawaiian Archipelago, phylogenetic relationships of the Begoniaceae and the Cucurbitales were inferred using sequence data from 18S, rbcL, and ITS, and the minimal age of both Begonia and the Begoniaceae were indirectly estimated. The analyses strongly support the placement of Hillebrandia as the sister group to the rest of the Begoniaceae and indicate that the Hillebrandia lineage is at least 51&#203;&#134;65 million years old, an age that predates the current Hawaiian Islands by about 20 million years. Evidence that Hillebrandia sandwicensis has survived on the Hawaiian Archipelago by island hopping from older, now denuded islands to younger, more mountainous islands is presented. Various scenarios for the origin of ancestor to Hillebrandia are considered. The geographic origin of source populations unfortunately remains obscure; however, we suggest a boreotropic or a Malesian&#203;&#134;Pacific origin is most likely. Hillebrandia represents the first example in the well-studied Hawaiian flora of a relict genus. </abstract><author firstname="Jaime E." lastname="Blair" /><author firstname="Luc" lastname="Brouillet" /><author firstname="Wendy L." lastname="Clement" /><author email="torsten.eriksson@botan.su.se" firstname="Torsten" lastname="Eriksson" /><author email="lforrest@siu.edu" firstname="Laura Lowe" lastname="Forrest" /><author email="sswensen@ithaca.edu" firstname="Susan M." lastname="Swensen" /><author firstname="Mark C." lastname="Tebbitt" /></study></nex:external>
+    <otus id="_TaxaBlock1361297">
         <otu id="Datiscacannabina" label="Datisca cannabina" />
         <otu id="Datiscaglomerata" label="Datisca glomerata" />
         <otu id="Begoniaconchifolia" label="Begonia conchifolia" />
@@ -40,131 +40,131 @@
         <otu id="Begonianossibea" label="Begonia nossibea" />
         <otu id="Hillebrandiasandwicensis" label="Hillebrandia sandwicensis" />
     </otus>
-    <trees id="_TreesBlock1364929" otus="_TaxaBlock1364928">
+    <trees id="_TreesBlock1361298" otus="_TaxaBlock1361297">
         <tree id="Tree3287" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1159A3574" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Begoniaceae rbcL 18S and ITS" nchar="4179" /></analysis></nex:external>
-            <node id="_Node1364933" />
-            <node id="_Node1364935" otu="Datiscacannabina" />
-            <node id="_Node1364938" />
-            <node id="_Node1364940" otu="Datiscaglomerata" />
-            <node id="_Node1364943" />
-            <node id="_Node1364945" />
-            <node id="_Node1364947" />
-            <node id="_Node1364949" />
-            <node id="_Node1364951" />
-            <node id="_Node1364953" />
-            <node id="_Node1364955" />
-            <node id="_Node1364957" />
-            <node id="_Node1364959" />
-            <node id="_Node1364961" />
-            <node id="_Node1364963" />
-            <node id="_Node1364965" otu="Begoniaconchifolia" />
-            <node id="_Node1364968" otu="Begoniacrassicaulis" />
-            <node id="_Node1364971" otu="Begoniaviolifolia" />
-            <node id="_Node1364974" otu="Begoniagracilis" />
-            <node id="_Node1364977" otu="Begoniaincarnata" />
-            <node id="_Node1364980" />
-            <node id="_Node1364982" />
-            <node id="_Node1364984" otu="Begonialuxurians" />
-            <node id="_Node1364987" otu="Begoniaulmifolia" />
-            <node id="_Node1364990" otu="Begoniafuchsioides" />
-            <node id="_Node1364993" otu="Begoniacinnabarina" />
-            <node id="_Node1364996" otu="Begoniaolbia" />
-            <node id="_Node1364999" />
-            <node id="_Node1365001" />
-            <node id="_Node1365003" />
-            <node id="_Node1365005" />
-            <node id="_Node1365007" otu="Begoniaisoptera" />
-            <node id="_Node1365010" otu="Symbegoniasp" />
-            <node id="_Node1365013" />
-            <node id="_Node1365015" otu="Begonianigritarum" />
-            <node id="_Node1365018" otu="Begoniamasoniana" />
-            <node id="_Node1365021" otu="Begoniaboisiana" />
-            <node id="_Node1365024" />
-            <node id="_Node1365026" />
-            <node id="_Node1365028" otu="Begoniadiadema" />
-            <node id="_Node1365031" otu="Begoniaroxburghii" />
-            <node id="_Node1365034" />
-            <node id="_Node1365036" />
-            <node id="_Node1365038" otu="Begoniafallax" />
-            <node id="_Node1365041" otu="Begoniarubella" />
-            <node id="_Node1365044" otu="Begoniagrandis" />
-            <node id="_Node1365047" otu="Begoniaherbacea" />
-            <node id="_Node1365050" />
-            <node id="_Node1365052" />
-            <node id="_Node1365054" />
-            <node id="_Node1365056" otu="Begoniaiucunda" />
-            <node id="_Node1365059" otu="Begoniascapigera" />
-            <node id="_Node1365062" />
-            <node id="_Node1365064" otu="Begoniapoculifera" />
-            <node id="_Node1365067" />
-            <node id="_Node1365069" otu="Begoniameyerijohannis" />
-            <node id="_Node1365072" otu="Begoniaoxyloba" />
-            <node id="_Node1365075" />
-            <node id="_Node1365077" otu="Begoniaankaranensis" />
-            <node id="_Node1365080" otu="Begonianossibea" />
-            <node id="_Node1365083" otu="Hillebrandiasandwicensis" />
-            <rootedge id="_Edge1364934" target="_Node1364933" />
-            <edge id="_Edge1364936" source="_Node1364933" target="_Node1364935" />
-            <edge id="_Edge1364939" source="_Node1364933" target="_Node1364938" />
-            <edge id="_Edge1364941" source="_Node1364938" target="_Node1364940" />
-            <edge id="_Edge1364944" source="_Node1364938" target="_Node1364943" />
-            <edge id="_Edge1364946" source="_Node1364943" target="_Node1364945" />
-            <edge id="_Edge1364948" source="_Node1364945" target="_Node1364947" />
-            <edge id="_Edge1364950" source="_Node1364947" target="_Node1364949" />
-            <edge id="_Edge1364952" source="_Node1364949" target="_Node1364951" />
-            <edge id="_Edge1364954" source="_Node1364951" target="_Node1364953" />
-            <edge id="_Edge1364956" source="_Node1364953" target="_Node1364955" />
-            <edge id="_Edge1364958" source="_Node1364955" target="_Node1364957" />
-            <edge id="_Edge1364960" source="_Node1364957" target="_Node1364959" />
-            <edge id="_Edge1364962" source="_Node1364959" target="_Node1364961" />
-            <edge id="_Edge1364964" source="_Node1364961" target="_Node1364963" />
-            <edge id="_Edge1364966" source="_Node1364963" target="_Node1364965" />
-            <edge id="_Edge1364969" source="_Node1364963" target="_Node1364968" />
-            <edge id="_Edge1364972" source="_Node1364961" target="_Node1364971" />
-            <edge id="_Edge1364975" source="_Node1364959" target="_Node1364974" />
-            <edge id="_Edge1364978" source="_Node1364957" target="_Node1364977" />
-            <edge id="_Edge1364981" source="_Node1364955" target="_Node1364980" />
-            <edge id="_Edge1364983" source="_Node1364980" target="_Node1364982" />
-            <edge id="_Edge1364985" source="_Node1364982" target="_Node1364984" />
-            <edge id="_Edge1364988" source="_Node1364982" target="_Node1364987" />
-            <edge id="_Edge1364991" source="_Node1364980" target="_Node1364990" />
-            <edge id="_Edge1364994" source="_Node1364953" target="_Node1364993" />
-            <edge id="_Edge1364997" source="_Node1364951" target="_Node1364996" />
-            <edge id="_Edge1365000" source="_Node1364949" target="_Node1364999" />
-            <edge id="_Edge1365002" source="_Node1364999" target="_Node1365001" />
-            <edge id="_Edge1365004" source="_Node1365001" target="_Node1365003" />
-            <edge id="_Edge1365006" source="_Node1365003" target="_Node1365005" />
-            <edge id="_Edge1365008" source="_Node1365005" target="_Node1365007" />
-            <edge id="_Edge1365011" source="_Node1365005" target="_Node1365010" />
-            <edge id="_Edge1365014" source="_Node1365003" target="_Node1365013" />
-            <edge id="_Edge1365016" source="_Node1365013" target="_Node1365015" />
-            <edge id="_Edge1365019" source="_Node1365013" target="_Node1365018" />
-            <edge id="_Edge1365022" source="_Node1365001" target="_Node1365021" />
-            <edge id="_Edge1365025" source="_Node1364999" target="_Node1365024" />
-            <edge id="_Edge1365027" source="_Node1365024" target="_Node1365026" />
-            <edge id="_Edge1365029" source="_Node1365026" target="_Node1365028" />
-            <edge id="_Edge1365032" source="_Node1365026" target="_Node1365031" />
-            <edge id="_Edge1365035" source="_Node1365024" target="_Node1365034" />
-            <edge id="_Edge1365037" source="_Node1365034" target="_Node1365036" />
-            <edge id="_Edge1365039" source="_Node1365036" target="_Node1365038" />
-            <edge id="_Edge1365042" source="_Node1365036" target="_Node1365041" />
-            <edge id="_Edge1365045" source="_Node1365034" target="_Node1365044" />
-            <edge id="_Edge1365048" source="_Node1364947" target="_Node1365047" />
-            <edge id="_Edge1365051" source="_Node1364945" target="_Node1365050" />
-            <edge id="_Edge1365053" source="_Node1365050" target="_Node1365052" />
-            <edge id="_Edge1365055" source="_Node1365052" target="_Node1365054" />
-            <edge id="_Edge1365057" source="_Node1365054" target="_Node1365056" />
-            <edge id="_Edge1365060" source="_Node1365054" target="_Node1365059" />
-            <edge id="_Edge1365063" source="_Node1365052" target="_Node1365062" />
-            <edge id="_Edge1365065" source="_Node1365062" target="_Node1365064" />
-            <edge id="_Edge1365068" source="_Node1365062" target="_Node1365067" />
-            <edge id="_Edge1365070" source="_Node1365067" target="_Node1365069" />
-            <edge id="_Edge1365073" source="_Node1365067" target="_Node1365072" />
-            <edge id="_Edge1365076" source="_Node1365050" target="_Node1365075" />
-            <edge id="_Edge1365078" source="_Node1365075" target="_Node1365077" />
-            <edge id="_Edge1365081" source="_Node1365075" target="_Node1365080" />
-            <edge id="_Edge1365084" source="_Node1364943" target="_Node1365083" />
+            <node id="_Node1361302" />
+            <node id="_Node1361304" otu="Datiscacannabina" />
+            <node id="_Node1361307" />
+            <node id="_Node1361309" otu="Datiscaglomerata" />
+            <node id="_Node1361312" />
+            <node id="_Node1361314" />
+            <node id="_Node1361316" />
+            <node id="_Node1361318" />
+            <node id="_Node1361320" />
+            <node id="_Node1361322" />
+            <node id="_Node1361324" />
+            <node id="_Node1361326" />
+            <node id="_Node1361328" />
+            <node id="_Node1361330" />
+            <node id="_Node1361332" />
+            <node id="_Node1361334" otu="Begoniaconchifolia" />
+            <node id="_Node1361337" otu="Begoniacrassicaulis" />
+            <node id="_Node1361340" otu="Begoniaviolifolia" />
+            <node id="_Node1361343" otu="Begoniagracilis" />
+            <node id="_Node1361346" otu="Begoniaincarnata" />
+            <node id="_Node1361349" />
+            <node id="_Node1361351" />
+            <node id="_Node1361353" otu="Begonialuxurians" />
+            <node id="_Node1361356" otu="Begoniaulmifolia" />
+            <node id="_Node1361359" otu="Begoniafuchsioides" />
+            <node id="_Node1361362" otu="Begoniacinnabarina" />
+            <node id="_Node1361365" otu="Begoniaolbia" />
+            <node id="_Node1361368" />
+            <node id="_Node1361370" />
+            <node id="_Node1361372" />
+            <node id="_Node1361374" />
+            <node id="_Node1361376" otu="Begoniaisoptera" />
+            <node id="_Node1361379" otu="Symbegoniasp" />
+            <node id="_Node1361382" />
+            <node id="_Node1361384" otu="Begonianigritarum" />
+            <node id="_Node1361387" otu="Begoniamasoniana" />
+            <node id="_Node1361390" otu="Begoniaboisiana" />
+            <node id="_Node1361393" />
+            <node id="_Node1361395" />
+            <node id="_Node1361397" otu="Begoniadiadema" />
+            <node id="_Node1361400" otu="Begoniaroxburghii" />
+            <node id="_Node1361403" />
+            <node id="_Node1361405" />
+            <node id="_Node1361407" otu="Begoniafallax" />
+            <node id="_Node1361410" otu="Begoniarubella" />
+            <node id="_Node1361413" otu="Begoniagrandis" />
+            <node id="_Node1361416" otu="Begoniaherbacea" />
+            <node id="_Node1361419" />
+            <node id="_Node1361421" />
+            <node id="_Node1361423" />
+            <node id="_Node1361425" otu="Begoniaiucunda" />
+            <node id="_Node1361428" otu="Begoniascapigera" />
+            <node id="_Node1361431" />
+            <node id="_Node1361433" otu="Begoniapoculifera" />
+            <node id="_Node1361436" />
+            <node id="_Node1361438" otu="Begoniameyerijohannis" />
+            <node id="_Node1361441" otu="Begoniaoxyloba" />
+            <node id="_Node1361444" />
+            <node id="_Node1361446" otu="Begoniaankaranensis" />
+            <node id="_Node1361449" otu="Begonianossibea" />
+            <node id="_Node1361452" otu="Hillebrandiasandwicensis" />
+            <rootedge id="_Edge1361303" target="_Node1361302" />
+            <edge id="_Edge1361305" source="_Node1361302" target="_Node1361304" />
+            <edge id="_Edge1361308" source="_Node1361302" target="_Node1361307" />
+            <edge id="_Edge1361310" source="_Node1361307" target="_Node1361309" />
+            <edge id="_Edge1361313" source="_Node1361307" target="_Node1361312" />
+            <edge id="_Edge1361315" source="_Node1361312" target="_Node1361314" />
+            <edge id="_Edge1361317" source="_Node1361314" target="_Node1361316" />
+            <edge id="_Edge1361319" source="_Node1361316" target="_Node1361318" />
+            <edge id="_Edge1361321" source="_Node1361318" target="_Node1361320" />
+            <edge id="_Edge1361323" source="_Node1361320" target="_Node1361322" />
+            <edge id="_Edge1361325" source="_Node1361322" target="_Node1361324" />
+            <edge id="_Edge1361327" source="_Node1361324" target="_Node1361326" />
+            <edge id="_Edge1361329" source="_Node1361326" target="_Node1361328" />
+            <edge id="_Edge1361331" source="_Node1361328" target="_Node1361330" />
+            <edge id="_Edge1361333" source="_Node1361330" target="_Node1361332" />
+            <edge id="_Edge1361335" source="_Node1361332" target="_Node1361334" />
+            <edge id="_Edge1361338" source="_Node1361332" target="_Node1361337" />
+            <edge id="_Edge1361341" source="_Node1361330" target="_Node1361340" />
+            <edge id="_Edge1361344" source="_Node1361328" target="_Node1361343" />
+            <edge id="_Edge1361347" source="_Node1361326" target="_Node1361346" />
+            <edge id="_Edge1361350" source="_Node1361324" target="_Node1361349" />
+            <edge id="_Edge1361352" source="_Node1361349" target="_Node1361351" />
+            <edge id="_Edge1361354" source="_Node1361351" target="_Node1361353" />
+            <edge id="_Edge1361357" source="_Node1361351" target="_Node1361356" />
+            <edge id="_Edge1361360" source="_Node1361349" target="_Node1361359" />
+            <edge id="_Edge1361363" source="_Node1361322" target="_Node1361362" />
+            <edge id="_Edge1361366" source="_Node1361320" target="_Node1361365" />
+            <edge id="_Edge1361369" source="_Node1361318" target="_Node1361368" />
+            <edge id="_Edge1361371" source="_Node1361368" target="_Node1361370" />
+            <edge id="_Edge1361373" source="_Node1361370" target="_Node1361372" />
+            <edge id="_Edge1361375" source="_Node1361372" target="_Node1361374" />
+            <edge id="_Edge1361377" source="_Node1361374" target="_Node1361376" />
+            <edge id="_Edge1361380" source="_Node1361374" target="_Node1361379" />
+            <edge id="_Edge1361383" source="_Node1361372" target="_Node1361382" />
+            <edge id="_Edge1361385" source="_Node1361382" target="_Node1361384" />
+            <edge id="_Edge1361388" source="_Node1361382" target="_Node1361387" />
+            <edge id="_Edge1361391" source="_Node1361370" target="_Node1361390" />
+            <edge id="_Edge1361394" source="_Node1361368" target="_Node1361393" />
+            <edge id="_Edge1361396" source="_Node1361393" target="_Node1361395" />
+            <edge id="_Edge1361398" source="_Node1361395" target="_Node1361397" />
+            <edge id="_Edge1361401" source="_Node1361395" target="_Node1361400" />
+            <edge id="_Edge1361404" source="_Node1361393" target="_Node1361403" />
+            <edge id="_Edge1361406" source="_Node1361403" target="_Node1361405" />
+            <edge id="_Edge1361408" source="_Node1361405" target="_Node1361407" />
+            <edge id="_Edge1361411" source="_Node1361405" target="_Node1361410" />
+            <edge id="_Edge1361414" source="_Node1361403" target="_Node1361413" />
+            <edge id="_Edge1361417" source="_Node1361316" target="_Node1361416" />
+            <edge id="_Edge1361420" source="_Node1361314" target="_Node1361419" />
+            <edge id="_Edge1361422" source="_Node1361419" target="_Node1361421" />
+            <edge id="_Edge1361424" source="_Node1361421" target="_Node1361423" />
+            <edge id="_Edge1361426" source="_Node1361423" target="_Node1361425" />
+            <edge id="_Edge1361429" source="_Node1361423" target="_Node1361428" />
+            <edge id="_Edge1361432" source="_Node1361421" target="_Node1361431" />
+            <edge id="_Edge1361434" source="_Node1361431" target="_Node1361433" />
+            <edge id="_Edge1361437" source="_Node1361431" target="_Node1361436" />
+            <edge id="_Edge1361439" source="_Node1361436" target="_Node1361438" />
+            <edge id="_Edge1361442" source="_Node1361436" target="_Node1361441" />
+            <edge id="_Edge1361445" source="_Node1361419" target="_Node1361444" />
+            <edge id="_Edge1361447" source="_Node1361444" target="_Node1361446" />
+            <edge id="_Edge1361450" source="_Node1361444" target="_Node1361449" />
+            <edge id="_Edge1361453" source="_Node1361312" target="_Node1361452" />
         </tree>
     </trees>
 </nex:nexml>

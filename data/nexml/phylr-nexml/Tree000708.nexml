@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S326"><citation>Lutzoni, F. M. 1997. Phylogeny of lichen- and non-lichen-forming omphalinoid mushrooms and the utility of testing for combinability among multiple data sets. Syst. Biol., 46(3): 373-406.</citation><author email="lutzoni@fmppr.fmnh.org" firstname="Francois M." lastname="Lutzoni" /></study></nex:external>
-    <otus id="_TaxaBlock243650">
+<nex:external xmlns="dbhack1/phylr"><study id="S326"><citation>Lutzoni, F. M. 1997. Phylogeny of lichen- and non-lichen-forming omphalinoid mushrooms and the utility of testing for combinability among multiple data sets. Syst. Biol., 46(3): 373-406.</citation><abstract>As an initial step toward developing a model system to study requirements for and consequences of transitions to mutualism, the phylogeny of a group of closely related lichenized and nonlichenized basidiomycetes (Omphalina) was reconstructed. The phylogenetic analyses are based on four data sets representing different regions of the nuclear ribosomal repeat unit (ITS1, 5.8S, ITS2, and 25S) obtained from 30 species of Omphalina and related genera. The resulting phylogenetic trees from each of these four data sets, when analyzed separately, were not identical. Testing for the combinability of these four data sets suggested that they could not be combined in their entirety. The removal of ambiguous alignments and saturated sites was sufficient, after reapplying the combinability test on the pruned data sets, to explain the topological discrepancies. In this process, the first of two complementary tests developed by Rodrigo et al. (1993, N.Z. J. Bot. 31:257--268) to assess whether two data sets are the result of the same phylogenetic history was found to be biased, rejecting the combinability of two data sets even when they are samples of the same phylogenetic history. Combining the four pruned data sets yielded phylogenies that suggest the five lichen-forming species of Omphalina form a monophyletic group. The sister group to this symbiotic clade consists mostly of dark brown Omphalina species intermixed with species from the genera Arrhenia and Phaeothellus. The genera Omphalina and Gerronema are shown to be polyphyletic. The lichen-forming species O. ericetorum and the nonmutualistic species O. velutipes, O. epichysium, and O. sphagnicola are the best candidates for experimental work designed to gain a better understanding of mechanisms involved in symbiotic interactions and the role symbiosis has played in the evolution of fungi. Basidiomycetes; data set combinability; data set homogeneity; fungi; lichen symbiosis; model system; molecular phylogenies; mutualism; nuclear ribosomal RNA; Omphalina; phylogenetic signal. 1 Present address: Department of Botany, Field Museum of Natural History, Roosevelt Road at Lake Shore Drive, Chicago, Illinois 60605, USA. E-mail: lutzoni@fmppr.fmnh.org.</abstract><author email="lutzoni@fmppr.fmnh.org" firstname="Francois M." lastname="Lutzoni" /></study></nex:external>
+    <otus id="_TaxaBlock241555">
         <otu id="Multiclavulavernalis" label="Multiclavula vernalis" />
         <otu id="Multiclavulacorynoides" label="Multiclavula corynoides" />
         <otu id="Lentinuslepideus" label="Lentinus lepideus" />
@@ -40,131 +40,131 @@
         <otu id="Arrheniaauriscalpium" label="Arrhenia auriscalpium" />
         <otu id="Arrhenialobata" label="Arrhenia lobata" />
     </otus>
-    <trees id="_TreesBlock243651" otus="_TaxaBlock243650">
+    <trees id="_TreesBlock241556" otus="_TaxaBlock241555">
         <tree id="Tree1043" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S326A183" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="25S nrDNA" nchar="1264" /></analysis></nex:external>
-            <node id="_Node243655" />
-            <node id="_Node243657" otu="Multiclavulavernalis" />
-            <node id="_Node243660" />
-            <node id="_Node243662" otu="Multiclavulacorynoides" />
-            <node id="_Node243665" />
-            <node id="_Node243667" otu="Lentinuslepideus" />
-            <node id="_Node243670" />
-            <node id="_Node243672" />
-            <node id="_Node243674" otu="Omphalinabrevibasidiata" />
-            <node id="_Node243677" />
-            <node id="_Node243679" otu="Rickenellamellea" />
-            <node id="_Node243682" />
-            <node id="_Node243684" otu="Rickenellapseudogrisella" />
-            <node id="_Node243687" />
-            <node id="_Node243689" otu="Omphalinarosella" />
-            <node id="_Node243692" otu="Gerronemamarchantiae" />
-            <node id="_Node243695" />
-            <node id="_Node243697" />
-            <node id="_Node243699" otu="Gerronemastrombodes" />
-            <node id="_Node243702" otu="Gerronemasubclavatum" />
-            <node id="_Node243705" />
-            <node id="_Node243707" />
-            <node id="_Node243709" otu="Chrysomphalinachrysophylla" />
-            <node id="_Node243712" />
-            <node id="_Node243714" otu="Omphalinawynniae" />
-            <node id="_Node243717" otu="Omphalinagrossula" />
-            <node id="_Node243720" />
-            <node id="_Node243722" />
-            <node id="_Node243724" otu="Clitocybelateritia" />
-            <node id="_Node243727" />
-            <node id="_Node243729" otu="Omphalinarivulicola" />
-            <node id="_Node243732" otu="Omphalinapyxidata" />
-            <node id="_Node243735" />
-            <node id="_Node243737" otu="Hygrocybecitrinopallida" />
-            <node id="_Node243740" />
-            <node id="_Node243742" />
-            <node id="_Node243744" otu="Omphalinaericetorum" />
-            <node id="_Node243747" />
-            <node id="_Node243749" />
-            <node id="_Node243751" otu="Omphalinaluteovitellina" />
-            <node id="_Node243754" otu="Omphalinahudsoniana" />
-            <node id="_Node243757" />
-            <node id="_Node243759" otu="Omphalinagrisella" />
-            <node id="_Node243762" otu="Omphalinavelutina" />
-            <node id="_Node243765" />
-            <node id="_Node243767" otu="Omphalinavelutipes" />
-            <node id="_Node243770" />
-            <node id="_Node243772" />
-            <node id="_Node243774" otu="Omphalinaepichysium" />
-            <node id="_Node243777" />
-            <node id="_Node243779" otu="Omphalinaphilonotis" />
-            <node id="_Node243782" otu="Omphalinasphagnicola" />
-            <node id="_Node243785" />
-            <node id="_Node243787" />
-            <node id="_Node243789" otu="Omphalinaobscurata" />
-            <node id="_Node243792" otu="Phaeotellusgriseopallidus" />
-            <node id="_Node243795" />
-            <node id="_Node243797" otu="Omphalinaviridis" />
-            <node id="_Node243800" />
-            <node id="_Node243802" otu="Arrheniaauriscalpium" />
-            <node id="_Node243805" otu="Arrhenialobata" />
-            <rootedge id="_Edge243656" target="_Node243655" />
-            <edge id="_Edge243658" source="_Node243655" target="_Node243657" />
-            <edge id="_Edge243661" source="_Node243655" target="_Node243660" />
-            <edge id="_Edge243663" source="_Node243660" target="_Node243662" />
-            <edge id="_Edge243666" source="_Node243660" target="_Node243665" />
-            <edge id="_Edge243668" source="_Node243665" target="_Node243667" />
-            <edge id="_Edge243671" source="_Node243665" target="_Node243670" />
-            <edge id="_Edge243673" source="_Node243670" target="_Node243672" />
-            <edge id="_Edge243675" source="_Node243672" target="_Node243674" />
-            <edge id="_Edge243678" source="_Node243672" target="_Node243677" />
-            <edge id="_Edge243680" source="_Node243677" target="_Node243679" />
-            <edge id="_Edge243683" source="_Node243677" target="_Node243682" />
-            <edge id="_Edge243685" source="_Node243682" target="_Node243684" />
-            <edge id="_Edge243688" source="_Node243682" target="_Node243687" />
-            <edge id="_Edge243690" source="_Node243687" target="_Node243689" />
-            <edge id="_Edge243693" source="_Node243687" target="_Node243692" />
-            <edge id="_Edge243696" source="_Node243670" target="_Node243695" />
-            <edge id="_Edge243698" source="_Node243695" target="_Node243697" />
-            <edge id="_Edge243700" source="_Node243697" target="_Node243699" />
-            <edge id="_Edge243703" source="_Node243697" target="_Node243702" />
-            <edge id="_Edge243706" source="_Node243695" target="_Node243705" />
-            <edge id="_Edge243708" source="_Node243705" target="_Node243707" />
-            <edge id="_Edge243710" source="_Node243707" target="_Node243709" />
-            <edge id="_Edge243713" source="_Node243707" target="_Node243712" />
-            <edge id="_Edge243715" source="_Node243712" target="_Node243714" />
-            <edge id="_Edge243718" source="_Node243712" target="_Node243717" />
-            <edge id="_Edge243721" source="_Node243705" target="_Node243720" />
-            <edge id="_Edge243723" source="_Node243720" target="_Node243722" />
-            <edge id="_Edge243725" source="_Node243722" target="_Node243724" />
-            <edge id="_Edge243728" source="_Node243722" target="_Node243727" />
-            <edge id="_Edge243730" source="_Node243727" target="_Node243729" />
-            <edge id="_Edge243733" source="_Node243727" target="_Node243732" />
-            <edge id="_Edge243736" source="_Node243720" target="_Node243735" />
-            <edge id="_Edge243738" source="_Node243735" target="_Node243737" />
-            <edge id="_Edge243741" source="_Node243735" target="_Node243740" />
-            <edge id="_Edge243743" source="_Node243740" target="_Node243742" />
-            <edge id="_Edge243745" source="_Node243742" target="_Node243744" />
-            <edge id="_Edge243748" source="_Node243742" target="_Node243747" />
-            <edge id="_Edge243750" source="_Node243747" target="_Node243749" />
-            <edge id="_Edge243752" source="_Node243749" target="_Node243751" />
-            <edge id="_Edge243755" source="_Node243749" target="_Node243754" />
-            <edge id="_Edge243758" source="_Node243747" target="_Node243757" />
-            <edge id="_Edge243760" source="_Node243757" target="_Node243759" />
-            <edge id="_Edge243763" source="_Node243757" target="_Node243762" />
-            <edge id="_Edge243766" source="_Node243740" target="_Node243765" />
-            <edge id="_Edge243768" source="_Node243765" target="_Node243767" />
-            <edge id="_Edge243771" source="_Node243765" target="_Node243770" />
-            <edge id="_Edge243773" source="_Node243770" target="_Node243772" />
-            <edge id="_Edge243775" source="_Node243772" target="_Node243774" />
-            <edge id="_Edge243778" source="_Node243772" target="_Node243777" />
-            <edge id="_Edge243780" source="_Node243777" target="_Node243779" />
-            <edge id="_Edge243783" source="_Node243777" target="_Node243782" />
-            <edge id="_Edge243786" source="_Node243770" target="_Node243785" />
-            <edge id="_Edge243788" source="_Node243785" target="_Node243787" />
-            <edge id="_Edge243790" source="_Node243787" target="_Node243789" />
-            <edge id="_Edge243793" source="_Node243787" target="_Node243792" />
-            <edge id="_Edge243796" source="_Node243785" target="_Node243795" />
-            <edge id="_Edge243798" source="_Node243795" target="_Node243797" />
-            <edge id="_Edge243801" source="_Node243795" target="_Node243800" />
-            <edge id="_Edge243803" source="_Node243800" target="_Node243802" />
-            <edge id="_Edge243806" source="_Node243800" target="_Node243805" />
+            <node id="_Node241560" />
+            <node id="_Node241562" otu="Multiclavulavernalis" />
+            <node id="_Node241565" />
+            <node id="_Node241567" otu="Multiclavulacorynoides" />
+            <node id="_Node241570" />
+            <node id="_Node241572" otu="Lentinuslepideus" />
+            <node id="_Node241575" />
+            <node id="_Node241577" />
+            <node id="_Node241579" otu="Omphalinabrevibasidiata" />
+            <node id="_Node241582" />
+            <node id="_Node241584" otu="Rickenellamellea" />
+            <node id="_Node241587" />
+            <node id="_Node241589" otu="Rickenellapseudogrisella" />
+            <node id="_Node241592" />
+            <node id="_Node241594" otu="Omphalinarosella" />
+            <node id="_Node241597" otu="Gerronemamarchantiae" />
+            <node id="_Node241600" />
+            <node id="_Node241602" />
+            <node id="_Node241604" otu="Gerronemastrombodes" />
+            <node id="_Node241607" otu="Gerronemasubclavatum" />
+            <node id="_Node241610" />
+            <node id="_Node241612" />
+            <node id="_Node241614" otu="Chrysomphalinachrysophylla" />
+            <node id="_Node241617" />
+            <node id="_Node241619" otu="Omphalinawynniae" />
+            <node id="_Node241622" otu="Omphalinagrossula" />
+            <node id="_Node241625" />
+            <node id="_Node241627" />
+            <node id="_Node241629" otu="Clitocybelateritia" />
+            <node id="_Node241632" />
+            <node id="_Node241634" otu="Omphalinarivulicola" />
+            <node id="_Node241637" otu="Omphalinapyxidata" />
+            <node id="_Node241640" />
+            <node id="_Node241642" otu="Hygrocybecitrinopallida" />
+            <node id="_Node241645" />
+            <node id="_Node241647" />
+            <node id="_Node241649" otu="Omphalinaericetorum" />
+            <node id="_Node241652" />
+            <node id="_Node241654" />
+            <node id="_Node241656" otu="Omphalinaluteovitellina" />
+            <node id="_Node241659" otu="Omphalinahudsoniana" />
+            <node id="_Node241662" />
+            <node id="_Node241664" otu="Omphalinagrisella" />
+            <node id="_Node241667" otu="Omphalinavelutina" />
+            <node id="_Node241670" />
+            <node id="_Node241672" otu="Omphalinavelutipes" />
+            <node id="_Node241675" />
+            <node id="_Node241677" />
+            <node id="_Node241679" otu="Omphalinaepichysium" />
+            <node id="_Node241682" />
+            <node id="_Node241684" otu="Omphalinaphilonotis" />
+            <node id="_Node241687" otu="Omphalinasphagnicola" />
+            <node id="_Node241690" />
+            <node id="_Node241692" />
+            <node id="_Node241694" otu="Omphalinaobscurata" />
+            <node id="_Node241697" otu="Phaeotellusgriseopallidus" />
+            <node id="_Node241700" />
+            <node id="_Node241702" otu="Omphalinaviridis" />
+            <node id="_Node241705" />
+            <node id="_Node241707" otu="Arrheniaauriscalpium" />
+            <node id="_Node241710" otu="Arrhenialobata" />
+            <rootedge id="_Edge241561" target="_Node241560" />
+            <edge id="_Edge241563" source="_Node241560" target="_Node241562" />
+            <edge id="_Edge241566" source="_Node241560" target="_Node241565" />
+            <edge id="_Edge241568" source="_Node241565" target="_Node241567" />
+            <edge id="_Edge241571" source="_Node241565" target="_Node241570" />
+            <edge id="_Edge241573" source="_Node241570" target="_Node241572" />
+            <edge id="_Edge241576" source="_Node241570" target="_Node241575" />
+            <edge id="_Edge241578" source="_Node241575" target="_Node241577" />
+            <edge id="_Edge241580" source="_Node241577" target="_Node241579" />
+            <edge id="_Edge241583" source="_Node241577" target="_Node241582" />
+            <edge id="_Edge241585" source="_Node241582" target="_Node241584" />
+            <edge id="_Edge241588" source="_Node241582" target="_Node241587" />
+            <edge id="_Edge241590" source="_Node241587" target="_Node241589" />
+            <edge id="_Edge241593" source="_Node241587" target="_Node241592" />
+            <edge id="_Edge241595" source="_Node241592" target="_Node241594" />
+            <edge id="_Edge241598" source="_Node241592" target="_Node241597" />
+            <edge id="_Edge241601" source="_Node241575" target="_Node241600" />
+            <edge id="_Edge241603" source="_Node241600" target="_Node241602" />
+            <edge id="_Edge241605" source="_Node241602" target="_Node241604" />
+            <edge id="_Edge241608" source="_Node241602" target="_Node241607" />
+            <edge id="_Edge241611" source="_Node241600" target="_Node241610" />
+            <edge id="_Edge241613" source="_Node241610" target="_Node241612" />
+            <edge id="_Edge241615" source="_Node241612" target="_Node241614" />
+            <edge id="_Edge241618" source="_Node241612" target="_Node241617" />
+            <edge id="_Edge241620" source="_Node241617" target="_Node241619" />
+            <edge id="_Edge241623" source="_Node241617" target="_Node241622" />
+            <edge id="_Edge241626" source="_Node241610" target="_Node241625" />
+            <edge id="_Edge241628" source="_Node241625" target="_Node241627" />
+            <edge id="_Edge241630" source="_Node241627" target="_Node241629" />
+            <edge id="_Edge241633" source="_Node241627" target="_Node241632" />
+            <edge id="_Edge241635" source="_Node241632" target="_Node241634" />
+            <edge id="_Edge241638" source="_Node241632" target="_Node241637" />
+            <edge id="_Edge241641" source="_Node241625" target="_Node241640" />
+            <edge id="_Edge241643" source="_Node241640" target="_Node241642" />
+            <edge id="_Edge241646" source="_Node241640" target="_Node241645" />
+            <edge id="_Edge241648" source="_Node241645" target="_Node241647" />
+            <edge id="_Edge241650" source="_Node241647" target="_Node241649" />
+            <edge id="_Edge241653" source="_Node241647" target="_Node241652" />
+            <edge id="_Edge241655" source="_Node241652" target="_Node241654" />
+            <edge id="_Edge241657" source="_Node241654" target="_Node241656" />
+            <edge id="_Edge241660" source="_Node241654" target="_Node241659" />
+            <edge id="_Edge241663" source="_Node241652" target="_Node241662" />
+            <edge id="_Edge241665" source="_Node241662" target="_Node241664" />
+            <edge id="_Edge241668" source="_Node241662" target="_Node241667" />
+            <edge id="_Edge241671" source="_Node241645" target="_Node241670" />
+            <edge id="_Edge241673" source="_Node241670" target="_Node241672" />
+            <edge id="_Edge241676" source="_Node241670" target="_Node241675" />
+            <edge id="_Edge241678" source="_Node241675" target="_Node241677" />
+            <edge id="_Edge241680" source="_Node241677" target="_Node241679" />
+            <edge id="_Edge241683" source="_Node241677" target="_Node241682" />
+            <edge id="_Edge241685" source="_Node241682" target="_Node241684" />
+            <edge id="_Edge241688" source="_Node241682" target="_Node241687" />
+            <edge id="_Edge241691" source="_Node241675" target="_Node241690" />
+            <edge id="_Edge241693" source="_Node241690" target="_Node241692" />
+            <edge id="_Edge241695" source="_Node241692" target="_Node241694" />
+            <edge id="_Edge241698" source="_Node241692" target="_Node241697" />
+            <edge id="_Edge241701" source="_Node241690" target="_Node241700" />
+            <edge id="_Edge241703" source="_Node241700" target="_Node241702" />
+            <edge id="_Edge241706" source="_Node241700" target="_Node241705" />
+            <edge id="_Edge241708" source="_Node241705" target="_Node241707" />
+            <edge id="_Edge241711" source="_Node241705" target="_Node241710" />
         </tree>
     </trees>
 </nex:nexml>

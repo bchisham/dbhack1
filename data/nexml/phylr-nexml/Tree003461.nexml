@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S1494"><citation>Stewart, J.E., Kim, M.-S., James, R.L., Dumerose, R.K., and N.B. Klopfenstein. 2006. Molecular characterizion of highly pathogenic F. oxysporum from a conifer nursery. Phytopathology, in press.</citation><author email="kdumroses@fs.fed.us" firstname="R. Kasten" lastname="Dumroese" /><author email="rjames@fs.fed.us" firstname="Robert L." lastname="James" /><author email="mkim@fs.fed.us" firstname="Mee-Sook" lastname="Kim" /><author email="nklopfenstein@fs.fed.us" firstname="Ned B." lastname="Klopfenstein" /><author email="janestewart@fs.fed.us" firstname="Jane E. " lastname="Stewart" /></study></nex:external>
-    <otus id="_TaxaBlock2016600">
+<nex:external xmlns="dbhack1/phylr"><study id="S1494"><citation>Stewart, J.E., Kim, M.-S., James, R.L., Dumerose, R.K., and N.B. Klopfenstein. 2006. Molecular characterizion of highly pathogenic F. oxysporum from a conifer nursery. Phytopathology, in press.</citation><abstract>Fusarium oxysporum can cause severe root disease and damping-off in conifer nurseries. Inoculum is commonly found in most container and bare-root nurseries on healthy and diseased seedlings, in nursery soils, and on conifer seeds. Isolates of F. oxysporum can differ in virulence; however, virulence and colony morphology are not correlated. Forty-one isolates of F. oxysporum collected from nursery samples (soils, healthy seedlings, and diseased seedlings) were characterized by amplified fragment length polymorphism (AFLP) and DNA sequencing of nuclear rDNA (internal transcribed spacer including 5.8S rDNA), mitochondrial rDNA (small subunit: mtSSU), and nuclear translation elongation factor 1&#195;&#161;. Each isolate had a unique AFLP phenotype. Out of 121 loci, 111 (92%) were polymorphic; 30 alleles were unique to only highly virulent isolates and 33 alleles were unique to only non-pathogenic isolates. Maximum parsimony and Bayesian analyses of DNA sequences from all three regions and the combined dataset showed that all highly virulent isolates separated into a common clade, with 100% bootstrap and posterior probability support. The AFLP cladograms had similar topologies when compared to the DNA-based phylograms. Several AFLP genetic markers and mtSSU sequences offer potential for development of molecular markers that could be used to detect highly virulent isolates of F. oxysporum in forest nurseries.</abstract><author email="kdumroses@fs.fed.us" firstname="R. Kasten" lastname="Dumroese" /><author email="rjames@fs.fed.us" firstname="Robert L." lastname="James" /><author email="mkim@fs.fed.us" firstname="Mee-Sook" lastname="Kim" /><author email="nklopfenstein@fs.fed.us" firstname="Ned B." lastname="Klopfenstein" /><author email="janestewart@fs.fed.us" firstname="Jane E. " lastname="Stewart" /></study></nex:external>
+    <otus id="_TaxaBlock2012969">
         <otu id="FusariumredolensNRRL31255" label="Fusarium redolens NRRL31255" />
         <otu id="Fusariumprolifertum9223F" label="Fusarium prolifertum 9223F" />
         <otu id="Fusariumprolifertum9721B" label="Fusarium prolifertum 9721B" />
@@ -29,79 +29,79 @@
         <otu id="Fusariummelonis0348" label="Fusarium melonis 0348" />
         <otu id="Fusariumoxysporum9302E" label="Fusarium oxysporum 9302E" />
     </otus>
-    <trees id="_TreesBlock2016601" otus="_TaxaBlock2016600">
+    <trees id="_TreesBlock2012970" otus="_TaxaBlock2012969">
         <tree id="Tree4262" label="Fig. 4 MP" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1494A5458" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Fig 4 Stewart et al" nchar="661" /></analysis></nex:external>
-            <node id="_Node2016605" />
-            <node id="_Node2016607" otu="FusariumredolensNRRL31255" />
-            <node id="_Node2016610" />
-            <node id="_Node2016612" />
-            <node id="_Node2016614" otu="Fusariumprolifertum9223F" />
-            <node id="_Node2016617" otu="Fusariumprolifertum9721B" />
-            <node id="_Node2016620" />
-            <node id="_Node2016622" />
-            <node id="_Node2016624" otu="Fusariumoxysporum9245H" />
-            <node id="_Node2016627" otu="Fusariumoxysporum9447J" />
-            <node id="_Node2016630" otu="Fusariumoxysporum9449A" />
-            <node id="_Node2016633" />
-            <node id="_Node2016635" />
-            <node id="_Node2016637" otu="Fusariumoxysporum9312D" />
-            <node id="_Node2016640" otu="Fusariumoxysporum9313Q" />
-            <node id="_Node2016643" otu="Fusariumoxysporum9302G" />
-            <node id="_Node2016646" />
-            <node id="_Node2016648" otu="Fusariumoxysporum9448M" />
-            <node id="_Node2016651" otu="Fusariumoxysporum9302A" />
-            <node id="_Node2016654" otu="Fusariumoxysporum9458B" />
-            <node id="_Node2016657" />
-            <node id="_Node2016659" />
-            <node id="_Node2016661" />
-            <node id="_Node2016663" />
-            <node id="_Node2016665" />
-            <node id="_Node2016667" />
-            <node id="_Node2016669" otu="Fusariumoxysporum9315G" />
-            <node id="_Node2016672" otu="Fusariumoxysporum9343E" />
-            <node id="_Node2016675" otu="Fusariumoxysporum9348F" />
-            <node id="_Node2016678" otu="Fusariumoxysporum9411B" />
-            <node id="_Node2016681" otu="Fusariumlycopersici0350" />
-            <node id="_Node2016684" />
-            <node id="_Node2016686" otu="Fusariumoxysporum9665J" />
-            <node id="_Node2016689" otu="Fusariummelonis0348" />
-            <node id="_Node2016692" otu="Fusariumoxysporum9302E" />
-            <rootedge id="_Edge2016606" target="_Node2016605" />
-            <edge id="_Edge2016608" source="_Node2016605" target="_Node2016607" />
-            <edge id="_Edge2016611" source="_Node2016605" target="_Node2016610" />
-            <edge id="_Edge2016613" source="_Node2016610" target="_Node2016612" />
-            <edge id="_Edge2016615" source="_Node2016612" target="_Node2016614" />
-            <edge id="_Edge2016618" source="_Node2016612" target="_Node2016617" />
-            <edge id="_Edge2016621" source="_Node2016610" target="_Node2016620" />
-            <edge id="_Edge2016623" source="_Node2016620" target="_Node2016622" />
-            <edge id="_Edge2016625" source="_Node2016622" target="_Node2016624" />
-            <edge id="_Edge2016628" source="_Node2016622" target="_Node2016627" />
-            <edge id="_Edge2016631" source="_Node2016622" target="_Node2016630" />
-            <edge id="_Edge2016634" source="_Node2016620" target="_Node2016633" />
-            <edge id="_Edge2016636" source="_Node2016633" target="_Node2016635" />
-            <edge id="_Edge2016638" source="_Node2016635" target="_Node2016637" />
-            <edge id="_Edge2016641" source="_Node2016635" target="_Node2016640" />
-            <edge id="_Edge2016644" source="_Node2016635" target="_Node2016643" />
-            <edge id="_Edge2016647" source="_Node2016635" target="_Node2016646" />
-            <edge id="_Edge2016649" source="_Node2016646" target="_Node2016648" />
-            <edge id="_Edge2016652" source="_Node2016646" target="_Node2016651" />
-            <edge id="_Edge2016655" source="_Node2016633" target="_Node2016654" />
-            <edge id="_Edge2016658" source="_Node2016605" target="_Node2016657" />
-            <edge id="_Edge2016660" source="_Node2016657" target="_Node2016659" />
-            <edge id="_Edge2016662" source="_Node2016659" target="_Node2016661" />
-            <edge id="_Edge2016664" source="_Node2016661" target="_Node2016663" />
-            <edge id="_Edge2016666" source="_Node2016663" target="_Node2016665" />
-            <edge id="_Edge2016668" source="_Node2016665" target="_Node2016667" />
-            <edge id="_Edge2016670" source="_Node2016667" target="_Node2016669" />
-            <edge id="_Edge2016673" source="_Node2016667" target="_Node2016672" />
-            <edge id="_Edge2016676" source="_Node2016665" target="_Node2016675" />
-            <edge id="_Edge2016679" source="_Node2016663" target="_Node2016678" />
-            <edge id="_Edge2016682" source="_Node2016661" target="_Node2016681" />
-            <edge id="_Edge2016685" source="_Node2016659" target="_Node2016684" />
-            <edge id="_Edge2016687" source="_Node2016684" target="_Node2016686" />
-            <edge id="_Edge2016690" source="_Node2016684" target="_Node2016689" />
-            <edge id="_Edge2016693" source="_Node2016657" target="_Node2016692" />
+            <node id="_Node2012974" />
+            <node id="_Node2012976" otu="FusariumredolensNRRL31255" />
+            <node id="_Node2012979" />
+            <node id="_Node2012981" />
+            <node id="_Node2012983" otu="Fusariumprolifertum9223F" />
+            <node id="_Node2012986" otu="Fusariumprolifertum9721B" />
+            <node id="_Node2012989" />
+            <node id="_Node2012991" />
+            <node id="_Node2012993" otu="Fusariumoxysporum9245H" />
+            <node id="_Node2012996" otu="Fusariumoxysporum9447J" />
+            <node id="_Node2012999" otu="Fusariumoxysporum9449A" />
+            <node id="_Node2013002" />
+            <node id="_Node2013004" />
+            <node id="_Node2013006" otu="Fusariumoxysporum9312D" />
+            <node id="_Node2013009" otu="Fusariumoxysporum9313Q" />
+            <node id="_Node2013012" otu="Fusariumoxysporum9302G" />
+            <node id="_Node2013015" />
+            <node id="_Node2013017" otu="Fusariumoxysporum9448M" />
+            <node id="_Node2013020" otu="Fusariumoxysporum9302A" />
+            <node id="_Node2013023" otu="Fusariumoxysporum9458B" />
+            <node id="_Node2013026" />
+            <node id="_Node2013028" />
+            <node id="_Node2013030" />
+            <node id="_Node2013032" />
+            <node id="_Node2013034" />
+            <node id="_Node2013036" />
+            <node id="_Node2013038" otu="Fusariumoxysporum9315G" />
+            <node id="_Node2013041" otu="Fusariumoxysporum9343E" />
+            <node id="_Node2013044" otu="Fusariumoxysporum9348F" />
+            <node id="_Node2013047" otu="Fusariumoxysporum9411B" />
+            <node id="_Node2013050" otu="Fusariumlycopersici0350" />
+            <node id="_Node2013053" />
+            <node id="_Node2013055" otu="Fusariumoxysporum9665J" />
+            <node id="_Node2013058" otu="Fusariummelonis0348" />
+            <node id="_Node2013061" otu="Fusariumoxysporum9302E" />
+            <rootedge id="_Edge2012975" target="_Node2012974" />
+            <edge id="_Edge2012977" source="_Node2012974" target="_Node2012976" />
+            <edge id="_Edge2012980" source="_Node2012974" target="_Node2012979" />
+            <edge id="_Edge2012982" source="_Node2012979" target="_Node2012981" />
+            <edge id="_Edge2012984" source="_Node2012981" target="_Node2012983" />
+            <edge id="_Edge2012987" source="_Node2012981" target="_Node2012986" />
+            <edge id="_Edge2012990" source="_Node2012979" target="_Node2012989" />
+            <edge id="_Edge2012992" source="_Node2012989" target="_Node2012991" />
+            <edge id="_Edge2012994" source="_Node2012991" target="_Node2012993" />
+            <edge id="_Edge2012997" source="_Node2012991" target="_Node2012996" />
+            <edge id="_Edge2013000" source="_Node2012991" target="_Node2012999" />
+            <edge id="_Edge2013003" source="_Node2012989" target="_Node2013002" />
+            <edge id="_Edge2013005" source="_Node2013002" target="_Node2013004" />
+            <edge id="_Edge2013007" source="_Node2013004" target="_Node2013006" />
+            <edge id="_Edge2013010" source="_Node2013004" target="_Node2013009" />
+            <edge id="_Edge2013013" source="_Node2013004" target="_Node2013012" />
+            <edge id="_Edge2013016" source="_Node2013004" target="_Node2013015" />
+            <edge id="_Edge2013018" source="_Node2013015" target="_Node2013017" />
+            <edge id="_Edge2013021" source="_Node2013015" target="_Node2013020" />
+            <edge id="_Edge2013024" source="_Node2013002" target="_Node2013023" />
+            <edge id="_Edge2013027" source="_Node2012974" target="_Node2013026" />
+            <edge id="_Edge2013029" source="_Node2013026" target="_Node2013028" />
+            <edge id="_Edge2013031" source="_Node2013028" target="_Node2013030" />
+            <edge id="_Edge2013033" source="_Node2013030" target="_Node2013032" />
+            <edge id="_Edge2013035" source="_Node2013032" target="_Node2013034" />
+            <edge id="_Edge2013037" source="_Node2013034" target="_Node2013036" />
+            <edge id="_Edge2013039" source="_Node2013036" target="_Node2013038" />
+            <edge id="_Edge2013042" source="_Node2013036" target="_Node2013041" />
+            <edge id="_Edge2013045" source="_Node2013034" target="_Node2013044" />
+            <edge id="_Edge2013048" source="_Node2013032" target="_Node2013047" />
+            <edge id="_Edge2013051" source="_Node2013030" target="_Node2013050" />
+            <edge id="_Edge2013054" source="_Node2013028" target="_Node2013053" />
+            <edge id="_Edge2013056" source="_Node2013053" target="_Node2013055" />
+            <edge id="_Edge2013059" source="_Node2013053" target="_Node2013058" />
+            <edge id="_Edge2013062" source="_Node2013026" target="_Node2013061" />
         </tree>
     </trees>
 </nex:nexml>

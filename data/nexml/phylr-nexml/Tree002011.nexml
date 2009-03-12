@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S891"><citation>Peever, T.L., G. Su, L. Carpenter-Boggs, L.W. Timmer. 2003. Molecular systematics of citrus-associated Alternaria species. Mycologia 95: 000-000.</citation><author firstname="Lynne" lastname="Carpenter-Boggs" /><author email="tpeever@wsu.edu" firstname="Tobin" lastname="Peever" /><author firstname="Guoping" lastname="Su" /><author firstname="L.W. (Pete)" lastname="Timmer" /></study></nex:external>
-    <otus id="_TaxaBlock974579">
+<nex:external xmlns="dbhack1/phylr"><study id="S891"><citation>Peever, T.L., G. Su, L. Carpenter-Boggs, L.W. Timmer. 2003. Molecular systematics of citrus-associated Alternaria species. Mycologia 95: 000-000.</citation><abstract>The causal agents of Alternaria brown spot of tangerines, tangerine hybrids and Alternaria leaf spot of rough lemon have historically been referred to as Alternaria citri or A. alternata. Ten species of Alternaria were recently described among a set of isolates from leaf lesions on rough lemon (Citrus jambhiri) and tangelo (C. paradisi x C. reticulata) and none of these isolates was considered representative of A. alternata or A. citri. To test the hypothesis that these newly described morphological species are congruent with phylogenetic species, selected Alternaria brown spot and leaf spot isolates, citrus black rot isolates (post-harvest pathogens), isolates associated with healthy citrus tissue, and reference species of Alternaria from non-citrus hosts were scored for sequence variation at five genomic regions and used to estimate phylogenies. These data included 432 bp from the 5\' end of the mitochondrial ribosomal large subunit (mtLSU), 365 bp from the 5\' end of the beta-tubulin gene, 464 bp of an endopolygalacturonase gene (endoPG) and 559 and 571 bp, respectively, of two anonymous genomic regions (OPA1-3 and OPA2-1). The mtLSU and beta-tubulin phylogenies clearly differentiated A. limicola, a large-spored species causing leaf spot of Mexican lime, from the small-spored isolates associated with citrus but were insufficiently variable to resolve evolutionary relationships among the small-spored isolates from citrus and other hosts. Sequence analysis of translation elongation factor alpha, calmodulin, actin, chitin synthase and 1, 3, 8-trihydroxynaphthalene reductase genes similarly failed to uncover significant variation among the small-spored isolates. Phylogenies estimated independently from endoPG, OPA1-3 and OPA2-1 data were congruent and analysis of the combined data from these regions revealed 9 clades, 8 of which contained small-spored, citrus-associated isolates. Lineages inferred from analysis of the combined dataset were in general agreement with described morphospecies, however, three clades contained more than one morphological species and one morphospecies (A. citrimacularis) was polyphyletic. Citrus black rot isolates were also found to be members of more than a single lineage. The number of morphospecies associated with citrus exceeded that which could be supported under a phylogenetic species concept and isolates in only 5 of 9 phylogenetic lineages were consistently correlated with a specific host, disease or ecological niche on citrus. We advocate collapsing all small-spored, citrus-associated isolates of Alternaria into a single phylogenetic species, A. alternata.  </abstract><author firstname="Lynne" lastname="Carpenter-Boggs" /><author email="tpeever@wsu.edu" firstname="Tobin" lastname="Peever" /><author firstname="Guoping" lastname="Su" /><author firstname="L.W. (Pete)" lastname="Timmer" /></study></nex:external>
+    <otus id="_TaxaBlock970948">
         <otu id="Alternariagaisen" label="Alternaria gaisen" />
         <otu id="Alternariaturkisafria" label="Alternaria turkisafria" />
         <otu id="Alternariaperangusta" label="Alternaria perangusta" />
@@ -28,83 +28,83 @@
         <otu id="Alternariatangelonis2" label="Alternaria tangelonis 2" />
         <otu id="Alternarialongipes" label="Alternaria longipes" />
     </otus>
-    <trees id="_TreesBlock974580" otus="_TaxaBlock974579">
+    <trees id="_TreesBlock970949" otus="_TaxaBlock970948">
         <tree id="Tree2617" label="Fig. 4" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S891A2280" software="Phylip"><inputmatrix datatype="Nucleic Acid" name="combined endoPG, OPA1-3, OPA2-1" nchar="1598" /></analysis></nex:external>
-            <node id="_Node974584" />
-            <node id="_Node974586" otu="Alternariagaisen" />
-            <node id="_Node974589" />
-            <node id="_Node974591" />
-            <node id="_Node974593" />
-            <node id="_Node974595" />
-            <node id="_Node974597" />
-            <node id="_Node974599" />
-            <node id="_Node974601" otu="Alternariaturkisafria" />
-            <node id="_Node974604" otu="Alternariaperangusta" />
-            <node id="_Node974607" otu="Alternariacitrimacularis2" />
-            <node id="_Node974610" />
-            <node id="_Node974612" />
-            <node id="_Node974614" />
-            <node id="_Node974616" otu="Alternariacitri6" />
-            <node id="_Node974619" otu="Alternariaalternata2" />
-            <node id="_Node974622" otu="Alternariaalternata1" />
-            <node id="_Node974625" />
-            <node id="_Node974627" />
-            <node id="_Node974629" otu="Alternariacitrarbusti2" />
-            <node id="_Node974632" otu="Alternariacitrimacularis1" />
-            <node id="_Node974635" />
-            <node id="_Node974637" otu="Alternariacitri4" />
-            <node id="_Node974640" otu="Alternariacitrarbusti1" />
-            <node id="_Node974643" />
-            <node id="_Node974645" />
-            <node id="_Node974647" otu="Alternarialimoniasperae1" />
-            <node id="_Node974650" otu="Alternarialimoniasperae2" />
-            <node id="_Node974653" otu="Alternariatoxicogenica" />
-            <node id="_Node974656" />
-            <node id="_Node974658" otu="Alternariacitri1" />
-            <node id="_Node974661" otu="Alternariaarborescens" />
-            <node id="_Node974664" />
-            <node id="_Node974666" />
-            <node id="_Node974668" otu="Alternariatangelonis1" />
-            <node id="_Node974671" otu="Alternariatangelonis2" />
-            <node id="_Node974674" otu="Alternarialongipes" />
-            <rootedge id="_Edge974585" target="_Node974584" />
-            <edge id="_Edge974587" source="_Node974584" target="_Node974586" />
-            <edge id="_Edge974590" source="_Node974584" target="_Node974589" />
-            <edge id="_Edge974592" source="_Node974589" target="_Node974591" />
-            <edge id="_Edge974594" source="_Node974591" target="_Node974593" />
-            <edge id="_Edge974596" source="_Node974593" target="_Node974595" />
-            <edge id="_Edge974598" source="_Node974595" target="_Node974597" />
-            <edge id="_Edge974600" source="_Node974597" target="_Node974599" />
-            <edge id="_Edge974602" source="_Node974599" target="_Node974601" />
-            <edge id="_Edge974605" source="_Node974599" target="_Node974604" />
-            <edge id="_Edge974608" source="_Node974597" target="_Node974607" />
-            <edge id="_Edge974611" source="_Node974595" target="_Node974610" />
-            <edge id="_Edge974613" source="_Node974610" target="_Node974612" />
-            <edge id="_Edge974615" source="_Node974612" target="_Node974614" />
-            <edge id="_Edge974617" source="_Node974614" target="_Node974616" />
-            <edge id="_Edge974620" source="_Node974614" target="_Node974619" />
-            <edge id="_Edge974623" source="_Node974612" target="_Node974622" />
-            <edge id="_Edge974626" source="_Node974610" target="_Node974625" />
-            <edge id="_Edge974628" source="_Node974625" target="_Node974627" />
-            <edge id="_Edge974630" source="_Node974627" target="_Node974629" />
-            <edge id="_Edge974633" source="_Node974627" target="_Node974632" />
-            <edge id="_Edge974636" source="_Node974625" target="_Node974635" />
-            <edge id="_Edge974638" source="_Node974635" target="_Node974637" />
-            <edge id="_Edge974641" source="_Node974635" target="_Node974640" />
-            <edge id="_Edge974644" source="_Node974593" target="_Node974643" />
-            <edge id="_Edge974646" source="_Node974643" target="_Node974645" />
-            <edge id="_Edge974648" source="_Node974645" target="_Node974647" />
-            <edge id="_Edge974651" source="_Node974645" target="_Node974650" />
-            <edge id="_Edge974654" source="_Node974643" target="_Node974653" />
-            <edge id="_Edge974657" source="_Node974591" target="_Node974656" />
-            <edge id="_Edge974659" source="_Node974656" target="_Node974658" />
-            <edge id="_Edge974662" source="_Node974656" target="_Node974661" />
-            <edge id="_Edge974665" source="_Node974589" target="_Node974664" />
-            <edge id="_Edge974667" source="_Node974664" target="_Node974666" />
-            <edge id="_Edge974669" source="_Node974666" target="_Node974668" />
-            <edge id="_Edge974672" source="_Node974666" target="_Node974671" />
-            <edge id="_Edge974675" source="_Node974664" target="_Node974674" />
+            <node id="_Node970953" />
+            <node id="_Node970955" otu="Alternariagaisen" />
+            <node id="_Node970958" />
+            <node id="_Node970960" />
+            <node id="_Node970962" />
+            <node id="_Node970964" />
+            <node id="_Node970966" />
+            <node id="_Node970968" />
+            <node id="_Node970970" otu="Alternariaturkisafria" />
+            <node id="_Node970973" otu="Alternariaperangusta" />
+            <node id="_Node970976" otu="Alternariacitrimacularis2" />
+            <node id="_Node970979" />
+            <node id="_Node970981" />
+            <node id="_Node970983" />
+            <node id="_Node970985" otu="Alternariacitri6" />
+            <node id="_Node970988" otu="Alternariaalternata2" />
+            <node id="_Node970991" otu="Alternariaalternata1" />
+            <node id="_Node970994" />
+            <node id="_Node970996" />
+            <node id="_Node970998" otu="Alternariacitrarbusti2" />
+            <node id="_Node971001" otu="Alternariacitrimacularis1" />
+            <node id="_Node971004" />
+            <node id="_Node971006" otu="Alternariacitri4" />
+            <node id="_Node971009" otu="Alternariacitrarbusti1" />
+            <node id="_Node971012" />
+            <node id="_Node971014" />
+            <node id="_Node971016" otu="Alternarialimoniasperae1" />
+            <node id="_Node971019" otu="Alternarialimoniasperae2" />
+            <node id="_Node971022" otu="Alternariatoxicogenica" />
+            <node id="_Node971025" />
+            <node id="_Node971027" otu="Alternariacitri1" />
+            <node id="_Node971030" otu="Alternariaarborescens" />
+            <node id="_Node971033" />
+            <node id="_Node971035" />
+            <node id="_Node971037" otu="Alternariatangelonis1" />
+            <node id="_Node971040" otu="Alternariatangelonis2" />
+            <node id="_Node971043" otu="Alternarialongipes" />
+            <rootedge id="_Edge970954" target="_Node970953" />
+            <edge id="_Edge970956" source="_Node970953" target="_Node970955" />
+            <edge id="_Edge970959" source="_Node970953" target="_Node970958" />
+            <edge id="_Edge970961" source="_Node970958" target="_Node970960" />
+            <edge id="_Edge970963" source="_Node970960" target="_Node970962" />
+            <edge id="_Edge970965" source="_Node970962" target="_Node970964" />
+            <edge id="_Edge970967" source="_Node970964" target="_Node970966" />
+            <edge id="_Edge970969" source="_Node970966" target="_Node970968" />
+            <edge id="_Edge970971" source="_Node970968" target="_Node970970" />
+            <edge id="_Edge970974" source="_Node970968" target="_Node970973" />
+            <edge id="_Edge970977" source="_Node970966" target="_Node970976" />
+            <edge id="_Edge970980" source="_Node970964" target="_Node970979" />
+            <edge id="_Edge970982" source="_Node970979" target="_Node970981" />
+            <edge id="_Edge970984" source="_Node970981" target="_Node970983" />
+            <edge id="_Edge970986" source="_Node970983" target="_Node970985" />
+            <edge id="_Edge970989" source="_Node970983" target="_Node970988" />
+            <edge id="_Edge970992" source="_Node970981" target="_Node970991" />
+            <edge id="_Edge970995" source="_Node970979" target="_Node970994" />
+            <edge id="_Edge970997" source="_Node970994" target="_Node970996" />
+            <edge id="_Edge970999" source="_Node970996" target="_Node970998" />
+            <edge id="_Edge971002" source="_Node970996" target="_Node971001" />
+            <edge id="_Edge971005" source="_Node970994" target="_Node971004" />
+            <edge id="_Edge971007" source="_Node971004" target="_Node971006" />
+            <edge id="_Edge971010" source="_Node971004" target="_Node971009" />
+            <edge id="_Edge971013" source="_Node970962" target="_Node971012" />
+            <edge id="_Edge971015" source="_Node971012" target="_Node971014" />
+            <edge id="_Edge971017" source="_Node971014" target="_Node971016" />
+            <edge id="_Edge971020" source="_Node971014" target="_Node971019" />
+            <edge id="_Edge971023" source="_Node971012" target="_Node971022" />
+            <edge id="_Edge971026" source="_Node970960" target="_Node971025" />
+            <edge id="_Edge971028" source="_Node971025" target="_Node971027" />
+            <edge id="_Edge971031" source="_Node971025" target="_Node971030" />
+            <edge id="_Edge971034" source="_Node970958" target="_Node971033" />
+            <edge id="_Edge971036" source="_Node971033" target="_Node971035" />
+            <edge id="_Edge971038" source="_Node971035" target="_Node971037" />
+            <edge id="_Edge971041" source="_Node971035" target="_Node971040" />
+            <edge id="_Edge971044" source="_Node971033" target="_Node971043" />
         </tree>
     </trees>
 </nex:nexml>

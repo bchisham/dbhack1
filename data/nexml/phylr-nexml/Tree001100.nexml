@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S500"><citation>Declerck, S., S. Cranenbrouck, Y. Dalp&#195;&#169;, S. S&#195;&#169;guin, A. Grandmougin-Ferjani, J. Fontaine, and M. Sancholle. 2000. Glomus proliferum sp. nov.: a description based on morphological, biochemical, molecular and monoxenic cultivation data. Mycologia, in press.</citation><author email="cranenbrouck@mbla.ucl.ac.be" firstname="Sylvie" lastname="Cranenbrouck" /><author firstname="Yolande" lastname="Dalp&#195;&#169;" /><author email="declerck@mbla.ucl.ac.be" firstname="Stephane " lastname="Declerck" /><author firstname="Jo&#195;&#171;l" lastname="Fontaine" /><author firstname="Anne" lastname="Grandmougin-Ferjani" /><author firstname="Michel" lastname="Sancholle" /><author firstname="Sylvie" lastname="S&#195;&#169;guin" /></study></nex:external>
-    <otus id="_TaxaBlock431061">
+<nex:external xmlns="dbhack1/phylr"><study id="S500"><citation>Declerck, S., S. Cranenbrouck, Y. Dalp&#195;&#169;, S. S&#195;&#169;guin, A. Grandmougin-Ferjani, J. Fontaine, and M. Sancholle. 2000. Glomus proliferum sp. nov.: a description based on morphological, biochemical, molecular and monoxenic cultivation data. Mycologia, in press.</citation><abstract>A new arbuscular mycorrhizal fungus, Glomus proliferum (Glomales, Zygomycetes) is described. The description, based on a monoxenic culture established in association with a Ri T-DNA transformed carrot root, combines sequencing of the small subunit (SSU) rDNA, spore sterols and fatty acid profiles with more classical taxonomic tools such as optical and electron microscopy. The fungus forms clusters containing hundreds of small, hyaline, four-layered spores. The necessity to use different tools for identification of arbuscular mycorrhizal fungi is discussed.</abstract><author email="cranenbrouck@mbla.ucl.ac.be" firstname="Sylvie" lastname="Cranenbrouck" /><author firstname="Yolande" lastname="Dalp&#195;&#169;" /><author email="declerck@mbla.ucl.ac.be" firstname="Stephane " lastname="Declerck" /><author firstname="Jo&#195;&#171;l" lastname="Fontaine" /><author firstname="Anne" lastname="Grandmougin-Ferjani" /><author firstname="Michel" lastname="Sancholle" /><author firstname="Sylvie" lastname="S&#195;&#169;guin" /></study></nex:external>
+    <otus id="_TaxaBlock428632">
         <otu id="Gigasporadecipiens" label="Gigaspora decipiens" />
         <otu id="Glomusetunicatum" label="Glomus etunicatum" />
         <otu id="Glomusclaroideum" label="Glomus claroideum" />
@@ -19,47 +19,47 @@
         <otu id="Glomusversiforme" label="Glomus versiforme" />
         <otu id="Scutellopsoracastanea" label="Scutellopsora castanea" />
     </otus>
-    <trees id="_TreesBlock431062" otus="_TaxaBlock431061">
+    <trees id="_TreesBlock428633" otus="_TaxaBlock428632">
         <tree id="Tree1525" label="unpublished tree" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="heuristic" id="S500A697" software="PAUP"><inputmatrix datatype="Unspecified" name="18S rDNA" nchar="1400" /></analysis></nex:external>
-            <node id="_Node431066" />
-            <node id="_Node431068" otu="Gigasporadecipiens" />
-            <node id="_Node431071" />
-            <node id="_Node431073" />
-            <node id="_Node431075" />
-            <node id="_Node431077" />
-            <node id="_Node431079" otu="Glomusetunicatum" />
-            <node id="_Node431082" otu="Glomusclaroideum" />
-            <node id="_Node431085" />
-            <node id="_Node431087" />
-            <node id="_Node431089" otu="Glomusmosseae" />
-            <node id="_Node431092" otu="Glomusgeosporum" />
-            <node id="_Node431095" />
-            <node id="_Node431097" />
-            <node id="_Node431099" otu="Glomusintraradices" />
-            <node id="_Node431102" otu="Glomusmanihotis" />
-            <node id="_Node431105" otu="Glomusproliferum" />
-            <node id="_Node431108" otu="Glomusversiforme" />
-            <node id="_Node431111" otu="Scutellopsoracastanea" />
-            <rootedge id="_Edge431067" target="_Node431066" />
-            <edge id="_Edge431069" source="_Node431066" target="_Node431068" />
-            <edge id="_Edge431072" source="_Node431066" target="_Node431071" />
-            <edge id="_Edge431074" source="_Node431071" target="_Node431073" />
-            <edge id="_Edge431076" source="_Node431073" target="_Node431075" />
-            <edge id="_Edge431078" source="_Node431075" target="_Node431077" />
-            <edge id="_Edge431080" source="_Node431077" target="_Node431079" />
-            <edge id="_Edge431083" source="_Node431077" target="_Node431082" />
-            <edge id="_Edge431086" source="_Node431075" target="_Node431085" />
-            <edge id="_Edge431088" source="_Node431085" target="_Node431087" />
-            <edge id="_Edge431090" source="_Node431087" target="_Node431089" />
-            <edge id="_Edge431093" source="_Node431087" target="_Node431092" />
-            <edge id="_Edge431096" source="_Node431085" target="_Node431095" />
-            <edge id="_Edge431098" source="_Node431095" target="_Node431097" />
-            <edge id="_Edge431100" source="_Node431097" target="_Node431099" />
-            <edge id="_Edge431103" source="_Node431097" target="_Node431102" />
-            <edge id="_Edge431106" source="_Node431095" target="_Node431105" />
-            <edge id="_Edge431109" source="_Node431073" target="_Node431108" />
-            <edge id="_Edge431112" source="_Node431071" target="_Node431111" />
+            <node id="_Node428637" />
+            <node id="_Node428639" otu="Gigasporadecipiens" />
+            <node id="_Node428642" />
+            <node id="_Node428644" />
+            <node id="_Node428646" />
+            <node id="_Node428648" />
+            <node id="_Node428650" otu="Glomusetunicatum" />
+            <node id="_Node428653" otu="Glomusclaroideum" />
+            <node id="_Node428656" />
+            <node id="_Node428658" />
+            <node id="_Node428660" otu="Glomusmosseae" />
+            <node id="_Node428663" otu="Glomusgeosporum" />
+            <node id="_Node428666" />
+            <node id="_Node428668" />
+            <node id="_Node428670" otu="Glomusintraradices" />
+            <node id="_Node428673" otu="Glomusmanihotis" />
+            <node id="_Node428676" otu="Glomusproliferum" />
+            <node id="_Node428679" otu="Glomusversiforme" />
+            <node id="_Node428682" otu="Scutellopsoracastanea" />
+            <rootedge id="_Edge428638" target="_Node428637" />
+            <edge id="_Edge428640" source="_Node428637" target="_Node428639" />
+            <edge id="_Edge428643" source="_Node428637" target="_Node428642" />
+            <edge id="_Edge428645" source="_Node428642" target="_Node428644" />
+            <edge id="_Edge428647" source="_Node428644" target="_Node428646" />
+            <edge id="_Edge428649" source="_Node428646" target="_Node428648" />
+            <edge id="_Edge428651" source="_Node428648" target="_Node428650" />
+            <edge id="_Edge428654" source="_Node428648" target="_Node428653" />
+            <edge id="_Edge428657" source="_Node428646" target="_Node428656" />
+            <edge id="_Edge428659" source="_Node428656" target="_Node428658" />
+            <edge id="_Edge428661" source="_Node428658" target="_Node428660" />
+            <edge id="_Edge428664" source="_Node428658" target="_Node428663" />
+            <edge id="_Edge428667" source="_Node428656" target="_Node428666" />
+            <edge id="_Edge428669" source="_Node428666" target="_Node428668" />
+            <edge id="_Edge428671" source="_Node428668" target="_Node428670" />
+            <edge id="_Edge428674" source="_Node428668" target="_Node428673" />
+            <edge id="_Edge428677" source="_Node428666" target="_Node428676" />
+            <edge id="_Edge428680" source="_Node428644" target="_Node428679" />
+            <edge id="_Edge428683" source="_Node428642" target="_Node428682" />
         </tree>
     </trees>
 </nex:nexml>

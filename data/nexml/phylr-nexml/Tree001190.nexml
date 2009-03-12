@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S540"><citation>Hugot J.P. New evidence of Hystricognath Rodents monophyly from the phylogeny of their pinworms, In: Cophylogeny: the comparative study of phylogenesis in symbiotic organisms, Roderic D. M. Page (ed.), Chicago University Press, in press.</citation><author email="hugot@cimrs1.mnhn.fr" firstname="Jean-Pierre A. J." lastname="Hugot" /></study></nex:external>
-    <otus id="_TaxaBlock476717">
+<nex:external xmlns="dbhack1/phylr"><study id="S540"><citation>Hugot J.P. New evidence of Hystricognath Rodents monophyly from the phylogeny of their pinworms, In: Cophylogeny: the comparative study of phylogenesis in symbiotic organisms, Roderic D. M. Page (ed.), Chicago University Press, in press.</citation><abstract>The evolutionary relationships among hytricognath rodents and the geographical origin of the Caviomorpha (which had been endemic to the Neotropics for most of the Tertiary) have generated considerable debate. Some of the arguments used concerned the distribution of the parasite pinworms of these rodents. New descriptions of the parasites of both African and Neotropical hytricognath rodents reveal very specialized characters, which are only encountered in these parasites. As these patterns are not closely linked with host/parasite interactions, they provide important arguments for close relationships between the hosts. Using this new information a data set of morphological characters has been built up that allows to test the monophyly of each genus and to propose a phylogeny of the whole. Using the cladogram of the parasites as an investigation tool allows to try to answer to the following questions: does the phylogeny of their specific pinworms supports, (i) the monophyly of the Hystricognathi, (ii) the monophyly of the Phiomorpha, (iii) the monophyly of the Caviomorpha, (iii) any new (or previously proposed) grouping within these groups, (iv) which scenarios can be proposed to explain the current distribution of the Hystricognathi. The relationships between the parasites as they are assessed in the resulting cladogram are compared with different phylogenetic hypotheses proposed for the hosts, either based on molecular or morpho-anatomical data. Comparison is performed using TREEMAP. This allows to test the congruence between the different hypotheses and to propose evolutive scenarios hypothesizing how the current distribution of the hosts and parasites could have evolved during the paleontological times. The phylogeny of the pinworm parasites of hystricognath rodents: (i) supports the monophyly of the Hystricognathi; (ii) does not supports the monophyly of the Phiomorpha or Caviomorpha; (iii) supports close relationships between the Hystricidae, Dinomyidae and the Erethizontidae, thus their classification in a superfamily Erethizontoidea; (vi) challenges the hypothesis of a single immigration event for the arrival of the Caviomorpha in America. These points also are supported by most of the works based on morpho-anatomical studies and dealing with the phylogeny and evolutive history of the Hystricognathi. Conversely, the hypotheses based on the distribution and phylogeny of the parasites generally disagree with the conclusions of works based on molecular data. </abstract><author email="hugot@cimrs1.mnhn.fr" firstname="Jean-Pierre A. J." lastname="Hugot" /></study></nex:external>
+    <otus id="_TaxaBlock473086">
         <otu id="Hilgertiahilgerti" label="Hilgertia hilgerti" />
         <otu id="Acanthoxyurusbeecrofti" label="Acanthoxyurus beecrofti" />
         <otu id="Protozoophagaobesa" label="Protozoophaga obesa" />
@@ -30,89 +30,89 @@
         <otu id="Helminthoxyseffilatus" label="Helminthoxys effilatus" />
         <otu id="Helminthoxysvelizy" label="Helminthoxys velizy" />
     </otus>
-    <trees id="_TreesBlock476718" otus="_TaxaBlock476717">
+    <trees id="_TreesBlock473087" otus="_TaxaBlock473086">
         <tree id="Tree1623" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S540A850" software="PAUP"><inputmatrix datatype="Unspecified" nchar="22" /></analysis></nex:external>
-            <node id="_Node476722" />
-            <node id="_Node476724" otu="Hilgertiahilgerti" />
-            <node id="_Node476727" />
-            <node id="_Node476729" otu="Acanthoxyurusbeecrofti" />
-            <node id="_Node476732" />
-            <node id="_Node476734" />
-            <node id="_Node476736" otu="Protozoophagaobesa" />
-            <node id="_Node476739" />
-            <node id="_Node476741" otu="Wellcomiadolichotis" />
-            <node id="_Node476744" />
-            <node id="_Node476746" />
-            <node id="_Node476748" otu="Wellcomiaroussillhoni" />
-            <node id="_Node476751" otu="Wellcomiasauvisy" />
-            <node id="_Node476754" />
-            <node id="_Node476756" otu="Wellcomiacompar" />
-            <node id="_Node476759" />
-            <node id="_Node476761" otu="Wellcomiabranickii" />
-            <node id="_Node476764" otu="Wellcomiacarolodominici" />
-            <node id="_Node476767" otu="Wellcomiadecorata" />
-            <node id="_Node476770" />
-            <node id="_Node476772" otu="Petronemashortridgei" />
-            <node id="_Node476775" />
-            <node id="_Node476777" otu="Helminthoxysurichi" />
-            <node id="_Node476780" />
-            <node id="_Node476782" />
-            <node id="_Node476784" otu="Helminthoxysquentini" />
-            <node id="_Node476787" otu="Helminthoxystiflophila" />
-            <node id="_Node476790" />
-            <node id="_Node476792" />
-            <node id="_Node476794" otu="Helminthoxysgigantea" />
-            <node id="_Node476797" otu="Helminthoxysfreitasi" />
-            <node id="_Node476800" />
-            <node id="_Node476802" otu="Helminthoxysabrocomae" />
-            <node id="_Node476805" />
-            <node id="_Node476807" />
-            <node id="_Node476809" otu="Helminthoxyscaudatus" />
-            <node id="_Node476812" otu="Helminthoxyspujoli" />
-            <node id="_Node476815" />
-            <node id="_Node476817" otu="Helminthoxyseffilatus" />
-            <node id="_Node476820" otu="Helminthoxysvelizy" />
-            <rootedge id="_Edge476723" target="_Node476722" />
-            <edge id="_Edge476725" source="_Node476722" target="_Node476724" />
-            <edge id="_Edge476728" source="_Node476722" target="_Node476727" />
-            <edge id="_Edge476730" source="_Node476727" target="_Node476729" />
-            <edge id="_Edge476733" source="_Node476727" target="_Node476732" />
-            <edge id="_Edge476735" source="_Node476732" target="_Node476734" />
-            <edge id="_Edge476737" source="_Node476734" target="_Node476736" />
-            <edge id="_Edge476740" source="_Node476734" target="_Node476739" />
-            <edge id="_Edge476742" source="_Node476739" target="_Node476741" />
-            <edge id="_Edge476745" source="_Node476739" target="_Node476744" />
-            <edge id="_Edge476747" source="_Node476744" target="_Node476746" />
-            <edge id="_Edge476749" source="_Node476746" target="_Node476748" />
-            <edge id="_Edge476752" source="_Node476746" target="_Node476751" />
-            <edge id="_Edge476755" source="_Node476744" target="_Node476754" />
-            <edge id="_Edge476757" source="_Node476754" target="_Node476756" />
-            <edge id="_Edge476760" source="_Node476754" target="_Node476759" />
-            <edge id="_Edge476762" source="_Node476759" target="_Node476761" />
-            <edge id="_Edge476765" source="_Node476759" target="_Node476764" />
-            <edge id="_Edge476768" source="_Node476759" target="_Node476767" />
-            <edge id="_Edge476771" source="_Node476732" target="_Node476770" />
-            <edge id="_Edge476773" source="_Node476770" target="_Node476772" />
-            <edge id="_Edge476776" source="_Node476770" target="_Node476775" />
-            <edge id="_Edge476778" source="_Node476775" target="_Node476777" />
-            <edge id="_Edge476781" source="_Node476775" target="_Node476780" />
-            <edge id="_Edge476783" source="_Node476780" target="_Node476782" />
-            <edge id="_Edge476785" source="_Node476782" target="_Node476784" />
-            <edge id="_Edge476788" source="_Node476782" target="_Node476787" />
-            <edge id="_Edge476791" source="_Node476780" target="_Node476790" />
-            <edge id="_Edge476793" source="_Node476790" target="_Node476792" />
-            <edge id="_Edge476795" source="_Node476792" target="_Node476794" />
-            <edge id="_Edge476798" source="_Node476792" target="_Node476797" />
-            <edge id="_Edge476801" source="_Node476790" target="_Node476800" />
-            <edge id="_Edge476803" source="_Node476800" target="_Node476802" />
-            <edge id="_Edge476806" source="_Node476800" target="_Node476805" />
-            <edge id="_Edge476808" source="_Node476805" target="_Node476807" />
-            <edge id="_Edge476810" source="_Node476807" target="_Node476809" />
-            <edge id="_Edge476813" source="_Node476807" target="_Node476812" />
-            <edge id="_Edge476816" source="_Node476805" target="_Node476815" />
-            <edge id="_Edge476818" source="_Node476815" target="_Node476817" />
-            <edge id="_Edge476821" source="_Node476815" target="_Node476820" />
+            <node id="_Node473091" />
+            <node id="_Node473093" otu="Hilgertiahilgerti" />
+            <node id="_Node473096" />
+            <node id="_Node473098" otu="Acanthoxyurusbeecrofti" />
+            <node id="_Node473101" />
+            <node id="_Node473103" />
+            <node id="_Node473105" otu="Protozoophagaobesa" />
+            <node id="_Node473108" />
+            <node id="_Node473110" otu="Wellcomiadolichotis" />
+            <node id="_Node473113" />
+            <node id="_Node473115" />
+            <node id="_Node473117" otu="Wellcomiaroussillhoni" />
+            <node id="_Node473120" otu="Wellcomiasauvisy" />
+            <node id="_Node473123" />
+            <node id="_Node473125" otu="Wellcomiacompar" />
+            <node id="_Node473128" />
+            <node id="_Node473130" otu="Wellcomiabranickii" />
+            <node id="_Node473133" otu="Wellcomiacarolodominici" />
+            <node id="_Node473136" otu="Wellcomiadecorata" />
+            <node id="_Node473139" />
+            <node id="_Node473141" otu="Petronemashortridgei" />
+            <node id="_Node473144" />
+            <node id="_Node473146" otu="Helminthoxysurichi" />
+            <node id="_Node473149" />
+            <node id="_Node473151" />
+            <node id="_Node473153" otu="Helminthoxysquentini" />
+            <node id="_Node473156" otu="Helminthoxystiflophila" />
+            <node id="_Node473159" />
+            <node id="_Node473161" />
+            <node id="_Node473163" otu="Helminthoxysgigantea" />
+            <node id="_Node473166" otu="Helminthoxysfreitasi" />
+            <node id="_Node473169" />
+            <node id="_Node473171" otu="Helminthoxysabrocomae" />
+            <node id="_Node473174" />
+            <node id="_Node473176" />
+            <node id="_Node473178" otu="Helminthoxyscaudatus" />
+            <node id="_Node473181" otu="Helminthoxyspujoli" />
+            <node id="_Node473184" />
+            <node id="_Node473186" otu="Helminthoxyseffilatus" />
+            <node id="_Node473189" otu="Helminthoxysvelizy" />
+            <rootedge id="_Edge473092" target="_Node473091" />
+            <edge id="_Edge473094" source="_Node473091" target="_Node473093" />
+            <edge id="_Edge473097" source="_Node473091" target="_Node473096" />
+            <edge id="_Edge473099" source="_Node473096" target="_Node473098" />
+            <edge id="_Edge473102" source="_Node473096" target="_Node473101" />
+            <edge id="_Edge473104" source="_Node473101" target="_Node473103" />
+            <edge id="_Edge473106" source="_Node473103" target="_Node473105" />
+            <edge id="_Edge473109" source="_Node473103" target="_Node473108" />
+            <edge id="_Edge473111" source="_Node473108" target="_Node473110" />
+            <edge id="_Edge473114" source="_Node473108" target="_Node473113" />
+            <edge id="_Edge473116" source="_Node473113" target="_Node473115" />
+            <edge id="_Edge473118" source="_Node473115" target="_Node473117" />
+            <edge id="_Edge473121" source="_Node473115" target="_Node473120" />
+            <edge id="_Edge473124" source="_Node473113" target="_Node473123" />
+            <edge id="_Edge473126" source="_Node473123" target="_Node473125" />
+            <edge id="_Edge473129" source="_Node473123" target="_Node473128" />
+            <edge id="_Edge473131" source="_Node473128" target="_Node473130" />
+            <edge id="_Edge473134" source="_Node473128" target="_Node473133" />
+            <edge id="_Edge473137" source="_Node473128" target="_Node473136" />
+            <edge id="_Edge473140" source="_Node473101" target="_Node473139" />
+            <edge id="_Edge473142" source="_Node473139" target="_Node473141" />
+            <edge id="_Edge473145" source="_Node473139" target="_Node473144" />
+            <edge id="_Edge473147" source="_Node473144" target="_Node473146" />
+            <edge id="_Edge473150" source="_Node473144" target="_Node473149" />
+            <edge id="_Edge473152" source="_Node473149" target="_Node473151" />
+            <edge id="_Edge473154" source="_Node473151" target="_Node473153" />
+            <edge id="_Edge473157" source="_Node473151" target="_Node473156" />
+            <edge id="_Edge473160" source="_Node473149" target="_Node473159" />
+            <edge id="_Edge473162" source="_Node473159" target="_Node473161" />
+            <edge id="_Edge473164" source="_Node473161" target="_Node473163" />
+            <edge id="_Edge473167" source="_Node473161" target="_Node473166" />
+            <edge id="_Edge473170" source="_Node473159" target="_Node473169" />
+            <edge id="_Edge473172" source="_Node473169" target="_Node473171" />
+            <edge id="_Edge473175" source="_Node473169" target="_Node473174" />
+            <edge id="_Edge473177" source="_Node473174" target="_Node473176" />
+            <edge id="_Edge473179" source="_Node473176" target="_Node473178" />
+            <edge id="_Edge473182" source="_Node473176" target="_Node473181" />
+            <edge id="_Edge473185" source="_Node473174" target="_Node473184" />
+            <edge id="_Edge473187" source="_Node473184" target="_Node473186" />
+            <edge id="_Edge473190" source="_Node473184" target="_Node473189" />
         </tree>
     </trees>
 </nex:nexml>

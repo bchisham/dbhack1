@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S1496"><citation>Islam, M.B., M.P. Simmons, and R.H. Archer. 2006. Phylogeny of the Elaeodendron Group (Celastraceae) Inferred from Morphological Characters and Nuclear and Plastid Genes. Systematic Botany, in press.</citation><author firstname="Robert H." lastname="Archer" /><author email="mislam@lamar.colostate.edu" firstname="Melissa " lastname="Islam" /><author email="psimmons@lamar.colostate.edu" firstname="Mark P." lastname="Simmons" /></study></nex:external>
-    <otus id="_TaxaBlock2019480">
+<nex:external xmlns="dbhack1/phylr"><study id="S1496"><citation>Islam, M.B., M.P. Simmons, and R.H. Archer. 2006. Phylogeny of the Elaeodendron Group (Celastraceae) Inferred from Morphological Characters and Nuclear and Plastid Genes. Systematic Botany, in press.</citation><abstract>The phylogeny of the Elaeodendron group was inferred in a simultaneous analysis of morphological characters together with nuclear (ITS and 26S rDNA) and plastid (matK, trnL-F spacer) genes. The circumscription of genera in this group has long been controversial, particularly with respect to Cassine and Elaeodendron. Cassine, narrowly defined so as to include three species native to southern Africa, was unambiguously supported as distinct from Elaeodendron. The widely distributed genus Elaeodendron was supported as a natural group, sister to Pleurostylia. Brexia, which has been variously assigned to the Escalloniaceae, Brexiaceae, and Grossulariaceae, was unambiguously supported as the sister group to the clade of Elaeodendron and Pleurostylia. Preliminary species sampling supported Empleuridium, which had been classified within the Rutaceae, as related to Mystroxylon, Pseudosalacia, and Robsonodendron. Allocassine and Lauridia were resolved as closely related to one another, supporting their previously inferred relationship. Maurocenia and Cassine were supported as closely related to one another, with evidence for Maurocenia being nested within Cassine. Lydenburgia abbottii was resolved as closely related to Lydenburgia cassinoides, supporting its transfer from Catha. Three new combinations are made: Elaeodendron bupleuroides (Guillaumin) R.H. Archer, Elaeodendron parvifolium R.H. Archer, and Elaeodendron pininsulare H&#195;&#188;rl. subsp. Poyaense (I.H. M&#195;&#188;ller) R.H. Archer.</abstract><author firstname="Robert H." lastname="Archer" /><author email="mislam@lamar.colostate.edu" firstname="Melissa " lastname="Islam" /><author email="psimmons@lamar.colostate.edu" firstname="Mark P." lastname="Simmons" /></study></nex:external>
+    <otus id="_TaxaBlock2015849">
         <otu id="Mortoniagreggii" label="Mortonia greggii" />
         <otu id="Allocassinelaurifolia" label="Allocassine laurifolia" />
         <otu id="Cassineperagua" label="Cassine peragua" />
@@ -44,101 +44,101 @@
         <otu id="Salaciopsisglomerata" label="Salaciopsis glomerata" />
         <otu id="Lepuropetalonspathulatum" label="Lepuropetalon spathulatum" />
     </otus>
-    <trees id="_TreesBlock2019481" otus="_TaxaBlock2019480">
+    <trees id="_TreesBlock2015850" otus="_TaxaBlock2015849">
         <tree id="Tree4273" label="26 nrDNA Strict" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1496A5469" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="26 nrDNA" nchar="909" /></analysis></nex:external>
-            <node id="_Node2019485" />
-            <node id="_Node2019487" otu="Mortoniagreggii" />
-            <node id="_Node2019490" />
-            <node id="_Node2019492" />
-            <node id="_Node2019494" otu="Allocassinelaurifolia" />
-            <node id="_Node2019497" otu="Cassineperagua" />
-            <node id="_Node2019500" />
-            <node id="_Node2019502" otu="Cassineschinoides" />
-            <node id="_Node2019505" otu="Lydenburgiacassinoides" />
-            <node id="_Node2019508" otu="Lydenburgiaabbottii" />
-            <node id="_Node2019511" otu="Cathaedulis" />
-            <node id="_Node2019514" />
-            <node id="_Node2019516" otu="Gymnosporiamossambicensis" />
-            <node id="_Node2019519" otu="Putterlickiaverrucosa" />
-            <node id="_Node2019522" otu="Lauridiareticulata" />
-            <node id="_Node2019525" otu="Lauridiatetragona" />
-            <node id="_Node2019528" otu="Mauroceniafrangula" />
-            <node id="_Node2019531" otu="Brexiamadagascariensis" />
-            <node id="_Node2019534" otu="Canotiaholacantha" />
-            <node id="_Node2019537" />
-            <node id="_Node2019539" />
-            <node id="_Node2019541" otu="Elaeodendronaustrale" />
-            <node id="_Node2019544" otu="ElaeodendronaustraleSBG" />
-            <node id="_Node2019547" otu="Elaeodendronmelanocarpum" />
-            <node id="_Node2019550" otu="Elaeodendroncunninghamii" />
-            <node id="_Node2019553" otu="Elaeodendroncurtipendulum" />
-            <node id="_Node2019556" otu="Elaeodendronpininsulare" />
-            <node id="_Node2019559" />
-            <node id="_Node2019561" otu="Elaeodendronmatabelicum" />
-            <node id="_Node2019564" otu="Elaeodendronxylocarpum" />
-            <node id="_Node2019567" otu="Elaeodendronorientale" />
-            <node id="_Node2019570" otu="Elaeodendronvitiense" />
-            <node id="_Node2019573" />
-            <node id="_Node2019575" otu="Empleuridiumjuniperinum" />
-            <node id="_Node2019578" otu="Pseudosalaciastreyi" />
-            <node id="_Node2019581" otu="Robsonodendroneucleiforme" />
-            <node id="_Node2019584" otu="Mystroxylonaethiopicum" />
-            <node id="_Node2019587" otu="Loeseneriellaafricana" />
-            <node id="_Node2019590" />
-            <node id="_Node2019592" otu="Pleurostyliacapensis" />
-            <node id="_Node2019595" />
-            <node id="_Node2019597" otu="Pleurostylialeucocarpa" />
-            <node id="_Node2019600" otu="Pleurostyliaopposita" />
-            <node id="_Node2019603" otu="Salaciaimpressifolia" />
-            <node id="_Node2019606" otu="Salaciopsisglomerata" />
-            <node id="_Node2019609" otu="Lepuropetalonspathulatum" />
-            <rootedge id="_Edge2019486" target="_Node2019485" />
-            <edge id="_Edge2019488" source="_Node2019485" target="_Node2019487" />
-            <edge id="_Edge2019491" source="_Node2019485" target="_Node2019490" />
-            <edge id="_Edge2019493" source="_Node2019490" target="_Node2019492" />
-            <edge id="_Edge2019495" source="_Node2019492" target="_Node2019494" />
-            <edge id="_Edge2019498" source="_Node2019492" target="_Node2019497" />
-            <edge id="_Edge2019501" source="_Node2019492" target="_Node2019500" />
-            <edge id="_Edge2019503" source="_Node2019500" target="_Node2019502" />
-            <edge id="_Edge2019506" source="_Node2019500" target="_Node2019505" />
-            <edge id="_Edge2019509" source="_Node2019492" target="_Node2019508" />
-            <edge id="_Edge2019512" source="_Node2019492" target="_Node2019511" />
-            <edge id="_Edge2019515" source="_Node2019492" target="_Node2019514" />
-            <edge id="_Edge2019517" source="_Node2019514" target="_Node2019516" />
-            <edge id="_Edge2019520" source="_Node2019514" target="_Node2019519" />
-            <edge id="_Edge2019523" source="_Node2019492" target="_Node2019522" />
-            <edge id="_Edge2019526" source="_Node2019492" target="_Node2019525" />
-            <edge id="_Edge2019529" source="_Node2019492" target="_Node2019528" />
-            <edge id="_Edge2019532" source="_Node2019490" target="_Node2019531" />
-            <edge id="_Edge2019535" source="_Node2019490" target="_Node2019534" />
-            <edge id="_Edge2019538" source="_Node2019490" target="_Node2019537" />
-            <edge id="_Edge2019540" source="_Node2019537" target="_Node2019539" />
-            <edge id="_Edge2019542" source="_Node2019539" target="_Node2019541" />
-            <edge id="_Edge2019545" source="_Node2019539" target="_Node2019544" />
-            <edge id="_Edge2019548" source="_Node2019539" target="_Node2019547" />
-            <edge id="_Edge2019551" source="_Node2019537" target="_Node2019550" />
-            <edge id="_Edge2019554" source="_Node2019537" target="_Node2019553" />
-            <edge id="_Edge2019557" source="_Node2019537" target="_Node2019556" />
-            <edge id="_Edge2019560" source="_Node2019490" target="_Node2019559" />
-            <edge id="_Edge2019562" source="_Node2019559" target="_Node2019561" />
-            <edge id="_Edge2019565" source="_Node2019559" target="_Node2019564" />
-            <edge id="_Edge2019568" source="_Node2019490" target="_Node2019567" />
-            <edge id="_Edge2019571" source="_Node2019490" target="_Node2019570" />
-            <edge id="_Edge2019574" source="_Node2019490" target="_Node2019573" />
-            <edge id="_Edge2019576" source="_Node2019573" target="_Node2019575" />
-            <edge id="_Edge2019579" source="_Node2019573" target="_Node2019578" />
-            <edge id="_Edge2019582" source="_Node2019573" target="_Node2019581" />
-            <edge id="_Edge2019585" source="_Node2019573" target="_Node2019584" />
-            <edge id="_Edge2019588" source="_Node2019490" target="_Node2019587" />
-            <edge id="_Edge2019591" source="_Node2019490" target="_Node2019590" />
-            <edge id="_Edge2019593" source="_Node2019590" target="_Node2019592" />
-            <edge id="_Edge2019596" source="_Node2019590" target="_Node2019595" />
-            <edge id="_Edge2019598" source="_Node2019595" target="_Node2019597" />
-            <edge id="_Edge2019601" source="_Node2019595" target="_Node2019600" />
-            <edge id="_Edge2019604" source="_Node2019490" target="_Node2019603" />
-            <edge id="_Edge2019607" source="_Node2019490" target="_Node2019606" />
-            <edge id="_Edge2019610" source="_Node2019485" target="_Node2019609" />
+            <node id="_Node2015854" />
+            <node id="_Node2015856" otu="Mortoniagreggii" />
+            <node id="_Node2015859" />
+            <node id="_Node2015861" />
+            <node id="_Node2015863" otu="Allocassinelaurifolia" />
+            <node id="_Node2015866" otu="Cassineperagua" />
+            <node id="_Node2015869" />
+            <node id="_Node2015871" otu="Cassineschinoides" />
+            <node id="_Node2015874" otu="Lydenburgiacassinoides" />
+            <node id="_Node2015877" otu="Lydenburgiaabbottii" />
+            <node id="_Node2015880" otu="Cathaedulis" />
+            <node id="_Node2015883" />
+            <node id="_Node2015885" otu="Gymnosporiamossambicensis" />
+            <node id="_Node2015888" otu="Putterlickiaverrucosa" />
+            <node id="_Node2015891" otu="Lauridiareticulata" />
+            <node id="_Node2015894" otu="Lauridiatetragona" />
+            <node id="_Node2015897" otu="Mauroceniafrangula" />
+            <node id="_Node2015900" otu="Brexiamadagascariensis" />
+            <node id="_Node2015903" otu="Canotiaholacantha" />
+            <node id="_Node2015906" />
+            <node id="_Node2015908" />
+            <node id="_Node2015910" otu="Elaeodendronaustrale" />
+            <node id="_Node2015913" otu="ElaeodendronaustraleSBG" />
+            <node id="_Node2015916" otu="Elaeodendronmelanocarpum" />
+            <node id="_Node2015919" otu="Elaeodendroncunninghamii" />
+            <node id="_Node2015922" otu="Elaeodendroncurtipendulum" />
+            <node id="_Node2015925" otu="Elaeodendronpininsulare" />
+            <node id="_Node2015928" />
+            <node id="_Node2015930" otu="Elaeodendronmatabelicum" />
+            <node id="_Node2015933" otu="Elaeodendronxylocarpum" />
+            <node id="_Node2015936" otu="Elaeodendronorientale" />
+            <node id="_Node2015939" otu="Elaeodendronvitiense" />
+            <node id="_Node2015942" />
+            <node id="_Node2015944" otu="Empleuridiumjuniperinum" />
+            <node id="_Node2015947" otu="Pseudosalaciastreyi" />
+            <node id="_Node2015950" otu="Robsonodendroneucleiforme" />
+            <node id="_Node2015953" otu="Mystroxylonaethiopicum" />
+            <node id="_Node2015956" otu="Loeseneriellaafricana" />
+            <node id="_Node2015959" />
+            <node id="_Node2015961" otu="Pleurostyliacapensis" />
+            <node id="_Node2015964" />
+            <node id="_Node2015966" otu="Pleurostylialeucocarpa" />
+            <node id="_Node2015969" otu="Pleurostyliaopposita" />
+            <node id="_Node2015972" otu="Salaciaimpressifolia" />
+            <node id="_Node2015975" otu="Salaciopsisglomerata" />
+            <node id="_Node2015978" otu="Lepuropetalonspathulatum" />
+            <rootedge id="_Edge2015855" target="_Node2015854" />
+            <edge id="_Edge2015857" source="_Node2015854" target="_Node2015856" />
+            <edge id="_Edge2015860" source="_Node2015854" target="_Node2015859" />
+            <edge id="_Edge2015862" source="_Node2015859" target="_Node2015861" />
+            <edge id="_Edge2015864" source="_Node2015861" target="_Node2015863" />
+            <edge id="_Edge2015867" source="_Node2015861" target="_Node2015866" />
+            <edge id="_Edge2015870" source="_Node2015861" target="_Node2015869" />
+            <edge id="_Edge2015872" source="_Node2015869" target="_Node2015871" />
+            <edge id="_Edge2015875" source="_Node2015869" target="_Node2015874" />
+            <edge id="_Edge2015878" source="_Node2015861" target="_Node2015877" />
+            <edge id="_Edge2015881" source="_Node2015861" target="_Node2015880" />
+            <edge id="_Edge2015884" source="_Node2015861" target="_Node2015883" />
+            <edge id="_Edge2015886" source="_Node2015883" target="_Node2015885" />
+            <edge id="_Edge2015889" source="_Node2015883" target="_Node2015888" />
+            <edge id="_Edge2015892" source="_Node2015861" target="_Node2015891" />
+            <edge id="_Edge2015895" source="_Node2015861" target="_Node2015894" />
+            <edge id="_Edge2015898" source="_Node2015861" target="_Node2015897" />
+            <edge id="_Edge2015901" source="_Node2015859" target="_Node2015900" />
+            <edge id="_Edge2015904" source="_Node2015859" target="_Node2015903" />
+            <edge id="_Edge2015907" source="_Node2015859" target="_Node2015906" />
+            <edge id="_Edge2015909" source="_Node2015906" target="_Node2015908" />
+            <edge id="_Edge2015911" source="_Node2015908" target="_Node2015910" />
+            <edge id="_Edge2015914" source="_Node2015908" target="_Node2015913" />
+            <edge id="_Edge2015917" source="_Node2015908" target="_Node2015916" />
+            <edge id="_Edge2015920" source="_Node2015906" target="_Node2015919" />
+            <edge id="_Edge2015923" source="_Node2015906" target="_Node2015922" />
+            <edge id="_Edge2015926" source="_Node2015906" target="_Node2015925" />
+            <edge id="_Edge2015929" source="_Node2015859" target="_Node2015928" />
+            <edge id="_Edge2015931" source="_Node2015928" target="_Node2015930" />
+            <edge id="_Edge2015934" source="_Node2015928" target="_Node2015933" />
+            <edge id="_Edge2015937" source="_Node2015859" target="_Node2015936" />
+            <edge id="_Edge2015940" source="_Node2015859" target="_Node2015939" />
+            <edge id="_Edge2015943" source="_Node2015859" target="_Node2015942" />
+            <edge id="_Edge2015945" source="_Node2015942" target="_Node2015944" />
+            <edge id="_Edge2015948" source="_Node2015942" target="_Node2015947" />
+            <edge id="_Edge2015951" source="_Node2015942" target="_Node2015950" />
+            <edge id="_Edge2015954" source="_Node2015942" target="_Node2015953" />
+            <edge id="_Edge2015957" source="_Node2015859" target="_Node2015956" />
+            <edge id="_Edge2015960" source="_Node2015859" target="_Node2015959" />
+            <edge id="_Edge2015962" source="_Node2015959" target="_Node2015961" />
+            <edge id="_Edge2015965" source="_Node2015959" target="_Node2015964" />
+            <edge id="_Edge2015967" source="_Node2015964" target="_Node2015966" />
+            <edge id="_Edge2015970" source="_Node2015964" target="_Node2015969" />
+            <edge id="_Edge2015973" source="_Node2015859" target="_Node2015972" />
+            <edge id="_Edge2015976" source="_Node2015859" target="_Node2015975" />
+            <edge id="_Edge2015979" source="_Node2015854" target="_Node2015978" />
         </tree>
     </trees>
 </nex:nexml>

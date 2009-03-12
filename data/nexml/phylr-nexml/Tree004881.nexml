@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S2052"><citation>Ota, Y. and T. Hattori. 2008. Relationships among three Japanese Laetiporus taxa based on phylogenetic analysis and incompatibility tests. Mycoscience, in press.</citation><author email="hattori@ffpri.affrc.go.jp" firstname="Tsutomu" lastname="Hattori" /><author email="yuota@ffpri.affrc.go.jp" firstname="Yuko " lastname="Ota" /></study></nex:external>
-    <otus id="_TaxaBlock3166522">
+<nex:external xmlns="dbhack1/phylr"><study id="S2052"><citation>Ota, Y. and T. Hattori. 2008. Relationships among three Japanese Laetiporus taxa based on phylogenetic analysis and incompatibility tests. Mycoscience, in press.</citation><abstract>Relationships among three Japanese Laetiporus taxa (&#226;&#132;&#162;eL. sulphureus var. sulphureus&#226;&#132;&#162;f auct Japan, L. sulphureus var. miniatus and L. versisporus) were assessed with phylogenetic analysis and incompatibility tests. Gene phylogenies inferred from the internal transcribed spacer region of nuclear ribosomal DNA, elongation factor 1 &#226;&#136;&#158;&#194;&#191; and &#226;&#136;&#158;&#195;&#128;-tubulin gene regions suggested that Japanese Laetiporus was divided into four groups: the yellow pore form of L. sulphureus var. miniatus, the white pore form of L. sulphureus var. miniatus, and two &#226;&#132;&#162;eL. sulphureus var. sulphureus&#226;&#132;&#162;f/ L. versisporus groups. A morphologically distinct species, Laetiporus versisporus, sharing a clade with &#226;&#132;&#162;eL. sulphureus var. sulphureus&#226;&#132;&#162;f auct Japan, was proved to be an anamorphic form of &#226;&#132;&#162;eL. sulphureus var. sulphureus&#226;&#132;&#162;f auct Japan. The &#226;&#132;&#162;esulphureus/versisporus&#226;&#132;&#162;f isolates showed two divergent sequence types in each region. Some isolates had intra-individual polymorphism assigned to both sequence types. This suggests that speciation via hybridization is ongoing in the &#226;&#132;&#162;esulpureus/versisporus&#226;&#132;&#162;f group. Single spore isolates from the &#226;&#132;&#162;esulpureus/versisporus&#226;&#132;&#162;f group, white pore group and yellow pore group were incompatible with each other. Our results provided strong support for the new recognition of three Laetiporus taxa in Japan. </abstract><author email="hattori@ffpri.affrc.go.jp" firstname="Tsutomu" lastname="Hattori" /><author email="yuota@ffpri.affrc.go.jp" firstname="Yuko " lastname="Ota" /></study></nex:external>
+    <otus id="_TaxaBlock3161271">
         <otu id="Laetiporussulphureusvar.sulphureusauct.jap.WD820" label="Laetiporus sulphureus var. sulphureus auct. jap. WD820" />
         <otu id="Laetiporussulphureusvar.sulphureusauct.jap.L97a" label="Laetiporus sulphureus var. sulphureus auct. jap. L97a" />
         <otu id="Laetiporussulphureusvar.sulphureusauct.jap.L85s1" label="Laetiporus sulphureus var. sulphureus auct. jap. L85s1" />
@@ -31,95 +31,95 @@
         <otu id="Laetiporussulphureusvar.miniatusL34s2" label="Laetiporus sulphureus var. miniatus L34s2" />
         <otu id="Laetiporussulphureusvar.miniatusL43s4" label="Laetiporus sulphureus var. miniatus L43s4" />
     </otus>
-    <trees id="_TreesBlock3166523" otus="_TaxaBlock3166522">
+    <trees id="_TreesBlock3161272" otus="_TaxaBlock3161271">
         <tree id="Tree5865" label="Fig. 3" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="neighbor joining" id="S2052A8470" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="btub" nchar="419" /></analysis></nex:external>
-            <node id="_Node3166527" />
-            <node id="_Node3166529" />
-            <node id="_Node3166531" />
-            <node id="_Node3166533" />
-            <node id="_Node3166535" otu="Laetiporussulphureusvar.sulphureusauct.jap.WD820" />
-            <node id="_Node3166538" otu="Laetiporussulphureusvar.sulphureusauct.jap.L97a" />
-            <node id="_Node3166541" otu="Laetiporussulphureusvar.sulphureusauct.jap.L85s1" />
-            <node id="_Node3166544" />
-            <node id="_Node3166546" otu="LaetiporusversisporusWD153" />
-            <node id="_Node3166549" otu="LaetiporusversisporusL5" />
-            <node id="_Node3166552" />
-            <node id="_Node3166554" />
-            <node id="_Node3166556" />
-            <node id="_Node3166558" />
-            <node id="_Node3166560" otu="Laetiporussulphureusvar.sulphureusauct.jap.L54s7" />
-            <node id="_Node3166563" otu="Laetiporussulphureusvar.sulphureusauct.jap.L68s6" />
-            <node id="_Node3166566" otu="Laetiporussulphureusvar.sulphureusauct.jap.L97b" />
-            <node id="_Node3166569" />
-            <node id="_Node3166571" />
-            <node id="_Node3166573" otu="Laetiporussulphureusvar.sulphureusauct.jap.L50s5" />
-            <node id="_Node3166576" otu="Laetiporussulphureusvar.sulphureusauct.jap.L90s3" />
-            <node id="_Node3166579" />
-            <node id="_Node3166581" />
-            <node id="_Node3166583" />
-            <node id="_Node3166585" otu="Laetiporussulphureusvar.miniatusWD1058" />
-            <node id="_Node3166588" otu="Laetiporussulphureusvar.miniatusFH1206" />
-            <node id="_Node3166591" />
-            <node id="_Node3166593" otu="Laetiporussulphureusvar.miniatusL23s4" />
-            <node id="_Node3166596" otu="Laetiporussulphureusvar.miniatusL27s4" />
-            <node id="_Node3166599" />
-            <node id="_Node3166601" otu="Laetiporussulphureusvar.miniatusFH1019" />
-            <node id="_Node3166604" otu="Laetiporussulphureusvar.miniatusL114s1" />
-            <node id="_Node3166607" />
-            <node id="_Node3166609" />
-            <node id="_Node3166611" />
-            <node id="_Node3166613" />
-            <node id="_Node3166615" />
-            <node id="_Node3166617" otu="Laetiporussulphureusvar.miniatusFH1122" />
-            <node id="_Node3166620" otu="Laetiporussulphureusvar.miniatusL24" />
-            <node id="_Node3166623" otu="Laetiporussulphureusvar.miniatusL67s5" />
-            <node id="_Node3166626" otu="Laetiporussulphureusvar.miniatusL72s1" />
-            <node id="_Node3166629" otu="Laetiporussulphureusvar.miniatusL34s2" />
-            <node id="_Node3166632" otu="Laetiporussulphureusvar.miniatusL43s4" />
-            <rootedge id="_Edge3166528" target="_Node3166527" />
-            <edge id="_Edge3166530" source="_Node3166527" target="_Node3166529" />
-            <edge id="_Edge3166532" source="_Node3166529" target="_Node3166531" />
-            <edge id="_Edge3166534" source="_Node3166531" target="_Node3166533" />
-            <edge id="_Edge3166536" source="_Node3166533" target="_Node3166535" />
-            <edge id="_Edge3166539" source="_Node3166533" target="_Node3166538" />
-            <edge id="_Edge3166542" source="_Node3166531" target="_Node3166541" />
-            <edge id="_Edge3166545" source="_Node3166529" target="_Node3166544" />
-            <edge id="_Edge3166547" source="_Node3166544" target="_Node3166546" />
-            <edge id="_Edge3166550" source="_Node3166544" target="_Node3166549" />
-            <edge id="_Edge3166553" source="_Node3166527" target="_Node3166552" />
-            <edge id="_Edge3166555" source="_Node3166552" target="_Node3166554" />
-            <edge id="_Edge3166557" source="_Node3166554" target="_Node3166556" />
-            <edge id="_Edge3166559" source="_Node3166556" target="_Node3166558" />
-            <edge id="_Edge3166561" source="_Node3166558" target="_Node3166560" />
-            <edge id="_Edge3166564" source="_Node3166558" target="_Node3166563" />
-            <edge id="_Edge3166567" source="_Node3166556" target="_Node3166566" />
-            <edge id="_Edge3166570" source="_Node3166554" target="_Node3166569" />
-            <edge id="_Edge3166572" source="_Node3166569" target="_Node3166571" />
-            <edge id="_Edge3166574" source="_Node3166571" target="_Node3166573" />
-            <edge id="_Edge3166577" source="_Node3166571" target="_Node3166576" />
-            <edge id="_Edge3166580" source="_Node3166569" target="_Node3166579" />
-            <edge id="_Edge3166582" source="_Node3166579" target="_Node3166581" />
-            <edge id="_Edge3166584" source="_Node3166581" target="_Node3166583" />
-            <edge id="_Edge3166586" source="_Node3166583" target="_Node3166585" />
-            <edge id="_Edge3166589" source="_Node3166583" target="_Node3166588" />
-            <edge id="_Edge3166592" source="_Node3166581" target="_Node3166591" />
-            <edge id="_Edge3166594" source="_Node3166591" target="_Node3166593" />
-            <edge id="_Edge3166597" source="_Node3166591" target="_Node3166596" />
-            <edge id="_Edge3166600" source="_Node3166579" target="_Node3166599" />
-            <edge id="_Edge3166602" source="_Node3166599" target="_Node3166601" />
-            <edge id="_Edge3166605" source="_Node3166599" target="_Node3166604" />
-            <edge id="_Edge3166608" source="_Node3166552" target="_Node3166607" />
-            <edge id="_Edge3166610" source="_Node3166607" target="_Node3166609" />
-            <edge id="_Edge3166612" source="_Node3166609" target="_Node3166611" />
-            <edge id="_Edge3166614" source="_Node3166611" target="_Node3166613" />
-            <edge id="_Edge3166616" source="_Node3166613" target="_Node3166615" />
-            <edge id="_Edge3166618" source="_Node3166615" target="_Node3166617" />
-            <edge id="_Edge3166621" source="_Node3166615" target="_Node3166620" />
-            <edge id="_Edge3166624" source="_Node3166613" target="_Node3166623" />
-            <edge id="_Edge3166627" source="_Node3166611" target="_Node3166626" />
-            <edge id="_Edge3166630" source="_Node3166609" target="_Node3166629" />
-            <edge id="_Edge3166633" source="_Node3166607" target="_Node3166632" />
+            <node id="_Node3161276" />
+            <node id="_Node3161278" />
+            <node id="_Node3161280" />
+            <node id="_Node3161282" />
+            <node id="_Node3161284" otu="Laetiporussulphureusvar.sulphureusauct.jap.WD820" />
+            <node id="_Node3161287" otu="Laetiporussulphureusvar.sulphureusauct.jap.L97a" />
+            <node id="_Node3161290" otu="Laetiporussulphureusvar.sulphureusauct.jap.L85s1" />
+            <node id="_Node3161293" />
+            <node id="_Node3161295" otu="LaetiporusversisporusWD153" />
+            <node id="_Node3161298" otu="LaetiporusversisporusL5" />
+            <node id="_Node3161301" />
+            <node id="_Node3161303" />
+            <node id="_Node3161305" />
+            <node id="_Node3161307" />
+            <node id="_Node3161309" otu="Laetiporussulphureusvar.sulphureusauct.jap.L54s7" />
+            <node id="_Node3161312" otu="Laetiporussulphureusvar.sulphureusauct.jap.L68s6" />
+            <node id="_Node3161315" otu="Laetiporussulphureusvar.sulphureusauct.jap.L97b" />
+            <node id="_Node3161318" />
+            <node id="_Node3161320" />
+            <node id="_Node3161322" otu="Laetiporussulphureusvar.sulphureusauct.jap.L50s5" />
+            <node id="_Node3161325" otu="Laetiporussulphureusvar.sulphureusauct.jap.L90s3" />
+            <node id="_Node3161328" />
+            <node id="_Node3161330" />
+            <node id="_Node3161332" />
+            <node id="_Node3161334" otu="Laetiporussulphureusvar.miniatusWD1058" />
+            <node id="_Node3161337" otu="Laetiporussulphureusvar.miniatusFH1206" />
+            <node id="_Node3161340" />
+            <node id="_Node3161342" otu="Laetiporussulphureusvar.miniatusL23s4" />
+            <node id="_Node3161345" otu="Laetiporussulphureusvar.miniatusL27s4" />
+            <node id="_Node3161348" />
+            <node id="_Node3161350" otu="Laetiporussulphureusvar.miniatusFH1019" />
+            <node id="_Node3161353" otu="Laetiporussulphureusvar.miniatusL114s1" />
+            <node id="_Node3161356" />
+            <node id="_Node3161358" />
+            <node id="_Node3161360" />
+            <node id="_Node3161362" />
+            <node id="_Node3161364" />
+            <node id="_Node3161366" otu="Laetiporussulphureusvar.miniatusFH1122" />
+            <node id="_Node3161369" otu="Laetiporussulphureusvar.miniatusL24" />
+            <node id="_Node3161372" otu="Laetiporussulphureusvar.miniatusL67s5" />
+            <node id="_Node3161375" otu="Laetiporussulphureusvar.miniatusL72s1" />
+            <node id="_Node3161378" otu="Laetiporussulphureusvar.miniatusL34s2" />
+            <node id="_Node3161381" otu="Laetiporussulphureusvar.miniatusL43s4" />
+            <rootedge id="_Edge3161277" target="_Node3161276" />
+            <edge id="_Edge3161279" source="_Node3161276" target="_Node3161278" />
+            <edge id="_Edge3161281" source="_Node3161278" target="_Node3161280" />
+            <edge id="_Edge3161283" source="_Node3161280" target="_Node3161282" />
+            <edge id="_Edge3161285" source="_Node3161282" target="_Node3161284" />
+            <edge id="_Edge3161288" source="_Node3161282" target="_Node3161287" />
+            <edge id="_Edge3161291" source="_Node3161280" target="_Node3161290" />
+            <edge id="_Edge3161294" source="_Node3161278" target="_Node3161293" />
+            <edge id="_Edge3161296" source="_Node3161293" target="_Node3161295" />
+            <edge id="_Edge3161299" source="_Node3161293" target="_Node3161298" />
+            <edge id="_Edge3161302" source="_Node3161276" target="_Node3161301" />
+            <edge id="_Edge3161304" source="_Node3161301" target="_Node3161303" />
+            <edge id="_Edge3161306" source="_Node3161303" target="_Node3161305" />
+            <edge id="_Edge3161308" source="_Node3161305" target="_Node3161307" />
+            <edge id="_Edge3161310" source="_Node3161307" target="_Node3161309" />
+            <edge id="_Edge3161313" source="_Node3161307" target="_Node3161312" />
+            <edge id="_Edge3161316" source="_Node3161305" target="_Node3161315" />
+            <edge id="_Edge3161319" source="_Node3161303" target="_Node3161318" />
+            <edge id="_Edge3161321" source="_Node3161318" target="_Node3161320" />
+            <edge id="_Edge3161323" source="_Node3161320" target="_Node3161322" />
+            <edge id="_Edge3161326" source="_Node3161320" target="_Node3161325" />
+            <edge id="_Edge3161329" source="_Node3161318" target="_Node3161328" />
+            <edge id="_Edge3161331" source="_Node3161328" target="_Node3161330" />
+            <edge id="_Edge3161333" source="_Node3161330" target="_Node3161332" />
+            <edge id="_Edge3161335" source="_Node3161332" target="_Node3161334" />
+            <edge id="_Edge3161338" source="_Node3161332" target="_Node3161337" />
+            <edge id="_Edge3161341" source="_Node3161330" target="_Node3161340" />
+            <edge id="_Edge3161343" source="_Node3161340" target="_Node3161342" />
+            <edge id="_Edge3161346" source="_Node3161340" target="_Node3161345" />
+            <edge id="_Edge3161349" source="_Node3161328" target="_Node3161348" />
+            <edge id="_Edge3161351" source="_Node3161348" target="_Node3161350" />
+            <edge id="_Edge3161354" source="_Node3161348" target="_Node3161353" />
+            <edge id="_Edge3161357" source="_Node3161301" target="_Node3161356" />
+            <edge id="_Edge3161359" source="_Node3161356" target="_Node3161358" />
+            <edge id="_Edge3161361" source="_Node3161358" target="_Node3161360" />
+            <edge id="_Edge3161363" source="_Node3161360" target="_Node3161362" />
+            <edge id="_Edge3161365" source="_Node3161362" target="_Node3161364" />
+            <edge id="_Edge3161367" source="_Node3161364" target="_Node3161366" />
+            <edge id="_Edge3161370" source="_Node3161364" target="_Node3161369" />
+            <edge id="_Edge3161373" source="_Node3161362" target="_Node3161372" />
+            <edge id="_Edge3161376" source="_Node3161360" target="_Node3161375" />
+            <edge id="_Edge3161379" source="_Node3161358" target="_Node3161378" />
+            <edge id="_Edge3161382" source="_Node3161356" target="_Node3161381" />
         </tree>
     </trees>
 </nex:nexml>

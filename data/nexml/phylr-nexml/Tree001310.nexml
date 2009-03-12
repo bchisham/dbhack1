@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S595"><citation>Nguyen, K. B., J. Maruniak, and B. J. Adams. 2001. The diagnostic and phylogenetic utility of the rDNA internal transcribed spacer sequences of Steinernema. Journal of Nematology, in press.</citation><author email="bjadams@ufl.edu" firstname="Byron J." lastname="Adams" /><author firstname="Jim" lastname="Maruniak" /><author email="kbn@gnv.ifas.ufl.edu" firstname="Khuong B." lastname="Nguyen" /></study></nex:external>
-    <otus id="_TaxaBlock562529">
+<nex:external xmlns="dbhack1/phylr"><study id="S595"><citation>Nguyen, K. B., J. Maruniak, and B. J. Adams. 2001. The diagnostic and phylogenetic utility of the rDNA internal transcribed spacer sequences of Steinernema. Journal of Nematology, in press.</citation><abstract>The ITS regions of 10 species of Steinernema were PCR amplified using primers from flanking 18S and 26S sequences and directly sequenced using an automated sequencer. The sequences were aligned and used for species characterization and differentiation. Sequence length varied from 916 to 1061 base pairs (bp) in length. Restriction mapping of these sequences showed diagnostic variation such that the number of cuts and the length of the resulting fragments can be used for species differentiation. The composition and ratio of sequence similarity allow for further characterization of the ten nematode species. Phylogenetic relationships among the sampled Steinernema taxa were estimated by maximum parsimony and maximum-likelihood. Our results support the utility of the ITS region for differentiation of the nematode species of the genus Steinernema. The ITS region appears to be phylogenetically informative for closely related sister species, but high variability among more distantly related taxa preclude its use for resolving relationships among all members of the genus.</abstract><author email="bjadams@ufl.edu" firstname="Byron J." lastname="Adams" /><author firstname="Jim" lastname="Maruniak" /><author email="kbn@gnv.ifas.ufl.edu" firstname="Khuong B." lastname="Nguyen" /></study></nex:external>
+    <otus id="_TaxaBlock558898">
         <otu id="Steinernemaintermedium" label="Steinernema intermedium" />
         <otu id="Steinernemabicornutum" label="Steinernema bicornutum" />
         <otu id="Steinernemafeltiae" label="Steinernema feltiae" />
@@ -19,47 +19,47 @@
         <otu id="Steinernemaglaseri" label="Steinernema glaseri" />
         <otu id="Steinernemasp." label="Steinernema sp." />
     </otus>
-    <trees id="_TreesBlock562530" otus="_TaxaBlock562529">
+    <trees id="_TreesBlock558899" otus="_TaxaBlock558898">
         <tree id="Tree1786" label="KingConcat" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S595A1086" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="concatenated matrix of 8 separate ITS rDNA alignments" nchar="8658" /></analysis></nex:external>
-            <node id="_Node562534" />
-            <node id="_Node562536" otu="Steinernemaintermedium" />
-            <node id="_Node562539" />
-            <node id="_Node562541" otu="Steinernemabicornutum" />
-            <node id="_Node562544" />
-            <node id="_Node562546" />
-            <node id="_Node562548" />
-            <node id="_Node562550" otu="Steinernemafeltiae" />
-            <node id="_Node562553" otu="Steinernemaoregonense" />
-            <node id="_Node562556" />
-            <node id="_Node562558" />
-            <node id="_Node562560" />
-            <node id="_Node562562" otu="Steinernemacarpocapsae" />
-            <node id="_Node562565" otu="Steinernemascapterisci" />
-            <node id="_Node562568" otu="Steinernemaneocurtillae" />
-            <node id="_Node562571" otu="Steinernemamonticolum" />
-            <node id="_Node562574" />
-            <node id="_Node562576" otu="Steinernemaglaseri" />
-            <node id="_Node562579" otu="Steinernemasp." />
-            <rootedge id="_Edge562535" target="_Node562534" />
-            <edge id="_Edge562537" source="_Node562534" target="_Node562536" />
-            <edge id="_Edge562540" source="_Node562534" target="_Node562539" />
-            <edge id="_Edge562542" source="_Node562539" target="_Node562541" />
-            <edge id="_Edge562545" source="_Node562539" target="_Node562544" />
-            <edge id="_Edge562547" source="_Node562544" target="_Node562546" />
-            <edge id="_Edge562549" source="_Node562546" target="_Node562548" />
-            <edge id="_Edge562551" source="_Node562548" target="_Node562550" />
-            <edge id="_Edge562554" source="_Node562548" target="_Node562553" />
-            <edge id="_Edge562557" source="_Node562546" target="_Node562556" />
-            <edge id="_Edge562559" source="_Node562556" target="_Node562558" />
-            <edge id="_Edge562561" source="_Node562558" target="_Node562560" />
-            <edge id="_Edge562563" source="_Node562560" target="_Node562562" />
-            <edge id="_Edge562566" source="_Node562560" target="_Node562565" />
-            <edge id="_Edge562569" source="_Node562558" target="_Node562568" />
-            <edge id="_Edge562572" source="_Node562556" target="_Node562571" />
-            <edge id="_Edge562575" source="_Node562544" target="_Node562574" />
-            <edge id="_Edge562577" source="_Node562574" target="_Node562576" />
-            <edge id="_Edge562580" source="_Node562574" target="_Node562579" />
+            <node id="_Node558903" />
+            <node id="_Node558905" otu="Steinernemaintermedium" />
+            <node id="_Node558908" />
+            <node id="_Node558910" otu="Steinernemabicornutum" />
+            <node id="_Node558913" />
+            <node id="_Node558915" />
+            <node id="_Node558917" />
+            <node id="_Node558919" otu="Steinernemafeltiae" />
+            <node id="_Node558922" otu="Steinernemaoregonense" />
+            <node id="_Node558925" />
+            <node id="_Node558927" />
+            <node id="_Node558929" />
+            <node id="_Node558931" otu="Steinernemacarpocapsae" />
+            <node id="_Node558934" otu="Steinernemascapterisci" />
+            <node id="_Node558937" otu="Steinernemaneocurtillae" />
+            <node id="_Node558940" otu="Steinernemamonticolum" />
+            <node id="_Node558943" />
+            <node id="_Node558945" otu="Steinernemaglaseri" />
+            <node id="_Node558948" otu="Steinernemasp." />
+            <rootedge id="_Edge558904" target="_Node558903" />
+            <edge id="_Edge558906" source="_Node558903" target="_Node558905" />
+            <edge id="_Edge558909" source="_Node558903" target="_Node558908" />
+            <edge id="_Edge558911" source="_Node558908" target="_Node558910" />
+            <edge id="_Edge558914" source="_Node558908" target="_Node558913" />
+            <edge id="_Edge558916" source="_Node558913" target="_Node558915" />
+            <edge id="_Edge558918" source="_Node558915" target="_Node558917" />
+            <edge id="_Edge558920" source="_Node558917" target="_Node558919" />
+            <edge id="_Edge558923" source="_Node558917" target="_Node558922" />
+            <edge id="_Edge558926" source="_Node558915" target="_Node558925" />
+            <edge id="_Edge558928" source="_Node558925" target="_Node558927" />
+            <edge id="_Edge558930" source="_Node558927" target="_Node558929" />
+            <edge id="_Edge558932" source="_Node558929" target="_Node558931" />
+            <edge id="_Edge558935" source="_Node558929" target="_Node558934" />
+            <edge id="_Edge558938" source="_Node558927" target="_Node558937" />
+            <edge id="_Edge558941" source="_Node558925" target="_Node558940" />
+            <edge id="_Edge558944" source="_Node558913" target="_Node558943" />
+            <edge id="_Edge558946" source="_Node558943" target="_Node558945" />
+            <edge id="_Edge558949" source="_Node558943" target="_Node558948" />
         </tree>
     </trees>
 </nex:nexml>

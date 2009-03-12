@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S2211"><citation>Uit de Weerd, D.R. 2008. Delimitation and phylogenetics of the highly diverse land snail family Urocoptidae (Gastropoda, Pulmonata) based on 28S rRNA sequence data: A reunion with Cerion. Journal of Molluscan Studies, in press.</citation><author email="uitdeweerd@gmail.com" firstname="Dennis Ren&#195;&#169;" lastname="Uit de Weerd" /></study></nex:external>
-    <otus id="_TaxaBlock3570164">
+<nex:external xmlns="dbhack1/phylr"><study id="S2211"><citation>Uit de Weerd, D.R. 2008. Delimitation and phylogenetics of the highly diverse land snail family Urocoptidae (Gastropoda, Pulmonata) based on 28S rRNA sequence data: A reunion with Cerion. Journal of Molluscan Studies, in press.</citation><abstract>The extreme morphological diversity in the land snail family Urocoptidae has complicated its delimitation from other land snail families, and has obscured its intra- and interfamilial phylogenetic relationships. Using an independent dataset of 28S rRNA DNA-sequence data, I tested morphology-based hypotheses about these relationships. These data refute the recent placement of the Australian genus Coelocion within the Urocoptidae. Instead, they provide strong support for a North-American/circum-Caribbean clade, to be named Urocoptoidea (new superfamily), which consists of the families Urocoptidae and Cerionidae. In all optimal trees (ML, MP and Bayesian), Cerion is nested among New World Urocoptidae, rather than occupying a basal position as their sister group. Even so, the monophyly of the New World Urocoptidae could not be statistically rejected. Judging from the fossil record, the superfamily Urocoptoidea originated in the south-western part of the North American continent, where it was widespread by the late Cretaceous. The Antillean Urocoptoidea most likely constitute three separate lineages that may have been carried eastward on the proto-Antillean island arc, which started in the late Cretaceous from a position near the SW North-American landmass. Shell characters used in urocoptid classification are re-evaluated in the light of these results, and consequences for taxonomy and implications for evolutionary research are discussed. </abstract><author email="uitdeweerd@gmail.com" firstname="Dennis Ren&#195;&#169;" lastname="Uit de Weerd" /></study></nex:external>
+    <otus id="_TaxaBlock3564913">
         <otu id="Arionsilvaticus" label="Arion silvaticus" />
         <otu id="Derocerasreticulatum" label="Deroceras reticulatum" />
         <otu id="Mesomphixglobosus" label="Mesomphix globosus" />
@@ -35,107 +35,107 @@
         <otu id="Helicodiscusparallelus" label="Helicodiscus parallelus" />
         <otu id="Lamellaxisgracilis" label="Lamellaxis gracilis" />
     </otus>
-    <trees id="_TreesBlock3570165" otus="_TaxaBlock3570164">
+    <trees id="_TreesBlock3564914" otus="_TaxaBlock3564913">
         <tree id="Tree6301" label="MPtree 4" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S2211A9343" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Urocoptidae 28S D1 to D7b" nchar="2268" /></analysis></nex:external>
-            <node id="_Node3570169" />
-            <node id="_Node3570171" />
-            <node id="_Node3570173" />
-            <node id="_Node3570175" />
-            <node id="_Node3570177" />
-            <node id="_Node3570179" />
-            <node id="_Node3570181" otu="Arionsilvaticus" />
-            <node id="_Node3570184" otu="Derocerasreticulatum" />
-            <node id="_Node3570187" otu="Mesomphixglobosus" />
-            <node id="_Node3570190" />
-            <node id="_Node3570192" />
-            <node id="_Node3570194" />
-            <node id="_Node3570196" otu="Praticolellamartensiana" />
-            <node id="_Node3570199" otu="Polygyracereolus" />
-            <node id="_Node3570202" />
-            <node id="_Node3570204" otu="Bulimulusdiaphanus" />
-            <node id="_Node3570207" otu="Sagdaspei" />
-            <node id="_Node3570210" />
-            <node id="_Node3570212" />
-            <node id="_Node3570214" />
-            <node id="_Node3570216" otu="Cerionstriatellum" />
-            <node id="_Node3570219" />
-            <node id="_Node3570221" />
-            <node id="_Node3570223" otu="Coelostemmasp.nov." />
-            <node id="_Node3570226" otu="Hendersoniellaluxlux" />
-            <node id="_Node3570229" otu="Holospirafortisculpta" />
-            <node id="_Node3570232" otu="Epirobiapolygyra" />
-            <node id="_Node3570235" />
-            <node id="_Node3570237" />
-            <node id="_Node3570239" />
-            <node id="_Node3570241" otu="Macroceramusmicrodon" />
-            <node id="_Node3570244" otu="Microceramuspontificus" />
-            <node id="_Node3570247" />
-            <node id="_Node3570249" otu="Torrecoptisholguinensis" />
-            <node id="_Node3570252" otu="Autocoptismenkeana" />
-            <node id="_Node3570255" />
-            <node id="_Node3570257" otu="Simplicervixinornata" />
-            <node id="_Node3570260" otu="Brachypodelladominicensisgabbi" />
-            <node id="_Node3570263" />
-            <node id="_Node3570265" />
-            <node id="_Node3570267" />
-            <node id="_Node3570269" otu="Dissotropissp.nov." />
-            <node id="_Node3570272" otu="Anisospiraliebmanni" />
-            <node id="_Node3570275" otu="Archegocoptiscrenata" />
-            <node id="_Node3570278" otu="Eucalodiumsp." />
-            <node id="_Node3570281" otu="Neniatridens" />
-            <node id="_Node3570284" otu="Coelocionaustralis" />
-            <node id="_Node3570287" otu="Helicodiscusparallelus" />
-            <node id="_Node3570290" otu="Lamellaxisgracilis" />
-            <rootedge id="_Edge3570170" target="_Node3570169" />
-            <edge id="_Edge3570172" source="_Node3570169" target="_Node3570171" />
-            <edge id="_Edge3570174" source="_Node3570171" target="_Node3570173" />
-            <edge id="_Edge3570176" source="_Node3570173" target="_Node3570175" />
-            <edge id="_Edge3570178" source="_Node3570175" target="_Node3570177" />
-            <edge id="_Edge3570180" source="_Node3570177" target="_Node3570179" />
-            <edge id="_Edge3570182" source="_Node3570179" target="_Node3570181" />
-            <edge id="_Edge3570185" source="_Node3570179" target="_Node3570184" />
-            <edge id="_Edge3570188" source="_Node3570177" target="_Node3570187" />
-            <edge id="_Edge3570191" source="_Node3570175" target="_Node3570190" />
-            <edge id="_Edge3570193" source="_Node3570190" target="_Node3570192" />
-            <edge id="_Edge3570195" source="_Node3570192" target="_Node3570194" />
-            <edge id="_Edge3570197" source="_Node3570194" target="_Node3570196" />
-            <edge id="_Edge3570200" source="_Node3570194" target="_Node3570199" />
-            <edge id="_Edge3570203" source="_Node3570192" target="_Node3570202" />
-            <edge id="_Edge3570205" source="_Node3570202" target="_Node3570204" />
-            <edge id="_Edge3570208" source="_Node3570202" target="_Node3570207" />
-            <edge id="_Edge3570211" source="_Node3570190" target="_Node3570210" />
-            <edge id="_Edge3570213" source="_Node3570210" target="_Node3570212" />
-            <edge id="_Edge3570215" source="_Node3570212" target="_Node3570214" />
-            <edge id="_Edge3570217" source="_Node3570214" target="_Node3570216" />
-            <edge id="_Edge3570220" source="_Node3570214" target="_Node3570219" />
-            <edge id="_Edge3570222" source="_Node3570219" target="_Node3570221" />
-            <edge id="_Edge3570224" source="_Node3570221" target="_Node3570223" />
-            <edge id="_Edge3570227" source="_Node3570221" target="_Node3570226" />
-            <edge id="_Edge3570230" source="_Node3570221" target="_Node3570229" />
-            <edge id="_Edge3570233" source="_Node3570219" target="_Node3570232" />
-            <edge id="_Edge3570236" source="_Node3570212" target="_Node3570235" />
-            <edge id="_Edge3570238" source="_Node3570235" target="_Node3570237" />
-            <edge id="_Edge3570240" source="_Node3570237" target="_Node3570239" />
-            <edge id="_Edge3570242" source="_Node3570239" target="_Node3570241" />
-            <edge id="_Edge3570245" source="_Node3570239" target="_Node3570244" />
-            <edge id="_Edge3570248" source="_Node3570237" target="_Node3570247" />
-            <edge id="_Edge3570250" source="_Node3570247" target="_Node3570249" />
-            <edge id="_Edge3570253" source="_Node3570247" target="_Node3570252" />
-            <edge id="_Edge3570256" source="_Node3570235" target="_Node3570255" />
-            <edge id="_Edge3570258" source="_Node3570255" target="_Node3570257" />
-            <edge id="_Edge3570261" source="_Node3570255" target="_Node3570260" />
-            <edge id="_Edge3570264" source="_Node3570210" target="_Node3570263" />
-            <edge id="_Edge3570266" source="_Node3570263" target="_Node3570265" />
-            <edge id="_Edge3570268" source="_Node3570265" target="_Node3570267" />
-            <edge id="_Edge3570270" source="_Node3570267" target="_Node3570269" />
-            <edge id="_Edge3570273" source="_Node3570267" target="_Node3570272" />
-            <edge id="_Edge3570276" source="_Node3570265" target="_Node3570275" />
-            <edge id="_Edge3570279" source="_Node3570263" target="_Node3570278" />
-            <edge id="_Edge3570282" source="_Node3570173" target="_Node3570281" />
-            <edge id="_Edge3570285" source="_Node3570171" target="_Node3570284" />
-            <edge id="_Edge3570288" source="_Node3570169" target="_Node3570287" />
-            <edge id="_Edge3570291" source="_Node3570169" target="_Node3570290" />
+            <node id="_Node3564918" />
+            <node id="_Node3564920" />
+            <node id="_Node3564922" />
+            <node id="_Node3564924" />
+            <node id="_Node3564926" />
+            <node id="_Node3564928" />
+            <node id="_Node3564930" otu="Arionsilvaticus" />
+            <node id="_Node3564933" otu="Derocerasreticulatum" />
+            <node id="_Node3564936" otu="Mesomphixglobosus" />
+            <node id="_Node3564939" />
+            <node id="_Node3564941" />
+            <node id="_Node3564943" />
+            <node id="_Node3564945" otu="Praticolellamartensiana" />
+            <node id="_Node3564948" otu="Polygyracereolus" />
+            <node id="_Node3564951" />
+            <node id="_Node3564953" otu="Bulimulusdiaphanus" />
+            <node id="_Node3564956" otu="Sagdaspei" />
+            <node id="_Node3564959" />
+            <node id="_Node3564961" />
+            <node id="_Node3564963" />
+            <node id="_Node3564965" otu="Cerionstriatellum" />
+            <node id="_Node3564968" />
+            <node id="_Node3564970" />
+            <node id="_Node3564972" otu="Coelostemmasp.nov." />
+            <node id="_Node3564975" otu="Hendersoniellaluxlux" />
+            <node id="_Node3564978" otu="Holospirafortisculpta" />
+            <node id="_Node3564981" otu="Epirobiapolygyra" />
+            <node id="_Node3564984" />
+            <node id="_Node3564986" />
+            <node id="_Node3564988" />
+            <node id="_Node3564990" otu="Macroceramusmicrodon" />
+            <node id="_Node3564993" otu="Microceramuspontificus" />
+            <node id="_Node3564996" />
+            <node id="_Node3564998" otu="Torrecoptisholguinensis" />
+            <node id="_Node3565001" otu="Autocoptismenkeana" />
+            <node id="_Node3565004" />
+            <node id="_Node3565006" otu="Simplicervixinornata" />
+            <node id="_Node3565009" otu="Brachypodelladominicensisgabbi" />
+            <node id="_Node3565012" />
+            <node id="_Node3565014" />
+            <node id="_Node3565016" />
+            <node id="_Node3565018" otu="Dissotropissp.nov." />
+            <node id="_Node3565021" otu="Anisospiraliebmanni" />
+            <node id="_Node3565024" otu="Archegocoptiscrenata" />
+            <node id="_Node3565027" otu="Eucalodiumsp." />
+            <node id="_Node3565030" otu="Neniatridens" />
+            <node id="_Node3565033" otu="Coelocionaustralis" />
+            <node id="_Node3565036" otu="Helicodiscusparallelus" />
+            <node id="_Node3565039" otu="Lamellaxisgracilis" />
+            <rootedge id="_Edge3564919" target="_Node3564918" />
+            <edge id="_Edge3564921" source="_Node3564918" target="_Node3564920" />
+            <edge id="_Edge3564923" source="_Node3564920" target="_Node3564922" />
+            <edge id="_Edge3564925" source="_Node3564922" target="_Node3564924" />
+            <edge id="_Edge3564927" source="_Node3564924" target="_Node3564926" />
+            <edge id="_Edge3564929" source="_Node3564926" target="_Node3564928" />
+            <edge id="_Edge3564931" source="_Node3564928" target="_Node3564930" />
+            <edge id="_Edge3564934" source="_Node3564928" target="_Node3564933" />
+            <edge id="_Edge3564937" source="_Node3564926" target="_Node3564936" />
+            <edge id="_Edge3564940" source="_Node3564924" target="_Node3564939" />
+            <edge id="_Edge3564942" source="_Node3564939" target="_Node3564941" />
+            <edge id="_Edge3564944" source="_Node3564941" target="_Node3564943" />
+            <edge id="_Edge3564946" source="_Node3564943" target="_Node3564945" />
+            <edge id="_Edge3564949" source="_Node3564943" target="_Node3564948" />
+            <edge id="_Edge3564952" source="_Node3564941" target="_Node3564951" />
+            <edge id="_Edge3564954" source="_Node3564951" target="_Node3564953" />
+            <edge id="_Edge3564957" source="_Node3564951" target="_Node3564956" />
+            <edge id="_Edge3564960" source="_Node3564939" target="_Node3564959" />
+            <edge id="_Edge3564962" source="_Node3564959" target="_Node3564961" />
+            <edge id="_Edge3564964" source="_Node3564961" target="_Node3564963" />
+            <edge id="_Edge3564966" source="_Node3564963" target="_Node3564965" />
+            <edge id="_Edge3564969" source="_Node3564963" target="_Node3564968" />
+            <edge id="_Edge3564971" source="_Node3564968" target="_Node3564970" />
+            <edge id="_Edge3564973" source="_Node3564970" target="_Node3564972" />
+            <edge id="_Edge3564976" source="_Node3564970" target="_Node3564975" />
+            <edge id="_Edge3564979" source="_Node3564970" target="_Node3564978" />
+            <edge id="_Edge3564982" source="_Node3564968" target="_Node3564981" />
+            <edge id="_Edge3564985" source="_Node3564961" target="_Node3564984" />
+            <edge id="_Edge3564987" source="_Node3564984" target="_Node3564986" />
+            <edge id="_Edge3564989" source="_Node3564986" target="_Node3564988" />
+            <edge id="_Edge3564991" source="_Node3564988" target="_Node3564990" />
+            <edge id="_Edge3564994" source="_Node3564988" target="_Node3564993" />
+            <edge id="_Edge3564997" source="_Node3564986" target="_Node3564996" />
+            <edge id="_Edge3564999" source="_Node3564996" target="_Node3564998" />
+            <edge id="_Edge3565002" source="_Node3564996" target="_Node3565001" />
+            <edge id="_Edge3565005" source="_Node3564984" target="_Node3565004" />
+            <edge id="_Edge3565007" source="_Node3565004" target="_Node3565006" />
+            <edge id="_Edge3565010" source="_Node3565004" target="_Node3565009" />
+            <edge id="_Edge3565013" source="_Node3564959" target="_Node3565012" />
+            <edge id="_Edge3565015" source="_Node3565012" target="_Node3565014" />
+            <edge id="_Edge3565017" source="_Node3565014" target="_Node3565016" />
+            <edge id="_Edge3565019" source="_Node3565016" target="_Node3565018" />
+            <edge id="_Edge3565022" source="_Node3565016" target="_Node3565021" />
+            <edge id="_Edge3565025" source="_Node3565014" target="_Node3565024" />
+            <edge id="_Edge3565028" source="_Node3565012" target="_Node3565027" />
+            <edge id="_Edge3565031" source="_Node3564922" target="_Node3565030" />
+            <edge id="_Edge3565034" source="_Node3564920" target="_Node3565033" />
+            <edge id="_Edge3565037" source="_Node3564918" target="_Node3565036" />
+            <edge id="_Edge3565040" source="_Node3564918" target="_Node3565039" />
         </tree>
     </trees>
 </nex:nexml>

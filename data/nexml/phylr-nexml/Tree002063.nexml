@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S910"><citation>Susko, E., Field, C., Blouin, C. and A.J. Roger 2003. Estimation of Rates-Across-Sites Distributions in Phylogenetic Substitution Models. Systematic Biology, in press.</citation><author email="bongo@hades.biochem.dal.ca" firstname="Christian" lastname="Blouin" /><author email="field@mathstat.dal.ca" firstname="Chris" lastname="Field" /><author email="roger@hades.biochem.dal.ca" firstname="Andrew J." lastname="Roger" /><author email="susko@mathstat.dal.ca" firstname="Edward" lastname="Susko" /></study></nex:external>
-    <otus id="_TaxaBlock1021160">
+<nex:external xmlns="dbhack1/phylr"><study id="S910"><citation>Susko, E., Field, C., Blouin, C. and A.J. Roger 2003. Estimation of Rates-Across-Sites Distributions in Phylogenetic Substitution Models. Systematic Biology, in press.</citation><abstract>Previous work has shown that it is often  essential to account for the variation in rates at different sites in  phylogenetic models in order to avoid phylogenetic artifacts such as long branch  attraction. In most current models, the gamma distribution is used for the  rates-across-sites distributions and is implemented as an equal-probability  discrete gamma. In this paper, we introduce discrete distribution estimates with  large numbers of equally spaced rate categories allowing us to investigate the  appropriateness of the gamma model. With large numbers of rate categories, these  discrete estimates are flexible enough to approximate the shape of almost any  distribution. Likelihood ratio statistic tests and a nonparametric bootstrap confidence bound  estimation procedure based on the discrete estimates are presented that can be used to test the  fit of a parametric family. We apply the methodology to several  different protein data sets and find that although the gamma model often provides  a good parametric model for this type of data, rate estimates from an  equal-probability discrete gamma model with a small number of categories will  tend to underestimate the largest rates.  In cases when the gamma model assumption is in doubt, rate  estimates coming from the discrete rate distribution estimate with a large number  of rate categories provide a robust alternative to gamma estimates. An alternative implementation of the gamma distribution is proposed that, for equal numbers of rate categories, is computationally more efficient during optimization than the standard gamma implementation and can provide more accurate estimates of site rates.</abstract><author email="bongo@hades.biochem.dal.ca" firstname="Christian" lastname="Blouin" /><author email="field@mathstat.dal.ca" firstname="Chris" lastname="Field" /><author email="roger@hades.biochem.dal.ca" firstname="Andrew J." lastname="Roger" /><author email="susko@mathstat.dal.ca" firstname="Edward" lastname="Susko" /></study></nex:external>
+    <otus id="_TaxaBlock1017529">
         <otu id="Halobacteriumspecies" label="Halobacterium species" />
         <otu id="Haloferaxvolcanii" label="Haloferax volcanii" />
         <otu id="Methanosarcinamazei" label="Methanosarcina mazei" />
@@ -20,49 +20,49 @@
         <otu id="Aeropyrumpernix" label="Aeropyrum pernix" />
         <otu id="Pyrobaculumaerophilum" label="Pyrobaculum aerophilum" />
     </otus>
-    <trees id="_TreesBlock1021161" otus="_TaxaBlock1021160">
+    <trees id="_TreesBlock1017530" otus="_TaxaBlock1017529">
         <tree id="Tree2678" label="ArchaeHMG" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Fitch Margoliash" id="S910A2374" software="Phylip"><inputmatrix datatype="Amino Acid" name="Archaebacterial HMG-CoA" nchar="251" /></analysis></nex:external>
-            <node id="_Node1021165" />
-            <node id="_Node1021167" otu="Halobacteriumspecies" />
-            <node id="_Node1021170" otu="Haloferaxvolcanii" />
-            <node id="_Node1021173" />
-            <node id="_Node1021175" otu="Methanosarcinamazei" />
-            <node id="_Node1021178" />
-            <node id="_Node1021180" />
-            <node id="_Node1021182" otu="Methanobacteriumthermoautotrophicum" />
-            <node id="_Node1021185" otu="Methanococcusjannaschii" />
-            <node id="_Node1021188" />
-            <node id="_Node1021190" />
-            <node id="_Node1021192" otu="Pyrococcusabyssii" />
-            <node id="_Node1021195" />
-            <node id="_Node1021197" otu="Pyrococcusfuriosus" />
-            <node id="_Node1021200" otu="Pyrococcushorikoshii" />
-            <node id="_Node1021203" />
-            <node id="_Node1021205" otu="Sulfolobussolfataricus" />
-            <node id="_Node1021208" />
-            <node id="_Node1021210" otu="Aeropyrumpernix" />
-            <node id="_Node1021213" otu="Pyrobaculumaerophilum" />
-            <rootedge id="_Edge1021166" target="_Node1021165" />
-            <edge id="_Edge1021168" source="_Node1021165" target="_Node1021167" />
-            <edge id="_Edge1021171" source="_Node1021165" target="_Node1021170" />
-            <edge id="_Edge1021174" source="_Node1021165" target="_Node1021173" />
-            <edge id="_Edge1021176" source="_Node1021173" target="_Node1021175" />
-            <edge id="_Edge1021179" source="_Node1021173" target="_Node1021178" />
-            <edge id="_Edge1021181" source="_Node1021178" target="_Node1021180" />
-            <edge id="_Edge1021183" source="_Node1021180" target="_Node1021182" />
-            <edge id="_Edge1021186" source="_Node1021180" target="_Node1021185" />
-            <edge id="_Edge1021189" source="_Node1021178" target="_Node1021188" />
-            <edge id="_Edge1021191" source="_Node1021188" target="_Node1021190" />
-            <edge id="_Edge1021193" source="_Node1021190" target="_Node1021192" />
-            <edge id="_Edge1021196" source="_Node1021190" target="_Node1021195" />
-            <edge id="_Edge1021198" source="_Node1021195" target="_Node1021197" />
-            <edge id="_Edge1021201" source="_Node1021195" target="_Node1021200" />
-            <edge id="_Edge1021204" source="_Node1021188" target="_Node1021203" />
-            <edge id="_Edge1021206" source="_Node1021203" target="_Node1021205" />
-            <edge id="_Edge1021209" source="_Node1021203" target="_Node1021208" />
-            <edge id="_Edge1021211" source="_Node1021208" target="_Node1021210" />
-            <edge id="_Edge1021214" source="_Node1021208" target="_Node1021213" />
+            <node id="_Node1017534" />
+            <node id="_Node1017536" otu="Halobacteriumspecies" />
+            <node id="_Node1017539" otu="Haloferaxvolcanii" />
+            <node id="_Node1017542" />
+            <node id="_Node1017544" otu="Methanosarcinamazei" />
+            <node id="_Node1017547" />
+            <node id="_Node1017549" />
+            <node id="_Node1017551" otu="Methanobacteriumthermoautotrophicum" />
+            <node id="_Node1017554" otu="Methanococcusjannaschii" />
+            <node id="_Node1017557" />
+            <node id="_Node1017559" />
+            <node id="_Node1017561" otu="Pyrococcusabyssii" />
+            <node id="_Node1017564" />
+            <node id="_Node1017566" otu="Pyrococcusfuriosus" />
+            <node id="_Node1017569" otu="Pyrococcushorikoshii" />
+            <node id="_Node1017572" />
+            <node id="_Node1017574" otu="Sulfolobussolfataricus" />
+            <node id="_Node1017577" />
+            <node id="_Node1017579" otu="Aeropyrumpernix" />
+            <node id="_Node1017582" otu="Pyrobaculumaerophilum" />
+            <rootedge id="_Edge1017535" target="_Node1017534" />
+            <edge id="_Edge1017537" source="_Node1017534" target="_Node1017536" />
+            <edge id="_Edge1017540" source="_Node1017534" target="_Node1017539" />
+            <edge id="_Edge1017543" source="_Node1017534" target="_Node1017542" />
+            <edge id="_Edge1017545" source="_Node1017542" target="_Node1017544" />
+            <edge id="_Edge1017548" source="_Node1017542" target="_Node1017547" />
+            <edge id="_Edge1017550" source="_Node1017547" target="_Node1017549" />
+            <edge id="_Edge1017552" source="_Node1017549" target="_Node1017551" />
+            <edge id="_Edge1017555" source="_Node1017549" target="_Node1017554" />
+            <edge id="_Edge1017558" source="_Node1017547" target="_Node1017557" />
+            <edge id="_Edge1017560" source="_Node1017557" target="_Node1017559" />
+            <edge id="_Edge1017562" source="_Node1017559" target="_Node1017561" />
+            <edge id="_Edge1017565" source="_Node1017559" target="_Node1017564" />
+            <edge id="_Edge1017567" source="_Node1017564" target="_Node1017566" />
+            <edge id="_Edge1017570" source="_Node1017564" target="_Node1017569" />
+            <edge id="_Edge1017573" source="_Node1017557" target="_Node1017572" />
+            <edge id="_Edge1017575" source="_Node1017572" target="_Node1017574" />
+            <edge id="_Edge1017578" source="_Node1017572" target="_Node1017577" />
+            <edge id="_Edge1017580" source="_Node1017577" target="_Node1017579" />
+            <edge id="_Edge1017583" source="_Node1017577" target="_Node1017582" />
         </tree>
     </trees>
 </nex:nexml>

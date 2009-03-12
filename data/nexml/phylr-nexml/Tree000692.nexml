@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S322"><citation>Friedrich, M. and D. Tautz. 1997. Evolution and phylogeny of the Diptera: A molecular phylogenetic analysis using 28S rDNA sequences. Syst. Biol. 46(4): 674-698.</citation><author email="mf@cco.caltech.edu" firstname="Markus" lastname="Friedrich" /><author email="tautz@zi.biologie.uni-munechen.de" firstname="Diethard" lastname="Tautz" /></study></nex:external>
-    <otus id="_TaxaBlock234479">
+<nex:external xmlns="dbhack1/phylr"><study id="S322"><citation>Friedrich, M. and D. Tautz. 1997. Evolution and phylogeny of the Diptera: A molecular phylogenetic analysis using 28S rDNA sequences. Syst. Biol. 46(4): 674-698.</citation><abstract>Portions of the large ribosomal subunit RNA gene (28S rDNA) encompassing the D1 and the D7 region were obtained from 16 dipteran species and families to reconstruct early phylogenetic events in the order Diptera. For outgroup comparison, the corresponding sequences were used from representative taxa of the Siphonaptera, Mecoptera, and Lepidoptera. A subset of 488 unambiguously alignable sites was analyzed with respect to important sequence evolution parameters. We found (1) sequence variability is significantly higher in double-stranded sites than in single-stranded sites, (2) transitions are close to saturation in most pairwise sequence comparisons, (3) significant substitution rate heterogeneity exists across sites, and (4) significant substitution rate heterogeneity exists among lineages. Tree reconstruction was carried out with the neighbor joining, maximum parsimony, and maximum likelihood methods. Four major subgroups are consistently and robustly supported: the Brachycera, the Culicomorpha, the Tipulomorpha sensu stricto, and the hitherto controversial Bibionomorpha sensu lato, which includes the families Sciaridae, Mycetophilidae, Cecidomyiidae, Bibionidae, Scatopsidae, and Anisopodidae. The phylogenetic relationships within or among these subclades and the positions of the families Psychodidae and Trichoceridae were not robustly resolved. These results support the view that the mouthparts of extant dipteran larvae evolved from a derived ground state characterized by subdivided and obliquely moving mandibles. Furthermore, sequence divergence and the paleontological record consistently indicate that a period of rapid cladogenesis gave rise to the major dipteran subgroups. </abstract><author email="mf@cco.caltech.edu" firstname="Markus" lastname="Friedrich" /><author email="tautz@zi.biologie.uni-munechen.de" firstname="Diethard" lastname="Tautz" /></study></nex:external>
+    <otus id="_TaxaBlock232384">
         <otu id="Panorpacommunis" label="Panorpa communis" />
         <otu id="Manducasexta" label="Manduca sexta" />
         <otu id="Archaeopsyllaerinacei" label="Archaeopsylla erinacei" />
@@ -28,83 +28,83 @@
         <otu id="Drosophilamelanogaster" label="Drosophila melanogaster" />
         <otu id="Tabanussudeticus" label="Tabanus sudeticus" />
     </otus>
-    <trees id="_TreesBlock234480" otus="_TaxaBlock234479">
+    <trees id="_TreesBlock232385" otus="_TaxaBlock232384">
         <tree id="Tree1021" label="Fig. 3" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S322A160" software="Phylip"><inputmatrix datatype="Nucleic Acid" name="Appendix 1" nchar="663" /></analysis></nex:external>
-            <node id="_Node234484" />
-            <node id="_Node234486" otu="Panorpacommunis" />
-            <node id="_Node234489" />
-            <node id="_Node234491" otu="Manducasexta" />
-            <node id="_Node234494" />
-            <node id="_Node234496" otu="Archaeopsyllaerinacei" />
-            <node id="_Node234499" />
-            <node id="_Node234501" />
-            <node id="_Node234503" otu="Limonianebulosa" />
-            <node id="_Node234506" otu="Tipulapaludosa" />
-            <node id="_Node234509" />
-            <node id="_Node234511" otu="Trichoceraregelationis" />
-            <node id="_Node234514" />
-            <node id="_Node234516" />
-            <node id="_Node234518" />
-            <node id="_Node234520" otu="Chironomustentans" />
-            <node id="_Node234523" />
-            <node id="_Node234525" otu="Simuliumeuryadminiculum" />
-            <node id="_Node234528" />
-            <node id="_Node234530" otu="Culexpipiens" />
-            <node id="_Node234533" otu="Aedesalbopictus" />
-            <node id="_Node234536" />
-            <node id="_Node234538" />
-            <node id="_Node234540" otu="Dilophusfebrilis" />
-            <node id="_Node234543" />
-            <node id="_Node234545" otu="Sylvicolafenestralis" />
-            <node id="_Node234548" otu="Crinodiplosiscilirus" />
-            <node id="_Node234551" />
-            <node id="_Node234553" otu="Anapausisinermis" />
-            <node id="_Node234556" />
-            <node id="_Node234558" otu="Bolitophilacinerea" />
-            <node id="_Node234561" otu="Bradysiacoprophila" />
-            <node id="_Node234564" />
-            <node id="_Node234566" otu="Psychodacinerea" />
-            <node id="_Node234569" />
-            <node id="_Node234571" otu="Drosophilamelanogaster" />
-            <node id="_Node234574" otu="Tabanussudeticus" />
-            <rootedge id="_Edge234485" target="_Node234484" />
-            <edge id="_Edge234487" source="_Node234484" target="_Node234486" />
-            <edge id="_Edge234490" source="_Node234484" target="_Node234489" />
-            <edge id="_Edge234492" source="_Node234489" target="_Node234491" />
-            <edge id="_Edge234495" source="_Node234489" target="_Node234494" />
-            <edge id="_Edge234497" source="_Node234494" target="_Node234496" />
-            <edge id="_Edge234500" source="_Node234494" target="_Node234499" />
-            <edge id="_Edge234502" source="_Node234499" target="_Node234501" />
-            <edge id="_Edge234504" source="_Node234501" target="_Node234503" />
-            <edge id="_Edge234507" source="_Node234501" target="_Node234506" />
-            <edge id="_Edge234510" source="_Node234499" target="_Node234509" />
-            <edge id="_Edge234512" source="_Node234509" target="_Node234511" />
-            <edge id="_Edge234515" source="_Node234509" target="_Node234514" />
-            <edge id="_Edge234517" source="_Node234514" target="_Node234516" />
-            <edge id="_Edge234519" source="_Node234516" target="_Node234518" />
-            <edge id="_Edge234521" source="_Node234518" target="_Node234520" />
-            <edge id="_Edge234524" source="_Node234518" target="_Node234523" />
-            <edge id="_Edge234526" source="_Node234523" target="_Node234525" />
-            <edge id="_Edge234529" source="_Node234523" target="_Node234528" />
-            <edge id="_Edge234531" source="_Node234528" target="_Node234530" />
-            <edge id="_Edge234534" source="_Node234528" target="_Node234533" />
-            <edge id="_Edge234537" source="_Node234516" target="_Node234536" />
-            <edge id="_Edge234539" source="_Node234536" target="_Node234538" />
-            <edge id="_Edge234541" source="_Node234538" target="_Node234540" />
-            <edge id="_Edge234544" source="_Node234538" target="_Node234543" />
-            <edge id="_Edge234546" source="_Node234543" target="_Node234545" />
-            <edge id="_Edge234549" source="_Node234543" target="_Node234548" />
-            <edge id="_Edge234552" source="_Node234536" target="_Node234551" />
-            <edge id="_Edge234554" source="_Node234551" target="_Node234553" />
-            <edge id="_Edge234557" source="_Node234551" target="_Node234556" />
-            <edge id="_Edge234559" source="_Node234556" target="_Node234558" />
-            <edge id="_Edge234562" source="_Node234556" target="_Node234561" />
-            <edge id="_Edge234565" source="_Node234514" target="_Node234564" />
-            <edge id="_Edge234567" source="_Node234564" target="_Node234566" />
-            <edge id="_Edge234570" source="_Node234564" target="_Node234569" />
-            <edge id="_Edge234572" source="_Node234569" target="_Node234571" />
-            <edge id="_Edge234575" source="_Node234569" target="_Node234574" />
+            <node id="_Node232389" />
+            <node id="_Node232391" otu="Panorpacommunis" />
+            <node id="_Node232394" />
+            <node id="_Node232396" otu="Manducasexta" />
+            <node id="_Node232399" />
+            <node id="_Node232401" otu="Archaeopsyllaerinacei" />
+            <node id="_Node232404" />
+            <node id="_Node232406" />
+            <node id="_Node232408" otu="Limonianebulosa" />
+            <node id="_Node232411" otu="Tipulapaludosa" />
+            <node id="_Node232414" />
+            <node id="_Node232416" otu="Trichoceraregelationis" />
+            <node id="_Node232419" />
+            <node id="_Node232421" />
+            <node id="_Node232423" />
+            <node id="_Node232425" otu="Chironomustentans" />
+            <node id="_Node232428" />
+            <node id="_Node232430" otu="Simuliumeuryadminiculum" />
+            <node id="_Node232433" />
+            <node id="_Node232435" otu="Culexpipiens" />
+            <node id="_Node232438" otu="Aedesalbopictus" />
+            <node id="_Node232441" />
+            <node id="_Node232443" />
+            <node id="_Node232445" otu="Dilophusfebrilis" />
+            <node id="_Node232448" />
+            <node id="_Node232450" otu="Sylvicolafenestralis" />
+            <node id="_Node232453" otu="Crinodiplosiscilirus" />
+            <node id="_Node232456" />
+            <node id="_Node232458" otu="Anapausisinermis" />
+            <node id="_Node232461" />
+            <node id="_Node232463" otu="Bolitophilacinerea" />
+            <node id="_Node232466" otu="Bradysiacoprophila" />
+            <node id="_Node232469" />
+            <node id="_Node232471" otu="Psychodacinerea" />
+            <node id="_Node232474" />
+            <node id="_Node232476" otu="Drosophilamelanogaster" />
+            <node id="_Node232479" otu="Tabanussudeticus" />
+            <rootedge id="_Edge232390" target="_Node232389" />
+            <edge id="_Edge232392" source="_Node232389" target="_Node232391" />
+            <edge id="_Edge232395" source="_Node232389" target="_Node232394" />
+            <edge id="_Edge232397" source="_Node232394" target="_Node232396" />
+            <edge id="_Edge232400" source="_Node232394" target="_Node232399" />
+            <edge id="_Edge232402" source="_Node232399" target="_Node232401" />
+            <edge id="_Edge232405" source="_Node232399" target="_Node232404" />
+            <edge id="_Edge232407" source="_Node232404" target="_Node232406" />
+            <edge id="_Edge232409" source="_Node232406" target="_Node232408" />
+            <edge id="_Edge232412" source="_Node232406" target="_Node232411" />
+            <edge id="_Edge232415" source="_Node232404" target="_Node232414" />
+            <edge id="_Edge232417" source="_Node232414" target="_Node232416" />
+            <edge id="_Edge232420" source="_Node232414" target="_Node232419" />
+            <edge id="_Edge232422" source="_Node232419" target="_Node232421" />
+            <edge id="_Edge232424" source="_Node232421" target="_Node232423" />
+            <edge id="_Edge232426" source="_Node232423" target="_Node232425" />
+            <edge id="_Edge232429" source="_Node232423" target="_Node232428" />
+            <edge id="_Edge232431" source="_Node232428" target="_Node232430" />
+            <edge id="_Edge232434" source="_Node232428" target="_Node232433" />
+            <edge id="_Edge232436" source="_Node232433" target="_Node232435" />
+            <edge id="_Edge232439" source="_Node232433" target="_Node232438" />
+            <edge id="_Edge232442" source="_Node232421" target="_Node232441" />
+            <edge id="_Edge232444" source="_Node232441" target="_Node232443" />
+            <edge id="_Edge232446" source="_Node232443" target="_Node232445" />
+            <edge id="_Edge232449" source="_Node232443" target="_Node232448" />
+            <edge id="_Edge232451" source="_Node232448" target="_Node232450" />
+            <edge id="_Edge232454" source="_Node232448" target="_Node232453" />
+            <edge id="_Edge232457" source="_Node232441" target="_Node232456" />
+            <edge id="_Edge232459" source="_Node232456" target="_Node232458" />
+            <edge id="_Edge232462" source="_Node232456" target="_Node232461" />
+            <edge id="_Edge232464" source="_Node232461" target="_Node232463" />
+            <edge id="_Edge232467" source="_Node232461" target="_Node232466" />
+            <edge id="_Edge232470" source="_Node232419" target="_Node232469" />
+            <edge id="_Edge232472" source="_Node232469" target="_Node232471" />
+            <edge id="_Edge232475" source="_Node232469" target="_Node232474" />
+            <edge id="_Edge232477" source="_Node232474" target="_Node232476" />
+            <edge id="_Edge232480" source="_Node232474" target="_Node232479" />
         </tree>
     </trees>
 </nex:nexml>

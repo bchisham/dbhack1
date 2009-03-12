@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S1354"><citation>Struck, T. H., G. Purschke, and K. M. Halanych. 2005. Phylogeny of Eunicida (Annelida) and Exploring Data Congruence using a Partition Addition Bootstrap Alteration (PABA) Approach. Systematic Biology, in press.</citation><author email="ken@auburn.edu" firstname="Kenneth M." lastname="Halanych" /><author email="purschke@biologie.uni-osnabrueck.de" firstname="Guenter" lastname="Purschke" /><author email="struck@biologie.uni-osnabrueck.de" firstname="Torsten H." lastname="Struck" /></study></nex:external>
-    <otus id="_TaxaBlock1755605">
+<nex:external xmlns="dbhack1/phylr"><study id="S1354"><citation>Struck, T. H., G. Purschke, and K. M. Halanych. 2005. Phylogeny of Eunicida (Annelida) and Exploring Data Congruence using a Partition Addition Bootstrap Alteration (PABA) Approach. Systematic Biology, in press.</citation><abstract>Even though relationships within Annelida are poorly understood, Eunicida is one of only a few major annelid lineages well supported by morphology. The 7 recognized eunicid families possess sclerotized jaws that include mandibles and a maxillary apparatus. The maxillary apparatuses vary in shape and number of elements, and three main types are recognized in extant taxa: ctenognath, labidognath and prionognath. Ctenognath jaws are usually considered to represent the plesiomorphic state of Eunicida, whereas taxa with labidognath and prionognath are thought to form a derived monophyletic assemblage. However, this hypothesis has never been tested in a statistical framework even though it holds considerable importance for understanding annelid phylogeny and possibly lophotrochozoan evolution because Eunicida has the best annelid fossil record. Therefore, we used maximum likelihood and Bayesian inference approaches to reconstruct Eunicida phylogeny using sequence data from nuclear 18S and 28S rDNA genes and mitochondrial 16S rDNA and cytochrome c oxidase subunit I genes. Additionally, we conducted three different tests to investigate suitability of combining data sets. Incongruence Length Difference (ILD) and Shimodaira-Hasegawa (SH) test comparisons of resultant trees under different data partitions have been widely used previously, but do not give a good indication as to which nodes may be causing the conflict. Thus, we developed a Partition Addition Bootstrap Alteration (PABA) approach that evaluates congruence or conflict for any given node by determining how bootstrap scores are altered when different data partitions are added. PABA shows the contribution of each partition to the phylogeny obtained in the combined analysis. Generally the ILD test performed worse than the other approaches in detecting incongruence. Both PABA and the SH approach indicated the 28S and COI data sets add conflicting signal, but PABA is more informative for elucidating which data partition may be misleading a given node. All our analyses indicate that the monophyly of the labidognath/prionognath taxa and even a labidognath clade (i.e., a &#226;&#128;&#158;Eunicidae&#226;&#128;&#176;/Onuphidae/Lumbrineridae clade) is significantly rejected. We show that the definition of both the labidognath and ctenognath jaw type does not address adequately the variation within Eunicida and thus misleads our current evolutionary understanding. Based on the presented results a symmetric maxillary apparatus with a carrier and 4 to 6 maxillae is most likely the plesiomorphic condition for Eunicida.</abstract><author email="ken@auburn.edu" firstname="Kenneth M." lastname="Halanych" /><author email="purschke@biologie.uni-osnabrueck.de" firstname="Guenter" lastname="Purschke" /><author email="struck@biologie.uni-osnabrueck.de" firstname="Torsten H." lastname="Struck" /></study></nex:external>
+    <otus id="_TaxaBlock1751974">
         <otu id="Arabellasemimaculata" label="Arabella semimaculata" />
         <otu id="Drilonereislonga" label="Drilonereis longa" />
         <otu id="Oenonefulgida" label="Oenone fulgida" />
@@ -25,71 +25,71 @@
         <otu id="Glyceradibranchiata" label="Glycera dibranchiata" />
         <otu id="Riftiapachyptila" label="Riftia pachyptila" />
     </otus>
-    <trees id="_TreesBlock1755606" otus="_TaxaBlock1755605">
+    <trees id="_TreesBlock1751975" otus="_TaxaBlock1751974">
         <tree id="Tree3892" label="Fig. 4 18S 16S COI" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S1354A4598" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="18S, 16S, COI, and 28S" nchar="6503" /></analysis></nex:external>
-            <node id="_Node1755610" />
-            <node id="_Node1755612" />
-            <node id="_Node1755614" />
-            <node id="_Node1755616" />
-            <node id="_Node1755618" />
-            <node id="_Node1755620" otu="Arabellasemimaculata" />
-            <node id="_Node1755623" otu="Drilonereislonga" />
-            <node id="_Node1755626" otu="Oenonefulgida" />
-            <node id="_Node1755629" />
-            <node id="_Node1755631" />
-            <node id="_Node1755633" />
-            <node id="_Node1755635" />
-            <node id="_Node1755637" otu="Diopatraaciculata" />
-            <node id="_Node1755640" otu="Onuphiselegans" />
-            <node id="_Node1755643" otu="Hyalinoeciatubicola" />
-            <node id="_Node1755646" />
-            <node id="_Node1755648" otu="Eunicesp" />
-            <node id="_Node1755651" otu="Marphysasanguinea" />
-            <node id="_Node1755654" />
-            <node id="_Node1755656" otu="Dorvilleaerucaeformis" />
-            <node id="_Node1755659" otu="Protodorvilleakefersteinii" />
-            <node id="_Node1755662" />
-            <node id="_Node1755664" />
-            <node id="_Node1755666" otu="Lumbrinerisinflata" />
-            <node id="_Node1755669" otu="Lumbrinerislatreilli" />
-            <node id="_Node1755672" otu="Ninoenigripes" />
-            <node id="_Node1755675" />
-            <node id="_Node1755677" />
-            <node id="_Node1755679" otu="Paramphinomejeffreysi" />
-            <node id="_Node1755682" otu="Glyceradibranchiata" />
-            <node id="_Node1755685" otu="Riftiapachyptila" />
-            <rootedge id="_Edge1755611" target="_Node1755610" />
-            <edge id="_Edge1755613" source="_Node1755610" target="_Node1755612" />
-            <edge id="_Edge1755615" source="_Node1755612" target="_Node1755614" />
-            <edge id="_Edge1755617" source="_Node1755614" target="_Node1755616" />
-            <edge id="_Edge1755619" source="_Node1755616" target="_Node1755618" />
-            <edge id="_Edge1755621" source="_Node1755618" target="_Node1755620" />
-            <edge id="_Edge1755624" source="_Node1755618" target="_Node1755623" />
-            <edge id="_Edge1755627" source="_Node1755616" target="_Node1755626" />
-            <edge id="_Edge1755630" source="_Node1755614" target="_Node1755629" />
-            <edge id="_Edge1755632" source="_Node1755629" target="_Node1755631" />
-            <edge id="_Edge1755634" source="_Node1755631" target="_Node1755633" />
-            <edge id="_Edge1755636" source="_Node1755633" target="_Node1755635" />
-            <edge id="_Edge1755638" source="_Node1755635" target="_Node1755637" />
-            <edge id="_Edge1755641" source="_Node1755635" target="_Node1755640" />
-            <edge id="_Edge1755644" source="_Node1755633" target="_Node1755643" />
-            <edge id="_Edge1755647" source="_Node1755631" target="_Node1755646" />
-            <edge id="_Edge1755649" source="_Node1755646" target="_Node1755648" />
-            <edge id="_Edge1755652" source="_Node1755646" target="_Node1755651" />
-            <edge id="_Edge1755655" source="_Node1755629" target="_Node1755654" />
-            <edge id="_Edge1755657" source="_Node1755654" target="_Node1755656" />
-            <edge id="_Edge1755660" source="_Node1755654" target="_Node1755659" />
-            <edge id="_Edge1755663" source="_Node1755612" target="_Node1755662" />
-            <edge id="_Edge1755665" source="_Node1755662" target="_Node1755664" />
-            <edge id="_Edge1755667" source="_Node1755664" target="_Node1755666" />
-            <edge id="_Edge1755670" source="_Node1755664" target="_Node1755669" />
-            <edge id="_Edge1755673" source="_Node1755662" target="_Node1755672" />
-            <edge id="_Edge1755676" source="_Node1755610" target="_Node1755675" />
-            <edge id="_Edge1755678" source="_Node1755675" target="_Node1755677" />
-            <edge id="_Edge1755680" source="_Node1755677" target="_Node1755679" />
-            <edge id="_Edge1755683" source="_Node1755677" target="_Node1755682" />
-            <edge id="_Edge1755686" source="_Node1755675" target="_Node1755685" />
+            <node id="_Node1751979" />
+            <node id="_Node1751981" />
+            <node id="_Node1751983" />
+            <node id="_Node1751985" />
+            <node id="_Node1751987" />
+            <node id="_Node1751989" otu="Arabellasemimaculata" />
+            <node id="_Node1751992" otu="Drilonereislonga" />
+            <node id="_Node1751995" otu="Oenonefulgida" />
+            <node id="_Node1751998" />
+            <node id="_Node1752000" />
+            <node id="_Node1752002" />
+            <node id="_Node1752004" />
+            <node id="_Node1752006" otu="Diopatraaciculata" />
+            <node id="_Node1752009" otu="Onuphiselegans" />
+            <node id="_Node1752012" otu="Hyalinoeciatubicola" />
+            <node id="_Node1752015" />
+            <node id="_Node1752017" otu="Eunicesp" />
+            <node id="_Node1752020" otu="Marphysasanguinea" />
+            <node id="_Node1752023" />
+            <node id="_Node1752025" otu="Dorvilleaerucaeformis" />
+            <node id="_Node1752028" otu="Protodorvilleakefersteinii" />
+            <node id="_Node1752031" />
+            <node id="_Node1752033" />
+            <node id="_Node1752035" otu="Lumbrinerisinflata" />
+            <node id="_Node1752038" otu="Lumbrinerislatreilli" />
+            <node id="_Node1752041" otu="Ninoenigripes" />
+            <node id="_Node1752044" />
+            <node id="_Node1752046" />
+            <node id="_Node1752048" otu="Paramphinomejeffreysi" />
+            <node id="_Node1752051" otu="Glyceradibranchiata" />
+            <node id="_Node1752054" otu="Riftiapachyptila" />
+            <rootedge id="_Edge1751980" target="_Node1751979" />
+            <edge id="_Edge1751982" source="_Node1751979" target="_Node1751981" />
+            <edge id="_Edge1751984" source="_Node1751981" target="_Node1751983" />
+            <edge id="_Edge1751986" source="_Node1751983" target="_Node1751985" />
+            <edge id="_Edge1751988" source="_Node1751985" target="_Node1751987" />
+            <edge id="_Edge1751990" source="_Node1751987" target="_Node1751989" />
+            <edge id="_Edge1751993" source="_Node1751987" target="_Node1751992" />
+            <edge id="_Edge1751996" source="_Node1751985" target="_Node1751995" />
+            <edge id="_Edge1751999" source="_Node1751983" target="_Node1751998" />
+            <edge id="_Edge1752001" source="_Node1751998" target="_Node1752000" />
+            <edge id="_Edge1752003" source="_Node1752000" target="_Node1752002" />
+            <edge id="_Edge1752005" source="_Node1752002" target="_Node1752004" />
+            <edge id="_Edge1752007" source="_Node1752004" target="_Node1752006" />
+            <edge id="_Edge1752010" source="_Node1752004" target="_Node1752009" />
+            <edge id="_Edge1752013" source="_Node1752002" target="_Node1752012" />
+            <edge id="_Edge1752016" source="_Node1752000" target="_Node1752015" />
+            <edge id="_Edge1752018" source="_Node1752015" target="_Node1752017" />
+            <edge id="_Edge1752021" source="_Node1752015" target="_Node1752020" />
+            <edge id="_Edge1752024" source="_Node1751998" target="_Node1752023" />
+            <edge id="_Edge1752026" source="_Node1752023" target="_Node1752025" />
+            <edge id="_Edge1752029" source="_Node1752023" target="_Node1752028" />
+            <edge id="_Edge1752032" source="_Node1751981" target="_Node1752031" />
+            <edge id="_Edge1752034" source="_Node1752031" target="_Node1752033" />
+            <edge id="_Edge1752036" source="_Node1752033" target="_Node1752035" />
+            <edge id="_Edge1752039" source="_Node1752033" target="_Node1752038" />
+            <edge id="_Edge1752042" source="_Node1752031" target="_Node1752041" />
+            <edge id="_Edge1752045" source="_Node1751979" target="_Node1752044" />
+            <edge id="_Edge1752047" source="_Node1752044" target="_Node1752046" />
+            <edge id="_Edge1752049" source="_Node1752046" target="_Node1752048" />
+            <edge id="_Edge1752052" source="_Node1752046" target="_Node1752051" />
+            <edge id="_Edge1752055" source="_Node1752044" target="_Node1752054" />
         </tree>
     </trees>
 </nex:nexml>

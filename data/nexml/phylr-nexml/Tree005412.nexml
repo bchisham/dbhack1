@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S2261"><citation>Joly, S., P. B. Heenan, and P. J. Lockhart. 2009. A Pleistocene inter-tribal allopolyploidization event precedes the species radiation of Pachycladon (Brassicaceae) in New Zealand. Molecular Phylogenetics and Evolution, in press.</citation><author email="heenanp@landcarereserach.co.nz" firstname="Peter B." lastname="Heenan" /><author email="simon.joly@umontreal.ca" firstname="Simon" lastname="Joly" /><author email="p.j.lockhart@massey.ac.nz" firstname="Peter J." lastname="Lockhart" /></study></nex:external>
-    <otus id="_TaxaBlock3681335">
+<nex:external xmlns="dbhack1/phylr"><study id="S2261"><citation>Joly, S., P. B. Heenan, and P. J. Lockhart. 2009. A Pleistocene inter-tribal allopolyploidization event precedes the species radiation of Pachycladon (Brassicaceae) in New Zealand. Molecular Phylogenetics and Evolution, in press.</citation><abstract>The Southern Alps in New Zealand contain many herbaceous plant groups that have radiated during the Plicoene-Pleistocene. The species in these genera tend to be polyploid relative to their overseas close relatives, an observation of much interest given that hybridization and allopolyploidy have recently been suggested as a possible stimulus for adaptive radiation. We were interested to determine whether or not allopollyploidy was a feature of Pachycladon, a genus which is hypothesised to have adaptively diversified onto different geological substrates in the mountains of the South Island of New Zealand. Phylogenetic analyses of five single-copy nuclear genes show that Pachycladon species have two copies of each gene representing two highly diverged evolutionary lineages from the Brassicaceae. Molecular clock analyses of all loci suggest that the two genome copies in Pachycladon diverged 8 million years ago, and that the allopolyploid origin of the genus occurred during the Pleistocene between 1.6 and 0.8 million years ago. Thus, the hybridization event at the origin of the Pachycladon radiation is perhaps the most extreme example yet reported of successful hybridization between distantly related parents.</abstract><author email="heenanp@landcarereserach.co.nz" firstname="Peter B." lastname="Heenan" /><author email="simon.joly@umontreal.ca" firstname="Simon" lastname="Joly" /><author email="p.j.lockhart@massey.ac.nz" firstname="Peter J." lastname="Lockhart" /></study></nex:external>
+    <otus id="_TaxaBlock3676084">
         <otu id="Physariafendlericlone1" label="Physaria fendleri clone1" />
         <otu id="Lepidiumapelatum" label="Lepidium apelatum" />
         <otu id="Thellungiellasppclone1" label="Thellungiella spp clone1" />
@@ -22,59 +22,59 @@
         <otu id="Arabidopsislyrataclone1" label="Arabidopsis lyrata clone1" />
         <otu id="Arabidopsisthaliana" label="Arabidopsis thaliana" />
     </otus>
-    <trees id="_TreesBlock3681336" otus="_TaxaBlock3681335">
+    <trees id="_TreesBlock3676085" otus="_TaxaBlock3676084">
         <tree id="Tree6440" label="Fig. 3d" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S2261A9597" software="Phyml"><inputmatrix datatype="Nucleic Acid" name="MtN21" nchar="572" /></analysis></nex:external>
-            <node id="_Node3681340" />
-            <node id="_Node3681342" otu="Physariafendlericlone1" />
-            <node id="_Node3681345" />
-            <node id="_Node3681347" otu="Lepidiumapelatum" />
-            <node id="_Node3681350" />
-            <node id="_Node3681352" otu="Thellungiellasppclone1" />
-            <node id="_Node3681355" />
-            <node id="_Node3681357" />
-            <node id="_Node3681359" otu="Pachycladonfastigiataclone2" />
-            <node id="_Node3681362" />
-            <node id="_Node3681364" otu="Olimarabidopsiscabulicaclone1" />
-            <node id="_Node3681367" />
-            <node id="_Node3681369" otu="Crucihimalayamollissimaclone3" />
-            <node id="_Node3681372" />
-            <node id="_Node3681374" />
-            <node id="_Node3681376" otu="Boecheraholboelliiclone1" />
-            <node id="_Node3681379" />
-            <node id="_Node3681381" otu="Pachycladonfastigiataclone5" />
-            <node id="_Node3681384" otu="Pachycladonexilis11A" />
-            <node id="_Node3681387" />
-            <node id="_Node3681389" otu="Crucihimalayamollissimaclone1" />
-            <node id="_Node3681392" otu="Transberingiabursifoliabursifoliaclone1" />
-            <node id="_Node3681395" />
-            <node id="_Node3681397" otu="Arabidopsislyrataclone1" />
-            <node id="_Node3681400" otu="Arabidopsisthaliana" />
-            <rootedge id="_Edge3681341" target="_Node3681340" />
-            <edge id="_Edge3681343" source="_Node3681340" target="_Node3681342" />
-            <edge id="_Edge3681346" source="_Node3681340" target="_Node3681345" />
-            <edge id="_Edge3681348" source="_Node3681345" target="_Node3681347" />
-            <edge id="_Edge3681351" source="_Node3681345" target="_Node3681350" />
-            <edge id="_Edge3681353" source="_Node3681350" target="_Node3681352" />
-            <edge id="_Edge3681356" source="_Node3681350" target="_Node3681355" />
-            <edge id="_Edge3681358" source="_Node3681355" target="_Node3681357" />
-            <edge id="_Edge3681360" source="_Node3681357" target="_Node3681359" />
-            <edge id="_Edge3681363" source="_Node3681357" target="_Node3681362" />
-            <edge id="_Edge3681365" source="_Node3681362" target="_Node3681364" />
-            <edge id="_Edge3681368" source="_Node3681362" target="_Node3681367" />
-            <edge id="_Edge3681370" source="_Node3681367" target="_Node3681369" />
-            <edge id="_Edge3681373" source="_Node3681367" target="_Node3681372" />
-            <edge id="_Edge3681375" source="_Node3681372" target="_Node3681374" />
-            <edge id="_Edge3681377" source="_Node3681374" target="_Node3681376" />
-            <edge id="_Edge3681380" source="_Node3681374" target="_Node3681379" />
-            <edge id="_Edge3681382" source="_Node3681379" target="_Node3681381" />
-            <edge id="_Edge3681385" source="_Node3681379" target="_Node3681384" />
-            <edge id="_Edge3681388" source="_Node3681372" target="_Node3681387" />
-            <edge id="_Edge3681390" source="_Node3681387" target="_Node3681389" />
-            <edge id="_Edge3681393" source="_Node3681387" target="_Node3681392" />
-            <edge id="_Edge3681396" source="_Node3681355" target="_Node3681395" />
-            <edge id="_Edge3681398" source="_Node3681395" target="_Node3681397" />
-            <edge id="_Edge3681401" source="_Node3681395" target="_Node3681400" />
+            <node id="_Node3676089" />
+            <node id="_Node3676091" otu="Physariafendlericlone1" />
+            <node id="_Node3676094" />
+            <node id="_Node3676096" otu="Lepidiumapelatum" />
+            <node id="_Node3676099" />
+            <node id="_Node3676101" otu="Thellungiellasppclone1" />
+            <node id="_Node3676104" />
+            <node id="_Node3676106" />
+            <node id="_Node3676108" otu="Pachycladonfastigiataclone2" />
+            <node id="_Node3676111" />
+            <node id="_Node3676113" otu="Olimarabidopsiscabulicaclone1" />
+            <node id="_Node3676116" />
+            <node id="_Node3676118" otu="Crucihimalayamollissimaclone3" />
+            <node id="_Node3676121" />
+            <node id="_Node3676123" />
+            <node id="_Node3676125" otu="Boecheraholboelliiclone1" />
+            <node id="_Node3676128" />
+            <node id="_Node3676130" otu="Pachycladonfastigiataclone5" />
+            <node id="_Node3676133" otu="Pachycladonexilis11A" />
+            <node id="_Node3676136" />
+            <node id="_Node3676138" otu="Crucihimalayamollissimaclone1" />
+            <node id="_Node3676141" otu="Transberingiabursifoliabursifoliaclone1" />
+            <node id="_Node3676144" />
+            <node id="_Node3676146" otu="Arabidopsislyrataclone1" />
+            <node id="_Node3676149" otu="Arabidopsisthaliana" />
+            <rootedge id="_Edge3676090" target="_Node3676089" />
+            <edge id="_Edge3676092" source="_Node3676089" target="_Node3676091" />
+            <edge id="_Edge3676095" source="_Node3676089" target="_Node3676094" />
+            <edge id="_Edge3676097" source="_Node3676094" target="_Node3676096" />
+            <edge id="_Edge3676100" source="_Node3676094" target="_Node3676099" />
+            <edge id="_Edge3676102" source="_Node3676099" target="_Node3676101" />
+            <edge id="_Edge3676105" source="_Node3676099" target="_Node3676104" />
+            <edge id="_Edge3676107" source="_Node3676104" target="_Node3676106" />
+            <edge id="_Edge3676109" source="_Node3676106" target="_Node3676108" />
+            <edge id="_Edge3676112" source="_Node3676106" target="_Node3676111" />
+            <edge id="_Edge3676114" source="_Node3676111" target="_Node3676113" />
+            <edge id="_Edge3676117" source="_Node3676111" target="_Node3676116" />
+            <edge id="_Edge3676119" source="_Node3676116" target="_Node3676118" />
+            <edge id="_Edge3676122" source="_Node3676116" target="_Node3676121" />
+            <edge id="_Edge3676124" source="_Node3676121" target="_Node3676123" />
+            <edge id="_Edge3676126" source="_Node3676123" target="_Node3676125" />
+            <edge id="_Edge3676129" source="_Node3676123" target="_Node3676128" />
+            <edge id="_Edge3676131" source="_Node3676128" target="_Node3676130" />
+            <edge id="_Edge3676134" source="_Node3676128" target="_Node3676133" />
+            <edge id="_Edge3676137" source="_Node3676121" target="_Node3676136" />
+            <edge id="_Edge3676139" source="_Node3676136" target="_Node3676138" />
+            <edge id="_Edge3676142" source="_Node3676136" target="_Node3676141" />
+            <edge id="_Edge3676145" source="_Node3676104" target="_Node3676144" />
+            <edge id="_Edge3676147" source="_Node3676144" target="_Node3676146" />
+            <edge id="_Edge3676150" source="_Node3676144" target="_Node3676149" />
         </tree>
     </trees>
 </nex:nexml>
