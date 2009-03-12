@@ -9,6 +9,7 @@
 
 	<otus id="tax1" label="RootTaxaBlock">
 		<otu id="t1" about="#t1">
+			<!--
 			<annotation rel="tc:hasName" xmlns:tc="http://rs.tdwg.org/ontology/voc/TaxonConcept#"
 				xmlns:tn="http://rs.tdwg.org/ontology/voc/TaxonName#">
 				<annotation typeof="tn:TaxonName" about="urn:lsid:ipni.org:names:333114-1:1.5">
@@ -17,9 +18,18 @@
 					<annotation property="tn:authorship">L.</annotation>
 				</annotation>
 			</annotation>
+			-->
 		</otu>
 		<otu id="t2"/>
-		<otu id="t3"/>
+		<otu id="otu3" label="S. glaucus" about="foo" typeof="tc:TaxonConcept" xmlns:tc="http://rs.tdwg.org/ontology/voc/TaxonConcept#" xmlns:tn="http://rs.tdwg.org/ontology/voc/TaxonName#">
+			<annotation rel="tc:hasName">
+				<annotation typeof="tn:TaxonName" about="urn:lsid:zoobank.org:act:A6AD1B85-C65C-4079-B425-56828418620C">
+					<annotation property="tn:genusPart">Scomber</annotation>
+					<annotation property="tn:specificEpithet">glaucus</annotation>
+				</annotation>
+			</annotation>
+		</otu>
+		
 		<otu id="t4"/>
 		<otu id="t5"/>
 	</otus>

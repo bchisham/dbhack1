@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:nex="http://www.nexml.org/1.0"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:cdao="http://www.evolutionaryontology.org/cdao.owl#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"><!--
+              =======  All nodes are classes. =======
+            --><owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n1">
+      <dc:label>n1</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n2">
+      <dc:label>n2</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n3">
+      <dc:label>n3</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n4">
+      <dc:label>n4</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n5">
+      <dc:label>n5</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n6">
+      <dc:label>n6</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n7">
+      <dc:label>n7</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n8">
+      <dc:label>n8</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n9">
+      <dc:label>n9</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n1">
+      <dc:label>n1</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n2">
+      <dc:label>n2</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n3">
+      <dc:label>n3</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n4">
+      <dc:label>n4</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n5">
+      <dc:label>n5</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n6">
+      <dc:label>n6</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n7">
+      <dc:label>n7</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n8">
+      <dc:label>n8</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n9">
+      <dc:label>n9</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n1">
+      <dc:label>n1</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n2">
+      <dc:label>n2</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n3">
+      <dc:label>n3</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n4">
+      <dc:label>n4</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n5">
+      <dc:label>n5</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n6">
+      <dc:label>n6</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n7">
+      <dc:label>n7</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n8">
+      <dc:label>n8</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n9">
+      <dc:label>n9</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n1">
+      <dc:label>n1</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n2">
+      <dc:label>n2</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n3">
+      <dc:label>n3</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n4">
+      <dc:label>n4</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n5">
+      <dc:label>n5</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n6">
+      <dc:label>n6</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n7">
+      <dc:label>n7</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n8">
+      <dc:label>n8</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n9">
+      <dc:label>n9</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree5_$$$_n1">
+      <dc:label>Node 1</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree5_$$$_n2">
+      <dc:label>Node 2</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree5_$$$_n3">
+      <dc:label>Node 3</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree6_$$$_n1">
+      <dc:label>Node 1</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree6_$$$_n2">
+      <dc:label>Node 2</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree6_$$$_n3">
+      <dc:label>Node 3</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n1">
+      <dc:label>n1 in tree 2</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n2">
+      <dc:label>n2 in tree 2</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n3">
+      <dc:label>n3</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n4">
+      <dc:label>n4</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n5">
+      <dc:label>n5</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n6">
+      <dc:label>n6</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n7">
+      <dc:label>n7</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n8">
+      <dc:label>n8</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n9">
+      <dc:label>n9</dc:label>
+   </owl:Class>
+   <!--
+                ======= Edges define subClassing of nodes =======
+            --><owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n4">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n7">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n5">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n8">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n7"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n9">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n7"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n4">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n7">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n5">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n8">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n7"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n9">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n7"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n4">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n7">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n5">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n7"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n8">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n7"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n9">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n7"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n4">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n7">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n5">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n7"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n8">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n7"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n9">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n7"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree5_$$$_n1">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree5_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree5_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree5_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree6_$$$_n1">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree6_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree6_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree6_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n4">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n7">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n5">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n8">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n7"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n9">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n7"/>
+   </owl:Class>
+   <!--
+                ======= OTUs are Classes - possibly with TaxonNames =======
+            --><owl:Class rdf:about="#otu_$$$_tax1_$$$_t1"/>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t2"/>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t3"/>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t4"/>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t5"/>
+   <owl:Class rdf:about="#otu_$$$_tax2_$$$_t1a"/>
+   <owl:Class rdf:about="#otu_$$$_tax2_$$$_t2b"/>
+   <owl:Class rdf:about="#otu_$$$_tax2_$$$_t3c"/>
+   <owl:Class rdf:about="#otu_$$$_tax2_$$$_t4d"/>
+   <owl:Class rdf:about="#otu_$$$_tax2_$$$_t5e"/>
+   <!--
+                ======= OTUs are subclasses of terminal nodes (the ones with @otu) =======
+            --><owl:Class rdf:about="#otu_$$$_tax1_$$$_t1">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n2"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t3">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n5"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n6"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t5">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n8"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t4">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree1_$$$_n9"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t1">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n2"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t3">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n5"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n6"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t5">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n8"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t4">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree2_$$$_n9"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t1">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n2"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t3">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n5"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n6"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t5">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n8"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t4">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree3_$$$_n9"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t1">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n2"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t3">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n5"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n6"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t5">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n8"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t4">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree4_$$$_n9"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t1">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree5_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree5_$$$_n2"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t1">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree6_$$$_n1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax1_$$$_t2">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees_$$$_tree6_$$$_n2"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax2_$$$_t1a">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n2"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax2_$$$_t3c">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n5"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax2_$$$_t2b">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n6"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax2_$$$_t5e">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n8"/>
+   </owl:Class>
+   <owl:Class rdf:about="#otu_$$$_tax2_$$$_t4d">
+      <rdfs:subClassOf rdf:resource="#node_$$$_Trees2_$$$_tree1_$$$_n9"/>
+   </owl:Class>
+   <!--
+                ======= Trees and networks are subclasses of TaxonConcept =======
+            --><owl:Class rdf:about="#tree_$$$_Trees_$$$_tree3">
+      <rdfs:subClassOf rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"/>
+      <dc:label>Integer Network Example</dc:label>
+   </owl:Class>
+   <!--
+            ============== All nodes in a network are direct subclasses of TaxonConcept ======
+        --><owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n1">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n4">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n5">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n7">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n8">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree3_$$$_n9">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree3"/>
+   </owl:Class>
+   <owl:Class rdf:about="#tree_$$$_Trees_$$$_tree4">
+      <rdfs:subClassOf rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"/>
+      <dc:label>Float net e.g.</dc:label>
+   </owl:Class>
+   <!--
+            ============== All nodes in a network are direct subclasses of TaxonConcept ======
+        --><owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n1">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n4">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n5">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n7">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n8">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree4_$$$_n9">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree4"/>
+   </owl:Class>
+   <owl:Class rdf:about="#tree_$$$_Trees_$$$_tree1">
+      <rdfs:subClassOf rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"/>
+      <dc:label>Float Tree</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#tree_$$$_Trees_$$$_tree2">
+      <rdfs:subClassOf rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"/>
+      <dc:label>Int Tree</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#tree_$$$_Trees_$$$_tree5">
+      <rdfs:subClassOf rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"/>
+      <dc:label>An Int Tree with a root edge</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#tree_$$$_Trees_$$$_tree6">
+      <rdfs:subClassOf rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"/>
+      <dc:label>A float tree with a RootEdge</dc:label>
+   </owl:Class>
+   <owl:Class rdf:about="#tree_$$$_Trees2_$$$_tree1">
+      <rdfs:subClassOf rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"/>
+      <dc:label>Another tree in another block</dc:label>
+   </owl:Class>
+   <!--
+                ======= Nodes with @root=true are subClasses of their tree/network =======
+            --><owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n1">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree1"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree5_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree5"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree6_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree6"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n1">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees2_$$$_tree1"/>
+   </owl:Class>
+   <!--
+                ======= Rootedge defines root node which is therefore direct subClass of their tree =======
+            --><owl:Class rdf:about="#node_$$$_Trees_$$$_tree5_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree5"/>
+   </owl:Class>
+   <owl:Class rdf:about="#node_$$$_Trees_$$$_tree6_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree6"/>
+   </owl:Class>
+   <!--
+                ======= In unrooted trees every node is a direct subclass of the tree =======
+            -->
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n1">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n4">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n5">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n7">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n8">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree1_$$$_n9">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree1"/>
+   </owl:Class>
+						
+			
+			
+			
+			
+			
+			
+			
+		
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n1">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree2"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree2"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree2"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n4">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree2"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n5">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree2"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree2"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n7">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree2"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n8">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree2"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree2_$$$_n9">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree2"/>
+   </owl:Class>
+						
+			
+			
+			
+			
+			
+			
+			
+		
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree5_$$$_n1">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree5"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree5_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree5"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree5_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree5"/>
+   </owl:Class>
+			
+			
+			
+		
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree6_$$$_n1">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree6"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree6_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree6"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees_$$$_tree6_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees_$$$_tree6"/>
+   </owl:Class>
+			
+			
+			
+		
+			<owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n1">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees2_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n2">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees2_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n3">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees2_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n4">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees2_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n5">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees2_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n6">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees2_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n7">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees2_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n8">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees2_$$$_tree1"/>
+   </owl:Class>
+			<owl:Class rdf:about="#node_$$$_Trees2_$$$_tree1_$$$_n9">
+      <rdfs:subClassOf rdf:resource="#tree_$$$_Trees2_$$$_tree1"/>
+   </owl:Class>
+						
+			
+			
+			
+			
+			
+			
+			
+		</rdf:RDF>

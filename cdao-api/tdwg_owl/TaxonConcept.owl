@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY dcterms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY voc "http://rs.tdwg.org/ontology/voc/" >
+    <!ENTITY tbase "http://rs.tdwg.org/ontology/Base#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY tcom "http://rs.tdwg.org/ontology/voc/Common" >
+    <!ENTITY TaxonName "http://rs.tdwg.org/ontology/voc/TaxonName#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY tc "http://rs.tdwg.org/ontology/voc/TaxonConcept#" >
+]>
+
+
+<rdf:RDF xmlns="&voc;TaxonConcept#"
+     xml:base="&voc;TaxonConcept"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:voc="http://rs.tdwg.org/ontology/voc/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:tcom="&voc;Common"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:tc="&voc;TaxonConcept#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:tbase="http://rs.tdwg.org/ontology/Base#"
+     xmlns:TaxonName="&voc;TaxonName#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="">
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >
+            ** This is a hacked version of the TaxonConcept ontology for use in experimenting with NeXML. 
+            
+            Basically it has been cut down to remove stuff we won't be using or that might cause confusion.
+            
+            It may form a candidate for a ratified standard.
+            
+            This is not a full rendering of TaxonConcept as presented in the Taxon Concept Schema 1.0. Not all the possible concept-concept relationships have been
+         modelled just the basic set theory and taxonomic hierarchy relationships. RelationshipAssertions have not been included. These omissions will be addressed in collaboration with the first data
+         provider/consumer pairs who need to make use them. FIXME: &lt;a href=&quot;http://phoebus.cs.man.ac.uk:9999/OWL/Validator&quot;&gt;Wonder Web OWL Ontology Validator&lt;/a&gt;</rdfs:comment>
+        <dc:title
+            >TDWG Taxon Concept LSID Ontology</dc:title>
+        <dc:publisher
+            >TDWG Biodiversity Information Standards</dc:publisher>
+        <dc:creator>Roger Hyam</dc:creator>
+        <dc:description
+            >Ontology describing the metadata returned for LSIDs that are used for Taxon Concepts.</dc:description>
+        <owl:versionInfo
+            >0.2 - [SVN $Rev: 1211 $]</owl:versionInfo>
+        <owl:imports rdf:resource="&voc;TaxonName"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&dc;description"/>
+    <owl:AnnotationProperty rdf:about="&dc;publisher"/>
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    <owl:AnnotationProperty rdf:about="&dc;title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://rs.tdwg.org/ontology/voc/TaxonConcept#accordingTo -->
+
+    <owl:ObjectProperty rdf:about="#accordingTo">
+        <rdfs:label>accordingTo</rdfs:label>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI"
+            >http://rs.tdwg.org/ontology/voc/TaxonConcept</rdfs:isDefinedBy>
+        <rdfs:comment
+            >Information about the authorship of this concept which uses the Name in their sense (i.e. secundum, sensu). Could be an institution or collection or team of individuals. Equivalent
+         to TCS /DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToDetailed</rdfs:comment>
+        <rdfs:domain rdf:resource="#TaxonConcept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/ontology/voc/TaxonConcept#circumscribedBy -->
+
+    <owl:ObjectProperty rdf:about="#circumscribedBy">
+        <rdfs:label
+            >Circumscribed By</rdfs:label>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI"
+            >http://rs.tdwg.org/ontology/voc/TaxonConcept</rdfs:isDefinedBy>
+        <rdfs:comment
+            >A specimen that forms part of the circumscription of this taxon. Equivalent to TCS /DataSet/TaxonConcepts/TaxonConcept/SpecimenCircumscription</rdfs:comment>
+        <rdfs:domain rdf:resource="#TaxonConcept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/ontology/voc/TaxonConcept#describedBy -->
+
+    <owl:ObjectProperty rdf:about="#describedBy">
+        <rdfs:label>Described By</rdfs:label>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI"
+            >http://rs.tdwg.org/ontology/voc/TaxonConcept</rdfs:isDefinedBy>
+        <rdfs:comment
+            >A description that delimits this taxon. Equivalent to TCS /DataSet/TaxonConcepts/TaxonConcept/CharacterCircumscription</rdfs:comment>
+        <rdfs:domain rdf:resource="#TaxonConcept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/ontology/voc/TaxonConcept#hasName -->
+
+    <owl:ObjectProperty rdf:about="#hasName">
+        <rdfs:label>Has Name</rdfs:label>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI"
+            >http://rs.tdwg.org/ontology/voc/TaxonConcept</rdfs:isDefinedBy>
+        <rdfs:comment
+            >The TaxonName for this concept. Equivalent to TCS /DataSet/TaxonConcepts/TaxonConcept/Name</rdfs:comment>
+        <rdfs:domain rdf:resource="#TaxonConcept"/>
+        <rdfs:range rdf:resource="&voc;TaxonName#TaxonName"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- http://rs.tdwg.org/ontology/voc/TaxonConcept#accordingToString -->
+
+    <owl:DatatypeProperty rdf:about="#accordingToString">
+        <rdfs:label
+            >According To String</rdfs:label>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI"
+            >http://rs.tdwg.org/ontology/voc/TaxonConcept</rdfs:isDefinedBy>
+        <rdfs:comment
+            >A string representation of the according to for this concept. Equivalent to TCS /DataSet/TaxonConcepts/TaxonConcept/AccordingTo/Simple</rdfs:comment>
+        <rdfs:domain rdf:resource="#TaxonConcept"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/ontology/voc/TaxonConcept#nameString -->
+
+    <owl:DatatypeProperty rdf:about="#nameString">
+        <rdfs:label>Name String</rdfs:label>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI"
+            >http://rs.tdwg.org/ontology/voc/TaxonConcept</rdfs:isDefinedBy>
+        <rdfs:comment
+            >A string representation of the TaxonName for this concept. Equivalent to TCS /DataSet/TaxonConcepts/TaxonConcept/Name/TaxonName/Simple</rdfs:comment>
+        <rdfs:domain rdf:resource="#TaxonConcept"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept -->
+
+    <owl:Class rdf:about="#TaxonConcept">
+        <rdfs:label>Taxon Concept</rdfs:label>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI"
+            >http://rs.tdwg.org/ontology/voc/TaxonConcept</rdfs:isDefinedBy>
+        <rdfs:comment
+            >Representation of a TaxonConcept. Equivalent to TCS /DataSet/TaxonConcepts/TaxonConcept</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://rs.tdwg.org/ontology/voc/TaxonName#TaxonName -->
+
+    <owl:Class rdf:about="&voc;TaxonName#TaxonName"/>
+    
+
+
+ 
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.974) http://owlapi.sourceforge.net -->
+
