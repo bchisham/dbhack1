@@ -923,6 +923,9 @@ Invocant destructor.
 		}
 
         # notify user
+	if (!defined $logger) {
+	    return;
+	}
         $logger->debug("destructor called for '$self'"); # XXX
 
         # build full @ISA from child to here
