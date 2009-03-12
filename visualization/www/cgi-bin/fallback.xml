@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <nex:nexml version='0.8' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xml='http://www.w3.org/XML/1998/namespace' xsi:schemaLocation='http://www.nexml.org/1.0 ../xsd/nexml.xsd' xmlns:nex='http://www.nexml.org/1.0'>
   <otus id="otus1">
-    <otu id="otu0" label="ENSGACP00000011978"/>
-    <otu id="otu1" label="ENSORLP00000018775"/>
+    <otu id="otu0" label="apidae"/>
+    <otu id="otu1" label="zelus"/>
     <otu id="otu2" label="ENSTRUP00000008762"/>
     <otu id="otu3" label="ENSTNIP00000020440"/>
     <otu id="otu4" label="ENSDARP00000083236"/>
@@ -101,14 +101,14 @@
           <b>94</b>
         </dict>
       </node>
-      <node id="node9"  label="ENSGACP00000011978"  otu="otu0" >
+      <node id="node9"  label="apidae"  otu="otu0" >
         <dict id="dict9">
           <g>ENSGACG00000009073</g>
           <d>N</d>
           <t>69293</t>
         </dict>
       </node>
-      <node id="node10"  label="ENSORLP00000018775"  otu="otu1" >
+      <node id="node10"  label="zelus"  otu="otu1" >
         <dict id="dict10">
           <g>ENSORLG00000014977</g>
           <d>N</d>
