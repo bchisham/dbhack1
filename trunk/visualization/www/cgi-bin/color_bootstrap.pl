@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 
 use strict;
-use lib '/homes/greg/lib/ensembl-greg/modules';
+use lib './perl_lib/';
 use Bio::Phylo;
 use Bio::Phylo::IO;
 use Bio::Greg::PhyloUtils;
