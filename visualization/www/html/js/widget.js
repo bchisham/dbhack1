@@ -1,7 +1,7 @@
 var PWidget = function() {
   this.params = {
-    nodeSize: '3f',
-    autostart: false
+    nodeSize: '4f',
+    enforceUniqueLabels: true
   };
   this.panels = [];
   this.panelObjects = {};
@@ -42,7 +42,7 @@ PWidget.prototype.loadWidget  = function(force) {
 
   // NO! I will not load you without a tree!
   if (!tree) {
-    this.params['tree'] = c.get('tree') || '(a,((b,c),(d,e)))';
+    this.params['tree'] = c.get('tree') || 'http://www.ebi.ac.uk/~greg/bbcdemo/smalltree.nhx';
   }
   
   pw.loadWidget('widgetContainer',this.params);
@@ -125,7 +125,7 @@ PWidget.prototype.getLayout = function() {
   this.widgetLabel = this.widgetTitle.innerHTML;
   this.widgetContainer = document.getElementById('widgetContainer');
 
-  this.treeText.value   = cookie.get('tree')   || '(a,((b,c),(d,e)));';
+  this.treeText.value   = cookie.get('tree')   || 'http://www.ebi.ac.uk/~greg/bbcdemo/smalltree.nhx';
   //this.clipText.value   = cookie.get('clip')   || '';
   this.searchText.value = cookie.get('search') || 'Species name';
 
@@ -140,6 +140,7 @@ PWidget.prototype.getLayout = function() {
   // force load of the applet if there is a saved desktop
   var force = cookie.get('tree');
   this.loadWidget(force);
+
 }
 
 PWidget.prototype.saveTree = function() {
@@ -190,10 +191,12 @@ PWidget.prototype.panelConfig = function(panel,params,myCoords,cookie) {
 // Configure YAHOO panel widget thingamajigs
 PWidget.prototype.panelInit = function(panel,params) {
   this.panels.push(document.getElementById(panel));
-  widget.addButton(panel);  
 
   // certain things must be done for the applet container
   var isWidget  = panel == 'widget';
+
+  
+  if (!isWidget) { widget.addButton(panel) }
 
   params['close']      = isWidget ? false : true;
   params['resizeable'] = isWidget ? false : true;
@@ -295,28 +298,31 @@ PWidget.prototype.panelInit = function(panel,params) {
   return pnl;
 }
 
-// Add a show/hide button
-PWidget.prototype.addButton = function(panel,uncheck) {
-  var buttonId = panel+'Button';
+PWidget.prototype.addButton = function(label,onButtonClick,container) {
+  var buttonId = label+'Button';
   var realButtonId = buttonId+'-button';
   if (document.getElementById(realButtonId)) {
     return false;
   }
 
   var Button = YAHOO.widget.Button;
+
   var bParams = {
-    label:     panel,
+    label:     label,
     id:        buttonId,
     name:      buttonId,
     value:     '1',
-    container: 'showhide'
+    container: (container || 'showhide')
   }
 
   var myButton = new Button(bParams);
   myButton.set('checked','true');
 
-  var onButtonClick = function(e) {
-    widget.showHide(e.target);
+  
+  if (!onButtonClick) {
+    onButtonClick = function(e) {
+      widget.showHide(e.target);
+    }
   }
 
   myButton.addListener("click", onButtonClick);
