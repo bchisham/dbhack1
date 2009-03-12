@@ -24,11 +24,11 @@
       <edge id="edge20" length="4" source="node19" target="node20"/>
       <edge id="edge21" length="1" source="node19" target="node21"/>
       <edge id="edge22" length="1" source="node21" target="node22"
-          about="[_:this_edge22]" typeof="cdao:Edge" property="cdao:has_Support_Value" datatype="xsd:float" content="0.425" />
+          typeof="cdao:Edge" property="cdao:has_Support_Value" datatype="xsd:float" content="0.425" />
       <edge id="edge27" length="2" source="node21" target="node27"
-          about="[_:this_edge27]" typeof="cdao:Edge" property="cdao:has_Support_Value" datatype="xsd:float" content="0.65" />
+          typeof="cdao:Edge" property="cdao:has_Support_Value" datatype="xsd:float" content="0.65" />
       <edge id="edge23" length="1" source="node22" target="node23"
-          about="[_:this_edge23]" typeof="cdao:Edge" property="cdao:has_Support_Value" datatype="xsd:float" content="0.35" />
+          typeof="cdao:Edge" property="cdao:has_Support_Value" datatype="xsd:float" content="0.35" />
       <edge id="edge26" length="2" source="node22" target="node26"/>
       <edge id="edge28" length="1" source="node27" target="node28"/>
       <edge id="edge29" length="1" source="node27" target="node29"/>
