@@ -36,6 +36,7 @@ function loadTree(tree) {
   widget.updateTree(tree);
 }
 
+
 // AJAX stuff for the tree database search
 window.onload = function() {
   var div = document.getElementById('searchResultsContainer');
@@ -53,9 +54,8 @@ window.onload = function() {
     argument:['foo','bar']
   };
 
-  widget.sUrl = "/cgi-bin./tree_search.pl";
+  widget.sUrl = "/cgi-bin/hackathon/tree_search.pl";
 
-  //widget.unloadWidget();
 }
 
 
@@ -90,6 +90,7 @@ start_annotation_table = function (el,label) {
     var r = document.createElement('tr');
     t.appendChild(r);
     var th = document.createElement('th');
+    th.setAttribute('align','left');
     th.setAttribute('class','toprow');
     th.setAttribute('colspan',2);
     th.innerHTML = label;
@@ -108,16 +109,15 @@ decoration_table = function(el,decorations,lookup) {
   var sizes = { 
     1 : 'S',
     2 : 'M',
-    3 : 'L',
-    4 : 'XL',
-    5 : 'XXL'
+    3 : 'L'
   };
   var colors = {
-    'black'  : 'black',
-    'red'    : 'red',
-    'blue'   : 'blue',
-    'green'  : 'green',
-    'yellow' : 'yellow'
+    '#000000' : 'black',
+    '#FF0000' : 'red',
+    '#0000FF' : 'blue',
+    '#00FF00' : 'green',
+    '#FFFF00' : 'yellow',
+    '#FF00FF' : 'purple'
   };
 
   el.innerHTML = '';
@@ -169,7 +169,8 @@ annotation_input_row = function(key,val,table) {
   v.setAttribute('name',key);
   v.setAttribute('value',val);
   v.setAttribute('type','text');
-  v.setAttribute('size',6);
+  var sz = val.length >= 10 ? val.length : 10;
+  v.setAttribute('size',sz);
   v.setAttribute('id',key);
   _annotation_table_row(key,v,table);
 }
@@ -238,6 +239,13 @@ pw_hover = function(json_data) {
   pw_WTF_is_wrong_with_IE(nodeDec);
 }
 
+pw_updateAnnotation = function (node,key,val) {
+  var applet = pw.getApplet();
+  if (!applet) {return false}
+  applet.setAnnotation(node,key,val);
+
+}
+
 pw_updateNode = function() {
   for (var key in widget.nodeJSON['annotations']) {
     var el = getObject(key);
@@ -254,12 +262,10 @@ pw_updateNode = function() {
     }
   }
 
-  var jData = YAHOO.lang.JSON.stringify(widget.nodeJSON);
+  var jData = YAHOO.lang.JSON.stringify(widget.nodeJSON['annotations']);
   var applet = pw.getApplet();
   if (!applet) {alert('NO applet!');}
   applet.setAnnotations(widget.nodeLabel,jData);  
-  jData = jData.replace('{',"\n{",'g');
-  getObject('JSON').value = jData;
 }
 
 pw_WTF_is_wrong_with_IE = function(el) {

@@ -38,7 +38,7 @@
 
 
 <div id="tree">
-  <div id="treeTitle" class="hd">Tree Data</div>
+  <div id="treeTitle" class="hd">Tree Data or URL</div>
   <div id="treeContainer" class="bd">
     <textarea onblur="widget.updateTree(this.value)"
               style="font-size:10px;width:100%;height:100%" 
@@ -67,22 +67,18 @@
 
 <div id="widget">
  <div id="widgetTitle" class="hd">Phylowidget</div>
- <div id="widgetContainer" class="bd" style="text-align:center;font-size:10pt">
-  <div style="padding-top:30%">
-     <p>
-       <img src="./images/phylowidget/pw-icon.png" />
-       PhyloWidget is an external application.<br>  
-       <a href="javascript:loadTree('(a,((b,c),(e,f)))')">Click here to launch.</a>
-     </p>
-  </div>
- </div>
+ <div id="widgetContainer" class="bd" style="text-align:center;font-size:10pt"></div>
  <div class="ft" style="height:5px">
    <div class="footerText">
-    <span class="clickableText" onclick="widget.updateTree()">
-      Update Display
-    </span>
-    <span class="clickableText" onclick="widget.saveTreeForm(event)">
-      Save Tree
+    <span id="treeButtons">
+      <script type="text/javascript">
+        var clickMe = function(){widget.saveTreeForm(event)};
+        widget.addButton('Save Tree',clickMe,'treeButtons');
+        clickMe = function(){widget.updateTree('http://www.ebi.ac.uk/~greg/bbcdemo/smalltree.nhx')};
+        widget.addButton('Example Tree',clickMe,'treeButtons');
+        clickMe = widget.updateTree;
+        widget.addButton('Update Tree',clickMe,'treeButtons');
+      </script>
     </span>
  </div>
  </div>
@@ -121,9 +117,6 @@
 }();
 
 </script>
-
-<textarea rows=2 cols=80 id="JSON" style="width:100%;position:absolute;bottom:15px"></textarea>
-
 </body>
 </html>
 
