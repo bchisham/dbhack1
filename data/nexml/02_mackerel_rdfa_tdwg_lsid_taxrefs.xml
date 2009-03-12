@@ -4,13 +4,12 @@
     <otu id="otu3" label="S. cordyla"/>  
     <otu id="otu4" label="S. pelagicus"/> 
     <otu id="otu5" label="S. glaucus" about="foo" typeof="tc:TaxonConcept" xmlns:tc="http://rs.tdwg.org/ontology/voc/TaxonConcept#" xmlns:tn="http://rs.tdwg.org/ontology/voc/TaxonName#">
-      <annotation rel="tc:hasName">
-        <annotation typeof="tn:TaxonName" about="urn:lsid:zoobank.org:act:2CD1E27B-D572-447C-BD0F-2AA998447FBF">
-           <annotation property="tn:genusPart">Scomber</annotation>
-           <annotation property="tn:specificEpithet">glaucus</annotation>
-           <annotation property="tn:authorship">L.</annotation>
-        </annotation>
-     </annotation>
+      <meta rel="tc:hasName">
+        <meta typeof="tn:TaxonName" about="urn:lsid:zoobank.org:act:2CD1E27B-D572-447C-BD0F-2AA998447FBF">
+          <meta property="tn:genusPart">Scomber</meta>
+          <meta property="tn:specificEpithet">glaucus</meta>
+        </meta>
+      </meta>
     </otu>
     <otu id="otu6" label="S. scombrus"/>  <!-- the Atlantic mackerel, Scomber scombrus -->
     <otu id="otu7" label="S. thynnus"/>  
