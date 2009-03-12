@@ -300,7 +300,9 @@ PWidget.prototype.panelInit = function(panel,params) {
 
 PWidget.prototype.addButton = function(label,onButtonClick,container) {
   var buttonId = label+'Button';
+  buttonId = buttonId.replace(/\s+/,'','g');
   var realButtonId = buttonId+'-button';
+
   if (document.getElementById(realButtonId)) {
     return false;
   }
