@@ -36,7 +36,7 @@
         <otu id="Ipomoeaalba" label="Ipomoea alba" />
     </otus>
     <trees id="_TreesBlock1446264" otus="_TaxaBlock1446263">
-        <tree id="_Tree1446265" xsi:type="nex:FloatTree">
+        <tree id="Tree3387" label="Fig. 3" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S1191A3753" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="SAMT" nchar="1139" /></analysis></nex:external>
             <node id="_Node1446268" />
             <node id="_Node1446270" />

@@ -40,7 +40,7 @@
         <otu id="Cladoniamitis5381" label="Cladonia mitis 5381" />
     </otus>
     <trees id="_TreesBlock896897" otus="_TaxaBlock896896">
-        <tree id="_Tree896898" xsi:type="nex:FloatTree">
+        <tree id="Tree2401" label="Fig. 2a" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S818A1926" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Fig2a, betatubulin" nchar="790" /></analysis></nex:external>
             <node id="_Node896901" />
             <node id="_Node896903" otu="Cladoniarangiferina" />

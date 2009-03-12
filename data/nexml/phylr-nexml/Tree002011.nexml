@@ -29,7 +29,7 @@
         <otu id="Alternarialongipes" label="Alternaria longipes" />
     </otus>
     <trees id="_TreesBlock974580" otus="_TaxaBlock974579">
-        <tree id="_Tree974581" xsi:type="nex:FloatTree">
+        <tree id="Tree2617" label="Fig. 4" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S891A2280" software="Phylip"><inputmatrix datatype="Nucleic Acid" name="combined endoPG, OPA1-3, OPA2-1" nchar="1598" /></analysis></nex:external>
             <node id="_Node974584" />
             <node id="_Node974586" otu="Alternariagaisen" />

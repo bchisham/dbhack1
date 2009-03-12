@@ -72,7 +72,7 @@
         <otu id="Reinhardtiagracilis" label="Reinhardtia gracilis" />
     </otus>
     <trees id="_TreesBlock1915953" otus="_TaxaBlock1915952">
-        <tree id="_Tree1915954" xsi:type="nex:FloatTree">
+        <tree id="Tree4121" label="Fig. 4" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1436A5042" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Loo et al PRK RPB2.nex" nchar="1910" /></analysis></nex:external>
             <node id="_Node1915957" />
             <node id="_Node1915959" otu="Chamaeropshumilis" />

@@ -27,7 +27,7 @@
         <otu id="Drosophilamelanogaster" label="Drosophila melanogaster" />
     </otus>
     <trees id="_TreesBlock229187" otus="_TaxaBlock229186">
-        <tree id="_Tree229188" xsi:type="nex:FloatTree">
+        <tree id="Tree1004" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S320A136" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="combined" nchar="2550" /></analysis></nex:external>
             <node id="_Node229191" />
             <node id="_Node229193" />

@@ -62,7 +62,7 @@
         <otu id="Pythiummonospermum" label="Pythium monospermum" />
     </otus>
     <trees id="_TreesBlock2117946" otus="_TaxaBlock2117945">
-        <tree id="_Tree2117947" xsi:type="nex:FloatTree">
+        <tree id="Tree4391" label="MP weighted Tree" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1539A5660" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="LSU nrDNA" nchar="1896" /></analysis></nex:external>
             <node id="_Node2117950" />
             <node id="_Node2117952" />

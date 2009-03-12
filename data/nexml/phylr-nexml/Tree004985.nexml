@@ -103,7 +103,7 @@
         <otu id="HaplocarpharueppelliiNAN1746" label="Haplocarpha rueppellii NAN1746" />
     </otus>
     <trees id="_TreesBlock3267153" otus="_TaxaBlock3267152">
-        <tree id="_Tree3267154" xsi:type="nex:FloatTree">
+        <tree id="Tree5987" label="Fig. 2B" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="bayesian inference" id="S2102A8780" software="MrBayes"><inputmatrix datatype="Nucleic Acid" name="Arctotidinae ITS" nchar="688" /></analysis></nex:external>
             <node id="_Node3267157" />
             <node id="_Node3267159" />

@@ -38,7 +38,7 @@
         <otu id="Pythiumdeliense" label="Pythium deliense" />
     </otus>
     <trees id="_TreesBlock975341" otus="_TaxaBlock975340">
-        <tree id="_Tree975342" xsi:type="nex:FloatTree">
+        <tree id="Tree2619" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="neighbor joining" id="S892A2283" software="Phylip"><inputmatrix datatype="Nucleic Acid" name="Pythium insidiosum ITS" nchar="887" /></analysis></nex:external>
             <node id="_Node975345" />
             <node id="_Node975347" otu="Lagenidiumgiganteum" />

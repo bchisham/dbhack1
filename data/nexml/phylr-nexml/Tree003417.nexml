@@ -36,7 +36,7 @@
         <otu id="Polygalamyrtifolia" label="Polygala myrtifolia" />
     </otus>
     <trees id="_TreesBlock1984114" otus="_TaxaBlock1984113">
-        <tree id="_Tree1984115" xsi:type="nex:FloatTree">
+        <tree id="Tree4219" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1473A5392" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Nylandtia Forest Manning" nchar="4253" /></analysis></nex:external>
             <node id="_Node1984118" />
             <node id="_Node1984120" />

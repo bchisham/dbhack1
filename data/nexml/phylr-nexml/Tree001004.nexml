@@ -34,7 +34,7 @@
         <otu id="Macrophominaphaseolinaiso92" label="Macrophomina phaseolina iso 92" />
     </otus>
     <trees id="_TreesBlock384063" otus="_TaxaBlock384062">
-        <tree id="_Tree384064" xsi:type="nex:FloatTree">
+        <tree id="Tree1409" label="Fig. 4" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Genetic Distance" id="S461A597" software="Ni and Li Distance"><inputmatrix datatype="AFLP" name="AFLP of Macrophomina phaseolina" nchar="312" /></analysis></nex:external>
             <node id="_Node384067" />
             <node id="_Node384069" />

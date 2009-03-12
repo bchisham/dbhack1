@@ -71,7 +71,7 @@
         <otu id="Crocodylusniloticus" label="Crocodylus niloticus" />
     </otus>
     <trees id="_TreesBlock246782" otus="_TaxaBlock246781">
-        <tree id="_Tree246783" xsi:type="nex:FloatTree">
+        <tree id="Tree1055" label="Fig. 6" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S329A198" software="PAUP"><inputmatrix datatype="Morphological" name="Appendix 2" nchar="164" /></analysis></nex:external>
             <node id="_Node246786" />
             <node id="_Node246788" otu="Bernissartiafagesii" />

@@ -48,7 +48,7 @@
         <otu id="Belloalehmanni" label="Belloa lehmanni" />
     </otus>
     <trees id="_TreesBlock50748" otus="_TaxaBlock50747">
-        <tree id="_Tree50749" xsi:type="nex:FloatTree">
+        <tree id="T236c1x31x96c10c37c53" label="Fig. 3A" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A63c1x28x96c14c02c08" software="Hennig86"><inputmatrix datatype="Morphological" name="Table 1" nchar="35" /></analysis></nex:external>
             <node id="_Node50752" />
             <node id="_Node50754" otu="Gamochaeta" />

@@ -30,7 +30,7 @@
         <otu id="Fusariumoxysporum9302E" label="Fusarium oxysporum 9302E" />
     </otus>
     <trees id="_TreesBlock2016601" otus="_TaxaBlock2016600">
-        <tree id="_Tree2016602" xsi:type="nex:FloatTree">
+        <tree id="Tree4262" label="Fig. 4 MP" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1494A5458" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Fig 4 Stewart et al" nchar="661" /></analysis></nex:external>
             <node id="_Node2016605" />
             <node id="_Node2016607" otu="FusariumredolensNRRL31255" />

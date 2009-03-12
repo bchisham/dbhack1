@@ -39,7 +39,7 @@
         <otu id="MoringaperegrinaOlsons.n." label="Moringa peregrina Olson s.n." />
     </otus>
     <trees id="_TreesBlock659772" otus="_TaxaBlock659771">
-        <tree id="_Tree659773" xsi:type="nex:FloatTree">
+        <tree id="Tree2004" label="ITS tree 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S654A1373" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="ITS" nchar="705" /></analysis></nex:external>
             <node id="_Node659776" />
             <node id="_Node659778" otu="JacaratiacorumbensisOlsons.n." />

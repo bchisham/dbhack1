@@ -114,7 +114,7 @@
         <otu id="Passiflorafoetida" label="Passiflora foetida" />
     </otus>
     <trees id="_TreesBlock2142996" otus="_TaxaBlock2142995">
-        <tree id="_Tree2142997" xsi:type="nex:FloatTree">
+        <tree id="Tree4417" label="Fig. 1, 2 Str boot" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1549A5541" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="AdeniaITS1_5.8S_ITS2" nchar="1051" /></analysis></nex:external>
             <node id="_Node2143000" />
             <node id="_Node2143002" otu="Hollrungiasp.BG5815QRS" />

@@ -30,7 +30,7 @@
         <otu id="Lachnumnudipes" label="Lachnum nudipes" />
     </otus>
     <trees id="_TreesBlock387702" otus="_TaxaBlock387701">
-        <tree id="_Tree387703" xsi:type="nex:FloatTree">
+        <tree id="Tree1415" label="Fig. 3" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S464A601" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Fig. 3" nchar="544" /></analysis></nex:external>
             <node id="_Node387706" />
             <node id="_Node387708" />

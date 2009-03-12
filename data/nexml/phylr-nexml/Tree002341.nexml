@@ -277,7 +277,7 @@
         <otu id="Monodelphisunistriata" label="Monodelphis unistriata" />
     </otus>
     <trees id="_TreesBlock1199995" otus="_TaxaBlock1199994">
-        <tree id="_Tree1199996" xsi:type="nex:FloatTree">
+        <tree id="Tree2997" label="Figs. 2 and 4 to 10" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1035A2957" software="PAUP"><inputmatrix datatype="Matrix Representation" name="Marsupialia MRP matrix" nchar="1775" /></analysis></nex:external>
             <node id="_Node1199999" />
             <node id="_Node1200001" />

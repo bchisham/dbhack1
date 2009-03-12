@@ -44,7 +44,7 @@
         <otu id="Grammatothecabergiana" label="Grammatotheca bergiana" />
     </otus>
     <trees id="_TreesBlock469169" otus="_TaxaBlock469168">
-        <tree id="_Tree469170" xsi:type="nex:FloatTree">
+        <tree id="Tree1603" label="PAUP 13" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S536A848" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="3 trnK" nchar="458" /></analysis></nex:external>
             <node id="_Node469173" />
             <node id="_Node469175" />

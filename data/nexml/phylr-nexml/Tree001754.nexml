@@ -101,7 +101,7 @@
         <otu id="Cynanchumgalgalense9433" label="Cynanchum galgalense 9433" />
     </otus>
     <trees id="_TreesBlock839268" otus="_TaxaBlock839267">
-        <tree id="_Tree839269" xsi:type="nex:FloatTree">
+        <tree id="Tree2298" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S776A1778" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="COW-cpDNA" nchar="2178" /></analysis></nex:external>
             <node id="_Node839272" />
             <node id="_Node839274" otu="Schizostephanusalatus" />

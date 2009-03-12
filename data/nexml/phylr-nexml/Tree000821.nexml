@@ -40,7 +40,7 @@
         <otu id="Tetragnathamandibulata" label="Tetragnatha mandibulata" />
     </otus>
     <trees id="_TreesBlock292203" otus="_TaxaBlock292202">
-        <tree id="_Tree292204" xsi:type="nex:FloatTree">
+        <tree id="Tree1182" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="MP and NJ" id="S368A306" software="PAUP and NJBOOT2"><inputmatrix datatype="Nucleic Acid" name="12S mtDNA" nchar="321" /></analysis></nex:external>
             <node id="_Node292207" />
             <node id="_Node292209" />

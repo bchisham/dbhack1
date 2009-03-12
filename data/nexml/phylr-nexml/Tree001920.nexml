@@ -28,7 +28,7 @@
         <otu id="ATCC50818" label="ATCC 50818" />
     </otus>
     <trees id="_TreesBlock936955" otus="_TaxaBlock936954">
-        <tree id="_Tree936956" xsi:type="nex:FloatTree">
+        <tree id="Tree2505" label="Fig. 3b puzzle" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S852A2058" software="Tree-Puzzle"><inputmatrix datatype="Amino Acid" name="Fig3B" nchar="1561" /></analysis></nex:external>
             <node id="_Node936959" />
             <node id="_Node936961" otu="Monosiga" />

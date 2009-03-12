@@ -58,7 +58,7 @@
         <otu id="Pleosporaherbarum" label="Pleospora herbarum" />
     </otus>
     <trees id="_TreesBlock2178039" otus="_TaxaBlock2178038">
-        <tree id="_Tree2178040" xsi:type="nex:FloatTree">
+        <tree id="Tree4454" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S1566A5873" software="PhyML"><inputmatrix datatype="Nucleic Acid" name="28S rDNA" nchar="894" /></analysis></nex:external>
             <node id="_Node2178043" />
             <node id="_Node2178045" />

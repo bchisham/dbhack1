@@ -34,7 +34,7 @@
         <otu id="Tubertaiyuanensebj02" label="Tuber taiyuanense bj02" />
     </otus>
     <trees id="_TreesBlock2190549" otus="_TaxaBlock2190548">
-        <tree id="_Tree2190550" xsi:type="nex:FloatTree">
+        <tree id="Tree4476" label="ITS1-Rufum-complet deletion" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="neighbor joining" id="S1575A5914" software="MEGA"><inputmatrix datatype="Nucleic Acid" name="ITS1-Rufum" nchar="243" /></analysis></nex:external>
             <node id="_Node2190553" />
             <node id="_Node2190555" otu="Tubercandidum" />

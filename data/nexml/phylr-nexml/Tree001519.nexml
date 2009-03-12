@@ -54,7 +54,7 @@
         <otu id="Nephroselmisolivacea" label="Nephroselmis olivacea" />
     </otus>
     <trees id="_TreesBlock675849" otus="_TaxaBlock675848">
-        <tree id="_Tree675850" xsi:type="nex:FloatTree">
+        <tree id="Tree2025" label="Fig. 6" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S664A1400" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Krienitz et al. 18S" nchar="1864" /></analysis></nex:external>
             <node id="_Node675853" />
             <node id="_Node675855" />

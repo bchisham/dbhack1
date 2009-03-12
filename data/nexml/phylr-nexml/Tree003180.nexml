@@ -98,7 +98,7 @@
         <otu id="Trichodermavelutinum" label="Trichoderma velutinum" />
     </otus>
     <trees id="_TreesBlock1778325" otus="_TaxaBlock1778324">
-        <tree id="_Tree1778326" xsi:type="nex:FloatTree">
+        <tree id="Tree4064" label="NJ ITS tree" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1411A4648" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="ITS1 and 2 Master" nchar="359" /></analysis></nex:external>
             <node id="_Node1778329" />
             <node id="_Node1778331" otu="Hypocrealixii" />

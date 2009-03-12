@@ -56,7 +56,7 @@
         <otu id="AspergillusbombycisNRRL29253" label="Aspergillus bombycis NRRL29253" />
     </otus>
     <trees id="_TreesBlock560237" otus="_TaxaBlock560236">
-        <tree id="_Tree560238" xsi:type="nex:FloatTree">
+        <tree id="Tree1765" label="PAUP 1nar" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S593A1071" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Norsolorinic acid reductase partial gene" nchar="300" /></analysis></nex:external>
             <node id="_Node560241" />
             <node id="_Node560243" otu="AspergillusparasiticusNRRL502" />

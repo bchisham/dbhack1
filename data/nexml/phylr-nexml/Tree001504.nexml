@@ -87,7 +87,7 @@
         <otu id="Medicagolanigera" label="Medicago lanigera" />
     </otus>
     <trees id="_TreesBlock664628" otus="_TaxaBlock664627">
-        <tree id="_Tree664629" xsi:type="nex:FloatTree">
+        <tree id="Tree2008" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S656A1343" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="ETS and ITS" nchar="1099" /></analysis></nex:external>
             <node id="_Node664632" />
             <node id="_Node664634" otu="Trifoliumsubterraneum" />

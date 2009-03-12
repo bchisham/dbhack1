@@ -122,7 +122,7 @@
         <otu id="Xantolissiamensis" label="Xantolis siamensis" />
     </otus>
     <trees id="_TreesBlock2279843" otus="_TaxaBlock2279842">
-        <tree id="_Tree2279844" xsi:type="nex:FloatTree">
+        <tree id="Tree4632" label="Fig. 1 ITS" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Jackknife" id="S1627A6106" software="PAUP"><inputmatrix datatype="Combination" name="ITS-indels-morph" nchar="1082" /></analysis></nex:external>
             <node id="_Node2279847" />
             <node id="_Node2279849" />

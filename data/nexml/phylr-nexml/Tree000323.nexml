@@ -48,7 +48,7 @@
         <otu id="Asteroideae" label="Asteroideae" />
     </otus>
     <trees id="_TreesBlock90141" otus="_TaxaBlock90140">
-        <tree id="_Tree90142" xsi:type="nex:FloatTree">
+        <tree id="T339c2x4x96c16c25c41" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A145c2x4x96c16c25c22" software="PAUP"><inputmatrix datatype="Morphological" name="Table 2" nchar="55" /></analysis></nex:external>
             <node id="_Node90145" />
             <node id="_Node90147" otu="Vernonia" />
