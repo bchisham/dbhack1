@@ -65,13 +65,10 @@
      <xsl:template name="processancestor">
 	    <xsl:param name="cnodeid" />
 	    <xsl:variable name="treeid" select="../@id"/>
-	    
 	    <xsl:choose>
 		    <xsl:when test="../nex:node[@id = $cnodeid and @root = 'true' ]">
-			    
-
 		    </xsl:when>
-		    <xsl:when test="../*[ name()='node' and @id = $cnodeid ]">
+		    <xsl:when test="../nex:node[ @id = $cnodeid ]">
 			    <xsl:variable name="edge" select="../nex:edge[ @target = $cnodeid]"/>
 			    
 			    <cdao:has_Ancestor rdf:resource="#{../@id}_{$edge/@source}"/>
@@ -81,7 +78,6 @@
 			       </xsl:call-template>
 		    </xsl:when>
 		    <xsl:otherwise>
-			    <any><xsl:value-of select="$cnodeid"/></any>
 		    </xsl:otherwise>
 	    </xsl:choose> 
     </xsl:template>
@@ -101,7 +97,7 @@
             <xsl:if test="@otu">
                 <cdao:represents_TU rdf:resource="#{../../@otus}_{@otu}"/>
 	</xsl:if>
-	<xsl:if test="../*[name() = 'node' and @root = 'true']">
+	<xsl:if test="../nex:node[ @root = 'true']">
             <xsl:call-template name="processancestor">
 		    <xsl:with-param name="cnodeid" select="@id"/>
 	    </xsl:call-template>
