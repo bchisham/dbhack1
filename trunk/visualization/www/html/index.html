@@ -4,14 +4,20 @@
   <title>I am PhyloWidget</title>
   <!--This script loads all the CSS and JavaScript dependencies -->
   <script type="text/javascript" src="/hackathon/js/pw_loader.js"></script>
+
+  <script type="text/javascript">
+    var box     = new Box;
+    BalloonConfig(box,"GBox");
+    var pw = new PhyloWidget.object();
+    pw.codebase = "./phylowidget/lib"; 
+    var widget  = new PWidget;  
+  </script>
 </head>
 
 <body class="yui-skin-sam">
 <div id="header">
-<center>LOGO/BRANDING</center>
+<img src="./images/phylowidget/pw_small_transparent.png">
 </div>
-
-
 
 <div id="panels">
 
@@ -34,7 +40,7 @@
 <div id="tree">
   <div id="treeTitle" class="hd">Tree Data</div>
   <div id="treeContainer" class="bd">
-    <textarea onblur="PhyloWidget.updateTree(this.value)"
+    <textarea onblur="widget.updateTree(this.value)"
               style="font-size:10px;width:100%;height:100%" 
               id="pw_treetext">
     </textarea>
@@ -43,7 +49,7 @@
 </div>
 
 <div id="decoration">
-  <div id="decorationTitle" class="hd">Node Decorations BLAH</div>
+  <div id="decorationTitle" class="hd">Node Decorations</div>
   <div id="decorationContainer" class="bd">
     <div id="pw_nodedecorations"></div>
   </div> 
@@ -51,10 +57,10 @@
 </div>
 
 <div id="node">
-  <div id="nodeTitle" class="hd">Node Information</div>
+  <div id="nodeTitle" class="hd">Node Properties</div>
   <div id="nodeContainer" class="bd">
     <div id="pw_nodeinfo"></div>
-  </div>
+ </div>
  <div class="ft"></div>
 </div>
 
@@ -64,7 +70,7 @@
  <div id="widgetContainer" class="bd" style="text-align:center;font-size:10pt">
   <div style="padding-top:30%">
      <p>
-       <img src="/images/phylowidget/pw-icon.png" />
+       <img src="./images/phylowidget/pw-icon.png" />
        PhyloWidget is an external application.<br>  
        <a href="javascript:loadTree('(a,((b,c),(e,f)))')">Click here to launch.</a>
      </p>
@@ -72,7 +78,7 @@
  </div>
  <div class="ft" style="height:5px">
    <div class="footerText">
-    <span class="clickableText">
+    <span class="clickableText" onclick="widget.updateTree()">
       Update Display
     </span>
     <span class="clickableText" onclick="widget.saveTreeForm(event)">
@@ -86,7 +92,6 @@
 
 <!-- The conatiner for show/hide buttons -->
 <div id="showhide">
- <div class="label">Show</div>
 </div>
 
 <!-- Move this stuff to widget.js and fire with a window.onload event handler -->
@@ -116,6 +121,8 @@
 }();
 
 </script>
+
+<textarea rows=2 cols=80 id="JSON" style="width:100%;position:absolute;bottom:15px"></textarea>
 
 </body>
 </html>

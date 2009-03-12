@@ -3,54 +3,40 @@ This loads all the CSS and javascript dependencies, global variables and callbac
 PhyloWidget
 */
 
-document.open();
-document.write('\
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/fonts-min.css" />                    \
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/autocomplete.css" />                 \
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/resize.css" />                       \
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/container.css" />                    \
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/button.css" />                       \
-  <link rel="stylesheet" type="text/css" href="/hackathon/css/widget.css">                         \
-                                                                                                   \
-  <script type="text/javascript" src="/hackathon/js/yahoo-dom-event.js"></script>                  \
-  <script type="text/javascript" src="/hackathon/js/element-beta-min.js"></script>                 \
-  <script type="text/javascript" src="/hackathon/js/dragdrop-min.js"></script>                     \
-  <script type="text/javascript" src="/hackathon/js/resize-min.js"></script>                       \
-  <script type="text/javascript" src="/hackathon/js/connection-min.js"></script>                   \
-  <script type="text/javascript" src="/hackathon/js/animation-min.js"></script>                    \
-  <script type="text/javascript" src="/hackathon/js/datasource-min.js"></script>                   \
-  <script type="text/javascript" src="/hackathon/js/autocomplete-min.js"></script>                 \
-  <script type="text/javascript" src="/hackathon/js/container-min.js"></script>                    \
-  <script type="text/javascript" src="/hackathon/js/button-min.js"></script>                       \
-  <script type="text/javascript" src="/hackathon/js/cookie-min.js"></script>                       \
-  <script type="text/javascript" src="/hackathon/js/json-min.js"></script>                         \
-                                                                                                   \
-  <script type="text/javascript" src="/hackathon/phylowidget/scripts/phylowidget.js"></script>     \
-  <script type="text/javascript" src="/hackathon/js/balloon.config.js"></script>                   \
-  <script type="text/javascript" src="/hackathon/js/balloon.js"></script>                          \
-  <script type="text/javascript" src="/hackathon/js/box.js"></script>                              \
-  <script type="text/javascript" src="/hackathon/js/widget.js"></script>                           \
-                                                                                                   \
-  <script type="text/javascript">                                                                  \
-    var box     = new Box;                                                                         \
-    BalloonConfig(box,"GBox");                                                                     \
-    var pw = new PhyloWidget.object();                                                             \
-    pw.codebase = "/phylowidget/lib";                                                              \
-    var widget  = new PWidget;                                                                     \
-  </script>                                                                                        \
-');
 
+document.write('<link rel="stylesheet" type="text/css" href="./css/fonts-min.css" />');
+document.write('<link rel="stylesheet" type="text/css" href="./css/autocomplete.css" />');
+document.write('<link rel="stylesheet" type="text/css" href="./css/resize.css" />');
+document.write('<link rel="stylesheet" type="text/css" href="./css/container.css" />');
+document.write('<link rel="stylesheet" type="text/css" href="./css/button.css" />');
+document.write('<link rel="stylesheet" type="text/css" href="./css/widget.css" />');
+document.write('<script type="text/javascript" src="./js/yahoo-dom-event.js"></script>');
+document.write('<script type="text/javascript" src="./js/element-beta-min.js"></script>');
+document.write('<script type="text/javascript" src="./js/dragdrop-min.js"></script>');
+document.write('<script type="text/javascript" src="./js/resize-min.js"></script>');
+document.write('<script type="text/javascript" src="./js/connection-min.js"></script>');
+document.write('<script type="text/javascript" src="./js/animation-min.js"></script>');
+document.write('<script type="text/javascript" src="./js/datasource-min.js"></script>');
+document.write('<script type="text/javascript" src="./js/autocomplete-min.js"></script>');
+document.write('<script type="text/javascript" src="./js/container-min.js"></script>');
+document.write('<script type="text/javascript" src="./js/button-min.js"></script>');
+document.write('<script type="text/javascript" src="./js/cookie-min.js"></script>');
+document.write('<script type="text/javascript" src="./js/json-min.js"></script>');
+document.write('<script type="text/javascript" src="./phylowidget/scripts/phylowidget.js"></script>');
+document.write('<script type="text/javascript" src="./js/balloon.config.js"></script>');
+document.write('<script type="text/javascript" src="./js/balloon.js"></script>');
+document.write('<script type="text/javascript" src="./js/box.js"></script>');
+document.write('<script type="text/javascript" src="./js/widget.js"></script>');
 
 // This updates the tree data without re-loading phylowidget
 function loadTree(tree) {
   if (tree) {
     widget.treeText.value = tree;
-    PhyloWidget.updateTree(tree);
   }
+  widget.updateTree(tree);
 }
 
 // AJAX stuff for the tree database search
-var sUrl, callback;
 window.onload = function() {
   var div = document.getElementById('searchResultsContainer');
   var handleSuccess = function(o){
@@ -61,13 +47,15 @@ window.onload = function() {
     div.innerHTML = 'AJAX FAILURE!';
   };
 
-  callback = {
+  widget.callback = {
     success:handleSuccess,
     failure:handleFailure,
     argument:['foo','bar']
   };
 
-  sUrl = "/cgi-bin/hackathon/tree_search.pl";
+  widget.sUrl = "/cgi-bin./tree_search.pl";
+
+  //widget.unloadWidget();
 }
 
 
@@ -75,7 +63,7 @@ window.onload = function() {
 
 pw_tree = function() {
   // Get the latest PhyloWidget Java applet object.
-  var applet = PhyloWidget.getApplet();
+  var applet = pw.getApplet();
 
   // Get the Newick string.
   var newickString = applet.getTreeString();
@@ -93,75 +81,194 @@ pw_clip = function() { return false; }
    add the header and append it to the
    specified element
 */
-annotation_table = function (label,el) {
+start_annotation_table = function (el,label) {
   var t = document.createElement('table');
-  t.setAttribute('class',',annotation');
+  t.setAttribute('class','annotation');
   t.setAttribute('width','100%');
-  el.innerHTML = '';
   el.appendChild(t);
-  var r = document.createElement('tr');
-  t.appendChild(r);
-  var th = document.createElement('th');
-  th.setAttribute('class','toprow');
-  th.setAttribute('colspan',2);
-  th.innerHTML = label;
-  r.appendChild(th);
+  if (label) {
+    var r = document.createElement('tr');
+    t.appendChild(r);
+    var th = document.createElement('th');
+    th.setAttribute('class','toprow');
+    th.setAttribute('colspan',2);
+    th.innerHTML = label;
+    r.appendChild(th);
+  }
   return t;
 }
 
-annotation_table_row = function(key,val,table) {
+decoration_table = function(el,decorations,lookup) {
+  var shapes = {    
+   's' : 'square',
+   't' : 'triangle',
+   'x' : 'star',
+   'o' : 'circle' 
+  };
+  var sizes = { 
+    1 : 'S',
+    2 : 'M',
+    3 : 'L',
+    4 : 'XL',
+    5 : 'XXL'
+  };
+  var colors = {
+    'black'  : 'black',
+    'red'    : 'red',
+    'blue'   : 'blue',
+    'green'  : 'green',
+    'yellow' : 'yellow'
+  };
+
+  el.innerHTML = '';
+  var t = start_annotation_table(el);
+  var rows = {
+    'node'   : ['ncol', 'nsz', 'nsh' ],
+    'branch' : ['bcol', 'bsz'],
+    'label'  : ['lcol', 'lsz']
+  }
+  
+  for (var r in rows) {
+    var row = document.createElement('span');
+    for (var i=0;i < rows[r].length;i++) {
+      var key = rows[r][i];
+      var obj = key.match('col') ? colors
+              : key.match('sz')  ? sizes
+              : shapes;
+      var dsc = key.match('col') ? 'color'
+              : key.match('sz')  ? 'size' 
+              : 'shape';
+              
+      var val = decorations[key];
+      var sel = document.createElement('select');
+      sel.setAttribute('name',key);
+      sel.setAttribute('id',key);
+      sel.setAttribute('onchange','pw_updateNode()');
+      add_select_option(dsc,'',sel,val);
+      for (var k in obj) {
+        add_select_option(obj[k],k,sel,val);
+      }
+      row.appendChild(sel);
+    }
+    annotation_display_row(r,row.innerHTML,t,null,'decorate');
+  }
+}
+
+add_select_option = function (name,val,sel,def) {
+  var opt = document.createElement('option');
+  opt.setAttribute('value',val);
+  if (def && def == val) {
+    opt.setAttribute('selected',true);
+  }
+  opt.innerHTML = name;
+  sel.appendChild(opt);
+}
+
+annotation_input_row = function(key,val,table) {
+  var v = document.createElement('input');
+  v.setAttribute('name',key);
+  v.setAttribute('value',val);
+  v.setAttribute('type','text');
+  v.setAttribute('size',6);
+  v.setAttribute('id',key);
+  _annotation_table_row(key,v,table);
+}
+
+annotation_display_row = function(key,val,table,def,decorate) {
+  _annotation_table_row(key,val,table,def,decorate);
+}
+
+_annotation_table_row = function(key,val,table,def,decorate) {
   var r = document.createElement('tr');
   var k = document.createElement('td');
-  k.setAttribute('class','key');
+  var cName = decorate ? 'decKey' : 'key';
+  k.setAttribute('class',cName);
   k.innerHTML = key;
   r.appendChild(k);
   var v = document.createElement('td');
   v.setAttribute('class','value');
-  v.innerHTML = val;
+  if (typeof(val) == 'object') {
+    v.appendChild(val);
+  }
+  else {
+    v.innerHTML = val;
+  }
   r.appendChild(v);
   table.appendChild(r);
 }
 
 pw_hover = function(json_data) {
-  // Get the Java applet.
-  var applet = PhyloWidget.getApplet();
-
   var json = eval("("+json_data+")");
-  var ann = json["Annotations"];
-  
-  var decorationLabels = {
-    "lcol" : "Label Color",
-    "ncol" : "Node Color",
-    "bcol" : "Branch Color",
-    "lsz"  : "Label Size",
-    "nsz"  : "Node Size",
-    "bsz"  : "Branch Size",
-    "nsh"  : "Node Shape"
-  }
+ 
+  var ann = json["annotations"];
+  var cal = json["calculations"];
+  widget.nodeJSON  = json;
+  widget.nodeLabel = ann['Label'];
+
+  var decLabels = {'ncol':1,'nsz':1,'nsh':1,'bcol':1,'bsz':1,'lcol':1,'lsz':1};
+  widget.decLabels = decLabels;
   var dec = new Object;
-  for (var key in decorationLabels) {
-    dec[key] = ann[key];
+  for (var key in decLabels) {
+    dec[key] = ann[key] || '';
+    if (ann[key]) {ann[key] = null;}
   }
-  
+
   var nodeInf = getObject("pw_nodeinfo");
   var nodeDec = getObject("pw_nodedecorations");
-  if (!nodeDec) alert ('NO DEC!!!');
-  var tab1 = annotation_table('Lorem',nodeInf);
-  var tab2 = annotation_table('Ipsum',nodeDec);
+  
+  nodeInf.innerHTML = '';
+  var tab1 = start_annotation_table(nodeInf,'Information');
+  var tab2 = start_annotation_table(nodeInf,'Annotations');
 
+  for (var key in cal) {
+    var val = cal[key];
+    if (val) {
+      annotation_display_row(key,val,tab1);
+    }
+  }
   for (var key in ann) {
     var val = ann[key];
-    annotation_table_row(key,val,tab1);
+    if (val) {
+      annotation_input_row(key,val,tab2);
+    }
   }
 
-  for (var key in dec) {
-    var val = dec[key];
-    annotation_table_row(key,val,tab2);
+  decoration_table(nodeDec,dec,decLabels);
+  pw_WTF_is_wrong_with_IE(nodeInf);
+  pw_WTF_is_wrong_with_IE(nodeDec);
+}
+
+pw_updateNode = function() {
+  for (var key in widget.nodeJSON['annotations']) {
+    var el = getObject(key);
+    if (el) {
+      var val = el.value;
+      widget.nodeJSON['annotations'][key] = val;
+    }
   }
+  for (var key in widget.decLabels) {
+    var el = getObject(key);
+    if (el) {
+      var val = el.value;
+      if (val) {widget.nodeJSON['annotations'][key] = val;}
+    }
+  }
+
+  var jData = YAHOO.lang.JSON.stringify(widget.nodeJSON);
+  var applet = pw.getApplet();
+  if (!applet) {alert('NO applet!');}
+  applet.setAnnotations(widget.nodeLabel,jData);  
+  jData = jData.replace('{',"\n{",'g');
+  getObject('JSON').value = jData;
+}
+
+pw_WTF_is_wrong_with_IE = function(el) {
+  var ih = el.innerHTML;
+  el.innerHTML = ih;
 }
 
 pw_urlFocus = function() {
-  var applet = PhyloWidget.getApplet();
+  var applet = pw.getApplet();
   var urlQuery = applet.getUrlParameters();
   
   // Grab the vanilla URL for this page.
@@ -179,7 +286,7 @@ pw_urlFocus = function() {
 // When the tree textbox is defocused, update the Java applet.
 pw_treeTextBlur = function() {
   var treeText = getObject("pw_treetext").value;
-  PhyloWidget.getApplet().setTree(treeText);
+  pw.getApplet().setTree(treeText);
 }
 
 // When the clip textbox is defocused, update the Java applet.
@@ -195,7 +302,7 @@ pw_clipTextFocus = function() { return false; }
 
 // A generic function for putting a message into the Java applet.
 pw_setMessage = function(message) {
-  var applet = PhyloWidget.getApplet();
+  var applet = pw.getApplet();
   applet.setMessage(message);
 }
 
