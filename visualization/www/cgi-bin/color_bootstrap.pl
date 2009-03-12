@@ -9,8 +9,8 @@ use Bio::Greg::PhyloUtils;
 use CGI qw/:standard/;
 use CGI::Carp 'fatalsToBrowser';
 
-my $infile = $ARGV[0];
-my $instring = CGI::param("nexml");
+our $infile = $ARGV[0];
+our $instring = CGI::param("nexml");
 
 print header("text/plain");
 do_stuff();
