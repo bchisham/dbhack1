@@ -1,28 +1,33 @@
-
 var PWidget = function() {
   this.params = {
-    nodeSize: '2f'
+    nodeSize: '3f',
+    autostart: false
   };
   this.panels = [];
   this.panelObjects = {};
   this.hidden = {};
 }
 
+// don't forget to fix hard-coded URL, Sheldon!
 PWidget.prototype.saveTreeForm = function(evt) {
   var treeID = widget.treeID || widget.getTreeID();
   widget.saveTree();
-  window.open('/cgi-bin/hackathon/tree_save.pl?query='+treeID,'saveTree','scrollbars=1,width=800,height=600,resizable=1,location=0,status=1');
+  window.open('/cgi-bin/hackathon/tree_save.pl?query='
+    +treeID,'saveTree','scrollbars=1,width=800,height=600,resizable=1,location=0,status=1');
 }
 
 PWidget.prototype.loadWidget  = function(force) {
   this.keepWidgetInBox();
 
   var c = YAHOO.util.Cookie;
-  if (!c.get('loaded') && !force) {
+  if (this.loaded && !force) {
     return false;
   }
-  else {
-    c.set('loaded',1);
+  else if (this.loaded && force) {
+    this.unloadWidget();
+  }
+  if (!this.loaded) {
+    this.loaded = true;
   }
 
   // Never load without a tree!
@@ -44,8 +49,8 @@ PWidget.prototype.loadWidget  = function(force) {
 
 }
 
-// We must always cram the applet into its box,
-// no overflows allowed!
+// We must always cram the applet into its box.
+// Forget it, PhyloWidget, no overflows allowed!
 PWidget.prototype.keepWidgetInBox  = function(params) {
   var width  = this.getLoc('widgetContainer','width');
   var height = this.getLoc('widgetContainer','height');
@@ -53,7 +58,6 @@ PWidget.prototype.keepWidgetInBox  = function(params) {
   this.params['height'] = height - 30;  
   this.setStyle('widgetContainer','visibility','inherit');
 }
-
 
 PWidget.prototype.setStyle = function(el,att,val) {
   if (!el) return false;
@@ -74,11 +78,10 @@ PWidget.prototype.setStyle = function(el,att,val) {
 PWidget.prototype.getLayout = function() {
   var pageWidth   = YAHOO.util.Dom.getViewportWidth();
   var left1  = 10;
-  var left2  = parseInt(0.30 * pageWidth) + 20;
-  var left3  = parseInt(0.75 * pageWidth) - 5; 
-  var narrow = parseInt(0.25 * pageWidth) - 10;
-  var wide   = parseInt(0.30 * pageWidth) - 30;
-  var wider  = parseInt(0.40 * pageWidth) - 30;
+  var narrow = parseInt(0.30 * pageWidth) - 20;
+  var wide   = parseInt(0.40 * pageWidth) - 20;
+  var left2  = left1 + wide    + 15;
+  var left3  = left2 + narrow  + 15;
   var top1   = 80;
   var top2   = top1 + 90;
   var top3   = top2 + 100;
@@ -103,25 +106,21 @@ PWidget.prototype.getLayout = function() {
   this.rendered = this.panels.length > 0;
 
   // search box
-  this.panelConfig('search',panelParams,[left1,top1,wide,venti],cookie); 
+  this.panelConfig('search',panelParams,[left3,top1,narrow,venti],cookie); 
   this.searchText = document.getElementById('searchInput');
 
   // tree decoration
-  this.panelConfig('decoration',panelParams,[left3,top1,narrow,210],cookie);
+  this.panelConfig('decoration',panelParams,[left2,top1,narrow,grande+20],cookie);
 
   // tree data container
-  this.panelConfig('tree',panelParams,[left1,top4,wide,grande],cookie);
+  this.panelConfig('tree',panelParams,[left3,top4,narrow,grande],cookie);
   this.treeText = document.getElementById('pw_treetext');
 
-  // clipboard
-  //this.panelConfig('clip',panelParams,[left3,top3,narrow,tall],cookie);
-  //this.clipText = document.getElementById('clipText');
-
   // node info
-  this.panelConfig('node',panelParams,[left3,top3+40,narrow,210],cookie);
+  this.panelConfig('node',panelParams,[left2,top3-25,narrow,venti-20],cookie);
 
   // the container for phylowidget
-  this.panelConfig('widget',panelParams,[left2,top1,wider,440],cookie);
+  this.panelConfig('widget',panelParams,[left1,top1,wide,440],cookie);
   this.widgetTitle = document.getElementById('widgetTitle');
   this.widgetLabel = this.widgetTitle.innerHTML;
   this.widgetContainer = document.getElementById('widgetContainer');
@@ -191,54 +190,57 @@ PWidget.prototype.panelConfig = function(panel,params,myCoords,cookie) {
 // Configure YAHOO panel widget thingamajigs
 PWidget.prototype.panelInit = function(panel,params) {
   this.panels.push(document.getElementById(panel));
+  widget.addButton(panel);  
 
   // certain things must be done for the applet container
   var isWidget  = panel == 'widget';
 
-  //params['close'] = isWidget ? false : true;
+  params['close']      = isWidget ? false : true;
+  params['resizeable'] = isWidget ? false : true;
   var pnl = new YAHOO.widget.Panel(panel, params);
 
+ 
   // Create Resize instance, binding it to the panel DIV
   var resize = new YAHOO.util.Resize(panel, {
-        draggable: false,
-  	handles: ["br"],
-        autoRatio: false,
-        minWidth:  isWidget ? 300 : 200,
-        minHeight: isWidget ? 300 : 75,
-        status: true,
-        proxy: true
-  });
+          draggable: false,
+  	  handles: [isWidget ? '' : 'br'],
+          autoRatio: false,
+          minWidth:  isWidget ? 300 : 200,
+          minHeight: isWidget ? 300 : 75,
+          status: true,
+          proxy: true
+    });
+  
+    // Setup startResize handler, to constrain the resize width/height
+    // if the constraintoviewport configuration property is enabled.
+    resize.on("startResize", function(args) {
+       if (this.element.id == 'widget_c') {
+           widget.setStyle('widgetContainer','visibility','hidden');
+           document.getElementById('widgetContainer').innerHTML = '';
+       }
 
-  // Setup startResize handler, to constrain the resize width/height
-  // if the constraintoviewport configuration property is enabled.
-  resize.on("startResize", function(args) {
-     if (this.element.id == 'widget_c') {
-         widget.setStyle('widgetContainer','visibility','hidden');
-         document.getElementById('widgetContainer').innerHTML = '';
-     }
+       if (this.cfg.getProperty("constraintoviewport")) {
+         var D = YAHOO.util.Dom;
+         var clientRegion = D.getClientRegion();
+         var elRegion = D.getRegion(this.element);
 
-     if (this.cfg.getProperty("constraintoviewport")) {
-       var D = YAHOO.util.Dom;
-       var clientRegion = D.getClientRegion();
-       var elRegion = D.getRegion(this.element);
-
-       resize.set("maxWidth", clientRegion.right - elRegion.left - YAHOO.widget.Overlay.VIEWPORT_OFFSET);
-       resize.set("maxHeight", clientRegion.bottom - elRegion.top - YAHOO.widget.Overlay.VIEWPORT_OFFSET);
-     } 
-     else {
-       resize.set("maxWidth", null);
-       resize.set("maxHeight", null);
-     }
-
-   }, pnl, true);
-
-   // make sure the Phylowidget applet is resized to fit in its box
-   if (isWidget) {
-     resize.on("endResize", function(args) {
-       widget.setStyle('widgetContainer','visibility','inherit');
-       widget.loadWidget();
+         resize.set("maxWidth", clientRegion.right - elRegion.left - YAHOO.widget.Overlay.VIEWPORT_OFFSET);
+         resize.set("maxHeight", clientRegion.bottom - elRegion.top - YAHOO.widget.Overlay.VIEWPORT_OFFSET);
+       } 
+       else {
+         resize.set("maxWidth", null);
+         resize.set("maxHeight", null);
+       }
      }, pnl, true);
-   }
+
+  
+   // make sure the Phylowidget applet is resized to fit in its box
+//   if (isWidget) {
+//     resize.on("endResize", function(args) {
+//       widget.setStyle('widgetContainer','visibility','inherit');
+//       widget.loadWidget();
+//     }, pnl, true);
+//   }
 
 
    // Setup resize handler to update the Panel's 'height' configuration property
@@ -253,13 +255,18 @@ PWidget.prototype.panelInit = function(panel,params) {
      this.cfg.setProperty("height", panelHeight + "px");
    }, pnl, true);
 
+  
   // Now, make draggable with the drag warning inserted
-  pnl.beforeRenderEvent.subscribe(function() {
-    var dd = new YAHOO.util.DDOnTop(panel);
-    dd.setHandleElId(pnl.header);
-    // can't drag over page header
-    dd.setYConstraint( params['xy'][1]-80 , 5000 , 10 );
-  }, pnl, true);
+  var leftConstraint = widget.getLoc('widget','x2');
+  if (!isWidget) {
+    pnl.beforeRenderEvent.subscribe(function() {
+      var dd = new YAHOO.util.DDOnTop(panel);
+      dd.setHandleElId(pnl.header);
+      // can't drag over page header
+      dd.setYConstraint( params['xy'][1]-80 , 5000 , 10 );
+      dd.setXConstraint( leftConstraint, 5000, 10 );
+    }, pnl, true);
+  }
 
   this.panelObjects[panel] = pnl;
 
@@ -267,9 +274,8 @@ PWidget.prototype.panelInit = function(panel,params) {
   // so we can toggle the show/hide button 
   var p = new YAHOO.widget.Panel;
   pnl.hide = function() {
-    widget.addButton(panel,1);
     widget.buttonStyle(panel+'Button-button','closed');
-    widget.hidden[panel] = true;
+    widget.hidden[panel] = true
     if (panel == 'widget') {
       widget.widgetContainer.innerHTML = '';
     }
@@ -284,7 +290,6 @@ PWidget.prototype.panelInit = function(panel,params) {
     p.show.call(this);
   }
 
-  //this.addButton(panel);
   pnl.render();
 
   return pnl;
@@ -293,11 +298,10 @@ PWidget.prototype.panelInit = function(panel,params) {
 // Add a show/hide button
 PWidget.prototype.addButton = function(panel,uncheck) {
   var buttonId = panel+'Button';
-  if (document.getElementById(buttonId+'-button')) {
+  var realButtonId = buttonId+'-button';
+  if (document.getElementById(realButtonId)) {
     return false;
   }
-
-  this.setStyle('showhide','display','inline');
 
   var Button = YAHOO.widget.Button;
   var bParams = {
@@ -314,6 +318,7 @@ PWidget.prototype.addButton = function(panel,uncheck) {
   var onButtonClick = function(e) {
     widget.showHide(e.target);
   }
+
   myButton.addListener("click", onButtonClick);
 }
 
@@ -329,7 +334,7 @@ YAHOO.util.DDOnTop = function(id, sGroup, config) {
 YAHOO.extend(YAHOO.util.DDOnTop, YAHOO.util.DD, {
    startDrag: function(x, y) {
     widget.hideMenu();
-	var el = this.getEl();
+    var el = this.getEl();
     var container = el.id+'Container';
 
     el.onmousemove = function() {
@@ -339,7 +344,8 @@ YAHOO.extend(YAHOO.util.DDOnTop, YAHOO.util.DD, {
 
     // applet has rendering issues on move, get rid of it.
     if (el.id.match('widget')) {
-      widget.widgetContainer.innerHTML = '';
+//      widget.widgetHTML = el.innerHTML;
+//      el.innerHTML = '';
     }
 
   },
@@ -348,11 +354,11 @@ YAHOO.extend(YAHOO.util.DDOnTop, YAHOO.util.DD, {
     var container = el.id+'Container';
 
     el.onmousemove = null;
-    widget.widgetTitle.innerHTML = widget.widgetLabel;;
+    widget.widgetTitle.innerHTML = widget.widgetLabel;
 
     // reload the applet if required
     if (el.id.match('widget')) {
-      widget.loadWidget();
+ //     el.innerHTML = widget.widgetHTML;
     }
 
     // Tricky! Setting visibility to 'visible' will override
@@ -408,51 +414,58 @@ PWidget.prototype.isOverlap = function(el1,el2) {
 }
 
 
-/*
-* Override phylowidget's reporting methods
-* for our own evil purposes
-*/
-PhyloWidget.updateTree = function(newText) {
+PWidget.prototype.unloadWidget  = function () {
+  //pw.stopApplet();
+  //pw.appletInserted = false;
+  var w = document.getElementById('widgetContainer');
+  w.innerHTML = '';
+  this.loaded = false;
+}
+
+
+PWidget.prototype.updateTree = function(newText) {
   // If we are callig a tree update, better make sure
   // phylowidget is running
-  var loaded = document.getElementById('pulpcore_holder');
+  this.loaded = pw.appletInserted;
  
-  if (newText) {
-    newtext = new String(newText);
+  var treeData = newText || widget.treeText.value;
 
-    if (newText == 'PhyloWidget;') {
-      return false;
-    }
-    if (!loaded) {
-      widget.params['tree'] = newText;
-      widget.loadWidget(1); // force load
-    }
-  }
-  else {
+  if (!treeData) {
     return false;
   }
+
+  if (!this.loaded) {
+    widget.loadWidget(1);
+  }	
 
   if (widget.treeID) {
     widget.setTreeID(widget.treeID);
   }
 
+  widget.params['tree'] = new String(treeData);
+
   setTimeout( function() { 
-    document.getElementById('pw_treetext').value = newText;
-    PhyloWidget.updateJavaTree(newText);
+    document.getElementById('pw_treetext').value = treeData;
+    widget.updateJavaTree(treeData);
   },100);
 }
 
 // Push back to the applet
-PhyloWidget.updateJavaTree = function(value) {
+PWidget.prototype.updateJavaTree = function(value) {
   if (!value) {
-    value = document.getElementById('pw_treetext').value;
+    value = this.treeText.value;
   }
-  if (!value) {return false}
-  var applet = PhyloWidget.getApplet();
+  if (!value) {
+    return false;
+  }
+
+  var applet = pw.getApplet();
+
   if (!applet) {
     return false;
   }
-  applet.updateTree(value);
+
+  applet.setTree(value);
 }
 
 /*
@@ -568,12 +581,12 @@ PWidget.prototype.showHide = function(button) {
 PWidget.prototype.buttonStyle = function(button,state) {
   switch(state) {
     case ('open')   : {
-      widget.setStyle(button,'background',"url('/hackathon/images/phylowidget/sprite.png') repeat-x 0 -1400px");
+      widget.setStyle(button,'background',"url('./images/phylowidget/sprite.png') repeat-x 0 -1400px");
       widget.setStyle(button,'color','white');
       break;
     }
     case ('closed') : {
-      widget.setStyle(button,'background',"url('/hackathon/images/phylowidget/sprite.png') repeat-x")
+      widget.setStyle(button,'background',"url('./images/phylowidget/sprite.png') repeat-x")
       widget.setStyle(button,'color','black');
       break;
     }
@@ -583,7 +596,7 @@ PWidget.prototype.buttonStyle = function(button,state) {
 
 PWidget.prototype.doSearch = function() {
   var postData = 'query='+widget.searchText.value;
-  var request = YAHOO.util.Connect.asyncRequest('POST', sUrl, callback, postData);
+  var request = YAHOO.util.Connect.asyncRequest('POST', this.sUrl, this.callback, postData);
   document.getElementById('searchResultsContainer').innerHTML = '\
     <p style="color:blue;text-align:center;padding:20px"><b>Searching...</b></p>';
 }
