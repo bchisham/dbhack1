@@ -65,13 +65,15 @@
      <xsl:template name="processancestor">
 	    <xsl:param name="cnodeid" />
 	    <xsl:variable name="treeid" select="../@id"/>
-	    <!--<xsl:variable name="cnode" select="../node[@id = n3]"/>-->
+	    
 	    <xsl:choose>
-		    <xsl:when test="../*[ name()='node' and @id = $cnodeid and @root = 'true' ]">
+		    <xsl:when test="../nex:node[@id = $cnodeid and @root = 'true' ]">
+			    
 
 		    </xsl:when>
 		    <xsl:when test="../*[ name()='node' and @id = $cnodeid ]">
-                            <xsl:variable name="edge" select="../*[name() = 'edge' and @target = $cnodeid]"/>
+			    <xsl:variable name="edge" select="../nex:edge[ @target = $cnodeid]"/>
+			    
 			    <cdao:has_Ancestor rdf:resource="#{../@id}_{$edge/@source}"/>
 			    
 			    <xsl:call-template name="processancestor">	    
@@ -114,15 +116,14 @@
     </xsl:template>
     <!-- Create an Edge -->
     <xsl:template match="nex:edge">
-	    <rdf:Description>
-       
+	    <rdf:Description>    
             <xsl:attribute name="rdf:ID">
                 <!-- edge id is concat of trees id, tree id and edge id -->
                 <xsl:value-of select="../../@id"/>_<xsl:value-of select="../@id"/>_<xsl:value-of select="@id"/>
             </xsl:attribute>
             <!--  Process directed edges and plain edges differently --> 
 	    <xsl:choose>
-		
+		 <!-- if there is a root node then the edges should be directed -->
                 <xsl:when test="../nex:node/@root = 'true'">
                     <rdf:type
                         rdf:resource="http://www.evolutionaryontology.org/cdao.owl#DirectedEdge"/>
@@ -137,7 +138,8 @@
             </xsl:choose>
 
             <cdao:belongs_to_Tree rdf:resource="#{../@id}_{../@id}"/>
-            <xsl:if test="@length">
+	    <!-- Process the lenght annotations. -->
+	    <xsl:if test="@length">
                 <cdao:has_Annotation>
                     <rdf:Description>
                         <rdf:type
@@ -168,7 +170,7 @@
             </xsl:if>
         </rdf:Description>
     </xsl:template>
-
+    <!-- Process the characters -->
     <xsl:template match="nex:char">
         <rdf:Description>
             <xsl:attribute name="rdf:ID">
@@ -202,18 +204,7 @@
             </xsl:choose>
         </rdf:Description>
     </xsl:template>
-    <!-- Process dna states -->
-
-    <xsl:template name="dnastates"> </xsl:template>
-
-    <!-- Process continuous states-->
-
-    <xsl:template name="continuouscharacters"> </xsl:template>
-
-    <!-- Process state definitions-->
-
-   
-
+    <!-- Process an individual matrix cell. -->
     <xsl:template name="processcell">
         <rdf:Description>
             <xsl:attribute name="rdf:ID"><xsl:value-of select="../../../@id"/>_<xsl:value-of
@@ -280,39 +271,41 @@
                 <xsl:when test="contains(../../../@xsi:type, 'RnaSeqs')">
                     <cdao:has_RNA_State>
                         <xsl:attribute name="rdf:about">#<xsl:value-of
-                                select="../../../format/states/@id"/>_<xsl:value-of select="@state"
+                                select="../../../nex:format/nex:states/@id"/>_<xsl:value-of select="@state"
                             /></xsl:attribute>
                     </cdao:has_RNA_State>
                 </xsl:when>
                 <xsl:otherwise>
                     <cdao:has_State>
                         <xsl:attribute name="rdf:about">#<xsl:value-of
-                                select="../../../format/states/@id"/>_<xsl:value-of select="@state"
+                                select="../../../nex:format/nex:states/@id"/>_<xsl:value-of select="@state"
                             /></xsl:attribute>
                     </cdao:has_State>
                 </xsl:otherwise>
             </xsl:choose>
         </rdf:Description>
     </xsl:template>
-
+    <!-- Process a matrix row. -->
     <xsl:template name="processrow">
         <xsl:for-each select="nex:cell">
             <xsl:call-template name="processcell"/>
         </xsl:for-each>
     </xsl:template>
-
+    <!-- Process a matrix. -->
     <xsl:template match="nex:matrix">
 	    <xsl:variable name="charactersid" select="../@id" />
         <rdf:Description>
             <xsl:attribute name="rdf:ID">matrix_<xsl:value-of select="$charactersid"/></xsl:attribute>
             <rdf:type
 		    rdf:resource="http://www.evolutionaryontology.org/cdao.owl#CharacterStateDataMatrix"/>
-	    <xsl:for-each select="../*[name() = 'format']/*[name() = 'char']">
+	    <xsl:for-each select="../nex:format/nex:char">
+		    
 		    <cdao:has_Character>
 			    <xsl:attribute name="rdf:about">#<xsl:value-of select="$charactersid"/>_<xsl:value-of select="@id"/></xsl:attribute>
 		    </cdao:has_Character>
 	    </xsl:for-each>
-	    <xsl:for-each select="//*[name() = 'otus']/*[name() = 'otu']">
+            <xsl:for-each select="//nex:otus/nex:otu">
+		    
 		    <cdao:has_TU>
 			    <xsl:attribute name="rdf:about">#<xsl:value-of select="$charactersid"/>_<xsl:value-of select="@id"/></xsl:attribute>
 		    </cdao:has_TU>
@@ -323,7 +316,8 @@
                 <xsl:call-template name="processrow"/>
 	    </xsl:for-each>
     </xsl:template>
-  <xsl:template name="makestate">
+    <!-- Make up state classes-->
+    <xsl:template name="makestate">
 	    <xsl:param name="classname"/>
 	    <xsl:param name="individualid"/>
 	    <xsl:param name="symbol"/>
@@ -336,7 +330,7 @@
 	    </rdf:Description>
 	    
     </xsl:template>
-
+    <!-- Create polymorphic states. -->
     <xsl:template name="makepolymorhicstateset">
  	    <xsl:param name="classname"/>
 	    <xsl:param name="individualid"/>
@@ -358,6 +352,7 @@
 
 
     </xsl:template>
+    <!-- Create uncertain states.-->
     <xsl:template name="makeuncertainstateset">
 	<xsl:param name="classname"/>
 	    <xsl:param name="individualid"/>
@@ -377,8 +372,7 @@
 		    </xsl:for-each>
 	    </rdf:Description>
     </xsl:template>
-    
-
+    <!-- Process state definitions. -->
     <xsl:template match="nex:states">
 	    <xsl:variable name="otus" select="../../@otus"/>
 	    <xsl:variable name="statesid" select="@id" />
@@ -410,25 +404,7 @@
 	    </xsl:for-each>
 	   
     </xsl:template>
-    <!--
-    <xsl:template name="processformat">
-            <xsl:for-each select="./format/states">
-		    <xsl:call-template name="nex:states"/>
-	    </xsl:for-each>
-	    <xsl:for-each select="./format/chars">
-		    <xsl:call-template name="nex:chars"/>
-	    </xsl:for-each>
-    </xsl:template>
-
-    <xsl:template match="nex:characters">
-	    <xsl:call-template name="processformat"/>
-	    <xsl:call-template name="nex:matrix">
-		    <xsl:with-param name="charactersid" select="@id"/>
-	    </xsl:call-template>
-    </xsl:template>
-    -->
-    
-
-     <xsl:template match="*" priority="-1"/> 
+    <!-- Do nothing with the things we aren't interested in processing. -->
+    <xsl:template match="*" priority="-1"/> 
 
 </xsl:stylesheet>
