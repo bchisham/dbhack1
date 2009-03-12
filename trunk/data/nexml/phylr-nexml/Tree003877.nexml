@@ -78,7 +78,7 @@
         <otu id="Arillastrumgummiferum" label="Arillastrum gummiferum" />
     </otus>
     <trees id="_TreesBlock2333407" otus="_TaxaBlock2333406">
-        <tree id="_Tree2333408" xsi:type="nex:FloatTree">
+        <tree id="Tree4740" label="Fig. 5" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1668A6358" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Eucalypt ITS" nchar="671" /></analysis></nex:external>
             <node id="_Node2333411" />
             <node id="_Node2333413" />

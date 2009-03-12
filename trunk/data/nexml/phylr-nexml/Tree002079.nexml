@@ -54,7 +54,7 @@
         <otu id="Oedicarenalatifrons" label="Oedicarena latifrons" />
     </otus>
     <trees id="_TreesBlock1027885" otus="_TaxaBlock1027884">
-        <tree id="_Tree1027886" xsi:type="nex:FloatTree">
+        <tree id="Tree2697" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S914A2398" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Carpomyina mtDNA" nchar="1027" /></analysis></nex:external>
             <node id="_Node1027889" />
             <node id="_Node1027891" otu="Euphrantacanadensis" />

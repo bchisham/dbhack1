@@ -92,7 +92,7 @@
         <otu id="CeriporiopsissubvermisporaFPL9" label="Ceriporiopsis subvermisporaFPL9" />
     </otus>
     <trees id="_TreesBlock634088" otus="_TaxaBlock634087">
-        <tree id="_Tree634089" xsi:type="nex:FloatTree">
+        <tree id="Tree1947" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S644A1295" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="4regions" nchar="3800" /></analysis></nex:external>
             <node id="_Node634092" />
             <node id="_Node634094" otu="Abortiporusbiennis210" />

@@ -20,7 +20,7 @@
         <otu id="Viburnumsieboldii" label="Viburnum sieboldii" />
     </otus>
     <trees id="_TreesBlock949405" otus="_TaxaBlock949404">
-        <tree id="_Tree949406" xsi:type="nex:FloatTree">
+        <tree id="Tree2537" label="Fig. 6" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S866A2130" software="PAUP"><inputmatrix datatype="Combination" name="rbcL plus ITS" nchar="2107" /></analysis></nex:external>
             <node id="_Node949409" />
             <node id="_Node949411" />

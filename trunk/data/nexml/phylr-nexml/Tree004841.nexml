@@ -82,7 +82,7 @@
         <otu id="Xenopuslaevis" label="Xenopus laevis" />
     </otus>
     <trees id="_TreesBlock3124319" otus="_TaxaBlock3124318">
-        <tree id="_Tree3124320" xsi:type="nex:FloatTree">
+        <tree id="Tree5826" label="Fig. 1 NJ" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="neighbor joining" id="S2031A8392" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="18S-28S" nchar="1818" /></analysis></nex:external>
             <node id="_Node3124323" />
             <node id="_Node3124325" />

@@ -23,7 +23,7 @@
         <otu id="Arabidopsisthaliana" label="Arabidopsis thaliana" />
     </otus>
     <trees id="_TreesBlock3681336" otus="_TaxaBlock3681335">
-        <tree id="_Tree3681337" xsi:type="nex:FloatTree">
+        <tree id="Tree6440" label="Fig. 3d" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S2261A9597" software="Phyml"><inputmatrix datatype="Nucleic Acid" name="MtN21" nchar="572" /></analysis></nex:external>
             <node id="_Node3681340" />
             <node id="_Node3681342" otu="Physariafendlericlone1" />

@@ -32,7 +32,7 @@
         <otu id="Laetiporussulphureusvar.miniatusL43s4" label="Laetiporus sulphureus var. miniatus L43s4" />
     </otus>
     <trees id="_TreesBlock3166523" otus="_TaxaBlock3166522">
-        <tree id="_Tree3166524" xsi:type="nex:FloatTree">
+        <tree id="Tree5865" label="Fig. 3" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="neighbor joining" id="S2052A8470" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="btub" nchar="419" /></analysis></nex:external>
             <node id="_Node3166527" />
             <node id="_Node3166529" />

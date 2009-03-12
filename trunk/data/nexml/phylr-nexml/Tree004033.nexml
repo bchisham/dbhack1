@@ -90,7 +90,7 @@
         <otu id="Potentillanivea" label="Potentilla nivea" />
     </otus>
     <trees id="_TreesBlock2470829" otus="_TaxaBlock2470828">
-        <tree id="_Tree2470830" xsi:type="nex:FloatTree">
+        <tree id="Tree4902" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="bayesian inference" id="S1730A6619" software="MrBayes"><inputmatrix datatype="Nucleic Acid" name="trnL + psbA" nchar="1475" /></analysis></nex:external>
             <node id="_Node2470833" />
             <node id="_Node2470835" />

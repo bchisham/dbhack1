@@ -51,7 +51,7 @@
         <otu id="Anaxagoreaprinoides" label="Anaxagorea prinoides" />
     </otus>
     <trees id="_TreesBlock1618519" otus="_TaxaBlock1618518">
-        <tree id="_Tree1618520" xsi:type="nex:FloatTree">
+        <tree id="Tree3658" label="Fig. 8.1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1290A4225" software="PAUP"><inputmatrix datatype="Combination" name="Morph + Molecular" nchar="2503" /></analysis></nex:external>
             <node id="_Node1618523" />
             <node id="_Node1618525" />

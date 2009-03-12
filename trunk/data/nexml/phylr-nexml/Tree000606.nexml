@@ -28,7 +28,7 @@
         <otu id="Stanhopearadiosa" label="Stanhopea radiosa" />
     </otus>
     <trees id="_TreesBlock205081" otus="_TaxaBlock205080">
-        <tree id="_Tree205082" xsi:type="nex:FloatTree">
+        <tree id="Tree881" label="Fig. 18" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S279A41" software="PAUP"><inputmatrix datatype="Morphological" name="Table 1" nchar="13" /></analysis></nex:external>
             <node id="_Node205085" />
             <node id="_Node205087" />

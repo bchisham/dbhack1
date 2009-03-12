@@ -21,7 +21,7 @@
         <otu id="Schistosoma" label="Schistosoma" />
     </otus>
     <trees id="_TreesBlock938564" otus="_TaxaBlock938563">
-        <tree id="_Tree938565" xsi:type="nex:FloatTree">
+        <tree id="Tree2495" label="Fig. 5a puzzle" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S852A2068" software="Tree-Puzzle"><inputmatrix datatype="Amino Acid" name="Fig5A" nchar="1561" /></analysis></nex:external>
             <node id="_Node938568" />
             <node id="_Node938570" otu="Monosiga" />

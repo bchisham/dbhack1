@@ -41,7 +41,7 @@
         <otu id="Arrhenialobata" label="Arrhenia lobata" />
     </otus>
     <trees id="_TreesBlock243651" otus="_TaxaBlock243650">
-        <tree id="_Tree243652" xsi:type="nex:FloatTree">
+        <tree id="Tree1043" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S326A183" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="25S nrDNA" nchar="1264" /></analysis></nex:external>
             <node id="_Node243655" />
             <node id="_Node243657" otu="Multiclavulavernalis" />

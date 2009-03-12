@@ -21,7 +21,7 @@
         <otu id="Pyrobaculumaerophilum" label="Pyrobaculum aerophilum" />
     </otus>
     <trees id="_TreesBlock1021161" otus="_TaxaBlock1021160">
-        <tree id="_Tree1021162" xsi:type="nex:FloatTree">
+        <tree id="Tree2678" label="ArchaeHMG" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Fitch Margoliash" id="S910A2374" software="Phylip"><inputmatrix datatype="Amino Acid" name="Archaebacterial HMG-CoA" nchar="251" /></analysis></nex:external>
             <node id="_Node1021165" />
             <node id="_Node1021167" otu="Halobacteriumspecies" />

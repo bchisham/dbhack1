@@ -58,7 +58,7 @@
         <otu id="Fusariumproliferatum9816A" label="Fusarium proliferatum 9816A" />
     </otus>
     <trees id="_TreesBlock2014903" otus="_TaxaBlock2014902">
-        <tree id="_Tree2014904" xsi:type="nex:FloatTree">
+        <tree id="Tree4265" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="UPGMA" id="S1494A5453" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Fig 1 Stewart et al." nchar="146" /></analysis></nex:external>
             <node id="_Node2014907" />
             <node id="_Node2014909" />

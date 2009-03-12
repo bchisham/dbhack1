@@ -50,7 +50,7 @@
         <otu id="Apophlaealyallii" label="Apophlaea lyallii" />
     </otus>
     <trees id="_TreesBlock869370" otus="_TaxaBlock869369">
-        <tree id="_Tree869371" xsi:type="nex:FloatTree">
+        <tree id="Tree2342" label="Fig. 3" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S798A1842" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="18S rRNA Hildenbrandiales" nchar="1440" /></analysis></nex:external>
             <node id="_Node869374" />
             <node id="_Node869376" />

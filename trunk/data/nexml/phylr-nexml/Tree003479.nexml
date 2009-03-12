@@ -110,7 +110,7 @@
         <otu id="Chamaeropshumilis" label="Chamaerops humilis" />
     </otus>
     <trees id="_TreesBlock2028722" otus="_TaxaBlock2028721">
-        <tree id="_Tree2028723" xsi:type="nex:FloatTree">
+        <tree id="Tree4280" label="Fig. 3.2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1499A4260" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="PRK &amp; RPB2" nchar="2101" /></analysis></nex:external>
             <node id="_Node2028726" />
             <node id="_Node2028728" />

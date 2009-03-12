@@ -36,7 +36,7 @@
         <otu id="Passifloraceae" label="Passifloraceae" />
     </otus>
     <trees id="_TreesBlock15814" otus="_TaxaBlock15813">
-        <tree id="_Tree15815" xsi:type="nex:FloatTree">
+        <tree id="T80c11x5x95c18c00c01" label="Fig. 3" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A27c11x5x95c17c58c53" software="PAUP"><inputmatrix datatype="Morphological" name="Appendix 2" nchar="93" /></analysis></nex:external>
             <node id="_Node15818" />
             <node id="_Node15820" otu="Dillenia" />

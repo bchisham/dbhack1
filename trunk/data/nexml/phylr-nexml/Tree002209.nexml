@@ -60,7 +60,7 @@
         <otu id="Nevilleaobtussissima" label="Nevillea obtussissima" />
     </otus>
     <trees id="_TreesBlock1108826" otus="_TaxaBlock1108825">
-        <tree id="_Tree1108827" xsi:type="nex:FloatTree">
+        <tree id="Tree2862" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S987A2761" software="PAUP"><inputmatrix datatype="Combination" name="Restionaceae" nchar="2819" /></analysis></nex:external>
             <node id="_Node1108830" />
             <node id="_Node1108832" otu="Anarthriapolyphylla" />

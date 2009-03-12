@@ -30,7 +30,7 @@
         <otu id="Oryza" label="Oryza" />
     </otus>
     <trees id="_TreesBlock255989" otus="_TaxaBlock255988">
-        <tree id="_Tree255990" xsi:type="nex:FloatTree">
+        <tree id="Tree1095" label="Fig. 2a" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S345A228" software="NONA"><inputmatrix datatype="Nucleic Acid" name="atpA" nchar="110" /><inputmatrix datatype="Nucleic Acid" name="rbcL" nchar="242" /><inputmatrix datatype="Restriction Site" name="RS" nchar="42" /></analysis></nex:external>
             <node id="_Node255993" />
             <node id="_Node255995" otu="Piper" />

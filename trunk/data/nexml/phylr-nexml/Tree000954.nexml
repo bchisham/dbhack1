@@ -58,7 +58,7 @@
         <otu id="Dictyonemapavonia" label="Dictyonema pavonia" />
     </otus>
     <trees id="_TreesBlock355058" otus="_TaxaBlock355057">
-        <tree id="_Tree355059" xsi:type="nex:FloatTree">
+        <tree id="Tree1359" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S434A518" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Nuclear SSU rDNA" nchar="1765" /></analysis></nex:external>
             <node id="_Node355062" />
             <node id="_Node355064" />

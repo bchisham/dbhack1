@@ -91,7 +91,7 @@
         <otu id="Ennealophuseuryandrus" label="Ennealophus euryandrus" />
     </otus>
     <trees id="_TreesBlock2961382" otus="_TaxaBlock2961381">
-        <tree id="_Tree2961383" xsi:type="nex:FloatTree">
+        <tree id="Tree5546" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1955A7947" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Iridaceae" nchar="6701" /></analysis></nex:external>
             <node id="_Node2961386" />
             <node id="_Node2961388" otu="TigridiaphilippMP1" />

@@ -47,7 +47,7 @@
         <otu id="Acerginnala" label="Acer ginnala" />
     </otus>
     <trees id="_TreesBlock186172" otus="_TaxaBlock186171">
-        <tree id="_Tree186173" xsi:type="nex:FloatTree">
+        <tree id="Tree848" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A322c8x15x98c17c08c41" software="PAUP"><inputmatrix datatype="Nucleic Acid" nchar="790" /></analysis></nex:external>
             <node id="_Node186176" />
             <node id="_Node186178" otu="Dipteroniasinensis" />

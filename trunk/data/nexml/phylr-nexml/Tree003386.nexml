@@ -149,7 +149,7 @@
         <otu id="Porphyrayezoensis" label="Porphyra yezoensis" />
     </otus>
     <trees id="_TreesBlock1960818" otus="_TaxaBlock1960817">
-        <tree id="_Tree1960819" xsi:type="nex:FloatTree">
+        <tree id="Tree4177" label="Fig. 6" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1459A5288" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="GSKnt" nchar="1044" /></analysis></nex:external>
             <node id="_Node1960822" />
             <node id="_Node1960824" />

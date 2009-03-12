@@ -39,7 +39,7 @@
         <otu id="Peniophorapolygonia" label="Peniophora polygonia" />
     </otus>
     <trees id="_TreesBlock134375" otus="_TaxaBlock134374">
-        <tree id="_Tree134376" xsi:type="nex:FloatTree">
+        <tree id="T463c3x21x98c10c42c01" label="Fig. 5" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A218c3x21x98c10c41c23" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Molecular" nchar="485" /><inputmatrix datatype="Morphological" name="Table II" nchar="48" /></analysis></nex:external>
             <node id="_Node134379" />
             <node id="_Node134381" otu="Acanthophysiumweirii" />

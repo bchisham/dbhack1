@@ -30,7 +30,7 @@
         <otu id="NaucoriasubmelinoidesAM882885" label="Naucoria submelinoides AM882885" />
     </otus>
     <trees id="_TreesBlock2977264" otus="_TaxaBlock2977263">
-        <tree id="_Tree2977265" xsi:type="nex:FloatTree">
+        <tree id="Tree5608" label="Clade 16 Strict" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1968A8021" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Clade 16" nchar="2243" /></analysis></nex:external>
             <node id="_Node2977268" />
             <node id="_Node2977270" otu="CrepidotusmollisAM882996" />

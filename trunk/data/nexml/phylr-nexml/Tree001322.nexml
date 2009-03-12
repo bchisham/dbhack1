@@ -22,7 +22,7 @@
         <otu id="LycoperdonpyriformeBavaria" label="Lycoperdon pyriforme Bavaria" />
     </otus>
     <trees id="_TreesBlock567867" otus="_TaxaBlock567866">
-        <tree id="_Tree567868" xsi:type="nex:FloatTree">
+        <tree id="Tree1808" label="Fig. 5" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S601A1108" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="ITS no Lepiota" nchar="703" /></analysis></nex:external>
             <node id="_Node567871" />
             <node id="_Node567873" otu="Bovistaplumbea" />

@@ -101,7 +101,7 @@
         <otu id="ErysipheglycinesAB015934" label="Erysiphe glycines AB015934" />
     </otus>
     <trees id="_TreesBlock3315109" otus="_TaxaBlock3315108">
-        <tree id="_Tree3315110" xsi:type="nex:FloatTree">
+        <tree id="Tree6034" label="Fig. 3" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S2121A6648" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Fig. 3" nchar="607" /></analysis></nex:external>
             <node id="_Node3315113" />
             <node id="_Node3315115" />

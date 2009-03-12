@@ -44,7 +44,7 @@
         <otu id="Dryasoctopetala" label="Dryas octopetala" />
     </otus>
     <trees id="_TreesBlock107074" otus="_TaxaBlock107073">
-        <tree id="_Tree107075" xsi:type="nex:FloatTree">
+        <tree id="Tree2544" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="S2x14x97c16c11c45A2141" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Table 1" nchar="728" /></analysis></nex:external>
             <node id="_Node107078" />
             <node id="_Node107080" otu="Prunuscerasifera" />

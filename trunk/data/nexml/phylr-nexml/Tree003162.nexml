@@ -66,7 +66,7 @@
         <otu id="Kluyveromyceslactis" label="Kluyveromyces lactis" />
     </otus>
     <trees id="_TreesBlock1769398" otus="_TaxaBlock1769397">
-        <tree id="_Tree1769399" xsi:type="nex:FloatTree">
+        <tree id="Tree4583" label="Fig. 3" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1616A6012" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="SSU" nchar="1802" /></analysis></nex:external>
             <node id="_Node1769402" />
             <node id="_Node1769404" />

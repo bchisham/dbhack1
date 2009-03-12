@@ -59,7 +59,7 @@
         <otu id="Pheretimamontana" label="Pheretima montana" />
     </otus>
     <trees id="_TreesBlock215706" otus="_TaxaBlock215705">
-        <tree id="_Tree215707" xsi:type="nex:FloatTree">
+        <tree id="Tree930" label="Fig. 1A" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S297A80" software="PAUP"><inputmatrix datatype="Morphological" name="Table 2" nchar="68" /></analysis></nex:external>
             <node id="_Node215710" />
             <node id="_Node215712" />

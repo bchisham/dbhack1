@@ -25,7 +25,7 @@
         <otu id="Circaeaglabrescens" label="Circaea glabrescens" />
     </otus>
     <trees id="_TreesBlock6006" otus="_TaxaBlock6005">
-        <tree id="_Tree6007" xsi:type="nex:FloatTree">
+        <tree id="T231c1x30x96c20c27c06" label="Fig. 1B &amp; G" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A89c1x30x96c20c26c20" software="Hennig86"><inputmatrix datatype="Morphological" name="Table 3" nchar="22" /></analysis></nex:external>
             <node id="_Node6010" />
             <node id="_Node6012" otu="OutgrouptoCircaea" />

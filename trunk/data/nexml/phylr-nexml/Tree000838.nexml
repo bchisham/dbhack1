@@ -45,7 +45,7 @@
         <otu id="Pidoplitchkoviellaterricola" label="Pidoplitchkoviella terricola" />
     </otus>
     <trees id="_TreesBlock298227" otus="_TaxaBlock298226">
-        <tree id="_Tree298228" xsi:type="nex:FloatTree">
+        <tree id="Tree1202" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S376A310" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="SSU rDNA.2" nchar="1098" /></analysis></nex:external>
             <node id="_Node298231" />
             <node id="_Node298233" otu="Taphrinadeformans" />

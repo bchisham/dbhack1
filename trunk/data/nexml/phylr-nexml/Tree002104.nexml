@@ -85,7 +85,7 @@
         <otu id="Olneyatesota" label="Olneya tesota" />
     </otus>
     <trees id="_TreesBlock1040290" otus="_TaxaBlock1040289">
-        <tree id="_Tree1040291" xsi:type="nex:FloatTree">
+        <tree id="Tree2724" label="Fig. 7" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S928A2478" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Fabaceae" nchar="745" /></analysis></nex:external>
             <node id="_Node1040294" />
             <node id="_Node1040296" />

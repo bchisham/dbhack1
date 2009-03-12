@@ -63,7 +63,7 @@
         <otu id="Myrotheciuminundatum" label="Myrothecium inundatum" />
     </otus>
     <trees id="_TreesBlock1273259" otus="_TaxaBlock1273258">
-        <tree id="_Tree1273260" xsi:type="nex:FloatTree">
+        <tree id="Tree3159" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1107A3331" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="LSU rDNA" nchar="536" /></analysis></nex:external>
             <node id="_Node1273263" />
             <node id="_Node1273265" otu="Verticilliumdahliae" />

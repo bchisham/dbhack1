@@ -19,7 +19,7 @@
         <otu id="BmNPVBombyxmorinucleopolyhedrovirus" label="BmNPV Bombyx mori nucleopolyhedrovirus" />
     </otus>
     <trees id="_TreesBlock598485" otus="_TaxaBlock598484">
-        <tree id="_Tree598486" xsi:type="nex:FloatTree">
+        <tree id="Tree1872" label="fig. A1I" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S625A1200" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Baculovirus Genome 38.7-ie1" nchar="12647" /><inputmatrix datatype="Nucleic Acid" name="Baculovirus Genome lef1-lef6" nchar="13141" /></analysis></nex:external>
             <node id="_Node598489" />
             <node id="_Node598491" />

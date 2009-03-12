@@ -20,7 +20,7 @@
         <otu id="DubautiaspAsap3Ahaplotype8" label="Dubautia sp Asap3A haplotype8" />
     </otus>
     <trees id="_TreesBlock2132906" otus="_TaxaBlock2132905">
-        <tree id="_Tree2132907" xsi:type="nex:FloatTree">
+        <tree id="Tree4405" label="Fig. 6A" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S1544A5680" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="East Maui Dubautia Asap3A sequence" nchar="1022" /></analysis></nex:external>
             <node id="_Node2132910" />
             <node id="_Node2132912" otu="Argyroxiphiumsandwicensesubsp.macrocephalumAsap3A" />

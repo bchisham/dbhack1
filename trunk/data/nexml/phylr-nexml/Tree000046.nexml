@@ -19,7 +19,7 @@
         <otu id="Bromeliiflorae" label="Bromeliiflorae" />
     </otus>
     <trees id="_TreesBlock12053" otus="_TaxaBlock12052">
-        <tree id="_Tree12054" xsi:type="nex:FloatTree">
+        <tree id="T64c11x5x95c15c54c26" label="Fig. 6B" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A20c11x5x95c15c51c40" software="PAUP"><inputmatrix datatype="Morphological" name="Table 3a" nchar="32" /></analysis></nex:external>
             <node id="_Node12057" />
             <node id="_Node12059" />
