@@ -56,20 +56,17 @@ sub search_and_load_image {
     my $search_url = "http://services.morphbank.net/mbd/request?";
     $search_url .= "method=search&objecttype=Image&limit=1&format=id&keywords=$taxon_name";
 
-    #my $response_xml = `wget -O - www.google.com`;
-    my $response_xml = LWP::Simple::get("http://www.google.com/");
+    my $response_xml = LWP::Simple::get($search_url);
 
-    #print $search_url."\n";
-    #print $search_url."\n";
-    #exit(0);
-
-    print CGI::header("text/plain");
-    print "SEARCH: $search_url\n";
-    print "RESPONSE: ".$response_xml."\n";
-    #print $ENV{'PERL5LIB'}."\n";
-    #print "@INC\n";
-    print "\n";
-    exit(0);
+    my $debug = 0;
+    if ($debug) {
+	print CGI::header("text/plain");
+	print "SEARCH: $search_url\n";
+	print "RESPONSE: ".$response_xml."\n";
+	#print "\n";
+#	exit(0);
+	return;
+    }
 
     my $t= XML::Twig->new();
     $t->parse( $response_xml);
@@ -81,6 +78,9 @@ sub search_and_load_image {
 	    my $id = $el->text;
 	    my $img_url = "http://test.morphbank.net/thumb/$id.jpg";
 	    $node->add_tag_value("img",$img_url);
+
+	    my $print_img_url = "http://test.morphbank.net/size/500/$id.jpeg";
+	    $node->add_tag_value("print_img",$print_img_url);
 	}
     }
 }
