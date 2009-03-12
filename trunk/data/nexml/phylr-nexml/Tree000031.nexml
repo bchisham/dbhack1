@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,7 +6,7 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S11x4x95c21c16c44"><citation>Crisci, J. V., and P. E. Berry. 1990. A phylogenetic reevaluation of the Old World species of Fuchsia. Ann. Mo. Bot. Gard. 77:517-522.</citation><author firstname="P. E. " lastname="Berry" /><author email="crisci@fcnym.unlp.edu.ar" firstname="Jorge V. " lastname="Crisci" /></study></nex:external>
+<nex:external xmlns="dbhack1/phylr"><study id="S11x4x95c21c16c44"><citation>Crisci, J. V., and P. E. Berry. 1990. A phylogenetic reevaluation of the Old World species of Fuchsia. Ann. Mo. Bot. Gard. 77:517-522.</citation><abstract>The four Old World species of Fuchsia&#195;&#145;F. cyrtandroides, F. excorticata, F. perscandens, and F. procumbens&#195;&#145; form a monophyletic group (sect. Skinnera) defined by blue pollen and the presence of flavones in all species. Data on foliar flavonoid compounds in the section were reanalyzed, and additional nonflavonoid characters were employed to make a phylogenetic reevaluation of the group, using the rest of the genus as the outgroup. Of 17 characters used, 7 were phylogenetically informative, resulting in two equally most parsimonious cladograms 23 steps long. Both have a consistency index of 0.75 when all noninformative characters are excluded. The two trees differ in the position of the Tahitian F. cyrtandroides and the New Zealand F. procumbens, each of which appears as the sister group of the other species in the respective cladograms. In both trees, F. excorticata and F. perscandens form a clade defined by constricted floral tubes. These results differ from a prior cladistic analysis of the section based primarily on flavonoids, which placed F. cyrtandroides unambiguously as the sister species of the rest of the section and grouped F. procumbens in a clade with F. perscandens.</abstract><author firstname="P. E. " lastname="Berry" /><author email="crisci@fcnym.unlp.edu.ar" firstname="Jorge V. " lastname="Crisci" /></study></nex:external>
     <otus id="_TaxaBlock8328">
         <otu id="OutgrouptoSkinnera" label="Outgroup to Skinnera" />
         <otu id="Fuchsiacyrtandroides" label="Fuchsia cyrtandroides" />

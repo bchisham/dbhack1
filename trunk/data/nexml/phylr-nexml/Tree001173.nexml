@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S536"><citation>Schultheis, L.M. 2000. Systematics of Downingia (Campanulaceae) based on molecular sequence data: implications for floral and chromosome evolution. Systematic Botany, in press.</citation><author email="schultheislisa@foothill.edu" firstname="Lisa M." lastname="Schultheis" /></study></nex:external>
-    <otus id="_TaxaBlock469168">
+<nex:external xmlns="dbhack1/phylr"><study id="S536"><citation>Schultheis, L.M. 2000. Systematics of Downingia (Campanulaceae) based on molecular sequence data: implications for floral and chromosome evolution. Systematic Botany, in press.</citation><abstract>The genus Downingia (Campanulaceae) has been the subject of numerous biosystematic studies, yet little is known of the evolutionary relationships among the 13 currently recognized species. Phylogenetic analyses were undertaken in order to examine the available biosystematic data in a phylogenetic framework. The genus is of particular interest for its extensive chromosomal variation and for its distribution in relatively new, but threatened, vernal pool habitats of western North America. Parsimony analyses of molecular sequence data from the nuclear 18S&#203;&#134;26S rDNA internal transcribed spacer region (ITS) and the chloroplast 3\' trnK intron indicate Downingia is monophyletic. Monotypic Porterella is sister to Downingia. Additional close relatives include Legenere and Howellia. Two main clades emerge within Downingia, neither of which have been previously recognized using morphological features. One of the two clades is homogenous in chromosome number (n = 11), and the other heterogenous, with chromosome numbers of n = 6, 8, 9, 10, 11, and 12. Reduced, presumably selfing floral forms appear to have arisen at least twice. &amp;quot;Long anther tube&amp;quot; floral forms appear to have arisen three times from &amp;quot;short anther tube&amp;quot; floral forms. The data suggest that the current circumscriptions of some species, notably D. yina, need further examination.   </abstract><author email="schultheislisa@foothill.edu" firstname="Lisa M." lastname="Schultheis" /></study></nex:external>
+    <otus id="_TaxaBlock466287">
         <otu id="Downingiabicornutab" label="Downingia bicornuta b" />
         <otu id="Downingiabicornutaa" label="Downingia bicornuta a" />
         <otu id="Downingiabicornutad" label="Downingia bicornuta d" />
@@ -43,119 +43,119 @@
         <otu id="Lobeliaaberdarica" label="Lobelia aberdarica" />
         <otu id="Grammatothecabergiana" label="Grammatotheca bergiana" />
     </otus>
-    <trees id="_TreesBlock469169" otus="_TaxaBlock469168">
+    <trees id="_TreesBlock466288" otus="_TaxaBlock466287">
         <tree id="Tree1603" label="PAUP 13" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S536A848" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="3 trnK" nchar="458" /></analysis></nex:external>
-            <node id="_Node469173" />
-            <node id="_Node469175" />
-            <node id="_Node469177" />
-            <node id="_Node469179" />
-            <node id="_Node469181" />
-            <node id="_Node469183" />
-            <node id="_Node469185" />
-            <node id="_Node469187" />
-            <node id="_Node469189" />
-            <node id="_Node469191" otu="Downingiabicornutab" />
-            <node id="_Node469194" otu="Downingiabicornutaa" />
-            <node id="_Node469197" otu="Downingiabicornutad" />
-            <node id="_Node469200" />
-            <node id="_Node469202" />
-            <node id="_Node469204" otu="Downingiapulchellaa" />
-            <node id="_Node469207" otu="Downingialaetab" />
-            <node id="_Node469210" otu="Downingiapulchellac" />
-            <node id="_Node469213" otu="Downingialaetac" />
-            <node id="_Node469216" otu="Downingiainsignisb" />
-            <node id="_Node469219" otu="Downingiabellab" />
-            <node id="_Node469222" otu="Downingiabellad" />
-            <node id="_Node469225" />
-            <node id="_Node469227" otu="Downingiacuspidatag" />
-            <node id="_Node469230" otu="Downingiapusillab" />
-            <node id="_Node469233" otu="Downingiacuspidatah" />
-            <node id="_Node469236" />
-            <node id="_Node469238" />
-            <node id="_Node469240" />
-            <node id="_Node469242" />
-            <node id="_Node469244" otu="Downingiaornatissimac" />
-            <node id="_Node469247" otu="Downingiaornatissimad" />
-            <node id="_Node469250" />
-            <node id="_Node469252" otu="Downingiaelegansb" />
-            <node id="_Node469255" otu="Downingiaelegansc" />
-            <node id="_Node469258" otu="Downingiayinah" />
-            <node id="_Node469261" otu="Downingiaelegansa" />
-            <node id="_Node469264" otu="Downingiayinag" />
-            <node id="_Node469267" />
-            <node id="_Node469269" otu="Downingiabacigalupiic" />
-            <node id="_Node469272" otu="Downingiayinaa" />
-            <node id="_Node469275" otu="Downingiayinab" />
-            <node id="_Node469278" otu="Downingiayinac" />
-            <node id="_Node469281" otu="Downingiabacigalupiib" />
-            <node id="_Node469284" otu="Downingiaconcolorb" />
-            <node id="_Node469287" />
-            <node id="_Node469289" otu="Downingiamontanaa" />
-            <node id="_Node469292" otu="Downingiamontanab" />
-            <node id="_Node469295" otu="Porterellacarnosulaa" />
-            <node id="_Node469298" otu="Legenerelimosa" />
-            <node id="_Node469301" />
-            <node id="_Node469303" />
-            <node id="_Node469305" otu="Lobeliadunnii" />
-            <node id="_Node469308" otu="Lobeliatupa" />
-            <node id="_Node469311" otu="Lobeliaaberdarica" />
-            <node id="_Node469314" otu="Grammatothecabergiana" />
-            <rootedge id="_Edge469174" target="_Node469173" />
-            <edge id="_Edge469176" source="_Node469173" target="_Node469175" />
-            <edge id="_Edge469178" source="_Node469175" target="_Node469177" />
-            <edge id="_Edge469180" source="_Node469177" target="_Node469179" />
-            <edge id="_Edge469182" source="_Node469179" target="_Node469181" />
-            <edge id="_Edge469184" source="_Node469181" target="_Node469183" />
-            <edge id="_Edge469186" source="_Node469183" target="_Node469185" />
-            <edge id="_Edge469188" source="_Node469185" target="_Node469187" />
-            <edge id="_Edge469190" source="_Node469187" target="_Node469189" />
-            <edge id="_Edge469192" source="_Node469189" target="_Node469191" />
-            <edge id="_Edge469195" source="_Node469189" target="_Node469194" />
-            <edge id="_Edge469198" source="_Node469189" target="_Node469197" />
-            <edge id="_Edge469201" source="_Node469187" target="_Node469200" />
-            <edge id="_Edge469203" source="_Node469200" target="_Node469202" />
-            <edge id="_Edge469205" source="_Node469202" target="_Node469204" />
-            <edge id="_Edge469208" source="_Node469202" target="_Node469207" />
-            <edge id="_Edge469211" source="_Node469202" target="_Node469210" />
-            <edge id="_Edge469214" source="_Node469202" target="_Node469213" />
-            <edge id="_Edge469217" source="_Node469200" target="_Node469216" />
-            <edge id="_Edge469220" source="_Node469185" target="_Node469219" />
-            <edge id="_Edge469223" source="_Node469185" target="_Node469222" />
-            <edge id="_Edge469226" source="_Node469183" target="_Node469225" />
-            <edge id="_Edge469228" source="_Node469225" target="_Node469227" />
-            <edge id="_Edge469231" source="_Node469225" target="_Node469230" />
-            <edge id="_Edge469234" source="_Node469225" target="_Node469233" />
-            <edge id="_Edge469237" source="_Node469181" target="_Node469236" />
-            <edge id="_Edge469239" source="_Node469236" target="_Node469238" />
-            <edge id="_Edge469241" source="_Node469238" target="_Node469240" />
-            <edge id="_Edge469243" source="_Node469240" target="_Node469242" />
-            <edge id="_Edge469245" source="_Node469242" target="_Node469244" />
-            <edge id="_Edge469248" source="_Node469242" target="_Node469247" />
-            <edge id="_Edge469251" source="_Node469240" target="_Node469250" />
-            <edge id="_Edge469253" source="_Node469250" target="_Node469252" />
-            <edge id="_Edge469256" source="_Node469250" target="_Node469255" />
-            <edge id="_Edge469259" source="_Node469250" target="_Node469258" />
-            <edge id="_Edge469262" source="_Node469250" target="_Node469261" />
-            <edge id="_Edge469265" source="_Node469250" target="_Node469264" />
-            <edge id="_Edge469268" source="_Node469238" target="_Node469267" />
-            <edge id="_Edge469270" source="_Node469267" target="_Node469269" />
-            <edge id="_Edge469273" source="_Node469267" target="_Node469272" />
-            <edge id="_Edge469276" source="_Node469267" target="_Node469275" />
-            <edge id="_Edge469279" source="_Node469267" target="_Node469278" />
-            <edge id="_Edge469282" source="_Node469267" target="_Node469281" />
-            <edge id="_Edge469285" source="_Node469236" target="_Node469284" />
-            <edge id="_Edge469288" source="_Node469236" target="_Node469287" />
-            <edge id="_Edge469290" source="_Node469287" target="_Node469289" />
-            <edge id="_Edge469293" source="_Node469287" target="_Node469292" />
-            <edge id="_Edge469296" source="_Node469179" target="_Node469295" />
-            <edge id="_Edge469299" source="_Node469177" target="_Node469298" />
-            <edge id="_Edge469302" source="_Node469175" target="_Node469301" />
-            <edge id="_Edge469304" source="_Node469301" target="_Node469303" />
-            <edge id="_Edge469306" source="_Node469303" target="_Node469305" />
-            <edge id="_Edge469309" source="_Node469303" target="_Node469308" />
-            <edge id="_Edge469312" source="_Node469301" target="_Node469311" />
-            <edge id="_Edge469315" source="_Node469173" target="_Node469314" />
+            <node id="_Node466292" />
+            <node id="_Node466294" />
+            <node id="_Node466296" />
+            <node id="_Node466298" />
+            <node id="_Node466300" />
+            <node id="_Node466302" />
+            <node id="_Node466304" />
+            <node id="_Node466306" />
+            <node id="_Node466308" />
+            <node id="_Node466310" otu="Downingiabicornutab" />
+            <node id="_Node466313" otu="Downingiabicornutaa" />
+            <node id="_Node466316" otu="Downingiabicornutad" />
+            <node id="_Node466319" />
+            <node id="_Node466321" />
+            <node id="_Node466323" otu="Downingiapulchellaa" />
+            <node id="_Node466326" otu="Downingialaetab" />
+            <node id="_Node466329" otu="Downingiapulchellac" />
+            <node id="_Node466332" otu="Downingialaetac" />
+            <node id="_Node466335" otu="Downingiainsignisb" />
+            <node id="_Node466338" otu="Downingiabellab" />
+            <node id="_Node466341" otu="Downingiabellad" />
+            <node id="_Node466344" />
+            <node id="_Node466346" otu="Downingiacuspidatag" />
+            <node id="_Node466349" otu="Downingiapusillab" />
+            <node id="_Node466352" otu="Downingiacuspidatah" />
+            <node id="_Node466355" />
+            <node id="_Node466357" />
+            <node id="_Node466359" />
+            <node id="_Node466361" />
+            <node id="_Node466363" otu="Downingiaornatissimac" />
+            <node id="_Node466366" otu="Downingiaornatissimad" />
+            <node id="_Node466369" />
+            <node id="_Node466371" otu="Downingiaelegansb" />
+            <node id="_Node466374" otu="Downingiaelegansc" />
+            <node id="_Node466377" otu="Downingiayinah" />
+            <node id="_Node466380" otu="Downingiaelegansa" />
+            <node id="_Node466383" otu="Downingiayinag" />
+            <node id="_Node466386" />
+            <node id="_Node466388" otu="Downingiabacigalupiic" />
+            <node id="_Node466391" otu="Downingiayinaa" />
+            <node id="_Node466394" otu="Downingiayinab" />
+            <node id="_Node466397" otu="Downingiayinac" />
+            <node id="_Node466400" otu="Downingiabacigalupiib" />
+            <node id="_Node466403" otu="Downingiaconcolorb" />
+            <node id="_Node466406" />
+            <node id="_Node466408" otu="Downingiamontanaa" />
+            <node id="_Node466411" otu="Downingiamontanab" />
+            <node id="_Node466414" otu="Porterellacarnosulaa" />
+            <node id="_Node466417" otu="Legenerelimosa" />
+            <node id="_Node466420" />
+            <node id="_Node466422" />
+            <node id="_Node466424" otu="Lobeliadunnii" />
+            <node id="_Node466427" otu="Lobeliatupa" />
+            <node id="_Node466430" otu="Lobeliaaberdarica" />
+            <node id="_Node466433" otu="Grammatothecabergiana" />
+            <rootedge id="_Edge466293" target="_Node466292" />
+            <edge id="_Edge466295" source="_Node466292" target="_Node466294" />
+            <edge id="_Edge466297" source="_Node466294" target="_Node466296" />
+            <edge id="_Edge466299" source="_Node466296" target="_Node466298" />
+            <edge id="_Edge466301" source="_Node466298" target="_Node466300" />
+            <edge id="_Edge466303" source="_Node466300" target="_Node466302" />
+            <edge id="_Edge466305" source="_Node466302" target="_Node466304" />
+            <edge id="_Edge466307" source="_Node466304" target="_Node466306" />
+            <edge id="_Edge466309" source="_Node466306" target="_Node466308" />
+            <edge id="_Edge466311" source="_Node466308" target="_Node466310" />
+            <edge id="_Edge466314" source="_Node466308" target="_Node466313" />
+            <edge id="_Edge466317" source="_Node466308" target="_Node466316" />
+            <edge id="_Edge466320" source="_Node466306" target="_Node466319" />
+            <edge id="_Edge466322" source="_Node466319" target="_Node466321" />
+            <edge id="_Edge466324" source="_Node466321" target="_Node466323" />
+            <edge id="_Edge466327" source="_Node466321" target="_Node466326" />
+            <edge id="_Edge466330" source="_Node466321" target="_Node466329" />
+            <edge id="_Edge466333" source="_Node466321" target="_Node466332" />
+            <edge id="_Edge466336" source="_Node466319" target="_Node466335" />
+            <edge id="_Edge466339" source="_Node466304" target="_Node466338" />
+            <edge id="_Edge466342" source="_Node466304" target="_Node466341" />
+            <edge id="_Edge466345" source="_Node466302" target="_Node466344" />
+            <edge id="_Edge466347" source="_Node466344" target="_Node466346" />
+            <edge id="_Edge466350" source="_Node466344" target="_Node466349" />
+            <edge id="_Edge466353" source="_Node466344" target="_Node466352" />
+            <edge id="_Edge466356" source="_Node466300" target="_Node466355" />
+            <edge id="_Edge466358" source="_Node466355" target="_Node466357" />
+            <edge id="_Edge466360" source="_Node466357" target="_Node466359" />
+            <edge id="_Edge466362" source="_Node466359" target="_Node466361" />
+            <edge id="_Edge466364" source="_Node466361" target="_Node466363" />
+            <edge id="_Edge466367" source="_Node466361" target="_Node466366" />
+            <edge id="_Edge466370" source="_Node466359" target="_Node466369" />
+            <edge id="_Edge466372" source="_Node466369" target="_Node466371" />
+            <edge id="_Edge466375" source="_Node466369" target="_Node466374" />
+            <edge id="_Edge466378" source="_Node466369" target="_Node466377" />
+            <edge id="_Edge466381" source="_Node466369" target="_Node466380" />
+            <edge id="_Edge466384" source="_Node466369" target="_Node466383" />
+            <edge id="_Edge466387" source="_Node466357" target="_Node466386" />
+            <edge id="_Edge466389" source="_Node466386" target="_Node466388" />
+            <edge id="_Edge466392" source="_Node466386" target="_Node466391" />
+            <edge id="_Edge466395" source="_Node466386" target="_Node466394" />
+            <edge id="_Edge466398" source="_Node466386" target="_Node466397" />
+            <edge id="_Edge466401" source="_Node466386" target="_Node466400" />
+            <edge id="_Edge466404" source="_Node466355" target="_Node466403" />
+            <edge id="_Edge466407" source="_Node466355" target="_Node466406" />
+            <edge id="_Edge466409" source="_Node466406" target="_Node466408" />
+            <edge id="_Edge466412" source="_Node466406" target="_Node466411" />
+            <edge id="_Edge466415" source="_Node466298" target="_Node466414" />
+            <edge id="_Edge466418" source="_Node466296" target="_Node466417" />
+            <edge id="_Edge466421" source="_Node466294" target="_Node466420" />
+            <edge id="_Edge466423" source="_Node466420" target="_Node466422" />
+            <edge id="_Edge466425" source="_Node466422" target="_Node466424" />
+            <edge id="_Edge466428" source="_Node466422" target="_Node466427" />
+            <edge id="_Edge466431" source="_Node466420" target="_Node466430" />
+            <edge id="_Edge466434" source="_Node466292" target="_Node466433" />
         </tree>
     </trees>
 </nex:nexml>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S1730"><citation>Bruneau, A., J. R. Starr, and S. Joly. 2007. Phylogenetic relationships in the genus Rosa: new evidence from chloroplast DNA sequences and appraisal of current knowledge. Systematic Botany, in press.</citation><author email="bruneaua@irbv.umontreal.ca" firstname="Anne" lastname="Bruneau" /><author email="simon.joly@umontreal.ca" firstname="Simon" lastname="Joly" /><author email="julian.starr@umontreal.ca" firstname="Julian R." lastname="Starr" /></study></nex:external>
-    <otus id="_TaxaBlock2470828">
+<nex:external xmlns="dbhack1/phylr"><study id="S1730"><citation>Bruneau, A., J. R. Starr, and S. Joly. 2007. Phylogenetic relationships in the genus Rosa: new evidence from chloroplast DNA sequences and appraisal of current knowledge. Systematic Botany, in press.</citation><abstract>The genus Rosa (roses) comprises approximately 190 shrub species distributed widely throughout the temperate and subtropical habitats of the northern hemisphere. Despite numerous recent studies examining phylogenetic relationships in the genus, relationships remain obscure due to problems such as poor identification of garden specimens, hybridization in nature and in the garden, and low-levels of chloroplast and nuclear genome variation. Phylogenetic analyses of non-coding chloroplast sequences from the trnL-F region and psbA-trnH intergenic spacer for 70 taxa show slightly more variation than previous analyses of the genus. Bayesian and parsimony analyses suggest that subg. Rosa can be divided into two large clades, each with low internal resolution. One comprises species from sections Carolinae, Cinnamomeae and Pimpinellifoliae p.p., whilst the other consists of all of the remaining sections of subg. Rosa (Banksianae p.p., Bracteatae, Caninae, Indicae, Laevigatae, Rosa, Synstylae and Pimpinellifoliae p.p.). A fairly complete sampling of field-collected North American taxa has been incorporated in this analysis. Analyses indicate that migration into North American occurred at least twice within this primarily Old World genus. Most North American taxa, except R. setigera and R. minutifolia, fall into a single clade that includes Asian and European taxa. Analyses also are consistent with the notion that cultivated commercial roses have a relatively narrow genetic background. Six of the seven primary taxa believed to be involved in the creation of domesticated roses are found within the same large clade that mostly includes Asian and European taxa.</abstract><author email="bruneaua@irbv.umontreal.ca" firstname="Anne" lastname="Bruneau" /><author email="simon.joly@umontreal.ca" firstname="Simon" lastname="Joly" /><author email="julian.starr@umontreal.ca" firstname="Julian R." lastname="Starr" /></study></nex:external>
+    <otus id="_TaxaBlock2467197">
         <otu id="Rosaacicularisacicularis1" label="Rosa acicularis acicularis 1" />
         <otu id="Rosaarkansana" label="Rosa arkansana" />
         <otu id="Rosablanda1" label="Rosa blanda 1" />
@@ -89,233 +89,233 @@
         <otu id="Rosaprimula" label="Rosa primula" />
         <otu id="Potentillanivea" label="Potentilla nivea" />
     </otus>
-    <trees id="_TreesBlock2470829" otus="_TaxaBlock2470828">
+    <trees id="_TreesBlock2467198" otus="_TaxaBlock2467197">
         <tree id="Tree4902" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="bayesian inference" id="S1730A6619" software="MrBayes"><inputmatrix datatype="Nucleic Acid" name="trnL + psbA" nchar="1475" /></analysis></nex:external>
-            <node id="_Node2470833" />
-            <node id="_Node2470835" />
-            <node id="_Node2470837" />
-            <node id="_Node2470839" />
-            <node id="_Node2470841" />
-            <node id="_Node2470843" />
-            <node id="_Node2470845" />
-            <node id="_Node2470847" otu="Rosaacicularisacicularis1" />
-            <node id="_Node2470850" otu="Rosaarkansana" />
-            <node id="_Node2470853" otu="Rosablanda1" />
-            <node id="_Node2470856" otu="Rosadavidiielongata" />
-            <node id="_Node2470859" otu="Rosablanda2" />
-            <node id="_Node2470862" otu="Rosanitida" />
-            <node id="_Node2470865" otu="Rosablanda3" />
-            <node id="_Node2470868" />
-            <node id="_Node2470870" otu="Rosabridgesii" />
-            <node id="_Node2470873" otu="Rosalesterae" />
-            <node id="_Node2470876" />
-            <node id="_Node2470878" otu="Rosacorymbulosa" />
-            <node id="_Node2470881" otu="Rosawebbiana" />
-            <node id="_Node2470884" />
-            <node id="_Node2470886" otu="Rosagranulata" />
-            <node id="_Node2470889" otu="Rosaspithamea" />
-            <node id="_Node2470892" />
-            <node id="_Node2470894" otu="Rosamarretii" />
-            <node id="_Node2470897" />
-            <node id="_Node2470899" otu="Rosaacicularisnipponensis" />
-            <node id="_Node2470902" otu="Rosarugosa" />
-            <node id="_Node2470905" />
-            <node id="_Node2470907" otu="Rosacalifornica2" />
-            <node id="_Node2470910" otu="Rosafedtschenkoana" />
-            <node id="_Node2470913" otu="Rosahemsleyana" />
-            <node id="_Node2470916" otu="Rosamohavensis" />
-            <node id="_Node2470919" otu="Rosanutkananutkana" />
-            <node id="_Node2470922" otu="Rosabrownii" />
-            <node id="_Node2470925" otu="Rosayainacensis" />
-            <node id="_Node2470928" otu="Rosacarolina1" />
-            <node id="_Node2470931" otu="Rosacarolina2" />
-            <node id="_Node2470934" otu="Rosafoliolosa" />
-            <node id="_Node2470937" otu="Rosapalustris" />
-            <node id="_Node2470940" otu="Rosapisocarpa" />
-            <node id="_Node2470943" otu="Rosavirginiana" />
-            <node id="_Node2470946" otu="Rosawoodsiiwoodsii" />
-            <node id="_Node2470949" otu="Rosawoodsiiultramontana" />
-            <node id="_Node2470952" />
-            <node id="_Node2470954" otu="Rosaalbertii" />
-            <node id="_Node2470957" otu="Rosabanksiopsis" />
-            <node id="_Node2470960" otu="Rosakoreana" />
-            <node id="_Node2470963" otu="Rosaandegavensis" />
-            <node id="_Node2470966" otu="Rosawillmottiae" />
-            <node id="_Node2470969" />
-            <node id="_Node2470971" />
-            <node id="_Node2470973" otu="Rosacalifornica1" />
-            <node id="_Node2470976" otu="Rosapinetorum" />
-            <node id="_Node2470979" otu="Rosagymnocarpa" />
-            <node id="_Node2470982" />
-            <node id="_Node2470984" otu="Rosaacicularisacicularis2" />
-            <node id="_Node2470987" otu="Rosaacicularisacicularis3" />
-            <node id="_Node2470990" otu="Rosaspinosissimaaltaica" />
-            <node id="_Node2470993" />
-            <node id="_Node2470995" />
-            <node id="_Node2470997" otu="Rosabeggeriana" />
-            <node id="_Node2471000" otu="Rosalaxa" />
-            <node id="_Node2471003" otu="Rosabella" />
-            <node id="_Node2471006" otu="Rosacaudata" />
-            <node id="_Node2471009" otu="Rosamultibracteata" />
-            <node id="_Node2471012" otu="Rosanutkanahispida" />
-            <node id="_Node2471015" />
-            <node id="_Node2471017" />
-            <node id="_Node2471019" />
-            <node id="_Node2471021" />
-            <node id="_Node2471023" />
-            <node id="_Node2471025" />
-            <node id="_Node2471027" />
-            <node id="_Node2471029" otu="Rosaagrestis" />
-            <node id="_Node2471032" otu="Rosabracteata" />
-            <node id="_Node2471035" otu="Rosarubiginosa" />
-            <node id="_Node2471038" otu="Rosamarginata" />
-            <node id="_Node2471041" />
-            <node id="_Node2471043" otu="Rosaxalba" />
-            <node id="_Node2471046" otu="Rosacorymbifera1" />
-            <node id="_Node2471049" />
-            <node id="_Node2471051" otu="Rosaxcentifolia" />
-            <node id="_Node2471054" otu="Rosagallica" />
-            <node id="_Node2471057" otu="Rosacorymbifera2" />
-            <node id="_Node2471060" otu="Rosaleschenaultii" />
-            <node id="_Node2471063" otu="Rosamoschata" />
-            <node id="_Node2471066" otu="Rosaorientalis" />
-            <node id="_Node2471069" otu="Rosasetigera" />
-            <node id="_Node2471072" />
-            <node id="_Node2471074" otu="Rosachinensisspontanea" />
-            <node id="_Node2471077" otu="Rosacymosa" />
-            <node id="_Node2471080" />
-            <node id="_Node2471082" otu="Rosagigantea" />
-            <node id="_Node2471085" otu="Rosaxanthina1" />
-            <node id="_Node2471088" otu="Rosaxanthina2" />
-            <node id="_Node2471091" otu="Rosahenryi" />
-            <node id="_Node2471094" otu="Rosalaevigata" />
-            <node id="_Node2471097" otu="Rosamultiflora" />
-            <node id="_Node2471100" otu="Rosawichurianapoteriifolia" />
-            <node id="_Node2471103" otu="Rosabanksiaenormalis" />
-            <node id="_Node2471106" otu="Rosaroxburghiihirtula" />
-            <node id="_Node2471109" otu="Rosapersica" />
-            <node id="_Node2471112" />
-            <node id="_Node2471114" otu="Rosaarvensis" />
-            <node id="_Node2471117" otu="Rosawichurianawichuriana" />
-            <node id="_Node2471120" />
-            <node id="_Node2471122" otu="Rosaminutifolia1" />
-            <node id="_Node2471125" otu="Rosaminutifolia2" />
-            <node id="_Node2471128" otu="Rosafoetida" />
-            <node id="_Node2471131" otu="Rosaprimula" />
-            <node id="_Node2471134" otu="Potentillanivea" />
-            <rootedge id="_Edge2470834" target="_Node2470833" />
-            <edge id="_Edge2470836" source="_Node2470833" target="_Node2470835" />
-            <edge id="_Edge2470838" source="_Node2470835" target="_Node2470837" />
-            <edge id="_Edge2470840" source="_Node2470837" target="_Node2470839" />
-            <edge id="_Edge2470842" source="_Node2470839" target="_Node2470841" />
-            <edge id="_Edge2470844" source="_Node2470841" target="_Node2470843" />
-            <edge id="_Edge2470846" source="_Node2470843" target="_Node2470845" />
-            <edge id="_Edge2470848" source="_Node2470845" target="_Node2470847" />
-            <edge id="_Edge2470851" source="_Node2470845" target="_Node2470850" />
-            <edge id="_Edge2470854" source="_Node2470845" target="_Node2470853" />
-            <edge id="_Edge2470857" source="_Node2470845" target="_Node2470856" />
-            <edge id="_Edge2470860" source="_Node2470845" target="_Node2470859" />
-            <edge id="_Edge2470863" source="_Node2470845" target="_Node2470862" />
-            <edge id="_Edge2470866" source="_Node2470845" target="_Node2470865" />
-            <edge id="_Edge2470869" source="_Node2470843" target="_Node2470868" />
-            <edge id="_Edge2470871" source="_Node2470868" target="_Node2470870" />
-            <edge id="_Edge2470874" source="_Node2470868" target="_Node2470873" />
-            <edge id="_Edge2470877" source="_Node2470868" target="_Node2470876" />
-            <edge id="_Edge2470879" source="_Node2470876" target="_Node2470878" />
-            <edge id="_Edge2470882" source="_Node2470876" target="_Node2470881" />
-            <edge id="_Edge2470885" source="_Node2470868" target="_Node2470884" />
-            <edge id="_Edge2470887" source="_Node2470884" target="_Node2470886" />
-            <edge id="_Edge2470890" source="_Node2470884" target="_Node2470889" />
-            <edge id="_Edge2470893" source="_Node2470868" target="_Node2470892" />
-            <edge id="_Edge2470895" source="_Node2470892" target="_Node2470894" />
-            <edge id="_Edge2470898" source="_Node2470892" target="_Node2470897" />
-            <edge id="_Edge2470900" source="_Node2470897" target="_Node2470899" />
-            <edge id="_Edge2470903" source="_Node2470897" target="_Node2470902" />
-            <edge id="_Edge2470906" source="_Node2470843" target="_Node2470905" />
-            <edge id="_Edge2470908" source="_Node2470905" target="_Node2470907" />
-            <edge id="_Edge2470911" source="_Node2470905" target="_Node2470910" />
-            <edge id="_Edge2470914" source="_Node2470905" target="_Node2470913" />
-            <edge id="_Edge2470917" source="_Node2470905" target="_Node2470916" />
-            <edge id="_Edge2470920" source="_Node2470905" target="_Node2470919" />
-            <edge id="_Edge2470923" source="_Node2470905" target="_Node2470922" />
-            <edge id="_Edge2470926" source="_Node2470905" target="_Node2470925" />
-            <edge id="_Edge2470929" source="_Node2470843" target="_Node2470928" />
-            <edge id="_Edge2470932" source="_Node2470843" target="_Node2470931" />
-            <edge id="_Edge2470935" source="_Node2470843" target="_Node2470934" />
-            <edge id="_Edge2470938" source="_Node2470843" target="_Node2470937" />
-            <edge id="_Edge2470941" source="_Node2470843" target="_Node2470940" />
-            <edge id="_Edge2470944" source="_Node2470843" target="_Node2470943" />
-            <edge id="_Edge2470947" source="_Node2470843" target="_Node2470946" />
-            <edge id="_Edge2470950" source="_Node2470843" target="_Node2470949" />
-            <edge id="_Edge2470953" source="_Node2470841" target="_Node2470952" />
-            <edge id="_Edge2470955" source="_Node2470952" target="_Node2470954" />
-            <edge id="_Edge2470958" source="_Node2470952" target="_Node2470957" />
-            <edge id="_Edge2470961" source="_Node2470952" target="_Node2470960" />
-            <edge id="_Edge2470964" source="_Node2470952" target="_Node2470963" />
-            <edge id="_Edge2470967" source="_Node2470952" target="_Node2470966" />
-            <edge id="_Edge2470970" source="_Node2470841" target="_Node2470969" />
-            <edge id="_Edge2470972" source="_Node2470969" target="_Node2470971" />
-            <edge id="_Edge2470974" source="_Node2470971" target="_Node2470973" />
-            <edge id="_Edge2470977" source="_Node2470971" target="_Node2470976" />
-            <edge id="_Edge2470980" source="_Node2470969" target="_Node2470979" />
-            <edge id="_Edge2470983" source="_Node2470839" target="_Node2470982" />
-            <edge id="_Edge2470985" source="_Node2470982" target="_Node2470984" />
-            <edge id="_Edge2470988" source="_Node2470982" target="_Node2470987" />
-            <edge id="_Edge2470991" source="_Node2470839" target="_Node2470990" />
-            <edge id="_Edge2470994" source="_Node2470837" target="_Node2470993" />
-            <edge id="_Edge2470996" source="_Node2470993" target="_Node2470995" />
-            <edge id="_Edge2470998" source="_Node2470995" target="_Node2470997" />
-            <edge id="_Edge2471001" source="_Node2470995" target="_Node2471000" />
-            <edge id="_Edge2471004" source="_Node2470993" target="_Node2471003" />
-            <edge id="_Edge2471007" source="_Node2470993" target="_Node2471006" />
-            <edge id="_Edge2471010" source="_Node2470993" target="_Node2471009" />
-            <edge id="_Edge2471013" source="_Node2470837" target="_Node2471012" />
-            <edge id="_Edge2471016" source="_Node2470835" target="_Node2471015" />
-            <edge id="_Edge2471018" source="_Node2471015" target="_Node2471017" />
-            <edge id="_Edge2471020" source="_Node2471017" target="_Node2471019" />
-            <edge id="_Edge2471022" source="_Node2471019" target="_Node2471021" />
-            <edge id="_Edge2471024" source="_Node2471021" target="_Node2471023" />
-            <edge id="_Edge2471026" source="_Node2471023" target="_Node2471025" />
-            <edge id="_Edge2471028" source="_Node2471025" target="_Node2471027" />
-            <edge id="_Edge2471030" source="_Node2471027" target="_Node2471029" />
-            <edge id="_Edge2471033" source="_Node2471027" target="_Node2471032" />
-            <edge id="_Edge2471036" source="_Node2471027" target="_Node2471035" />
-            <edge id="_Edge2471039" source="_Node2471027" target="_Node2471038" />
-            <edge id="_Edge2471042" source="_Node2471025" target="_Node2471041" />
-            <edge id="_Edge2471044" source="_Node2471041" target="_Node2471043" />
-            <edge id="_Edge2471047" source="_Node2471041" target="_Node2471046" />
-            <edge id="_Edge2471050" source="_Node2471041" target="_Node2471049" />
-            <edge id="_Edge2471052" source="_Node2471049" target="_Node2471051" />
-            <edge id="_Edge2471055" source="_Node2471049" target="_Node2471054" />
-            <edge id="_Edge2471058" source="_Node2471041" target="_Node2471057" />
-            <edge id="_Edge2471061" source="_Node2471041" target="_Node2471060" />
-            <edge id="_Edge2471064" source="_Node2471041" target="_Node2471063" />
-            <edge id="_Edge2471067" source="_Node2471041" target="_Node2471066" />
-            <edge id="_Edge2471070" source="_Node2471023" target="_Node2471069" />
-            <edge id="_Edge2471073" source="_Node2471021" target="_Node2471072" />
-            <edge id="_Edge2471075" source="_Node2471072" target="_Node2471074" />
-            <edge id="_Edge2471078" source="_Node2471072" target="_Node2471077" />
-            <edge id="_Edge2471081" source="_Node2471072" target="_Node2471080" />
-            <edge id="_Edge2471083" source="_Node2471080" target="_Node2471082" />
-            <edge id="_Edge2471086" source="_Node2471080" target="_Node2471085" />
-            <edge id="_Edge2471089" source="_Node2471080" target="_Node2471088" />
-            <edge id="_Edge2471092" source="_Node2471072" target="_Node2471091" />
-            <edge id="_Edge2471095" source="_Node2471072" target="_Node2471094" />
-            <edge id="_Edge2471098" source="_Node2471072" target="_Node2471097" />
-            <edge id="_Edge2471101" source="_Node2471072" target="_Node2471100" />
-            <edge id="_Edge2471104" source="_Node2471019" target="_Node2471103" />
-            <edge id="_Edge2471107" source="_Node2471019" target="_Node2471106" />
-            <edge id="_Edge2471110" source="_Node2471017" target="_Node2471109" />
-            <edge id="_Edge2471113" source="_Node2471015" target="_Node2471112" />
-            <edge id="_Edge2471115" source="_Node2471112" target="_Node2471114" />
-            <edge id="_Edge2471118" source="_Node2471112" target="_Node2471117" />
-            <edge id="_Edge2471121" source="_Node2471015" target="_Node2471120" />
-            <edge id="_Edge2471123" source="_Node2471120" target="_Node2471122" />
-            <edge id="_Edge2471126" source="_Node2471120" target="_Node2471125" />
-            <edge id="_Edge2471129" source="_Node2470835" target="_Node2471128" />
-            <edge id="_Edge2471132" source="_Node2470835" target="_Node2471131" />
-            <edge id="_Edge2471135" source="_Node2470833" target="_Node2471134" />
+            <node id="_Node2467202" />
+            <node id="_Node2467204" />
+            <node id="_Node2467206" />
+            <node id="_Node2467208" />
+            <node id="_Node2467210" />
+            <node id="_Node2467212" />
+            <node id="_Node2467214" />
+            <node id="_Node2467216" otu="Rosaacicularisacicularis1" />
+            <node id="_Node2467219" otu="Rosaarkansana" />
+            <node id="_Node2467222" otu="Rosablanda1" />
+            <node id="_Node2467225" otu="Rosadavidiielongata" />
+            <node id="_Node2467228" otu="Rosablanda2" />
+            <node id="_Node2467231" otu="Rosanitida" />
+            <node id="_Node2467234" otu="Rosablanda3" />
+            <node id="_Node2467237" />
+            <node id="_Node2467239" otu="Rosabridgesii" />
+            <node id="_Node2467242" otu="Rosalesterae" />
+            <node id="_Node2467245" />
+            <node id="_Node2467247" otu="Rosacorymbulosa" />
+            <node id="_Node2467250" otu="Rosawebbiana" />
+            <node id="_Node2467253" />
+            <node id="_Node2467255" otu="Rosagranulata" />
+            <node id="_Node2467258" otu="Rosaspithamea" />
+            <node id="_Node2467261" />
+            <node id="_Node2467263" otu="Rosamarretii" />
+            <node id="_Node2467266" />
+            <node id="_Node2467268" otu="Rosaacicularisnipponensis" />
+            <node id="_Node2467271" otu="Rosarugosa" />
+            <node id="_Node2467274" />
+            <node id="_Node2467276" otu="Rosacalifornica2" />
+            <node id="_Node2467279" otu="Rosafedtschenkoana" />
+            <node id="_Node2467282" otu="Rosahemsleyana" />
+            <node id="_Node2467285" otu="Rosamohavensis" />
+            <node id="_Node2467288" otu="Rosanutkananutkana" />
+            <node id="_Node2467291" otu="Rosabrownii" />
+            <node id="_Node2467294" otu="Rosayainacensis" />
+            <node id="_Node2467297" otu="Rosacarolina1" />
+            <node id="_Node2467300" otu="Rosacarolina2" />
+            <node id="_Node2467303" otu="Rosafoliolosa" />
+            <node id="_Node2467306" otu="Rosapalustris" />
+            <node id="_Node2467309" otu="Rosapisocarpa" />
+            <node id="_Node2467312" otu="Rosavirginiana" />
+            <node id="_Node2467315" otu="Rosawoodsiiwoodsii" />
+            <node id="_Node2467318" otu="Rosawoodsiiultramontana" />
+            <node id="_Node2467321" />
+            <node id="_Node2467323" otu="Rosaalbertii" />
+            <node id="_Node2467326" otu="Rosabanksiopsis" />
+            <node id="_Node2467329" otu="Rosakoreana" />
+            <node id="_Node2467332" otu="Rosaandegavensis" />
+            <node id="_Node2467335" otu="Rosawillmottiae" />
+            <node id="_Node2467338" />
+            <node id="_Node2467340" />
+            <node id="_Node2467342" otu="Rosacalifornica1" />
+            <node id="_Node2467345" otu="Rosapinetorum" />
+            <node id="_Node2467348" otu="Rosagymnocarpa" />
+            <node id="_Node2467351" />
+            <node id="_Node2467353" otu="Rosaacicularisacicularis2" />
+            <node id="_Node2467356" otu="Rosaacicularisacicularis3" />
+            <node id="_Node2467359" otu="Rosaspinosissimaaltaica" />
+            <node id="_Node2467362" />
+            <node id="_Node2467364" />
+            <node id="_Node2467366" otu="Rosabeggeriana" />
+            <node id="_Node2467369" otu="Rosalaxa" />
+            <node id="_Node2467372" otu="Rosabella" />
+            <node id="_Node2467375" otu="Rosacaudata" />
+            <node id="_Node2467378" otu="Rosamultibracteata" />
+            <node id="_Node2467381" otu="Rosanutkanahispida" />
+            <node id="_Node2467384" />
+            <node id="_Node2467386" />
+            <node id="_Node2467388" />
+            <node id="_Node2467390" />
+            <node id="_Node2467392" />
+            <node id="_Node2467394" />
+            <node id="_Node2467396" />
+            <node id="_Node2467398" otu="Rosaagrestis" />
+            <node id="_Node2467401" otu="Rosabracteata" />
+            <node id="_Node2467404" otu="Rosarubiginosa" />
+            <node id="_Node2467407" otu="Rosamarginata" />
+            <node id="_Node2467410" />
+            <node id="_Node2467412" otu="Rosaxalba" />
+            <node id="_Node2467415" otu="Rosacorymbifera1" />
+            <node id="_Node2467418" />
+            <node id="_Node2467420" otu="Rosaxcentifolia" />
+            <node id="_Node2467423" otu="Rosagallica" />
+            <node id="_Node2467426" otu="Rosacorymbifera2" />
+            <node id="_Node2467429" otu="Rosaleschenaultii" />
+            <node id="_Node2467432" otu="Rosamoschata" />
+            <node id="_Node2467435" otu="Rosaorientalis" />
+            <node id="_Node2467438" otu="Rosasetigera" />
+            <node id="_Node2467441" />
+            <node id="_Node2467443" otu="Rosachinensisspontanea" />
+            <node id="_Node2467446" otu="Rosacymosa" />
+            <node id="_Node2467449" />
+            <node id="_Node2467451" otu="Rosagigantea" />
+            <node id="_Node2467454" otu="Rosaxanthina1" />
+            <node id="_Node2467457" otu="Rosaxanthina2" />
+            <node id="_Node2467460" otu="Rosahenryi" />
+            <node id="_Node2467463" otu="Rosalaevigata" />
+            <node id="_Node2467466" otu="Rosamultiflora" />
+            <node id="_Node2467469" otu="Rosawichurianapoteriifolia" />
+            <node id="_Node2467472" otu="Rosabanksiaenormalis" />
+            <node id="_Node2467475" otu="Rosaroxburghiihirtula" />
+            <node id="_Node2467478" otu="Rosapersica" />
+            <node id="_Node2467481" />
+            <node id="_Node2467483" otu="Rosaarvensis" />
+            <node id="_Node2467486" otu="Rosawichurianawichuriana" />
+            <node id="_Node2467489" />
+            <node id="_Node2467491" otu="Rosaminutifolia1" />
+            <node id="_Node2467494" otu="Rosaminutifolia2" />
+            <node id="_Node2467497" otu="Rosafoetida" />
+            <node id="_Node2467500" otu="Rosaprimula" />
+            <node id="_Node2467503" otu="Potentillanivea" />
+            <rootedge id="_Edge2467203" target="_Node2467202" />
+            <edge id="_Edge2467205" source="_Node2467202" target="_Node2467204" />
+            <edge id="_Edge2467207" source="_Node2467204" target="_Node2467206" />
+            <edge id="_Edge2467209" source="_Node2467206" target="_Node2467208" />
+            <edge id="_Edge2467211" source="_Node2467208" target="_Node2467210" />
+            <edge id="_Edge2467213" source="_Node2467210" target="_Node2467212" />
+            <edge id="_Edge2467215" source="_Node2467212" target="_Node2467214" />
+            <edge id="_Edge2467217" source="_Node2467214" target="_Node2467216" />
+            <edge id="_Edge2467220" source="_Node2467214" target="_Node2467219" />
+            <edge id="_Edge2467223" source="_Node2467214" target="_Node2467222" />
+            <edge id="_Edge2467226" source="_Node2467214" target="_Node2467225" />
+            <edge id="_Edge2467229" source="_Node2467214" target="_Node2467228" />
+            <edge id="_Edge2467232" source="_Node2467214" target="_Node2467231" />
+            <edge id="_Edge2467235" source="_Node2467214" target="_Node2467234" />
+            <edge id="_Edge2467238" source="_Node2467212" target="_Node2467237" />
+            <edge id="_Edge2467240" source="_Node2467237" target="_Node2467239" />
+            <edge id="_Edge2467243" source="_Node2467237" target="_Node2467242" />
+            <edge id="_Edge2467246" source="_Node2467237" target="_Node2467245" />
+            <edge id="_Edge2467248" source="_Node2467245" target="_Node2467247" />
+            <edge id="_Edge2467251" source="_Node2467245" target="_Node2467250" />
+            <edge id="_Edge2467254" source="_Node2467237" target="_Node2467253" />
+            <edge id="_Edge2467256" source="_Node2467253" target="_Node2467255" />
+            <edge id="_Edge2467259" source="_Node2467253" target="_Node2467258" />
+            <edge id="_Edge2467262" source="_Node2467237" target="_Node2467261" />
+            <edge id="_Edge2467264" source="_Node2467261" target="_Node2467263" />
+            <edge id="_Edge2467267" source="_Node2467261" target="_Node2467266" />
+            <edge id="_Edge2467269" source="_Node2467266" target="_Node2467268" />
+            <edge id="_Edge2467272" source="_Node2467266" target="_Node2467271" />
+            <edge id="_Edge2467275" source="_Node2467212" target="_Node2467274" />
+            <edge id="_Edge2467277" source="_Node2467274" target="_Node2467276" />
+            <edge id="_Edge2467280" source="_Node2467274" target="_Node2467279" />
+            <edge id="_Edge2467283" source="_Node2467274" target="_Node2467282" />
+            <edge id="_Edge2467286" source="_Node2467274" target="_Node2467285" />
+            <edge id="_Edge2467289" source="_Node2467274" target="_Node2467288" />
+            <edge id="_Edge2467292" source="_Node2467274" target="_Node2467291" />
+            <edge id="_Edge2467295" source="_Node2467274" target="_Node2467294" />
+            <edge id="_Edge2467298" source="_Node2467212" target="_Node2467297" />
+            <edge id="_Edge2467301" source="_Node2467212" target="_Node2467300" />
+            <edge id="_Edge2467304" source="_Node2467212" target="_Node2467303" />
+            <edge id="_Edge2467307" source="_Node2467212" target="_Node2467306" />
+            <edge id="_Edge2467310" source="_Node2467212" target="_Node2467309" />
+            <edge id="_Edge2467313" source="_Node2467212" target="_Node2467312" />
+            <edge id="_Edge2467316" source="_Node2467212" target="_Node2467315" />
+            <edge id="_Edge2467319" source="_Node2467212" target="_Node2467318" />
+            <edge id="_Edge2467322" source="_Node2467210" target="_Node2467321" />
+            <edge id="_Edge2467324" source="_Node2467321" target="_Node2467323" />
+            <edge id="_Edge2467327" source="_Node2467321" target="_Node2467326" />
+            <edge id="_Edge2467330" source="_Node2467321" target="_Node2467329" />
+            <edge id="_Edge2467333" source="_Node2467321" target="_Node2467332" />
+            <edge id="_Edge2467336" source="_Node2467321" target="_Node2467335" />
+            <edge id="_Edge2467339" source="_Node2467210" target="_Node2467338" />
+            <edge id="_Edge2467341" source="_Node2467338" target="_Node2467340" />
+            <edge id="_Edge2467343" source="_Node2467340" target="_Node2467342" />
+            <edge id="_Edge2467346" source="_Node2467340" target="_Node2467345" />
+            <edge id="_Edge2467349" source="_Node2467338" target="_Node2467348" />
+            <edge id="_Edge2467352" source="_Node2467208" target="_Node2467351" />
+            <edge id="_Edge2467354" source="_Node2467351" target="_Node2467353" />
+            <edge id="_Edge2467357" source="_Node2467351" target="_Node2467356" />
+            <edge id="_Edge2467360" source="_Node2467208" target="_Node2467359" />
+            <edge id="_Edge2467363" source="_Node2467206" target="_Node2467362" />
+            <edge id="_Edge2467365" source="_Node2467362" target="_Node2467364" />
+            <edge id="_Edge2467367" source="_Node2467364" target="_Node2467366" />
+            <edge id="_Edge2467370" source="_Node2467364" target="_Node2467369" />
+            <edge id="_Edge2467373" source="_Node2467362" target="_Node2467372" />
+            <edge id="_Edge2467376" source="_Node2467362" target="_Node2467375" />
+            <edge id="_Edge2467379" source="_Node2467362" target="_Node2467378" />
+            <edge id="_Edge2467382" source="_Node2467206" target="_Node2467381" />
+            <edge id="_Edge2467385" source="_Node2467204" target="_Node2467384" />
+            <edge id="_Edge2467387" source="_Node2467384" target="_Node2467386" />
+            <edge id="_Edge2467389" source="_Node2467386" target="_Node2467388" />
+            <edge id="_Edge2467391" source="_Node2467388" target="_Node2467390" />
+            <edge id="_Edge2467393" source="_Node2467390" target="_Node2467392" />
+            <edge id="_Edge2467395" source="_Node2467392" target="_Node2467394" />
+            <edge id="_Edge2467397" source="_Node2467394" target="_Node2467396" />
+            <edge id="_Edge2467399" source="_Node2467396" target="_Node2467398" />
+            <edge id="_Edge2467402" source="_Node2467396" target="_Node2467401" />
+            <edge id="_Edge2467405" source="_Node2467396" target="_Node2467404" />
+            <edge id="_Edge2467408" source="_Node2467396" target="_Node2467407" />
+            <edge id="_Edge2467411" source="_Node2467394" target="_Node2467410" />
+            <edge id="_Edge2467413" source="_Node2467410" target="_Node2467412" />
+            <edge id="_Edge2467416" source="_Node2467410" target="_Node2467415" />
+            <edge id="_Edge2467419" source="_Node2467410" target="_Node2467418" />
+            <edge id="_Edge2467421" source="_Node2467418" target="_Node2467420" />
+            <edge id="_Edge2467424" source="_Node2467418" target="_Node2467423" />
+            <edge id="_Edge2467427" source="_Node2467410" target="_Node2467426" />
+            <edge id="_Edge2467430" source="_Node2467410" target="_Node2467429" />
+            <edge id="_Edge2467433" source="_Node2467410" target="_Node2467432" />
+            <edge id="_Edge2467436" source="_Node2467410" target="_Node2467435" />
+            <edge id="_Edge2467439" source="_Node2467392" target="_Node2467438" />
+            <edge id="_Edge2467442" source="_Node2467390" target="_Node2467441" />
+            <edge id="_Edge2467444" source="_Node2467441" target="_Node2467443" />
+            <edge id="_Edge2467447" source="_Node2467441" target="_Node2467446" />
+            <edge id="_Edge2467450" source="_Node2467441" target="_Node2467449" />
+            <edge id="_Edge2467452" source="_Node2467449" target="_Node2467451" />
+            <edge id="_Edge2467455" source="_Node2467449" target="_Node2467454" />
+            <edge id="_Edge2467458" source="_Node2467449" target="_Node2467457" />
+            <edge id="_Edge2467461" source="_Node2467441" target="_Node2467460" />
+            <edge id="_Edge2467464" source="_Node2467441" target="_Node2467463" />
+            <edge id="_Edge2467467" source="_Node2467441" target="_Node2467466" />
+            <edge id="_Edge2467470" source="_Node2467441" target="_Node2467469" />
+            <edge id="_Edge2467473" source="_Node2467388" target="_Node2467472" />
+            <edge id="_Edge2467476" source="_Node2467388" target="_Node2467475" />
+            <edge id="_Edge2467479" source="_Node2467386" target="_Node2467478" />
+            <edge id="_Edge2467482" source="_Node2467384" target="_Node2467481" />
+            <edge id="_Edge2467484" source="_Node2467481" target="_Node2467483" />
+            <edge id="_Edge2467487" source="_Node2467481" target="_Node2467486" />
+            <edge id="_Edge2467490" source="_Node2467384" target="_Node2467489" />
+            <edge id="_Edge2467492" source="_Node2467489" target="_Node2467491" />
+            <edge id="_Edge2467495" source="_Node2467489" target="_Node2467494" />
+            <edge id="_Edge2467498" source="_Node2467204" target="_Node2467497" />
+            <edge id="_Edge2467501" source="_Node2467204" target="_Node2467500" />
+            <edge id="_Edge2467504" source="_Node2467202" target="_Node2467503" />
         </tree>
     </trees>
 </nex:nexml>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S1968"><citation>Ryberg M., R. H. Nilsson, E. Kristiansson, M. T&#195;&#182;pel, S. Jacobsson, and E. Larsson. 2008. Mining metadata from unidentified ITS sequences in GenBank: a case study in Inocybe (Basidiomycota). BMC Evolutionary biology, in press.</citation><author firstname="Stig" lastname="Jacobsson" /><author email="erikkr@math.chalmers.se" firstname="Erik" lastname="Kristiansson" /><author email="ellen.larsson@systbot.gu.se" firstname="Ellen" lastname="Larsson" /><author email="henrik.nilsson@systbot.gu.se" firstname="Henrik" lastname="Nilsson" /><author email="martin.ryberg@dpes.gu.se" firstname="Martin" lastname="Ryberg" /><author email="mats.topel@dpes.gu.se" firstname="Mats" lastname="T&#195;&#182;pel" /></study></nex:external>
-    <otus id="_TaxaBlock2977263">
+<nex:external xmlns="dbhack1/phylr"><study id="S1968"><citation>Ryberg M., R. H. Nilsson, E. Kristiansson, M. T&#195;&#182;pel, S. Jacobsson, and E. Larsson. 2008. Mining metadata from unidentified ITS sequences in GenBank: a case study in Inocybe (Basidiomycota). BMC Evolutionary biology, in press.</citation><abstract>Background: The lack of reference sequences from well-identified mycorrhizal fungi often poses a challenge to the inference of taxonomic affiliation of sequences from environmental samples, and many sequences are thus left unidentified. Such unidentified sequences belonging to the widely distributed ectomycorrhizal fungal genus Inocybe were retrieved from GenBank and divided into species that were identified in a phylogenetic context through a reference dataset from an ongoing study of the genus. Sequence metadata stored in GenBank, as well as data from the corresponding original papers, were compiled and used to explore the ecology and distribution of the genus. In addition, the relative occurrence of Inocybe was contrasted to other mycorrhizal genera. Results: Most species of Inocybe were found to have less than 3% intraspecific variability in the ITS2 region of the nuclear ribosomal DNA. This cut-off value was used jointly with phylogenetic analysis to delimit and identify unidentified Inocybe sequences to species level. A total of 177 unidentified Inocybe ITS sequences corresponding to 98 species were recovered, 32% of which were successfully identified to species level in this study. These sequences accounts for an unexpectedly large proportion of the publicly available unidentified fungal ITS sequences when compared with other mycorrhizal genera. Eight Inocybe species were reported from multiple hosts and some even from hosts forming arbutoid or orchid mycorrhizae. Furthermore, Inocybe sequences have been reported from four continents and in climate zones ranging from cold temperate to equatorial climate. Out of the 19 species found in more than one study, six were found in both Europe and North America and one was found in both Europe and Japan, indicating that at least many north temperate species have a wide distribution. Conclusions: Although DNA-based species identification and circumscription are associated with practical and conceptual difficulties, they also offer new possibilities and avenues for research. Metadata assembly holds great potential to synthesize valuable information from community studies for use in a species and taxonomy-oriented framework. </abstract><author firstname="Stig" lastname="Jacobsson" /><author email="erikkr@math.chalmers.se" firstname="Erik" lastname="Kristiansson" /><author email="ellen.larsson@systbot.gu.se" firstname="Ellen" lastname="Larsson" /><author email="henrik.nilsson@systbot.gu.se" firstname="Henrik" lastname="Nilsson" /><author email="martin.ryberg@dpes.gu.se" firstname="Martin" lastname="Ryberg" /><author email="mats.topel@dpes.gu.se" firstname="Mats" lastname="T&#195;&#182;pel" /></study></nex:external>
+    <otus id="_TaxaBlock2972012">
         <otu id="CrepidotusmollisAM882996" label="Crepidotus mollis AM882996" />
         <otu id="InocybedulcamaraAM882859" label="Inocybe dulcamara AM882859" />
         <otu id="InocybefulvipesAM882858" label="Inocybe fulvipes AM882858" />
@@ -29,75 +29,75 @@
         <otu id="MallocybeunicolorDQ490637" label="Mallocybe unicolor DQ490637" />
         <otu id="NaucoriasubmelinoidesAM882885" label="Naucoria submelinoides AM882885" />
     </otus>
-    <trees id="_TreesBlock2977264" otus="_TaxaBlock2977263">
+    <trees id="_TreesBlock2972013" otus="_TaxaBlock2972012">
         <tree id="Tree5608" label="Clade 16 Strict" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1968A8021" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Clade 16" nchar="2243" /></analysis></nex:external>
-            <node id="_Node2977268" />
-            <node id="_Node2977270" otu="CrepidotusmollisAM882996" />
-            <node id="_Node2977273" />
-            <node id="_Node2977275" />
-            <node id="_Node2977277" />
-            <node id="_Node2977279" />
-            <node id="_Node2977281" otu="InocybedulcamaraAM882859" />
-            <node id="_Node2977284" otu="InocybefulvipesAM882858" />
-            <node id="_Node2977287" otu="Inocybesp.AJ893286" />
-            <node id="_Node2977290" />
-            <node id="_Node2977292" />
-            <node id="_Node2977294" otu="InocybearthrocystisAM882856" />
-            <node id="_Node2977297" />
-            <node id="_Node2977299" otu="InocybedulcamaraAM882861" />
-            <node id="_Node2977302" otu="InocybeleucoblemaAM882855" />
-            <node id="_Node2977305" otu="InocybemalenconiiAM882862" />
-            <node id="_Node2977308" otu="InocybeagardhiiMart4329" />
-            <node id="_Node2977311" />
-            <node id="_Node2977313" otu="InocybelaceraAM882860" />
-            <node id="_Node2977316" otu="InocybeleucoblemaAM882857" />
-            <node id="_Node2977319" otu="MallocybedulcamaraDQ221106" />
-            <node id="_Node2977322" />
-            <node id="_Node2977324" otu="InocybeterrigenaAM882864" />
-            <node id="_Node2977327" />
-            <node id="_Node2977329" otu="InocybedulcamaraAM882863" />
-            <node id="_Node2977332" otu="InocybedulcamaraAM882854" />
-            <node id="_Node2977335" />
-            <node id="_Node2977337" />
-            <node id="_Node2977339" otu="InocybedulcamaraAM882865" />
-            <node id="_Node2977342" otu="InocybegymnocarpaAM882866" />
-            <node id="_Node2977345" otu="Inocybecf.fuscomargiAM882972" />
-            <node id="_Node2977348" otu="MallocybeunicolorDQ490637" />
-            <node id="_Node2977351" otu="NaucoriasubmelinoidesAM882885" />
-            <rootedge id="_Edge2977269" target="_Node2977268" />
-            <edge id="_Edge2977271" source="_Node2977268" target="_Node2977270" />
-            <edge id="_Edge2977274" source="_Node2977268" target="_Node2977273" />
-            <edge id="_Edge2977276" source="_Node2977273" target="_Node2977275" />
-            <edge id="_Edge2977278" source="_Node2977275" target="_Node2977277" />
-            <edge id="_Edge2977280" source="_Node2977277" target="_Node2977279" />
-            <edge id="_Edge2977282" source="_Node2977279" target="_Node2977281" />
-            <edge id="_Edge2977285" source="_Node2977279" target="_Node2977284" />
-            <edge id="_Edge2977288" source="_Node2977279" target="_Node2977287" />
-            <edge id="_Edge2977291" source="_Node2977279" target="_Node2977290" />
-            <edge id="_Edge2977293" source="_Node2977290" target="_Node2977292" />
-            <edge id="_Edge2977295" source="_Node2977292" target="_Node2977294" />
-            <edge id="_Edge2977298" source="_Node2977292" target="_Node2977297" />
-            <edge id="_Edge2977300" source="_Node2977297" target="_Node2977299" />
-            <edge id="_Edge2977303" source="_Node2977297" target="_Node2977302" />
-            <edge id="_Edge2977306" source="_Node2977290" target="_Node2977305" />
-            <edge id="_Edge2977309" source="_Node2977279" target="_Node2977308" />
-            <edge id="_Edge2977312" source="_Node2977279" target="_Node2977311" />
-            <edge id="_Edge2977314" source="_Node2977311" target="_Node2977313" />
-            <edge id="_Edge2977317" source="_Node2977311" target="_Node2977316" />
-            <edge id="_Edge2977320" source="_Node2977279" target="_Node2977319" />
-            <edge id="_Edge2977323" source="_Node2977277" target="_Node2977322" />
-            <edge id="_Edge2977325" source="_Node2977322" target="_Node2977324" />
-            <edge id="_Edge2977328" source="_Node2977322" target="_Node2977327" />
-            <edge id="_Edge2977330" source="_Node2977327" target="_Node2977329" />
-            <edge id="_Edge2977333" source="_Node2977327" target="_Node2977332" />
-            <edge id="_Edge2977336" source="_Node2977275" target="_Node2977335" />
-            <edge id="_Edge2977338" source="_Node2977335" target="_Node2977337" />
-            <edge id="_Edge2977340" source="_Node2977337" target="_Node2977339" />
-            <edge id="_Edge2977343" source="_Node2977337" target="_Node2977342" />
-            <edge id="_Edge2977346" source="_Node2977335" target="_Node2977345" />
-            <edge id="_Edge2977349" source="_Node2977273" target="_Node2977348" />
-            <edge id="_Edge2977352" source="_Node2977268" target="_Node2977351" />
+            <node id="_Node2972017" />
+            <node id="_Node2972019" otu="CrepidotusmollisAM882996" />
+            <node id="_Node2972022" />
+            <node id="_Node2972024" />
+            <node id="_Node2972026" />
+            <node id="_Node2972028" />
+            <node id="_Node2972030" otu="InocybedulcamaraAM882859" />
+            <node id="_Node2972033" otu="InocybefulvipesAM882858" />
+            <node id="_Node2972036" otu="Inocybesp.AJ893286" />
+            <node id="_Node2972039" />
+            <node id="_Node2972041" />
+            <node id="_Node2972043" otu="InocybearthrocystisAM882856" />
+            <node id="_Node2972046" />
+            <node id="_Node2972048" otu="InocybedulcamaraAM882861" />
+            <node id="_Node2972051" otu="InocybeleucoblemaAM882855" />
+            <node id="_Node2972054" otu="InocybemalenconiiAM882862" />
+            <node id="_Node2972057" otu="InocybeagardhiiMart4329" />
+            <node id="_Node2972060" />
+            <node id="_Node2972062" otu="InocybelaceraAM882860" />
+            <node id="_Node2972065" otu="InocybeleucoblemaAM882857" />
+            <node id="_Node2972068" otu="MallocybedulcamaraDQ221106" />
+            <node id="_Node2972071" />
+            <node id="_Node2972073" otu="InocybeterrigenaAM882864" />
+            <node id="_Node2972076" />
+            <node id="_Node2972078" otu="InocybedulcamaraAM882863" />
+            <node id="_Node2972081" otu="InocybedulcamaraAM882854" />
+            <node id="_Node2972084" />
+            <node id="_Node2972086" />
+            <node id="_Node2972088" otu="InocybedulcamaraAM882865" />
+            <node id="_Node2972091" otu="InocybegymnocarpaAM882866" />
+            <node id="_Node2972094" otu="Inocybecf.fuscomargiAM882972" />
+            <node id="_Node2972097" otu="MallocybeunicolorDQ490637" />
+            <node id="_Node2972100" otu="NaucoriasubmelinoidesAM882885" />
+            <rootedge id="_Edge2972018" target="_Node2972017" />
+            <edge id="_Edge2972020" source="_Node2972017" target="_Node2972019" />
+            <edge id="_Edge2972023" source="_Node2972017" target="_Node2972022" />
+            <edge id="_Edge2972025" source="_Node2972022" target="_Node2972024" />
+            <edge id="_Edge2972027" source="_Node2972024" target="_Node2972026" />
+            <edge id="_Edge2972029" source="_Node2972026" target="_Node2972028" />
+            <edge id="_Edge2972031" source="_Node2972028" target="_Node2972030" />
+            <edge id="_Edge2972034" source="_Node2972028" target="_Node2972033" />
+            <edge id="_Edge2972037" source="_Node2972028" target="_Node2972036" />
+            <edge id="_Edge2972040" source="_Node2972028" target="_Node2972039" />
+            <edge id="_Edge2972042" source="_Node2972039" target="_Node2972041" />
+            <edge id="_Edge2972044" source="_Node2972041" target="_Node2972043" />
+            <edge id="_Edge2972047" source="_Node2972041" target="_Node2972046" />
+            <edge id="_Edge2972049" source="_Node2972046" target="_Node2972048" />
+            <edge id="_Edge2972052" source="_Node2972046" target="_Node2972051" />
+            <edge id="_Edge2972055" source="_Node2972039" target="_Node2972054" />
+            <edge id="_Edge2972058" source="_Node2972028" target="_Node2972057" />
+            <edge id="_Edge2972061" source="_Node2972028" target="_Node2972060" />
+            <edge id="_Edge2972063" source="_Node2972060" target="_Node2972062" />
+            <edge id="_Edge2972066" source="_Node2972060" target="_Node2972065" />
+            <edge id="_Edge2972069" source="_Node2972028" target="_Node2972068" />
+            <edge id="_Edge2972072" source="_Node2972026" target="_Node2972071" />
+            <edge id="_Edge2972074" source="_Node2972071" target="_Node2972073" />
+            <edge id="_Edge2972077" source="_Node2972071" target="_Node2972076" />
+            <edge id="_Edge2972079" source="_Node2972076" target="_Node2972078" />
+            <edge id="_Edge2972082" source="_Node2972076" target="_Node2972081" />
+            <edge id="_Edge2972085" source="_Node2972024" target="_Node2972084" />
+            <edge id="_Edge2972087" source="_Node2972084" target="_Node2972086" />
+            <edge id="_Edge2972089" source="_Node2972086" target="_Node2972088" />
+            <edge id="_Edge2972092" source="_Node2972086" target="_Node2972091" />
+            <edge id="_Edge2972095" source="_Node2972084" target="_Node2972094" />
+            <edge id="_Edge2972098" source="_Node2972022" target="_Node2972097" />
+            <edge id="_Edge2972101" source="_Node2972017" target="_Node2972100" />
         </tree>
     </trees>
 </nex:nexml>

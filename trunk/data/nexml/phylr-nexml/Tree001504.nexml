@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S656"><citation>Bena, G. 2001. Molecular phylogeny supports the morphological based taxonomic transfer of the "medicagoid" Trigonella species to the genus Medicago L. Plant Syst. Evol., in press.</citation><author email="bena@mpl.ird.fr" firstname="Gilles" lastname="Bena" /></study></nex:external>
-    <otus id="_TaxaBlock664627">
+<nex:external xmlns="dbhack1/phylr"><study id="S656"><citation>Bena, G. 2001. Molecular phylogeny supports the morphological based taxonomic transfer of the "medicagoid" Trigonella species to the genus Medicago L. Plant Syst. Evol., in press.</citation><abstract>The taxonomic transfer of the 23 Trigonella species previously known as "medicagoids to the genus Medicago L." is reanalysed on the basis of a molecular phylogenetic approach. The internal and external transcribed spacers of 53 Medicago species sensu stricto and 10 of the 23 medicagoid species were sequenced. Both maximum parsimony or maximum likelihood criterion joined medicagoid species more confidently with Medicago rather than with Trigonella. The basal position of the medicagoid species within the genus Medicago, together with morphologically atypical Medicago species (such as M. radiata and M. platycarpa), raised the question of the expediency to define a new group and/or a new genus and is discussed, relatively to the support of each clade, based on morphological and molecular data. Using criteria of monophyly and support, it was concluded that the medicagoids are better joined in Medicago rather than placed in a new genus.</abstract><author email="bena@mpl.ird.fr" firstname="Gilles" lastname="Bena" /></study></nex:external>
+    <otus id="_TaxaBlock660996">
         <otu id="Trifoliumsubterraneum" label="Trifolium subterraneum" />
         <otu id="Trifoliumpratense" label="Trifolium pratense" />
         <otu id="Trigonellacretica" label="Trigonella cretica" />
@@ -86,285 +86,285 @@
         <otu id="Medicagoplatycarpa" label="Medicago platycarpa" />
         <otu id="Medicagolanigera" label="Medicago lanigera" />
     </otus>
-    <trees id="_TreesBlock664628" otus="_TaxaBlock664627">
+    <trees id="_TreesBlock660997" otus="_TaxaBlock660996">
         <tree id="Tree2008" label="Fig. 1" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S656A1343" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="ETS and ITS" nchar="1099" /></analysis></nex:external>
-            <node id="_Node664632" />
-            <node id="_Node664634" otu="Trifoliumsubterraneum" />
-            <node id="_Node664637" otu="Trifoliumpratense" />
-            <node id="_Node664640" />
-            <node id="_Node664642" />
-            <node id="_Node664644" />
-            <node id="_Node664646" />
-            <node id="_Node664648" />
-            <node id="_Node664650" />
-            <node id="_Node664652" otu="Trigonellacretica" />
-            <node id="_Node664655" otu="trigonellamacrorrhincha" />
-            <node id="_Node664658" otu="trigonellafoenumgraecum" />
-            <node id="_Node664661" otu="Melilotusofficinalis" />
-            <node id="_Node664664" otu="Melilotusitalica" />
-            <node id="_Node664667" />
-            <node id="_Node664669" />
-            <node id="_Node664671" otu="Trigonellaarabica" />
-            <node id="_Node664674" otu="Trigonellastellata" />
-            <node id="_Node664677" otu="Trigonellacalliceras" />
-            <node id="_Node664680" otu="Trigonellagracilis" />
-            <node id="_Node664683" />
-            <node id="_Node664685" />
-            <node id="_Node664687" otu="Trigonellakotschyi" />
-            <node id="_Node664690" otu="Trigonellaspruneriana" />
-            <node id="_Node664693" otu="Trigonellaspicata" />
-            <node id="_Node664696" />
-            <node id="_Node664698" />
-            <node id="_Node664700" />
-            <node id="_Node664702" />
-            <node id="_Node664704" />
-            <node id="_Node664706" otu="Medicagobrachycarpa" />
-            <node id="_Node664709" otu="Medicagohuberi" />
-            <node id="_Node664712" />
-            <node id="_Node664714" />
-            <node id="_Node664716" />
-            <node id="_Node664718" otu="Medicagoaurantiaca" />
-            <node id="_Node664721" otu="Medicagomonantha" />
-            <node id="_Node664724" otu="Medicagopolyceratia" />
-            <node id="_Node664727" />
-            <node id="_Node664729" />
-            <node id="_Node664731" />
-            <node id="_Node664733" otu="Medicagoorthoceras" />
-            <node id="_Node664736" otu="Medicagomedicaginoides" />
-            <node id="_Node664739" otu="Medicagofischeriana" />
-            <node id="_Node664742" otu="Medicagomonspeliaca" />
-            <node id="_Node664745" otu="Medicagobiflora" />
-            <node id="_Node664748" otu="Medicagoradiata" />
-            <node id="_Node664751" />
-            <node id="_Node664753" />
-            <node id="_Node664755" />
-            <node id="_Node664757" />
-            <node id="_Node664759" />
-            <node id="_Node664761" />
-            <node id="_Node664763" />
-            <node id="_Node664765" />
-            <node id="_Node664767" />
-            <node id="_Node664769" />
-            <node id="_Node664771" />
-            <node id="_Node664773" />
-            <node id="_Node664775" otu="Medicagosaxatilis" />
-            <node id="_Node664778" otu="Medicagofalcate" />
-            <node id="_Node664781" otu="Medicagosativa" />
-            <node id="_Node664784" />
-            <node id="_Node664786" otu="Medicagocretacea" />
-            <node id="_Node664789" otu="Medicagoglomerata" />
-            <node id="_Node664792" otu="Medicagocancellata" />
-            <node id="_Node664795" otu="Medicagopapillosa" />
-            <node id="_Node664798" otu="Medicagoprostrata" />
-            <node id="_Node664801" otu="Medicagoarborea" />
-            <node id="_Node664804" otu="Medicagomarina" />
-            <node id="_Node664807" otu="Medicagopironae" />
-            <node id="_Node664810" />
-            <node id="_Node664812" otu="Medicagoheyniana" />
-            <node id="_Node664815" otu="Medicagopraecox" />
-            <node id="_Node664818" />
-            <node id="_Node664820" />
-            <node id="_Node664822" />
-            <node id="_Node664824" />
-            <node id="_Node664826" otu="Medicagorigiduloides" />
-            <node id="_Node664829" otu="Medicagorigidula" />
-            <node id="_Node664832" otu="Medicagoconstricta" />
-            <node id="_Node664835" otu="Medicagonoeana" />
-            <node id="_Node664838" />
-            <node id="_Node664840" />
-            <node id="_Node664842" otu="Medicagodoliata" />
-            <node id="_Node664845" />
-            <node id="_Node664847" />
-            <node id="_Node664849" otu="Medicagolittoralis" />
-            <node id="_Node664852" otu="Medicagotornata" />
-            <node id="_Node664855" otu="Medicagotruncatula" />
-            <node id="_Node664858" otu="Medicagorugosa" />
-            <node id="_Node664861" otu="Medicagoscutellata" />
-            <node id="_Node664864" otu="Medicagoturbinata" />
-            <node id="_Node664867" otu="Medicagosoleirolii" />
-            <node id="_Node664870" />
-            <node id="_Node664872" />
-            <node id="_Node664874" />
-            <node id="_Node664876" otu="Medicagomurex" />
-            <node id="_Node664879" otu="Medicagosphaerocarpos" />
-            <node id="_Node664882" otu="Medicagopolymorpha" />
-            <node id="_Node664885" otu="Medicagosyriaca" />
-            <node id="_Node664888" />
-            <node id="_Node664890" />
-            <node id="_Node664892" otu="Medicagobonarotiana" />
-            <node id="_Node664895" otu="Medicagorotata" />
-            <node id="_Node664898" otu="Medicagoshepardii" />
-            <node id="_Node664901" otu="Medicagosecundiflora" />
-            <node id="_Node664904" />
-            <node id="_Node664906" />
-            <node id="_Node664908" />
-            <node id="_Node664910" otu="Medicagocoronata" />
-            <node id="_Node664913" otu="Medicagodisciformis" />
-            <node id="_Node664916" otu="Medicagominima" />
-            <node id="_Node664919" />
-            <node id="_Node664921" otu="Medicagotenoreana" />
-            <node id="_Node664924" otu="Medicagolupulina" />
-            <node id="_Node664927" />
-            <node id="_Node664929" otu="Medicagohybrida" />
-            <node id="_Node664932" otu="Medicagosuffruticosa" />
-            <node id="_Node664935" />
-            <node id="_Node664937" />
-            <node id="_Node664939" otu="Medicagoarabica" />
-            <node id="_Node664942" otu="Medicagoorbicularis" />
-            <node id="_Node664945" />
-            <node id="_Node664947" />
-            <node id="_Node664949" />
-            <node id="_Node664951" otu="Medicagociliaris" />
-            <node id="_Node664954" otu="Medicagomuricoleptis" />
-            <node id="_Node664957" otu="Medicagointertexta" />
-            <node id="_Node664960" otu="Medicagogranadensis" />
-            <node id="_Node664963" otu="Medicagocarstiensi" />
-            <node id="_Node664966" />
-            <node id="_Node664968" otu="Medicagolaciniata" />
-            <node id="_Node664971" otu="Medicagosauvagei" />
-            <node id="_Node664974" />
-            <node id="_Node664976" otu="Medicagopopovii" />
-            <node id="_Node664979" otu="Medicagoplatycarpa" />
-            <node id="_Node664982" otu="Medicagolanigera" />
-            <rootedge id="_Edge664633" target="_Node664632" />
-            <edge id="_Edge664635" source="_Node664632" target="_Node664634" />
-            <edge id="_Edge664638" source="_Node664632" target="_Node664637" />
-            <edge id="_Edge664641" source="_Node664632" target="_Node664640" />
-            <edge id="_Edge664643" source="_Node664640" target="_Node664642" />
-            <edge id="_Edge664645" source="_Node664642" target="_Node664644" />
-            <edge id="_Edge664647" source="_Node664644" target="_Node664646" />
-            <edge id="_Edge664649" source="_Node664646" target="_Node664648" />
-            <edge id="_Edge664651" source="_Node664648" target="_Node664650" />
-            <edge id="_Edge664653" source="_Node664650" target="_Node664652" />
-            <edge id="_Edge664656" source="_Node664650" target="_Node664655" />
-            <edge id="_Edge664659" source="_Node664648" target="_Node664658" />
-            <edge id="_Edge664662" source="_Node664646" target="_Node664661" />
-            <edge id="_Edge664665" source="_Node664644" target="_Node664664" />
-            <edge id="_Edge664668" source="_Node664642" target="_Node664667" />
-            <edge id="_Edge664670" source="_Node664667" target="_Node664669" />
-            <edge id="_Edge664672" source="_Node664669" target="_Node664671" />
-            <edge id="_Edge664675" source="_Node664669" target="_Node664674" />
-            <edge id="_Edge664678" source="_Node664667" target="_Node664677" />
-            <edge id="_Edge664681" source="_Node664667" target="_Node664680" />
-            <edge id="_Edge664684" source="_Node664667" target="_Node664683" />
-            <edge id="_Edge664686" source="_Node664683" target="_Node664685" />
-            <edge id="_Edge664688" source="_Node664685" target="_Node664687" />
-            <edge id="_Edge664691" source="_Node664685" target="_Node664690" />
-            <edge id="_Edge664694" source="_Node664683" target="_Node664693" />
-            <edge id="_Edge664697" source="_Node664640" target="_Node664696" />
-            <edge id="_Edge664699" source="_Node664696" target="_Node664698" />
-            <edge id="_Edge664701" source="_Node664698" target="_Node664700" />
-            <edge id="_Edge664703" source="_Node664700" target="_Node664702" />
-            <edge id="_Edge664705" source="_Node664702" target="_Node664704" />
-            <edge id="_Edge664707" source="_Node664704" target="_Node664706" />
-            <edge id="_Edge664710" source="_Node664704" target="_Node664709" />
-            <edge id="_Edge664713" source="_Node664702" target="_Node664712" />
-            <edge id="_Edge664715" source="_Node664712" target="_Node664714" />
-            <edge id="_Edge664717" source="_Node664714" target="_Node664716" />
-            <edge id="_Edge664719" source="_Node664716" target="_Node664718" />
-            <edge id="_Edge664722" source="_Node664716" target="_Node664721" />
-            <edge id="_Edge664725" source="_Node664714" target="_Node664724" />
-            <edge id="_Edge664728" source="_Node664712" target="_Node664727" />
-            <edge id="_Edge664730" source="_Node664727" target="_Node664729" />
-            <edge id="_Edge664732" source="_Node664729" target="_Node664731" />
-            <edge id="_Edge664734" source="_Node664731" target="_Node664733" />
-            <edge id="_Edge664737" source="_Node664731" target="_Node664736" />
-            <edge id="_Edge664740" source="_Node664729" target="_Node664739" />
-            <edge id="_Edge664743" source="_Node664727" target="_Node664742" />
-            <edge id="_Edge664746" source="_Node664702" target="_Node664745" />
-            <edge id="_Edge664749" source="_Node664700" target="_Node664748" />
-            <edge id="_Edge664752" source="_Node664698" target="_Node664751" />
-            <edge id="_Edge664754" source="_Node664751" target="_Node664753" />
-            <edge id="_Edge664756" source="_Node664753" target="_Node664755" />
-            <edge id="_Edge664758" source="_Node664755" target="_Node664757" />
-            <edge id="_Edge664760" source="_Node664757" target="_Node664759" />
-            <edge id="_Edge664762" source="_Node664759" target="_Node664761" />
-            <edge id="_Edge664764" source="_Node664761" target="_Node664763" />
-            <edge id="_Edge664766" source="_Node664763" target="_Node664765" />
-            <edge id="_Edge664768" source="_Node664765" target="_Node664767" />
-            <edge id="_Edge664770" source="_Node664767" target="_Node664769" />
-            <edge id="_Edge664772" source="_Node664769" target="_Node664771" />
-            <edge id="_Edge664774" source="_Node664771" target="_Node664773" />
-            <edge id="_Edge664776" source="_Node664773" target="_Node664775" />
-            <edge id="_Edge664779" source="_Node664773" target="_Node664778" />
-            <edge id="_Edge664782" source="_Node664771" target="_Node664781" />
-            <edge id="_Edge664785" source="_Node664769" target="_Node664784" />
-            <edge id="_Edge664787" source="_Node664784" target="_Node664786" />
-            <edge id="_Edge664790" source="_Node664784" target="_Node664789" />
-            <edge id="_Edge664793" source="_Node664767" target="_Node664792" />
-            <edge id="_Edge664796" source="_Node664765" target="_Node664795" />
-            <edge id="_Edge664799" source="_Node664765" target="_Node664798" />
-            <edge id="_Edge664802" source="_Node664765" target="_Node664801" />
-            <edge id="_Edge664805" source="_Node664765" target="_Node664804" />
-            <edge id="_Edge664808" source="_Node664765" target="_Node664807" />
-            <edge id="_Edge664811" source="_Node664763" target="_Node664810" />
-            <edge id="_Edge664813" source="_Node664810" target="_Node664812" />
-            <edge id="_Edge664816" source="_Node664810" target="_Node664815" />
-            <edge id="_Edge664819" source="_Node664761" target="_Node664818" />
-            <edge id="_Edge664821" source="_Node664818" target="_Node664820" />
-            <edge id="_Edge664823" source="_Node664820" target="_Node664822" />
-            <edge id="_Edge664825" source="_Node664822" target="_Node664824" />
-            <edge id="_Edge664827" source="_Node664824" target="_Node664826" />
-            <edge id="_Edge664830" source="_Node664824" target="_Node664829" />
-            <edge id="_Edge664833" source="_Node664822" target="_Node664832" />
-            <edge id="_Edge664836" source="_Node664820" target="_Node664835" />
-            <edge id="_Edge664839" source="_Node664818" target="_Node664838" />
-            <edge id="_Edge664841" source="_Node664838" target="_Node664840" />
-            <edge id="_Edge664843" source="_Node664840" target="_Node664842" />
-            <edge id="_Edge664846" source="_Node664840" target="_Node664845" />
-            <edge id="_Edge664848" source="_Node664845" target="_Node664847" />
-            <edge id="_Edge664850" source="_Node664847" target="_Node664849" />
-            <edge id="_Edge664853" source="_Node664847" target="_Node664852" />
-            <edge id="_Edge664856" source="_Node664845" target="_Node664855" />
-            <edge id="_Edge664859" source="_Node664840" target="_Node664858" />
-            <edge id="_Edge664862" source="_Node664840" target="_Node664861" />
-            <edge id="_Edge664865" source="_Node664840" target="_Node664864" />
-            <edge id="_Edge664868" source="_Node664838" target="_Node664867" />
-            <edge id="_Edge664871" source="_Node664759" target="_Node664870" />
-            <edge id="_Edge664873" source="_Node664870" target="_Node664872" />
-            <edge id="_Edge664875" source="_Node664872" target="_Node664874" />
-            <edge id="_Edge664877" source="_Node664874" target="_Node664876" />
-            <edge id="_Edge664880" source="_Node664874" target="_Node664879" />
-            <edge id="_Edge664883" source="_Node664872" target="_Node664882" />
-            <edge id="_Edge664886" source="_Node664870" target="_Node664885" />
-            <edge id="_Edge664889" source="_Node664757" target="_Node664888" />
-            <edge id="_Edge664891" source="_Node664888" target="_Node664890" />
-            <edge id="_Edge664893" source="_Node664890" target="_Node664892" />
-            <edge id="_Edge664896" source="_Node664890" target="_Node664895" />
-            <edge id="_Edge664899" source="_Node664888" target="_Node664898" />
-            <edge id="_Edge664902" source="_Node664755" target="_Node664901" />
-            <edge id="_Edge664905" source="_Node664753" target="_Node664904" />
-            <edge id="_Edge664907" source="_Node664904" target="_Node664906" />
-            <edge id="_Edge664909" source="_Node664906" target="_Node664908" />
-            <edge id="_Edge664911" source="_Node664908" target="_Node664910" />
-            <edge id="_Edge664914" source="_Node664908" target="_Node664913" />
-            <edge id="_Edge664917" source="_Node664908" target="_Node664916" />
-            <edge id="_Edge664920" source="_Node664906" target="_Node664919" />
-            <edge id="_Edge664922" source="_Node664919" target="_Node664921" />
-            <edge id="_Edge664925" source="_Node664919" target="_Node664924" />
-            <edge id="_Edge664928" source="_Node664904" target="_Node664927" />
-            <edge id="_Edge664930" source="_Node664927" target="_Node664929" />
-            <edge id="_Edge664933" source="_Node664927" target="_Node664932" />
-            <edge id="_Edge664936" source="_Node664753" target="_Node664935" />
-            <edge id="_Edge664938" source="_Node664935" target="_Node664937" />
-            <edge id="_Edge664940" source="_Node664937" target="_Node664939" />
-            <edge id="_Edge664943" source="_Node664937" target="_Node664942" />
-            <edge id="_Edge664946" source="_Node664935" target="_Node664945" />
-            <edge id="_Edge664948" source="_Node664945" target="_Node664947" />
-            <edge id="_Edge664950" source="_Node664947" target="_Node664949" />
-            <edge id="_Edge664952" source="_Node664949" target="_Node664951" />
-            <edge id="_Edge664955" source="_Node664949" target="_Node664954" />
-            <edge id="_Edge664958" source="_Node664947" target="_Node664957" />
-            <edge id="_Edge664961" source="_Node664945" target="_Node664960" />
-            <edge id="_Edge664964" source="_Node664753" target="_Node664963" />
-            <edge id="_Edge664967" source="_Node664751" target="_Node664966" />
-            <edge id="_Edge664969" source="_Node664966" target="_Node664968" />
-            <edge id="_Edge664972" source="_Node664966" target="_Node664971" />
-            <edge id="_Edge664975" source="_Node664696" target="_Node664974" />
-            <edge id="_Edge664977" source="_Node664974" target="_Node664976" />
-            <edge id="_Edge664980" source="_Node664974" target="_Node664979" />
-            <edge id="_Edge664983" source="_Node664696" target="_Node664982" />
+            <node id="_Node661001" />
+            <node id="_Node661003" otu="Trifoliumsubterraneum" />
+            <node id="_Node661006" otu="Trifoliumpratense" />
+            <node id="_Node661009" />
+            <node id="_Node661011" />
+            <node id="_Node661013" />
+            <node id="_Node661015" />
+            <node id="_Node661017" />
+            <node id="_Node661019" />
+            <node id="_Node661021" otu="Trigonellacretica" />
+            <node id="_Node661024" otu="trigonellamacrorrhincha" />
+            <node id="_Node661027" otu="trigonellafoenumgraecum" />
+            <node id="_Node661030" otu="Melilotusofficinalis" />
+            <node id="_Node661033" otu="Melilotusitalica" />
+            <node id="_Node661036" />
+            <node id="_Node661038" />
+            <node id="_Node661040" otu="Trigonellaarabica" />
+            <node id="_Node661043" otu="Trigonellastellata" />
+            <node id="_Node661046" otu="Trigonellacalliceras" />
+            <node id="_Node661049" otu="Trigonellagracilis" />
+            <node id="_Node661052" />
+            <node id="_Node661054" />
+            <node id="_Node661056" otu="Trigonellakotschyi" />
+            <node id="_Node661059" otu="Trigonellaspruneriana" />
+            <node id="_Node661062" otu="Trigonellaspicata" />
+            <node id="_Node661065" />
+            <node id="_Node661067" />
+            <node id="_Node661069" />
+            <node id="_Node661071" />
+            <node id="_Node661073" />
+            <node id="_Node661075" otu="Medicagobrachycarpa" />
+            <node id="_Node661078" otu="Medicagohuberi" />
+            <node id="_Node661081" />
+            <node id="_Node661083" />
+            <node id="_Node661085" />
+            <node id="_Node661087" otu="Medicagoaurantiaca" />
+            <node id="_Node661090" otu="Medicagomonantha" />
+            <node id="_Node661093" otu="Medicagopolyceratia" />
+            <node id="_Node661096" />
+            <node id="_Node661098" />
+            <node id="_Node661100" />
+            <node id="_Node661102" otu="Medicagoorthoceras" />
+            <node id="_Node661105" otu="Medicagomedicaginoides" />
+            <node id="_Node661108" otu="Medicagofischeriana" />
+            <node id="_Node661111" otu="Medicagomonspeliaca" />
+            <node id="_Node661114" otu="Medicagobiflora" />
+            <node id="_Node661117" otu="Medicagoradiata" />
+            <node id="_Node661120" />
+            <node id="_Node661122" />
+            <node id="_Node661124" />
+            <node id="_Node661126" />
+            <node id="_Node661128" />
+            <node id="_Node661130" />
+            <node id="_Node661132" />
+            <node id="_Node661134" />
+            <node id="_Node661136" />
+            <node id="_Node661138" />
+            <node id="_Node661140" />
+            <node id="_Node661142" />
+            <node id="_Node661144" otu="Medicagosaxatilis" />
+            <node id="_Node661147" otu="Medicagofalcate" />
+            <node id="_Node661150" otu="Medicagosativa" />
+            <node id="_Node661153" />
+            <node id="_Node661155" otu="Medicagocretacea" />
+            <node id="_Node661158" otu="Medicagoglomerata" />
+            <node id="_Node661161" otu="Medicagocancellata" />
+            <node id="_Node661164" otu="Medicagopapillosa" />
+            <node id="_Node661167" otu="Medicagoprostrata" />
+            <node id="_Node661170" otu="Medicagoarborea" />
+            <node id="_Node661173" otu="Medicagomarina" />
+            <node id="_Node661176" otu="Medicagopironae" />
+            <node id="_Node661179" />
+            <node id="_Node661181" otu="Medicagoheyniana" />
+            <node id="_Node661184" otu="Medicagopraecox" />
+            <node id="_Node661187" />
+            <node id="_Node661189" />
+            <node id="_Node661191" />
+            <node id="_Node661193" />
+            <node id="_Node661195" otu="Medicagorigiduloides" />
+            <node id="_Node661198" otu="Medicagorigidula" />
+            <node id="_Node661201" otu="Medicagoconstricta" />
+            <node id="_Node661204" otu="Medicagonoeana" />
+            <node id="_Node661207" />
+            <node id="_Node661209" />
+            <node id="_Node661211" otu="Medicagodoliata" />
+            <node id="_Node661214" />
+            <node id="_Node661216" />
+            <node id="_Node661218" otu="Medicagolittoralis" />
+            <node id="_Node661221" otu="Medicagotornata" />
+            <node id="_Node661224" otu="Medicagotruncatula" />
+            <node id="_Node661227" otu="Medicagorugosa" />
+            <node id="_Node661230" otu="Medicagoscutellata" />
+            <node id="_Node661233" otu="Medicagoturbinata" />
+            <node id="_Node661236" otu="Medicagosoleirolii" />
+            <node id="_Node661239" />
+            <node id="_Node661241" />
+            <node id="_Node661243" />
+            <node id="_Node661245" otu="Medicagomurex" />
+            <node id="_Node661248" otu="Medicagosphaerocarpos" />
+            <node id="_Node661251" otu="Medicagopolymorpha" />
+            <node id="_Node661254" otu="Medicagosyriaca" />
+            <node id="_Node661257" />
+            <node id="_Node661259" />
+            <node id="_Node661261" otu="Medicagobonarotiana" />
+            <node id="_Node661264" otu="Medicagorotata" />
+            <node id="_Node661267" otu="Medicagoshepardii" />
+            <node id="_Node661270" otu="Medicagosecundiflora" />
+            <node id="_Node661273" />
+            <node id="_Node661275" />
+            <node id="_Node661277" />
+            <node id="_Node661279" otu="Medicagocoronata" />
+            <node id="_Node661282" otu="Medicagodisciformis" />
+            <node id="_Node661285" otu="Medicagominima" />
+            <node id="_Node661288" />
+            <node id="_Node661290" otu="Medicagotenoreana" />
+            <node id="_Node661293" otu="Medicagolupulina" />
+            <node id="_Node661296" />
+            <node id="_Node661298" otu="Medicagohybrida" />
+            <node id="_Node661301" otu="Medicagosuffruticosa" />
+            <node id="_Node661304" />
+            <node id="_Node661306" />
+            <node id="_Node661308" otu="Medicagoarabica" />
+            <node id="_Node661311" otu="Medicagoorbicularis" />
+            <node id="_Node661314" />
+            <node id="_Node661316" />
+            <node id="_Node661318" />
+            <node id="_Node661320" otu="Medicagociliaris" />
+            <node id="_Node661323" otu="Medicagomuricoleptis" />
+            <node id="_Node661326" otu="Medicagointertexta" />
+            <node id="_Node661329" otu="Medicagogranadensis" />
+            <node id="_Node661332" otu="Medicagocarstiensi" />
+            <node id="_Node661335" />
+            <node id="_Node661337" otu="Medicagolaciniata" />
+            <node id="_Node661340" otu="Medicagosauvagei" />
+            <node id="_Node661343" />
+            <node id="_Node661345" otu="Medicagopopovii" />
+            <node id="_Node661348" otu="Medicagoplatycarpa" />
+            <node id="_Node661351" otu="Medicagolanigera" />
+            <rootedge id="_Edge661002" target="_Node661001" />
+            <edge id="_Edge661004" source="_Node661001" target="_Node661003" />
+            <edge id="_Edge661007" source="_Node661001" target="_Node661006" />
+            <edge id="_Edge661010" source="_Node661001" target="_Node661009" />
+            <edge id="_Edge661012" source="_Node661009" target="_Node661011" />
+            <edge id="_Edge661014" source="_Node661011" target="_Node661013" />
+            <edge id="_Edge661016" source="_Node661013" target="_Node661015" />
+            <edge id="_Edge661018" source="_Node661015" target="_Node661017" />
+            <edge id="_Edge661020" source="_Node661017" target="_Node661019" />
+            <edge id="_Edge661022" source="_Node661019" target="_Node661021" />
+            <edge id="_Edge661025" source="_Node661019" target="_Node661024" />
+            <edge id="_Edge661028" source="_Node661017" target="_Node661027" />
+            <edge id="_Edge661031" source="_Node661015" target="_Node661030" />
+            <edge id="_Edge661034" source="_Node661013" target="_Node661033" />
+            <edge id="_Edge661037" source="_Node661011" target="_Node661036" />
+            <edge id="_Edge661039" source="_Node661036" target="_Node661038" />
+            <edge id="_Edge661041" source="_Node661038" target="_Node661040" />
+            <edge id="_Edge661044" source="_Node661038" target="_Node661043" />
+            <edge id="_Edge661047" source="_Node661036" target="_Node661046" />
+            <edge id="_Edge661050" source="_Node661036" target="_Node661049" />
+            <edge id="_Edge661053" source="_Node661036" target="_Node661052" />
+            <edge id="_Edge661055" source="_Node661052" target="_Node661054" />
+            <edge id="_Edge661057" source="_Node661054" target="_Node661056" />
+            <edge id="_Edge661060" source="_Node661054" target="_Node661059" />
+            <edge id="_Edge661063" source="_Node661052" target="_Node661062" />
+            <edge id="_Edge661066" source="_Node661009" target="_Node661065" />
+            <edge id="_Edge661068" source="_Node661065" target="_Node661067" />
+            <edge id="_Edge661070" source="_Node661067" target="_Node661069" />
+            <edge id="_Edge661072" source="_Node661069" target="_Node661071" />
+            <edge id="_Edge661074" source="_Node661071" target="_Node661073" />
+            <edge id="_Edge661076" source="_Node661073" target="_Node661075" />
+            <edge id="_Edge661079" source="_Node661073" target="_Node661078" />
+            <edge id="_Edge661082" source="_Node661071" target="_Node661081" />
+            <edge id="_Edge661084" source="_Node661081" target="_Node661083" />
+            <edge id="_Edge661086" source="_Node661083" target="_Node661085" />
+            <edge id="_Edge661088" source="_Node661085" target="_Node661087" />
+            <edge id="_Edge661091" source="_Node661085" target="_Node661090" />
+            <edge id="_Edge661094" source="_Node661083" target="_Node661093" />
+            <edge id="_Edge661097" source="_Node661081" target="_Node661096" />
+            <edge id="_Edge661099" source="_Node661096" target="_Node661098" />
+            <edge id="_Edge661101" source="_Node661098" target="_Node661100" />
+            <edge id="_Edge661103" source="_Node661100" target="_Node661102" />
+            <edge id="_Edge661106" source="_Node661100" target="_Node661105" />
+            <edge id="_Edge661109" source="_Node661098" target="_Node661108" />
+            <edge id="_Edge661112" source="_Node661096" target="_Node661111" />
+            <edge id="_Edge661115" source="_Node661071" target="_Node661114" />
+            <edge id="_Edge661118" source="_Node661069" target="_Node661117" />
+            <edge id="_Edge661121" source="_Node661067" target="_Node661120" />
+            <edge id="_Edge661123" source="_Node661120" target="_Node661122" />
+            <edge id="_Edge661125" source="_Node661122" target="_Node661124" />
+            <edge id="_Edge661127" source="_Node661124" target="_Node661126" />
+            <edge id="_Edge661129" source="_Node661126" target="_Node661128" />
+            <edge id="_Edge661131" source="_Node661128" target="_Node661130" />
+            <edge id="_Edge661133" source="_Node661130" target="_Node661132" />
+            <edge id="_Edge661135" source="_Node661132" target="_Node661134" />
+            <edge id="_Edge661137" source="_Node661134" target="_Node661136" />
+            <edge id="_Edge661139" source="_Node661136" target="_Node661138" />
+            <edge id="_Edge661141" source="_Node661138" target="_Node661140" />
+            <edge id="_Edge661143" source="_Node661140" target="_Node661142" />
+            <edge id="_Edge661145" source="_Node661142" target="_Node661144" />
+            <edge id="_Edge661148" source="_Node661142" target="_Node661147" />
+            <edge id="_Edge661151" source="_Node661140" target="_Node661150" />
+            <edge id="_Edge661154" source="_Node661138" target="_Node661153" />
+            <edge id="_Edge661156" source="_Node661153" target="_Node661155" />
+            <edge id="_Edge661159" source="_Node661153" target="_Node661158" />
+            <edge id="_Edge661162" source="_Node661136" target="_Node661161" />
+            <edge id="_Edge661165" source="_Node661134" target="_Node661164" />
+            <edge id="_Edge661168" source="_Node661134" target="_Node661167" />
+            <edge id="_Edge661171" source="_Node661134" target="_Node661170" />
+            <edge id="_Edge661174" source="_Node661134" target="_Node661173" />
+            <edge id="_Edge661177" source="_Node661134" target="_Node661176" />
+            <edge id="_Edge661180" source="_Node661132" target="_Node661179" />
+            <edge id="_Edge661182" source="_Node661179" target="_Node661181" />
+            <edge id="_Edge661185" source="_Node661179" target="_Node661184" />
+            <edge id="_Edge661188" source="_Node661130" target="_Node661187" />
+            <edge id="_Edge661190" source="_Node661187" target="_Node661189" />
+            <edge id="_Edge661192" source="_Node661189" target="_Node661191" />
+            <edge id="_Edge661194" source="_Node661191" target="_Node661193" />
+            <edge id="_Edge661196" source="_Node661193" target="_Node661195" />
+            <edge id="_Edge661199" source="_Node661193" target="_Node661198" />
+            <edge id="_Edge661202" source="_Node661191" target="_Node661201" />
+            <edge id="_Edge661205" source="_Node661189" target="_Node661204" />
+            <edge id="_Edge661208" source="_Node661187" target="_Node661207" />
+            <edge id="_Edge661210" source="_Node661207" target="_Node661209" />
+            <edge id="_Edge661212" source="_Node661209" target="_Node661211" />
+            <edge id="_Edge661215" source="_Node661209" target="_Node661214" />
+            <edge id="_Edge661217" source="_Node661214" target="_Node661216" />
+            <edge id="_Edge661219" source="_Node661216" target="_Node661218" />
+            <edge id="_Edge661222" source="_Node661216" target="_Node661221" />
+            <edge id="_Edge661225" source="_Node661214" target="_Node661224" />
+            <edge id="_Edge661228" source="_Node661209" target="_Node661227" />
+            <edge id="_Edge661231" source="_Node661209" target="_Node661230" />
+            <edge id="_Edge661234" source="_Node661209" target="_Node661233" />
+            <edge id="_Edge661237" source="_Node661207" target="_Node661236" />
+            <edge id="_Edge661240" source="_Node661128" target="_Node661239" />
+            <edge id="_Edge661242" source="_Node661239" target="_Node661241" />
+            <edge id="_Edge661244" source="_Node661241" target="_Node661243" />
+            <edge id="_Edge661246" source="_Node661243" target="_Node661245" />
+            <edge id="_Edge661249" source="_Node661243" target="_Node661248" />
+            <edge id="_Edge661252" source="_Node661241" target="_Node661251" />
+            <edge id="_Edge661255" source="_Node661239" target="_Node661254" />
+            <edge id="_Edge661258" source="_Node661126" target="_Node661257" />
+            <edge id="_Edge661260" source="_Node661257" target="_Node661259" />
+            <edge id="_Edge661262" source="_Node661259" target="_Node661261" />
+            <edge id="_Edge661265" source="_Node661259" target="_Node661264" />
+            <edge id="_Edge661268" source="_Node661257" target="_Node661267" />
+            <edge id="_Edge661271" source="_Node661124" target="_Node661270" />
+            <edge id="_Edge661274" source="_Node661122" target="_Node661273" />
+            <edge id="_Edge661276" source="_Node661273" target="_Node661275" />
+            <edge id="_Edge661278" source="_Node661275" target="_Node661277" />
+            <edge id="_Edge661280" source="_Node661277" target="_Node661279" />
+            <edge id="_Edge661283" source="_Node661277" target="_Node661282" />
+            <edge id="_Edge661286" source="_Node661277" target="_Node661285" />
+            <edge id="_Edge661289" source="_Node661275" target="_Node661288" />
+            <edge id="_Edge661291" source="_Node661288" target="_Node661290" />
+            <edge id="_Edge661294" source="_Node661288" target="_Node661293" />
+            <edge id="_Edge661297" source="_Node661273" target="_Node661296" />
+            <edge id="_Edge661299" source="_Node661296" target="_Node661298" />
+            <edge id="_Edge661302" source="_Node661296" target="_Node661301" />
+            <edge id="_Edge661305" source="_Node661122" target="_Node661304" />
+            <edge id="_Edge661307" source="_Node661304" target="_Node661306" />
+            <edge id="_Edge661309" source="_Node661306" target="_Node661308" />
+            <edge id="_Edge661312" source="_Node661306" target="_Node661311" />
+            <edge id="_Edge661315" source="_Node661304" target="_Node661314" />
+            <edge id="_Edge661317" source="_Node661314" target="_Node661316" />
+            <edge id="_Edge661319" source="_Node661316" target="_Node661318" />
+            <edge id="_Edge661321" source="_Node661318" target="_Node661320" />
+            <edge id="_Edge661324" source="_Node661318" target="_Node661323" />
+            <edge id="_Edge661327" source="_Node661316" target="_Node661326" />
+            <edge id="_Edge661330" source="_Node661314" target="_Node661329" />
+            <edge id="_Edge661333" source="_Node661122" target="_Node661332" />
+            <edge id="_Edge661336" source="_Node661120" target="_Node661335" />
+            <edge id="_Edge661338" source="_Node661335" target="_Node661337" />
+            <edge id="_Edge661341" source="_Node661335" target="_Node661340" />
+            <edge id="_Edge661344" source="_Node661065" target="_Node661343" />
+            <edge id="_Edge661346" source="_Node661343" target="_Node661345" />
+            <edge id="_Edge661349" source="_Node661343" target="_Node661348" />
+            <edge id="_Edge661352" source="_Node661065" target="_Node661351" />
         </tree>
     </trees>
 </nex:nexml>

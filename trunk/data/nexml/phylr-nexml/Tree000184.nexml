@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,7 +6,7 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S1x28x96c13c56c45"><citation>Anderberg, A. A., and S. A. Freire. 1991. A cladistic and biogeographic analysis of the Lucilia group (Asteraceae, Gnaphalieae). Bot. J. Linn. Soc. 106:173-198.</citation><author email="arne.anderberg@nrm.se" firstname="Arne A. " lastname="Anderberg" /><author firstname="S. A." lastname="Freire" /></study></nex:external>
+<nex:external xmlns="dbhack1/phylr"><study id="S1x28x96c13c56c45"><citation>Anderberg, A. A., and S. A. Freire. 1991. A cladistic and biogeographic analysis of the Lucilia group (Asteraceae, Gnaphalieae). Bot. J. Linn. Soc. 106:173-198.</citation><abstract>The Lucilia group (Asteraceae, Inuleae- Gnaphaliinae) sensu Merxmuller el al. is revisited and its phylogeny analysed by means of computerized parsimony program (Hennig86). Cladograms and strict consensus trees are presented and discussed. A sequential model of the vicariance biogeography of the Lucilia group is presented and its implications on the historical biogeography of South America is discussed. The following genera are recognized as belonging to the group: Belloa, Berroa, Chevreulia, Cualrecasasiella ( = Luciliopsis auct.), Facelis, Jalcophila and Lucilia. Also belonging to the Lucilia group are the two genera Gamochaetopsis and Luciliocline. A key is given to the nine recognized genera, each of which is described here with brief descriptions and lists of recognized species.</abstract><author email="arne.anderberg@nrm.se" firstname="Arne A. " lastname="Anderberg" /><author firstname="S. A." lastname="Freire" /></study></nex:external>
     <otus id="_TaxaBlock50747">
         <otu id="Gamochaeta" label="Gamochaeta" />
         <otu id="Jalcophilaecuadoriensis" label="Jalcophila ecuadoriensis" />

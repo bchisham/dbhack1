@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -7,7 +7,7 @@
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S1575"><citation>Yongjin, W., Z.M. Tan, C. Murat, S. Jeandroz, and F. Le Tacon. 2006. Molecular taxonomy of Chinese truffles belonging to the Tuber rufum and Tuber puberulum groups. Fungal Diversity, in press.</citation><author email="jeandroz@dijon.inra.fr" firstname="Sylvain" lastname="Jeandroz" /><author email="le_tacon@nancy.inra.fr" firstname="Fran&#195;&#167;ois " lastname="Le Tacon" /><author email="claude.murat@unito.it" firstname="Claude" lastname="Murat" /><author email="tzm01@hotmail.com" firstname="Zhuming" lastname="Tan" /><author email="wyongjin@sibs.ac.cn" firstname="Yongjin" lastname="Wang" /></study></nex:external>
-    <otus id="_TaxaBlock2190548">
+    <otus id="_TaxaBlock2186917">
         <otu id="Tubercandidum" label="Tuber candidum" />
         <otu id="Tuberexcavatum" label="Tuber excavatum" />
         <otu id="Tuberquercicola" label="Tuber quercicola" />
@@ -33,101 +33,101 @@
         <otu id="Tubertexensexh01" label="Tuber texense xh01" />
         <otu id="Tubertaiyuanensebj02" label="Tuber taiyuanense bj02" />
     </otus>
-    <trees id="_TreesBlock2190549" otus="_TaxaBlock2190548">
+    <trees id="_TreesBlock2186918" otus="_TaxaBlock2186917">
         <tree id="Tree4476" label="ITS1-Rufum-complet deletion" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="neighbor joining" id="S1575A5914" software="MEGA"><inputmatrix datatype="Nucleic Acid" name="ITS1-Rufum" nchar="243" /></analysis></nex:external>
-            <node id="_Node2190553" />
-            <node id="_Node2190555" otu="Tubercandidum" />
-            <node id="_Node2190558" otu="Tuberexcavatum" />
-            <node id="_Node2190561" />
-            <node id="_Node2190563" otu="Tuberquercicola" />
-            <node id="_Node2190566" />
-            <node id="_Node2190568" />
-            <node id="_Node2190570" />
-            <node id="_Node2190572" />
-            <node id="_Node2190574" otu="Tuberliaotongensefs04" />
-            <node id="_Node2190577" />
-            <node id="_Node2190579" otu="Tuberliaotongensemg02" />
-            <node id="_Node2190582" />
-            <node id="_Node2190584" otu="Tubersp.mg02" />
-            <node id="_Node2190587" />
-            <node id="_Node2190589" otu="Tubersp.mg01" />
-            <node id="_Node2190592" />
-            <node id="_Node2190594" otu="Tuberliaotongensemg01" />
-            <node id="_Node2190597" />
-            <node id="_Node2190599" otu="Tuberdryophilum" />
-            <node id="_Node2190602" />
-            <node id="_Node2190604" otu="Tuberliaotongensefs01" />
-            <node id="_Node2190607" />
-            <node id="_Node2190609" otu="Tubertaiyuanensebj01" />
-            <node id="_Node2190612" />
-            <node id="_Node2190614" otu="Tuberborchii" />
-            <node id="_Node2190617" otu="Tubercalifornicum" />
-            <node id="_Node2190620" />
-            <node id="_Node2190622" otu="Tuberhuidongensepzh08" />
-            <node id="_Node2190625" />
-            <node id="_Node2190627" otu="Tuberhuidongensehd01" />
-            <node id="_Node2190630" otu="Tuberhuidongensepzh09" />
-            <node id="_Node2190633" />
-            <node id="_Node2190635" otu="Tuberferrugineum" />
-            <node id="_Node2190638" />
-            <node id="_Node2190640" otu="Tuberrufumeu01" />
-            <node id="_Node2190643" otu="TuberrufumAF106892" />
-            <node id="_Node2190646" />
-            <node id="_Node2190648" />
-            <node id="_Node2190650" otu="TuberrufumAY940646" />
-            <node id="_Node2190653" otu="TuberrufumAY112894" />
-            <node id="_Node2190656" />
-            <node id="_Node2190658" otu="Tubertexensexh02" />
-            <node id="_Node2190661" />
-            <node id="_Node2190663" otu="Tubertexensexh01" />
-            <node id="_Node2190666" otu="Tubertaiyuanensebj02" />
-            <rootedge id="_Edge2190554" target="_Node2190553" />
-            <edge id="_Edge2190556" source="_Node2190553" target="_Node2190555" />
-            <edge id="_Edge2190559" source="_Node2190553" target="_Node2190558" />
-            <edge id="_Edge2190562" source="_Node2190553" target="_Node2190561" />
-            <edge id="_Edge2190564" source="_Node2190561" target="_Node2190563" />
-            <edge id="_Edge2190567" source="_Node2190561" target="_Node2190566" />
-            <edge id="_Edge2190569" source="_Node2190566" target="_Node2190568" />
-            <edge id="_Edge2190571" source="_Node2190568" target="_Node2190570" />
-            <edge id="_Edge2190573" source="_Node2190570" target="_Node2190572" />
-            <edge id="_Edge2190575" source="_Node2190572" target="_Node2190574" />
-            <edge id="_Edge2190578" source="_Node2190572" target="_Node2190577" />
-            <edge id="_Edge2190580" source="_Node2190577" target="_Node2190579" />
-            <edge id="_Edge2190583" source="_Node2190577" target="_Node2190582" />
-            <edge id="_Edge2190585" source="_Node2190582" target="_Node2190584" />
-            <edge id="_Edge2190588" source="_Node2190582" target="_Node2190587" />
-            <edge id="_Edge2190590" source="_Node2190587" target="_Node2190589" />
-            <edge id="_Edge2190593" source="_Node2190587" target="_Node2190592" />
-            <edge id="_Edge2190595" source="_Node2190592" target="_Node2190594" />
-            <edge id="_Edge2190598" source="_Node2190592" target="_Node2190597" />
-            <edge id="_Edge2190600" source="_Node2190597" target="_Node2190599" />
-            <edge id="_Edge2190603" source="_Node2190597" target="_Node2190602" />
-            <edge id="_Edge2190605" source="_Node2190602" target="_Node2190604" />
-            <edge id="_Edge2190608" source="_Node2190602" target="_Node2190607" />
-            <edge id="_Edge2190610" source="_Node2190607" target="_Node2190609" />
-            <edge id="_Edge2190613" source="_Node2190607" target="_Node2190612" />
-            <edge id="_Edge2190615" source="_Node2190612" target="_Node2190614" />
-            <edge id="_Edge2190618" source="_Node2190612" target="_Node2190617" />
-            <edge id="_Edge2190621" source="_Node2190570" target="_Node2190620" />
-            <edge id="_Edge2190623" source="_Node2190620" target="_Node2190622" />
-            <edge id="_Edge2190626" source="_Node2190620" target="_Node2190625" />
-            <edge id="_Edge2190628" source="_Node2190625" target="_Node2190627" />
-            <edge id="_Edge2190631" source="_Node2190625" target="_Node2190630" />
-            <edge id="_Edge2190634" source="_Node2190568" target="_Node2190633" />
-            <edge id="_Edge2190636" source="_Node2190633" target="_Node2190635" />
-            <edge id="_Edge2190639" source="_Node2190633" target="_Node2190638" />
-            <edge id="_Edge2190641" source="_Node2190638" target="_Node2190640" />
-            <edge id="_Edge2190644" source="_Node2190638" target="_Node2190643" />
-            <edge id="_Edge2190647" source="_Node2190566" target="_Node2190646" />
-            <edge id="_Edge2190649" source="_Node2190646" target="_Node2190648" />
-            <edge id="_Edge2190651" source="_Node2190648" target="_Node2190650" />
-            <edge id="_Edge2190654" source="_Node2190648" target="_Node2190653" />
-            <edge id="_Edge2190657" source="_Node2190646" target="_Node2190656" />
-            <edge id="_Edge2190659" source="_Node2190656" target="_Node2190658" />
-            <edge id="_Edge2190662" source="_Node2190656" target="_Node2190661" />
-            <edge id="_Edge2190664" source="_Node2190661" target="_Node2190663" />
-            <edge id="_Edge2190667" source="_Node2190661" target="_Node2190666" />
+            <node id="_Node2186922" />
+            <node id="_Node2186924" otu="Tubercandidum" />
+            <node id="_Node2186927" otu="Tuberexcavatum" />
+            <node id="_Node2186930" />
+            <node id="_Node2186932" otu="Tuberquercicola" />
+            <node id="_Node2186935" />
+            <node id="_Node2186937" />
+            <node id="_Node2186939" />
+            <node id="_Node2186941" />
+            <node id="_Node2186943" otu="Tuberliaotongensefs04" />
+            <node id="_Node2186946" />
+            <node id="_Node2186948" otu="Tuberliaotongensemg02" />
+            <node id="_Node2186951" />
+            <node id="_Node2186953" otu="Tubersp.mg02" />
+            <node id="_Node2186956" />
+            <node id="_Node2186958" otu="Tubersp.mg01" />
+            <node id="_Node2186961" />
+            <node id="_Node2186963" otu="Tuberliaotongensemg01" />
+            <node id="_Node2186966" />
+            <node id="_Node2186968" otu="Tuberdryophilum" />
+            <node id="_Node2186971" />
+            <node id="_Node2186973" otu="Tuberliaotongensefs01" />
+            <node id="_Node2186976" />
+            <node id="_Node2186978" otu="Tubertaiyuanensebj01" />
+            <node id="_Node2186981" />
+            <node id="_Node2186983" otu="Tuberborchii" />
+            <node id="_Node2186986" otu="Tubercalifornicum" />
+            <node id="_Node2186989" />
+            <node id="_Node2186991" otu="Tuberhuidongensepzh08" />
+            <node id="_Node2186994" />
+            <node id="_Node2186996" otu="Tuberhuidongensehd01" />
+            <node id="_Node2186999" otu="Tuberhuidongensepzh09" />
+            <node id="_Node2187002" />
+            <node id="_Node2187004" otu="Tuberferrugineum" />
+            <node id="_Node2187007" />
+            <node id="_Node2187009" otu="Tuberrufumeu01" />
+            <node id="_Node2187012" otu="TuberrufumAF106892" />
+            <node id="_Node2187015" />
+            <node id="_Node2187017" />
+            <node id="_Node2187019" otu="TuberrufumAY940646" />
+            <node id="_Node2187022" otu="TuberrufumAY112894" />
+            <node id="_Node2187025" />
+            <node id="_Node2187027" otu="Tubertexensexh02" />
+            <node id="_Node2187030" />
+            <node id="_Node2187032" otu="Tubertexensexh01" />
+            <node id="_Node2187035" otu="Tubertaiyuanensebj02" />
+            <rootedge id="_Edge2186923" target="_Node2186922" />
+            <edge id="_Edge2186925" source="_Node2186922" target="_Node2186924" />
+            <edge id="_Edge2186928" source="_Node2186922" target="_Node2186927" />
+            <edge id="_Edge2186931" source="_Node2186922" target="_Node2186930" />
+            <edge id="_Edge2186933" source="_Node2186930" target="_Node2186932" />
+            <edge id="_Edge2186936" source="_Node2186930" target="_Node2186935" />
+            <edge id="_Edge2186938" source="_Node2186935" target="_Node2186937" />
+            <edge id="_Edge2186940" source="_Node2186937" target="_Node2186939" />
+            <edge id="_Edge2186942" source="_Node2186939" target="_Node2186941" />
+            <edge id="_Edge2186944" source="_Node2186941" target="_Node2186943" />
+            <edge id="_Edge2186947" source="_Node2186941" target="_Node2186946" />
+            <edge id="_Edge2186949" source="_Node2186946" target="_Node2186948" />
+            <edge id="_Edge2186952" source="_Node2186946" target="_Node2186951" />
+            <edge id="_Edge2186954" source="_Node2186951" target="_Node2186953" />
+            <edge id="_Edge2186957" source="_Node2186951" target="_Node2186956" />
+            <edge id="_Edge2186959" source="_Node2186956" target="_Node2186958" />
+            <edge id="_Edge2186962" source="_Node2186956" target="_Node2186961" />
+            <edge id="_Edge2186964" source="_Node2186961" target="_Node2186963" />
+            <edge id="_Edge2186967" source="_Node2186961" target="_Node2186966" />
+            <edge id="_Edge2186969" source="_Node2186966" target="_Node2186968" />
+            <edge id="_Edge2186972" source="_Node2186966" target="_Node2186971" />
+            <edge id="_Edge2186974" source="_Node2186971" target="_Node2186973" />
+            <edge id="_Edge2186977" source="_Node2186971" target="_Node2186976" />
+            <edge id="_Edge2186979" source="_Node2186976" target="_Node2186978" />
+            <edge id="_Edge2186982" source="_Node2186976" target="_Node2186981" />
+            <edge id="_Edge2186984" source="_Node2186981" target="_Node2186983" />
+            <edge id="_Edge2186987" source="_Node2186981" target="_Node2186986" />
+            <edge id="_Edge2186990" source="_Node2186939" target="_Node2186989" />
+            <edge id="_Edge2186992" source="_Node2186989" target="_Node2186991" />
+            <edge id="_Edge2186995" source="_Node2186989" target="_Node2186994" />
+            <edge id="_Edge2186997" source="_Node2186994" target="_Node2186996" />
+            <edge id="_Edge2187000" source="_Node2186994" target="_Node2186999" />
+            <edge id="_Edge2187003" source="_Node2186937" target="_Node2187002" />
+            <edge id="_Edge2187005" source="_Node2187002" target="_Node2187004" />
+            <edge id="_Edge2187008" source="_Node2187002" target="_Node2187007" />
+            <edge id="_Edge2187010" source="_Node2187007" target="_Node2187009" />
+            <edge id="_Edge2187013" source="_Node2187007" target="_Node2187012" />
+            <edge id="_Edge2187016" source="_Node2186935" target="_Node2187015" />
+            <edge id="_Edge2187018" source="_Node2187015" target="_Node2187017" />
+            <edge id="_Edge2187020" source="_Node2187017" target="_Node2187019" />
+            <edge id="_Edge2187023" source="_Node2187017" target="_Node2187022" />
+            <edge id="_Edge2187026" source="_Node2187015" target="_Node2187025" />
+            <edge id="_Edge2187028" source="_Node2187025" target="_Node2187027" />
+            <edge id="_Edge2187031" source="_Node2187025" target="_Node2187030" />
+            <edge id="_Edge2187033" source="_Node2187030" target="_Node2187032" />
+            <edge id="_Edge2187036" source="_Node2187030" target="_Node2187035" />
         </tree>
     </trees>
 </nex:nexml>

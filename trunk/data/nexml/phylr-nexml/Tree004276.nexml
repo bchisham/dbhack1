@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S1818"><citation>Bleidorn, C., I. Eeckhaut, L. Podsiadlowski, N. Schult, D. McHugh, K.M. Halanych, M.C. Milinkovitch, and R. Tiedemann. 2007. Mitochondrial genome and nuclear sequence data support Myzostomida as part of the annelid radiation. Molecular Biology and Evolution, in press.</citation><author email="cbleidorn@zoosyst-berlin.de" firstname="Christoph" lastname="Bleidorn" /><author email="Igor.Eeckhaut@umh.ac.be" firstname="Igor" lastname="Eeckhaut" /><author email="ken@auburn.edu" firstname="Kenneth M." lastname="Halanych" /><author email="dmchugh@mail.colgate.edu" firstname="Damhnait" lastname="McHugh" /><author firstname="Michel C." lastname="Milinkovitch" /><author email="podsi.lars@t-online.de" firstname="Lars" lastname="Podsiadlowski" /><author email="NSchult@mail.colgate.edu" firstname="Nancy" lastname="Schult" /><author email="tiedeman@rz.uni-potsdam.de" firstname="Ralph" lastname="Tiedemann" /></study></nex:external>
-    <otus id="_TaxaBlock2645091">
+<nex:external xmlns="dbhack1/phylr"><study id="S1818"><citation>Bleidorn, C., I. Eeckhaut, L. Podsiadlowski, N. Schult, D. McHugh, K.M. Halanych, M.C. Milinkovitch, and R. Tiedemann. 2007. Mitochondrial genome and nuclear sequence data support Myzostomida as part of the annelid radiation. Molecular Biology and Evolution, in press.</citation><abstract>The echinoderm symbionts Myzostomida are marine worms that show an enigmatic lophotrochozoan body plan. Historically, their phylogenetic origins were obscured due to disagreement about which morphological features are evolutionarily conserved, but now most morphological evidence points to annelid origins. In contrast, recent phylogenetic analyses using different molecular markers produced variable results regarding the position of myzostomids, but all suggested these worms are not derived annelids. To re-examine this issue, we analyzed data from nuclear genes (18S rDNA, 28S rDNA, Myosin II, and Elongation Factor-1&amp;amp;#61537;), and a nearly complete myzostomid mitochondrial genome. Here, we show that the molecular data are in agreement with the morphological evidence that myzostomids are part of the annelid radiation. This result is robustly supported by mitochondrial (gene order and sequence data) and nuclear data, as well as by recent ultrastructural investigations. Using Bayes factor comparison, alternative hypotheses are shown to lack support. Thus, myzostomids probably evolved from a segmented ancestor and gained a derived anatomy during their long evolutionary history of echinoderm symbionts.</abstract><author email="cbleidorn@zoosyst-berlin.de" firstname="Christoph" lastname="Bleidorn" /><author email="Igor.Eeckhaut@umh.ac.be" firstname="Igor" lastname="Eeckhaut" /><author email="ken@auburn.edu" firstname="Kenneth M." lastname="Halanych" /><author email="dmchugh@mail.colgate.edu" firstname="Damhnait" lastname="McHugh" /><author firstname="Michel C." lastname="Milinkovitch" /><author email="podsi.lars@t-online.de" firstname="Lars" lastname="Podsiadlowski" /><author email="NSchult@mail.colgate.edu" firstname="Nancy" lastname="Schult" /><author email="tiedeman@rz.uni-potsdam.de" firstname="Ralph" lastname="Tiedemann" /></study></nex:external>
+    <otus id="_TaxaBlock2641460">
         <otu id="Balanoglossuscarnosus" label="Balanoglossus carnosus" />
         <otu id="Leptorhynchoidesthecatus" label="Leptorhynchoides thecatus" />
         <otu id="Terebratulinaretusa" label="Terebratulina retusa" />
@@ -34,85 +34,85 @@
         <otu id="Gymnocrinusricheri" label="Gymnocrinus richeri" />
         <otu id="Arbacialixula" label="Arbacia lixula" />
     </otus>
-    <trees id="_TreesBlock2645092" otus="_TaxaBlock2645091">
+    <trees id="_TreesBlock2641461" otus="_TaxaBlock2641460">
         <tree id="Tree5164" label="Fig. 3A" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1818A7173" software="PAUP"><inputmatrix datatype="Unspecified" name="mito gene order" nchar="319" /></analysis></nex:external>
-            <node id="_Node2645096" />
-            <node id="_Node2645098" otu="Balanoglossuscarnosus" />
-            <node id="_Node2645101" />
-            <node id="_Node2645103" otu="Leptorhynchoidesthecatus" />
-            <node id="_Node2645106" />
-            <node id="_Node2645108" otu="Terebratulinaretusa" />
-            <node id="_Node2645111" otu="Flustrellidrahispida" />
-            <node id="_Node2645114" />
-            <node id="_Node2645116" otu="Trichinellaspiralis" />
-            <node id="_Node2645119" />
-            <node id="_Node2645121" />
-            <node id="_Node2645123" otu="Phoronispsammophila" />
-            <node id="_Node2645126" />
-            <node id="_Node2645128" otu="Katharinatunicata" />
-            <node id="_Node2645131" otu="Haliotisrubra" />
-            <node id="_Node2645134" otu="Octopusvulgaris" />
-            <node id="_Node2645137" />
-            <node id="_Node2645139" otu="Limuluspolyphemus" />
-            <node id="_Node2645142" otu="Drosophilamelanogaster" />
-            <node id="_Node2645145" />
-            <node id="_Node2645147" otu="Platynereisdumerilii" />
-            <node id="_Node2645150" otu="Lumbricusterrestris" />
-            <node id="_Node2645153" otu="Clymenellatorquata" />
-            <node id="_Node2645156" otu="Orbinialatreillii" />
-            <node id="_Node2645159" otu="Urechiscaupo" />
-            <node id="_Node2645162" otu="Myzostomaseymourcollegiorum" />
-            <node id="_Node2645165" />
-            <node id="_Node2645167" otu="Schistosomamansoni" />
-            <node id="_Node2645170" />
-            <node id="_Node2645172" otu="Fasciolahepatica" />
-            <node id="_Node2645175" otu="Taeniasolium" />
-            <node id="_Node2645178" otu="Hymenolepisdiminuta" />
-            <node id="_Node2645181" />
-            <node id="_Node2645183" otu="Terebrataliatransversa" />
-            <node id="_Node2645186" otu="Laqueusrubellus" />
-            <node id="_Node2645189" />
-            <node id="_Node2645191" otu="Gymnocrinusricheri" />
-            <node id="_Node2645194" otu="Arbacialixula" />
-            <rootedge id="_Edge2645097" target="_Node2645096" />
-            <edge id="_Edge2645099" source="_Node2645096" target="_Node2645098" />
-            <edge id="_Edge2645102" source="_Node2645096" target="_Node2645101" />
-            <edge id="_Edge2645104" source="_Node2645101" target="_Node2645103" />
-            <edge id="_Edge2645107" source="_Node2645101" target="_Node2645106" />
-            <edge id="_Edge2645109" source="_Node2645106" target="_Node2645108" />
-            <edge id="_Edge2645112" source="_Node2645106" target="_Node2645111" />
-            <edge id="_Edge2645115" source="_Node2645106" target="_Node2645114" />
-            <edge id="_Edge2645117" source="_Node2645114" target="_Node2645116" />
-            <edge id="_Edge2645120" source="_Node2645114" target="_Node2645119" />
-            <edge id="_Edge2645122" source="_Node2645119" target="_Node2645121" />
-            <edge id="_Edge2645124" source="_Node2645121" target="_Node2645123" />
-            <edge id="_Edge2645127" source="_Node2645121" target="_Node2645126" />
-            <edge id="_Edge2645129" source="_Node2645126" target="_Node2645128" />
-            <edge id="_Edge2645132" source="_Node2645126" target="_Node2645131" />
-            <edge id="_Edge2645135" source="_Node2645126" target="_Node2645134" />
-            <edge id="_Edge2645138" source="_Node2645119" target="_Node2645137" />
-            <edge id="_Edge2645140" source="_Node2645137" target="_Node2645139" />
-            <edge id="_Edge2645143" source="_Node2645137" target="_Node2645142" />
-            <edge id="_Edge2645146" source="_Node2645106" target="_Node2645145" />
-            <edge id="_Edge2645148" source="_Node2645145" target="_Node2645147" />
-            <edge id="_Edge2645151" source="_Node2645145" target="_Node2645150" />
-            <edge id="_Edge2645154" source="_Node2645145" target="_Node2645153" />
-            <edge id="_Edge2645157" source="_Node2645145" target="_Node2645156" />
-            <edge id="_Edge2645160" source="_Node2645145" target="_Node2645159" />
-            <edge id="_Edge2645163" source="_Node2645145" target="_Node2645162" />
-            <edge id="_Edge2645166" source="_Node2645106" target="_Node2645165" />
-            <edge id="_Edge2645168" source="_Node2645165" target="_Node2645167" />
-            <edge id="_Edge2645171" source="_Node2645165" target="_Node2645170" />
-            <edge id="_Edge2645173" source="_Node2645170" target="_Node2645172" />
-            <edge id="_Edge2645176" source="_Node2645170" target="_Node2645175" />
-            <edge id="_Edge2645179" source="_Node2645170" target="_Node2645178" />
-            <edge id="_Edge2645182" source="_Node2645106" target="_Node2645181" />
-            <edge id="_Edge2645184" source="_Node2645181" target="_Node2645183" />
-            <edge id="_Edge2645187" source="_Node2645181" target="_Node2645186" />
-            <edge id="_Edge2645190" source="_Node2645096" target="_Node2645189" />
-            <edge id="_Edge2645192" source="_Node2645189" target="_Node2645191" />
-            <edge id="_Edge2645195" source="_Node2645189" target="_Node2645194" />
+            <node id="_Node2641465" />
+            <node id="_Node2641467" otu="Balanoglossuscarnosus" />
+            <node id="_Node2641470" />
+            <node id="_Node2641472" otu="Leptorhynchoidesthecatus" />
+            <node id="_Node2641475" />
+            <node id="_Node2641477" otu="Terebratulinaretusa" />
+            <node id="_Node2641480" otu="Flustrellidrahispida" />
+            <node id="_Node2641483" />
+            <node id="_Node2641485" otu="Trichinellaspiralis" />
+            <node id="_Node2641488" />
+            <node id="_Node2641490" />
+            <node id="_Node2641492" otu="Phoronispsammophila" />
+            <node id="_Node2641495" />
+            <node id="_Node2641497" otu="Katharinatunicata" />
+            <node id="_Node2641500" otu="Haliotisrubra" />
+            <node id="_Node2641503" otu="Octopusvulgaris" />
+            <node id="_Node2641506" />
+            <node id="_Node2641508" otu="Limuluspolyphemus" />
+            <node id="_Node2641511" otu="Drosophilamelanogaster" />
+            <node id="_Node2641514" />
+            <node id="_Node2641516" otu="Platynereisdumerilii" />
+            <node id="_Node2641519" otu="Lumbricusterrestris" />
+            <node id="_Node2641522" otu="Clymenellatorquata" />
+            <node id="_Node2641525" otu="Orbinialatreillii" />
+            <node id="_Node2641528" otu="Urechiscaupo" />
+            <node id="_Node2641531" otu="Myzostomaseymourcollegiorum" />
+            <node id="_Node2641534" />
+            <node id="_Node2641536" otu="Schistosomamansoni" />
+            <node id="_Node2641539" />
+            <node id="_Node2641541" otu="Fasciolahepatica" />
+            <node id="_Node2641544" otu="Taeniasolium" />
+            <node id="_Node2641547" otu="Hymenolepisdiminuta" />
+            <node id="_Node2641550" />
+            <node id="_Node2641552" otu="Terebrataliatransversa" />
+            <node id="_Node2641555" otu="Laqueusrubellus" />
+            <node id="_Node2641558" />
+            <node id="_Node2641560" otu="Gymnocrinusricheri" />
+            <node id="_Node2641563" otu="Arbacialixula" />
+            <rootedge id="_Edge2641466" target="_Node2641465" />
+            <edge id="_Edge2641468" source="_Node2641465" target="_Node2641467" />
+            <edge id="_Edge2641471" source="_Node2641465" target="_Node2641470" />
+            <edge id="_Edge2641473" source="_Node2641470" target="_Node2641472" />
+            <edge id="_Edge2641476" source="_Node2641470" target="_Node2641475" />
+            <edge id="_Edge2641478" source="_Node2641475" target="_Node2641477" />
+            <edge id="_Edge2641481" source="_Node2641475" target="_Node2641480" />
+            <edge id="_Edge2641484" source="_Node2641475" target="_Node2641483" />
+            <edge id="_Edge2641486" source="_Node2641483" target="_Node2641485" />
+            <edge id="_Edge2641489" source="_Node2641483" target="_Node2641488" />
+            <edge id="_Edge2641491" source="_Node2641488" target="_Node2641490" />
+            <edge id="_Edge2641493" source="_Node2641490" target="_Node2641492" />
+            <edge id="_Edge2641496" source="_Node2641490" target="_Node2641495" />
+            <edge id="_Edge2641498" source="_Node2641495" target="_Node2641497" />
+            <edge id="_Edge2641501" source="_Node2641495" target="_Node2641500" />
+            <edge id="_Edge2641504" source="_Node2641495" target="_Node2641503" />
+            <edge id="_Edge2641507" source="_Node2641488" target="_Node2641506" />
+            <edge id="_Edge2641509" source="_Node2641506" target="_Node2641508" />
+            <edge id="_Edge2641512" source="_Node2641506" target="_Node2641511" />
+            <edge id="_Edge2641515" source="_Node2641475" target="_Node2641514" />
+            <edge id="_Edge2641517" source="_Node2641514" target="_Node2641516" />
+            <edge id="_Edge2641520" source="_Node2641514" target="_Node2641519" />
+            <edge id="_Edge2641523" source="_Node2641514" target="_Node2641522" />
+            <edge id="_Edge2641526" source="_Node2641514" target="_Node2641525" />
+            <edge id="_Edge2641529" source="_Node2641514" target="_Node2641528" />
+            <edge id="_Edge2641532" source="_Node2641514" target="_Node2641531" />
+            <edge id="_Edge2641535" source="_Node2641475" target="_Node2641534" />
+            <edge id="_Edge2641537" source="_Node2641534" target="_Node2641536" />
+            <edge id="_Edge2641540" source="_Node2641534" target="_Node2641539" />
+            <edge id="_Edge2641542" source="_Node2641539" target="_Node2641541" />
+            <edge id="_Edge2641545" source="_Node2641539" target="_Node2641544" />
+            <edge id="_Edge2641548" source="_Node2641539" target="_Node2641547" />
+            <edge id="_Edge2641551" source="_Node2641475" target="_Node2641550" />
+            <edge id="_Edge2641553" source="_Node2641550" target="_Node2641552" />
+            <edge id="_Edge2641556" source="_Node2641550" target="_Node2641555" />
+            <edge id="_Edge2641559" source="_Node2641465" target="_Node2641558" />
+            <edge id="_Edge2641561" source="_Node2641558" target="_Node2641560" />
+            <edge id="_Edge2641564" source="_Node2641558" target="_Node2641563" />
         </tree>
     </trees>
 </nex:nexml>

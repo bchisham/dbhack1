@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S1879"><citation>Ranwez V., V. Berry, A. Criscuolo, P.-H. Fabre, S. Guillemot, C. Scornavacca and E. J. P. Douzery. 2007. PhySIC: a veto supertree method with desirable properties. Systematic Biology, in press.</citation><author email="vberry@lirmm.fr" firstname="Vincent" lastname="Berry" /><author email="criscuol@lirmm.fr" firstname="Alexis" lastname="Criscuolo" /><author email="douzery@isem.univ-montp2.fr" firstname="Emmanuel J. P." lastname="Douzery" /><author email="fabreph@isem.univ-montp2.fr" firstname="Pierre-Henri" lastname="Fabre" /><author email="Sylvain.Guillemot@lirmm.fr" firstname="Sylvain" lastname="Guillemot" /><author email="ranwez@isem.univ-montp2.fr" firstname="Vincent" lastname="Ranwez" /><author email="Celine.Scornavacca@lirmm.fr" firstname="C&#195;&#169;line" lastname="Scornavacca" /></study></nex:external>
-    <otus id="_TaxaBlock2792904">
+<nex:external xmlns="dbhack1/phylr"><study id="S1879"><citation>Ranwez V., V. Berry, A. Criscuolo, P.-H. Fabre, S. Guillemot, C. Scornavacca and E. J. P. Douzery. 2007. PhySIC: a veto supertree method with desirable properties. Systematic Biology, in press.</citation><abstract>This paper focuses on veto supertree methods, i.e., methods that aim at producing a conservative synthesis of the relationships agreed upon by all source trees. We propose desirable properties that a supertree should satisfy in this framework, namely the non-contradiction property (PC) and the induction property (PI). The former requires that the supertree does not contain relationships that contradict one or a combination of the source topologies, whereas the latter requires that all topological information contained in the supertree is present in a source tree or collectively induced by several source trees. We provide simple examples to illustrate their relevance and that allow a comparison with previously advocated properties. We show that these properties can be checked in polynomial time for any given rooted supertree. Moreover,we introduce the PhySIC method (PHYlogenetic Signal with Induction and non-Contradiction). For k input trees spanning a set of n taxa, this method produces a supertree that satisfies the above-mentioned properties in O(kn3 + n4) polynomial computing time. The polytomies of the produced supertree are also tagged by labels indicating areas of conflict as well as those with insufficient overlap. As a whole, PhySIC enables the user to quickly summarize consensual information of a set of trees and localize groups of taxa for which the data requires consolidation. Lastly, we illustrate the behaviour of PhySIC on primate datasets of various sizes, and propose a supertree covering 95% of all primate extant genera. The PhySIC algorithm is available at http://atgc.lirmm.fr/cgi-bin/PhySIC/physic.cgi. [formal properties; phylogenetics; polynomial-time algorithms; primates; software; supertrees; triplets; veto methods.]</abstract><author email="vberry@lirmm.fr" firstname="Vincent" lastname="Berry" /><author email="criscuol@lirmm.fr" firstname="Alexis" lastname="Criscuolo" /><author email="douzery@isem.univ-montp2.fr" firstname="Emmanuel J. P." lastname="Douzery" /><author email="fabreph@isem.univ-montp2.fr" firstname="Pierre-Henri" lastname="Fabre" /><author email="Sylvain.Guillemot@lirmm.fr" firstname="Sylvain" lastname="Guillemot" /><author email="ranwez@isem.univ-montp2.fr" firstname="Vincent" lastname="Ranwez" /><author email="Celine.Scornavacca@lirmm.fr" firstname="C&#195;&#169;line" lastname="Scornavacca" /></study></nex:external>
+    <otus id="_TaxaBlock2789273">
         <otu id="Tupaia" label="Tupaia" />
         <otu id="Cynocephalus" label="Cynocephalus" />
         <otu id="Tarsius" label="Tarsius" />
@@ -42,139 +42,139 @@
         <otu id="Mus" label="Mus" />
         <otu id="Rattus" label="Rattus" />
     </otus>
-    <trees id="_TreesBlock2792905" otus="_TaxaBlock2792904">
+    <trees id="_TreesBlock2789274" otus="_TaxaBlock2789273">
         <tree id="Tree5348" label="epsglob" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="veto supertree" id="S1879A7486" software="PhySIC"><inputmatrix datatype="Matrix Representation" name="PhySIC Supertree" nchar="126" /></analysis></nex:external>
-            <node id="_Node2792909" />
-            <node id="_Node2792911" />
-            <node id="_Node2792913" otu="Tupaia" />
-            <node id="_Node2792916" />
-            <node id="_Node2792918" otu="Cynocephalus" />
-            <node id="_Node2792921" />
-            <node id="_Node2792923" />
-            <node id="_Node2792925" otu="Tarsius" />
-            <node id="_Node2792928" />
-            <node id="_Node2792930" />
-            <node id="_Node2792932" />
-            <node id="_Node2792934" />
-            <node id="_Node2792936" otu="Aotus" />
-            <node id="_Node2792939" />
-            <node id="_Node2792941" />
-            <node id="_Node2792943" otu="Callithrix" />
-            <node id="_Node2792946" otu="Callimico" />
-            <node id="_Node2792949" />
-            <node id="_Node2792951" otu="Saguinus" />
-            <node id="_Node2792954" otu="Leontopithecus" />
-            <node id="_Node2792957" />
-            <node id="_Node2792959" otu="Saimiri" />
-            <node id="_Node2792962" otu="Cebus" />
-            <node id="_Node2792965" />
-            <node id="_Node2792967" />
-            <node id="_Node2792969" otu="Callicebus" />
-            <node id="_Node2792972" />
-            <node id="_Node2792974" otu="Pithecia" />
-            <node id="_Node2792977" />
-            <node id="_Node2792979" otu="Chiropotes" />
-            <node id="_Node2792982" otu="Cacajao" />
-            <node id="_Node2792985" />
-            <node id="_Node2792987" otu="Alouatta" />
-            <node id="_Node2792990" />
-            <node id="_Node2792992" otu="Ateles" />
-            <node id="_Node2792995" />
-            <node id="_Node2792997" otu="Lagothrix" />
-            <node id="_Node2793000" otu="Brachyteles" />
-            <node id="_Node2793003" />
-            <node id="_Node2793005" otu="Macaca" />
-            <node id="_Node2793008" />
-            <node id="_Node2793010" otu="Hylobates" />
-            <node id="_Node2793013" />
-            <node id="_Node2793015" otu="Pongo" />
-            <node id="_Node2793018" />
-            <node id="_Node2793020" otu="Gorilla" />
-            <node id="_Node2793023" />
-            <node id="_Node2793025" otu="Homo" />
-            <node id="_Node2793028" otu="Pan" />
-            <node id="_Node2793031" />
-            <node id="_Node2793033" />
-            <node id="_Node2793035" otu="Perodicticus" />
-            <node id="_Node2793038" otu="Otolemur" />
-            <node id="_Node2793041" />
-            <node id="_Node2793043" otu="Daubentonia" />
-            <node id="_Node2793046" />
-            <node id="_Node2793048" otu="Propithecus" />
-            <node id="_Node2793051" />
-            <node id="_Node2793053" otu="Eulemur" />
-            <node id="_Node2793056" />
-            <node id="_Node2793058" otu="Microcebus" />
-            <node id="_Node2793061" otu="Cheirogaleus" />
-            <node id="_Node2793064" />
-            <node id="_Node2793066" otu="Mus" />
-            <node id="_Node2793069" otu="Rattus" />
-            <rootedge id="_Edge2792910" target="_Node2792909" />
-            <edge id="_Edge2792912" source="_Node2792909" target="_Node2792911" />
-            <edge id="_Edge2792914" source="_Node2792911" target="_Node2792913" />
-            <edge id="_Edge2792917" source="_Node2792911" target="_Node2792916" />
-            <edge id="_Edge2792919" source="_Node2792916" target="_Node2792918" />
-            <edge id="_Edge2792922" source="_Node2792916" target="_Node2792921" />
-            <edge id="_Edge2792924" source="_Node2792921" target="_Node2792923" />
-            <edge id="_Edge2792926" source="_Node2792923" target="_Node2792925" />
-            <edge id="_Edge2792929" source="_Node2792923" target="_Node2792928" />
-            <edge id="_Edge2792931" source="_Node2792928" target="_Node2792930" />
-            <edge id="_Edge2792933" source="_Node2792930" target="_Node2792932" />
-            <edge id="_Edge2792935" source="_Node2792932" target="_Node2792934" />
-            <edge id="_Edge2792937" source="_Node2792934" target="_Node2792936" />
-            <edge id="_Edge2792940" source="_Node2792934" target="_Node2792939" />
-            <edge id="_Edge2792942" source="_Node2792939" target="_Node2792941" />
-            <edge id="_Edge2792944" source="_Node2792941" target="_Node2792943" />
-            <edge id="_Edge2792947" source="_Node2792941" target="_Node2792946" />
-            <edge id="_Edge2792950" source="_Node2792939" target="_Node2792949" />
-            <edge id="_Edge2792952" source="_Node2792949" target="_Node2792951" />
-            <edge id="_Edge2792955" source="_Node2792949" target="_Node2792954" />
-            <edge id="_Edge2792958" source="_Node2792932" target="_Node2792957" />
-            <edge id="_Edge2792960" source="_Node2792957" target="_Node2792959" />
-            <edge id="_Edge2792963" source="_Node2792957" target="_Node2792962" />
-            <edge id="_Edge2792966" source="_Node2792930" target="_Node2792965" />
-            <edge id="_Edge2792968" source="_Node2792965" target="_Node2792967" />
-            <edge id="_Edge2792970" source="_Node2792967" target="_Node2792969" />
-            <edge id="_Edge2792973" source="_Node2792967" target="_Node2792972" />
-            <edge id="_Edge2792975" source="_Node2792972" target="_Node2792974" />
-            <edge id="_Edge2792978" source="_Node2792972" target="_Node2792977" />
-            <edge id="_Edge2792980" source="_Node2792977" target="_Node2792979" />
-            <edge id="_Edge2792983" source="_Node2792977" target="_Node2792982" />
-            <edge id="_Edge2792986" source="_Node2792965" target="_Node2792985" />
-            <edge id="_Edge2792988" source="_Node2792985" target="_Node2792987" />
-            <edge id="_Edge2792991" source="_Node2792985" target="_Node2792990" />
-            <edge id="_Edge2792993" source="_Node2792990" target="_Node2792992" />
-            <edge id="_Edge2792996" source="_Node2792990" target="_Node2792995" />
-            <edge id="_Edge2792998" source="_Node2792995" target="_Node2792997" />
-            <edge id="_Edge2793001" source="_Node2792995" target="_Node2793000" />
-            <edge id="_Edge2793004" source="_Node2792928" target="_Node2793003" />
-            <edge id="_Edge2793006" source="_Node2793003" target="_Node2793005" />
-            <edge id="_Edge2793009" source="_Node2793003" target="_Node2793008" />
-            <edge id="_Edge2793011" source="_Node2793008" target="_Node2793010" />
-            <edge id="_Edge2793014" source="_Node2793008" target="_Node2793013" />
-            <edge id="_Edge2793016" source="_Node2793013" target="_Node2793015" />
-            <edge id="_Edge2793019" source="_Node2793013" target="_Node2793018" />
-            <edge id="_Edge2793021" source="_Node2793018" target="_Node2793020" />
-            <edge id="_Edge2793024" source="_Node2793018" target="_Node2793023" />
-            <edge id="_Edge2793026" source="_Node2793023" target="_Node2793025" />
-            <edge id="_Edge2793029" source="_Node2793023" target="_Node2793028" />
-            <edge id="_Edge2793032" source="_Node2792921" target="_Node2793031" />
-            <edge id="_Edge2793034" source="_Node2793031" target="_Node2793033" />
-            <edge id="_Edge2793036" source="_Node2793033" target="_Node2793035" />
-            <edge id="_Edge2793039" source="_Node2793033" target="_Node2793038" />
-            <edge id="_Edge2793042" source="_Node2793031" target="_Node2793041" />
-            <edge id="_Edge2793044" source="_Node2793041" target="_Node2793043" />
-            <edge id="_Edge2793047" source="_Node2793041" target="_Node2793046" />
-            <edge id="_Edge2793049" source="_Node2793046" target="_Node2793048" />
-            <edge id="_Edge2793052" source="_Node2793046" target="_Node2793051" />
-            <edge id="_Edge2793054" source="_Node2793051" target="_Node2793053" />
-            <edge id="_Edge2793057" source="_Node2793051" target="_Node2793056" />
-            <edge id="_Edge2793059" source="_Node2793056" target="_Node2793058" />
-            <edge id="_Edge2793062" source="_Node2793056" target="_Node2793061" />
-            <edge id="_Edge2793065" source="_Node2792909" target="_Node2793064" />
-            <edge id="_Edge2793067" source="_Node2793064" target="_Node2793066" />
-            <edge id="_Edge2793070" source="_Node2793064" target="_Node2793069" />
+            <node id="_Node2789278" />
+            <node id="_Node2789280" />
+            <node id="_Node2789282" otu="Tupaia" />
+            <node id="_Node2789285" />
+            <node id="_Node2789287" otu="Cynocephalus" />
+            <node id="_Node2789290" />
+            <node id="_Node2789292" />
+            <node id="_Node2789294" otu="Tarsius" />
+            <node id="_Node2789297" />
+            <node id="_Node2789299" />
+            <node id="_Node2789301" />
+            <node id="_Node2789303" />
+            <node id="_Node2789305" otu="Aotus" />
+            <node id="_Node2789308" />
+            <node id="_Node2789310" />
+            <node id="_Node2789312" otu="Callithrix" />
+            <node id="_Node2789315" otu="Callimico" />
+            <node id="_Node2789318" />
+            <node id="_Node2789320" otu="Saguinus" />
+            <node id="_Node2789323" otu="Leontopithecus" />
+            <node id="_Node2789326" />
+            <node id="_Node2789328" otu="Saimiri" />
+            <node id="_Node2789331" otu="Cebus" />
+            <node id="_Node2789334" />
+            <node id="_Node2789336" />
+            <node id="_Node2789338" otu="Callicebus" />
+            <node id="_Node2789341" />
+            <node id="_Node2789343" otu="Pithecia" />
+            <node id="_Node2789346" />
+            <node id="_Node2789348" otu="Chiropotes" />
+            <node id="_Node2789351" otu="Cacajao" />
+            <node id="_Node2789354" />
+            <node id="_Node2789356" otu="Alouatta" />
+            <node id="_Node2789359" />
+            <node id="_Node2789361" otu="Ateles" />
+            <node id="_Node2789364" />
+            <node id="_Node2789366" otu="Lagothrix" />
+            <node id="_Node2789369" otu="Brachyteles" />
+            <node id="_Node2789372" />
+            <node id="_Node2789374" otu="Macaca" />
+            <node id="_Node2789377" />
+            <node id="_Node2789379" otu="Hylobates" />
+            <node id="_Node2789382" />
+            <node id="_Node2789384" otu="Pongo" />
+            <node id="_Node2789387" />
+            <node id="_Node2789389" otu="Gorilla" />
+            <node id="_Node2789392" />
+            <node id="_Node2789394" otu="Homo" />
+            <node id="_Node2789397" otu="Pan" />
+            <node id="_Node2789400" />
+            <node id="_Node2789402" />
+            <node id="_Node2789404" otu="Perodicticus" />
+            <node id="_Node2789407" otu="Otolemur" />
+            <node id="_Node2789410" />
+            <node id="_Node2789412" otu="Daubentonia" />
+            <node id="_Node2789415" />
+            <node id="_Node2789417" otu="Propithecus" />
+            <node id="_Node2789420" />
+            <node id="_Node2789422" otu="Eulemur" />
+            <node id="_Node2789425" />
+            <node id="_Node2789427" otu="Microcebus" />
+            <node id="_Node2789430" otu="Cheirogaleus" />
+            <node id="_Node2789433" />
+            <node id="_Node2789435" otu="Mus" />
+            <node id="_Node2789438" otu="Rattus" />
+            <rootedge id="_Edge2789279" target="_Node2789278" />
+            <edge id="_Edge2789281" source="_Node2789278" target="_Node2789280" />
+            <edge id="_Edge2789283" source="_Node2789280" target="_Node2789282" />
+            <edge id="_Edge2789286" source="_Node2789280" target="_Node2789285" />
+            <edge id="_Edge2789288" source="_Node2789285" target="_Node2789287" />
+            <edge id="_Edge2789291" source="_Node2789285" target="_Node2789290" />
+            <edge id="_Edge2789293" source="_Node2789290" target="_Node2789292" />
+            <edge id="_Edge2789295" source="_Node2789292" target="_Node2789294" />
+            <edge id="_Edge2789298" source="_Node2789292" target="_Node2789297" />
+            <edge id="_Edge2789300" source="_Node2789297" target="_Node2789299" />
+            <edge id="_Edge2789302" source="_Node2789299" target="_Node2789301" />
+            <edge id="_Edge2789304" source="_Node2789301" target="_Node2789303" />
+            <edge id="_Edge2789306" source="_Node2789303" target="_Node2789305" />
+            <edge id="_Edge2789309" source="_Node2789303" target="_Node2789308" />
+            <edge id="_Edge2789311" source="_Node2789308" target="_Node2789310" />
+            <edge id="_Edge2789313" source="_Node2789310" target="_Node2789312" />
+            <edge id="_Edge2789316" source="_Node2789310" target="_Node2789315" />
+            <edge id="_Edge2789319" source="_Node2789308" target="_Node2789318" />
+            <edge id="_Edge2789321" source="_Node2789318" target="_Node2789320" />
+            <edge id="_Edge2789324" source="_Node2789318" target="_Node2789323" />
+            <edge id="_Edge2789327" source="_Node2789301" target="_Node2789326" />
+            <edge id="_Edge2789329" source="_Node2789326" target="_Node2789328" />
+            <edge id="_Edge2789332" source="_Node2789326" target="_Node2789331" />
+            <edge id="_Edge2789335" source="_Node2789299" target="_Node2789334" />
+            <edge id="_Edge2789337" source="_Node2789334" target="_Node2789336" />
+            <edge id="_Edge2789339" source="_Node2789336" target="_Node2789338" />
+            <edge id="_Edge2789342" source="_Node2789336" target="_Node2789341" />
+            <edge id="_Edge2789344" source="_Node2789341" target="_Node2789343" />
+            <edge id="_Edge2789347" source="_Node2789341" target="_Node2789346" />
+            <edge id="_Edge2789349" source="_Node2789346" target="_Node2789348" />
+            <edge id="_Edge2789352" source="_Node2789346" target="_Node2789351" />
+            <edge id="_Edge2789355" source="_Node2789334" target="_Node2789354" />
+            <edge id="_Edge2789357" source="_Node2789354" target="_Node2789356" />
+            <edge id="_Edge2789360" source="_Node2789354" target="_Node2789359" />
+            <edge id="_Edge2789362" source="_Node2789359" target="_Node2789361" />
+            <edge id="_Edge2789365" source="_Node2789359" target="_Node2789364" />
+            <edge id="_Edge2789367" source="_Node2789364" target="_Node2789366" />
+            <edge id="_Edge2789370" source="_Node2789364" target="_Node2789369" />
+            <edge id="_Edge2789373" source="_Node2789297" target="_Node2789372" />
+            <edge id="_Edge2789375" source="_Node2789372" target="_Node2789374" />
+            <edge id="_Edge2789378" source="_Node2789372" target="_Node2789377" />
+            <edge id="_Edge2789380" source="_Node2789377" target="_Node2789379" />
+            <edge id="_Edge2789383" source="_Node2789377" target="_Node2789382" />
+            <edge id="_Edge2789385" source="_Node2789382" target="_Node2789384" />
+            <edge id="_Edge2789388" source="_Node2789382" target="_Node2789387" />
+            <edge id="_Edge2789390" source="_Node2789387" target="_Node2789389" />
+            <edge id="_Edge2789393" source="_Node2789387" target="_Node2789392" />
+            <edge id="_Edge2789395" source="_Node2789392" target="_Node2789394" />
+            <edge id="_Edge2789398" source="_Node2789392" target="_Node2789397" />
+            <edge id="_Edge2789401" source="_Node2789290" target="_Node2789400" />
+            <edge id="_Edge2789403" source="_Node2789400" target="_Node2789402" />
+            <edge id="_Edge2789405" source="_Node2789402" target="_Node2789404" />
+            <edge id="_Edge2789408" source="_Node2789402" target="_Node2789407" />
+            <edge id="_Edge2789411" source="_Node2789400" target="_Node2789410" />
+            <edge id="_Edge2789413" source="_Node2789410" target="_Node2789412" />
+            <edge id="_Edge2789416" source="_Node2789410" target="_Node2789415" />
+            <edge id="_Edge2789418" source="_Node2789415" target="_Node2789417" />
+            <edge id="_Edge2789421" source="_Node2789415" target="_Node2789420" />
+            <edge id="_Edge2789423" source="_Node2789420" target="_Node2789422" />
+            <edge id="_Edge2789426" source="_Node2789420" target="_Node2789425" />
+            <edge id="_Edge2789428" source="_Node2789425" target="_Node2789427" />
+            <edge id="_Edge2789431" source="_Node2789425" target="_Node2789430" />
+            <edge id="_Edge2789434" source="_Node2789278" target="_Node2789433" />
+            <edge id="_Edge2789436" source="_Node2789433" target="_Node2789435" />
+            <edge id="_Edge2789439" source="_Node2789433" target="_Node2789438" />
         </tree>
     </trees>
 </nex:nexml>

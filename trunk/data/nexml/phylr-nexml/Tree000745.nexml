@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S345"><citation>Davis, J. I., M. P. Simmons, D. W. Stevenson, and J. F. Wendel. 1998. Data decisiveness, data quality, and incongrunce in phylogenetic analysis: and example from the monocotyledons using mitochondrial atpA sequences. Syst. Biol. 47(2):282-310.</citation><author email="jid1@cornell.edu" firstname="Jerrold I." lastname="Davis" /><author email="psimmons@lamar.colostate.edu" firstname="Mark P." lastname="Simmons" /><author email="dws@nybg.org" firstname="Dennis W." lastname="Stevenson" /><author email="jfw@iastate.edu" firstname="Jonathan F." lastname="Wendel" /></study></nex:external>
-    <otus id="_TaxaBlock255988">
+<nex:external xmlns="dbhack1/phylr"><study id="S345"><citation>Davis, J. I., M. P. Simmons, D. W. Stevenson, and J. F. Wendel. 1998. Data decisiveness, data quality, and incongrunce in phylogenetic analysis: and example from the monocotyledons using mitochondrial atpA sequences. Syst. Biol. 47(2):282-310.</citation><abstract>We examined three parallel data sets with respect to qualities relevant to phylogenetic analysis of 20 exemplar monocotyledons and related dicotyledons. The three data sets represent restriction site variation in the inverted repeat region of the chloroplast genome, and nucleotide sequence variation in the chloroplast-encoded gene rbcL and in the mitochondrion-encoded gene atpA, the latter of which encodes the *-subunit of mitochondrial ATP synthase. The plant mitochondrial genome has been little-used in plant systematics, in part because nucleotide sequence evolution in enzyme-encoding genes of this genome evolve relatively slowly. The three data sets were examined in separate and combined analyses, with a focus on patterns of congruence, homoplasy, and data decisiveness. Data decisiveness (described by P. Goloboff) is a measure of robustness of support for most-parsimonious trees by a data set in terms of the degree to which those trees are shorter than the average length of all possible trees. Because indecisive data sets require relatively fewer additional steps than decisive ones to be optimized on nonparsimonious trees, they will have a lesser tendency to be incongruent with other data sets. One consequence of this relationship between decisiveness and character incongruence is that if incongruence is used as a criterion of noncombinability, decisive data sets, which provide robust support for relationships, are more likely to be assessed as noncombinable with other data sets than are indecisive data sets, which provide weak support for relationships. For the sampling of taxa in this study, the atpA data set has about half as many cladistically informative nucleotides as the rbcL data set per site examined, and is less homoplastic and more decisive. The rbcL data set, which is the least decisive of the three, exhibits the lowest levels of character incongruence. Whatever the molecular evolutionary cause of this phenomenon, it seems likely that the poorer performance of rbcL than atpA, in terms of data decisiveness, is due to both its higher overall level of homoplasy and the fact that it is performing especially poorly at nonsynonymous sites. atpA; character incongruence; cladistics; data decisiveness; monocotyledons; plant mitochondrial DNA; rbcL; restriction sites.</abstract><author email="jid1@cornell.edu" firstname="Jerrold I." lastname="Davis" /><author email="psimmons@lamar.colostate.edu" firstname="Mark P." lastname="Simmons" /><author email="dws@nybg.org" firstname="Dennis W." lastname="Stevenson" /><author email="jfw@iastate.edu" firstname="Jonathan F." lastname="Wendel" /></study></nex:external>
+    <otus id="_TaxaBlock253893">
         <otu id="Piper" label="Piper" />
         <otu id="Saruma" label="Saruma" />
         <otu id="Acorus" label="Acorus" />
@@ -29,85 +29,85 @@
         <otu id="Eriocaulon" label="Eriocaulon" />
         <otu id="Oryza" label="Oryza" />
     </otus>
-    <trees id="_TreesBlock255989" otus="_TaxaBlock255988">
+    <trees id="_TreesBlock253894" otus="_TaxaBlock253893">
         <tree id="Tree1095" label="Fig. 2a" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S345A228" software="NONA"><inputmatrix datatype="Nucleic Acid" name="atpA" nchar="110" /><inputmatrix datatype="Nucleic Acid" name="rbcL" nchar="242" /><inputmatrix datatype="Restriction Site" name="RS" nchar="42" /></analysis></nex:external>
-            <node id="_Node255993" />
-            <node id="_Node255995" otu="Piper" />
-            <node id="_Node255998" otu="Saruma" />
-            <node id="_Node256001" />
-            <node id="_Node256003" otu="Acorus" />
-            <node id="_Node256006" />
-            <node id="_Node256008" />
-            <node id="_Node256010" otu="Gymnostachys" />
-            <node id="_Node256013" otu="Symplocarpus" />
-            <node id="_Node256016" />
-            <node id="_Node256018" otu="Tacca" />
-            <node id="_Node256021" />
-            <node id="_Node256023" />
-            <node id="_Node256025" otu="Vellozia" />
-            <node id="_Node256028" />
-            <node id="_Node256030" />
-            <node id="_Node256032" otu="Alstroemeria" />
-            <node id="_Node256035" otu="Smilax" />
-            <node id="_Node256038" />
-            <node id="_Node256040" otu="Trillium" />
-            <node id="_Node256043" otu="Veratrum" />
-            <node id="_Node256046" />
-            <node id="_Node256048" />
-            <node id="_Node256050" otu="Curculigo" />
-            <node id="_Node256053" otu="Xanthorrhoea" />
-            <node id="_Node256056" />
-            <node id="_Node256058" />
-            <node id="_Node256060" otu="Anigozanthos" />
-            <node id="_Node256063" otu="Canna" />
-            <node id="_Node256066" />
-            <node id="_Node256068" otu="Nypa" />
-            <node id="_Node256071" />
-            <node id="_Node256073" otu="Catopsis" />
-            <node id="_Node256076" />
-            <node id="_Node256078" otu="Flagellaria" />
-            <node id="_Node256081" />
-            <node id="_Node256083" otu="Eriocaulon" />
-            <node id="_Node256086" otu="Oryza" />
-            <rootedge id="_Edge255994" target="_Node255993" />
-            <edge id="_Edge255996" source="_Node255993" target="_Node255995" />
-            <edge id="_Edge255999" source="_Node255993" target="_Node255998" />
-            <edge id="_Edge256002" source="_Node255993" target="_Node256001" />
-            <edge id="_Edge256004" source="_Node256001" target="_Node256003" />
-            <edge id="_Edge256007" source="_Node256001" target="_Node256006" />
-            <edge id="_Edge256009" source="_Node256006" target="_Node256008" />
-            <edge id="_Edge256011" source="_Node256008" target="_Node256010" />
-            <edge id="_Edge256014" source="_Node256008" target="_Node256013" />
-            <edge id="_Edge256017" source="_Node256006" target="_Node256016" />
-            <edge id="_Edge256019" source="_Node256016" target="_Node256018" />
-            <edge id="_Edge256022" source="_Node256016" target="_Node256021" />
-            <edge id="_Edge256024" source="_Node256021" target="_Node256023" />
-            <edge id="_Edge256026" source="_Node256023" target="_Node256025" />
-            <edge id="_Edge256029" source="_Node256023" target="_Node256028" />
-            <edge id="_Edge256031" source="_Node256028" target="_Node256030" />
-            <edge id="_Edge256033" source="_Node256030" target="_Node256032" />
-            <edge id="_Edge256036" source="_Node256030" target="_Node256035" />
-            <edge id="_Edge256039" source="_Node256028" target="_Node256038" />
-            <edge id="_Edge256041" source="_Node256038" target="_Node256040" />
-            <edge id="_Edge256044" source="_Node256038" target="_Node256043" />
-            <edge id="_Edge256047" source="_Node256021" target="_Node256046" />
-            <edge id="_Edge256049" source="_Node256046" target="_Node256048" />
-            <edge id="_Edge256051" source="_Node256048" target="_Node256050" />
-            <edge id="_Edge256054" source="_Node256048" target="_Node256053" />
-            <edge id="_Edge256057" source="_Node256046" target="_Node256056" />
-            <edge id="_Edge256059" source="_Node256056" target="_Node256058" />
-            <edge id="_Edge256061" source="_Node256058" target="_Node256060" />
-            <edge id="_Edge256064" source="_Node256058" target="_Node256063" />
-            <edge id="_Edge256067" source="_Node256056" target="_Node256066" />
-            <edge id="_Edge256069" source="_Node256066" target="_Node256068" />
-            <edge id="_Edge256072" source="_Node256066" target="_Node256071" />
-            <edge id="_Edge256074" source="_Node256071" target="_Node256073" />
-            <edge id="_Edge256077" source="_Node256071" target="_Node256076" />
-            <edge id="_Edge256079" source="_Node256076" target="_Node256078" />
-            <edge id="_Edge256082" source="_Node256076" target="_Node256081" />
-            <edge id="_Edge256084" source="_Node256081" target="_Node256083" />
-            <edge id="_Edge256087" source="_Node256081" target="_Node256086" />
+            <node id="_Node253898" />
+            <node id="_Node253900" otu="Piper" />
+            <node id="_Node253903" otu="Saruma" />
+            <node id="_Node253906" />
+            <node id="_Node253908" otu="Acorus" />
+            <node id="_Node253911" />
+            <node id="_Node253913" />
+            <node id="_Node253915" otu="Gymnostachys" />
+            <node id="_Node253918" otu="Symplocarpus" />
+            <node id="_Node253921" />
+            <node id="_Node253923" otu="Tacca" />
+            <node id="_Node253926" />
+            <node id="_Node253928" />
+            <node id="_Node253930" otu="Vellozia" />
+            <node id="_Node253933" />
+            <node id="_Node253935" />
+            <node id="_Node253937" otu="Alstroemeria" />
+            <node id="_Node253940" otu="Smilax" />
+            <node id="_Node253943" />
+            <node id="_Node253945" otu="Trillium" />
+            <node id="_Node253948" otu="Veratrum" />
+            <node id="_Node253951" />
+            <node id="_Node253953" />
+            <node id="_Node253955" otu="Curculigo" />
+            <node id="_Node253958" otu="Xanthorrhoea" />
+            <node id="_Node253961" />
+            <node id="_Node253963" />
+            <node id="_Node253965" otu="Anigozanthos" />
+            <node id="_Node253968" otu="Canna" />
+            <node id="_Node253971" />
+            <node id="_Node253973" otu="Nypa" />
+            <node id="_Node253976" />
+            <node id="_Node253978" otu="Catopsis" />
+            <node id="_Node253981" />
+            <node id="_Node253983" otu="Flagellaria" />
+            <node id="_Node253986" />
+            <node id="_Node253988" otu="Eriocaulon" />
+            <node id="_Node253991" otu="Oryza" />
+            <rootedge id="_Edge253899" target="_Node253898" />
+            <edge id="_Edge253901" source="_Node253898" target="_Node253900" />
+            <edge id="_Edge253904" source="_Node253898" target="_Node253903" />
+            <edge id="_Edge253907" source="_Node253898" target="_Node253906" />
+            <edge id="_Edge253909" source="_Node253906" target="_Node253908" />
+            <edge id="_Edge253912" source="_Node253906" target="_Node253911" />
+            <edge id="_Edge253914" source="_Node253911" target="_Node253913" />
+            <edge id="_Edge253916" source="_Node253913" target="_Node253915" />
+            <edge id="_Edge253919" source="_Node253913" target="_Node253918" />
+            <edge id="_Edge253922" source="_Node253911" target="_Node253921" />
+            <edge id="_Edge253924" source="_Node253921" target="_Node253923" />
+            <edge id="_Edge253927" source="_Node253921" target="_Node253926" />
+            <edge id="_Edge253929" source="_Node253926" target="_Node253928" />
+            <edge id="_Edge253931" source="_Node253928" target="_Node253930" />
+            <edge id="_Edge253934" source="_Node253928" target="_Node253933" />
+            <edge id="_Edge253936" source="_Node253933" target="_Node253935" />
+            <edge id="_Edge253938" source="_Node253935" target="_Node253937" />
+            <edge id="_Edge253941" source="_Node253935" target="_Node253940" />
+            <edge id="_Edge253944" source="_Node253933" target="_Node253943" />
+            <edge id="_Edge253946" source="_Node253943" target="_Node253945" />
+            <edge id="_Edge253949" source="_Node253943" target="_Node253948" />
+            <edge id="_Edge253952" source="_Node253926" target="_Node253951" />
+            <edge id="_Edge253954" source="_Node253951" target="_Node253953" />
+            <edge id="_Edge253956" source="_Node253953" target="_Node253955" />
+            <edge id="_Edge253959" source="_Node253953" target="_Node253958" />
+            <edge id="_Edge253962" source="_Node253951" target="_Node253961" />
+            <edge id="_Edge253964" source="_Node253961" target="_Node253963" />
+            <edge id="_Edge253966" source="_Node253963" target="_Node253965" />
+            <edge id="_Edge253969" source="_Node253963" target="_Node253968" />
+            <edge id="_Edge253972" source="_Node253961" target="_Node253971" />
+            <edge id="_Edge253974" source="_Node253971" target="_Node253973" />
+            <edge id="_Edge253977" source="_Node253971" target="_Node253976" />
+            <edge id="_Edge253979" source="_Node253976" target="_Node253978" />
+            <edge id="_Edge253982" source="_Node253976" target="_Node253981" />
+            <edge id="_Edge253984" source="_Node253981" target="_Node253983" />
+            <edge id="_Edge253987" source="_Node253981" target="_Node253986" />
+            <edge id="_Edge253989" source="_Node253986" target="_Node253988" />
+            <edge id="_Edge253992" source="_Node253986" target="_Node253991" />
         </tree>
     </trees>
 </nex:nexml>

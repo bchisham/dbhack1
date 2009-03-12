@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S343"><citation>Ram&#195;&#173;rez, M. J. 1995. A phylogenetic analysis of the subfamilies of Anyphaenidae (Arachnida, Araneae). Ent. scand. 26: 361-384.</citation><author email="ramirez@denison.edu" firstname="Mart&#195;&#173;n J." lastname="Ram&#195;&#173;rez" /></study></nex:external>
-    <otus id="_TaxaBlock255399">
+<nex:external xmlns="dbhack1/phylr"><study id="S343"><citation>Ram&#195;&#173;rez, M. J. 1995. A phylogenetic analysis of the subfamilies of Anyphaenidae (Arachnida, Araneae). Ent. scand. 26: 361-384.</citation><abstract>Anyphaenidae are diagnosed by the pattern of tracheal system, the forwardly advanced tracheal spiracle, and the lamelliform claw tufi setae. Cladistic analyses of the relationships of the anyphaenid genera are made from a selection of 9 exemplar taxa scored for 20 characters. In result, three subfamilies are proposed. Malenellinae subfam. n. is erected for Malenella nana gen. &amp;amp; sp. n. from southern Chile. This subfamily is considered as the sister group of all other anyphaenids. Anyphaeninae and Amaurobioidinae form a monophyletic group united by the orientation of the claw tufi setae and the grooved cymbial tip. Anyphaeninae are diagnosed by three characters associated with the advancement of the spiracle toward the epigastric furrow. Amaurobioidinae are diagnosed by the ingression of the median hematodocha in the male tegulum, and a characteristic secondary conductor. The relationships among the genera of Amaurobioidinae are discussed. The complex tracheal system of anyphaenids develops, during ontogeny, from a simple four-branched system. The genera Aysenia (from Clubionidae), Philisca (from Miturgidae) and Sanogasta (from Corinnidae) are transferred to Anyphaenidae: Amaurobioidinae. M. J. Ramirez, Department of Biology, FCEyN, Pabell6n 11 Ciudad Universitaria, 1428 Buenos Aires, Argentina. Current address: Museo Argentino de Ciencias Naturales, Av. Angel Gallardo 470, 1405 Buenos Aires, Argentina.</abstract><author email="ramirez@denison.edu" firstname="Mart&#195;&#173;n J." lastname="Ram&#195;&#173;rez" /></study></nex:external>
+    <otus id="_TaxaBlock253304">
         <otu id="Malenella" label="Malenella" />
         <otu id="Wulfila" label="Wulfila" />
         <otu id="Anyphaena" label="Anyphaena" />
@@ -18,41 +18,41 @@
         <otu id="Arachosia" label="Arachosia" />
         <otu id="Sanogasta" label="Sanogasta" />
     </otus>
-    <trees id="_TreesBlock255400" otus="_TaxaBlock255399">
+    <trees id="_TreesBlock253305" otus="_TaxaBlock253304">
         <tree id="Tree1090" label="Fig. 35" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S343A226" software="NONA"><inputmatrix datatype="Morphological" name="Table 1" nchar="20" /></analysis></nex:external>
-            <node id="_Node255404" />
-            <node id="_Node255406" otu="Malenella" />
-            <node id="_Node255409" />
-            <node id="_Node255411" />
-            <node id="_Node255413" otu="Wulfila" />
-            <node id="_Node255416" otu="Anyphaena" />
-            <node id="_Node255419" />
-            <node id="_Node255421" />
-            <node id="_Node255423" otu="Coptoprepes" />
-            <node id="_Node255426" otu="Amaurobioides" />
-            <node id="_Node255429" otu="Ferrieria" />
-            <node id="_Node255432" />
-            <node id="_Node255434" otu="Gayenna" />
-            <node id="_Node255437" />
-            <node id="_Node255439" otu="Arachosia" />
-            <node id="_Node255442" otu="Sanogasta" />
-            <rootedge id="_Edge255405" target="_Node255404" />
-            <edge id="_Edge255407" source="_Node255404" target="_Node255406" />
-            <edge id="_Edge255410" source="_Node255404" target="_Node255409" />
-            <edge id="_Edge255412" source="_Node255409" target="_Node255411" />
-            <edge id="_Edge255414" source="_Node255411" target="_Node255413" />
-            <edge id="_Edge255417" source="_Node255411" target="_Node255416" />
-            <edge id="_Edge255420" source="_Node255409" target="_Node255419" />
-            <edge id="_Edge255422" source="_Node255419" target="_Node255421" />
-            <edge id="_Edge255424" source="_Node255421" target="_Node255423" />
-            <edge id="_Edge255427" source="_Node255421" target="_Node255426" />
-            <edge id="_Edge255430" source="_Node255421" target="_Node255429" />
-            <edge id="_Edge255433" source="_Node255419" target="_Node255432" />
-            <edge id="_Edge255435" source="_Node255432" target="_Node255434" />
-            <edge id="_Edge255438" source="_Node255432" target="_Node255437" />
-            <edge id="_Edge255440" source="_Node255437" target="_Node255439" />
-            <edge id="_Edge255443" source="_Node255437" target="_Node255442" />
+            <node id="_Node253309" />
+            <node id="_Node253311" otu="Malenella" />
+            <node id="_Node253314" />
+            <node id="_Node253316" />
+            <node id="_Node253318" otu="Wulfila" />
+            <node id="_Node253321" otu="Anyphaena" />
+            <node id="_Node253324" />
+            <node id="_Node253326" />
+            <node id="_Node253328" otu="Coptoprepes" />
+            <node id="_Node253331" otu="Amaurobioides" />
+            <node id="_Node253334" otu="Ferrieria" />
+            <node id="_Node253337" />
+            <node id="_Node253339" otu="Gayenna" />
+            <node id="_Node253342" />
+            <node id="_Node253344" otu="Arachosia" />
+            <node id="_Node253347" otu="Sanogasta" />
+            <rootedge id="_Edge253310" target="_Node253309" />
+            <edge id="_Edge253312" source="_Node253309" target="_Node253311" />
+            <edge id="_Edge253315" source="_Node253309" target="_Node253314" />
+            <edge id="_Edge253317" source="_Node253314" target="_Node253316" />
+            <edge id="_Edge253319" source="_Node253316" target="_Node253318" />
+            <edge id="_Edge253322" source="_Node253316" target="_Node253321" />
+            <edge id="_Edge253325" source="_Node253314" target="_Node253324" />
+            <edge id="_Edge253327" source="_Node253324" target="_Node253326" />
+            <edge id="_Edge253329" source="_Node253326" target="_Node253328" />
+            <edge id="_Edge253332" source="_Node253326" target="_Node253331" />
+            <edge id="_Edge253335" source="_Node253326" target="_Node253334" />
+            <edge id="_Edge253338" source="_Node253324" target="_Node253337" />
+            <edge id="_Edge253340" source="_Node253337" target="_Node253339" />
+            <edge id="_Edge253343" source="_Node253337" target="_Node253342" />
+            <edge id="_Edge253345" source="_Node253342" target="_Node253344" />
+            <edge id="_Edge253348" source="_Node253342" target="_Node253347" />
         </tree>
     </trees>
 </nex:nexml>

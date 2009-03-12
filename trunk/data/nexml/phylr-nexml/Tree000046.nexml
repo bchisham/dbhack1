@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,7 +6,7 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S11x5x95c15c48c19"><citation>Kress, W. J. 1990. The phylogeny and classification of the Zingiberales. Ann. Mo Bot. Gard. 77:698-721.</citation><author firstname="W. J." lastname="Kress" /></study></nex:external>
+<nex:external xmlns="dbhack1/phylr"><study id="S11x5x95c15c48c19"><citation>Kress, W. J. 1990. The phylogeny and classification of the Zingiberales. Ann. Mo Bot. Gard. 77:698-721.</citation><abstract>In the Zingiberales, a primarily tropical order of monocotyledons, most phylogenists currently recognize eight families: Musaceae, Strelitziaceae, Lowiaceae, Heliconiaceae, Zingiberaceae, Costaceae, Cannaceae, and Marantaceae. Some taxonomists still prefer the earlier classifications that included Strelitziaceae, Lowiaceae, and Heliconiaceae in Musaceae s.l., and Costaceae as a part of Zingiberaceae s.l. Attempts to reconstruct the phylogenetic history of the order have been made by Lane, Tomlinson, and Dahlgren &amp;amp; Rasmussen. An original analysis of the evolutionary relationships of the eight families of the Zingiberales based on the principles of phylogenetic systematics is presented here. The most parsimonious topology is (Musaceae (Strelitziaceae (Lowiaceae (Heliconiaceae ((Zingiberaceae, Costaceae) (Cannaceae, Marantaceae)). The cladogram rejects the recognition of Musaceae s.l. as an evolutionary group. A new phylogenetic classification based on the cladogram is proposed that recognizes eight families, two superfamilies, and five suborders within the Zingiberales.</abstract><author firstname="W. J." lastname="Kress" /></study></nex:external>
     <otus id="_TaxaBlock12052">
         <otu id="Costaceae" label="Costaceae" />
         <otu id="Zingiberaceae" label="Zingiberaceae" />

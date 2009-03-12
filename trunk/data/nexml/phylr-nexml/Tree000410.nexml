@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S3x21x98c10c02c04"><citation>Hallenberg, N. and E. Parmasto. 1998. Phylogenetic studies in species of Corticiaceae growing on branches. Mycologia, in press.</citation><author email="nils.hallenberg@systbot.gu.se" firstname="Nils" lastname="Hallenberg" /><author firstname="Erast" lastname="Parmasto" /></study></nex:external>
-    <otus id="_TaxaBlock134374">
+<nex:external xmlns="dbhack1/phylr"><study id="S3x21x98c10c02c04"><citation>Hallenberg, N. and E. Parmasto. 1998. Phylogenetic studies in species of Corticiaceae growing on branches. Mycologia, in press.</citation><abstract>Parsimony analysis based on ribosomal DNA sequence and morphological data was performed for 28 species of Acanthophysium, Amylostereum, Aleurodiscus, Corticium, Cytidia, Dendrocorticium, Duportella, Peniophora, Stereum, and Vuilleminia (Corticiaceae, Basidiomycota). Sequence data from a portion of the ribosomal large subunit (nDNA) and morphological data were analyzed separately as well as in combination. Three monophyletic groups were clearly distinguished: Peniophora spp., Aleurocystidiellum spp., Acanthophysium + Stereum spp. Characters used for delimitation of Aleurodiscus s.l. are discussed.</abstract><author email="nils.hallenberg@systbot.gu.se" firstname="Nils" lastname="Hallenberg" /><author firstname="Erast" lastname="Parmasto" /></study></nex:external>
+    <otus id="_TaxaBlock133314">
         <otu id="Acanthophysiumweirii" label="Acanthophysium weirii" />
         <otu id="Aleurodiscusaurantius" label="Aleurodiscus aurantius" />
         <otu id="Vuilleminiacystidiata" label="Vuilleminia cystidiata" />
@@ -38,123 +38,123 @@
         <otu id="Peniophorarufa" label="Peniophora rufa" />
         <otu id="Peniophorapolygonia" label="Peniophora polygonia" />
     </otus>
-    <trees id="_TreesBlock134375" otus="_TaxaBlock134374">
+    <trees id="_TreesBlock133315" otus="_TaxaBlock133314">
         <tree id="T463c3x21x98c10c42c01" label="Fig. 5" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A218c3x21x98c10c41c23" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Molecular" nchar="485" /><inputmatrix datatype="Morphological" name="Table II" nchar="48" /></analysis></nex:external>
-            <node id="_Node134379" />
-            <node id="_Node134381" otu="Acanthophysiumweirii" />
-            <node id="_Node134384" />
-            <node id="_Node134386" otu="Aleurodiscusaurantius" />
-            <node id="_Node134389" />
-            <node id="_Node134391" />
-            <node id="_Node134393" otu="Vuilleminiacystidiata" />
-            <node id="_Node134396" />
-            <node id="_Node134398" otu="Dendrocorticiumpolygonioides" />
-            <node id="_Node134401" />
-            <node id="_Node134403" />
-            <node id="_Node134405" otu="Vuilleminiacomedens" />
-            <node id="_Node134408" otu="Cytidiasalicina" />
-            <node id="_Node134411" />
-            <node id="_Node134413" otu="Duportellatristicula" />
-            <node id="_Node134416" otu="Corticiumroseum" />
-            <node id="_Node134419" />
-            <node id="_Node134421" />
-            <node id="_Node134423" otu="Aleurocystidiellumsubcruentatum" />
-            <node id="_Node134426" otu="Aleurocystidiellumdisciforme" />
-            <node id="_Node134429" />
-            <node id="_Node134431" />
-            <node id="_Node134433" />
-            <node id="_Node134435" otu="Acanthophysiumcerrusatum" />
-            <node id="_Node134438" otu="Acanthophysiumlividocaeruleum" />
-            <node id="_Node134441" />
-            <node id="_Node134443" otu="Aleurodiscuswakefieldiae" />
-            <node id="_Node134446" />
-            <node id="_Node134448" otu="Stereumrugosum" />
-            <node id="_Node134451" otu="Stereumhirsutum" />
-            <node id="_Node134454" />
-            <node id="_Node134456" otu="Amylostereumchailletii" />
-            <node id="_Node134459" />
-            <node id="_Node134461" />
-            <node id="_Node134463" otu="Peniophoraincarnata" />
-            <node id="_Node134466" otu="Peniophoraaurantiaca" />
-            <node id="_Node134469" />
-            <node id="_Node134471" />
-            <node id="_Node134473" otu="Peniophorameridionalis" />
-            <node id="_Node134476" />
-            <node id="_Node134478" otu="Peniophoradecorticans" />
-            <node id="_Node134481" />
-            <node id="_Node134483" otu="Peniophoranuda" />
-            <node id="_Node134486" />
-            <node id="_Node134488" otu="Peniophoracinereafagicola" />
-            <node id="_Node134491" otu="Peniophoracinereacinerea" />
-            <node id="_Node134494" />
-            <node id="_Node134496" otu="Peniophoraversicolor" />
-            <node id="_Node134499" />
-            <node id="_Node134501" otu="Peniophoraproxima" />
-            <node id="_Node134504" />
-            <node id="_Node134506" otu="Peniophorapiceae" />
-            <node id="_Node134509" />
-            <node id="_Node134511" otu="Peniophorapini" />
-            <node id="_Node134514" />
-            <node id="_Node134516" otu="Peniophorarufa" />
-            <node id="_Node134519" otu="Peniophorapolygonia" />
-            <rootedge id="_Edge134380" target="_Node134379" />
-            <edge id="_Edge134382" source="_Node134379" target="_Node134381" />
-            <edge id="_Edge134385" source="_Node134379" target="_Node134384" />
-            <edge id="_Edge134387" source="_Node134384" target="_Node134386" />
-            <edge id="_Edge134390" source="_Node134384" target="_Node134389" />
-            <edge id="_Edge134392" source="_Node134389" target="_Node134391" />
-            <edge id="_Edge134394" source="_Node134391" target="_Node134393" />
-            <edge id="_Edge134397" source="_Node134391" target="_Node134396" />
-            <edge id="_Edge134399" source="_Node134396" target="_Node134398" />
-            <edge id="_Edge134402" source="_Node134396" target="_Node134401" />
-            <edge id="_Edge134404" source="_Node134401" target="_Node134403" />
-            <edge id="_Edge134406" source="_Node134403" target="_Node134405" />
-            <edge id="_Edge134409" source="_Node134403" target="_Node134408" />
-            <edge id="_Edge134412" source="_Node134401" target="_Node134411" />
-            <edge id="_Edge134414" source="_Node134411" target="_Node134413" />
-            <edge id="_Edge134417" source="_Node134411" target="_Node134416" />
-            <edge id="_Edge134420" source="_Node134389" target="_Node134419" />
-            <edge id="_Edge134422" source="_Node134419" target="_Node134421" />
-            <edge id="_Edge134424" source="_Node134421" target="_Node134423" />
-            <edge id="_Edge134427" source="_Node134421" target="_Node134426" />
-            <edge id="_Edge134430" source="_Node134419" target="_Node134429" />
-            <edge id="_Edge134432" source="_Node134429" target="_Node134431" />
-            <edge id="_Edge134434" source="_Node134431" target="_Node134433" />
-            <edge id="_Edge134436" source="_Node134433" target="_Node134435" />
-            <edge id="_Edge134439" source="_Node134433" target="_Node134438" />
-            <edge id="_Edge134442" source="_Node134431" target="_Node134441" />
-            <edge id="_Edge134444" source="_Node134441" target="_Node134443" />
-            <edge id="_Edge134447" source="_Node134441" target="_Node134446" />
-            <edge id="_Edge134449" source="_Node134446" target="_Node134448" />
-            <edge id="_Edge134452" source="_Node134446" target="_Node134451" />
-            <edge id="_Edge134455" source="_Node134429" target="_Node134454" />
-            <edge id="_Edge134457" source="_Node134454" target="_Node134456" />
-            <edge id="_Edge134460" source="_Node134454" target="_Node134459" />
-            <edge id="_Edge134462" source="_Node134459" target="_Node134461" />
-            <edge id="_Edge134464" source="_Node134461" target="_Node134463" />
-            <edge id="_Edge134467" source="_Node134461" target="_Node134466" />
-            <edge id="_Edge134470" source="_Node134459" target="_Node134469" />
-            <edge id="_Edge134472" source="_Node134469" target="_Node134471" />
-            <edge id="_Edge134474" source="_Node134471" target="_Node134473" />
-            <edge id="_Edge134477" source="_Node134471" target="_Node134476" />
-            <edge id="_Edge134479" source="_Node134476" target="_Node134478" />
-            <edge id="_Edge134482" source="_Node134476" target="_Node134481" />
-            <edge id="_Edge134484" source="_Node134481" target="_Node134483" />
-            <edge id="_Edge134487" source="_Node134481" target="_Node134486" />
-            <edge id="_Edge134489" source="_Node134486" target="_Node134488" />
-            <edge id="_Edge134492" source="_Node134486" target="_Node134491" />
-            <edge id="_Edge134495" source="_Node134469" target="_Node134494" />
-            <edge id="_Edge134497" source="_Node134494" target="_Node134496" />
-            <edge id="_Edge134500" source="_Node134494" target="_Node134499" />
-            <edge id="_Edge134502" source="_Node134499" target="_Node134501" />
-            <edge id="_Edge134505" source="_Node134499" target="_Node134504" />
-            <edge id="_Edge134507" source="_Node134504" target="_Node134506" />
-            <edge id="_Edge134510" source="_Node134504" target="_Node134509" />
-            <edge id="_Edge134512" source="_Node134509" target="_Node134511" />
-            <edge id="_Edge134515" source="_Node134509" target="_Node134514" />
-            <edge id="_Edge134517" source="_Node134514" target="_Node134516" />
-            <edge id="_Edge134520" source="_Node134514" target="_Node134519" />
+            <node id="_Node133319" />
+            <node id="_Node133321" otu="Acanthophysiumweirii" />
+            <node id="_Node133324" />
+            <node id="_Node133326" otu="Aleurodiscusaurantius" />
+            <node id="_Node133329" />
+            <node id="_Node133331" />
+            <node id="_Node133333" otu="Vuilleminiacystidiata" />
+            <node id="_Node133336" />
+            <node id="_Node133338" otu="Dendrocorticiumpolygonioides" />
+            <node id="_Node133341" />
+            <node id="_Node133343" />
+            <node id="_Node133345" otu="Vuilleminiacomedens" />
+            <node id="_Node133348" otu="Cytidiasalicina" />
+            <node id="_Node133351" />
+            <node id="_Node133353" otu="Duportellatristicula" />
+            <node id="_Node133356" otu="Corticiumroseum" />
+            <node id="_Node133359" />
+            <node id="_Node133361" />
+            <node id="_Node133363" otu="Aleurocystidiellumsubcruentatum" />
+            <node id="_Node133366" otu="Aleurocystidiellumdisciforme" />
+            <node id="_Node133369" />
+            <node id="_Node133371" />
+            <node id="_Node133373" />
+            <node id="_Node133375" otu="Acanthophysiumcerrusatum" />
+            <node id="_Node133378" otu="Acanthophysiumlividocaeruleum" />
+            <node id="_Node133381" />
+            <node id="_Node133383" otu="Aleurodiscuswakefieldiae" />
+            <node id="_Node133386" />
+            <node id="_Node133388" otu="Stereumrugosum" />
+            <node id="_Node133391" otu="Stereumhirsutum" />
+            <node id="_Node133394" />
+            <node id="_Node133396" otu="Amylostereumchailletii" />
+            <node id="_Node133399" />
+            <node id="_Node133401" />
+            <node id="_Node133403" otu="Peniophoraincarnata" />
+            <node id="_Node133406" otu="Peniophoraaurantiaca" />
+            <node id="_Node133409" />
+            <node id="_Node133411" />
+            <node id="_Node133413" otu="Peniophorameridionalis" />
+            <node id="_Node133416" />
+            <node id="_Node133418" otu="Peniophoradecorticans" />
+            <node id="_Node133421" />
+            <node id="_Node133423" otu="Peniophoranuda" />
+            <node id="_Node133426" />
+            <node id="_Node133428" otu="Peniophoracinereafagicola" />
+            <node id="_Node133431" otu="Peniophoracinereacinerea" />
+            <node id="_Node133434" />
+            <node id="_Node133436" otu="Peniophoraversicolor" />
+            <node id="_Node133439" />
+            <node id="_Node133441" otu="Peniophoraproxima" />
+            <node id="_Node133444" />
+            <node id="_Node133446" otu="Peniophorapiceae" />
+            <node id="_Node133449" />
+            <node id="_Node133451" otu="Peniophorapini" />
+            <node id="_Node133454" />
+            <node id="_Node133456" otu="Peniophorarufa" />
+            <node id="_Node133459" otu="Peniophorapolygonia" />
+            <rootedge id="_Edge133320" target="_Node133319" />
+            <edge id="_Edge133322" source="_Node133319" target="_Node133321" />
+            <edge id="_Edge133325" source="_Node133319" target="_Node133324" />
+            <edge id="_Edge133327" source="_Node133324" target="_Node133326" />
+            <edge id="_Edge133330" source="_Node133324" target="_Node133329" />
+            <edge id="_Edge133332" source="_Node133329" target="_Node133331" />
+            <edge id="_Edge133334" source="_Node133331" target="_Node133333" />
+            <edge id="_Edge133337" source="_Node133331" target="_Node133336" />
+            <edge id="_Edge133339" source="_Node133336" target="_Node133338" />
+            <edge id="_Edge133342" source="_Node133336" target="_Node133341" />
+            <edge id="_Edge133344" source="_Node133341" target="_Node133343" />
+            <edge id="_Edge133346" source="_Node133343" target="_Node133345" />
+            <edge id="_Edge133349" source="_Node133343" target="_Node133348" />
+            <edge id="_Edge133352" source="_Node133341" target="_Node133351" />
+            <edge id="_Edge133354" source="_Node133351" target="_Node133353" />
+            <edge id="_Edge133357" source="_Node133351" target="_Node133356" />
+            <edge id="_Edge133360" source="_Node133329" target="_Node133359" />
+            <edge id="_Edge133362" source="_Node133359" target="_Node133361" />
+            <edge id="_Edge133364" source="_Node133361" target="_Node133363" />
+            <edge id="_Edge133367" source="_Node133361" target="_Node133366" />
+            <edge id="_Edge133370" source="_Node133359" target="_Node133369" />
+            <edge id="_Edge133372" source="_Node133369" target="_Node133371" />
+            <edge id="_Edge133374" source="_Node133371" target="_Node133373" />
+            <edge id="_Edge133376" source="_Node133373" target="_Node133375" />
+            <edge id="_Edge133379" source="_Node133373" target="_Node133378" />
+            <edge id="_Edge133382" source="_Node133371" target="_Node133381" />
+            <edge id="_Edge133384" source="_Node133381" target="_Node133383" />
+            <edge id="_Edge133387" source="_Node133381" target="_Node133386" />
+            <edge id="_Edge133389" source="_Node133386" target="_Node133388" />
+            <edge id="_Edge133392" source="_Node133386" target="_Node133391" />
+            <edge id="_Edge133395" source="_Node133369" target="_Node133394" />
+            <edge id="_Edge133397" source="_Node133394" target="_Node133396" />
+            <edge id="_Edge133400" source="_Node133394" target="_Node133399" />
+            <edge id="_Edge133402" source="_Node133399" target="_Node133401" />
+            <edge id="_Edge133404" source="_Node133401" target="_Node133403" />
+            <edge id="_Edge133407" source="_Node133401" target="_Node133406" />
+            <edge id="_Edge133410" source="_Node133399" target="_Node133409" />
+            <edge id="_Edge133412" source="_Node133409" target="_Node133411" />
+            <edge id="_Edge133414" source="_Node133411" target="_Node133413" />
+            <edge id="_Edge133417" source="_Node133411" target="_Node133416" />
+            <edge id="_Edge133419" source="_Node133416" target="_Node133418" />
+            <edge id="_Edge133422" source="_Node133416" target="_Node133421" />
+            <edge id="_Edge133424" source="_Node133421" target="_Node133423" />
+            <edge id="_Edge133427" source="_Node133421" target="_Node133426" />
+            <edge id="_Edge133429" source="_Node133426" target="_Node133428" />
+            <edge id="_Edge133432" source="_Node133426" target="_Node133431" />
+            <edge id="_Edge133435" source="_Node133409" target="_Node133434" />
+            <edge id="_Edge133437" source="_Node133434" target="_Node133436" />
+            <edge id="_Edge133440" source="_Node133434" target="_Node133439" />
+            <edge id="_Edge133442" source="_Node133439" target="_Node133441" />
+            <edge id="_Edge133445" source="_Node133439" target="_Node133444" />
+            <edge id="_Edge133447" source="_Node133444" target="_Node133446" />
+            <edge id="_Edge133450" source="_Node133444" target="_Node133449" />
+            <edge id="_Edge133452" source="_Node133449" target="_Node133451" />
+            <edge id="_Edge133455" source="_Node133449" target="_Node133454" />
+            <edge id="_Edge133457" source="_Node133454" target="_Node133456" />
+            <edge id="_Edge133460" source="_Node133454" target="_Node133459" />
         </tree>
     </trees>
 </nex:nexml>

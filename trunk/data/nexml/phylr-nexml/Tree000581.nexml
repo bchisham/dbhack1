@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S261"><citation>Ackerly, D. D. and M. J. Donoghue.1998. Leaf size, sapling allometry, and Corner\'s rules: phylogeny and correlated evolution in maples (Acer). American Naturalist, 152: 000-000.</citation><author email="dackerly@leland.stanford.edu" firstname="David D." lastname="Ackerly" /><author email="michael.donoghue@yale.edu" firstname="Michael J. " lastname="Donoghue" /></study></nex:external>
-    <otus id="_TaxaBlock186171">
+<nex:external xmlns="dbhack1/phylr"><study id="S261"><citation>Ackerly, D. D. and M. J. Donoghue.1998. Leaf size, sapling allometry, and Corner\'s rules: phylogeny and correlated evolution in maples (Acer). American Naturalist, 152: 000-000.</citation><abstract>We studied the evolution of leaf size, sapling canopy allometry and related traits in 17 Acer species growing in the understory of temperate deciduous forests, using parsimony methods, randomization tests, and independent contrasts calculated on a phylogeny inferred from nuclear ribosomal ITS sequences. Bivariate correlations and multivariate analyses indicated two independent suites of coevolving traits, and the results were robust over a range of alternative phylogenies. The first suite consisted of strong positive correlations among twig thickness, leaf size, inflorescence length, and branch spacing (Corner\'s rules). Seed size and mature height were also weakly correlated with these traits. The second suite reflected aspects of sapling crown allometry, including crown size, stem diameter, and total leaf area, which appear to be related to shade tolerance. There was a weak negative correlation between sapling crown size and mature height, but no correlation with leaf or seed size. Most correlations were similar in magnitude for ahistorical and independent contrasts analyses, and discrepancies between these two measures were greater in traits with lower levels of convergent evolution. The evolutionary correlations among twig, leaf, seed, inflorescence, and canopy dimensions emphasize the need for integrated theories of evolution and function of these disparate traits.</abstract><author email="dackerly@leland.stanford.edu" firstname="David D." lastname="Ackerly" /><author email="michael.donoghue@yale.edu" firstname="Michael J. " lastname="Donoghue" /></study></nex:external>
+    <otus id="_TaxaBlock184076">
         <otu id="Dipteroniasinensis" label="Dipteronia sinensis" />
         <otu id="Acercircinatum" label="Acer circinatum" />
         <otu id="Acertakesimense" label="Acer takesimense" />
@@ -46,153 +46,153 @@
         <otu id="Acerdistylum" label="Acer distylum" />
         <otu id="Acerginnala" label="Acer ginnala" />
     </otus>
-    <trees id="_TreesBlock186172" otus="_TaxaBlock186171">
+    <trees id="_TreesBlock184077" otus="_TaxaBlock184076">
         <tree id="Tree848" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A322c8x15x98c17c08c41" software="PAUP"><inputmatrix datatype="Nucleic Acid" nchar="790" /></analysis></nex:external>
-            <node id="_Node186176" />
-            <node id="_Node186178" otu="Dipteroniasinensis" />
-            <node id="_Node186181" />
-            <node id="_Node186183" />
-            <node id="_Node186185" otu="Acercircinatum" />
-            <node id="_Node186188" />
-            <node id="_Node186190" />
-            <node id="_Node186192" otu="Acertakesimense" />
-            <node id="_Node186195" />
-            <node id="_Node186197" otu="Acerjaponicum2" />
-            <node id="_Node186200" otu="Acerpseudosieboldianum" />
-            <node id="_Node186203" />
-            <node id="_Node186205" otu="Aceroblongum" />
-            <node id="_Node186208" />
-            <node id="_Node186210" />
-            <node id="_Node186212" otu="Acerpalmatum" />
-            <node id="_Node186215" otu="Aceramoenum" />
-            <node id="_Node186218" />
-            <node id="_Node186220" otu="Acersieboldianum" />
-            <node id="_Node186223" />
-            <node id="_Node186225" otu="Acershirasawanum" />
-            <node id="_Node186228" otu="Acertenuifolium" />
-            <node id="_Node186231" otu="Acerjaponicum1" />
-            <node id="_Node186234" />
-            <node id="_Node186236" />
-            <node id="_Node186238" otu="Acerbuergerianum" />
-            <node id="_Node186241" />
-            <node id="_Node186243" otu="Acercarpinifolium" />
-            <node id="_Node186246" />
-            <node id="_Node186248" otu="Acersaccharum" />
-            <node id="_Node186251" />
-            <node id="_Node186253" otu="Acerrubrum" />
-            <node id="_Node186256" otu="Acersaccharinum" />
-            <node id="_Node186259" />
-            <node id="_Node186261" otu="Acerdiabolicum" />
-            <node id="_Node186264" />
-            <node id="_Node186266" />
-            <node id="_Node186268" otu="Acermacrophyllum" />
-            <node id="_Node186271" />
-            <node id="_Node186273" otu="Acercampestre" />
-            <node id="_Node186276" />
-            <node id="_Node186278" otu="Acermono1" />
-            <node id="_Node186281" />
-            <node id="_Node186283" otu="Acerokamotoanum" />
-            <node id="_Node186286" />
-            <node id="_Node186288" />
-            <node id="_Node186290" otu="Acertruncatum" />
-            <node id="_Node186293" otu="Acermono2" />
-            <node id="_Node186296" otu="Acerplatanoides" />
-            <node id="_Node186299" />
-            <node id="_Node186301" />
-            <node id="_Node186303" otu="Acertschonoskii" />
-            <node id="_Node186306" otu="Acermicranthum" />
-            <node id="_Node186309" />
-            <node id="_Node186311" />
-            <node id="_Node186313" />
-            <node id="_Node186315" otu="Acertegmentosum" />
-            <node id="_Node186318" otu="Acerrufinerve" />
-            <node id="_Node186321" />
-            <node id="_Node186323" otu="Acercrataegifolium" />
-            <node id="_Node186326" otu="Acerpensylvanicum" />
-            <node id="_Node186329" />
-            <node id="_Node186331" />
-            <node id="_Node186333" otu="Acerglabrum" />
-            <node id="_Node186336" />
-            <node id="_Node186338" otu="Acernegundo" />
-            <node id="_Node186341" otu="Acerspicatum" />
-            <node id="_Node186344" />
-            <node id="_Node186346" otu="Acernipponicum" />
-            <node id="_Node186349" />
-            <node id="_Node186351" otu="Acerdistylum" />
-            <node id="_Node186354" otu="Acerginnala" />
-            <rootedge id="_Edge186177" target="_Node186176" />
-            <edge id="_Edge186179" source="_Node186176" target="_Node186178" />
-            <edge id="_Edge186182" source="_Node186176" target="_Node186181" />
-            <edge id="_Edge186184" source="_Node186181" target="_Node186183" />
-            <edge id="_Edge186186" source="_Node186183" target="_Node186185" />
-            <edge id="_Edge186189" source="_Node186183" target="_Node186188" />
-            <edge id="_Edge186191" source="_Node186188" target="_Node186190" />
-            <edge id="_Edge186193" source="_Node186190" target="_Node186192" />
-            <edge id="_Edge186196" source="_Node186190" target="_Node186195" />
-            <edge id="_Edge186198" source="_Node186195" target="_Node186197" />
-            <edge id="_Edge186201" source="_Node186195" target="_Node186200" />
-            <edge id="_Edge186204" source="_Node186188" target="_Node186203" />
-            <edge id="_Edge186206" source="_Node186203" target="_Node186205" />
-            <edge id="_Edge186209" source="_Node186203" target="_Node186208" />
-            <edge id="_Edge186211" source="_Node186208" target="_Node186210" />
-            <edge id="_Edge186213" source="_Node186210" target="_Node186212" />
-            <edge id="_Edge186216" source="_Node186210" target="_Node186215" />
-            <edge id="_Edge186219" source="_Node186208" target="_Node186218" />
-            <edge id="_Edge186221" source="_Node186218" target="_Node186220" />
-            <edge id="_Edge186224" source="_Node186218" target="_Node186223" />
-            <edge id="_Edge186226" source="_Node186223" target="_Node186225" />
-            <edge id="_Edge186229" source="_Node186223" target="_Node186228" />
-            <edge id="_Edge186232" source="_Node186218" target="_Node186231" />
-            <edge id="_Edge186235" source="_Node186181" target="_Node186234" />
-            <edge id="_Edge186237" source="_Node186234" target="_Node186236" />
-            <edge id="_Edge186239" source="_Node186236" target="_Node186238" />
-            <edge id="_Edge186242" source="_Node186236" target="_Node186241" />
-            <edge id="_Edge186244" source="_Node186241" target="_Node186243" />
-            <edge id="_Edge186247" source="_Node186241" target="_Node186246" />
-            <edge id="_Edge186249" source="_Node186246" target="_Node186248" />
-            <edge id="_Edge186252" source="_Node186246" target="_Node186251" />
-            <edge id="_Edge186254" source="_Node186251" target="_Node186253" />
-            <edge id="_Edge186257" source="_Node186251" target="_Node186256" />
-            <edge id="_Edge186260" source="_Node186234" target="_Node186259" />
-            <edge id="_Edge186262" source="_Node186259" target="_Node186261" />
-            <edge id="_Edge186265" source="_Node186259" target="_Node186264" />
-            <edge id="_Edge186267" source="_Node186264" target="_Node186266" />
-            <edge id="_Edge186269" source="_Node186266" target="_Node186268" />
-            <edge id="_Edge186272" source="_Node186266" target="_Node186271" />
-            <edge id="_Edge186274" source="_Node186271" target="_Node186273" />
-            <edge id="_Edge186277" source="_Node186271" target="_Node186276" />
-            <edge id="_Edge186279" source="_Node186276" target="_Node186278" />
-            <edge id="_Edge186282" source="_Node186276" target="_Node186281" />
-            <edge id="_Edge186284" source="_Node186281" target="_Node186283" />
-            <edge id="_Edge186287" source="_Node186281" target="_Node186286" />
-            <edge id="_Edge186289" source="_Node186286" target="_Node186288" />
-            <edge id="_Edge186291" source="_Node186288" target="_Node186290" />
-            <edge id="_Edge186294" source="_Node186288" target="_Node186293" />
-            <edge id="_Edge186297" source="_Node186286" target="_Node186296" />
-            <edge id="_Edge186300" source="_Node186264" target="_Node186299" />
-            <edge id="_Edge186302" source="_Node186299" target="_Node186301" />
-            <edge id="_Edge186304" source="_Node186301" target="_Node186303" />
-            <edge id="_Edge186307" source="_Node186301" target="_Node186306" />
-            <edge id="_Edge186310" source="_Node186299" target="_Node186309" />
-            <edge id="_Edge186312" source="_Node186309" target="_Node186311" />
-            <edge id="_Edge186314" source="_Node186311" target="_Node186313" />
-            <edge id="_Edge186316" source="_Node186313" target="_Node186315" />
-            <edge id="_Edge186319" source="_Node186313" target="_Node186318" />
-            <edge id="_Edge186322" source="_Node186311" target="_Node186321" />
-            <edge id="_Edge186324" source="_Node186321" target="_Node186323" />
-            <edge id="_Edge186327" source="_Node186321" target="_Node186326" />
-            <edge id="_Edge186330" source="_Node186309" target="_Node186329" />
-            <edge id="_Edge186332" source="_Node186329" target="_Node186331" />
-            <edge id="_Edge186334" source="_Node186331" target="_Node186333" />
-            <edge id="_Edge186337" source="_Node186331" target="_Node186336" />
-            <edge id="_Edge186339" source="_Node186336" target="_Node186338" />
-            <edge id="_Edge186342" source="_Node186336" target="_Node186341" />
-            <edge id="_Edge186345" source="_Node186329" target="_Node186344" />
-            <edge id="_Edge186347" source="_Node186344" target="_Node186346" />
-            <edge id="_Edge186350" source="_Node186344" target="_Node186349" />
-            <edge id="_Edge186352" source="_Node186349" target="_Node186351" />
-            <edge id="_Edge186355" source="_Node186349" target="_Node186354" />
+            <node id="_Node184081" />
+            <node id="_Node184083" otu="Dipteroniasinensis" />
+            <node id="_Node184086" />
+            <node id="_Node184088" />
+            <node id="_Node184090" otu="Acercircinatum" />
+            <node id="_Node184093" />
+            <node id="_Node184095" />
+            <node id="_Node184097" otu="Acertakesimense" />
+            <node id="_Node184100" />
+            <node id="_Node184102" otu="Acerjaponicum2" />
+            <node id="_Node184105" otu="Acerpseudosieboldianum" />
+            <node id="_Node184108" />
+            <node id="_Node184110" otu="Aceroblongum" />
+            <node id="_Node184113" />
+            <node id="_Node184115" />
+            <node id="_Node184117" otu="Acerpalmatum" />
+            <node id="_Node184120" otu="Aceramoenum" />
+            <node id="_Node184123" />
+            <node id="_Node184125" otu="Acersieboldianum" />
+            <node id="_Node184128" />
+            <node id="_Node184130" otu="Acershirasawanum" />
+            <node id="_Node184133" otu="Acertenuifolium" />
+            <node id="_Node184136" otu="Acerjaponicum1" />
+            <node id="_Node184139" />
+            <node id="_Node184141" />
+            <node id="_Node184143" otu="Acerbuergerianum" />
+            <node id="_Node184146" />
+            <node id="_Node184148" otu="Acercarpinifolium" />
+            <node id="_Node184151" />
+            <node id="_Node184153" otu="Acersaccharum" />
+            <node id="_Node184156" />
+            <node id="_Node184158" otu="Acerrubrum" />
+            <node id="_Node184161" otu="Acersaccharinum" />
+            <node id="_Node184164" />
+            <node id="_Node184166" otu="Acerdiabolicum" />
+            <node id="_Node184169" />
+            <node id="_Node184171" />
+            <node id="_Node184173" otu="Acermacrophyllum" />
+            <node id="_Node184176" />
+            <node id="_Node184178" otu="Acercampestre" />
+            <node id="_Node184181" />
+            <node id="_Node184183" otu="Acermono1" />
+            <node id="_Node184186" />
+            <node id="_Node184188" otu="Acerokamotoanum" />
+            <node id="_Node184191" />
+            <node id="_Node184193" />
+            <node id="_Node184195" otu="Acertruncatum" />
+            <node id="_Node184198" otu="Acermono2" />
+            <node id="_Node184201" otu="Acerplatanoides" />
+            <node id="_Node184204" />
+            <node id="_Node184206" />
+            <node id="_Node184208" otu="Acertschonoskii" />
+            <node id="_Node184211" otu="Acermicranthum" />
+            <node id="_Node184214" />
+            <node id="_Node184216" />
+            <node id="_Node184218" />
+            <node id="_Node184220" otu="Acertegmentosum" />
+            <node id="_Node184223" otu="Acerrufinerve" />
+            <node id="_Node184226" />
+            <node id="_Node184228" otu="Acercrataegifolium" />
+            <node id="_Node184231" otu="Acerpensylvanicum" />
+            <node id="_Node184234" />
+            <node id="_Node184236" />
+            <node id="_Node184238" otu="Acerglabrum" />
+            <node id="_Node184241" />
+            <node id="_Node184243" otu="Acernegundo" />
+            <node id="_Node184246" otu="Acerspicatum" />
+            <node id="_Node184249" />
+            <node id="_Node184251" otu="Acernipponicum" />
+            <node id="_Node184254" />
+            <node id="_Node184256" otu="Acerdistylum" />
+            <node id="_Node184259" otu="Acerginnala" />
+            <rootedge id="_Edge184082" target="_Node184081" />
+            <edge id="_Edge184084" source="_Node184081" target="_Node184083" />
+            <edge id="_Edge184087" source="_Node184081" target="_Node184086" />
+            <edge id="_Edge184089" source="_Node184086" target="_Node184088" />
+            <edge id="_Edge184091" source="_Node184088" target="_Node184090" />
+            <edge id="_Edge184094" source="_Node184088" target="_Node184093" />
+            <edge id="_Edge184096" source="_Node184093" target="_Node184095" />
+            <edge id="_Edge184098" source="_Node184095" target="_Node184097" />
+            <edge id="_Edge184101" source="_Node184095" target="_Node184100" />
+            <edge id="_Edge184103" source="_Node184100" target="_Node184102" />
+            <edge id="_Edge184106" source="_Node184100" target="_Node184105" />
+            <edge id="_Edge184109" source="_Node184093" target="_Node184108" />
+            <edge id="_Edge184111" source="_Node184108" target="_Node184110" />
+            <edge id="_Edge184114" source="_Node184108" target="_Node184113" />
+            <edge id="_Edge184116" source="_Node184113" target="_Node184115" />
+            <edge id="_Edge184118" source="_Node184115" target="_Node184117" />
+            <edge id="_Edge184121" source="_Node184115" target="_Node184120" />
+            <edge id="_Edge184124" source="_Node184113" target="_Node184123" />
+            <edge id="_Edge184126" source="_Node184123" target="_Node184125" />
+            <edge id="_Edge184129" source="_Node184123" target="_Node184128" />
+            <edge id="_Edge184131" source="_Node184128" target="_Node184130" />
+            <edge id="_Edge184134" source="_Node184128" target="_Node184133" />
+            <edge id="_Edge184137" source="_Node184123" target="_Node184136" />
+            <edge id="_Edge184140" source="_Node184086" target="_Node184139" />
+            <edge id="_Edge184142" source="_Node184139" target="_Node184141" />
+            <edge id="_Edge184144" source="_Node184141" target="_Node184143" />
+            <edge id="_Edge184147" source="_Node184141" target="_Node184146" />
+            <edge id="_Edge184149" source="_Node184146" target="_Node184148" />
+            <edge id="_Edge184152" source="_Node184146" target="_Node184151" />
+            <edge id="_Edge184154" source="_Node184151" target="_Node184153" />
+            <edge id="_Edge184157" source="_Node184151" target="_Node184156" />
+            <edge id="_Edge184159" source="_Node184156" target="_Node184158" />
+            <edge id="_Edge184162" source="_Node184156" target="_Node184161" />
+            <edge id="_Edge184165" source="_Node184139" target="_Node184164" />
+            <edge id="_Edge184167" source="_Node184164" target="_Node184166" />
+            <edge id="_Edge184170" source="_Node184164" target="_Node184169" />
+            <edge id="_Edge184172" source="_Node184169" target="_Node184171" />
+            <edge id="_Edge184174" source="_Node184171" target="_Node184173" />
+            <edge id="_Edge184177" source="_Node184171" target="_Node184176" />
+            <edge id="_Edge184179" source="_Node184176" target="_Node184178" />
+            <edge id="_Edge184182" source="_Node184176" target="_Node184181" />
+            <edge id="_Edge184184" source="_Node184181" target="_Node184183" />
+            <edge id="_Edge184187" source="_Node184181" target="_Node184186" />
+            <edge id="_Edge184189" source="_Node184186" target="_Node184188" />
+            <edge id="_Edge184192" source="_Node184186" target="_Node184191" />
+            <edge id="_Edge184194" source="_Node184191" target="_Node184193" />
+            <edge id="_Edge184196" source="_Node184193" target="_Node184195" />
+            <edge id="_Edge184199" source="_Node184193" target="_Node184198" />
+            <edge id="_Edge184202" source="_Node184191" target="_Node184201" />
+            <edge id="_Edge184205" source="_Node184169" target="_Node184204" />
+            <edge id="_Edge184207" source="_Node184204" target="_Node184206" />
+            <edge id="_Edge184209" source="_Node184206" target="_Node184208" />
+            <edge id="_Edge184212" source="_Node184206" target="_Node184211" />
+            <edge id="_Edge184215" source="_Node184204" target="_Node184214" />
+            <edge id="_Edge184217" source="_Node184214" target="_Node184216" />
+            <edge id="_Edge184219" source="_Node184216" target="_Node184218" />
+            <edge id="_Edge184221" source="_Node184218" target="_Node184220" />
+            <edge id="_Edge184224" source="_Node184218" target="_Node184223" />
+            <edge id="_Edge184227" source="_Node184216" target="_Node184226" />
+            <edge id="_Edge184229" source="_Node184226" target="_Node184228" />
+            <edge id="_Edge184232" source="_Node184226" target="_Node184231" />
+            <edge id="_Edge184235" source="_Node184214" target="_Node184234" />
+            <edge id="_Edge184237" source="_Node184234" target="_Node184236" />
+            <edge id="_Edge184239" source="_Node184236" target="_Node184238" />
+            <edge id="_Edge184242" source="_Node184236" target="_Node184241" />
+            <edge id="_Edge184244" source="_Node184241" target="_Node184243" />
+            <edge id="_Edge184247" source="_Node184241" target="_Node184246" />
+            <edge id="_Edge184250" source="_Node184234" target="_Node184249" />
+            <edge id="_Edge184252" source="_Node184249" target="_Node184251" />
+            <edge id="_Edge184255" source="_Node184249" target="_Node184254" />
+            <edge id="_Edge184257" source="_Node184254" target="_Node184256" />
+            <edge id="_Edge184260" source="_Node184254" target="_Node184259" />
         </tree>
     </trees>
 </nex:nexml>

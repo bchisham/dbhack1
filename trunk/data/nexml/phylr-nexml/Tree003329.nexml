@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S1436"><citation>Loo, A. H. B., J. Dransfield, M. W. Chase, and W. J. Baker. 2006. Low copy nuclear DNA, phylogeny and the evolution of dichogamy in the betel nut palms and their relatives (Arecinae; Arecaceae). Molecular Phylogenetics and Evolution, in press.</citation><author email="w.baker@rbgkew.org.uk" firstname="William J." lastname="Baker" /><author firstname="Mark W." lastname="Chase" /><author firstname="John" lastname="Dransfield" /><author firstname="Adrian H.B." lastname="Loo" /></study></nex:external>
-    <otus id="_TaxaBlock1915952">
+<nex:external xmlns="dbhack1/phylr"><study id="S1436"><citation>Loo, A. H. B., J. Dransfield, M. W. Chase, and W. J. Baker. 2006. Low copy nuclear DNA, phylogeny and the evolution of dichogamy in the betel nut palms and their relatives (Arecinae; Arecaceae). Molecular Phylogenetics and Evolution, in press.</citation><abstract>For the betel nut palm genus Areca and the other seven genera in subtribe Arecinae (Areceae; Arecoideae; Arecaceae) we collected DNA sequences from two low-copy nuclear genes, phosphoribulokinase (PRK) and the second largest subunit of RNA polymerase II (RPB2). The data were used to evaluate monophyly of the subtribe and its component genera, explore the radiation of the group across its range, and examine evolution of protandry and protogyny, which is particularly diverse in Arecinae. The subtribe and some genera are not monophyletic. Three lineages of Arecinae are recovered: one widespread, but centered on the Sunda Shelf, another endemic to the islands east of Wallace&#226;&#128;&#154;s Line and a third, comprising the Sri Lanka endemic Loxococcus, that is most closely related to genera from outside subtribe Arecinae. In clarifying phylogenetic relationships, we have demonstrated that a perceived bimodal distribution of the subtribe across Wallace&#226;&#128;&#154;s Line does not in fact exist. Character optimizations indicate that the evolution of protogyny, an unusual condition in palms, is potentially correlated with a large radiation in the genus Pinanga and possibly also to dramatic diversification in pollen morphology and genome size. The evolution of dichogamy in the clade endemic to the east of Wallace&#226;&#128;&#154;s line is complex and reveals a pattern of numerous transformations between protandry and protogyny that is in marked contrast with other Arecinae. We suggest that this contrast is most likely a reflection of differing geological histories and pollinator spectra in each region.</abstract><author email="w.baker@rbgkew.org.uk" firstname="William J." lastname="Baker" /><author firstname="Mark W." lastname="Chase" /><author firstname="John" lastname="Dransfield" /><author firstname="Adrian H.B." lastname="Loo" /></study></nex:external>
+    <otus id="_TaxaBlock1912321">
         <otu id="Chamaeropshumilis" label="Chamaerops humilis" />
         <otu id="Ammandradecasperma" label="Ammandra decasperma" />
         <otu id="Cyphospermabalansae" label="Cyphosperma balansae" />
@@ -71,247 +71,247 @@
         <otu id="Socrateaexorrhiza" label="Socratea exorrhiza" />
         <otu id="Reinhardtiagracilis" label="Reinhardtia gracilis" />
     </otus>
-    <trees id="_TreesBlock1915953" otus="_TaxaBlock1915952">
+    <trees id="_TreesBlock1912322" otus="_TaxaBlock1912321">
         <tree id="Tree4121" label="Fig. 4" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1436A5042" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Loo et al PRK RPB2.nex" nchar="1910" /></analysis></nex:external>
-            <node id="_Node1915957" />
-            <node id="_Node1915959" otu="Chamaeropshumilis" />
-            <node id="_Node1915962" />
-            <node id="_Node1915964" otu="Ammandradecasperma" />
-            <node id="_Node1915967" />
-            <node id="_Node1915969" />
-            <node id="_Node1915971" />
-            <node id="_Node1915973" />
-            <node id="_Node1915975" />
-            <node id="_Node1915977" />
-            <node id="_Node1915979" />
-            <node id="_Node1915981" />
-            <node id="_Node1915983" otu="Cyphospermabalansae" />
-            <node id="_Node1915986" />
-            <node id="_Node1915988" otu="Kentiopsisoliviformis" />
-            <node id="_Node1915991" />
-            <node id="_Node1915993" otu="Normanbyanormanbyi" />
-            <node id="_Node1915996" otu="Ptychospermasalomonense" />
-            <node id="_Node1915999" otu="Loxococcusrupicola" />
-            <node id="_Node1916002" />
-            <node id="_Node1916004" />
-            <node id="_Node1916006" otu="Iguanurawallichiana" />
-            <node id="_Node1916009" />
-            <node id="_Node1916011" />
-            <node id="_Node1916013" otu="ArecacatechuTCMK21" />
-            <node id="_Node1916016" />
-            <node id="_Node1916018" />
-            <node id="_Node1916020" otu="Arecaconcinna" />
-            <node id="_Node1916023" otu="ArecatriandraLoo307" />
-            <node id="_Node1916026" otu="Arecatriandra19842295" />
-            <node id="_Node1916029" otu="Arecarheophytica" />
-            <node id="_Node1916032" />
-            <node id="_Node1916034" />
-            <node id="_Node1916036" />
-            <node id="_Node1916038" />
-            <node id="_Node1916040" />
-            <node id="_Node1916042" otu="PinangacoronataBaker1145" />
-            <node id="_Node1916045" otu="PinangacoronataLoo303" />
-            <node id="_Node1916048" otu="PinangadistichaBaker1144" />
-            <node id="_Node1916051" />
-            <node id="_Node1916053" otu="PinangapuniceaBaker1091" />
-            <node id="_Node1916056" otu="PinangapuniceaBaker850" />
-            <node id="_Node1916059" />
-            <node id="_Node1916061" otu="Pinangasimplicifrons" />
-            <node id="_Node1916064" otu="PinangaspLoo309" />
-            <node id="_Node1916067" />
-            <node id="_Node1916069" otu="Nengagajah" />
-            <node id="_Node1916072" />
-            <node id="_Node1916074" otu="NengapumilaBaker994" />
-            <node id="_Node1916077" otu="NengapumilaLoo304" />
-            <node id="_Node1916080" />
-            <node id="_Node1916082" />
-            <node id="_Node1916084" />
-            <node id="_Node1916086" />
-            <node id="_Node1916088" />
-            <node id="_Node1916090" otu="Siphokentiabeguinii" />
-            <node id="_Node1916093" />
-            <node id="_Node1916095" otu="GronophyllumbrassiiBaker823" />
-            <node id="_Node1916098" otu="GronophyllumbrassiiDransfield7682" />
-            <node id="_Node1916101" />
-            <node id="_Node1916103" otu="GronophyllumpinangoidesBaker1137" />
-            <node id="_Node1916106" />
-            <node id="_Node1916108" otu="GronophyllumrhopalocarpumBaker879" />
-            <node id="_Node1916111" otu="GronophyllumrhopalocarpumWitono23" />
-            <node id="_Node1916114" otu="Siphokentiadransfieldii" />
-            <node id="_Node1916117" />
-            <node id="_Node1916119" />
-            <node id="_Node1916121" />
-            <node id="_Node1916123" />
-            <node id="_Node1916125" />
-            <node id="_Node1916127" />
-            <node id="_Node1916129" otu="HydriastelemicrospadixBaker573" />
-            <node id="_Node1916132" otu="HydriastelespBaker1043" />
-            <node id="_Node1916135" />
-            <node id="_Node1916137" otu="HydriastelemicrospadixWomersleysn" />
-            <node id="_Node1916140" otu="HydriastelemicrospadixZona890" />
-            <node id="_Node1916143" otu="HydriastelespHeatubun269" />
-            <node id="_Node1916146" />
-            <node id="_Node1916148" />
-            <node id="_Node1916150" otu="HydriastelemicrospadixLoo305" />
-            <node id="_Node1916153" otu="HydriastelespZona895" />
-            <node id="_Node1916156" otu="HydriastelespZona894" />
-            <node id="_Node1916159" otu="HydriastelemicrospadixBaker1127" />
-            <node id="_Node1916162" otu="HydriastelespBaker884" />
-            <node id="_Node1916165" otu="HydriastelespWitono20" />
-            <node id="_Node1916168" />
-            <node id="_Node1916170" />
-            <node id="_Node1916172" />
-            <node id="_Node1916174" otu="Gulubiahombronii" />
-            <node id="_Node1916177" otu="Gulubiamacrospadix" />
-            <node id="_Node1916180" />
-            <node id="_Node1916182" />
-            <node id="_Node1916184" />
-            <node id="_Node1916186" otu="Gulubiamicrocarpa" />
-            <node id="_Node1916189" otu="Gulubiacylindrocarpa" />
-            <node id="_Node1916192" otu="GulubiaspBouma" />
-            <node id="_Node1916195" otu="GronophyllumspBaker1135" />
-            <node id="_Node1916198" />
-            <node id="_Node1916200" />
-            <node id="_Node1916202" otu="GulubialongispathaBaker622" />
-            <node id="_Node1916205" otu="GulubialongispathaBaker882" />
-            <node id="_Node1916208" />
-            <node id="_Node1916210" otu="GronophyllumchaunostachysBanka2000" />
-            <node id="_Node1916213" otu="GronophyllumspBaker1096" />
-            <node id="_Node1916216" otu="GronophyllumspBaker1068" />
-            <node id="_Node1916219" />
-            <node id="_Node1916221" />
-            <node id="_Node1916223" />
-            <node id="_Node1916225" otu="GulubiacostataBaker1095" />
-            <node id="_Node1916228" otu="GulubiacostataBaker836" />
-            <node id="_Node1916231" otu="Gulubiapalauensis" />
-            <node id="_Node1916234" />
-            <node id="_Node1916236" otu="GronophyllumramsayiDowe711" />
-            <node id="_Node1916239" otu="GronophyllumramsayiDowe731" />
-            <node id="_Node1916242" otu="Rhopaloblasteaugusta" />
-            <node id="_Node1916245" otu="Leopoldiniapulchra" />
-            <node id="_Node1916248" otu="Manicariasaccifera" />
-            <node id="_Node1916251" otu="Socrateaexorrhiza" />
-            <node id="_Node1916254" otu="Reinhardtiagracilis" />
-            <rootedge id="_Edge1915958" target="_Node1915957" />
-            <edge id="_Edge1915960" source="_Node1915957" target="_Node1915959" />
-            <edge id="_Edge1915963" source="_Node1915957" target="_Node1915962" />
-            <edge id="_Edge1915965" source="_Node1915962" target="_Node1915964" />
-            <edge id="_Edge1915968" source="_Node1915962" target="_Node1915967" />
-            <edge id="_Edge1915970" source="_Node1915967" target="_Node1915969" />
-            <edge id="_Edge1915972" source="_Node1915969" target="_Node1915971" />
-            <edge id="_Edge1915974" source="_Node1915971" target="_Node1915973" />
-            <edge id="_Edge1915976" source="_Node1915973" target="_Node1915975" />
-            <edge id="_Edge1915978" source="_Node1915975" target="_Node1915977" />
-            <edge id="_Edge1915980" source="_Node1915977" target="_Node1915979" />
-            <edge id="_Edge1915982" source="_Node1915979" target="_Node1915981" />
-            <edge id="_Edge1915984" source="_Node1915981" target="_Node1915983" />
-            <edge id="_Edge1915987" source="_Node1915981" target="_Node1915986" />
-            <edge id="_Edge1915989" source="_Node1915986" target="_Node1915988" />
-            <edge id="_Edge1915992" source="_Node1915986" target="_Node1915991" />
-            <edge id="_Edge1915994" source="_Node1915991" target="_Node1915993" />
-            <edge id="_Edge1915997" source="_Node1915991" target="_Node1915996" />
-            <edge id="_Edge1916000" source="_Node1915979" target="_Node1915999" />
-            <edge id="_Edge1916003" source="_Node1915977" target="_Node1916002" />
-            <edge id="_Edge1916005" source="_Node1916002" target="_Node1916004" />
-            <edge id="_Edge1916007" source="_Node1916004" target="_Node1916006" />
-            <edge id="_Edge1916010" source="_Node1916004" target="_Node1916009" />
-            <edge id="_Edge1916012" source="_Node1916009" target="_Node1916011" />
-            <edge id="_Edge1916014" source="_Node1916011" target="_Node1916013" />
-            <edge id="_Edge1916017" source="_Node1916011" target="_Node1916016" />
-            <edge id="_Edge1916019" source="_Node1916016" target="_Node1916018" />
-            <edge id="_Edge1916021" source="_Node1916018" target="_Node1916020" />
-            <edge id="_Edge1916024" source="_Node1916018" target="_Node1916023" />
-            <edge id="_Edge1916027" source="_Node1916016" target="_Node1916026" />
-            <edge id="_Edge1916030" source="_Node1916011" target="_Node1916029" />
-            <edge id="_Edge1916033" source="_Node1916009" target="_Node1916032" />
-            <edge id="_Edge1916035" source="_Node1916032" target="_Node1916034" />
-            <edge id="_Edge1916037" source="_Node1916034" target="_Node1916036" />
-            <edge id="_Edge1916039" source="_Node1916036" target="_Node1916038" />
-            <edge id="_Edge1916041" source="_Node1916038" target="_Node1916040" />
-            <edge id="_Edge1916043" source="_Node1916040" target="_Node1916042" />
-            <edge id="_Edge1916046" source="_Node1916040" target="_Node1916045" />
-            <edge id="_Edge1916049" source="_Node1916038" target="_Node1916048" />
-            <edge id="_Edge1916052" source="_Node1916036" target="_Node1916051" />
-            <edge id="_Edge1916054" source="_Node1916051" target="_Node1916053" />
-            <edge id="_Edge1916057" source="_Node1916051" target="_Node1916056" />
-            <edge id="_Edge1916060" source="_Node1916034" target="_Node1916059" />
-            <edge id="_Edge1916062" source="_Node1916059" target="_Node1916061" />
-            <edge id="_Edge1916065" source="_Node1916059" target="_Node1916064" />
-            <edge id="_Edge1916068" source="_Node1916032" target="_Node1916067" />
-            <edge id="_Edge1916070" source="_Node1916067" target="_Node1916069" />
-            <edge id="_Edge1916073" source="_Node1916067" target="_Node1916072" />
-            <edge id="_Edge1916075" source="_Node1916072" target="_Node1916074" />
-            <edge id="_Edge1916078" source="_Node1916072" target="_Node1916077" />
-            <edge id="_Edge1916081" source="_Node1916002" target="_Node1916080" />
-            <edge id="_Edge1916083" source="_Node1916080" target="_Node1916082" />
-            <edge id="_Edge1916085" source="_Node1916082" target="_Node1916084" />
-            <edge id="_Edge1916087" source="_Node1916084" target="_Node1916086" />
-            <edge id="_Edge1916089" source="_Node1916086" target="_Node1916088" />
-            <edge id="_Edge1916091" source="_Node1916088" target="_Node1916090" />
-            <edge id="_Edge1916094" source="_Node1916088" target="_Node1916093" />
-            <edge id="_Edge1916096" source="_Node1916093" target="_Node1916095" />
-            <edge id="_Edge1916099" source="_Node1916093" target="_Node1916098" />
-            <edge id="_Edge1916102" source="_Node1916088" target="_Node1916101" />
-            <edge id="_Edge1916104" source="_Node1916101" target="_Node1916103" />
-            <edge id="_Edge1916107" source="_Node1916101" target="_Node1916106" />
-            <edge id="_Edge1916109" source="_Node1916106" target="_Node1916108" />
-            <edge id="_Edge1916112" source="_Node1916106" target="_Node1916111" />
-            <edge id="_Edge1916115" source="_Node1916086" target="_Node1916114" />
-            <edge id="_Edge1916118" source="_Node1916084" target="_Node1916117" />
-            <edge id="_Edge1916120" source="_Node1916117" target="_Node1916119" />
-            <edge id="_Edge1916122" source="_Node1916119" target="_Node1916121" />
-            <edge id="_Edge1916124" source="_Node1916121" target="_Node1916123" />
-            <edge id="_Edge1916126" source="_Node1916123" target="_Node1916125" />
-            <edge id="_Edge1916128" source="_Node1916125" target="_Node1916127" />
-            <edge id="_Edge1916130" source="_Node1916127" target="_Node1916129" />
-            <edge id="_Edge1916133" source="_Node1916127" target="_Node1916132" />
-            <edge id="_Edge1916136" source="_Node1916125" target="_Node1916135" />
-            <edge id="_Edge1916138" source="_Node1916135" target="_Node1916137" />
-            <edge id="_Edge1916141" source="_Node1916135" target="_Node1916140" />
-            <edge id="_Edge1916144" source="_Node1916123" target="_Node1916143" />
-            <edge id="_Edge1916147" source="_Node1916121" target="_Node1916146" />
-            <edge id="_Edge1916149" source="_Node1916146" target="_Node1916148" />
-            <edge id="_Edge1916151" source="_Node1916148" target="_Node1916150" />
-            <edge id="_Edge1916154" source="_Node1916148" target="_Node1916153" />
-            <edge id="_Edge1916157" source="_Node1916146" target="_Node1916156" />
-            <edge id="_Edge1916160" source="_Node1916121" target="_Node1916159" />
-            <edge id="_Edge1916163" source="_Node1916119" target="_Node1916162" />
-            <edge id="_Edge1916166" source="_Node1916117" target="_Node1916165" />
-            <edge id="_Edge1916169" source="_Node1916082" target="_Node1916168" />
-            <edge id="_Edge1916171" source="_Node1916168" target="_Node1916170" />
-            <edge id="_Edge1916173" source="_Node1916170" target="_Node1916172" />
-            <edge id="_Edge1916175" source="_Node1916172" target="_Node1916174" />
-            <edge id="_Edge1916178" source="_Node1916172" target="_Node1916177" />
-            <edge id="_Edge1916181" source="_Node1916170" target="_Node1916180" />
-            <edge id="_Edge1916183" source="_Node1916180" target="_Node1916182" />
-            <edge id="_Edge1916185" source="_Node1916182" target="_Node1916184" />
-            <edge id="_Edge1916187" source="_Node1916184" target="_Node1916186" />
-            <edge id="_Edge1916190" source="_Node1916184" target="_Node1916189" />
-            <edge id="_Edge1916193" source="_Node1916182" target="_Node1916192" />
-            <edge id="_Edge1916196" source="_Node1916180" target="_Node1916195" />
-            <edge id="_Edge1916199" source="_Node1916168" target="_Node1916198" />
-            <edge id="_Edge1916201" source="_Node1916198" target="_Node1916200" />
-            <edge id="_Edge1916203" source="_Node1916200" target="_Node1916202" />
-            <edge id="_Edge1916206" source="_Node1916200" target="_Node1916205" />
-            <edge id="_Edge1916209" source="_Node1916198" target="_Node1916208" />
-            <edge id="_Edge1916211" source="_Node1916208" target="_Node1916210" />
-            <edge id="_Edge1916214" source="_Node1916208" target="_Node1916213" />
-            <edge id="_Edge1916217" source="_Node1916198" target="_Node1916216" />
-            <edge id="_Edge1916220" source="_Node1916080" target="_Node1916219" />
-            <edge id="_Edge1916222" source="_Node1916219" target="_Node1916221" />
-            <edge id="_Edge1916224" source="_Node1916221" target="_Node1916223" />
-            <edge id="_Edge1916226" source="_Node1916223" target="_Node1916225" />
-            <edge id="_Edge1916229" source="_Node1916223" target="_Node1916228" />
-            <edge id="_Edge1916232" source="_Node1916221" target="_Node1916231" />
-            <edge id="_Edge1916235" source="_Node1916219" target="_Node1916234" />
-            <edge id="_Edge1916237" source="_Node1916234" target="_Node1916236" />
-            <edge id="_Edge1916240" source="_Node1916234" target="_Node1916239" />
-            <edge id="_Edge1916243" source="_Node1915975" target="_Node1916242" />
-            <edge id="_Edge1916246" source="_Node1915973" target="_Node1916245" />
-            <edge id="_Edge1916249" source="_Node1915971" target="_Node1916248" />
-            <edge id="_Edge1916252" source="_Node1915969" target="_Node1916251" />
-            <edge id="_Edge1916255" source="_Node1915967" target="_Node1916254" />
+            <node id="_Node1912326" />
+            <node id="_Node1912328" otu="Chamaeropshumilis" />
+            <node id="_Node1912331" />
+            <node id="_Node1912333" otu="Ammandradecasperma" />
+            <node id="_Node1912336" />
+            <node id="_Node1912338" />
+            <node id="_Node1912340" />
+            <node id="_Node1912342" />
+            <node id="_Node1912344" />
+            <node id="_Node1912346" />
+            <node id="_Node1912348" />
+            <node id="_Node1912350" />
+            <node id="_Node1912352" otu="Cyphospermabalansae" />
+            <node id="_Node1912355" />
+            <node id="_Node1912357" otu="Kentiopsisoliviformis" />
+            <node id="_Node1912360" />
+            <node id="_Node1912362" otu="Normanbyanormanbyi" />
+            <node id="_Node1912365" otu="Ptychospermasalomonense" />
+            <node id="_Node1912368" otu="Loxococcusrupicola" />
+            <node id="_Node1912371" />
+            <node id="_Node1912373" />
+            <node id="_Node1912375" otu="Iguanurawallichiana" />
+            <node id="_Node1912378" />
+            <node id="_Node1912380" />
+            <node id="_Node1912382" otu="ArecacatechuTCMK21" />
+            <node id="_Node1912385" />
+            <node id="_Node1912387" />
+            <node id="_Node1912389" otu="Arecaconcinna" />
+            <node id="_Node1912392" otu="ArecatriandraLoo307" />
+            <node id="_Node1912395" otu="Arecatriandra19842295" />
+            <node id="_Node1912398" otu="Arecarheophytica" />
+            <node id="_Node1912401" />
+            <node id="_Node1912403" />
+            <node id="_Node1912405" />
+            <node id="_Node1912407" />
+            <node id="_Node1912409" />
+            <node id="_Node1912411" otu="PinangacoronataBaker1145" />
+            <node id="_Node1912414" otu="PinangacoronataLoo303" />
+            <node id="_Node1912417" otu="PinangadistichaBaker1144" />
+            <node id="_Node1912420" />
+            <node id="_Node1912422" otu="PinangapuniceaBaker1091" />
+            <node id="_Node1912425" otu="PinangapuniceaBaker850" />
+            <node id="_Node1912428" />
+            <node id="_Node1912430" otu="Pinangasimplicifrons" />
+            <node id="_Node1912433" otu="PinangaspLoo309" />
+            <node id="_Node1912436" />
+            <node id="_Node1912438" otu="Nengagajah" />
+            <node id="_Node1912441" />
+            <node id="_Node1912443" otu="NengapumilaBaker994" />
+            <node id="_Node1912446" otu="NengapumilaLoo304" />
+            <node id="_Node1912449" />
+            <node id="_Node1912451" />
+            <node id="_Node1912453" />
+            <node id="_Node1912455" />
+            <node id="_Node1912457" />
+            <node id="_Node1912459" otu="Siphokentiabeguinii" />
+            <node id="_Node1912462" />
+            <node id="_Node1912464" otu="GronophyllumbrassiiBaker823" />
+            <node id="_Node1912467" otu="GronophyllumbrassiiDransfield7682" />
+            <node id="_Node1912470" />
+            <node id="_Node1912472" otu="GronophyllumpinangoidesBaker1137" />
+            <node id="_Node1912475" />
+            <node id="_Node1912477" otu="GronophyllumrhopalocarpumBaker879" />
+            <node id="_Node1912480" otu="GronophyllumrhopalocarpumWitono23" />
+            <node id="_Node1912483" otu="Siphokentiadransfieldii" />
+            <node id="_Node1912486" />
+            <node id="_Node1912488" />
+            <node id="_Node1912490" />
+            <node id="_Node1912492" />
+            <node id="_Node1912494" />
+            <node id="_Node1912496" />
+            <node id="_Node1912498" otu="HydriastelemicrospadixBaker573" />
+            <node id="_Node1912501" otu="HydriastelespBaker1043" />
+            <node id="_Node1912504" />
+            <node id="_Node1912506" otu="HydriastelemicrospadixWomersleysn" />
+            <node id="_Node1912509" otu="HydriastelemicrospadixZona890" />
+            <node id="_Node1912512" otu="HydriastelespHeatubun269" />
+            <node id="_Node1912515" />
+            <node id="_Node1912517" />
+            <node id="_Node1912519" otu="HydriastelemicrospadixLoo305" />
+            <node id="_Node1912522" otu="HydriastelespZona895" />
+            <node id="_Node1912525" otu="HydriastelespZona894" />
+            <node id="_Node1912528" otu="HydriastelemicrospadixBaker1127" />
+            <node id="_Node1912531" otu="HydriastelespBaker884" />
+            <node id="_Node1912534" otu="HydriastelespWitono20" />
+            <node id="_Node1912537" />
+            <node id="_Node1912539" />
+            <node id="_Node1912541" />
+            <node id="_Node1912543" otu="Gulubiahombronii" />
+            <node id="_Node1912546" otu="Gulubiamacrospadix" />
+            <node id="_Node1912549" />
+            <node id="_Node1912551" />
+            <node id="_Node1912553" />
+            <node id="_Node1912555" otu="Gulubiamicrocarpa" />
+            <node id="_Node1912558" otu="Gulubiacylindrocarpa" />
+            <node id="_Node1912561" otu="GulubiaspBouma" />
+            <node id="_Node1912564" otu="GronophyllumspBaker1135" />
+            <node id="_Node1912567" />
+            <node id="_Node1912569" />
+            <node id="_Node1912571" otu="GulubialongispathaBaker622" />
+            <node id="_Node1912574" otu="GulubialongispathaBaker882" />
+            <node id="_Node1912577" />
+            <node id="_Node1912579" otu="GronophyllumchaunostachysBanka2000" />
+            <node id="_Node1912582" otu="GronophyllumspBaker1096" />
+            <node id="_Node1912585" otu="GronophyllumspBaker1068" />
+            <node id="_Node1912588" />
+            <node id="_Node1912590" />
+            <node id="_Node1912592" />
+            <node id="_Node1912594" otu="GulubiacostataBaker1095" />
+            <node id="_Node1912597" otu="GulubiacostataBaker836" />
+            <node id="_Node1912600" otu="Gulubiapalauensis" />
+            <node id="_Node1912603" />
+            <node id="_Node1912605" otu="GronophyllumramsayiDowe711" />
+            <node id="_Node1912608" otu="GronophyllumramsayiDowe731" />
+            <node id="_Node1912611" otu="Rhopaloblasteaugusta" />
+            <node id="_Node1912614" otu="Leopoldiniapulchra" />
+            <node id="_Node1912617" otu="Manicariasaccifera" />
+            <node id="_Node1912620" otu="Socrateaexorrhiza" />
+            <node id="_Node1912623" otu="Reinhardtiagracilis" />
+            <rootedge id="_Edge1912327" target="_Node1912326" />
+            <edge id="_Edge1912329" source="_Node1912326" target="_Node1912328" />
+            <edge id="_Edge1912332" source="_Node1912326" target="_Node1912331" />
+            <edge id="_Edge1912334" source="_Node1912331" target="_Node1912333" />
+            <edge id="_Edge1912337" source="_Node1912331" target="_Node1912336" />
+            <edge id="_Edge1912339" source="_Node1912336" target="_Node1912338" />
+            <edge id="_Edge1912341" source="_Node1912338" target="_Node1912340" />
+            <edge id="_Edge1912343" source="_Node1912340" target="_Node1912342" />
+            <edge id="_Edge1912345" source="_Node1912342" target="_Node1912344" />
+            <edge id="_Edge1912347" source="_Node1912344" target="_Node1912346" />
+            <edge id="_Edge1912349" source="_Node1912346" target="_Node1912348" />
+            <edge id="_Edge1912351" source="_Node1912348" target="_Node1912350" />
+            <edge id="_Edge1912353" source="_Node1912350" target="_Node1912352" />
+            <edge id="_Edge1912356" source="_Node1912350" target="_Node1912355" />
+            <edge id="_Edge1912358" source="_Node1912355" target="_Node1912357" />
+            <edge id="_Edge1912361" source="_Node1912355" target="_Node1912360" />
+            <edge id="_Edge1912363" source="_Node1912360" target="_Node1912362" />
+            <edge id="_Edge1912366" source="_Node1912360" target="_Node1912365" />
+            <edge id="_Edge1912369" source="_Node1912348" target="_Node1912368" />
+            <edge id="_Edge1912372" source="_Node1912346" target="_Node1912371" />
+            <edge id="_Edge1912374" source="_Node1912371" target="_Node1912373" />
+            <edge id="_Edge1912376" source="_Node1912373" target="_Node1912375" />
+            <edge id="_Edge1912379" source="_Node1912373" target="_Node1912378" />
+            <edge id="_Edge1912381" source="_Node1912378" target="_Node1912380" />
+            <edge id="_Edge1912383" source="_Node1912380" target="_Node1912382" />
+            <edge id="_Edge1912386" source="_Node1912380" target="_Node1912385" />
+            <edge id="_Edge1912388" source="_Node1912385" target="_Node1912387" />
+            <edge id="_Edge1912390" source="_Node1912387" target="_Node1912389" />
+            <edge id="_Edge1912393" source="_Node1912387" target="_Node1912392" />
+            <edge id="_Edge1912396" source="_Node1912385" target="_Node1912395" />
+            <edge id="_Edge1912399" source="_Node1912380" target="_Node1912398" />
+            <edge id="_Edge1912402" source="_Node1912378" target="_Node1912401" />
+            <edge id="_Edge1912404" source="_Node1912401" target="_Node1912403" />
+            <edge id="_Edge1912406" source="_Node1912403" target="_Node1912405" />
+            <edge id="_Edge1912408" source="_Node1912405" target="_Node1912407" />
+            <edge id="_Edge1912410" source="_Node1912407" target="_Node1912409" />
+            <edge id="_Edge1912412" source="_Node1912409" target="_Node1912411" />
+            <edge id="_Edge1912415" source="_Node1912409" target="_Node1912414" />
+            <edge id="_Edge1912418" source="_Node1912407" target="_Node1912417" />
+            <edge id="_Edge1912421" source="_Node1912405" target="_Node1912420" />
+            <edge id="_Edge1912423" source="_Node1912420" target="_Node1912422" />
+            <edge id="_Edge1912426" source="_Node1912420" target="_Node1912425" />
+            <edge id="_Edge1912429" source="_Node1912403" target="_Node1912428" />
+            <edge id="_Edge1912431" source="_Node1912428" target="_Node1912430" />
+            <edge id="_Edge1912434" source="_Node1912428" target="_Node1912433" />
+            <edge id="_Edge1912437" source="_Node1912401" target="_Node1912436" />
+            <edge id="_Edge1912439" source="_Node1912436" target="_Node1912438" />
+            <edge id="_Edge1912442" source="_Node1912436" target="_Node1912441" />
+            <edge id="_Edge1912444" source="_Node1912441" target="_Node1912443" />
+            <edge id="_Edge1912447" source="_Node1912441" target="_Node1912446" />
+            <edge id="_Edge1912450" source="_Node1912371" target="_Node1912449" />
+            <edge id="_Edge1912452" source="_Node1912449" target="_Node1912451" />
+            <edge id="_Edge1912454" source="_Node1912451" target="_Node1912453" />
+            <edge id="_Edge1912456" source="_Node1912453" target="_Node1912455" />
+            <edge id="_Edge1912458" source="_Node1912455" target="_Node1912457" />
+            <edge id="_Edge1912460" source="_Node1912457" target="_Node1912459" />
+            <edge id="_Edge1912463" source="_Node1912457" target="_Node1912462" />
+            <edge id="_Edge1912465" source="_Node1912462" target="_Node1912464" />
+            <edge id="_Edge1912468" source="_Node1912462" target="_Node1912467" />
+            <edge id="_Edge1912471" source="_Node1912457" target="_Node1912470" />
+            <edge id="_Edge1912473" source="_Node1912470" target="_Node1912472" />
+            <edge id="_Edge1912476" source="_Node1912470" target="_Node1912475" />
+            <edge id="_Edge1912478" source="_Node1912475" target="_Node1912477" />
+            <edge id="_Edge1912481" source="_Node1912475" target="_Node1912480" />
+            <edge id="_Edge1912484" source="_Node1912455" target="_Node1912483" />
+            <edge id="_Edge1912487" source="_Node1912453" target="_Node1912486" />
+            <edge id="_Edge1912489" source="_Node1912486" target="_Node1912488" />
+            <edge id="_Edge1912491" source="_Node1912488" target="_Node1912490" />
+            <edge id="_Edge1912493" source="_Node1912490" target="_Node1912492" />
+            <edge id="_Edge1912495" source="_Node1912492" target="_Node1912494" />
+            <edge id="_Edge1912497" source="_Node1912494" target="_Node1912496" />
+            <edge id="_Edge1912499" source="_Node1912496" target="_Node1912498" />
+            <edge id="_Edge1912502" source="_Node1912496" target="_Node1912501" />
+            <edge id="_Edge1912505" source="_Node1912494" target="_Node1912504" />
+            <edge id="_Edge1912507" source="_Node1912504" target="_Node1912506" />
+            <edge id="_Edge1912510" source="_Node1912504" target="_Node1912509" />
+            <edge id="_Edge1912513" source="_Node1912492" target="_Node1912512" />
+            <edge id="_Edge1912516" source="_Node1912490" target="_Node1912515" />
+            <edge id="_Edge1912518" source="_Node1912515" target="_Node1912517" />
+            <edge id="_Edge1912520" source="_Node1912517" target="_Node1912519" />
+            <edge id="_Edge1912523" source="_Node1912517" target="_Node1912522" />
+            <edge id="_Edge1912526" source="_Node1912515" target="_Node1912525" />
+            <edge id="_Edge1912529" source="_Node1912490" target="_Node1912528" />
+            <edge id="_Edge1912532" source="_Node1912488" target="_Node1912531" />
+            <edge id="_Edge1912535" source="_Node1912486" target="_Node1912534" />
+            <edge id="_Edge1912538" source="_Node1912451" target="_Node1912537" />
+            <edge id="_Edge1912540" source="_Node1912537" target="_Node1912539" />
+            <edge id="_Edge1912542" source="_Node1912539" target="_Node1912541" />
+            <edge id="_Edge1912544" source="_Node1912541" target="_Node1912543" />
+            <edge id="_Edge1912547" source="_Node1912541" target="_Node1912546" />
+            <edge id="_Edge1912550" source="_Node1912539" target="_Node1912549" />
+            <edge id="_Edge1912552" source="_Node1912549" target="_Node1912551" />
+            <edge id="_Edge1912554" source="_Node1912551" target="_Node1912553" />
+            <edge id="_Edge1912556" source="_Node1912553" target="_Node1912555" />
+            <edge id="_Edge1912559" source="_Node1912553" target="_Node1912558" />
+            <edge id="_Edge1912562" source="_Node1912551" target="_Node1912561" />
+            <edge id="_Edge1912565" source="_Node1912549" target="_Node1912564" />
+            <edge id="_Edge1912568" source="_Node1912537" target="_Node1912567" />
+            <edge id="_Edge1912570" source="_Node1912567" target="_Node1912569" />
+            <edge id="_Edge1912572" source="_Node1912569" target="_Node1912571" />
+            <edge id="_Edge1912575" source="_Node1912569" target="_Node1912574" />
+            <edge id="_Edge1912578" source="_Node1912567" target="_Node1912577" />
+            <edge id="_Edge1912580" source="_Node1912577" target="_Node1912579" />
+            <edge id="_Edge1912583" source="_Node1912577" target="_Node1912582" />
+            <edge id="_Edge1912586" source="_Node1912567" target="_Node1912585" />
+            <edge id="_Edge1912589" source="_Node1912449" target="_Node1912588" />
+            <edge id="_Edge1912591" source="_Node1912588" target="_Node1912590" />
+            <edge id="_Edge1912593" source="_Node1912590" target="_Node1912592" />
+            <edge id="_Edge1912595" source="_Node1912592" target="_Node1912594" />
+            <edge id="_Edge1912598" source="_Node1912592" target="_Node1912597" />
+            <edge id="_Edge1912601" source="_Node1912590" target="_Node1912600" />
+            <edge id="_Edge1912604" source="_Node1912588" target="_Node1912603" />
+            <edge id="_Edge1912606" source="_Node1912603" target="_Node1912605" />
+            <edge id="_Edge1912609" source="_Node1912603" target="_Node1912608" />
+            <edge id="_Edge1912612" source="_Node1912344" target="_Node1912611" />
+            <edge id="_Edge1912615" source="_Node1912342" target="_Node1912614" />
+            <edge id="_Edge1912618" source="_Node1912340" target="_Node1912617" />
+            <edge id="_Edge1912621" source="_Node1912338" target="_Node1912620" />
+            <edge id="_Edge1912624" source="_Node1912336" target="_Node1912623" />
         </tree>
     </trees>
 </nex:nexml>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S700"><citation>Lundrigan, B. L., S. A. Jansa, and P. K. Tucker. 2002. Phylogenetic relationships in the genus Mus, based on paternally, maternally, and biparentally inherited characters. Systematic Biology, in press.</citation><author email="jansa003@umn.edu" firstname="Sharon A." lastname="Jansa" /><author email="lundriga@pilot.msu.edu" firstname="Barbara L." lastname="Lundrigan" /><author email="ptuck@umich.edu" firstname="Priscilla K." lastname="Tucker" /></study></nex:external>
-    <otus id="_TaxaBlock737814">
+<nex:external xmlns="dbhack1/phylr"><study id="S700"><citation>Lundrigan, B. L., S. A. Jansa, and P. K. Tucker. 2002. Phylogenetic relationships in the genus Mus, based on paternally, maternally, and biparentally inherited characters. Systematic Biology, in press.</citation><abstract>Several species in the rodent genus Mus are used as model research organisms, but comparative studies of these mice have been hampered by the lack of a well-supported phylogeny. We used DNA sequences from six genes representing paternally, maternally, and biparentally inherited regions of the genome to infer phylogenetic relationships among 10 species of Mus that are commonly used in laboratory research. Our sample included seven species from the subgenus Mus, one species each from the subgenera Pyromys, Coelomys, and Nannomys, and representatives from three additional murine genera, which served as outgroups in the phylogenetic analyses. Although each of the six genes yielded a unique phylogeny, several clades were supported by four or more gene trees. Nodes that conflicted between trees were generally characterized by weak support for one or both of the alternative topologies, thus providing no compelling evidence that any individual gene, or part of the genome, was misleading with respect to the evolutionary history of these mice. An analysis of the combined data resulted in a fully resolved tree that strongly supports monophyly of the genus Mus, monophyly of the subgenus Mus, division of the subgenus Mus into Palearctic (M. musculus, M. macedonicus, M. spicilegus, and M. spretus) and Asian (M. cookii, M. cervicolor, and M. caroli) clades, monophyly of the house mice (M. m. musculus, "M. m. molossinus", M. m. castaneus, and M. m. domesticus), and a sister-group relationship between M. macedonicus and M. spicilegus. Other clades that were strongly supported by one or more gene partitions were not strongly supported by the combined data. This appears to reflect localized homoplasy in one partition obscuring phylogenetic signal from another, rather than differences in gene or genome histories.</abstract><author email="jansa003@umn.edu" firstname="Sharon A." lastname="Jansa" /><author email="lundriga@pilot.msu.edu" firstname="Barbara L." lastname="Lundrigan" /><author email="ptuck@umich.edu" firstname="Priscilla K." lastname="Tucker" /></study></nex:external>
+    <otus id="_TaxaBlock734183">
         <otu id="Musmusculusmusculus" label="Mus musculus musculus" />
         <otu id="Musmusculusmolossinus" label="Mus musculus molossinus" />
         <otu id="Musmusculuscastaneus" label="Mus musculus castaneus" />
@@ -25,71 +25,71 @@
         <otu id="Mastomys" label="Mastomys" />
         <otu id="Rattus" label="Rattus" />
     </otus>
-    <trees id="_TreesBlock737815" otus="_TaxaBlock737814">
+    <trees id="_TreesBlock734184" otus="_TaxaBlock734183">
         <tree id="Tree2144" label="Fig. 4" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S700A1532" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Six genes" nchar="5270" /></analysis></nex:external>
-            <node id="_Node737819" />
-            <node id="_Node737821" />
-            <node id="_Node737823" />
-            <node id="_Node737825" />
-            <node id="_Node737827" />
-            <node id="_Node737829" />
-            <node id="_Node737831" />
-            <node id="_Node737833" />
-            <node id="_Node737835" />
-            <node id="_Node737837" />
-            <node id="_Node737839" otu="Musmusculusmusculus" />
-            <node id="_Node737842" otu="Musmusculusmolossinus" />
-            <node id="_Node737845" otu="Musmusculuscastaneus" />
-            <node id="_Node737848" otu="Musmusculusdomesticus" />
-            <node id="_Node737851" />
-            <node id="_Node737853" otu="Musmacedonicus" />
-            <node id="_Node737856" otu="Musspicilegus" />
-            <node id="_Node737859" otu="Musspretus" />
-            <node id="_Node737862" />
-            <node id="_Node737864" />
-            <node id="_Node737866" otu="Muscervicolor" />
-            <node id="_Node737869" otu="Muscookii" />
-            <node id="_Node737872" otu="Muscaroli" />
-            <node id="_Node737875" otu="Mussaxicola" />
-            <node id="_Node737878" otu="Musminutoides" />
-            <node id="_Node737881" otu="Muspahari" />
-            <node id="_Node737884" />
-            <node id="_Node737886" />
-            <node id="_Node737888" otu="Hylomyscus" />
-            <node id="_Node737891" otu="Mastomys" />
-            <node id="_Node737894" otu="Rattus" />
-            <rootedge id="_Edge737820" target="_Node737819" />
-            <edge id="_Edge737822" source="_Node737819" target="_Node737821" />
-            <edge id="_Edge737824" source="_Node737821" target="_Node737823" />
-            <edge id="_Edge737826" source="_Node737823" target="_Node737825" />
-            <edge id="_Edge737828" source="_Node737825" target="_Node737827" />
-            <edge id="_Edge737830" source="_Node737827" target="_Node737829" />
-            <edge id="_Edge737832" source="_Node737829" target="_Node737831" />
-            <edge id="_Edge737834" source="_Node737831" target="_Node737833" />
-            <edge id="_Edge737836" source="_Node737833" target="_Node737835" />
-            <edge id="_Edge737838" source="_Node737835" target="_Node737837" />
-            <edge id="_Edge737840" source="_Node737837" target="_Node737839" />
-            <edge id="_Edge737843" source="_Node737837" target="_Node737842" />
-            <edge id="_Edge737846" source="_Node737835" target="_Node737845" />
-            <edge id="_Edge737849" source="_Node737833" target="_Node737848" />
-            <edge id="_Edge737852" source="_Node737831" target="_Node737851" />
-            <edge id="_Edge737854" source="_Node737851" target="_Node737853" />
-            <edge id="_Edge737857" source="_Node737851" target="_Node737856" />
-            <edge id="_Edge737860" source="_Node737829" target="_Node737859" />
-            <edge id="_Edge737863" source="_Node737827" target="_Node737862" />
-            <edge id="_Edge737865" source="_Node737862" target="_Node737864" />
-            <edge id="_Edge737867" source="_Node737864" target="_Node737866" />
-            <edge id="_Edge737870" source="_Node737864" target="_Node737869" />
-            <edge id="_Edge737873" source="_Node737862" target="_Node737872" />
-            <edge id="_Edge737876" source="_Node737825" target="_Node737875" />
-            <edge id="_Edge737879" source="_Node737823" target="_Node737878" />
-            <edge id="_Edge737882" source="_Node737821" target="_Node737881" />
-            <edge id="_Edge737885" source="_Node737819" target="_Node737884" />
-            <edge id="_Edge737887" source="_Node737884" target="_Node737886" />
-            <edge id="_Edge737889" source="_Node737886" target="_Node737888" />
-            <edge id="_Edge737892" source="_Node737886" target="_Node737891" />
-            <edge id="_Edge737895" source="_Node737884" target="_Node737894" />
+            <node id="_Node734188" />
+            <node id="_Node734190" />
+            <node id="_Node734192" />
+            <node id="_Node734194" />
+            <node id="_Node734196" />
+            <node id="_Node734198" />
+            <node id="_Node734200" />
+            <node id="_Node734202" />
+            <node id="_Node734204" />
+            <node id="_Node734206" />
+            <node id="_Node734208" otu="Musmusculusmusculus" />
+            <node id="_Node734211" otu="Musmusculusmolossinus" />
+            <node id="_Node734214" otu="Musmusculuscastaneus" />
+            <node id="_Node734217" otu="Musmusculusdomesticus" />
+            <node id="_Node734220" />
+            <node id="_Node734222" otu="Musmacedonicus" />
+            <node id="_Node734225" otu="Musspicilegus" />
+            <node id="_Node734228" otu="Musspretus" />
+            <node id="_Node734231" />
+            <node id="_Node734233" />
+            <node id="_Node734235" otu="Muscervicolor" />
+            <node id="_Node734238" otu="Muscookii" />
+            <node id="_Node734241" otu="Muscaroli" />
+            <node id="_Node734244" otu="Mussaxicola" />
+            <node id="_Node734247" otu="Musminutoides" />
+            <node id="_Node734250" otu="Muspahari" />
+            <node id="_Node734253" />
+            <node id="_Node734255" />
+            <node id="_Node734257" otu="Hylomyscus" />
+            <node id="_Node734260" otu="Mastomys" />
+            <node id="_Node734263" otu="Rattus" />
+            <rootedge id="_Edge734189" target="_Node734188" />
+            <edge id="_Edge734191" source="_Node734188" target="_Node734190" />
+            <edge id="_Edge734193" source="_Node734190" target="_Node734192" />
+            <edge id="_Edge734195" source="_Node734192" target="_Node734194" />
+            <edge id="_Edge734197" source="_Node734194" target="_Node734196" />
+            <edge id="_Edge734199" source="_Node734196" target="_Node734198" />
+            <edge id="_Edge734201" source="_Node734198" target="_Node734200" />
+            <edge id="_Edge734203" source="_Node734200" target="_Node734202" />
+            <edge id="_Edge734205" source="_Node734202" target="_Node734204" />
+            <edge id="_Edge734207" source="_Node734204" target="_Node734206" />
+            <edge id="_Edge734209" source="_Node734206" target="_Node734208" />
+            <edge id="_Edge734212" source="_Node734206" target="_Node734211" />
+            <edge id="_Edge734215" source="_Node734204" target="_Node734214" />
+            <edge id="_Edge734218" source="_Node734202" target="_Node734217" />
+            <edge id="_Edge734221" source="_Node734200" target="_Node734220" />
+            <edge id="_Edge734223" source="_Node734220" target="_Node734222" />
+            <edge id="_Edge734226" source="_Node734220" target="_Node734225" />
+            <edge id="_Edge734229" source="_Node734198" target="_Node734228" />
+            <edge id="_Edge734232" source="_Node734196" target="_Node734231" />
+            <edge id="_Edge734234" source="_Node734231" target="_Node734233" />
+            <edge id="_Edge734236" source="_Node734233" target="_Node734235" />
+            <edge id="_Edge734239" source="_Node734233" target="_Node734238" />
+            <edge id="_Edge734242" source="_Node734231" target="_Node734241" />
+            <edge id="_Edge734245" source="_Node734194" target="_Node734244" />
+            <edge id="_Edge734248" source="_Node734192" target="_Node734247" />
+            <edge id="_Edge734251" source="_Node734190" target="_Node734250" />
+            <edge id="_Edge734254" source="_Node734188" target="_Node734253" />
+            <edge id="_Edge734256" source="_Node734253" target="_Node734255" />
+            <edge id="_Edge734258" source="_Node734255" target="_Node734257" />
+            <edge id="_Edge734261" source="_Node734255" target="_Node734260" />
+            <edge id="_Edge734264" source="_Node734253" target="_Node734263" />
         </tree>
     </trees>
 </nex:nexml>

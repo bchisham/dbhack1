@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S1292"><citation>Hassan, N. S., J. Thiede, and S. Liede-Schumann. 2005. Phylogenetic analysis of Sesuvioideae (Aizoaceae) inferred from nrDNA internal transcribed spacer (ITS) sequences and morphological data. Pl. Syst. Evol., in press.</citation><author email="nasr1968@yahoo.com" firstname="Nasr S. " lastname="Hassan" /><author email="sigrid.liede@uni-bayreuth.de" firstname="Sigrid" lastname="Liede-Schumann" /><author email="thiede@botanik.uni-hamburg.de" firstname="Joachim" lastname="Thiede" /></study></nex:external>
-    <otus id="_TaxaBlock1620485">
+<nex:external xmlns="dbhack1/phylr"><study id="S1292"><citation>Hassan, N. S., J. Thiede, and S. Liede-Schumann. 2005. Phylogenetic analysis of Sesuvioideae (Aizoaceae) inferred from nrDNA internal transcribed spacer (ITS) sequences and morphological data. Pl. Syst. Evol., in press.</citation><abstract>The phylogeny of the four genera of Aizoaceae subfamily Sesuvioideae (Sesuvium, Cypselea, Trianthema and Zaleya) is elucidated employing internal transcribed spacer (ITS) sequences and 23 morphological characters. Phylogenetic analysis based on ITS sequences and a combined molecular-morphological analysis provide largely congruent results. The monophyly of Sesuvioideae and its close relationship to Aizooideae s. lat. and Mesembryanthemoideae is confirmed. Zaleya is placed within Trianthema and Cypselea within Sesuvium by ITS analysis, but in the combined analysis, Zaleya forms an unresolved polytomy with the two Trianthema clades and Cypselea forms an unresolved polytomy with the two Sesuvium clades. Sesuvium sesuvioides and S. hydaspicum, previously treated as synonyms, are closely related, but molecular data do not support conspecifity. The Trianthema triquetra complex needs further intensive study because the African T. triquetra sample is closer to the NE African-Arabian T. sheilae than to Australian samples of T. triquetra. The close relationship of four species of Trianthema (T. patellitecta, T. rhynchocalyptra, T. megasperma, and T. pilosa) from Australia based on molecular data is supported morphologically by the exclusive possession of a well-developed indumentum in these taxa.</abstract><author email="nasr1968@yahoo.com" firstname="Nasr S. " lastname="Hassan" /><author email="sigrid.liede@uni-bayreuth.de" firstname="Sigrid" lastname="Liede-Schumann" /><author email="thiede@botanik.uni-hamburg.de" firstname="Joachim" lastname="Thiede" /></study></nex:external>
+    <otus id="_TaxaBlock1616854">
         <otu id="Tetragoniatetragonioides" label="Tetragonia tetragonioides" />
         <otu id="Aizoanthemumdinteri" label="Aizoanthemum dinteri" />
         <otu id="Mesembryanthemumaitonis" label="Mesembryanthemum aitonis" />
@@ -36,95 +36,95 @@
         <otu id="Zaleyagalericulata" label="Zaleya galericulata" />
         <otu id="Zaleyapentandra" label="Zaleya pentandra" />
     </otus>
-    <trees id="_TreesBlock1620486" otus="_TaxaBlock1620485">
+    <trees id="_TreesBlock1616855" otus="_TaxaBlock1616854">
         <tree id="Tree3665" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1292A4236" software="PAUP"><inputmatrix datatype="Combination" name="Sesuvioideae Morph-ITS" nchar="676" /></analysis></nex:external>
-            <node id="_Node1620490" />
-            <node id="_Node1620492" otu="Tetragoniatetragonioides" />
-            <node id="_Node1620495" />
-            <node id="_Node1620497" otu="Aizoanthemumdinteri" />
-            <node id="_Node1620500" />
-            <node id="_Node1620502" otu="Mesembryanthemumaitonis" />
-            <node id="_Node1620505" otu="Mesembryanthemumhypertrophicum" />
-            <node id="_Node1620508" />
-            <node id="_Node1620510" otu="Cypseleahumifusa" />
-            <node id="_Node1620513" otu="Sesuviumhydaspicum" />
-            <node id="_Node1620516" />
-            <node id="_Node1620518" />
-            <node id="_Node1620520" />
-            <node id="_Node1620522" otu="Sesuviummaritimum" />
-            <node id="_Node1620525" otu="Sesuviumportulacastrum" />
-            <node id="_Node1620528" otu="Sesuviumverrucosum" />
-            <node id="_Node1620531" otu="Sesuviumsessile" />
-            <node id="_Node1620534" otu="Sesuviumsesuvioides" />
-            <node id="_Node1620537" />
-            <node id="_Node1620539" />
-            <node id="_Node1620541" />
-            <node id="_Node1620543" />
-            <node id="_Node1620545" otu="Trianthemacompacta" />
-            <node id="_Node1620548" otu="Trianthemaglossistigma" />
-            <node id="_Node1620551" otu="Trianthemacussackiana" />
-            <node id="_Node1620554" />
-            <node id="_Node1620556" otu="Trianthemamegasperma" />
-            <node id="_Node1620559" otu="Trianthemapatellitecta" />
-            <node id="_Node1620562" otu="Trianthemapilosa" />
-            <node id="_Node1620565" otu="Trianthemarhynchocalyptra" />
-            <node id="_Node1620568" otu="Trianthemaoxycalyptra" />
-            <node id="_Node1620571" otu="Trianthematurgidifolia" />
-            <node id="_Node1620574" otu="Trianthemaportulacastrum" />
-            <node id="_Node1620577" />
-            <node id="_Node1620579" />
-            <node id="_Node1620581" otu="Trianthemaparvifolia" />
-            <node id="_Node1620584" />
-            <node id="_Node1620586" otu="Trianthemasheilae" />
-            <node id="_Node1620589" otu="TrianthematriquetraAfrica" />
-            <node id="_Node1620592" otu="TrianthematriquetraAustralia" />
-            <node id="_Node1620595" />
-            <node id="_Node1620597" otu="Zaleyagalericulata" />
-            <node id="_Node1620600" otu="Zaleyapentandra" />
-            <rootedge id="_Edge1620491" target="_Node1620490" />
-            <edge id="_Edge1620493" source="_Node1620490" target="_Node1620492" />
-            <edge id="_Edge1620496" source="_Node1620490" target="_Node1620495" />
-            <edge id="_Edge1620498" source="_Node1620495" target="_Node1620497" />
-            <edge id="_Edge1620501" source="_Node1620495" target="_Node1620500" />
-            <edge id="_Edge1620503" source="_Node1620500" target="_Node1620502" />
-            <edge id="_Edge1620506" source="_Node1620500" target="_Node1620505" />
-            <edge id="_Edge1620509" source="_Node1620495" target="_Node1620508" />
-            <edge id="_Edge1620511" source="_Node1620508" target="_Node1620510" />
-            <edge id="_Edge1620514" source="_Node1620508" target="_Node1620513" />
-            <edge id="_Edge1620517" source="_Node1620508" target="_Node1620516" />
-            <edge id="_Edge1620519" source="_Node1620516" target="_Node1620518" />
-            <edge id="_Edge1620521" source="_Node1620518" target="_Node1620520" />
-            <edge id="_Edge1620523" source="_Node1620520" target="_Node1620522" />
-            <edge id="_Edge1620526" source="_Node1620520" target="_Node1620525" />
-            <edge id="_Edge1620529" source="_Node1620518" target="_Node1620528" />
-            <edge id="_Edge1620532" source="_Node1620516" target="_Node1620531" />
-            <edge id="_Edge1620535" source="_Node1620508" target="_Node1620534" />
-            <edge id="_Edge1620538" source="_Node1620508" target="_Node1620537" />
-            <edge id="_Edge1620540" source="_Node1620537" target="_Node1620539" />
-            <edge id="_Edge1620542" source="_Node1620539" target="_Node1620541" />
-            <edge id="_Edge1620544" source="_Node1620541" target="_Node1620543" />
-            <edge id="_Edge1620546" source="_Node1620543" target="_Node1620545" />
-            <edge id="_Edge1620549" source="_Node1620543" target="_Node1620548" />
-            <edge id="_Edge1620552" source="_Node1620541" target="_Node1620551" />
-            <edge id="_Edge1620555" source="_Node1620541" target="_Node1620554" />
-            <edge id="_Edge1620557" source="_Node1620554" target="_Node1620556" />
-            <edge id="_Edge1620560" source="_Node1620554" target="_Node1620559" />
-            <edge id="_Edge1620563" source="_Node1620554" target="_Node1620562" />
-            <edge id="_Edge1620566" source="_Node1620554" target="_Node1620565" />
-            <edge id="_Edge1620569" source="_Node1620541" target="_Node1620568" />
-            <edge id="_Edge1620572" source="_Node1620541" target="_Node1620571" />
-            <edge id="_Edge1620575" source="_Node1620539" target="_Node1620574" />
-            <edge id="_Edge1620578" source="_Node1620537" target="_Node1620577" />
-            <edge id="_Edge1620580" source="_Node1620577" target="_Node1620579" />
-            <edge id="_Edge1620582" source="_Node1620579" target="_Node1620581" />
-            <edge id="_Edge1620585" source="_Node1620579" target="_Node1620584" />
-            <edge id="_Edge1620587" source="_Node1620584" target="_Node1620586" />
-            <edge id="_Edge1620590" source="_Node1620584" target="_Node1620589" />
-            <edge id="_Edge1620593" source="_Node1620577" target="_Node1620592" />
-            <edge id="_Edge1620596" source="_Node1620537" target="_Node1620595" />
-            <edge id="_Edge1620598" source="_Node1620595" target="_Node1620597" />
-            <edge id="_Edge1620601" source="_Node1620595" target="_Node1620600" />
+            <node id="_Node1616859" />
+            <node id="_Node1616861" otu="Tetragoniatetragonioides" />
+            <node id="_Node1616864" />
+            <node id="_Node1616866" otu="Aizoanthemumdinteri" />
+            <node id="_Node1616869" />
+            <node id="_Node1616871" otu="Mesembryanthemumaitonis" />
+            <node id="_Node1616874" otu="Mesembryanthemumhypertrophicum" />
+            <node id="_Node1616877" />
+            <node id="_Node1616879" otu="Cypseleahumifusa" />
+            <node id="_Node1616882" otu="Sesuviumhydaspicum" />
+            <node id="_Node1616885" />
+            <node id="_Node1616887" />
+            <node id="_Node1616889" />
+            <node id="_Node1616891" otu="Sesuviummaritimum" />
+            <node id="_Node1616894" otu="Sesuviumportulacastrum" />
+            <node id="_Node1616897" otu="Sesuviumverrucosum" />
+            <node id="_Node1616900" otu="Sesuviumsessile" />
+            <node id="_Node1616903" otu="Sesuviumsesuvioides" />
+            <node id="_Node1616906" />
+            <node id="_Node1616908" />
+            <node id="_Node1616910" />
+            <node id="_Node1616912" />
+            <node id="_Node1616914" otu="Trianthemacompacta" />
+            <node id="_Node1616917" otu="Trianthemaglossistigma" />
+            <node id="_Node1616920" otu="Trianthemacussackiana" />
+            <node id="_Node1616923" />
+            <node id="_Node1616925" otu="Trianthemamegasperma" />
+            <node id="_Node1616928" otu="Trianthemapatellitecta" />
+            <node id="_Node1616931" otu="Trianthemapilosa" />
+            <node id="_Node1616934" otu="Trianthemarhynchocalyptra" />
+            <node id="_Node1616937" otu="Trianthemaoxycalyptra" />
+            <node id="_Node1616940" otu="Trianthematurgidifolia" />
+            <node id="_Node1616943" otu="Trianthemaportulacastrum" />
+            <node id="_Node1616946" />
+            <node id="_Node1616948" />
+            <node id="_Node1616950" otu="Trianthemaparvifolia" />
+            <node id="_Node1616953" />
+            <node id="_Node1616955" otu="Trianthemasheilae" />
+            <node id="_Node1616958" otu="TrianthematriquetraAfrica" />
+            <node id="_Node1616961" otu="TrianthematriquetraAustralia" />
+            <node id="_Node1616964" />
+            <node id="_Node1616966" otu="Zaleyagalericulata" />
+            <node id="_Node1616969" otu="Zaleyapentandra" />
+            <rootedge id="_Edge1616860" target="_Node1616859" />
+            <edge id="_Edge1616862" source="_Node1616859" target="_Node1616861" />
+            <edge id="_Edge1616865" source="_Node1616859" target="_Node1616864" />
+            <edge id="_Edge1616867" source="_Node1616864" target="_Node1616866" />
+            <edge id="_Edge1616870" source="_Node1616864" target="_Node1616869" />
+            <edge id="_Edge1616872" source="_Node1616869" target="_Node1616871" />
+            <edge id="_Edge1616875" source="_Node1616869" target="_Node1616874" />
+            <edge id="_Edge1616878" source="_Node1616864" target="_Node1616877" />
+            <edge id="_Edge1616880" source="_Node1616877" target="_Node1616879" />
+            <edge id="_Edge1616883" source="_Node1616877" target="_Node1616882" />
+            <edge id="_Edge1616886" source="_Node1616877" target="_Node1616885" />
+            <edge id="_Edge1616888" source="_Node1616885" target="_Node1616887" />
+            <edge id="_Edge1616890" source="_Node1616887" target="_Node1616889" />
+            <edge id="_Edge1616892" source="_Node1616889" target="_Node1616891" />
+            <edge id="_Edge1616895" source="_Node1616889" target="_Node1616894" />
+            <edge id="_Edge1616898" source="_Node1616887" target="_Node1616897" />
+            <edge id="_Edge1616901" source="_Node1616885" target="_Node1616900" />
+            <edge id="_Edge1616904" source="_Node1616877" target="_Node1616903" />
+            <edge id="_Edge1616907" source="_Node1616877" target="_Node1616906" />
+            <edge id="_Edge1616909" source="_Node1616906" target="_Node1616908" />
+            <edge id="_Edge1616911" source="_Node1616908" target="_Node1616910" />
+            <edge id="_Edge1616913" source="_Node1616910" target="_Node1616912" />
+            <edge id="_Edge1616915" source="_Node1616912" target="_Node1616914" />
+            <edge id="_Edge1616918" source="_Node1616912" target="_Node1616917" />
+            <edge id="_Edge1616921" source="_Node1616910" target="_Node1616920" />
+            <edge id="_Edge1616924" source="_Node1616910" target="_Node1616923" />
+            <edge id="_Edge1616926" source="_Node1616923" target="_Node1616925" />
+            <edge id="_Edge1616929" source="_Node1616923" target="_Node1616928" />
+            <edge id="_Edge1616932" source="_Node1616923" target="_Node1616931" />
+            <edge id="_Edge1616935" source="_Node1616923" target="_Node1616934" />
+            <edge id="_Edge1616938" source="_Node1616910" target="_Node1616937" />
+            <edge id="_Edge1616941" source="_Node1616910" target="_Node1616940" />
+            <edge id="_Edge1616944" source="_Node1616908" target="_Node1616943" />
+            <edge id="_Edge1616947" source="_Node1616906" target="_Node1616946" />
+            <edge id="_Edge1616949" source="_Node1616946" target="_Node1616948" />
+            <edge id="_Edge1616951" source="_Node1616948" target="_Node1616950" />
+            <edge id="_Edge1616954" source="_Node1616948" target="_Node1616953" />
+            <edge id="_Edge1616956" source="_Node1616953" target="_Node1616955" />
+            <edge id="_Edge1616959" source="_Node1616953" target="_Node1616958" />
+            <edge id="_Edge1616962" source="_Node1616946" target="_Node1616961" />
+            <edge id="_Edge1616965" source="_Node1616906" target="_Node1616964" />
+            <edge id="_Edge1616967" source="_Node1616964" target="_Node1616966" />
+            <edge id="_Edge1616970" source="_Node1616964" target="_Node1616969" />
         </tree>
     </trees>
 </nex:nexml>

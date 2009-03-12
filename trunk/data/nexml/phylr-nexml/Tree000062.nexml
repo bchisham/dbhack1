@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,7 +6,7 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S11x5x95c17c54c24"><citation>Rodman, J. E. 1991. A taxonomic analysis of glucosinolate-producing plants, Part 2: Cladistics. Syst. Bot. 16:619-629.</citation><author email="jrodman@nsf.gov" firstname="James E. " lastname="Rodman" /></study></nex:external>
+<nex:external xmlns="dbhack1/phylr"><study id="S11x5x95c17c54c24"><citation>Rodman, J. E. 1991. A taxonomic analysis of glucosinolate-producing plants, Part 2: Cladistics. Syst. Bot. 16:619-629.</citation><abstract>A dataset of 90 putatively homologous characters was assembled to analyze phylogenetic relationships among the 15 taxa of glucosinolate-producing plants and 11 potential outgroups. The characters sample a broad range of anatomical, morphological, physiological, and phytochemical aspects of these plants. With or without glucosinolate characters included in the cladistic analysis, a lineage emerges consisting of core Capparales (Brassicaceae, Capparaceae, and Resedaceae) allied with Gyrostemonaceae and Tovariaceae and affiliated with Bataceae, Salvadoraceae, and the non-glucosinolate Koeberlinia. This clade is marked by vestured pitting, curved embryo in seed, vacuolar or utricular cisternae of the endoplasmic reticulum, myrosin cells, and a fundamentally tetramerous floral construction. Drypetes affiliates with Euphorbiaceae, and Limnanthaceae with Balsaminaceae, affirming the convergent nature of glucosinolate biosynthesis. Caricaceae, Moringaceae, and Tropaeolaceae remain problematic as do the poorly known genera Akania, Bretschneidera, and Pentadiplandra. Earlier serological comparisons corroborate some of these alignments, including displacement of Moringaceae from core Capparales.</abstract><author email="jrodman@nsf.gov" firstname="James E. " lastname="Rodman" /></study></nex:external>
     <otus id="_TaxaBlock15813">
         <otu id="Dillenia" label="Dillenia" />
         <otu id="Flacourtiaceae" label="Flacourtiaceae" />

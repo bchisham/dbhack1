@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S866"><citation>Donoghue, M. J., T. Eriksson, P. A. Reeves and R. G. Olmstead. 2001. Phylogeny and Phylogenetic Taxonomy of Dipsacales, with special reference to Sinadoxa and Tetradoxa (Adoxaceae). Harvard Papers in Botany, 6(2):459-479.</citation><author email="michael.donoghue@yale.edu" firstname="Michael J. " lastname="Donoghue" /><author email="torsten.eriksson@botan.su.se" firstname="Torsten" lastname="Eriksson" /><author email="olmstead@u.washington.edu" firstname="Richard G." lastname="Olmstead" /><author firstname="Patrick A" lastname="Reeves" /></study></nex:external>
-    <otus id="_TaxaBlock949404">
+<nex:external xmlns="dbhack1/phylr"><study id="S866"><citation>Donoghue, M. J., T. Eriksson, P. A. Reeves and R. G. Olmstead. 2001. Phylogeny and Phylogenetic Taxonomy of Dipsacales, with special reference to Sinadoxa and Tetradoxa (Adoxaceae). Harvard Papers in Botany, 6(2):459-479.</citation><abstract>To further clarify phylogenetic relationships within Dipsacales, we analyzed new and previously published rbcL sequences, alone and in combination with morphological data. We also examined relationships within Adoxaceae using rbcL and nuclear ribosomal internal transcribed spacer (ITS) sequences. We conclude from these analyses that Dipsacales comprise two major lineages: Adoxaceae and Caprifoliaceae (sensu Judd et al., 1994), which both contain elements of traditional Caprifoliaceae. Within Adoxaceae, the following relationships are strongly supported: (Viburnum, (Sambucus, (Sinadoxa, (Tetradoxa, Adoxa)))). Combined analyses of Caprifoliaceae yield the following: (Caprifolieae (Diervilleae (Linnaeeae (Morinaceae (Dipsacaceae (Triplostegia, Valerianaceae)))))). On the basis of these results we provide phylogenetic definitions for the names of several major clades. Within Adoxaceae, Adoxina refers to the clade including Sinadoxa, Tetradoxa, and Adoxa. This lineage is marked by herbaceous habit, reduction in the number of perianth parts, nectaries of multicellular hairs on the perianth, and bifid stamens. The clade including Morinaceae, Valerianaceae, Triplostegia, and Dipsacaceae is here named Valerina. Probable synapomorphies include herbaceousness, presence of an epicalyx (lost or modified in Valerianaceae), reduced endosperm, and distinctive chemistry, including production of monoterpenoids. The clade containing Valerina plus Linnaeeae we name Linnina. This lineage is distinguished by reduction to four (or fewer) stamens, by abortion of two of the three carpels, and possibly by supernumerary inflorescences bracts. </abstract><author email="michael.donoghue@yale.edu" firstname="Michael J. " lastname="Donoghue" /><author email="torsten.eriksson@botan.su.se" firstname="Torsten" lastname="Eriksson" /><author email="olmstead@u.washington.edu" firstname="Richard G." lastname="Olmstead" /><author firstname="Patrick A" lastname="Reeves" /></study></nex:external>
+    <otus id="_TaxaBlock945773">
         <otu id="Diervillasessilifolia" label="Diervilla sessilifolia" />
         <otu id="Weigelahortensis" label="Weigela hortensis" />
         <otu id="Tetradoxaomeiensis" label="Tetradoxa omeiensis" />
@@ -19,47 +19,47 @@
         <otu id="Viburnumplicatum" label="Viburnum plicatum" />
         <otu id="Viburnumsieboldii" label="Viburnum sieboldii" />
     </otus>
-    <trees id="_TreesBlock949405" otus="_TaxaBlock949404">
+    <trees id="_TreesBlock945774" otus="_TaxaBlock945773">
         <tree id="Tree2537" label="Fig. 6" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S866A2130" software="PAUP"><inputmatrix datatype="Combination" name="rbcL plus ITS" nchar="2107" /></analysis></nex:external>
-            <node id="_Node949409" />
-            <node id="_Node949411" />
-            <node id="_Node949413" otu="Diervillasessilifolia" />
-            <node id="_Node949416" otu="Weigelahortensis" />
-            <node id="_Node949419" />
-            <node id="_Node949421" />
-            <node id="_Node949423" />
-            <node id="_Node949425" />
-            <node id="_Node949427" otu="Tetradoxaomeiensis" />
-            <node id="_Node949430" otu="Adoxamoschatellina" />
-            <node id="_Node949433" otu="Sinadoxacorydalifolia" />
-            <node id="_Node949436" />
-            <node id="_Node949438" otu="Sambucusracemosa" />
-            <node id="_Node949441" otu="Sambucuscaerulea" />
-            <node id="_Node949444" />
-            <node id="_Node949446" otu="Viburnumacerifolium" />
-            <node id="_Node949449" />
-            <node id="_Node949451" otu="Viburnumplicatum" />
-            <node id="_Node949454" otu="Viburnumsieboldii" />
-            <rootedge id="_Edge949410" target="_Node949409" />
-            <edge id="_Edge949412" source="_Node949409" target="_Node949411" />
-            <edge id="_Edge949414" source="_Node949411" target="_Node949413" />
-            <edge id="_Edge949417" source="_Node949411" target="_Node949416" />
-            <edge id="_Edge949420" source="_Node949409" target="_Node949419" />
-            <edge id="_Edge949422" source="_Node949419" target="_Node949421" />
-            <edge id="_Edge949424" source="_Node949421" target="_Node949423" />
-            <edge id="_Edge949426" source="_Node949423" target="_Node949425" />
-            <edge id="_Edge949428" source="_Node949425" target="_Node949427" />
-            <edge id="_Edge949431" source="_Node949425" target="_Node949430" />
-            <edge id="_Edge949434" source="_Node949423" target="_Node949433" />
-            <edge id="_Edge949437" source="_Node949421" target="_Node949436" />
-            <edge id="_Edge949439" source="_Node949436" target="_Node949438" />
-            <edge id="_Edge949442" source="_Node949436" target="_Node949441" />
-            <edge id="_Edge949445" source="_Node949419" target="_Node949444" />
-            <edge id="_Edge949447" source="_Node949444" target="_Node949446" />
-            <edge id="_Edge949450" source="_Node949444" target="_Node949449" />
-            <edge id="_Edge949452" source="_Node949449" target="_Node949451" />
-            <edge id="_Edge949455" source="_Node949449" target="_Node949454" />
+            <node id="_Node945778" />
+            <node id="_Node945780" />
+            <node id="_Node945782" otu="Diervillasessilifolia" />
+            <node id="_Node945785" otu="Weigelahortensis" />
+            <node id="_Node945788" />
+            <node id="_Node945790" />
+            <node id="_Node945792" />
+            <node id="_Node945794" />
+            <node id="_Node945796" otu="Tetradoxaomeiensis" />
+            <node id="_Node945799" otu="Adoxamoschatellina" />
+            <node id="_Node945802" otu="Sinadoxacorydalifolia" />
+            <node id="_Node945805" />
+            <node id="_Node945807" otu="Sambucusracemosa" />
+            <node id="_Node945810" otu="Sambucuscaerulea" />
+            <node id="_Node945813" />
+            <node id="_Node945815" otu="Viburnumacerifolium" />
+            <node id="_Node945818" />
+            <node id="_Node945820" otu="Viburnumplicatum" />
+            <node id="_Node945823" otu="Viburnumsieboldii" />
+            <rootedge id="_Edge945779" target="_Node945778" />
+            <edge id="_Edge945781" source="_Node945778" target="_Node945780" />
+            <edge id="_Edge945783" source="_Node945780" target="_Node945782" />
+            <edge id="_Edge945786" source="_Node945780" target="_Node945785" />
+            <edge id="_Edge945789" source="_Node945778" target="_Node945788" />
+            <edge id="_Edge945791" source="_Node945788" target="_Node945790" />
+            <edge id="_Edge945793" source="_Node945790" target="_Node945792" />
+            <edge id="_Edge945795" source="_Node945792" target="_Node945794" />
+            <edge id="_Edge945797" source="_Node945794" target="_Node945796" />
+            <edge id="_Edge945800" source="_Node945794" target="_Node945799" />
+            <edge id="_Edge945803" source="_Node945792" target="_Node945802" />
+            <edge id="_Edge945806" source="_Node945790" target="_Node945805" />
+            <edge id="_Edge945808" source="_Node945805" target="_Node945807" />
+            <edge id="_Edge945811" source="_Node945805" target="_Node945810" />
+            <edge id="_Edge945814" source="_Node945788" target="_Node945813" />
+            <edge id="_Edge945816" source="_Node945813" target="_Node945815" />
+            <edge id="_Edge945819" source="_Node945813" target="_Node945818" />
+            <edge id="_Edge945821" source="_Node945818" target="_Node945820" />
+            <edge id="_Edge945824" source="_Node945818" target="_Node945823" />
         </tree>
     </trees>
 </nex:nexml>

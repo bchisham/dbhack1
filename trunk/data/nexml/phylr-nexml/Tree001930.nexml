@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S852"><citation>Rokas, A., N. King, J. Finnerty, and S. B. Carroll. 2003. Conflicting Phylogenetic Signals at the Base of the Metazoan Tree. Evolution and Development, in press.</citation><author email="sbcarrol@facstaff.wisc.edu" firstname="Sean B." lastname="Carroll" /><author email="jrf3@acs-pop.bu.edu" firstname="John" lastname="Finnerty" /><author email="nicoleking@wiscmail.wisc.edu" firstname="Nicole" lastname="King" /><author email="arokas@facstaff.wisc.edu" firstname="Antonis" lastname="Rokas" /></study></nex:external>
-    <otus id="_TaxaBlock938563">
+<nex:external xmlns="dbhack1/phylr"><study id="S852"><citation>Rokas, A., N. King, J. Finnerty, and S. B. Carroll. 2003. Conflicting Phylogenetic Signals at the Base of the Metazoan Tree. Evolution and Development, in press.</citation><abstract>A phylogenetic framework is essential for understanding the origin and evolution of metazoan development. Despite a number of recent molecular studies and a rich fossil record of sponges and cnidarians, the evolutionary relationships of the early branching metazoan groups to each other and to a putative outgroup, the choanoflagellates, remain uncertain. This situation may be the result of the limited amount of phylogenetic information found in single genes and the small number of relevant taxa surveyed. To alleviate the effect of these analytical factors in the phylogenetic reconstruction of early-branching metazoan lineages, we have cloned multiple protein-coding genes from two choanoflagellates and diverse sponges, cnidarians, and a ctenophore. Comparisons of sequences for a-tubulin, b-tubulin, Elongation Factor 2, HSP90, and HSP70 robustly support the hypothesis that choanoflagellates are closely affiliated with animals. However, analyses of single and concatenated amino acid sequences fail to resolve the relationships either between early branching metazoan groups or between Metazoa and choanoflagellates. We demonstrate that variable rates of evolution among lineages, sensitivity of the analyses to taxon selection and conflicts in the phylogenetic signal contained in different amino acid sequences obscure the phylogenetic associations among the early branching Metazoa. These factors raise concerns about the ability to resolve the phylogenetic history of animals with molecular sequences. A consensus view of animal evolution may require investigations of genome-scale characters.</abstract><author email="sbcarrol@facstaff.wisc.edu" firstname="Sean B." lastname="Carroll" /><author email="jrf3@acs-pop.bu.edu" firstname="John" lastname="Finnerty" /><author email="nicoleking@wiscmail.wisc.edu" firstname="Nicole" lastname="King" /><author email="arokas@facstaff.wisc.edu" firstname="Antonis" lastname="Rokas" /></study></nex:external>
+    <otus id="_TaxaBlock934932">
         <otu id="Monosiga" label="Monosiga" />
         <otu id="Caenorhabditis" label="Caenorhabditis" />
         <otu id="Drosophila" label="Drosophila" />
@@ -20,39 +20,39 @@
         <otu id="Nematostella" label="Nematostella" />
         <otu id="Schistosoma" label="Schistosoma" />
     </otus>
-    <trees id="_TreesBlock938564" otus="_TaxaBlock938563">
+    <trees id="_TreesBlock934933" otus="_TaxaBlock934932">
         <tree id="Tree2495" label="Fig. 5a puzzle" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S852A2068" software="Tree-Puzzle"><inputmatrix datatype="Amino Acid" name="Fig5A" nchar="1561" /></analysis></nex:external>
-            <node id="_Node938568" />
-            <node id="_Node938570" otu="Monosiga" />
-            <node id="_Node938573" />
-            <node id="_Node938575" otu="Caenorhabditis" />
-            <node id="_Node938578" otu="Drosophila" />
-            <node id="_Node938581" />
-            <node id="_Node938583" otu="Saccharomyces" />
-            <node id="_Node938586" otu="Schizosaccharomyces" />
-            <node id="_Node938589" />
-            <node id="_Node938591" otu="Danio" />
-            <node id="_Node938594" otu="Mus" />
-            <node id="_Node938597" otu="Suberites" />
-            <node id="_Node938600" otu="Leucosolenia" />
-            <node id="_Node938603" otu="Nematostella" />
-            <node id="_Node938606" otu="Schistosoma" />
-            <rootedge id="_Edge938569" target="_Node938568" />
-            <edge id="_Edge938571" source="_Node938568" target="_Node938570" />
-            <edge id="_Edge938574" source="_Node938568" target="_Node938573" />
-            <edge id="_Edge938576" source="_Node938573" target="_Node938575" />
-            <edge id="_Edge938579" source="_Node938573" target="_Node938578" />
-            <edge id="_Edge938582" source="_Node938568" target="_Node938581" />
-            <edge id="_Edge938584" source="_Node938581" target="_Node938583" />
-            <edge id="_Edge938587" source="_Node938581" target="_Node938586" />
-            <edge id="_Edge938590" source="_Node938568" target="_Node938589" />
-            <edge id="_Edge938592" source="_Node938589" target="_Node938591" />
-            <edge id="_Edge938595" source="_Node938589" target="_Node938594" />
-            <edge id="_Edge938598" source="_Node938568" target="_Node938597" />
-            <edge id="_Edge938601" source="_Node938568" target="_Node938600" />
-            <edge id="_Edge938604" source="_Node938568" target="_Node938603" />
-            <edge id="_Edge938607" source="_Node938568" target="_Node938606" />
+            <node id="_Node934937" />
+            <node id="_Node934939" otu="Monosiga" />
+            <node id="_Node934942" />
+            <node id="_Node934944" otu="Caenorhabditis" />
+            <node id="_Node934947" otu="Drosophila" />
+            <node id="_Node934950" />
+            <node id="_Node934952" otu="Saccharomyces" />
+            <node id="_Node934955" otu="Schizosaccharomyces" />
+            <node id="_Node934958" />
+            <node id="_Node934960" otu="Danio" />
+            <node id="_Node934963" otu="Mus" />
+            <node id="_Node934966" otu="Suberites" />
+            <node id="_Node934969" otu="Leucosolenia" />
+            <node id="_Node934972" otu="Nematostella" />
+            <node id="_Node934975" otu="Schistosoma" />
+            <rootedge id="_Edge934938" target="_Node934937" />
+            <edge id="_Edge934940" source="_Node934937" target="_Node934939" />
+            <edge id="_Edge934943" source="_Node934937" target="_Node934942" />
+            <edge id="_Edge934945" source="_Node934942" target="_Node934944" />
+            <edge id="_Edge934948" source="_Node934942" target="_Node934947" />
+            <edge id="_Edge934951" source="_Node934937" target="_Node934950" />
+            <edge id="_Edge934953" source="_Node934950" target="_Node934952" />
+            <edge id="_Edge934956" source="_Node934950" target="_Node934955" />
+            <edge id="_Edge934959" source="_Node934937" target="_Node934958" />
+            <edge id="_Edge934961" source="_Node934958" target="_Node934960" />
+            <edge id="_Edge934964" source="_Node934958" target="_Node934963" />
+            <edge id="_Edge934967" source="_Node934937" target="_Node934966" />
+            <edge id="_Edge934970" source="_Node934937" target="_Node934969" />
+            <edge id="_Edge934973" source="_Node934937" target="_Node934972" />
+            <edge id="_Edge934976" source="_Node934937" target="_Node934975" />
         </tree>
     </trees>
 </nex:nexml>

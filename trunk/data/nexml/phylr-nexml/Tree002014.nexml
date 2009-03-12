@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S892"><citation>Schurko, A. M., L. Mendoza, C. A. Levesque, N. L. Desaulniers, A. W. A. M. de Cock, and G. R. Klassen. 2003. A molecular phylogeny of Pythium insidiosum. Mycological Research, in press. </citation><author email="decock@cbs.knaw.nl" firstname="Arthur W. A. M." lastname="de Cock" /><author email="desaulniers@agr.gc.ca" firstname="Nicole L." lastname="D&#195;&#169;saulniers" /><author email="glen_klassen@umanitoba.ca" firstname="Glen R." lastname="Klassen" /><author email="LevesqueCA@em.agr.ca" firstname="C. Andr&#195;&#169;" lastname="L&#195;&#169;vesque" /><author email="mendoza9@pilot.msu.edu" firstname="Leonel" lastname="Mendoza" /><author email="umschur3@cc.umanitoba.ca" firstname="Andrew M." lastname="Schurko" /></study></nex:external>
-    <otus id="_TaxaBlock975340">
+<nex:external xmlns="dbhack1/phylr"><study id="S892"><citation>Schurko, A. M., L. Mendoza, C. A. Levesque, N. L. Desaulniers, A. W. A. M. de Cock, and G. R. Klassen. 2003. A molecular phylogeny of Pythium insidiosum. Mycological Research, in press. </citation><abstract>Sequence analysis of the ribosomal DNA internal transcribed spacers (ITS) was used to establish phylogenetic relationships among 23 isolates of Pythium insidiosum, the etiological agent of pythiosis in mammals. The isolates were divided into three distinct clades which exhibited significant geographic isolation. Clade I consisted of isolates from North and South America while clade II contained isolates from Asia and Australia. Also present in clade II was an isolate from a patient in United States, but the origin of infection may in fact be in the Middle East. Clade III was comprised of isolates from Thailand and the United States. All 23 P. insidiosum isolates were more closely related to each other than to any other Pythium species in this study. Additionally, all Pythium isolates formed a clade separate from both outgroup species, Phytophthora megasperma and Lagenidium giganteum. The ITS sequence results tend to support evidence for geographic variants within P. insidiosum or that P. insidiosum is in fact comprised of more than one species. As well, the sequence information obtained provides an abundance of molecular data for applications in the diagnosis of pythiosis and identification of P. insidiosum from clinical samples.</abstract><author email="decock@cbs.knaw.nl" firstname="Arthur W. A. M." lastname="de Cock" /><author email="desaulniers@agr.gc.ca" firstname="Nicole L." lastname="D&#195;&#169;saulniers" /><author email="glen_klassen@umanitoba.ca" firstname="Glen R." lastname="Klassen" /><author email="LevesqueCA@em.agr.ca" firstname="C. Andr&#195;&#169;" lastname="L&#195;&#169;vesque" /><author email="mendoza9@pilot.msu.edu" firstname="Leonel" lastname="Mendoza" /><author email="umschur3@cc.umanitoba.ca" firstname="Andrew M." lastname="Schurko" /></study></nex:external>
+    <otus id="_TaxaBlock971709">
         <otu id="Lagenidiumgiganteum" label="Lagenidium giganteum" />
         <otu id="Phytophthoramegasperma" label="Phytophthora megasperma" />
         <otu id="PythiuminsidiosumM20" label="Pythium insidiosum M20" />
@@ -37,117 +37,117 @@
         <otu id="Pythiumaphanidermatum" label="Pythium aphanidermatum" />
         <otu id="Pythiumdeliense" label="Pythium deliense" />
     </otus>
-    <trees id="_TreesBlock975341" otus="_TaxaBlock975340">
+    <trees id="_TreesBlock971710" otus="_TaxaBlock971709">
         <tree id="Tree2619" label="Fig. 2" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="neighbor joining" id="S892A2283" software="Phylip"><inputmatrix datatype="Nucleic Acid" name="Pythium insidiosum ITS" nchar="887" /></analysis></nex:external>
-            <node id="_Node975345" />
-            <node id="_Node975347" otu="Lagenidiumgiganteum" />
-            <node id="_Node975350" otu="Phytophthoramegasperma" />
-            <node id="_Node975353" />
-            <node id="_Node975355" />
-            <node id="_Node975357" />
-            <node id="_Node975359" />
-            <node id="_Node975361" otu="PythiuminsidiosumM20" />
-            <node id="_Node975364" />
-            <node id="_Node975366" otu="PythiuminsidiosumM22" />
-            <node id="_Node975369" />
-            <node id="_Node975371" otu="PythiuminsidiosumM4" />
-            <node id="_Node975374" />
-            <node id="_Node975376" otu="Pythiuminsidiosum394" />
-            <node id="_Node975379" />
-            <node id="_Node975381" otu="Pythiuminsidiosum65" />
-            <node id="_Node975384" />
-            <node id="_Node975386" otu="Pythiuminsidiosum338" />
-            <node id="_Node975389" />
-            <node id="_Node975391" otu="Pythiuminsidiosum341" />
-            <node id="_Node975394" />
-            <node id="_Node975396" otu="Pythiuminsidiosum342" />
-            <node id="_Node975399" />
-            <node id="_Node975401" otu="Pythiuminsidiosum339" />
-            <node id="_Node975404" />
-            <node id="_Node975406" otu="PythiuminsidiosumM16" />
-            <node id="_Node975409" />
-            <node id="_Node975411" otu="PythiuminsidiosumM12" />
-            <node id="_Node975414" otu="Pythiuminsidiosum343" />
-            <node id="_Node975417" />
-            <node id="_Node975419" />
-            <node id="_Node975421" otu="PythiumdestruensM23" />
-            <node id="_Node975424" />
-            <node id="_Node975426" otu="PythiuminsidiosumM15" />
-            <node id="_Node975429" otu="PythiumdestruensM24" />
-            <node id="_Node975432" />
-            <node id="_Node975434" otu="PythiuminsidiosumM21" />
-            <node id="_Node975437" />
-            <node id="_Node975439" otu="Pythiuminsidiosum297" />
-            <node id="_Node975442" />
-            <node id="_Node975444" otu="PythiuminsidiosumM25" />
-            <node id="_Node975447" otu="Pythiuminsidiosum296" />
-            <node id="_Node975450" />
-            <node id="_Node975452" otu="PythiuminsidiosumM18" />
-            <node id="_Node975455" />
-            <node id="_Node975457" otu="PythiuminsidiosumM17" />
-            <node id="_Node975460" />
-            <node id="_Node975462" otu="Pythiuminsidiosum291" />
-            <node id="_Node975465" otu="PythiuminsidiosumM19" />
-            <node id="_Node975468" />
-            <node id="_Node975470" otu="Pythiumgrandisporangium" />
-            <node id="_Node975473" />
-            <node id="_Node975475" otu="Pythiumaphanidermatum" />
-            <node id="_Node975478" otu="Pythiumdeliense" />
-            <rootedge id="_Edge975346" target="_Node975345" />
-            <edge id="_Edge975348" source="_Node975345" target="_Node975347" />
-            <edge id="_Edge975351" source="_Node975345" target="_Node975350" />
-            <edge id="_Edge975354" source="_Node975345" target="_Node975353" />
-            <edge id="_Edge975356" source="_Node975353" target="_Node975355" />
-            <edge id="_Edge975358" source="_Node975355" target="_Node975357" />
-            <edge id="_Edge975360" source="_Node975357" target="_Node975359" />
-            <edge id="_Edge975362" source="_Node975359" target="_Node975361" />
-            <edge id="_Edge975365" source="_Node975359" target="_Node975364" />
-            <edge id="_Edge975367" source="_Node975364" target="_Node975366" />
-            <edge id="_Edge975370" source="_Node975364" target="_Node975369" />
-            <edge id="_Edge975372" source="_Node975369" target="_Node975371" />
-            <edge id="_Edge975375" source="_Node975369" target="_Node975374" />
-            <edge id="_Edge975377" source="_Node975374" target="_Node975376" />
-            <edge id="_Edge975380" source="_Node975374" target="_Node975379" />
-            <edge id="_Edge975382" source="_Node975379" target="_Node975381" />
-            <edge id="_Edge975385" source="_Node975379" target="_Node975384" />
-            <edge id="_Edge975387" source="_Node975384" target="_Node975386" />
-            <edge id="_Edge975390" source="_Node975384" target="_Node975389" />
-            <edge id="_Edge975392" source="_Node975389" target="_Node975391" />
-            <edge id="_Edge975395" source="_Node975389" target="_Node975394" />
-            <edge id="_Edge975397" source="_Node975394" target="_Node975396" />
-            <edge id="_Edge975400" source="_Node975394" target="_Node975399" />
-            <edge id="_Edge975402" source="_Node975399" target="_Node975401" />
-            <edge id="_Edge975405" source="_Node975399" target="_Node975404" />
-            <edge id="_Edge975407" source="_Node975404" target="_Node975406" />
-            <edge id="_Edge975410" source="_Node975404" target="_Node975409" />
-            <edge id="_Edge975412" source="_Node975409" target="_Node975411" />
-            <edge id="_Edge975415" source="_Node975409" target="_Node975414" />
-            <edge id="_Edge975418" source="_Node975357" target="_Node975417" />
-            <edge id="_Edge975420" source="_Node975417" target="_Node975419" />
-            <edge id="_Edge975422" source="_Node975419" target="_Node975421" />
-            <edge id="_Edge975425" source="_Node975419" target="_Node975424" />
-            <edge id="_Edge975427" source="_Node975424" target="_Node975426" />
-            <edge id="_Edge975430" source="_Node975424" target="_Node975429" />
-            <edge id="_Edge975433" source="_Node975417" target="_Node975432" />
-            <edge id="_Edge975435" source="_Node975432" target="_Node975434" />
-            <edge id="_Edge975438" source="_Node975432" target="_Node975437" />
-            <edge id="_Edge975440" source="_Node975437" target="_Node975439" />
-            <edge id="_Edge975443" source="_Node975437" target="_Node975442" />
-            <edge id="_Edge975445" source="_Node975442" target="_Node975444" />
-            <edge id="_Edge975448" source="_Node975442" target="_Node975447" />
-            <edge id="_Edge975451" source="_Node975355" target="_Node975450" />
-            <edge id="_Edge975453" source="_Node975450" target="_Node975452" />
-            <edge id="_Edge975456" source="_Node975450" target="_Node975455" />
-            <edge id="_Edge975458" source="_Node975455" target="_Node975457" />
-            <edge id="_Edge975461" source="_Node975455" target="_Node975460" />
-            <edge id="_Edge975463" source="_Node975460" target="_Node975462" />
-            <edge id="_Edge975466" source="_Node975460" target="_Node975465" />
-            <edge id="_Edge975469" source="_Node975353" target="_Node975468" />
-            <edge id="_Edge975471" source="_Node975468" target="_Node975470" />
-            <edge id="_Edge975474" source="_Node975468" target="_Node975473" />
-            <edge id="_Edge975476" source="_Node975473" target="_Node975475" />
-            <edge id="_Edge975479" source="_Node975473" target="_Node975478" />
+            <node id="_Node971714" />
+            <node id="_Node971716" otu="Lagenidiumgiganteum" />
+            <node id="_Node971719" otu="Phytophthoramegasperma" />
+            <node id="_Node971722" />
+            <node id="_Node971724" />
+            <node id="_Node971726" />
+            <node id="_Node971728" />
+            <node id="_Node971730" otu="PythiuminsidiosumM20" />
+            <node id="_Node971733" />
+            <node id="_Node971735" otu="PythiuminsidiosumM22" />
+            <node id="_Node971738" />
+            <node id="_Node971740" otu="PythiuminsidiosumM4" />
+            <node id="_Node971743" />
+            <node id="_Node971745" otu="Pythiuminsidiosum394" />
+            <node id="_Node971748" />
+            <node id="_Node971750" otu="Pythiuminsidiosum65" />
+            <node id="_Node971753" />
+            <node id="_Node971755" otu="Pythiuminsidiosum338" />
+            <node id="_Node971758" />
+            <node id="_Node971760" otu="Pythiuminsidiosum341" />
+            <node id="_Node971763" />
+            <node id="_Node971765" otu="Pythiuminsidiosum342" />
+            <node id="_Node971768" />
+            <node id="_Node971770" otu="Pythiuminsidiosum339" />
+            <node id="_Node971773" />
+            <node id="_Node971775" otu="PythiuminsidiosumM16" />
+            <node id="_Node971778" />
+            <node id="_Node971780" otu="PythiuminsidiosumM12" />
+            <node id="_Node971783" otu="Pythiuminsidiosum343" />
+            <node id="_Node971786" />
+            <node id="_Node971788" />
+            <node id="_Node971790" otu="PythiumdestruensM23" />
+            <node id="_Node971793" />
+            <node id="_Node971795" otu="PythiuminsidiosumM15" />
+            <node id="_Node971798" otu="PythiumdestruensM24" />
+            <node id="_Node971801" />
+            <node id="_Node971803" otu="PythiuminsidiosumM21" />
+            <node id="_Node971806" />
+            <node id="_Node971808" otu="Pythiuminsidiosum297" />
+            <node id="_Node971811" />
+            <node id="_Node971813" otu="PythiuminsidiosumM25" />
+            <node id="_Node971816" otu="Pythiuminsidiosum296" />
+            <node id="_Node971819" />
+            <node id="_Node971821" otu="PythiuminsidiosumM18" />
+            <node id="_Node971824" />
+            <node id="_Node971826" otu="PythiuminsidiosumM17" />
+            <node id="_Node971829" />
+            <node id="_Node971831" otu="Pythiuminsidiosum291" />
+            <node id="_Node971834" otu="PythiuminsidiosumM19" />
+            <node id="_Node971837" />
+            <node id="_Node971839" otu="Pythiumgrandisporangium" />
+            <node id="_Node971842" />
+            <node id="_Node971844" otu="Pythiumaphanidermatum" />
+            <node id="_Node971847" otu="Pythiumdeliense" />
+            <rootedge id="_Edge971715" target="_Node971714" />
+            <edge id="_Edge971717" source="_Node971714" target="_Node971716" />
+            <edge id="_Edge971720" source="_Node971714" target="_Node971719" />
+            <edge id="_Edge971723" source="_Node971714" target="_Node971722" />
+            <edge id="_Edge971725" source="_Node971722" target="_Node971724" />
+            <edge id="_Edge971727" source="_Node971724" target="_Node971726" />
+            <edge id="_Edge971729" source="_Node971726" target="_Node971728" />
+            <edge id="_Edge971731" source="_Node971728" target="_Node971730" />
+            <edge id="_Edge971734" source="_Node971728" target="_Node971733" />
+            <edge id="_Edge971736" source="_Node971733" target="_Node971735" />
+            <edge id="_Edge971739" source="_Node971733" target="_Node971738" />
+            <edge id="_Edge971741" source="_Node971738" target="_Node971740" />
+            <edge id="_Edge971744" source="_Node971738" target="_Node971743" />
+            <edge id="_Edge971746" source="_Node971743" target="_Node971745" />
+            <edge id="_Edge971749" source="_Node971743" target="_Node971748" />
+            <edge id="_Edge971751" source="_Node971748" target="_Node971750" />
+            <edge id="_Edge971754" source="_Node971748" target="_Node971753" />
+            <edge id="_Edge971756" source="_Node971753" target="_Node971755" />
+            <edge id="_Edge971759" source="_Node971753" target="_Node971758" />
+            <edge id="_Edge971761" source="_Node971758" target="_Node971760" />
+            <edge id="_Edge971764" source="_Node971758" target="_Node971763" />
+            <edge id="_Edge971766" source="_Node971763" target="_Node971765" />
+            <edge id="_Edge971769" source="_Node971763" target="_Node971768" />
+            <edge id="_Edge971771" source="_Node971768" target="_Node971770" />
+            <edge id="_Edge971774" source="_Node971768" target="_Node971773" />
+            <edge id="_Edge971776" source="_Node971773" target="_Node971775" />
+            <edge id="_Edge971779" source="_Node971773" target="_Node971778" />
+            <edge id="_Edge971781" source="_Node971778" target="_Node971780" />
+            <edge id="_Edge971784" source="_Node971778" target="_Node971783" />
+            <edge id="_Edge971787" source="_Node971726" target="_Node971786" />
+            <edge id="_Edge971789" source="_Node971786" target="_Node971788" />
+            <edge id="_Edge971791" source="_Node971788" target="_Node971790" />
+            <edge id="_Edge971794" source="_Node971788" target="_Node971793" />
+            <edge id="_Edge971796" source="_Node971793" target="_Node971795" />
+            <edge id="_Edge971799" source="_Node971793" target="_Node971798" />
+            <edge id="_Edge971802" source="_Node971786" target="_Node971801" />
+            <edge id="_Edge971804" source="_Node971801" target="_Node971803" />
+            <edge id="_Edge971807" source="_Node971801" target="_Node971806" />
+            <edge id="_Edge971809" source="_Node971806" target="_Node971808" />
+            <edge id="_Edge971812" source="_Node971806" target="_Node971811" />
+            <edge id="_Edge971814" source="_Node971811" target="_Node971813" />
+            <edge id="_Edge971817" source="_Node971811" target="_Node971816" />
+            <edge id="_Edge971820" source="_Node971724" target="_Node971819" />
+            <edge id="_Edge971822" source="_Node971819" target="_Node971821" />
+            <edge id="_Edge971825" source="_Node971819" target="_Node971824" />
+            <edge id="_Edge971827" source="_Node971824" target="_Node971826" />
+            <edge id="_Edge971830" source="_Node971824" target="_Node971829" />
+            <edge id="_Edge971832" source="_Node971829" target="_Node971831" />
+            <edge id="_Edge971835" source="_Node971829" target="_Node971834" />
+            <edge id="_Edge971838" source="_Node971722" target="_Node971837" />
+            <edge id="_Edge971840" source="_Node971837" target="_Node971839" />
+            <edge id="_Edge971843" source="_Node971837" target="_Node971842" />
+            <edge id="_Edge971845" source="_Node971842" target="_Node971844" />
+            <edge id="_Edge971848" source="_Node971842" target="_Node971847" />
         </tree>
     </trees>
 </nex:nexml>

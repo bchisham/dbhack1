@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,7 +6,7 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S11x4x95c20c37c39"><citation>Ayers, T. J. 1990. Systematics of Heterotoma (Campanulaceae) and the evolution of nectar spurs in the New World Lobelioideae. Syst. Bot. 15:296-327.</citation><author firstname="T. J. " lastname="Ayers" /></study></nex:external>
+<nex:external xmlns="dbhack1/phylr"><study id="S11x4x95c20c37c39"><citation>Ayers, T. J. 1990. Systematics of Heterotoma (Campanulaceae) and the evolution of nectar spurs in the New World Lobelioideae. Syst. Bot. 15:296-327.</citation><abstract>Historically, the genus Heterotoma has been delimited from the large, cosmopolitan genus Lobelia by a single character, the presence of a nectar spur. Comparative studies between Heterotoma and selected members of Lobelia utilizing macro- and micromorphology of pollen and seed testa, anatomy, and field studies support a hypothesis of three independent derivations of nectar spurs in two sections of Lobelia. The present treatment recognizes 12 species (14 taxa). Heterotoma lobelioides, including two varieties, is retained as a monotypic genus. The remaining species are transferred to Lobelia sect. Hemipogon. The revision includes keys, descriptions, distribution maps, and illustrations (or references to such) for each species. One new variety (H. lobelioides var. glabra) is described, four new combinations are made (L. aurita, L. endlichii, L. flexuosa var. intermedia, and L. goldmannii), and one new name is proposed (L. volcanica).</abstract><author firstname="T. J. " lastname="Ayers" /></study></nex:external>
     <otus id="_TaxaBlock2139">
         <otu id="Lobelialaxiflora" label="Lobelia laxiflora" />
         <otu id="Heterotomalobelioides" label="Heterotoma lobelioides" />

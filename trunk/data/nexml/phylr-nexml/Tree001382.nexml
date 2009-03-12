@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <nex:nexml
     version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
-<nex:external xmlns="dbhack1/phylr"><study id="S625"><citation>Herniou, E. A., T. Luque, X. Chen, J. M. Vlak, D. Winstanley, J. S. Cory, and D. R. O\'Reilly. 2001. The use of whole genome sequence data to infer baculovirus phylogeny. Journal of Virology, 75(17): 8117-8126.</citation><author email="xinwen.chen@medew.viro.wau.nl" firstname="Xinwen" lastname="Chen" /><author email="jsc@ceh.ac.uk" firstname="Jennifer S." lastname="Cory" /><author email="elisabeth.herniou@ic.ac.uk" firstname="Elisabeth A." lastname="Herniou" /><author email="t.luque@ic.ac.uk" firstname="Teresa" lastname="Luque" /><author email="d.oreilly@ic.ac.uk" firstname="David R." lastname="O\&apos;Reilly" /><author email="just.vlak@viro.dpw.wau.nl" firstname="Just M." lastname="Vlak" /><author email="Doreen.Winstanley@hri.ac.uk" firstname="Doreen" lastname="Winstanley" /></study></nex:external>
-    <otus id="_TaxaBlock598484">
+<nex:external xmlns="dbhack1/phylr"><study id="S625"><citation>Herniou, E. A., T. Luque, X. Chen, J. M. Vlak, D. Winstanley, J. S. Cory, and D. R. O\'Reilly. 2001. The use of whole genome sequence data to infer baculovirus phylogeny. Journal of Virology, 75(17): 8117-8126.</citation><abstract>Several phylogenetic methods based on whole genome sequence data were evaluated using data from nine complete baculovirus genomes. The utility of three independent character sets was assessed. The first data set comprised the sequences of the 63 genes common to these viruses. The second set of characters was based on gene order and phylogenies were inferred using both breakpoint distance analysis and a novel method developed here termed neighbor pair analysis. The third set recorded gene content by scoring gene presence or absence in each genome. All three datasets yielded phylogenies supporting the separation of the Nucleopolyhedrovirus (NPV) and Granulovirus (GV) genera, the division of the NPVs into groups I and II, and species relationships within group I NPVs. Generation of phylogenies based on the combined sequences of all 63 shared genes proved to be the most effective approach to resolving the relationships among the group II NPVs and GVs. The history of gene acquisitions and losses that have accompanied baculovirus diversification was visualized by mapping the gene content data onto the phylogenetic tree. This analysis highlighted the fluid nature of baculovirus genomes, with evidence of frequent genome rearrangements and multiple gene content changes during their evolution. Of more than 416 genes identified in the genomes analyzed, only 63 are present in all nine genomes, and 200 genes are only found in a single genome. Despite this fluidity, the whole genome based methods we describe are sufficiently powerful to recover the underlying phylogeny of the viruses</abstract><author email="xinwen.chen@medew.viro.wau.nl" firstname="Xinwen" lastname="Chen" /><author email="jsc@ceh.ac.uk" firstname="Jennifer S." lastname="Cory" /><author email="elisabeth.herniou@ic.ac.uk" firstname="Elisabeth A." lastname="Herniou" /><author email="t.luque@ic.ac.uk" firstname="Teresa" lastname="Luque" /><author email="d.oreilly@ic.ac.uk" firstname="David R." lastname="O\&apos;Reilly" /><author email="just.vlak@viro.dpw.wau.nl" firstname="Just M." lastname="Vlak" /><author email="Doreen.Winstanley@hri.ac.uk" firstname="Doreen" lastname="Winstanley" /></study></nex:external>
+    <otus id="_TaxaBlock594853">
         <otu id="PxGVPlutellaxylostellagranulovirus" label="PxGV Plutella xylostella granulovirus" />
         <otu id="CpGVCydiapomonellagranulovirus" label="CpGV Cydia pomonella granulovirus" />
         <otu id="XcGVXestiac-nigrumgranulovirus" label="XcGV Xestia c-nigrum granulovirus" />
@@ -18,43 +18,43 @@
         <otu id="AcMNPVAutographacalifornicanucleopolyhedrovirus" label="AcMNPV Autographa californica nucleopolyhedrovirus" />
         <otu id="BmNPVBombyxmorinucleopolyhedrovirus" label="BmNPV Bombyx mori nucleopolyhedrovirus" />
     </otus>
-    <trees id="_TreesBlock598485" otus="_TaxaBlock598484">
+    <trees id="_TreesBlock594854" otus="_TaxaBlock594853">
         <tree id="Tree1872" label="fig. A1I" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S625A1200" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Baculovirus Genome 38.7-ie1" nchar="12647" /><inputmatrix datatype="Nucleic Acid" name="Baculovirus Genome lef1-lef6" nchar="13141" /></analysis></nex:external>
-            <node id="_Node598489" />
-            <node id="_Node598491" />
-            <node id="_Node598493" />
-            <node id="_Node598495" otu="PxGVPlutellaxylostellagranulovirus" />
-            <node id="_Node598498" otu="CpGVCydiapomonellagranulovirus" />
-            <node id="_Node598501" otu="XcGVXestiac-nigrumgranulovirus" />
-            <node id="_Node598504" />
-            <node id="_Node598506" />
-            <node id="_Node598508" otu="SeMNPVSpodopteraexiguanucleopolyhedrovirus" />
-            <node id="_Node598511" />
-            <node id="_Node598513" otu="LdMNPVLymantriadisparnucleopolyhedrovirus" />
-            <node id="_Node598516" otu="HaSNPVHelicoverpaarmigeranucleopolyhedrovirus" />
-            <node id="_Node598519" />
-            <node id="_Node598521" otu="OpMNPVOrgyiapseudosugatanucleopolyhedrovirus" />
-            <node id="_Node598524" />
-            <node id="_Node598526" otu="AcMNPVAutographacalifornicanucleopolyhedrovirus" />
-            <node id="_Node598529" otu="BmNPVBombyxmorinucleopolyhedrovirus" />
-            <rootedge id="_Edge598490" target="_Node598489" />
-            <edge id="_Edge598492" source="_Node598489" target="_Node598491" />
-            <edge id="_Edge598494" source="_Node598491" target="_Node598493" />
-            <edge id="_Edge598496" source="_Node598493" target="_Node598495" />
-            <edge id="_Edge598499" source="_Node598493" target="_Node598498" />
-            <edge id="_Edge598502" source="_Node598491" target="_Node598501" />
-            <edge id="_Edge598505" source="_Node598489" target="_Node598504" />
-            <edge id="_Edge598507" source="_Node598504" target="_Node598506" />
-            <edge id="_Edge598509" source="_Node598506" target="_Node598508" />
-            <edge id="_Edge598512" source="_Node598506" target="_Node598511" />
-            <edge id="_Edge598514" source="_Node598511" target="_Node598513" />
-            <edge id="_Edge598517" source="_Node598511" target="_Node598516" />
-            <edge id="_Edge598520" source="_Node598504" target="_Node598519" />
-            <edge id="_Edge598522" source="_Node598519" target="_Node598521" />
-            <edge id="_Edge598525" source="_Node598519" target="_Node598524" />
-            <edge id="_Edge598527" source="_Node598524" target="_Node598526" />
-            <edge id="_Edge598530" source="_Node598524" target="_Node598529" />
+            <node id="_Node594858" />
+            <node id="_Node594860" />
+            <node id="_Node594862" />
+            <node id="_Node594864" otu="PxGVPlutellaxylostellagranulovirus" />
+            <node id="_Node594867" otu="CpGVCydiapomonellagranulovirus" />
+            <node id="_Node594870" otu="XcGVXestiac-nigrumgranulovirus" />
+            <node id="_Node594873" />
+            <node id="_Node594875" />
+            <node id="_Node594877" otu="SeMNPVSpodopteraexiguanucleopolyhedrovirus" />
+            <node id="_Node594880" />
+            <node id="_Node594882" otu="LdMNPVLymantriadisparnucleopolyhedrovirus" />
+            <node id="_Node594885" otu="HaSNPVHelicoverpaarmigeranucleopolyhedrovirus" />
+            <node id="_Node594888" />
+            <node id="_Node594890" otu="OpMNPVOrgyiapseudosugatanucleopolyhedrovirus" />
+            <node id="_Node594893" />
+            <node id="_Node594895" otu="AcMNPVAutographacalifornicanucleopolyhedrovirus" />
+            <node id="_Node594898" otu="BmNPVBombyxmorinucleopolyhedrovirus" />
+            <rootedge id="_Edge594859" target="_Node594858" />
+            <edge id="_Edge594861" source="_Node594858" target="_Node594860" />
+            <edge id="_Edge594863" source="_Node594860" target="_Node594862" />
+            <edge id="_Edge594865" source="_Node594862" target="_Node594864" />
+            <edge id="_Edge594868" source="_Node594862" target="_Node594867" />
+            <edge id="_Edge594871" source="_Node594860" target="_Node594870" />
+            <edge id="_Edge594874" source="_Node594858" target="_Node594873" />
+            <edge id="_Edge594876" source="_Node594873" target="_Node594875" />
+            <edge id="_Edge594878" source="_Node594875" target="_Node594877" />
+            <edge id="_Edge594881" source="_Node594875" target="_Node594880" />
+            <edge id="_Edge594883" source="_Node594880" target="_Node594882" />
+            <edge id="_Edge594886" source="_Node594880" target="_Node594885" />
+            <edge id="_Edge594889" source="_Node594873" target="_Node594888" />
+            <edge id="_Edge594891" source="_Node594888" target="_Node594890" />
+            <edge id="_Edge594894" source="_Node594888" target="_Node594893" />
+            <edge id="_Edge594896" source="_Node594893" target="_Node594895" />
+            <edge id="_Edge594899" source="_Node594893" target="_Node594898" />
         </tree>
     </trees>
 </nex:nexml>
