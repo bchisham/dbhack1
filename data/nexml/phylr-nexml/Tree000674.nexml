@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S320"><citation>Baker, R. and R. DeSalle. 1997. Multiple sources of character information and the phylogeny of Hawaiian Drosophilids. Syst. Biol. 46(4): 654-673. </citation><author email="baker@amnh.org" firstname="Richard" lastname="Baker" /><author email="desalle@amnh.org" firstname="Rob" lastname="DeSalle" /></study></nex:external>
-    <otus id="_TaxaBlock133969">
+    <otus id="_TaxaBlock229186">
         <otu id="Drosophilaadiastola" label="Drosophila adiastola" />
         <otu id="Drosophilacyrtoloma" label="Drosophila cyrtoloma" />
         <otu id="Drosophilasilvestris" label="Drosophila silvestris" />
@@ -26,73 +26,73 @@
         <otu id="Drosophilamulleri" label="Drosophila mulleri" />
         <otu id="Drosophilamelanogaster" label="Drosophila melanogaster" />
     </otus>
-    <trees id="_TreesBlock133970" otus="_TaxaBlock133969">
-        <tree id="_Tree133971" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock229187" otus="_TaxaBlock229186">
+        <tree id="_Tree229188" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S320A136" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="combined" nchar="2550" /></analysis></nex:external>
-            <node id="_Node133974" />
-            <node id="_Node133976" />
-            <node id="_Node133978" />
-            <node id="_Node133980" />
-            <node id="_Node133982" />
-            <node id="_Node133984" otu="Drosophilaadiastola" />
-            <node id="_Node133987" />
-            <node id="_Node133989" />
-            <node id="_Node133991" otu="Drosophilacyrtoloma" />
-            <node id="_Node133994" otu="Drosophilasilvestris" />
-            <node id="_Node133997" />
-            <node id="_Node133999" otu="Drosophilalineosetae" />
-            <node id="_Node134002" otu="Drosophiladisjuncta" />
-            <node id="_Node134005" />
-            <node id="_Node134007" otu="Drosophilamimica" />
-            <node id="_Node134010" otu="Drosophilasoonae" />
-            <node id="_Node134013" />
-            <node id="_Node134015" />
-            <node id="_Node134017" otu="Drosophilaadunca" />
-            <node id="_Node134020" otu="Drosophilatanythrix" />
-            <node id="_Node134023" />
-            <node id="_Node134025" otu="Drosophilapetalopeza" />
-            <node id="_Node134028" otu="Drosophiladasycnemia" />
-            <node id="_Node134031" />
-            <node id="_Node134033" otu="Drosophilaiki" />
-            <node id="_Node134036" otu="Drosophilasp." />
-            <node id="_Node134039" />
-            <node id="_Node134041" otu="Engiscaptomyzacrassifemur" />
-            <node id="_Node134044" otu="Scaptomyzaalbovittata" />
-            <node id="_Node134047" />
-            <node id="_Node134049" otu="Drosophilamulleri" />
-            <node id="_Node134052" otu="Drosophilamelanogaster" />
-            <rootedge id="_Edge133975" target="_Node133974" />
-            <edge id="_Edge133977" source="_Node133974" target="_Node133976" />
-            <edge id="_Edge133979" source="_Node133976" target="_Node133978" />
-            <edge id="_Edge133981" source="_Node133978" target="_Node133980" />
-            <edge id="_Edge133983" source="_Node133980" target="_Node133982" />
-            <edge id="_Edge133985" source="_Node133982" target="_Node133984" />
-            <edge id="_Edge133988" source="_Node133982" target="_Node133987" />
-            <edge id="_Edge133990" source="_Node133987" target="_Node133989" />
-            <edge id="_Edge133992" source="_Node133989" target="_Node133991" />
-            <edge id="_Edge133995" source="_Node133989" target="_Node133994" />
-            <edge id="_Edge133998" source="_Node133987" target="_Node133997" />
-            <edge id="_Edge134000" source="_Node133997" target="_Node133999" />
-            <edge id="_Edge134003" source="_Node133997" target="_Node134002" />
-            <edge id="_Edge134006" source="_Node133980" target="_Node134005" />
-            <edge id="_Edge134008" source="_Node134005" target="_Node134007" />
-            <edge id="_Edge134011" source="_Node134005" target="_Node134010" />
-            <edge id="_Edge134014" source="_Node133978" target="_Node134013" />
-            <edge id="_Edge134016" source="_Node134013" target="_Node134015" />
-            <edge id="_Edge134018" source="_Node134015" target="_Node134017" />
-            <edge id="_Edge134021" source="_Node134015" target="_Node134020" />
-            <edge id="_Edge134024" source="_Node134013" target="_Node134023" />
-            <edge id="_Edge134026" source="_Node134023" target="_Node134025" />
-            <edge id="_Edge134029" source="_Node134023" target="_Node134028" />
-            <edge id="_Edge134032" source="_Node133976" target="_Node134031" />
-            <edge id="_Edge134034" source="_Node134031" target="_Node134033" />
-            <edge id="_Edge134037" source="_Node134031" target="_Node134036" />
-            <edge id="_Edge134040" source="_Node133974" target="_Node134039" />
-            <edge id="_Edge134042" source="_Node134039" target="_Node134041" />
-            <edge id="_Edge134045" source="_Node134039" target="_Node134044" />
-            <edge id="_Edge134048" source="_Node133974" target="_Node134047" />
-            <edge id="_Edge134050" source="_Node134047" target="_Node134049" />
-            <edge id="_Edge134053" source="_Node134047" target="_Node134052" />
+            <node id="_Node229191" />
+            <node id="_Node229193" />
+            <node id="_Node229195" />
+            <node id="_Node229197" />
+            <node id="_Node229199" />
+            <node id="_Node229201" otu="Drosophilaadiastola" />
+            <node id="_Node229204" />
+            <node id="_Node229206" />
+            <node id="_Node229208" otu="Drosophilacyrtoloma" />
+            <node id="_Node229211" otu="Drosophilasilvestris" />
+            <node id="_Node229214" />
+            <node id="_Node229216" otu="Drosophilalineosetae" />
+            <node id="_Node229219" otu="Drosophiladisjuncta" />
+            <node id="_Node229222" />
+            <node id="_Node229224" otu="Drosophilamimica" />
+            <node id="_Node229227" otu="Drosophilasoonae" />
+            <node id="_Node229230" />
+            <node id="_Node229232" />
+            <node id="_Node229234" otu="Drosophilaadunca" />
+            <node id="_Node229237" otu="Drosophilatanythrix" />
+            <node id="_Node229240" />
+            <node id="_Node229242" otu="Drosophilapetalopeza" />
+            <node id="_Node229245" otu="Drosophiladasycnemia" />
+            <node id="_Node229248" />
+            <node id="_Node229250" otu="Drosophilaiki" />
+            <node id="_Node229253" otu="Drosophilasp." />
+            <node id="_Node229256" />
+            <node id="_Node229258" otu="Engiscaptomyzacrassifemur" />
+            <node id="_Node229261" otu="Scaptomyzaalbovittata" />
+            <node id="_Node229264" />
+            <node id="_Node229266" otu="Drosophilamulleri" />
+            <node id="_Node229269" otu="Drosophilamelanogaster" />
+            <rootedge id="_Edge229192" target="_Node229191" />
+            <edge id="_Edge229194" source="_Node229191" target="_Node229193" />
+            <edge id="_Edge229196" source="_Node229193" target="_Node229195" />
+            <edge id="_Edge229198" source="_Node229195" target="_Node229197" />
+            <edge id="_Edge229200" source="_Node229197" target="_Node229199" />
+            <edge id="_Edge229202" source="_Node229199" target="_Node229201" />
+            <edge id="_Edge229205" source="_Node229199" target="_Node229204" />
+            <edge id="_Edge229207" source="_Node229204" target="_Node229206" />
+            <edge id="_Edge229209" source="_Node229206" target="_Node229208" />
+            <edge id="_Edge229212" source="_Node229206" target="_Node229211" />
+            <edge id="_Edge229215" source="_Node229204" target="_Node229214" />
+            <edge id="_Edge229217" source="_Node229214" target="_Node229216" />
+            <edge id="_Edge229220" source="_Node229214" target="_Node229219" />
+            <edge id="_Edge229223" source="_Node229197" target="_Node229222" />
+            <edge id="_Edge229225" source="_Node229222" target="_Node229224" />
+            <edge id="_Edge229228" source="_Node229222" target="_Node229227" />
+            <edge id="_Edge229231" source="_Node229195" target="_Node229230" />
+            <edge id="_Edge229233" source="_Node229230" target="_Node229232" />
+            <edge id="_Edge229235" source="_Node229232" target="_Node229234" />
+            <edge id="_Edge229238" source="_Node229232" target="_Node229237" />
+            <edge id="_Edge229241" source="_Node229230" target="_Node229240" />
+            <edge id="_Edge229243" source="_Node229240" target="_Node229242" />
+            <edge id="_Edge229246" source="_Node229240" target="_Node229245" />
+            <edge id="_Edge229249" source="_Node229193" target="_Node229248" />
+            <edge id="_Edge229251" source="_Node229248" target="_Node229250" />
+            <edge id="_Edge229254" source="_Node229248" target="_Node229253" />
+            <edge id="_Edge229257" source="_Node229191" target="_Node229256" />
+            <edge id="_Edge229259" source="_Node229256" target="_Node229258" />
+            <edge id="_Edge229262" source="_Node229256" target="_Node229261" />
+            <edge id="_Edge229265" source="_Node229191" target="_Node229264" />
+            <edge id="_Edge229267" source="_Node229264" target="_Node229266" />
+            <edge id="_Edge229270" source="_Node229264" target="_Node229269" />
         </tree>
     </trees>
 </nex:nexml>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S467"><citation>Sullivan, R. F., and J. F. White, Jr. 2000. Phoma glomerata as a mycoparasite of powdery mildew. Appl. Environm. Microbiol., 66(1):425-427.</citation><author email="sullivan@waksman.rutgers.edu" firstname="Raymond" lastname="Sullivan" /><author email="jwhite@aesop.rutgers.edu" firstname="James F." lastname="White" /></study></nex:external>
-    <otus id="_TaxaBlock228112">
+    <otus id="_TaxaBlock388772">
         <otu id="Leptosphaeriamicroscopica" label="Leptosphaeria microscopica" />
         <otu id="AmpelomycesquisqualisAF126818" label="Ampelomyces quisqualis AF126818" />
         <otu id="AmpelomycesquisqualisAF126817" label="Ampelomyces quisqualis AF126817" />
@@ -25,69 +25,69 @@
         <otu id="PhomaglomerataAF126816" label="Phoma glomerata AF126816" />
         <otu id="PhaeosphariaavenariaPAU77357" label="Phaeospharia avenaria PAU77357" />
     </otus>
-    <trees id="_TreesBlock228113" otus="_TaxaBlock228112">
-        <tree id="_Tree228114" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock388773" otus="_TaxaBlock388772">
+        <tree id="_Tree388774" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S467A274" software="PAUP"><inputmatrix datatype="Nucleic Acid" nchar="204" /></analysis></nex:external>
-            <node id="_Node228117" />
-            <node id="_Node228119" otu="Leptosphaeriamicroscopica" />
-            <node id="_Node228122" />
-            <node id="_Node228124" />
-            <node id="_Node228126" />
-            <node id="_Node228128" />
-            <node id="_Node228130" otu="AmpelomycesquisqualisAF126818" />
-            <node id="_Node228133" otu="AmpelomycesquisqualisAF126817" />
-            <node id="_Node228136" otu="AmpelomycesquisqualisAQU82451" />
-            <node id="_Node228139" />
-            <node id="_Node228141" />
-            <node id="_Node228143" otu="AmpelomycesquisqualisAF035782" />
-            <node id="_Node228146" otu="AmpelomycesquisqualisAQU82449" />
-            <node id="_Node228149" />
-            <node id="_Node228151" otu="AmpelomycesquisqualisAF035783" />
-            <node id="_Node228154" otu="AmpelomycesquisqualisAF035781" />
-            <node id="_Node228157" />
-            <node id="_Node228159" />
-            <node id="_Node228161" />
-            <node id="_Node228163" />
-            <node id="_Node228165" otu="DidymellalycopersiciAF046015" />
-            <node id="_Node228168" otu="DidymellabryoniaeAF046014" />
-            <node id="_Node228171" otu="PhomasorghinaAF046022" />
-            <node id="_Node228174" otu="PhomamacrostomaAF046020" />
-            <node id="_Node228177" />
-            <node id="_Node228179" otu="PhomaamericanaAF046016" />
-            <node id="_Node228182" />
-            <node id="_Node228184" otu="AmpelomycesquercinusAF035778" />
-            <node id="_Node228187" otu="PhomaglomerataAF126816" />
-            <node id="_Node228190" otu="PhaeosphariaavenariaPAU77357" />
-            <rootedge id="_Edge228118" target="_Node228117" />
-            <edge id="_Edge228120" source="_Node228117" target="_Node228119" />
-            <edge id="_Edge228123" source="_Node228117" target="_Node228122" />
-            <edge id="_Edge228125" source="_Node228122" target="_Node228124" />
-            <edge id="_Edge228127" source="_Node228124" target="_Node228126" />
-            <edge id="_Edge228129" source="_Node228126" target="_Node228128" />
-            <edge id="_Edge228131" source="_Node228128" target="_Node228130" />
-            <edge id="_Edge228134" source="_Node228128" target="_Node228133" />
-            <edge id="_Edge228137" source="_Node228126" target="_Node228136" />
-            <edge id="_Edge228140" source="_Node228124" target="_Node228139" />
-            <edge id="_Edge228142" source="_Node228139" target="_Node228141" />
-            <edge id="_Edge228144" source="_Node228141" target="_Node228143" />
-            <edge id="_Edge228147" source="_Node228141" target="_Node228146" />
-            <edge id="_Edge228150" source="_Node228139" target="_Node228149" />
-            <edge id="_Edge228152" source="_Node228149" target="_Node228151" />
-            <edge id="_Edge228155" source="_Node228149" target="_Node228154" />
-            <edge id="_Edge228158" source="_Node228122" target="_Node228157" />
-            <edge id="_Edge228160" source="_Node228157" target="_Node228159" />
-            <edge id="_Edge228162" source="_Node228159" target="_Node228161" />
-            <edge id="_Edge228164" source="_Node228161" target="_Node228163" />
-            <edge id="_Edge228166" source="_Node228163" target="_Node228165" />
-            <edge id="_Edge228169" source="_Node228163" target="_Node228168" />
-            <edge id="_Edge228172" source="_Node228161" target="_Node228171" />
-            <edge id="_Edge228175" source="_Node228159" target="_Node228174" />
-            <edge id="_Edge228178" source="_Node228157" target="_Node228177" />
-            <edge id="_Edge228180" source="_Node228177" target="_Node228179" />
-            <edge id="_Edge228183" source="_Node228177" target="_Node228182" />
-            <edge id="_Edge228185" source="_Node228182" target="_Node228184" />
-            <edge id="_Edge228188" source="_Node228182" target="_Node228187" />
-            <edge id="_Edge228191" source="_Node228117" target="_Node228190" />
+            <node id="_Node388777" />
+            <node id="_Node388779" otu="Leptosphaeriamicroscopica" />
+            <node id="_Node388782" />
+            <node id="_Node388784" />
+            <node id="_Node388786" />
+            <node id="_Node388788" />
+            <node id="_Node388790" otu="AmpelomycesquisqualisAF126818" />
+            <node id="_Node388793" otu="AmpelomycesquisqualisAF126817" />
+            <node id="_Node388796" otu="AmpelomycesquisqualisAQU82451" />
+            <node id="_Node388799" />
+            <node id="_Node388801" />
+            <node id="_Node388803" otu="AmpelomycesquisqualisAF035782" />
+            <node id="_Node388806" otu="AmpelomycesquisqualisAQU82449" />
+            <node id="_Node388809" />
+            <node id="_Node388811" otu="AmpelomycesquisqualisAF035783" />
+            <node id="_Node388814" otu="AmpelomycesquisqualisAF035781" />
+            <node id="_Node388817" />
+            <node id="_Node388819" />
+            <node id="_Node388821" />
+            <node id="_Node388823" />
+            <node id="_Node388825" otu="DidymellalycopersiciAF046015" />
+            <node id="_Node388828" otu="DidymellabryoniaeAF046014" />
+            <node id="_Node388831" otu="PhomasorghinaAF046022" />
+            <node id="_Node388834" otu="PhomamacrostomaAF046020" />
+            <node id="_Node388837" />
+            <node id="_Node388839" otu="PhomaamericanaAF046016" />
+            <node id="_Node388842" />
+            <node id="_Node388844" otu="AmpelomycesquercinusAF035778" />
+            <node id="_Node388847" otu="PhomaglomerataAF126816" />
+            <node id="_Node388850" otu="PhaeosphariaavenariaPAU77357" />
+            <rootedge id="_Edge388778" target="_Node388777" />
+            <edge id="_Edge388780" source="_Node388777" target="_Node388779" />
+            <edge id="_Edge388783" source="_Node388777" target="_Node388782" />
+            <edge id="_Edge388785" source="_Node388782" target="_Node388784" />
+            <edge id="_Edge388787" source="_Node388784" target="_Node388786" />
+            <edge id="_Edge388789" source="_Node388786" target="_Node388788" />
+            <edge id="_Edge388791" source="_Node388788" target="_Node388790" />
+            <edge id="_Edge388794" source="_Node388788" target="_Node388793" />
+            <edge id="_Edge388797" source="_Node388786" target="_Node388796" />
+            <edge id="_Edge388800" source="_Node388784" target="_Node388799" />
+            <edge id="_Edge388802" source="_Node388799" target="_Node388801" />
+            <edge id="_Edge388804" source="_Node388801" target="_Node388803" />
+            <edge id="_Edge388807" source="_Node388801" target="_Node388806" />
+            <edge id="_Edge388810" source="_Node388799" target="_Node388809" />
+            <edge id="_Edge388812" source="_Node388809" target="_Node388811" />
+            <edge id="_Edge388815" source="_Node388809" target="_Node388814" />
+            <edge id="_Edge388818" source="_Node388782" target="_Node388817" />
+            <edge id="_Edge388820" source="_Node388817" target="_Node388819" />
+            <edge id="_Edge388822" source="_Node388819" target="_Node388821" />
+            <edge id="_Edge388824" source="_Node388821" target="_Node388823" />
+            <edge id="_Edge388826" source="_Node388823" target="_Node388825" />
+            <edge id="_Edge388829" source="_Node388823" target="_Node388828" />
+            <edge id="_Edge388832" source="_Node388821" target="_Node388831" />
+            <edge id="_Edge388835" source="_Node388819" target="_Node388834" />
+            <edge id="_Edge388838" source="_Node388817" target="_Node388837" />
+            <edge id="_Edge388840" source="_Node388837" target="_Node388839" />
+            <edge id="_Edge388843" source="_Node388837" target="_Node388842" />
+            <edge id="_Edge388845" source="_Node388842" target="_Node388844" />
+            <edge id="_Edge388848" source="_Node388842" target="_Node388847" />
+            <edge id="_Edge388851" source="_Node388777" target="_Node388850" />
         </tree>
     </trees>
 </nex:nexml>

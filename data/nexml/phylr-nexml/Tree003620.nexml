@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S1557"><citation>Jia, Y. and Y. Liu. 2006. Timmia sphaerocarpa (Timmiaceae, Bryopsida), a new species from Xizang (Tibet), China. The Bryology, in press.</citation><author email="yjia@ibcas.ac.cn" firstname="Yu" lastname="Jia" /><author email="liuyang@ibcas.ac.cn" firstname="Yang" lastname="Liu" /></study></nex:external>
-    <otus id="_TaxaBlock1270344">
+    <otus id="_TaxaBlock2157952">
         <otu id="Diphysciumfulvifolium" label="Diphyscium fulvifolium" />
         <otu id="Timmiamegapolitanabavarica" label="Timmia megapolitana bavarica" />
         <otu id="Timmiamegapolitana" label="Timmia megapolitana" />
@@ -32,85 +32,85 @@
         <otu id="Rosulabryumbillarderi" label="Rosulabryum billarderi" />
         <otu id="Theriotiakashmirensis" label="Theriotia kashmirensis" />
     </otus>
-    <trees id="_TreesBlock1270345" otus="_TaxaBlock1270344">
-        <tree id="_Tree1270346" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock2157953" otus="_TaxaBlock2157952">
+        <tree id="_Tree2157954" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1557A5777" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Combined" nchar="1706" /></analysis></nex:external>
-            <node id="_Node1270349" />
-            <node id="_Node1270351" otu="Diphysciumfulvifolium" />
-            <node id="_Node1270354" />
-            <node id="_Node1270356" />
-            <node id="_Node1270358" />
-            <node id="_Node1270360" />
-            <node id="_Node1270362" otu="Timmiamegapolitanabavarica" />
-            <node id="_Node1270365" otu="Timmiamegapolitana" />
-            <node id="_Node1270368" otu="Timmiasp." />
-            <node id="_Node1270371" otu="Timmiaaustriaca" />
-            <node id="_Node1270374" otu="Timmiasibirica" />
-            <node id="_Node1270377" />
-            <node id="_Node1270379" />
-            <node id="_Node1270381" />
-            <node id="_Node1270383" otu="Streptopogoncalymperes" />
-            <node id="_Node1270386" otu="Barbulaconvoluta" />
-            <node id="_Node1270389" otu="Dicranoweisiacirrata" />
-            <node id="_Node1270392" />
-            <node id="_Node1270394" otu="Blindiamagellanica" />
-            <node id="_Node1270397" otu="Grimmialaevigata" />
-            <node id="_Node1270400" />
-            <node id="_Node1270402" otu="Dicnemonsemicryptum" />
-            <node id="_Node1270405" otu="Dicranumscoparium" />
-            <node id="_Node1270408" />
-            <node id="_Node1270410" />
-            <node id="_Node1270412" otu="Rhizomniumpunctatum" />
-            <node id="_Node1270415" otu="Aulacomniumturgidum" />
-            <node id="_Node1270418" />
-            <node id="_Node1270420" otu="Anacoliamenziesii" />
-            <node id="_Node1270423" />
-            <node id="_Node1270425" />
-            <node id="_Node1270427" otu="Philonotisthwaitesii" />
-            <node id="_Node1270430" otu="Fleischerobryumlongicolle" />
-            <node id="_Node1270433" otu="Breuteliaarundinifolia" />
-            <node id="_Node1270436" otu="Bartramiahalleriana" />
-            <node id="_Node1270439" otu="Hedwigiaciliata" />
-            <node id="_Node1270442" otu="Rosulabryumbillarderi" />
-            <node id="_Node1270445" otu="Theriotiakashmirensis" />
-            <rootedge id="_Edge1270350" target="_Node1270349" />
-            <edge id="_Edge1270352" source="_Node1270349" target="_Node1270351" />
-            <edge id="_Edge1270355" source="_Node1270349" target="_Node1270354" />
-            <edge id="_Edge1270357" source="_Node1270354" target="_Node1270356" />
-            <edge id="_Edge1270359" source="_Node1270356" target="_Node1270358" />
-            <edge id="_Edge1270361" source="_Node1270358" target="_Node1270360" />
-            <edge id="_Edge1270363" source="_Node1270360" target="_Node1270362" />
-            <edge id="_Edge1270366" source="_Node1270360" target="_Node1270365" />
-            <edge id="_Edge1270369" source="_Node1270360" target="_Node1270368" />
-            <edge id="_Edge1270372" source="_Node1270358" target="_Node1270371" />
-            <edge id="_Edge1270375" source="_Node1270356" target="_Node1270374" />
-            <edge id="_Edge1270378" source="_Node1270354" target="_Node1270377" />
-            <edge id="_Edge1270380" source="_Node1270377" target="_Node1270379" />
-            <edge id="_Edge1270382" source="_Node1270379" target="_Node1270381" />
-            <edge id="_Edge1270384" source="_Node1270381" target="_Node1270383" />
-            <edge id="_Edge1270387" source="_Node1270381" target="_Node1270386" />
-            <edge id="_Edge1270390" source="_Node1270379" target="_Node1270389" />
-            <edge id="_Edge1270393" source="_Node1270377" target="_Node1270392" />
-            <edge id="_Edge1270395" source="_Node1270392" target="_Node1270394" />
-            <edge id="_Edge1270398" source="_Node1270392" target="_Node1270397" />
-            <edge id="_Edge1270401" source="_Node1270377" target="_Node1270400" />
-            <edge id="_Edge1270403" source="_Node1270400" target="_Node1270402" />
-            <edge id="_Edge1270406" source="_Node1270400" target="_Node1270405" />
-            <edge id="_Edge1270409" source="_Node1270354" target="_Node1270408" />
-            <edge id="_Edge1270411" source="_Node1270408" target="_Node1270410" />
-            <edge id="_Edge1270413" source="_Node1270410" target="_Node1270412" />
-            <edge id="_Edge1270416" source="_Node1270410" target="_Node1270415" />
-            <edge id="_Edge1270419" source="_Node1270408" target="_Node1270418" />
-            <edge id="_Edge1270421" source="_Node1270418" target="_Node1270420" />
-            <edge id="_Edge1270424" source="_Node1270418" target="_Node1270423" />
-            <edge id="_Edge1270426" source="_Node1270423" target="_Node1270425" />
-            <edge id="_Edge1270428" source="_Node1270425" target="_Node1270427" />
-            <edge id="_Edge1270431" source="_Node1270425" target="_Node1270430" />
-            <edge id="_Edge1270434" source="_Node1270423" target="_Node1270433" />
-            <edge id="_Edge1270437" source="_Node1270418" target="_Node1270436" />
-            <edge id="_Edge1270440" source="_Node1270408" target="_Node1270439" />
-            <edge id="_Edge1270443" source="_Node1270408" target="_Node1270442" />
-            <edge id="_Edge1270446" source="_Node1270349" target="_Node1270445" />
+            <node id="_Node2157957" />
+            <node id="_Node2157959" otu="Diphysciumfulvifolium" />
+            <node id="_Node2157962" />
+            <node id="_Node2157964" />
+            <node id="_Node2157966" />
+            <node id="_Node2157968" />
+            <node id="_Node2157970" otu="Timmiamegapolitanabavarica" />
+            <node id="_Node2157973" otu="Timmiamegapolitana" />
+            <node id="_Node2157976" otu="Timmiasp." />
+            <node id="_Node2157979" otu="Timmiaaustriaca" />
+            <node id="_Node2157982" otu="Timmiasibirica" />
+            <node id="_Node2157985" />
+            <node id="_Node2157987" />
+            <node id="_Node2157989" />
+            <node id="_Node2157991" otu="Streptopogoncalymperes" />
+            <node id="_Node2157994" otu="Barbulaconvoluta" />
+            <node id="_Node2157997" otu="Dicranoweisiacirrata" />
+            <node id="_Node2158000" />
+            <node id="_Node2158002" otu="Blindiamagellanica" />
+            <node id="_Node2158005" otu="Grimmialaevigata" />
+            <node id="_Node2158008" />
+            <node id="_Node2158010" otu="Dicnemonsemicryptum" />
+            <node id="_Node2158013" otu="Dicranumscoparium" />
+            <node id="_Node2158016" />
+            <node id="_Node2158018" />
+            <node id="_Node2158020" otu="Rhizomniumpunctatum" />
+            <node id="_Node2158023" otu="Aulacomniumturgidum" />
+            <node id="_Node2158026" />
+            <node id="_Node2158028" otu="Anacoliamenziesii" />
+            <node id="_Node2158031" />
+            <node id="_Node2158033" />
+            <node id="_Node2158035" otu="Philonotisthwaitesii" />
+            <node id="_Node2158038" otu="Fleischerobryumlongicolle" />
+            <node id="_Node2158041" otu="Breuteliaarundinifolia" />
+            <node id="_Node2158044" otu="Bartramiahalleriana" />
+            <node id="_Node2158047" otu="Hedwigiaciliata" />
+            <node id="_Node2158050" otu="Rosulabryumbillarderi" />
+            <node id="_Node2158053" otu="Theriotiakashmirensis" />
+            <rootedge id="_Edge2157958" target="_Node2157957" />
+            <edge id="_Edge2157960" source="_Node2157957" target="_Node2157959" />
+            <edge id="_Edge2157963" source="_Node2157957" target="_Node2157962" />
+            <edge id="_Edge2157965" source="_Node2157962" target="_Node2157964" />
+            <edge id="_Edge2157967" source="_Node2157964" target="_Node2157966" />
+            <edge id="_Edge2157969" source="_Node2157966" target="_Node2157968" />
+            <edge id="_Edge2157971" source="_Node2157968" target="_Node2157970" />
+            <edge id="_Edge2157974" source="_Node2157968" target="_Node2157973" />
+            <edge id="_Edge2157977" source="_Node2157968" target="_Node2157976" />
+            <edge id="_Edge2157980" source="_Node2157966" target="_Node2157979" />
+            <edge id="_Edge2157983" source="_Node2157964" target="_Node2157982" />
+            <edge id="_Edge2157986" source="_Node2157962" target="_Node2157985" />
+            <edge id="_Edge2157988" source="_Node2157985" target="_Node2157987" />
+            <edge id="_Edge2157990" source="_Node2157987" target="_Node2157989" />
+            <edge id="_Edge2157992" source="_Node2157989" target="_Node2157991" />
+            <edge id="_Edge2157995" source="_Node2157989" target="_Node2157994" />
+            <edge id="_Edge2157998" source="_Node2157987" target="_Node2157997" />
+            <edge id="_Edge2158001" source="_Node2157985" target="_Node2158000" />
+            <edge id="_Edge2158003" source="_Node2158000" target="_Node2158002" />
+            <edge id="_Edge2158006" source="_Node2158000" target="_Node2158005" />
+            <edge id="_Edge2158009" source="_Node2157985" target="_Node2158008" />
+            <edge id="_Edge2158011" source="_Node2158008" target="_Node2158010" />
+            <edge id="_Edge2158014" source="_Node2158008" target="_Node2158013" />
+            <edge id="_Edge2158017" source="_Node2157962" target="_Node2158016" />
+            <edge id="_Edge2158019" source="_Node2158016" target="_Node2158018" />
+            <edge id="_Edge2158021" source="_Node2158018" target="_Node2158020" />
+            <edge id="_Edge2158024" source="_Node2158018" target="_Node2158023" />
+            <edge id="_Edge2158027" source="_Node2158016" target="_Node2158026" />
+            <edge id="_Edge2158029" source="_Node2158026" target="_Node2158028" />
+            <edge id="_Edge2158032" source="_Node2158026" target="_Node2158031" />
+            <edge id="_Edge2158034" source="_Node2158031" target="_Node2158033" />
+            <edge id="_Edge2158036" source="_Node2158033" target="_Node2158035" />
+            <edge id="_Edge2158039" source="_Node2158033" target="_Node2158038" />
+            <edge id="_Edge2158042" source="_Node2158031" target="_Node2158041" />
+            <edge id="_Edge2158045" source="_Node2158026" target="_Node2158044" />
+            <edge id="_Edge2158048" source="_Node2158016" target="_Node2158047" />
+            <edge id="_Edge2158051" source="_Node2158016" target="_Node2158050" />
+            <edge id="_Edge2158054" source="_Node2157957" target="_Node2158053" />
         </tree>
     </trees>
 </nex:nexml>

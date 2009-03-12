@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S852"><citation>Rokas, A., N. King, J. Finnerty, and S. B. Carroll. 2003. Conflicting Phylogenetic Signals at the Base of the Metazoan Tree. Evolution and Development, in press.</citation><author email="sbcarrol@facstaff.wisc.edu" firstname="Sean B." lastname="Carroll" /><author email="jrf3@acs-pop.bu.edu" firstname="John" lastname="Finnerty" /><author email="nicoleking@wiscmail.wisc.edu" firstname="Nicole" lastname="King" /><author email="arokas@facstaff.wisc.edu" firstname="Antonis" lastname="Rokas" /></study></nex:external>
-    <otus id="_TaxaBlock551415">
+    <otus id="_TaxaBlock938563">
         <otu id="Monosiga" label="Monosiga" />
         <otu id="Caenorhabditis" label="Caenorhabditis" />
         <otu id="Drosophila" label="Drosophila" />
@@ -20,39 +20,39 @@
         <otu id="Nematostella" label="Nematostella" />
         <otu id="Schistosoma" label="Schistosoma" />
     </otus>
-    <trees id="_TreesBlock551416" otus="_TaxaBlock551415">
-        <tree id="_Tree551417" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock938564" otus="_TaxaBlock938563">
+        <tree id="_Tree938565" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S852A2068" software="Tree-Puzzle"><inputmatrix datatype="Amino Acid" name="Fig5A" nchar="1561" /></analysis></nex:external>
-            <node id="_Node551420" />
-            <node id="_Node551422" otu="Monosiga" />
-            <node id="_Node551425" />
-            <node id="_Node551427" otu="Caenorhabditis" />
-            <node id="_Node551430" otu="Drosophila" />
-            <node id="_Node551433" />
-            <node id="_Node551435" otu="Saccharomyces" />
-            <node id="_Node551438" otu="Schizosaccharomyces" />
-            <node id="_Node551441" />
-            <node id="_Node551443" otu="Danio" />
-            <node id="_Node551446" otu="Mus" />
-            <node id="_Node551449" otu="Suberites" />
-            <node id="_Node551452" otu="Leucosolenia" />
-            <node id="_Node551455" otu="Nematostella" />
-            <node id="_Node551458" otu="Schistosoma" />
-            <rootedge id="_Edge551421" target="_Node551420" />
-            <edge id="_Edge551423" source="_Node551420" target="_Node551422" />
-            <edge id="_Edge551426" source="_Node551420" target="_Node551425" />
-            <edge id="_Edge551428" source="_Node551425" target="_Node551427" />
-            <edge id="_Edge551431" source="_Node551425" target="_Node551430" />
-            <edge id="_Edge551434" source="_Node551420" target="_Node551433" />
-            <edge id="_Edge551436" source="_Node551433" target="_Node551435" />
-            <edge id="_Edge551439" source="_Node551433" target="_Node551438" />
-            <edge id="_Edge551442" source="_Node551420" target="_Node551441" />
-            <edge id="_Edge551444" source="_Node551441" target="_Node551443" />
-            <edge id="_Edge551447" source="_Node551441" target="_Node551446" />
-            <edge id="_Edge551450" source="_Node551420" target="_Node551449" />
-            <edge id="_Edge551453" source="_Node551420" target="_Node551452" />
-            <edge id="_Edge551456" source="_Node551420" target="_Node551455" />
-            <edge id="_Edge551459" source="_Node551420" target="_Node551458" />
+            <node id="_Node938568" />
+            <node id="_Node938570" otu="Monosiga" />
+            <node id="_Node938573" />
+            <node id="_Node938575" otu="Caenorhabditis" />
+            <node id="_Node938578" otu="Drosophila" />
+            <node id="_Node938581" />
+            <node id="_Node938583" otu="Saccharomyces" />
+            <node id="_Node938586" otu="Schizosaccharomyces" />
+            <node id="_Node938589" />
+            <node id="_Node938591" otu="Danio" />
+            <node id="_Node938594" otu="Mus" />
+            <node id="_Node938597" otu="Suberites" />
+            <node id="_Node938600" otu="Leucosolenia" />
+            <node id="_Node938603" otu="Nematostella" />
+            <node id="_Node938606" otu="Schistosoma" />
+            <rootedge id="_Edge938569" target="_Node938568" />
+            <edge id="_Edge938571" source="_Node938568" target="_Node938570" />
+            <edge id="_Edge938574" source="_Node938568" target="_Node938573" />
+            <edge id="_Edge938576" source="_Node938573" target="_Node938575" />
+            <edge id="_Edge938579" source="_Node938573" target="_Node938578" />
+            <edge id="_Edge938582" source="_Node938568" target="_Node938581" />
+            <edge id="_Edge938584" source="_Node938581" target="_Node938583" />
+            <edge id="_Edge938587" source="_Node938581" target="_Node938586" />
+            <edge id="_Edge938590" source="_Node938568" target="_Node938589" />
+            <edge id="_Edge938592" source="_Node938589" target="_Node938591" />
+            <edge id="_Edge938595" source="_Node938589" target="_Node938594" />
+            <edge id="_Edge938598" source="_Node938568" target="_Node938597" />
+            <edge id="_Edge938601" source="_Node938568" target="_Node938600" />
+            <edge id="_Edge938604" source="_Node938568" target="_Node938603" />
+            <edge id="_Edge938607" source="_Node938568" target="_Node938606" />
         </tree>
     </trees>
 </nex:nexml>

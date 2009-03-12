@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S368"><citation>Zehethofer, K., and C. Sturmbauer. 1998. Phylogenetic relationships of central European wolf spiders (Araneae : Lycosidae) inferred from 12S ribosomal DNA sequences. Molecular Phylogenetics and Evolution, 10(3): 391-398.</citation><author email="christian.sturmbauer@uibk.ac.at" firstname="Christian" lastname="Sturmbauer" /><author firstname="Karl" lastname="Zehethofer" /></study></nex:external>
-    <otus id="_TaxaBlock171001">
+    <otus id="_TaxaBlock292202">
         <otu id="Pardosaagrestis" label="Pardosa agrestis" />
         <otu id="Pardosapalustris" label="Pardosa palustris" />
         <otu id="Pardosablanda" label="Pardosa blanda" />
@@ -39,99 +39,99 @@
         <otu id="Pirataknorri" label="Pirata knorri" />
         <otu id="Tetragnathamandibulata" label="Tetragnatha mandibulata" />
     </otus>
-    <trees id="_TreesBlock171002" otus="_TaxaBlock171001">
-        <tree id="_Tree171003" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock292203" otus="_TaxaBlock292202">
+        <tree id="_Tree292204" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="MP and NJ" id="S368A306" software="PAUP and NJBOOT2"><inputmatrix datatype="Nucleic Acid" name="12S mtDNA" nchar="321" /></analysis></nex:external>
-            <node id="_Node171006" />
-            <node id="_Node171008" />
-            <node id="_Node171010" />
-            <node id="_Node171012" />
-            <node id="_Node171014" />
-            <node id="_Node171016" otu="Pardosaagrestis" />
-            <node id="_Node171019" otu="Pardosapalustris" />
-            <node id="_Node171022" otu="Pardosablanda" />
-            <node id="_Node171025" otu="Pardosasaturatior" />
-            <node id="_Node171028" otu="Pardosaoreophila" />
-            <node id="_Node171031" otu="Pardosahortensis" />
-            <node id="_Node171034" otu="Pardosanigra" />
-            <node id="_Node171037" />
-            <node id="_Node171039" otu="Pardosaprativaga" />
-            <node id="_Node171042" otu="Pardosapullata" />
-            <node id="_Node171045" otu="Pardosariparia" />
-            <node id="_Node171048" />
-            <node id="_Node171050" otu="Pardosaamentata12" />
-            <node id="_Node171053" otu="Pardosaamentata13" />
-            <node id="_Node171056" otu="Pardosaamentata14" />
-            <node id="_Node171059" />
-            <node id="_Node171061" otu="Pardosalugubris" />
-            <node id="_Node171064" otu="Pardosaalacris" />
-            <node id="_Node171067" otu="Pardosapaludicola" />
-            <node id="_Node171070" />
-            <node id="_Node171072" otu="Trochosaspinipalpis" />
-            <node id="_Node171075" otu="Trochosaterricola" />
-            <node id="_Node171078" />
-            <node id="_Node171080" />
-            <node id="_Node171082" />
-            <node id="_Node171084" />
-            <node id="_Node171086" otu="Alopecosapulverulenta" />
-            <node id="_Node171089" otu="Alopecosatrabalis" />
-            <node id="_Node171092" otu="Alopecosacuneata" />
-            <node id="_Node171095" otu="Alopecosataeniata" />
-            <node id="_Node171098" otu="Alopecosainquilina" />
-            <node id="_Node171101" otu="Alopecosaaccentuata" />
-            <node id="_Node171104" />
-            <node id="_Node171106" otu="Xerolycosaminiata" />
-            <node id="_Node171109" otu="Xerolycosanemoralis" />
-            <node id="_Node171112" otu="Arctosaleopardus" />
-            <node id="_Node171115" />
-            <node id="_Node171117" otu="Piratahygrophilus" />
-            <node id="_Node171120" otu="Pirataknorri" />
-            <node id="_Node171123" otu="Tetragnathamandibulata" />
-            <rootedge id="_Edge171007" target="_Node171006" />
-            <edge id="_Edge171009" source="_Node171006" target="_Node171008" />
-            <edge id="_Edge171011" source="_Node171008" target="_Node171010" />
-            <edge id="_Edge171013" source="_Node171010" target="_Node171012" />
-            <edge id="_Edge171015" source="_Node171012" target="_Node171014" />
-            <edge id="_Edge171017" source="_Node171014" target="_Node171016" />
-            <edge id="_Edge171020" source="_Node171014" target="_Node171019" />
-            <edge id="_Edge171023" source="_Node171012" target="_Node171022" />
-            <edge id="_Edge171026" source="_Node171012" target="_Node171025" />
-            <edge id="_Edge171029" source="_Node171012" target="_Node171028" />
-            <edge id="_Edge171032" source="_Node171012" target="_Node171031" />
-            <edge id="_Edge171035" source="_Node171012" target="_Node171034" />
-            <edge id="_Edge171038" source="_Node171012" target="_Node171037" />
-            <edge id="_Edge171040" source="_Node171037" target="_Node171039" />
-            <edge id="_Edge171043" source="_Node171037" target="_Node171042" />
-            <edge id="_Edge171046" source="_Node171037" target="_Node171045" />
-            <edge id="_Edge171049" source="_Node171012" target="_Node171048" />
-            <edge id="_Edge171051" source="_Node171048" target="_Node171050" />
-            <edge id="_Edge171054" source="_Node171048" target="_Node171053" />
-            <edge id="_Edge171057" source="_Node171048" target="_Node171056" />
-            <edge id="_Edge171060" source="_Node171012" target="_Node171059" />
-            <edge id="_Edge171062" source="_Node171059" target="_Node171061" />
-            <edge id="_Edge171065" source="_Node171059" target="_Node171064" />
-            <edge id="_Edge171068" source="_Node171012" target="_Node171067" />
-            <edge id="_Edge171071" source="_Node171010" target="_Node171070" />
-            <edge id="_Edge171073" source="_Node171070" target="_Node171072" />
-            <edge id="_Edge171076" source="_Node171070" target="_Node171075" />
-            <edge id="_Edge171079" source="_Node171010" target="_Node171078" />
-            <edge id="_Edge171081" source="_Node171078" target="_Node171080" />
-            <edge id="_Edge171083" source="_Node171080" target="_Node171082" />
-            <edge id="_Edge171085" source="_Node171082" target="_Node171084" />
-            <edge id="_Edge171087" source="_Node171084" target="_Node171086" />
-            <edge id="_Edge171090" source="_Node171084" target="_Node171089" />
-            <edge id="_Edge171093" source="_Node171082" target="_Node171092" />
-            <edge id="_Edge171096" source="_Node171080" target="_Node171095" />
-            <edge id="_Edge171099" source="_Node171078" target="_Node171098" />
-            <edge id="_Edge171102" source="_Node171078" target="_Node171101" />
-            <edge id="_Edge171105" source="_Node171010" target="_Node171104" />
-            <edge id="_Edge171107" source="_Node171104" target="_Node171106" />
-            <edge id="_Edge171110" source="_Node171104" target="_Node171109" />
-            <edge id="_Edge171113" source="_Node171010" target="_Node171112" />
-            <edge id="_Edge171116" source="_Node171008" target="_Node171115" />
-            <edge id="_Edge171118" source="_Node171115" target="_Node171117" />
-            <edge id="_Edge171121" source="_Node171115" target="_Node171120" />
-            <edge id="_Edge171124" source="_Node171006" target="_Node171123" />
+            <node id="_Node292207" />
+            <node id="_Node292209" />
+            <node id="_Node292211" />
+            <node id="_Node292213" />
+            <node id="_Node292215" />
+            <node id="_Node292217" otu="Pardosaagrestis" />
+            <node id="_Node292220" otu="Pardosapalustris" />
+            <node id="_Node292223" otu="Pardosablanda" />
+            <node id="_Node292226" otu="Pardosasaturatior" />
+            <node id="_Node292229" otu="Pardosaoreophila" />
+            <node id="_Node292232" otu="Pardosahortensis" />
+            <node id="_Node292235" otu="Pardosanigra" />
+            <node id="_Node292238" />
+            <node id="_Node292240" otu="Pardosaprativaga" />
+            <node id="_Node292243" otu="Pardosapullata" />
+            <node id="_Node292246" otu="Pardosariparia" />
+            <node id="_Node292249" />
+            <node id="_Node292251" otu="Pardosaamentata12" />
+            <node id="_Node292254" otu="Pardosaamentata13" />
+            <node id="_Node292257" otu="Pardosaamentata14" />
+            <node id="_Node292260" />
+            <node id="_Node292262" otu="Pardosalugubris" />
+            <node id="_Node292265" otu="Pardosaalacris" />
+            <node id="_Node292268" otu="Pardosapaludicola" />
+            <node id="_Node292271" />
+            <node id="_Node292273" otu="Trochosaspinipalpis" />
+            <node id="_Node292276" otu="Trochosaterricola" />
+            <node id="_Node292279" />
+            <node id="_Node292281" />
+            <node id="_Node292283" />
+            <node id="_Node292285" />
+            <node id="_Node292287" otu="Alopecosapulverulenta" />
+            <node id="_Node292290" otu="Alopecosatrabalis" />
+            <node id="_Node292293" otu="Alopecosacuneata" />
+            <node id="_Node292296" otu="Alopecosataeniata" />
+            <node id="_Node292299" otu="Alopecosainquilina" />
+            <node id="_Node292302" otu="Alopecosaaccentuata" />
+            <node id="_Node292305" />
+            <node id="_Node292307" otu="Xerolycosaminiata" />
+            <node id="_Node292310" otu="Xerolycosanemoralis" />
+            <node id="_Node292313" otu="Arctosaleopardus" />
+            <node id="_Node292316" />
+            <node id="_Node292318" otu="Piratahygrophilus" />
+            <node id="_Node292321" otu="Pirataknorri" />
+            <node id="_Node292324" otu="Tetragnathamandibulata" />
+            <rootedge id="_Edge292208" target="_Node292207" />
+            <edge id="_Edge292210" source="_Node292207" target="_Node292209" />
+            <edge id="_Edge292212" source="_Node292209" target="_Node292211" />
+            <edge id="_Edge292214" source="_Node292211" target="_Node292213" />
+            <edge id="_Edge292216" source="_Node292213" target="_Node292215" />
+            <edge id="_Edge292218" source="_Node292215" target="_Node292217" />
+            <edge id="_Edge292221" source="_Node292215" target="_Node292220" />
+            <edge id="_Edge292224" source="_Node292213" target="_Node292223" />
+            <edge id="_Edge292227" source="_Node292213" target="_Node292226" />
+            <edge id="_Edge292230" source="_Node292213" target="_Node292229" />
+            <edge id="_Edge292233" source="_Node292213" target="_Node292232" />
+            <edge id="_Edge292236" source="_Node292213" target="_Node292235" />
+            <edge id="_Edge292239" source="_Node292213" target="_Node292238" />
+            <edge id="_Edge292241" source="_Node292238" target="_Node292240" />
+            <edge id="_Edge292244" source="_Node292238" target="_Node292243" />
+            <edge id="_Edge292247" source="_Node292238" target="_Node292246" />
+            <edge id="_Edge292250" source="_Node292213" target="_Node292249" />
+            <edge id="_Edge292252" source="_Node292249" target="_Node292251" />
+            <edge id="_Edge292255" source="_Node292249" target="_Node292254" />
+            <edge id="_Edge292258" source="_Node292249" target="_Node292257" />
+            <edge id="_Edge292261" source="_Node292213" target="_Node292260" />
+            <edge id="_Edge292263" source="_Node292260" target="_Node292262" />
+            <edge id="_Edge292266" source="_Node292260" target="_Node292265" />
+            <edge id="_Edge292269" source="_Node292213" target="_Node292268" />
+            <edge id="_Edge292272" source="_Node292211" target="_Node292271" />
+            <edge id="_Edge292274" source="_Node292271" target="_Node292273" />
+            <edge id="_Edge292277" source="_Node292271" target="_Node292276" />
+            <edge id="_Edge292280" source="_Node292211" target="_Node292279" />
+            <edge id="_Edge292282" source="_Node292279" target="_Node292281" />
+            <edge id="_Edge292284" source="_Node292281" target="_Node292283" />
+            <edge id="_Edge292286" source="_Node292283" target="_Node292285" />
+            <edge id="_Edge292288" source="_Node292285" target="_Node292287" />
+            <edge id="_Edge292291" source="_Node292285" target="_Node292290" />
+            <edge id="_Edge292294" source="_Node292283" target="_Node292293" />
+            <edge id="_Edge292297" source="_Node292281" target="_Node292296" />
+            <edge id="_Edge292300" source="_Node292279" target="_Node292299" />
+            <edge id="_Edge292303" source="_Node292279" target="_Node292302" />
+            <edge id="_Edge292306" source="_Node292211" target="_Node292305" />
+            <edge id="_Edge292308" source="_Node292305" target="_Node292307" />
+            <edge id="_Edge292311" source="_Node292305" target="_Node292310" />
+            <edge id="_Edge292314" source="_Node292211" target="_Node292313" />
+            <edge id="_Edge292317" source="_Node292209" target="_Node292316" />
+            <edge id="_Edge292319" source="_Node292316" target="_Node292318" />
+            <edge id="_Edge292322" source="_Node292316" target="_Node292321" />
+            <edge id="_Edge292325" source="_Node292207" target="_Node292324" />
         </tree>
     </trees>
 </nex:nexml>

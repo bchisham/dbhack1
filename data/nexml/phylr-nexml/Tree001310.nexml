@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S595"><citation>Nguyen, K. B., J. Maruniak, and B. J. Adams. 2001. The diagnostic and phylogenetic utility of the rDNA internal transcribed spacer sequences of Steinernema. Journal of Nematology, in press.</citation><author email="bjadams@ufl.edu" firstname="Byron J." lastname="Adams" /><author firstname="Jim" lastname="Maruniak" /><author email="kbn@gnv.ifas.ufl.edu" firstname="Khuong B." lastname="Nguyen" /></study></nex:external>
-    <otus id="_TaxaBlock329803">
+    <otus id="_TaxaBlock562529">
         <otu id="Steinernemaintermedium" label="Steinernema intermedium" />
         <otu id="Steinernemabicornutum" label="Steinernema bicornutum" />
         <otu id="Steinernemafeltiae" label="Steinernema feltiae" />
@@ -19,47 +19,47 @@
         <otu id="Steinernemaglaseri" label="Steinernema glaseri" />
         <otu id="Steinernemasp." label="Steinernema sp." />
     </otus>
-    <trees id="_TreesBlock329804" otus="_TaxaBlock329803">
-        <tree id="_Tree329805" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock562530" otus="_TaxaBlock562529">
+        <tree id="_Tree562531" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S595A1086" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="concatenated matrix of 8 separate ITS rDNA alignments" nchar="8658" /></analysis></nex:external>
-            <node id="_Node329808" />
-            <node id="_Node329810" otu="Steinernemaintermedium" />
-            <node id="_Node329813" />
-            <node id="_Node329815" otu="Steinernemabicornutum" />
-            <node id="_Node329818" />
-            <node id="_Node329820" />
-            <node id="_Node329822" />
-            <node id="_Node329824" otu="Steinernemafeltiae" />
-            <node id="_Node329827" otu="Steinernemaoregonense" />
-            <node id="_Node329830" />
-            <node id="_Node329832" />
-            <node id="_Node329834" />
-            <node id="_Node329836" otu="Steinernemacarpocapsae" />
-            <node id="_Node329839" otu="Steinernemascapterisci" />
-            <node id="_Node329842" otu="Steinernemaneocurtillae" />
-            <node id="_Node329845" otu="Steinernemamonticolum" />
-            <node id="_Node329848" />
-            <node id="_Node329850" otu="Steinernemaglaseri" />
-            <node id="_Node329853" otu="Steinernemasp." />
-            <rootedge id="_Edge329809" target="_Node329808" />
-            <edge id="_Edge329811" source="_Node329808" target="_Node329810" />
-            <edge id="_Edge329814" source="_Node329808" target="_Node329813" />
-            <edge id="_Edge329816" source="_Node329813" target="_Node329815" />
-            <edge id="_Edge329819" source="_Node329813" target="_Node329818" />
-            <edge id="_Edge329821" source="_Node329818" target="_Node329820" />
-            <edge id="_Edge329823" source="_Node329820" target="_Node329822" />
-            <edge id="_Edge329825" source="_Node329822" target="_Node329824" />
-            <edge id="_Edge329828" source="_Node329822" target="_Node329827" />
-            <edge id="_Edge329831" source="_Node329820" target="_Node329830" />
-            <edge id="_Edge329833" source="_Node329830" target="_Node329832" />
-            <edge id="_Edge329835" source="_Node329832" target="_Node329834" />
-            <edge id="_Edge329837" source="_Node329834" target="_Node329836" />
-            <edge id="_Edge329840" source="_Node329834" target="_Node329839" />
-            <edge id="_Edge329843" source="_Node329832" target="_Node329842" />
-            <edge id="_Edge329846" source="_Node329830" target="_Node329845" />
-            <edge id="_Edge329849" source="_Node329818" target="_Node329848" />
-            <edge id="_Edge329851" source="_Node329848" target="_Node329850" />
-            <edge id="_Edge329854" source="_Node329848" target="_Node329853" />
+            <node id="_Node562534" />
+            <node id="_Node562536" otu="Steinernemaintermedium" />
+            <node id="_Node562539" />
+            <node id="_Node562541" otu="Steinernemabicornutum" />
+            <node id="_Node562544" />
+            <node id="_Node562546" />
+            <node id="_Node562548" />
+            <node id="_Node562550" otu="Steinernemafeltiae" />
+            <node id="_Node562553" otu="Steinernemaoregonense" />
+            <node id="_Node562556" />
+            <node id="_Node562558" />
+            <node id="_Node562560" />
+            <node id="_Node562562" otu="Steinernemacarpocapsae" />
+            <node id="_Node562565" otu="Steinernemascapterisci" />
+            <node id="_Node562568" otu="Steinernemaneocurtillae" />
+            <node id="_Node562571" otu="Steinernemamonticolum" />
+            <node id="_Node562574" />
+            <node id="_Node562576" otu="Steinernemaglaseri" />
+            <node id="_Node562579" otu="Steinernemasp." />
+            <rootedge id="_Edge562535" target="_Node562534" />
+            <edge id="_Edge562537" source="_Node562534" target="_Node562536" />
+            <edge id="_Edge562540" source="_Node562534" target="_Node562539" />
+            <edge id="_Edge562542" source="_Node562539" target="_Node562541" />
+            <edge id="_Edge562545" source="_Node562539" target="_Node562544" />
+            <edge id="_Edge562547" source="_Node562544" target="_Node562546" />
+            <edge id="_Edge562549" source="_Node562546" target="_Node562548" />
+            <edge id="_Edge562551" source="_Node562548" target="_Node562550" />
+            <edge id="_Edge562554" source="_Node562548" target="_Node562553" />
+            <edge id="_Edge562557" source="_Node562546" target="_Node562556" />
+            <edge id="_Edge562559" source="_Node562556" target="_Node562558" />
+            <edge id="_Edge562561" source="_Node562558" target="_Node562560" />
+            <edge id="_Edge562563" source="_Node562560" target="_Node562562" />
+            <edge id="_Edge562566" source="_Node562560" target="_Node562565" />
+            <edge id="_Edge562569" source="_Node562558" target="_Node562568" />
+            <edge id="_Edge562572" source="_Node562556" target="_Node562571" />
+            <edge id="_Edge562575" source="_Node562544" target="_Node562574" />
+            <edge id="_Edge562577" source="_Node562574" target="_Node562576" />
+            <edge id="_Edge562580" source="_Node562574" target="_Node562579" />
         </tree>
     </trees>
 </nex:nexml>

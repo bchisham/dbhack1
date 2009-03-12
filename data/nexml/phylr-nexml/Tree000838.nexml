@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S376"><citation>Suh, S.-O., and M. Blackwell. 1999. Molecular phylogeny of the cleistothecial fungi placed in Cephalothecaceae and Pseudeurotiaceae. Mycologia, in press.</citation><author email="btblac@unix1.sncc.lsu.edu" firstname="Meredith" lastname="Blackwell" /><author email="ssuh@unix1.sncc.lsu.edu" firstname="Sung-Oui" lastname="Suh" /></study></nex:external>
-    <otus id="_TaxaBlock174602">
+    <otus id="_TaxaBlock298226">
         <otu id="Taphrinadeformans" label="Taphrina deformans" />
         <otu id="Saccharomycescerevisiae" label="Saccharomyces cerevisiae" />
         <otu id="Fonsecaeapedrosoi" label="Fonsecaea pedrosoi" />
@@ -44,145 +44,145 @@
         <otu id="Diatrypedisciformis" label="Diatrype disciformis" />
         <otu id="Pidoplitchkoviellaterricola" label="Pidoplitchkoviella terricola" />
     </otus>
-    <trees id="_TreesBlock174603" otus="_TaxaBlock174602">
-        <tree id="_Tree174604" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock298227" otus="_TaxaBlock298226">
+        <tree id="_Tree298228" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S376A310" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="SSU rDNA.2" nchar="1098" /></analysis></nex:external>
-            <node id="_Node174607" />
-            <node id="_Node174609" otu="Taphrinadeformans" />
-            <node id="_Node174612" />
-            <node id="_Node174614" otu="Saccharomycescerevisiae" />
-            <node id="_Node174617" />
-            <node id="_Node174619" />
-            <node id="_Node174621" />
-            <node id="_Node174623" otu="Fonsecaeapedrosoi" />
-            <node id="_Node174626" />
-            <node id="_Node174628" otu="Aspergillusfumigatus" />
-            <node id="_Node174631" otu="Onygenaequina" />
-            <node id="_Node174634" />
-            <node id="_Node174636" />
-            <node id="_Node174638" otu="Pezizabadia" />
-            <node id="_Node174641" />
-            <node id="_Node174643" otu="Sclerotiniasclerotiorum" />
-            <node id="_Node174646" />
-            <node id="_Node174648" otu="Blumeriagraminis" />
-            <node id="_Node174651" />
-            <node id="_Node174653" />
-            <node id="_Node174655" otu="Pleuroascusnicholsonii" />
-            <node id="_Node174658" otu="Connersiarilstonii" />
-            <node id="_Node174661" otu="Leuconeurosporapulcherrima" />
-            <node id="_Node174664" otu="Pseudeurotiumzonatum" />
-            <node id="_Node174667" otu="Dothideainsculpta" />
-            <node id="_Node174670" />
-            <node id="_Node174672" />
-            <node id="_Node174674" />
-            <node id="_Node174676" />
-            <node id="_Node174678" />
-            <node id="_Node174680" otu="Nectriahaematococca" />
-            <node id="_Node174683" />
-            <node id="_Node174685" otu="Epichloetyphina" />
-            <node id="_Node174688" />
-            <node id="_Node174690" otu="Hypomycespolyporinus" />
-            <node id="_Node174693" otu="Hypocreaschweinitzii" />
-            <node id="_Node174696" />
-            <node id="_Node174698" />
-            <node id="_Node174700" otu="Hapsidosporairregularis" />
-            <node id="_Node174703" otu="Nigrosabulumglobosum" />
-            <node id="_Node174706" otu="Bulbitheciumhyalosporum" />
-            <node id="_Node174709" />
-            <node id="_Node174711" otu="Emericellopsisterricola" />
-            <node id="_Node174714" otu="Leucosphaerinaindica" />
-            <node id="_Node174717" />
-            <node id="_Node174719" otu="Microascustrigonosporus" />
-            <node id="_Node174722" otu="Ceratocystisfimbriata" />
-            <node id="_Node174725" />
-            <node id="_Node174727" />
-            <node id="_Node174729" otu="Cryphonectriaparasitica" />
-            <node id="_Node174732" />
-            <node id="_Node174734" />
-            <node id="_Node174736" otu="Ophiostomaulmi" />
-            <node id="_Node174739" otu="Fragosphaeriapurpurea" />
-            <node id="_Node174742" />
-            <node id="_Node174744" />
-            <node id="_Node174746" />
-            <node id="_Node174748" otu="Chaetomiumelatum" />
-            <node id="_Node174751" otu="Aporothielavialeptoderma" />
-            <node id="_Node174754" otu="Neurosporacrassa" />
-            <node id="_Node174757" />
-            <node id="_Node174759" />
-            <node id="_Node174761" otu="Cephalothecasulfurea" />
-            <node id="_Node174764" otu="Cryptendoxylahypophloia" />
-            <node id="_Node174767" otu="Albertiniellapolyporicola" />
-            <node id="_Node174770" />
-            <node id="_Node174772" otu="Diatrypedisciformis" />
-            <node id="_Node174775" otu="Pidoplitchkoviellaterricola" />
-            <rootedge id="_Edge174608" target="_Node174607" />
-            <edge id="_Edge174610" source="_Node174607" target="_Node174609" />
-            <edge id="_Edge174613" source="_Node174607" target="_Node174612" />
-            <edge id="_Edge174615" source="_Node174612" target="_Node174614" />
-            <edge id="_Edge174618" source="_Node174612" target="_Node174617" />
-            <edge id="_Edge174620" source="_Node174617" target="_Node174619" />
-            <edge id="_Edge174622" source="_Node174619" target="_Node174621" />
-            <edge id="_Edge174624" source="_Node174621" target="_Node174623" />
-            <edge id="_Edge174627" source="_Node174621" target="_Node174626" />
-            <edge id="_Edge174629" source="_Node174626" target="_Node174628" />
-            <edge id="_Edge174632" source="_Node174626" target="_Node174631" />
-            <edge id="_Edge174635" source="_Node174619" target="_Node174634" />
-            <edge id="_Edge174637" source="_Node174634" target="_Node174636" />
-            <edge id="_Edge174639" source="_Node174636" target="_Node174638" />
-            <edge id="_Edge174642" source="_Node174636" target="_Node174641" />
-            <edge id="_Edge174644" source="_Node174641" target="_Node174643" />
-            <edge id="_Edge174647" source="_Node174641" target="_Node174646" />
-            <edge id="_Edge174649" source="_Node174646" target="_Node174648" />
-            <edge id="_Edge174652" source="_Node174646" target="_Node174651" />
-            <edge id="_Edge174654" source="_Node174651" target="_Node174653" />
-            <edge id="_Edge174656" source="_Node174653" target="_Node174655" />
-            <edge id="_Edge174659" source="_Node174653" target="_Node174658" />
-            <edge id="_Edge174662" source="_Node174651" target="_Node174661" />
-            <edge id="_Edge174665" source="_Node174651" target="_Node174664" />
-            <edge id="_Edge174668" source="_Node174634" target="_Node174667" />
-            <edge id="_Edge174671" source="_Node174617" target="_Node174670" />
-            <edge id="_Edge174673" source="_Node174670" target="_Node174672" />
-            <edge id="_Edge174675" source="_Node174672" target="_Node174674" />
-            <edge id="_Edge174677" source="_Node174674" target="_Node174676" />
-            <edge id="_Edge174679" source="_Node174676" target="_Node174678" />
-            <edge id="_Edge174681" source="_Node174678" target="_Node174680" />
-            <edge id="_Edge174684" source="_Node174678" target="_Node174683" />
-            <edge id="_Edge174686" source="_Node174683" target="_Node174685" />
-            <edge id="_Edge174689" source="_Node174683" target="_Node174688" />
-            <edge id="_Edge174691" source="_Node174688" target="_Node174690" />
-            <edge id="_Edge174694" source="_Node174688" target="_Node174693" />
-            <edge id="_Edge174697" source="_Node174676" target="_Node174696" />
-            <edge id="_Edge174699" source="_Node174696" target="_Node174698" />
-            <edge id="_Edge174701" source="_Node174698" target="_Node174700" />
-            <edge id="_Edge174704" source="_Node174698" target="_Node174703" />
-            <edge id="_Edge174707" source="_Node174696" target="_Node174706" />
-            <edge id="_Edge174710" source="_Node174674" target="_Node174709" />
-            <edge id="_Edge174712" source="_Node174709" target="_Node174711" />
-            <edge id="_Edge174715" source="_Node174709" target="_Node174714" />
-            <edge id="_Edge174718" source="_Node174672" target="_Node174717" />
-            <edge id="_Edge174720" source="_Node174717" target="_Node174719" />
-            <edge id="_Edge174723" source="_Node174717" target="_Node174722" />
-            <edge id="_Edge174726" source="_Node174670" target="_Node174725" />
-            <edge id="_Edge174728" source="_Node174725" target="_Node174727" />
-            <edge id="_Edge174730" source="_Node174727" target="_Node174729" />
-            <edge id="_Edge174733" source="_Node174727" target="_Node174732" />
-            <edge id="_Edge174735" source="_Node174732" target="_Node174734" />
-            <edge id="_Edge174737" source="_Node174734" target="_Node174736" />
-            <edge id="_Edge174740" source="_Node174734" target="_Node174739" />
-            <edge id="_Edge174743" source="_Node174732" target="_Node174742" />
-            <edge id="_Edge174745" source="_Node174742" target="_Node174744" />
-            <edge id="_Edge174747" source="_Node174744" target="_Node174746" />
-            <edge id="_Edge174749" source="_Node174746" target="_Node174748" />
-            <edge id="_Edge174752" source="_Node174746" target="_Node174751" />
-            <edge id="_Edge174755" source="_Node174744" target="_Node174754" />
-            <edge id="_Edge174758" source="_Node174742" target="_Node174757" />
-            <edge id="_Edge174760" source="_Node174757" target="_Node174759" />
-            <edge id="_Edge174762" source="_Node174759" target="_Node174761" />
-            <edge id="_Edge174765" source="_Node174759" target="_Node174764" />
-            <edge id="_Edge174768" source="_Node174757" target="_Node174767" />
-            <edge id="_Edge174771" source="_Node174725" target="_Node174770" />
-            <edge id="_Edge174773" source="_Node174770" target="_Node174772" />
-            <edge id="_Edge174776" source="_Node174770" target="_Node174775" />
+            <node id="_Node298231" />
+            <node id="_Node298233" otu="Taphrinadeformans" />
+            <node id="_Node298236" />
+            <node id="_Node298238" otu="Saccharomycescerevisiae" />
+            <node id="_Node298241" />
+            <node id="_Node298243" />
+            <node id="_Node298245" />
+            <node id="_Node298247" otu="Fonsecaeapedrosoi" />
+            <node id="_Node298250" />
+            <node id="_Node298252" otu="Aspergillusfumigatus" />
+            <node id="_Node298255" otu="Onygenaequina" />
+            <node id="_Node298258" />
+            <node id="_Node298260" />
+            <node id="_Node298262" otu="Pezizabadia" />
+            <node id="_Node298265" />
+            <node id="_Node298267" otu="Sclerotiniasclerotiorum" />
+            <node id="_Node298270" />
+            <node id="_Node298272" otu="Blumeriagraminis" />
+            <node id="_Node298275" />
+            <node id="_Node298277" />
+            <node id="_Node298279" otu="Pleuroascusnicholsonii" />
+            <node id="_Node298282" otu="Connersiarilstonii" />
+            <node id="_Node298285" otu="Leuconeurosporapulcherrima" />
+            <node id="_Node298288" otu="Pseudeurotiumzonatum" />
+            <node id="_Node298291" otu="Dothideainsculpta" />
+            <node id="_Node298294" />
+            <node id="_Node298296" />
+            <node id="_Node298298" />
+            <node id="_Node298300" />
+            <node id="_Node298302" />
+            <node id="_Node298304" otu="Nectriahaematococca" />
+            <node id="_Node298307" />
+            <node id="_Node298309" otu="Epichloetyphina" />
+            <node id="_Node298312" />
+            <node id="_Node298314" otu="Hypomycespolyporinus" />
+            <node id="_Node298317" otu="Hypocreaschweinitzii" />
+            <node id="_Node298320" />
+            <node id="_Node298322" />
+            <node id="_Node298324" otu="Hapsidosporairregularis" />
+            <node id="_Node298327" otu="Nigrosabulumglobosum" />
+            <node id="_Node298330" otu="Bulbitheciumhyalosporum" />
+            <node id="_Node298333" />
+            <node id="_Node298335" otu="Emericellopsisterricola" />
+            <node id="_Node298338" otu="Leucosphaerinaindica" />
+            <node id="_Node298341" />
+            <node id="_Node298343" otu="Microascustrigonosporus" />
+            <node id="_Node298346" otu="Ceratocystisfimbriata" />
+            <node id="_Node298349" />
+            <node id="_Node298351" />
+            <node id="_Node298353" otu="Cryphonectriaparasitica" />
+            <node id="_Node298356" />
+            <node id="_Node298358" />
+            <node id="_Node298360" otu="Ophiostomaulmi" />
+            <node id="_Node298363" otu="Fragosphaeriapurpurea" />
+            <node id="_Node298366" />
+            <node id="_Node298368" />
+            <node id="_Node298370" />
+            <node id="_Node298372" otu="Chaetomiumelatum" />
+            <node id="_Node298375" otu="Aporothielavialeptoderma" />
+            <node id="_Node298378" otu="Neurosporacrassa" />
+            <node id="_Node298381" />
+            <node id="_Node298383" />
+            <node id="_Node298385" otu="Cephalothecasulfurea" />
+            <node id="_Node298388" otu="Cryptendoxylahypophloia" />
+            <node id="_Node298391" otu="Albertiniellapolyporicola" />
+            <node id="_Node298394" />
+            <node id="_Node298396" otu="Diatrypedisciformis" />
+            <node id="_Node298399" otu="Pidoplitchkoviellaterricola" />
+            <rootedge id="_Edge298232" target="_Node298231" />
+            <edge id="_Edge298234" source="_Node298231" target="_Node298233" />
+            <edge id="_Edge298237" source="_Node298231" target="_Node298236" />
+            <edge id="_Edge298239" source="_Node298236" target="_Node298238" />
+            <edge id="_Edge298242" source="_Node298236" target="_Node298241" />
+            <edge id="_Edge298244" source="_Node298241" target="_Node298243" />
+            <edge id="_Edge298246" source="_Node298243" target="_Node298245" />
+            <edge id="_Edge298248" source="_Node298245" target="_Node298247" />
+            <edge id="_Edge298251" source="_Node298245" target="_Node298250" />
+            <edge id="_Edge298253" source="_Node298250" target="_Node298252" />
+            <edge id="_Edge298256" source="_Node298250" target="_Node298255" />
+            <edge id="_Edge298259" source="_Node298243" target="_Node298258" />
+            <edge id="_Edge298261" source="_Node298258" target="_Node298260" />
+            <edge id="_Edge298263" source="_Node298260" target="_Node298262" />
+            <edge id="_Edge298266" source="_Node298260" target="_Node298265" />
+            <edge id="_Edge298268" source="_Node298265" target="_Node298267" />
+            <edge id="_Edge298271" source="_Node298265" target="_Node298270" />
+            <edge id="_Edge298273" source="_Node298270" target="_Node298272" />
+            <edge id="_Edge298276" source="_Node298270" target="_Node298275" />
+            <edge id="_Edge298278" source="_Node298275" target="_Node298277" />
+            <edge id="_Edge298280" source="_Node298277" target="_Node298279" />
+            <edge id="_Edge298283" source="_Node298277" target="_Node298282" />
+            <edge id="_Edge298286" source="_Node298275" target="_Node298285" />
+            <edge id="_Edge298289" source="_Node298275" target="_Node298288" />
+            <edge id="_Edge298292" source="_Node298258" target="_Node298291" />
+            <edge id="_Edge298295" source="_Node298241" target="_Node298294" />
+            <edge id="_Edge298297" source="_Node298294" target="_Node298296" />
+            <edge id="_Edge298299" source="_Node298296" target="_Node298298" />
+            <edge id="_Edge298301" source="_Node298298" target="_Node298300" />
+            <edge id="_Edge298303" source="_Node298300" target="_Node298302" />
+            <edge id="_Edge298305" source="_Node298302" target="_Node298304" />
+            <edge id="_Edge298308" source="_Node298302" target="_Node298307" />
+            <edge id="_Edge298310" source="_Node298307" target="_Node298309" />
+            <edge id="_Edge298313" source="_Node298307" target="_Node298312" />
+            <edge id="_Edge298315" source="_Node298312" target="_Node298314" />
+            <edge id="_Edge298318" source="_Node298312" target="_Node298317" />
+            <edge id="_Edge298321" source="_Node298300" target="_Node298320" />
+            <edge id="_Edge298323" source="_Node298320" target="_Node298322" />
+            <edge id="_Edge298325" source="_Node298322" target="_Node298324" />
+            <edge id="_Edge298328" source="_Node298322" target="_Node298327" />
+            <edge id="_Edge298331" source="_Node298320" target="_Node298330" />
+            <edge id="_Edge298334" source="_Node298298" target="_Node298333" />
+            <edge id="_Edge298336" source="_Node298333" target="_Node298335" />
+            <edge id="_Edge298339" source="_Node298333" target="_Node298338" />
+            <edge id="_Edge298342" source="_Node298296" target="_Node298341" />
+            <edge id="_Edge298344" source="_Node298341" target="_Node298343" />
+            <edge id="_Edge298347" source="_Node298341" target="_Node298346" />
+            <edge id="_Edge298350" source="_Node298294" target="_Node298349" />
+            <edge id="_Edge298352" source="_Node298349" target="_Node298351" />
+            <edge id="_Edge298354" source="_Node298351" target="_Node298353" />
+            <edge id="_Edge298357" source="_Node298351" target="_Node298356" />
+            <edge id="_Edge298359" source="_Node298356" target="_Node298358" />
+            <edge id="_Edge298361" source="_Node298358" target="_Node298360" />
+            <edge id="_Edge298364" source="_Node298358" target="_Node298363" />
+            <edge id="_Edge298367" source="_Node298356" target="_Node298366" />
+            <edge id="_Edge298369" source="_Node298366" target="_Node298368" />
+            <edge id="_Edge298371" source="_Node298368" target="_Node298370" />
+            <edge id="_Edge298373" source="_Node298370" target="_Node298372" />
+            <edge id="_Edge298376" source="_Node298370" target="_Node298375" />
+            <edge id="_Edge298379" source="_Node298368" target="_Node298378" />
+            <edge id="_Edge298382" source="_Node298366" target="_Node298381" />
+            <edge id="_Edge298384" source="_Node298381" target="_Node298383" />
+            <edge id="_Edge298386" source="_Node298383" target="_Node298385" />
+            <edge id="_Edge298389" source="_Node298383" target="_Node298388" />
+            <edge id="_Edge298392" source="_Node298381" target="_Node298391" />
+            <edge id="_Edge298395" source="_Node298349" target="_Node298394" />
+            <edge id="_Edge298397" source="_Node298394" target="_Node298396" />
+            <edge id="_Edge298400" source="_Node298394" target="_Node298399" />
         </tree>
     </trees>
 </nex:nexml>

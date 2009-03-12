@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S11x4x95c21c00c08"><citation>Boufford, D. E., J. V. Crisci, H. Tobe, and P. C. Hoch. 1990. A cladistic analysis of Circaea (Onagraceae). Cladistics 6:171-182.</citation><author firstname="D. E. " lastname="Boufford" /><author email="crisci@fcnym.unlp.edu.ar" firstname="Jorge V. " lastname="Crisci" /><author firstname="P. C." lastname="Hoch" /><author firstname="H." lastname="Tobe" /></study></nex:external>
-    <otus id="_TaxaBlock3779">
+    <otus id="_TaxaBlock6005">
         <otu id="OutgrouptoCircaea" label="Outgroup to Circaea" />
         <otu id="Circaeacordata" label="Circaea cordata" />
         <otu id="Circaeamollis" label="Circaea mollis" />
@@ -24,65 +24,65 @@
         <otu id="Circaeaalpinacaulescens" label="Circaea alpina caulescens" />
         <otu id="Circaeaglabrescens" label="Circaea glabrescens" />
     </otus>
-    <trees id="_TreesBlock3780" otus="_TaxaBlock3779">
-        <tree id="_Tree3781" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock6006" otus="_TaxaBlock6005">
+        <tree id="_Tree6007" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A89c1x30x96c20c26c20" software="Hennig86"><inputmatrix datatype="Morphological" name="Table 3" nchar="22" /></analysis></nex:external>
-            <node id="_Node3784" />
-            <node id="_Node3786" otu="OutgrouptoCircaea" />
-            <node id="_Node3789" />
-            <node id="_Node3791" />
-            <node id="_Node3793" otu="Circaeacordata" />
-            <node id="_Node3796" />
-            <node id="_Node3798" />
-            <node id="_Node3800" />
-            <node id="_Node3802" />
-            <node id="_Node3804" />
-            <node id="_Node3806" otu="Circaeamollis" />
-            <node id="_Node3809" otu="Circaealutetianacanadensis" />
-            <node id="_Node3812" otu="Circaealutetianaquadrisulcata" />
-            <node id="_Node3815" otu="Circaeaerubescens" />
-            <node id="_Node3818" otu="Circaealutetianalutetiana" />
-            <node id="_Node3821" />
-            <node id="_Node3823" otu="Circaearepens" />
-            <node id="_Node3826" />
-            <node id="_Node3828" />
-            <node id="_Node3830" />
-            <node id="_Node3832" />
-            <node id="_Node3834" otu="Circaeaalpinaalpina" />
-            <node id="_Node3837" otu="Circaeaalpinamicrantha" />
-            <node id="_Node3840" otu="Circaeaalpinapacifica" />
-            <node id="_Node3843" otu="Circaeaalpinaimaicola" />
-            <node id="_Node3846" otu="Circaeaalpinaangustifolia" />
-            <node id="_Node3849" otu="Circaeaalpinacaulescens" />
-            <node id="_Node3852" otu="Circaeaglabrescens" />
-            <rootedge id="_Edge3785" target="_Node3784" />
-            <edge id="_Edge3787" source="_Node3784" target="_Node3786" />
-            <edge id="_Edge3790" source="_Node3784" target="_Node3789" />
-            <edge id="_Edge3792" source="_Node3789" target="_Node3791" />
-            <edge id="_Edge3794" source="_Node3791" target="_Node3793" />
-            <edge id="_Edge3797" source="_Node3791" target="_Node3796" />
-            <edge id="_Edge3799" source="_Node3796" target="_Node3798" />
-            <edge id="_Edge3801" source="_Node3798" target="_Node3800" />
-            <edge id="_Edge3803" source="_Node3800" target="_Node3802" />
-            <edge id="_Edge3805" source="_Node3802" target="_Node3804" />
-            <edge id="_Edge3807" source="_Node3804" target="_Node3806" />
-            <edge id="_Edge3810" source="_Node3804" target="_Node3809" />
-            <edge id="_Edge3813" source="_Node3802" target="_Node3812" />
-            <edge id="_Edge3816" source="_Node3800" target="_Node3815" />
-            <edge id="_Edge3819" source="_Node3798" target="_Node3818" />
-            <edge id="_Edge3822" source="_Node3796" target="_Node3821" />
-            <edge id="_Edge3824" source="_Node3821" target="_Node3823" />
-            <edge id="_Edge3827" source="_Node3821" target="_Node3826" />
-            <edge id="_Edge3829" source="_Node3826" target="_Node3828" />
-            <edge id="_Edge3831" source="_Node3828" target="_Node3830" />
-            <edge id="_Edge3833" source="_Node3830" target="_Node3832" />
-            <edge id="_Edge3835" source="_Node3832" target="_Node3834" />
-            <edge id="_Edge3838" source="_Node3832" target="_Node3837" />
-            <edge id="_Edge3841" source="_Node3830" target="_Node3840" />
-            <edge id="_Edge3844" source="_Node3828" target="_Node3843" />
-            <edge id="_Edge3847" source="_Node3826" target="_Node3846" />
-            <edge id="_Edge3850" source="_Node3826" target="_Node3849" />
-            <edge id="_Edge3853" source="_Node3789" target="_Node3852" />
+            <node id="_Node6010" />
+            <node id="_Node6012" otu="OutgrouptoCircaea" />
+            <node id="_Node6015" />
+            <node id="_Node6017" />
+            <node id="_Node6019" otu="Circaeacordata" />
+            <node id="_Node6022" />
+            <node id="_Node6024" />
+            <node id="_Node6026" />
+            <node id="_Node6028" />
+            <node id="_Node6030" />
+            <node id="_Node6032" otu="Circaeamollis" />
+            <node id="_Node6035" otu="Circaealutetianacanadensis" />
+            <node id="_Node6038" otu="Circaealutetianaquadrisulcata" />
+            <node id="_Node6041" otu="Circaeaerubescens" />
+            <node id="_Node6044" otu="Circaealutetianalutetiana" />
+            <node id="_Node6047" />
+            <node id="_Node6049" otu="Circaearepens" />
+            <node id="_Node6052" />
+            <node id="_Node6054" />
+            <node id="_Node6056" />
+            <node id="_Node6058" />
+            <node id="_Node6060" otu="Circaeaalpinaalpina" />
+            <node id="_Node6063" otu="Circaeaalpinamicrantha" />
+            <node id="_Node6066" otu="Circaeaalpinapacifica" />
+            <node id="_Node6069" otu="Circaeaalpinaimaicola" />
+            <node id="_Node6072" otu="Circaeaalpinaangustifolia" />
+            <node id="_Node6075" otu="Circaeaalpinacaulescens" />
+            <node id="_Node6078" otu="Circaeaglabrescens" />
+            <rootedge id="_Edge6011" target="_Node6010" />
+            <edge id="_Edge6013" source="_Node6010" target="_Node6012" />
+            <edge id="_Edge6016" source="_Node6010" target="_Node6015" />
+            <edge id="_Edge6018" source="_Node6015" target="_Node6017" />
+            <edge id="_Edge6020" source="_Node6017" target="_Node6019" />
+            <edge id="_Edge6023" source="_Node6017" target="_Node6022" />
+            <edge id="_Edge6025" source="_Node6022" target="_Node6024" />
+            <edge id="_Edge6027" source="_Node6024" target="_Node6026" />
+            <edge id="_Edge6029" source="_Node6026" target="_Node6028" />
+            <edge id="_Edge6031" source="_Node6028" target="_Node6030" />
+            <edge id="_Edge6033" source="_Node6030" target="_Node6032" />
+            <edge id="_Edge6036" source="_Node6030" target="_Node6035" />
+            <edge id="_Edge6039" source="_Node6028" target="_Node6038" />
+            <edge id="_Edge6042" source="_Node6026" target="_Node6041" />
+            <edge id="_Edge6045" source="_Node6024" target="_Node6044" />
+            <edge id="_Edge6048" source="_Node6022" target="_Node6047" />
+            <edge id="_Edge6050" source="_Node6047" target="_Node6049" />
+            <edge id="_Edge6053" source="_Node6047" target="_Node6052" />
+            <edge id="_Edge6055" source="_Node6052" target="_Node6054" />
+            <edge id="_Edge6057" source="_Node6054" target="_Node6056" />
+            <edge id="_Edge6059" source="_Node6056" target="_Node6058" />
+            <edge id="_Edge6061" source="_Node6058" target="_Node6060" />
+            <edge id="_Edge6064" source="_Node6058" target="_Node6063" />
+            <edge id="_Edge6067" source="_Node6056" target="_Node6066" />
+            <edge id="_Edge6070" source="_Node6054" target="_Node6069" />
+            <edge id="_Edge6073" source="_Node6052" target="_Node6072" />
+            <edge id="_Edge6076" source="_Node6052" target="_Node6075" />
+            <edge id="_Edge6079" source="_Node6015" target="_Node6078" />
         </tree>
     </trees>
 </nex:nexml>

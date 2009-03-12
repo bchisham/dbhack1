@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S1354"><citation>Struck, T. H., G. Purschke, and K. M. Halanych. 2005. Phylogeny of Eunicida (Annelida) and Exploring Data Congruence using a Partition Addition Bootstrap Alteration (PABA) Approach. Systematic Biology, in press.</citation><author email="ken@auburn.edu" firstname="Kenneth M." lastname="Halanych" /><author email="purschke@biologie.uni-osnabrueck.de" firstname="Guenter" lastname="Purschke" /><author email="struck@biologie.uni-osnabrueck.de" firstname="Torsten H." lastname="Struck" /></study></nex:external>
-    <otus id="_TaxaBlock1033073">
+    <otus id="_TaxaBlock1755605">
         <otu id="Arabellasemimaculata" label="Arabella semimaculata" />
         <otu id="Drilonereislonga" label="Drilonereis longa" />
         <otu id="Oenonefulgida" label="Oenone fulgida" />
@@ -25,71 +25,71 @@
         <otu id="Glyceradibranchiata" label="Glycera dibranchiata" />
         <otu id="Riftiapachyptila" label="Riftia pachyptila" />
     </otus>
-    <trees id="_TreesBlock1033074" otus="_TaxaBlock1033073">
-        <tree id="_Tree1033075" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock1755606" otus="_TaxaBlock1755605">
+        <tree id="_Tree1755607" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S1354A4598" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="18S, 16S, COI, and 28S" nchar="6503" /></analysis></nex:external>
-            <node id="_Node1033078" />
-            <node id="_Node1033080" />
-            <node id="_Node1033082" />
-            <node id="_Node1033084" />
-            <node id="_Node1033086" />
-            <node id="_Node1033088" otu="Arabellasemimaculata" />
-            <node id="_Node1033091" otu="Drilonereislonga" />
-            <node id="_Node1033094" otu="Oenonefulgida" />
-            <node id="_Node1033097" />
-            <node id="_Node1033099" />
-            <node id="_Node1033101" />
-            <node id="_Node1033103" />
-            <node id="_Node1033105" otu="Diopatraaciculata" />
-            <node id="_Node1033108" otu="Onuphiselegans" />
-            <node id="_Node1033111" otu="Hyalinoeciatubicola" />
-            <node id="_Node1033114" />
-            <node id="_Node1033116" otu="Eunicesp" />
-            <node id="_Node1033119" otu="Marphysasanguinea" />
-            <node id="_Node1033122" />
-            <node id="_Node1033124" otu="Dorvilleaerucaeformis" />
-            <node id="_Node1033127" otu="Protodorvilleakefersteinii" />
-            <node id="_Node1033130" />
-            <node id="_Node1033132" />
-            <node id="_Node1033134" otu="Lumbrinerisinflata" />
-            <node id="_Node1033137" otu="Lumbrinerislatreilli" />
-            <node id="_Node1033140" otu="Ninoenigripes" />
-            <node id="_Node1033143" />
-            <node id="_Node1033145" />
-            <node id="_Node1033147" otu="Paramphinomejeffreysi" />
-            <node id="_Node1033150" otu="Glyceradibranchiata" />
-            <node id="_Node1033153" otu="Riftiapachyptila" />
-            <rootedge id="_Edge1033079" target="_Node1033078" />
-            <edge id="_Edge1033081" source="_Node1033078" target="_Node1033080" />
-            <edge id="_Edge1033083" source="_Node1033080" target="_Node1033082" />
-            <edge id="_Edge1033085" source="_Node1033082" target="_Node1033084" />
-            <edge id="_Edge1033087" source="_Node1033084" target="_Node1033086" />
-            <edge id="_Edge1033089" source="_Node1033086" target="_Node1033088" />
-            <edge id="_Edge1033092" source="_Node1033086" target="_Node1033091" />
-            <edge id="_Edge1033095" source="_Node1033084" target="_Node1033094" />
-            <edge id="_Edge1033098" source="_Node1033082" target="_Node1033097" />
-            <edge id="_Edge1033100" source="_Node1033097" target="_Node1033099" />
-            <edge id="_Edge1033102" source="_Node1033099" target="_Node1033101" />
-            <edge id="_Edge1033104" source="_Node1033101" target="_Node1033103" />
-            <edge id="_Edge1033106" source="_Node1033103" target="_Node1033105" />
-            <edge id="_Edge1033109" source="_Node1033103" target="_Node1033108" />
-            <edge id="_Edge1033112" source="_Node1033101" target="_Node1033111" />
-            <edge id="_Edge1033115" source="_Node1033099" target="_Node1033114" />
-            <edge id="_Edge1033117" source="_Node1033114" target="_Node1033116" />
-            <edge id="_Edge1033120" source="_Node1033114" target="_Node1033119" />
-            <edge id="_Edge1033123" source="_Node1033097" target="_Node1033122" />
-            <edge id="_Edge1033125" source="_Node1033122" target="_Node1033124" />
-            <edge id="_Edge1033128" source="_Node1033122" target="_Node1033127" />
-            <edge id="_Edge1033131" source="_Node1033080" target="_Node1033130" />
-            <edge id="_Edge1033133" source="_Node1033130" target="_Node1033132" />
-            <edge id="_Edge1033135" source="_Node1033132" target="_Node1033134" />
-            <edge id="_Edge1033138" source="_Node1033132" target="_Node1033137" />
-            <edge id="_Edge1033141" source="_Node1033130" target="_Node1033140" />
-            <edge id="_Edge1033144" source="_Node1033078" target="_Node1033143" />
-            <edge id="_Edge1033146" source="_Node1033143" target="_Node1033145" />
-            <edge id="_Edge1033148" source="_Node1033145" target="_Node1033147" />
-            <edge id="_Edge1033151" source="_Node1033145" target="_Node1033150" />
-            <edge id="_Edge1033154" source="_Node1033143" target="_Node1033153" />
+            <node id="_Node1755610" />
+            <node id="_Node1755612" />
+            <node id="_Node1755614" />
+            <node id="_Node1755616" />
+            <node id="_Node1755618" />
+            <node id="_Node1755620" otu="Arabellasemimaculata" />
+            <node id="_Node1755623" otu="Drilonereislonga" />
+            <node id="_Node1755626" otu="Oenonefulgida" />
+            <node id="_Node1755629" />
+            <node id="_Node1755631" />
+            <node id="_Node1755633" />
+            <node id="_Node1755635" />
+            <node id="_Node1755637" otu="Diopatraaciculata" />
+            <node id="_Node1755640" otu="Onuphiselegans" />
+            <node id="_Node1755643" otu="Hyalinoeciatubicola" />
+            <node id="_Node1755646" />
+            <node id="_Node1755648" otu="Eunicesp" />
+            <node id="_Node1755651" otu="Marphysasanguinea" />
+            <node id="_Node1755654" />
+            <node id="_Node1755656" otu="Dorvilleaerucaeformis" />
+            <node id="_Node1755659" otu="Protodorvilleakefersteinii" />
+            <node id="_Node1755662" />
+            <node id="_Node1755664" />
+            <node id="_Node1755666" otu="Lumbrinerisinflata" />
+            <node id="_Node1755669" otu="Lumbrinerislatreilli" />
+            <node id="_Node1755672" otu="Ninoenigripes" />
+            <node id="_Node1755675" />
+            <node id="_Node1755677" />
+            <node id="_Node1755679" otu="Paramphinomejeffreysi" />
+            <node id="_Node1755682" otu="Glyceradibranchiata" />
+            <node id="_Node1755685" otu="Riftiapachyptila" />
+            <rootedge id="_Edge1755611" target="_Node1755610" />
+            <edge id="_Edge1755613" source="_Node1755610" target="_Node1755612" />
+            <edge id="_Edge1755615" source="_Node1755612" target="_Node1755614" />
+            <edge id="_Edge1755617" source="_Node1755614" target="_Node1755616" />
+            <edge id="_Edge1755619" source="_Node1755616" target="_Node1755618" />
+            <edge id="_Edge1755621" source="_Node1755618" target="_Node1755620" />
+            <edge id="_Edge1755624" source="_Node1755618" target="_Node1755623" />
+            <edge id="_Edge1755627" source="_Node1755616" target="_Node1755626" />
+            <edge id="_Edge1755630" source="_Node1755614" target="_Node1755629" />
+            <edge id="_Edge1755632" source="_Node1755629" target="_Node1755631" />
+            <edge id="_Edge1755634" source="_Node1755631" target="_Node1755633" />
+            <edge id="_Edge1755636" source="_Node1755633" target="_Node1755635" />
+            <edge id="_Edge1755638" source="_Node1755635" target="_Node1755637" />
+            <edge id="_Edge1755641" source="_Node1755635" target="_Node1755640" />
+            <edge id="_Edge1755644" source="_Node1755633" target="_Node1755643" />
+            <edge id="_Edge1755647" source="_Node1755631" target="_Node1755646" />
+            <edge id="_Edge1755649" source="_Node1755646" target="_Node1755648" />
+            <edge id="_Edge1755652" source="_Node1755646" target="_Node1755651" />
+            <edge id="_Edge1755655" source="_Node1755629" target="_Node1755654" />
+            <edge id="_Edge1755657" source="_Node1755654" target="_Node1755656" />
+            <edge id="_Edge1755660" source="_Node1755654" target="_Node1755659" />
+            <edge id="_Edge1755663" source="_Node1755612" target="_Node1755662" />
+            <edge id="_Edge1755665" source="_Node1755662" target="_Node1755664" />
+            <edge id="_Edge1755667" source="_Node1755664" target="_Node1755666" />
+            <edge id="_Edge1755670" source="_Node1755664" target="_Node1755669" />
+            <edge id="_Edge1755673" source="_Node1755662" target="_Node1755672" />
+            <edge id="_Edge1755676" source="_Node1755610" target="_Node1755675" />
+            <edge id="_Edge1755678" source="_Node1755675" target="_Node1755677" />
+            <edge id="_Edge1755680" source="_Node1755677" target="_Node1755679" />
+            <edge id="_Edge1755683" source="_Node1755677" target="_Node1755682" />
+            <edge id="_Edge1755686" source="_Node1755675" target="_Node1755685" />
         </tree>
     </trees>
 </nex:nexml>
