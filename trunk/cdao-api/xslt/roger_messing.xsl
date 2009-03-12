@@ -7,14 +7,15 @@
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <xsl:output method="xml"/>
- 
+    <!-- Boiler-Plate  -->
+    <!-- Make the new root element -->
     <xsl:template match="/nex:nexml">
         <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
             xmlns:owl="http://www.w3.org/2002/07/owl#">
 	     <xsl:apply-templates select="descendant::*"/>
         </rdf:RDF>
     </xsl:template>
-
+    <!-- Create the TU's  -->
     <xsl:template match="nex:otu">
         <rdf:Description>
             <xsl:attribute name="rdf:ID">
@@ -24,7 +25,7 @@
             <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
         </rdf:Description>
     </xsl:template>
-
+    <!-- Create the Trees -->
     <xsl:template match="nex:tree">
         <rdf:Description>
             <xsl:attribute name="rdf:ID">
@@ -37,7 +38,7 @@
             <xsl:choose>
                 <xsl:when test="nex:node/@root = 'true'">
                     <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#RootedTree"/>
-                    <cdao:has_Root rdf:resource="{@id}_{node[@root = 'true']/@id}"/>
+                    <cdao:has_Root rdf:resource="{@id}_{nex:node[@root = 'true']/@id}"/>
                     <!-- FIXME don't think this works with new IDs -->
                 </xsl:when>
                 <xsl:otherwise>
@@ -47,7 +48,7 @@
             </xsl:choose>
         </rdf:Description>
     </xsl:template>
-
+    <!-- Create a Network  -->
     <xsl:template match="nex:network">
         <rdf:Description>
             <xsl:attribute name="rdf:ID">
@@ -59,9 +60,9 @@
             </xsl:if>
             <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Network"/>
         </rdf:Description>
-</xsl:template>
-
-<xsl:template name="processancestor">
+     </xsl:template>
+     <!-- Process an ancestor -->
+     <xsl:template name="processancestor">
 	    <xsl:param name="cnodeid" />
 	    <xsl:variable name="treeid" select="../@id"/>
 	    <!--<xsl:variable name="cnode" select="../node[@id = n3]"/>-->
@@ -82,7 +83,7 @@
 		    </xsl:otherwise>
 	    </xsl:choose> 
     </xsl:template>
-
+    <!-- Process a Node -->
     <xsl:template match="nex:node">
         <rdf:Description>
             <xsl:attribute name="rdf:ID">
@@ -105,22 +106,24 @@
          </xsl:if>
         </rdf:Description>
     </xsl:template>
-
+    <!-- Create a Label -->
     <xsl:template name="label">
-        <dc:label>
+        <rdfs:label>
             <xsl:value-of select="@label"/>
-        </dc:label>
+        </rdfs:label>
     </xsl:template>
-
+    <!-- Create an Edge -->
     <xsl:template match="nex:edge">
-        <rdf:Description>
+	    <rdf:Description>
+       
             <xsl:attribute name="rdf:ID">
                 <!-- edge id is concat of trees id, tree id and edge id -->
                 <xsl:value-of select="../../@id"/>_<xsl:value-of select="../@id"/>_<xsl:value-of select="@id"/>
             </xsl:attribute>
-
-            <xsl:choose>
-                <xsl:when test="../node/@root = 'true'">
+            <!--  Process directed edges and plain edges differently --> 
+	    <xsl:choose>
+		
+                <xsl:when test="../nex:node/@root = 'true'">
                     <rdf:type
                         rdf:resource="http://www.evolutionaryontology.org/cdao.owl#DirectedEdge"/>
                     <cdao:has_Parent_Node rdf:resource="#{../../@id}_{../@id}_{@source}"/>
