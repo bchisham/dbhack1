@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S601"><citation>Krueger, D., Binder, M., Fischer, M., and Kreisel, H. 2001. The Lycoperdales. A molecular approach to the systematics of some gasteroid mushrooms. Mycologia, 93(5): 947-957.</citation><author email="mbinder@clarku.edu" firstname="Manfred" lastname="Binder" /><author email="michael.fischer@biologie.uni-regensburg.de" firstname="Michael" lastname="Fischer" /><author firstname="Hanns" lastname="Kreisel" /><author email="dirk.krueger@ufz.edu" firstname="Dirk" lastname="Kr&#195;&#188;ger" /></study></nex:external>
-    <otus id="_TaxaBlock332907">
+    <otus id="_TaxaBlock567866">
         <otu id="Bovistaplumbea" label="Bovista plumbea" />
         <otu id="Bovistapaludosa" label="Bovista paludosa" />
         <otu id="Bovistapusilla" label="Bovista pusilla" />
@@ -21,55 +21,55 @@
         <otu id="Bovistellaradicata" label="Bovistella radicata" />
         <otu id="LycoperdonpyriformeBavaria" label="Lycoperdon pyriforme Bavaria" />
     </otus>
-    <trees id="_TreesBlock332908" otus="_TaxaBlock332907">
-        <tree id="_Tree332909" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock567867" otus="_TaxaBlock567866">
+        <tree id="_Tree567868" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S601A1108" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="ITS no Lepiota" nchar="703" /></analysis></nex:external>
-            <node id="_Node332912" />
-            <node id="_Node332914" otu="Bovistaplumbea" />
-            <node id="_Node332917" />
-            <node id="_Node332919" otu="Bovistapaludosa" />
-            <node id="_Node332922" />
-            <node id="_Node332924" />
-            <node id="_Node332926" otu="Bovistapusilla" />
-            <node id="_Node332929" otu="Bovistapolymorpha" />
-            <node id="_Node332932" />
-            <node id="_Node332934" />
-            <node id="_Node332936" otu="Morganellasubincarnata" />
-            <node id="_Node332939" />
-            <node id="_Node332941" />
-            <node id="_Node332943" otu="Lycoperdonperlatum" />
-            <node id="_Node332946" otu="Vascellumpratense" />
-            <node id="_Node332949" />
-            <node id="_Node332951" />
-            <node id="_Node332953" />
-            <node id="_Node332955" otu="Lycoperdonmammiforme" />
-            <node id="_Node332958" otu="Lycoperdonechinatum" />
-            <node id="_Node332961" otu="Lycoperdonfoetidum" />
-            <node id="_Node332964" otu="Bovistellaradicata" />
-            <node id="_Node332967" otu="LycoperdonpyriformeBavaria" />
-            <rootedge id="_Edge332913" target="_Node332912" />
-            <edge id="_Edge332915" source="_Node332912" target="_Node332914" />
-            <edge id="_Edge332918" source="_Node332912" target="_Node332917" />
-            <edge id="_Edge332920" source="_Node332917" target="_Node332919" />
-            <edge id="_Edge332923" source="_Node332917" target="_Node332922" />
-            <edge id="_Edge332925" source="_Node332922" target="_Node332924" />
-            <edge id="_Edge332927" source="_Node332924" target="_Node332926" />
-            <edge id="_Edge332930" source="_Node332924" target="_Node332929" />
-            <edge id="_Edge332933" source="_Node332922" target="_Node332932" />
-            <edge id="_Edge332935" source="_Node332932" target="_Node332934" />
-            <edge id="_Edge332937" source="_Node332934" target="_Node332936" />
-            <edge id="_Edge332940" source="_Node332934" target="_Node332939" />
-            <edge id="_Edge332942" source="_Node332939" target="_Node332941" />
-            <edge id="_Edge332944" source="_Node332941" target="_Node332943" />
-            <edge id="_Edge332947" source="_Node332941" target="_Node332946" />
-            <edge id="_Edge332950" source="_Node332939" target="_Node332949" />
-            <edge id="_Edge332952" source="_Node332949" target="_Node332951" />
-            <edge id="_Edge332954" source="_Node332951" target="_Node332953" />
-            <edge id="_Edge332956" source="_Node332953" target="_Node332955" />
-            <edge id="_Edge332959" source="_Node332953" target="_Node332958" />
-            <edge id="_Edge332962" source="_Node332951" target="_Node332961" />
-            <edge id="_Edge332965" source="_Node332949" target="_Node332964" />
-            <edge id="_Edge332968" source="_Node332932" target="_Node332967" />
+            <node id="_Node567871" />
+            <node id="_Node567873" otu="Bovistaplumbea" />
+            <node id="_Node567876" />
+            <node id="_Node567878" otu="Bovistapaludosa" />
+            <node id="_Node567881" />
+            <node id="_Node567883" />
+            <node id="_Node567885" otu="Bovistapusilla" />
+            <node id="_Node567888" otu="Bovistapolymorpha" />
+            <node id="_Node567891" />
+            <node id="_Node567893" />
+            <node id="_Node567895" otu="Morganellasubincarnata" />
+            <node id="_Node567898" />
+            <node id="_Node567900" />
+            <node id="_Node567902" otu="Lycoperdonperlatum" />
+            <node id="_Node567905" otu="Vascellumpratense" />
+            <node id="_Node567908" />
+            <node id="_Node567910" />
+            <node id="_Node567912" />
+            <node id="_Node567914" otu="Lycoperdonmammiforme" />
+            <node id="_Node567917" otu="Lycoperdonechinatum" />
+            <node id="_Node567920" otu="Lycoperdonfoetidum" />
+            <node id="_Node567923" otu="Bovistellaradicata" />
+            <node id="_Node567926" otu="LycoperdonpyriformeBavaria" />
+            <rootedge id="_Edge567872" target="_Node567871" />
+            <edge id="_Edge567874" source="_Node567871" target="_Node567873" />
+            <edge id="_Edge567877" source="_Node567871" target="_Node567876" />
+            <edge id="_Edge567879" source="_Node567876" target="_Node567878" />
+            <edge id="_Edge567882" source="_Node567876" target="_Node567881" />
+            <edge id="_Edge567884" source="_Node567881" target="_Node567883" />
+            <edge id="_Edge567886" source="_Node567883" target="_Node567885" />
+            <edge id="_Edge567889" source="_Node567883" target="_Node567888" />
+            <edge id="_Edge567892" source="_Node567881" target="_Node567891" />
+            <edge id="_Edge567894" source="_Node567891" target="_Node567893" />
+            <edge id="_Edge567896" source="_Node567893" target="_Node567895" />
+            <edge id="_Edge567899" source="_Node567893" target="_Node567898" />
+            <edge id="_Edge567901" source="_Node567898" target="_Node567900" />
+            <edge id="_Edge567903" source="_Node567900" target="_Node567902" />
+            <edge id="_Edge567906" source="_Node567900" target="_Node567905" />
+            <edge id="_Edge567909" source="_Node567898" target="_Node567908" />
+            <edge id="_Edge567911" source="_Node567908" target="_Node567910" />
+            <edge id="_Edge567913" source="_Node567910" target="_Node567912" />
+            <edge id="_Edge567915" source="_Node567912" target="_Node567914" />
+            <edge id="_Edge567918" source="_Node567912" target="_Node567917" />
+            <edge id="_Edge567921" source="_Node567910" target="_Node567920" />
+            <edge id="_Edge567924" source="_Node567908" target="_Node567923" />
+            <edge id="_Edge567927" source="_Node567891" target="_Node567926" />
         </tree>
     </trees>
 </nex:nexml>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S1191"><citation>Martins, T. R. and T. J. Barkman. 2005. Reconstruction of Solanaceae phylogeny using the nuclear gene SAMT. Systematic Botany 30 (2):435-447.</citation><author email="tbarkman@wmich.edu" firstname="Todd J." lastname="Barkman" /><author email="talline.robadey@wmich.edu" firstname="Talline M." lastname="Robadey" /></study></nex:external>
-    <otus id="_TaxaBlock851178">
+    <otus id="_TaxaBlock1446263">
         <otu id="Cestrumelegans" label="Cestrum elegans" />
         <otu id="Cestrumnocturnum" label="Cestrum nocturnum" />
         <otu id="Vestialycioides" label="Vestia lycioides" />
@@ -35,111 +35,111 @@
         <otu id="Stephanotisfloribunda" label="Stephanotis floribunda" />
         <otu id="Ipomoeaalba" label="Ipomoea alba" />
     </otus>
-    <trees id="_TreesBlock851179" otus="_TaxaBlock851178">
-        <tree id="_Tree851180" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock1446264" otus="_TaxaBlock1446263">
+        <tree id="_Tree1446265" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S1191A3753" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="SAMT" nchar="1139" /></analysis></nex:external>
-            <node id="_Node851183" />
-            <node id="_Node851185" />
-            <node id="_Node851187" />
-            <node id="_Node851189" />
-            <node id="_Node851191" />
-            <node id="_Node851193" />
-            <node id="_Node851195" />
-            <node id="_Node851197" otu="Cestrumelegans" />
-            <node id="_Node851200" otu="Cestrumnocturnum" />
-            <node id="_Node851203" otu="Vestialycioides" />
-            <node id="_Node851206" />
-            <node id="_Node851208" otu="Browalliaamericana" />
-            <node id="_Node851211" otu="Streptosolenjamesonii" />
-            <node id="_Node851214" otu="Schwenckiaamericana" />
-            <node id="_Node851217" />
-            <node id="_Node851219" />
-            <node id="_Node851221" />
-            <node id="_Node851223" otu="Anthocercislittorea" />
-            <node id="_Node851226" otu="Nicotianatabacum" />
-            <node id="_Node851229" />
-            <node id="_Node851231" />
-            <node id="_Node851233" />
-            <node id="_Node851235" />
-            <node id="_Node851237" />
-            <node id="_Node851239" />
-            <node id="_Node851241" otu="Brugmansiasp." />
-            <node id="_Node851244" otu="Daturastramonium" />
-            <node id="_Node851247" />
-            <node id="_Node851249" />
-            <node id="_Node851251" otu="Solanumdulcamara" />
-            <node id="_Node851254" />
-            <node id="_Node851256" otu="Capsicumannuum" />
-            <node id="_Node851259" otu="Physalisvirginiana" />
-            <node id="_Node851262" otu="Nicandraphysalodes" />
-            <node id="_Node851265" />
-            <node id="_Node851267" otu="Juanulloaaurantiaca" />
-            <node id="_Node851270" otu="Solandramaxima" />
-            <node id="_Node851273" />
-            <node id="_Node851275" otu="Hyoscyamusalbus" />
-            <node id="_Node851278" otu="Atropabelladonna" />
-            <node id="_Node851281" />
-            <node id="_Node851283" otu="Lyciumferocissimum" />
-            <node id="_Node851286" otu="Nolanasp." />
-            <node id="_Node851289" otu="Exodeconusmiersii" />
-            <node id="_Node851292" />
-            <node id="_Node851294" otu="Petuniaaxillaris" />
-            <node id="_Node851297" otu="Brunfelsiaamericana" />
-            <node id="_Node851300" otu="Schizanthuspinnatus" />
-            <node id="_Node851303" />
-            <node id="_Node851305" otu="Stephanotisfloribunda" />
-            <node id="_Node851308" otu="Ipomoeaalba" />
-            <rootedge id="_Edge851184" target="_Node851183" />
-            <edge id="_Edge851186" source="_Node851183" target="_Node851185" />
-            <edge id="_Edge851188" source="_Node851185" target="_Node851187" />
-            <edge id="_Edge851190" source="_Node851187" target="_Node851189" />
-            <edge id="_Edge851192" source="_Node851189" target="_Node851191" />
-            <edge id="_Edge851194" source="_Node851191" target="_Node851193" />
-            <edge id="_Edge851196" source="_Node851193" target="_Node851195" />
-            <edge id="_Edge851198" source="_Node851195" target="_Node851197" />
-            <edge id="_Edge851201" source="_Node851195" target="_Node851200" />
-            <edge id="_Edge851204" source="_Node851193" target="_Node851203" />
-            <edge id="_Edge851207" source="_Node851191" target="_Node851206" />
-            <edge id="_Edge851209" source="_Node851206" target="_Node851208" />
-            <edge id="_Edge851212" source="_Node851206" target="_Node851211" />
-            <edge id="_Edge851215" source="_Node851189" target="_Node851214" />
-            <edge id="_Edge851218" source="_Node851187" target="_Node851217" />
-            <edge id="_Edge851220" source="_Node851217" target="_Node851219" />
-            <edge id="_Edge851222" source="_Node851219" target="_Node851221" />
-            <edge id="_Edge851224" source="_Node851221" target="_Node851223" />
-            <edge id="_Edge851227" source="_Node851221" target="_Node851226" />
-            <edge id="_Edge851230" source="_Node851219" target="_Node851229" />
-            <edge id="_Edge851232" source="_Node851229" target="_Node851231" />
-            <edge id="_Edge851234" source="_Node851231" target="_Node851233" />
-            <edge id="_Edge851236" source="_Node851233" target="_Node851235" />
-            <edge id="_Edge851238" source="_Node851235" target="_Node851237" />
-            <edge id="_Edge851240" source="_Node851237" target="_Node851239" />
-            <edge id="_Edge851242" source="_Node851239" target="_Node851241" />
-            <edge id="_Edge851245" source="_Node851239" target="_Node851244" />
-            <edge id="_Edge851248" source="_Node851237" target="_Node851247" />
-            <edge id="_Edge851250" source="_Node851247" target="_Node851249" />
-            <edge id="_Edge851252" source="_Node851249" target="_Node851251" />
-            <edge id="_Edge851255" source="_Node851249" target="_Node851254" />
-            <edge id="_Edge851257" source="_Node851254" target="_Node851256" />
-            <edge id="_Edge851260" source="_Node851254" target="_Node851259" />
-            <edge id="_Edge851263" source="_Node851247" target="_Node851262" />
-            <edge id="_Edge851266" source="_Node851235" target="_Node851265" />
-            <edge id="_Edge851268" source="_Node851265" target="_Node851267" />
-            <edge id="_Edge851271" source="_Node851265" target="_Node851270" />
-            <edge id="_Edge851274" source="_Node851233" target="_Node851273" />
-            <edge id="_Edge851276" source="_Node851273" target="_Node851275" />
-            <edge id="_Edge851279" source="_Node851273" target="_Node851278" />
-            <edge id="_Edge851282" source="_Node851231" target="_Node851281" />
-            <edge id="_Edge851284" source="_Node851281" target="_Node851283" />
-            <edge id="_Edge851287" source="_Node851281" target="_Node851286" />
-            <edge id="_Edge851290" source="_Node851229" target="_Node851289" />
-            <edge id="_Edge851293" source="_Node851217" target="_Node851292" />
-            <edge id="_Edge851295" source="_Node851292" target="_Node851294" />
-            <edge id="_Edge851298" source="_Node851292" target="_Node851297" />
-            <edge id="_Edge851301" source="_Node851185" target="_Node851300" />
-            <edge id="_Edge851304" source="_Node851183" target="_Node851303" />
-            <edge id="_Edge851306" source="_Node851303" target="_Node851305" />
-            <edge id="_Edge851309" source="_Node851303" target="_Node851308" />
+            <node id="_Node1446268" />
+            <node id="_Node1446270" />
+            <node id="_Node1446272" />
+            <node id="_Node1446274" />
+            <node id="_Node1446276" />
+            <node id="_Node1446278" />
+            <node id="_Node1446280" />
+            <node id="_Node1446282" otu="Cestrumelegans" />
+            <node id="_Node1446285" otu="Cestrumnocturnum" />
+            <node id="_Node1446288" otu="Vestialycioides" />
+            <node id="_Node1446291" />
+            <node id="_Node1446293" otu="Browalliaamericana" />
+            <node id="_Node1446296" otu="Streptosolenjamesonii" />
+            <node id="_Node1446299" otu="Schwenckiaamericana" />
+            <node id="_Node1446302" />
+            <node id="_Node1446304" />
+            <node id="_Node1446306" />
+            <node id="_Node1446308" otu="Anthocercislittorea" />
+            <node id="_Node1446311" otu="Nicotianatabacum" />
+            <node id="_Node1446314" />
+            <node id="_Node1446316" />
+            <node id="_Node1446318" />
+            <node id="_Node1446320" />
+            <node id="_Node1446322" />
+            <node id="_Node1446324" />
+            <node id="_Node1446326" otu="Brugmansiasp." />
+            <node id="_Node1446329" otu="Daturastramonium" />
+            <node id="_Node1446332" />
+            <node id="_Node1446334" />
+            <node id="_Node1446336" otu="Solanumdulcamara" />
+            <node id="_Node1446339" />
+            <node id="_Node1446341" otu="Capsicumannuum" />
+            <node id="_Node1446344" otu="Physalisvirginiana" />
+            <node id="_Node1446347" otu="Nicandraphysalodes" />
+            <node id="_Node1446350" />
+            <node id="_Node1446352" otu="Juanulloaaurantiaca" />
+            <node id="_Node1446355" otu="Solandramaxima" />
+            <node id="_Node1446358" />
+            <node id="_Node1446360" otu="Hyoscyamusalbus" />
+            <node id="_Node1446363" otu="Atropabelladonna" />
+            <node id="_Node1446366" />
+            <node id="_Node1446368" otu="Lyciumferocissimum" />
+            <node id="_Node1446371" otu="Nolanasp." />
+            <node id="_Node1446374" otu="Exodeconusmiersii" />
+            <node id="_Node1446377" />
+            <node id="_Node1446379" otu="Petuniaaxillaris" />
+            <node id="_Node1446382" otu="Brunfelsiaamericana" />
+            <node id="_Node1446385" otu="Schizanthuspinnatus" />
+            <node id="_Node1446388" />
+            <node id="_Node1446390" otu="Stephanotisfloribunda" />
+            <node id="_Node1446393" otu="Ipomoeaalba" />
+            <rootedge id="_Edge1446269" target="_Node1446268" />
+            <edge id="_Edge1446271" source="_Node1446268" target="_Node1446270" />
+            <edge id="_Edge1446273" source="_Node1446270" target="_Node1446272" />
+            <edge id="_Edge1446275" source="_Node1446272" target="_Node1446274" />
+            <edge id="_Edge1446277" source="_Node1446274" target="_Node1446276" />
+            <edge id="_Edge1446279" source="_Node1446276" target="_Node1446278" />
+            <edge id="_Edge1446281" source="_Node1446278" target="_Node1446280" />
+            <edge id="_Edge1446283" source="_Node1446280" target="_Node1446282" />
+            <edge id="_Edge1446286" source="_Node1446280" target="_Node1446285" />
+            <edge id="_Edge1446289" source="_Node1446278" target="_Node1446288" />
+            <edge id="_Edge1446292" source="_Node1446276" target="_Node1446291" />
+            <edge id="_Edge1446294" source="_Node1446291" target="_Node1446293" />
+            <edge id="_Edge1446297" source="_Node1446291" target="_Node1446296" />
+            <edge id="_Edge1446300" source="_Node1446274" target="_Node1446299" />
+            <edge id="_Edge1446303" source="_Node1446272" target="_Node1446302" />
+            <edge id="_Edge1446305" source="_Node1446302" target="_Node1446304" />
+            <edge id="_Edge1446307" source="_Node1446304" target="_Node1446306" />
+            <edge id="_Edge1446309" source="_Node1446306" target="_Node1446308" />
+            <edge id="_Edge1446312" source="_Node1446306" target="_Node1446311" />
+            <edge id="_Edge1446315" source="_Node1446304" target="_Node1446314" />
+            <edge id="_Edge1446317" source="_Node1446314" target="_Node1446316" />
+            <edge id="_Edge1446319" source="_Node1446316" target="_Node1446318" />
+            <edge id="_Edge1446321" source="_Node1446318" target="_Node1446320" />
+            <edge id="_Edge1446323" source="_Node1446320" target="_Node1446322" />
+            <edge id="_Edge1446325" source="_Node1446322" target="_Node1446324" />
+            <edge id="_Edge1446327" source="_Node1446324" target="_Node1446326" />
+            <edge id="_Edge1446330" source="_Node1446324" target="_Node1446329" />
+            <edge id="_Edge1446333" source="_Node1446322" target="_Node1446332" />
+            <edge id="_Edge1446335" source="_Node1446332" target="_Node1446334" />
+            <edge id="_Edge1446337" source="_Node1446334" target="_Node1446336" />
+            <edge id="_Edge1446340" source="_Node1446334" target="_Node1446339" />
+            <edge id="_Edge1446342" source="_Node1446339" target="_Node1446341" />
+            <edge id="_Edge1446345" source="_Node1446339" target="_Node1446344" />
+            <edge id="_Edge1446348" source="_Node1446332" target="_Node1446347" />
+            <edge id="_Edge1446351" source="_Node1446320" target="_Node1446350" />
+            <edge id="_Edge1446353" source="_Node1446350" target="_Node1446352" />
+            <edge id="_Edge1446356" source="_Node1446350" target="_Node1446355" />
+            <edge id="_Edge1446359" source="_Node1446318" target="_Node1446358" />
+            <edge id="_Edge1446361" source="_Node1446358" target="_Node1446360" />
+            <edge id="_Edge1446364" source="_Node1446358" target="_Node1446363" />
+            <edge id="_Edge1446367" source="_Node1446316" target="_Node1446366" />
+            <edge id="_Edge1446369" source="_Node1446366" target="_Node1446368" />
+            <edge id="_Edge1446372" source="_Node1446366" target="_Node1446371" />
+            <edge id="_Edge1446375" source="_Node1446314" target="_Node1446374" />
+            <edge id="_Edge1446378" source="_Node1446302" target="_Node1446377" />
+            <edge id="_Edge1446380" source="_Node1446377" target="_Node1446379" />
+            <edge id="_Edge1446383" source="_Node1446377" target="_Node1446382" />
+            <edge id="_Edge1446386" source="_Node1446270" target="_Node1446385" />
+            <edge id="_Edge1446389" source="_Node1446268" target="_Node1446388" />
+            <edge id="_Edge1446391" source="_Node1446388" target="_Node1446390" />
+            <edge id="_Edge1446394" source="_Node1446388" target="_Node1446393" />
         </tree>
     </trees>
 </nex:nexml>

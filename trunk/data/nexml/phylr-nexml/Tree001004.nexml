@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S461"><citation>Vandemark, G., O. Martinez, V. Pecina, and M. Alvarado. 2000. Assessment of genetic relationships among isolates of Macrophomina phaseolina using a simplified AFLP technique and two different methods of analysis. Mycologia, in press.</citation><author email="malvarad@irapuato.ira.cinvestav.mx" firstname="Maria de Jesus" lastname="Alvarado" /><author email="omartine@irapuato.ira.cinvestav.mx" firstname="Octavio" lastname="Martinez" /><author email="vpecina@irapuato.ira.cinvestav.mx" firstname="Victor" lastname="Pecina" /><author email="gvandema@tricity.wsu.edu" firstname="George" lastname="Vandemark" /></study></nex:external>
-    <otus id="_TaxaBlock225308">
+    <otus id="_TaxaBlock384062">
         <otu id="Macrophominaphaseolinaiso117" label="Macrophomina phaseolina iso 117" />
         <otu id="Macrophominaphaseolinaiso24" label="Macrophomina phaseolina iso 24" />
         <otu id="Macrophominaphaseolinaiso87" label="Macrophomina phaseolina iso 87" />
@@ -33,103 +33,103 @@
         <otu id="Macrophominaphaseolinaiso67" label="Macrophomina phaseolina iso 67" />
         <otu id="Macrophominaphaseolinaiso92" label="Macrophomina phaseolina iso 92" />
     </otus>
-    <trees id="_TreesBlock225309" otus="_TaxaBlock225308">
-        <tree id="_Tree225310" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock384063" otus="_TaxaBlock384062">
+        <tree id="_Tree384064" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Genetic Distance" id="S461A597" software="Ni and Li Distance"><inputmatrix datatype="AFLP" name="AFLP of Macrophomina phaseolina" nchar="312" /></analysis></nex:external>
-            <node id="_Node225313" />
-            <node id="_Node225315" />
-            <node id="_Node225317" />
-            <node id="_Node225319" />
-            <node id="_Node225321" />
-            <node id="_Node225323" />
-            <node id="_Node225325" />
-            <node id="_Node225327" />
-            <node id="_Node225329" />
-            <node id="_Node225331" otu="Macrophominaphaseolinaiso117" />
-            <node id="_Node225334" otu="Macrophominaphaseolinaiso24" />
-            <node id="_Node225337" otu="Macrophominaphaseolinaiso87" />
-            <node id="_Node225340" otu="Macrophominaphaseolinaiso8" />
-            <node id="_Node225343" otu="Macrophominaphaseolinaiso65" />
-            <node id="_Node225346" />
-            <node id="_Node225348" otu="Macrophominaphaseolinaiso70" />
-            <node id="_Node225351" otu="Macrophominaphaseolinaiso53" />
-            <node id="_Node225354" />
-            <node id="_Node225356" />
-            <node id="_Node225358" />
-            <node id="_Node225360" />
-            <node id="_Node225362" />
-            <node id="_Node225364" />
-            <node id="_Node225366" />
-            <node id="_Node225368" otu="Macrophominaphaseolinaiso18" />
-            <node id="_Node225371" otu="Macrophominaphaseolinaiso12" />
-            <node id="_Node225374" otu="Macrophominaphaseolinaiso73" />
-            <node id="_Node225377" otu="Macrophominaphaseolinaiso64" />
-            <node id="_Node225380" otu="Macrophominaphaseolinaiso54" />
-            <node id="_Node225383" otu="Macrophominaphaseolinaiso1" />
-            <node id="_Node225386" otu="Macrophominaphaseolinaiso94" />
-            <node id="_Node225389" otu="Macrophominaphaseolinaiso91" />
-            <node id="_Node225392" />
-            <node id="_Node225394" />
-            <node id="_Node225396" />
-            <node id="_Node225398" otu="Macrophominaphaseolinaiso84" />
-            <node id="_Node225401" otu="Macrophominaphaseolinaiso11" />
-            <node id="_Node225404" otu="Macrophominaphaseolinaiso77" />
-            <node id="_Node225407" otu="Macrophominaphaseolinaiso40" />
-            <node id="_Node225410" />
-            <node id="_Node225412" otu="Macrophominaphaseolinaiso105" />
-            <node id="_Node225415" otu="Macrophominaphaseolinaiso43" />
-            <node id="_Node225418" />
-            <node id="_Node225420" />
-            <node id="_Node225422" otu="Macrophominaphaseolinaiso96" />
-            <node id="_Node225425" otu="Macrophominaphaseolinaiso67" />
-            <node id="_Node225428" otu="Macrophominaphaseolinaiso92" />
-            <rootedge id="_Edge225314" target="_Node225313" />
-            <edge id="_Edge225316" source="_Node225313" target="_Node225315" />
-            <edge id="_Edge225318" source="_Node225315" target="_Node225317" />
-            <edge id="_Edge225320" source="_Node225317" target="_Node225319" />
-            <edge id="_Edge225322" source="_Node225319" target="_Node225321" />
-            <edge id="_Edge225324" source="_Node225321" target="_Node225323" />
-            <edge id="_Edge225326" source="_Node225323" target="_Node225325" />
-            <edge id="_Edge225328" source="_Node225325" target="_Node225327" />
-            <edge id="_Edge225330" source="_Node225327" target="_Node225329" />
-            <edge id="_Edge225332" source="_Node225329" target="_Node225331" />
-            <edge id="_Edge225335" source="_Node225329" target="_Node225334" />
-            <edge id="_Edge225338" source="_Node225327" target="_Node225337" />
-            <edge id="_Edge225341" source="_Node225325" target="_Node225340" />
-            <edge id="_Edge225344" source="_Node225323" target="_Node225343" />
-            <edge id="_Edge225347" source="_Node225321" target="_Node225346" />
-            <edge id="_Edge225349" source="_Node225346" target="_Node225348" />
-            <edge id="_Edge225352" source="_Node225346" target="_Node225351" />
-            <edge id="_Edge225355" source="_Node225319" target="_Node225354" />
-            <edge id="_Edge225357" source="_Node225354" target="_Node225356" />
-            <edge id="_Edge225359" source="_Node225356" target="_Node225358" />
-            <edge id="_Edge225361" source="_Node225358" target="_Node225360" />
-            <edge id="_Edge225363" source="_Node225360" target="_Node225362" />
-            <edge id="_Edge225365" source="_Node225362" target="_Node225364" />
-            <edge id="_Edge225367" source="_Node225364" target="_Node225366" />
-            <edge id="_Edge225369" source="_Node225366" target="_Node225368" />
-            <edge id="_Edge225372" source="_Node225366" target="_Node225371" />
-            <edge id="_Edge225375" source="_Node225364" target="_Node225374" />
-            <edge id="_Edge225378" source="_Node225362" target="_Node225377" />
-            <edge id="_Edge225381" source="_Node225360" target="_Node225380" />
-            <edge id="_Edge225384" source="_Node225358" target="_Node225383" />
-            <edge id="_Edge225387" source="_Node225356" target="_Node225386" />
-            <edge id="_Edge225390" source="_Node225354" target="_Node225389" />
-            <edge id="_Edge225393" source="_Node225317" target="_Node225392" />
-            <edge id="_Edge225395" source="_Node225392" target="_Node225394" />
-            <edge id="_Edge225397" source="_Node225394" target="_Node225396" />
-            <edge id="_Edge225399" source="_Node225396" target="_Node225398" />
-            <edge id="_Edge225402" source="_Node225396" target="_Node225401" />
-            <edge id="_Edge225405" source="_Node225394" target="_Node225404" />
-            <edge id="_Edge225408" source="_Node225392" target="_Node225407" />
-            <edge id="_Edge225411" source="_Node225315" target="_Node225410" />
-            <edge id="_Edge225413" source="_Node225410" target="_Node225412" />
-            <edge id="_Edge225416" source="_Node225410" target="_Node225415" />
-            <edge id="_Edge225419" source="_Node225313" target="_Node225418" />
-            <edge id="_Edge225421" source="_Node225418" target="_Node225420" />
-            <edge id="_Edge225423" source="_Node225420" target="_Node225422" />
-            <edge id="_Edge225426" source="_Node225420" target="_Node225425" />
-            <edge id="_Edge225429" source="_Node225418" target="_Node225428" />
+            <node id="_Node384067" />
+            <node id="_Node384069" />
+            <node id="_Node384071" />
+            <node id="_Node384073" />
+            <node id="_Node384075" />
+            <node id="_Node384077" />
+            <node id="_Node384079" />
+            <node id="_Node384081" />
+            <node id="_Node384083" />
+            <node id="_Node384085" otu="Macrophominaphaseolinaiso117" />
+            <node id="_Node384088" otu="Macrophominaphaseolinaiso24" />
+            <node id="_Node384091" otu="Macrophominaphaseolinaiso87" />
+            <node id="_Node384094" otu="Macrophominaphaseolinaiso8" />
+            <node id="_Node384097" otu="Macrophominaphaseolinaiso65" />
+            <node id="_Node384100" />
+            <node id="_Node384102" otu="Macrophominaphaseolinaiso70" />
+            <node id="_Node384105" otu="Macrophominaphaseolinaiso53" />
+            <node id="_Node384108" />
+            <node id="_Node384110" />
+            <node id="_Node384112" />
+            <node id="_Node384114" />
+            <node id="_Node384116" />
+            <node id="_Node384118" />
+            <node id="_Node384120" />
+            <node id="_Node384122" otu="Macrophominaphaseolinaiso18" />
+            <node id="_Node384125" otu="Macrophominaphaseolinaiso12" />
+            <node id="_Node384128" otu="Macrophominaphaseolinaiso73" />
+            <node id="_Node384131" otu="Macrophominaphaseolinaiso64" />
+            <node id="_Node384134" otu="Macrophominaphaseolinaiso54" />
+            <node id="_Node384137" otu="Macrophominaphaseolinaiso1" />
+            <node id="_Node384140" otu="Macrophominaphaseolinaiso94" />
+            <node id="_Node384143" otu="Macrophominaphaseolinaiso91" />
+            <node id="_Node384146" />
+            <node id="_Node384148" />
+            <node id="_Node384150" />
+            <node id="_Node384152" otu="Macrophominaphaseolinaiso84" />
+            <node id="_Node384155" otu="Macrophominaphaseolinaiso11" />
+            <node id="_Node384158" otu="Macrophominaphaseolinaiso77" />
+            <node id="_Node384161" otu="Macrophominaphaseolinaiso40" />
+            <node id="_Node384164" />
+            <node id="_Node384166" otu="Macrophominaphaseolinaiso105" />
+            <node id="_Node384169" otu="Macrophominaphaseolinaiso43" />
+            <node id="_Node384172" />
+            <node id="_Node384174" />
+            <node id="_Node384176" otu="Macrophominaphaseolinaiso96" />
+            <node id="_Node384179" otu="Macrophominaphaseolinaiso67" />
+            <node id="_Node384182" otu="Macrophominaphaseolinaiso92" />
+            <rootedge id="_Edge384068" target="_Node384067" />
+            <edge id="_Edge384070" source="_Node384067" target="_Node384069" />
+            <edge id="_Edge384072" source="_Node384069" target="_Node384071" />
+            <edge id="_Edge384074" source="_Node384071" target="_Node384073" />
+            <edge id="_Edge384076" source="_Node384073" target="_Node384075" />
+            <edge id="_Edge384078" source="_Node384075" target="_Node384077" />
+            <edge id="_Edge384080" source="_Node384077" target="_Node384079" />
+            <edge id="_Edge384082" source="_Node384079" target="_Node384081" />
+            <edge id="_Edge384084" source="_Node384081" target="_Node384083" />
+            <edge id="_Edge384086" source="_Node384083" target="_Node384085" />
+            <edge id="_Edge384089" source="_Node384083" target="_Node384088" />
+            <edge id="_Edge384092" source="_Node384081" target="_Node384091" />
+            <edge id="_Edge384095" source="_Node384079" target="_Node384094" />
+            <edge id="_Edge384098" source="_Node384077" target="_Node384097" />
+            <edge id="_Edge384101" source="_Node384075" target="_Node384100" />
+            <edge id="_Edge384103" source="_Node384100" target="_Node384102" />
+            <edge id="_Edge384106" source="_Node384100" target="_Node384105" />
+            <edge id="_Edge384109" source="_Node384073" target="_Node384108" />
+            <edge id="_Edge384111" source="_Node384108" target="_Node384110" />
+            <edge id="_Edge384113" source="_Node384110" target="_Node384112" />
+            <edge id="_Edge384115" source="_Node384112" target="_Node384114" />
+            <edge id="_Edge384117" source="_Node384114" target="_Node384116" />
+            <edge id="_Edge384119" source="_Node384116" target="_Node384118" />
+            <edge id="_Edge384121" source="_Node384118" target="_Node384120" />
+            <edge id="_Edge384123" source="_Node384120" target="_Node384122" />
+            <edge id="_Edge384126" source="_Node384120" target="_Node384125" />
+            <edge id="_Edge384129" source="_Node384118" target="_Node384128" />
+            <edge id="_Edge384132" source="_Node384116" target="_Node384131" />
+            <edge id="_Edge384135" source="_Node384114" target="_Node384134" />
+            <edge id="_Edge384138" source="_Node384112" target="_Node384137" />
+            <edge id="_Edge384141" source="_Node384110" target="_Node384140" />
+            <edge id="_Edge384144" source="_Node384108" target="_Node384143" />
+            <edge id="_Edge384147" source="_Node384071" target="_Node384146" />
+            <edge id="_Edge384149" source="_Node384146" target="_Node384148" />
+            <edge id="_Edge384151" source="_Node384148" target="_Node384150" />
+            <edge id="_Edge384153" source="_Node384150" target="_Node384152" />
+            <edge id="_Edge384156" source="_Node384150" target="_Node384155" />
+            <edge id="_Edge384159" source="_Node384148" target="_Node384158" />
+            <edge id="_Edge384162" source="_Node384146" target="_Node384161" />
+            <edge id="_Edge384165" source="_Node384069" target="_Node384164" />
+            <edge id="_Edge384167" source="_Node384164" target="_Node384166" />
+            <edge id="_Edge384170" source="_Node384164" target="_Node384169" />
+            <edge id="_Edge384173" source="_Node384067" target="_Node384172" />
+            <edge id="_Edge384175" source="_Node384172" target="_Node384174" />
+            <edge id="_Edge384177" source="_Node384174" target="_Node384176" />
+            <edge id="_Edge384180" source="_Node384174" target="_Node384179" />
+            <edge id="_Edge384183" source="_Node384172" target="_Node384182" />
         </tree>
     </trees>
 </nex:nexml>

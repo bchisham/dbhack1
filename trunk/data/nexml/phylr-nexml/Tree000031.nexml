@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S11x4x95c21c16c44"><citation>Crisci, J. V., and P. E. Berry. 1990. A phylogenetic reevaluation of the Old World species of Fuchsia. Ann. Mo. Bot. Gard. 77:517-522.</citation><author firstname="P. E. " lastname="Berry" /><author email="crisci@fcnym.unlp.edu.ar" firstname="Jorge V. " lastname="Crisci" /></study></nex:external>
-    <otus id="_TaxaBlock4850">
+    <otus id="_TaxaBlock8328">
         <otu id="OutgrouptoSkinnera" label="Outgroup to Skinnera" />
         <otu id="Fuchsiacyrtandroides" label="Fuchsia cyrtandroides" />
         <otu id="Fuchsiaprocumbens" label="Fuchsia procumbens" />
         <otu id="Fuchsiaperscandens" label="Fuchsia perscandens" />
         <otu id="Fuchsiaexcorticata" label="Fuchsia excorticata" />
     </otus>
-    <trees id="_TreesBlock4851" otus="_TaxaBlock4850">
-        <tree id="_Tree4852" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock8329" otus="_TaxaBlock8328">
+        <tree id="_Tree8330" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="Parsimony" id="A9c11x4x95c21c20c20" software="Hennig86"><inputmatrix datatype="Morphological" name="Table 2" nchar="17" /></analysis></nex:external>
-            <node id="_Node4855" />
-            <node id="_Node4857" otu="OutgrouptoSkinnera" />
-            <node id="_Node4860" />
-            <node id="_Node4862" otu="Fuchsiacyrtandroides" />
-            <node id="_Node4865" />
-            <node id="_Node4867" otu="Fuchsiaprocumbens" />
-            <node id="_Node4870" />
-            <node id="_Node4872" otu="Fuchsiaperscandens" />
-            <node id="_Node4875" otu="Fuchsiaexcorticata" />
-            <rootedge id="_Edge4856" target="_Node4855" />
-            <edge id="_Edge4858" source="_Node4855" target="_Node4857" />
-            <edge id="_Edge4861" source="_Node4855" target="_Node4860" />
-            <edge id="_Edge4863" source="_Node4860" target="_Node4862" />
-            <edge id="_Edge4866" source="_Node4860" target="_Node4865" />
-            <edge id="_Edge4868" source="_Node4865" target="_Node4867" />
-            <edge id="_Edge4871" source="_Node4865" target="_Node4870" />
-            <edge id="_Edge4873" source="_Node4870" target="_Node4872" />
-            <edge id="_Edge4876" source="_Node4870" target="_Node4875" />
+            <node id="_Node8333" />
+            <node id="_Node8335" otu="OutgrouptoSkinnera" />
+            <node id="_Node8338" />
+            <node id="_Node8340" otu="Fuchsiacyrtandroides" />
+            <node id="_Node8343" />
+            <node id="_Node8345" otu="Fuchsiaprocumbens" />
+            <node id="_Node8348" />
+            <node id="_Node8350" otu="Fuchsiaperscandens" />
+            <node id="_Node8353" otu="Fuchsiaexcorticata" />
+            <rootedge id="_Edge8334" target="_Node8333" />
+            <edge id="_Edge8336" source="_Node8333" target="_Node8335" />
+            <edge id="_Edge8339" source="_Node8333" target="_Node8338" />
+            <edge id="_Edge8341" source="_Node8338" target="_Node8340" />
+            <edge id="_Edge8344" source="_Node8338" target="_Node8343" />
+            <edge id="_Edge8346" source="_Node8343" target="_Node8345" />
+            <edge id="_Edge8349" source="_Node8343" target="_Node8348" />
+            <edge id="_Edge8351" source="_Node8348" target="_Node8350" />
+            <edge id="_Edge8354" source="_Node8348" target="_Node8353" />
         </tree>
     </trees>
 </nex:nexml>

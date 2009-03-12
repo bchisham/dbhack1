@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S1473"><citation>Forest, F. and J.C. Manning. 2006. Evidence for Inclusion of South African Endemic Nylandtia in Muraltia (Polygalaceae). Systematic Botany, in press. </citation><author email="f.forest@rbgkew.org.uk" firstname="Felix" lastname="Forest" /><author firstname="John C." lastname="Manning" /></study></nex:external>
-    <otus id="_TaxaBlock1168083">
+    <otus id="_TaxaBlock1984113">
         <otu id="Muraltiaflanaganii" label="Muraltia flanaganii" />
         <otu id="Muraltiajuniperifolia" label="Muraltia juniperifolia" />
         <otu id="Muraltiabondii" label="Muraltia bondii" />
@@ -35,111 +35,111 @@
         <otu id="Polygalabracteolata" label="Polygala bracteolata" />
         <otu id="Polygalamyrtifolia" label="Polygala myrtifolia" />
     </otus>
-    <trees id="_TreesBlock1168084" otus="_TaxaBlock1168083">
-        <tree id="_Tree1168085" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock1984114" otus="_TaxaBlock1984113">
+        <tree id="_Tree1984115" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S1473A5392" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="Nylandtia Forest Manning" nchar="4253" /></analysis></nex:external>
-            <node id="_Node1168088" />
-            <node id="_Node1168090" />
-            <node id="_Node1168092" />
-            <node id="_Node1168094" />
-            <node id="_Node1168096" otu="Muraltiaflanaganii" />
-            <node id="_Node1168099" />
-            <node id="_Node1168101" otu="Muraltiajuniperifolia" />
-            <node id="_Node1168104" otu="Muraltiabondii" />
-            <node id="_Node1168107" />
-            <node id="_Node1168109" />
-            <node id="_Node1168111" otu="Muraltiabrevicornu" />
-            <node id="_Node1168114" />
-            <node id="_Node1168116" />
-            <node id="_Node1168118" otu="Muraltiarigida" />
-            <node id="_Node1168121" />
-            <node id="_Node1168123" />
-            <node id="_Node1168125" otu="Muraltiahorrida" />
-            <node id="_Node1168128" otu="Muraltiascoparia" />
-            <node id="_Node1168131" />
-            <node id="_Node1168133" otu="Muraltiatrinervia" />
-            <node id="_Node1168136" otu="Muraltiamuraltioides" />
-            <node id="_Node1168139" otu="Muraltialeptorhiza" />
-            <node id="_Node1168142" />
-            <node id="_Node1168144" otu="Muraltiacrassifolia" />
-            <node id="_Node1168147" />
-            <node id="_Node1168149" />
-            <node id="_Node1168151" />
-            <node id="_Node1168153" otu="Muraltiaangulosa" />
-            <node id="_Node1168156" otu="Muraltiapauciflora" />
-            <node id="_Node1168159" otu="Muraltiaoxysepala" />
-            <node id="_Node1168162" />
-            <node id="_Node1168164" />
-            <node id="_Node1168166" otu="Nylandtiaspinosa" />
-            <node id="_Node1168169" otu="Nylandtiasp.247" />
-            <node id="_Node1168172" otu="Nylandtiascoparia" />
-            <node id="_Node1168175" />
-            <node id="_Node1168177" />
-            <node id="_Node1168179" />
-            <node id="_Node1168181" otu="Muraltiapungens" />
-            <node id="_Node1168184" />
-            <node id="_Node1168186" />
-            <node id="_Node1168188" />
-            <node id="_Node1168190" otu="Muraltiaericoides" />
-            <node id="_Node1168193" otu="Muraltiaheisteria" />
-            <node id="_Node1168196" otu="Muraltiaalba" />
-            <node id="_Node1168199" otu="Muraltiadecipiens" />
-            <node id="_Node1168202" otu="Muraltiaconcava" />
-            <node id="_Node1168205" otu="Muraltiaspicata" />
-            <node id="_Node1168208" />
-            <node id="_Node1168210" otu="Polygalabracteolata" />
-            <node id="_Node1168213" otu="Polygalamyrtifolia" />
-            <rootedge id="_Edge1168089" target="_Node1168088" />
-            <edge id="_Edge1168091" source="_Node1168088" target="_Node1168090" />
-            <edge id="_Edge1168093" source="_Node1168090" target="_Node1168092" />
-            <edge id="_Edge1168095" source="_Node1168092" target="_Node1168094" />
-            <edge id="_Edge1168097" source="_Node1168094" target="_Node1168096" />
-            <edge id="_Edge1168100" source="_Node1168094" target="_Node1168099" />
-            <edge id="_Edge1168102" source="_Node1168099" target="_Node1168101" />
-            <edge id="_Edge1168105" source="_Node1168099" target="_Node1168104" />
-            <edge id="_Edge1168108" source="_Node1168092" target="_Node1168107" />
-            <edge id="_Edge1168110" source="_Node1168107" target="_Node1168109" />
-            <edge id="_Edge1168112" source="_Node1168109" target="_Node1168111" />
-            <edge id="_Edge1168115" source="_Node1168109" target="_Node1168114" />
-            <edge id="_Edge1168117" source="_Node1168114" target="_Node1168116" />
-            <edge id="_Edge1168119" source="_Node1168116" target="_Node1168118" />
-            <edge id="_Edge1168122" source="_Node1168116" target="_Node1168121" />
-            <edge id="_Edge1168124" source="_Node1168121" target="_Node1168123" />
-            <edge id="_Edge1168126" source="_Node1168123" target="_Node1168125" />
-            <edge id="_Edge1168129" source="_Node1168123" target="_Node1168128" />
-            <edge id="_Edge1168132" source="_Node1168121" target="_Node1168131" />
-            <edge id="_Edge1168134" source="_Node1168131" target="_Node1168133" />
-            <edge id="_Edge1168137" source="_Node1168131" target="_Node1168136" />
-            <edge id="_Edge1168140" source="_Node1168114" target="_Node1168139" />
-            <edge id="_Edge1168143" source="_Node1168107" target="_Node1168142" />
-            <edge id="_Edge1168145" source="_Node1168142" target="_Node1168144" />
-            <edge id="_Edge1168148" source="_Node1168142" target="_Node1168147" />
-            <edge id="_Edge1168150" source="_Node1168147" target="_Node1168149" />
-            <edge id="_Edge1168152" source="_Node1168149" target="_Node1168151" />
-            <edge id="_Edge1168154" source="_Node1168151" target="_Node1168153" />
-            <edge id="_Edge1168157" source="_Node1168151" target="_Node1168156" />
-            <edge id="_Edge1168160" source="_Node1168149" target="_Node1168159" />
-            <edge id="_Edge1168163" source="_Node1168147" target="_Node1168162" />
-            <edge id="_Edge1168165" source="_Node1168162" target="_Node1168164" />
-            <edge id="_Edge1168167" source="_Node1168164" target="_Node1168166" />
-            <edge id="_Edge1168170" source="_Node1168164" target="_Node1168169" />
-            <edge id="_Edge1168173" source="_Node1168162" target="_Node1168172" />
-            <edge id="_Edge1168176" source="_Node1168090" target="_Node1168175" />
-            <edge id="_Edge1168178" source="_Node1168175" target="_Node1168177" />
-            <edge id="_Edge1168180" source="_Node1168177" target="_Node1168179" />
-            <edge id="_Edge1168182" source="_Node1168179" target="_Node1168181" />
-            <edge id="_Edge1168185" source="_Node1168179" target="_Node1168184" />
-            <edge id="_Edge1168187" source="_Node1168184" target="_Node1168186" />
-            <edge id="_Edge1168189" source="_Node1168186" target="_Node1168188" />
-            <edge id="_Edge1168191" source="_Node1168188" target="_Node1168190" />
-            <edge id="_Edge1168194" source="_Node1168188" target="_Node1168193" />
-            <edge id="_Edge1168197" source="_Node1168186" target="_Node1168196" />
-            <edge id="_Edge1168200" source="_Node1168184" target="_Node1168199" />
-            <edge id="_Edge1168203" source="_Node1168177" target="_Node1168202" />
-            <edge id="_Edge1168206" source="_Node1168175" target="_Node1168205" />
-            <edge id="_Edge1168209" source="_Node1168088" target="_Node1168208" />
-            <edge id="_Edge1168211" source="_Node1168208" target="_Node1168210" />
-            <edge id="_Edge1168214" source="_Node1168208" target="_Node1168213" />
+            <node id="_Node1984118" />
+            <node id="_Node1984120" />
+            <node id="_Node1984122" />
+            <node id="_Node1984124" />
+            <node id="_Node1984126" otu="Muraltiaflanaganii" />
+            <node id="_Node1984129" />
+            <node id="_Node1984131" otu="Muraltiajuniperifolia" />
+            <node id="_Node1984134" otu="Muraltiabondii" />
+            <node id="_Node1984137" />
+            <node id="_Node1984139" />
+            <node id="_Node1984141" otu="Muraltiabrevicornu" />
+            <node id="_Node1984144" />
+            <node id="_Node1984146" />
+            <node id="_Node1984148" otu="Muraltiarigida" />
+            <node id="_Node1984151" />
+            <node id="_Node1984153" />
+            <node id="_Node1984155" otu="Muraltiahorrida" />
+            <node id="_Node1984158" otu="Muraltiascoparia" />
+            <node id="_Node1984161" />
+            <node id="_Node1984163" otu="Muraltiatrinervia" />
+            <node id="_Node1984166" otu="Muraltiamuraltioides" />
+            <node id="_Node1984169" otu="Muraltialeptorhiza" />
+            <node id="_Node1984172" />
+            <node id="_Node1984174" otu="Muraltiacrassifolia" />
+            <node id="_Node1984177" />
+            <node id="_Node1984179" />
+            <node id="_Node1984181" />
+            <node id="_Node1984183" otu="Muraltiaangulosa" />
+            <node id="_Node1984186" otu="Muraltiapauciflora" />
+            <node id="_Node1984189" otu="Muraltiaoxysepala" />
+            <node id="_Node1984192" />
+            <node id="_Node1984194" />
+            <node id="_Node1984196" otu="Nylandtiaspinosa" />
+            <node id="_Node1984199" otu="Nylandtiasp.247" />
+            <node id="_Node1984202" otu="Nylandtiascoparia" />
+            <node id="_Node1984205" />
+            <node id="_Node1984207" />
+            <node id="_Node1984209" />
+            <node id="_Node1984211" otu="Muraltiapungens" />
+            <node id="_Node1984214" />
+            <node id="_Node1984216" />
+            <node id="_Node1984218" />
+            <node id="_Node1984220" otu="Muraltiaericoides" />
+            <node id="_Node1984223" otu="Muraltiaheisteria" />
+            <node id="_Node1984226" otu="Muraltiaalba" />
+            <node id="_Node1984229" otu="Muraltiadecipiens" />
+            <node id="_Node1984232" otu="Muraltiaconcava" />
+            <node id="_Node1984235" otu="Muraltiaspicata" />
+            <node id="_Node1984238" />
+            <node id="_Node1984240" otu="Polygalabracteolata" />
+            <node id="_Node1984243" otu="Polygalamyrtifolia" />
+            <rootedge id="_Edge1984119" target="_Node1984118" />
+            <edge id="_Edge1984121" source="_Node1984118" target="_Node1984120" />
+            <edge id="_Edge1984123" source="_Node1984120" target="_Node1984122" />
+            <edge id="_Edge1984125" source="_Node1984122" target="_Node1984124" />
+            <edge id="_Edge1984127" source="_Node1984124" target="_Node1984126" />
+            <edge id="_Edge1984130" source="_Node1984124" target="_Node1984129" />
+            <edge id="_Edge1984132" source="_Node1984129" target="_Node1984131" />
+            <edge id="_Edge1984135" source="_Node1984129" target="_Node1984134" />
+            <edge id="_Edge1984138" source="_Node1984122" target="_Node1984137" />
+            <edge id="_Edge1984140" source="_Node1984137" target="_Node1984139" />
+            <edge id="_Edge1984142" source="_Node1984139" target="_Node1984141" />
+            <edge id="_Edge1984145" source="_Node1984139" target="_Node1984144" />
+            <edge id="_Edge1984147" source="_Node1984144" target="_Node1984146" />
+            <edge id="_Edge1984149" source="_Node1984146" target="_Node1984148" />
+            <edge id="_Edge1984152" source="_Node1984146" target="_Node1984151" />
+            <edge id="_Edge1984154" source="_Node1984151" target="_Node1984153" />
+            <edge id="_Edge1984156" source="_Node1984153" target="_Node1984155" />
+            <edge id="_Edge1984159" source="_Node1984153" target="_Node1984158" />
+            <edge id="_Edge1984162" source="_Node1984151" target="_Node1984161" />
+            <edge id="_Edge1984164" source="_Node1984161" target="_Node1984163" />
+            <edge id="_Edge1984167" source="_Node1984161" target="_Node1984166" />
+            <edge id="_Edge1984170" source="_Node1984144" target="_Node1984169" />
+            <edge id="_Edge1984173" source="_Node1984137" target="_Node1984172" />
+            <edge id="_Edge1984175" source="_Node1984172" target="_Node1984174" />
+            <edge id="_Edge1984178" source="_Node1984172" target="_Node1984177" />
+            <edge id="_Edge1984180" source="_Node1984177" target="_Node1984179" />
+            <edge id="_Edge1984182" source="_Node1984179" target="_Node1984181" />
+            <edge id="_Edge1984184" source="_Node1984181" target="_Node1984183" />
+            <edge id="_Edge1984187" source="_Node1984181" target="_Node1984186" />
+            <edge id="_Edge1984190" source="_Node1984179" target="_Node1984189" />
+            <edge id="_Edge1984193" source="_Node1984177" target="_Node1984192" />
+            <edge id="_Edge1984195" source="_Node1984192" target="_Node1984194" />
+            <edge id="_Edge1984197" source="_Node1984194" target="_Node1984196" />
+            <edge id="_Edge1984200" source="_Node1984194" target="_Node1984199" />
+            <edge id="_Edge1984203" source="_Node1984192" target="_Node1984202" />
+            <edge id="_Edge1984206" source="_Node1984120" target="_Node1984205" />
+            <edge id="_Edge1984208" source="_Node1984205" target="_Node1984207" />
+            <edge id="_Edge1984210" source="_Node1984207" target="_Node1984209" />
+            <edge id="_Edge1984212" source="_Node1984209" target="_Node1984211" />
+            <edge id="_Edge1984215" source="_Node1984209" target="_Node1984214" />
+            <edge id="_Edge1984217" source="_Node1984214" target="_Node1984216" />
+            <edge id="_Edge1984219" source="_Node1984216" target="_Node1984218" />
+            <edge id="_Edge1984221" source="_Node1984218" target="_Node1984220" />
+            <edge id="_Edge1984224" source="_Node1984218" target="_Node1984223" />
+            <edge id="_Edge1984227" source="_Node1984216" target="_Node1984226" />
+            <edge id="_Edge1984230" source="_Node1984214" target="_Node1984229" />
+            <edge id="_Edge1984233" source="_Node1984207" target="_Node1984232" />
+            <edge id="_Edge1984236" source="_Node1984205" target="_Node1984235" />
+            <edge id="_Edge1984239" source="_Node1984118" target="_Node1984238" />
+            <edge id="_Edge1984241" source="_Node1984238" target="_Node1984240" />
+            <edge id="_Edge1984244" source="_Node1984238" target="_Node1984243" />
         </tree>
     </trees>
 </nex:nexml>

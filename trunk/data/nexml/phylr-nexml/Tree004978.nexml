@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S2099"><citation>Mathews, K. G., N. Dunne, E. York, and L. Struwe. 2008. A phylogenetic analysis and taxonomic revision of Bartonia (Gentianaceae-Gentianeae) based on molecular and morphological evidence. Systematic Botany, in press.</citation><author email="niall_dunne@hotmail.com" firstname="Niall" lastname="Dunne" /><author email="kmathews@email.wcu.edu" firstname="Katherine G." lastname="Mathews" /><author email="struwe@aesop.rutgers.edu" firstname="Lena" lastname="Struwe" /><author email="yorked8@hotmail.com" firstname="Emily" lastname="York" /></study></nex:external>
-    <otus id="_TaxaBlock1922061">
+    <otus id="_TaxaBlock3262733">
         <otu id="Gentianadecora" label="Gentiana decora" />
         <otu id="Megacodonstylophorus" label="Megacodon stylophorus" />
         <otu id="Swertiatashiroi" label="Swertia tashiroi" />
@@ -21,55 +21,55 @@
         <otu id="Latoucheafokienensis" label="Latouchea fokienensis" />
         <otu id="Obolariavirginica" label="Obolaria virginica" />
     </otus>
-    <trees id="_TreesBlock1922062" otus="_TaxaBlock1922061">
-        <tree id="_Tree1922063" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock3262734" otus="_TaxaBlock3262733">
+        <tree id="_Tree3262735" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="parsimony" id="S2099A8703" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="ITS_trnLF_combined" nchar="1684" /></analysis></nex:external>
-            <node id="_Node1922066" />
-            <node id="_Node1922068" otu="Gentianadecora" />
-            <node id="_Node1922071" />
-            <node id="_Node1922073" />
-            <node id="_Node1922075" />
-            <node id="_Node1922077" otu="Megacodonstylophorus" />
-            <node id="_Node1922080" />
-            <node id="_Node1922082" otu="Swertiatashiroi" />
-            <node id="_Node1922085" />
-            <node id="_Node1922087" />
-            <node id="_Node1922089" />
-            <node id="_Node1922091" otu="Bartoniapaniculatasubsp.paniculata" />
-            <node id="_Node1922094" otu="Bartoniatexana" />
-            <node id="_Node1922097" otu="Bartoniapaniculatasubsp.iodandra" />
-            <node id="_Node1922100" />
-            <node id="_Node1922102" otu="Bartoniaverna" />
-            <node id="_Node1922105" />
-            <node id="_Node1922107" otu="Bartoniavirginica" />
-            <node id="_Node1922110" otu="BartoniavirginicaKM35" />
-            <node id="_Node1922113" otu="Gentianellaquinquefolia" />
-            <node id="_Node1922116" />
-            <node id="_Node1922118" otu="Latoucheafokienensis" />
-            <node id="_Node1922121" otu="Obolariavirginica" />
-            <rootedge id="_Edge1922067" target="_Node1922066" />
-            <edge id="_Edge1922069" source="_Node1922066" target="_Node1922068" />
-            <edge id="_Edge1922072" source="_Node1922066" target="_Node1922071" />
-            <edge id="_Edge1922074" source="_Node1922071" target="_Node1922073" />
-            <edge id="_Edge1922076" source="_Node1922073" target="_Node1922075" />
-            <edge id="_Edge1922078" source="_Node1922075" target="_Node1922077" />
-            <edge id="_Edge1922081" source="_Node1922075" target="_Node1922080" />
-            <edge id="_Edge1922083" source="_Node1922080" target="_Node1922082" />
-            <edge id="_Edge1922086" source="_Node1922080" target="_Node1922085" />
-            <edge id="_Edge1922088" source="_Node1922085" target="_Node1922087" />
-            <edge id="_Edge1922090" source="_Node1922087" target="_Node1922089" />
-            <edge id="_Edge1922092" source="_Node1922089" target="_Node1922091" />
-            <edge id="_Edge1922095" source="_Node1922089" target="_Node1922094" />
-            <edge id="_Edge1922098" source="_Node1922087" target="_Node1922097" />
-            <edge id="_Edge1922101" source="_Node1922085" target="_Node1922100" />
-            <edge id="_Edge1922103" source="_Node1922100" target="_Node1922102" />
-            <edge id="_Edge1922106" source="_Node1922100" target="_Node1922105" />
-            <edge id="_Edge1922108" source="_Node1922105" target="_Node1922107" />
-            <edge id="_Edge1922111" source="_Node1922105" target="_Node1922110" />
-            <edge id="_Edge1922114" source="_Node1922073" target="_Node1922113" />
-            <edge id="_Edge1922117" source="_Node1922071" target="_Node1922116" />
-            <edge id="_Edge1922119" source="_Node1922116" target="_Node1922118" />
-            <edge id="_Edge1922122" source="_Node1922116" target="_Node1922121" />
+            <node id="_Node3262738" />
+            <node id="_Node3262740" otu="Gentianadecora" />
+            <node id="_Node3262743" />
+            <node id="_Node3262745" />
+            <node id="_Node3262747" />
+            <node id="_Node3262749" otu="Megacodonstylophorus" />
+            <node id="_Node3262752" />
+            <node id="_Node3262754" otu="Swertiatashiroi" />
+            <node id="_Node3262757" />
+            <node id="_Node3262759" />
+            <node id="_Node3262761" />
+            <node id="_Node3262763" otu="Bartoniapaniculatasubsp.paniculata" />
+            <node id="_Node3262766" otu="Bartoniatexana" />
+            <node id="_Node3262769" otu="Bartoniapaniculatasubsp.iodandra" />
+            <node id="_Node3262772" />
+            <node id="_Node3262774" otu="Bartoniaverna" />
+            <node id="_Node3262777" />
+            <node id="_Node3262779" otu="Bartoniavirginica" />
+            <node id="_Node3262782" otu="BartoniavirginicaKM35" />
+            <node id="_Node3262785" otu="Gentianellaquinquefolia" />
+            <node id="_Node3262788" />
+            <node id="_Node3262790" otu="Latoucheafokienensis" />
+            <node id="_Node3262793" otu="Obolariavirginica" />
+            <rootedge id="_Edge3262739" target="_Node3262738" />
+            <edge id="_Edge3262741" source="_Node3262738" target="_Node3262740" />
+            <edge id="_Edge3262744" source="_Node3262738" target="_Node3262743" />
+            <edge id="_Edge3262746" source="_Node3262743" target="_Node3262745" />
+            <edge id="_Edge3262748" source="_Node3262745" target="_Node3262747" />
+            <edge id="_Edge3262750" source="_Node3262747" target="_Node3262749" />
+            <edge id="_Edge3262753" source="_Node3262747" target="_Node3262752" />
+            <edge id="_Edge3262755" source="_Node3262752" target="_Node3262754" />
+            <edge id="_Edge3262758" source="_Node3262752" target="_Node3262757" />
+            <edge id="_Edge3262760" source="_Node3262757" target="_Node3262759" />
+            <edge id="_Edge3262762" source="_Node3262759" target="_Node3262761" />
+            <edge id="_Edge3262764" source="_Node3262761" target="_Node3262763" />
+            <edge id="_Edge3262767" source="_Node3262761" target="_Node3262766" />
+            <edge id="_Edge3262770" source="_Node3262759" target="_Node3262769" />
+            <edge id="_Edge3262773" source="_Node3262757" target="_Node3262772" />
+            <edge id="_Edge3262775" source="_Node3262772" target="_Node3262774" />
+            <edge id="_Edge3262778" source="_Node3262772" target="_Node3262777" />
+            <edge id="_Edge3262780" source="_Node3262777" target="_Node3262779" />
+            <edge id="_Edge3262783" source="_Node3262777" target="_Node3262782" />
+            <edge id="_Edge3262786" source="_Node3262745" target="_Node3262785" />
+            <edge id="_Edge3262789" source="_Node3262743" target="_Node3262788" />
+            <edge id="_Edge3262791" source="_Node3262788" target="_Node3262790" />
+            <edge id="_Edge3262794" source="_Node3262788" target="_Node3262793" />
         </tree>
     </trees>
 </nex:nexml>

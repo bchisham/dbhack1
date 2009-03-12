@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nex:nexml
-    version="1.0"
+    version="0.8"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xsi:schemaLocation="http://www.nexml.org/1.0 nexml.xsd"
+    xsi:schemaLocation="http://www.nexml.org/1.0 ../xsd/nexml.xsd"
     xmlns="http://www.nexml.org/1.0"
     xmlns:nex="http://www.nexml.org/1.0">
 <nex:external xmlns="dbhack1/phylr"><study id="S1544"><citation>Friar, E. A., L. M. Prince, E. H. Roalson, M. E. McGlaughlin, J. M. Cruse-Sanders, J. M. Porter, and S. J. DeGroot. 2006. Ecological speciation in the East Maui-endemic Dubautia (Asteraceae) species. Evolution, in press.</citation><author email="sanders@salem.edu" firstname="Jennifer M." lastname="Cruse-Sanders" /><author email="sarah.degroot@cgu.edu" firstname="Sarah J." lastname="DeGroot" /><author email="elizabeth.friar@cgu.edu" firstname="Elizabeth A." lastname="Friar" /><author email="mitchell.mcglaughlin@usd.edu" firstname="Mitchell E." lastname="McGlaughlin" /><author email="j.mark.porter@cgu.edu" firstname="J. Mark" lastname="Porter" /><author firstname="Linda M." lastname="Prince" /><author email="roalson@mail.wsu.edu" firstname="Eric H." lastname="Roalson" /></study></nex:external>
-    <otus id="_TaxaBlock1255640">
+    <otus id="_TaxaBlock2132905">
         <otu id="Argyroxiphiumsandwicensesubsp.macrocephalumAsap3A" label="Argyroxiphium sandwicense subsp. macrocephalum Asap3A" />
         <otu id="Dubautialaxasubsp.hirsutaAsap3A" label="Dubautia laxa subsp. hirsuta Asap3A" />
         <otu id="DubautiaspAsap3Ahaplotype5" label="Dubautia sp Asap3A haplotype5" />
@@ -19,43 +19,43 @@
         <otu id="DubautiaspAsap3Ahaplotype7" label="Dubautia sp Asap3A haplotype7" />
         <otu id="DubautiaspAsap3Ahaplotype8" label="Dubautia sp Asap3A haplotype8" />
     </otus>
-    <trees id="_TreesBlock1255641" otus="_TaxaBlock1255640">
-        <tree id="_Tree1255642" xsi:type="nex:FloatTree">
+    <trees id="_TreesBlock2132906" otus="_TaxaBlock2132905">
+        <tree id="_Tree2132907" xsi:type="nex:FloatTree">
 <nex:external xmlns="dbhack1/phylr"><analysis algorithm="maximum likelihood" id="S1544A5680" software="PAUP"><inputmatrix datatype="Nucleic Acid" name="East Maui Dubautia Asap3A sequence" nchar="1022" /></analysis></nex:external>
-            <node id="_Node1255645" />
-            <node id="_Node1255647" otu="Argyroxiphiumsandwicensesubsp.macrocephalumAsap3A" />
-            <node id="_Node1255650" />
-            <node id="_Node1255652" otu="Dubautialaxasubsp.hirsutaAsap3A" />
-            <node id="_Node1255655" />
-            <node id="_Node1255657" />
-            <node id="_Node1255659" />
-            <node id="_Node1255661" />
-            <node id="_Node1255663" otu="DubautiaspAsap3Ahaplotype5" />
-            <node id="_Node1255666" otu="DubautiaspAsap3Ahaplotype4" />
-            <node id="_Node1255669" otu="DubautiaspAsap3Ahaplotype1" />
-            <node id="_Node1255672" otu="DubautiaspAsap3Ahaplotype2" />
-            <node id="_Node1255675" otu="DubautiaspAsap3Ahaplotype3" />
-            <node id="_Node1255678" otu="DubautiaspAsap3Ahaplotype6" />
-            <node id="_Node1255681" />
-            <node id="_Node1255683" otu="DubautiaspAsap3Ahaplotype7" />
-            <node id="_Node1255686" otu="DubautiaspAsap3Ahaplotype8" />
-            <rootedge id="_Edge1255646" target="_Node1255645" />
-            <edge id="_Edge1255648" source="_Node1255645" target="_Node1255647" />
-            <edge id="_Edge1255651" source="_Node1255645" target="_Node1255650" />
-            <edge id="_Edge1255653" source="_Node1255650" target="_Node1255652" />
-            <edge id="_Edge1255656" source="_Node1255650" target="_Node1255655" />
-            <edge id="_Edge1255658" source="_Node1255655" target="_Node1255657" />
-            <edge id="_Edge1255660" source="_Node1255657" target="_Node1255659" />
-            <edge id="_Edge1255662" source="_Node1255659" target="_Node1255661" />
-            <edge id="_Edge1255664" source="_Node1255661" target="_Node1255663" />
-            <edge id="_Edge1255667" source="_Node1255661" target="_Node1255666" />
-            <edge id="_Edge1255670" source="_Node1255659" target="_Node1255669" />
-            <edge id="_Edge1255673" source="_Node1255659" target="_Node1255672" />
-            <edge id="_Edge1255676" source="_Node1255659" target="_Node1255675" />
-            <edge id="_Edge1255679" source="_Node1255657" target="_Node1255678" />
-            <edge id="_Edge1255682" source="_Node1255655" target="_Node1255681" />
-            <edge id="_Edge1255684" source="_Node1255681" target="_Node1255683" />
-            <edge id="_Edge1255687" source="_Node1255681" target="_Node1255686" />
+            <node id="_Node2132910" />
+            <node id="_Node2132912" otu="Argyroxiphiumsandwicensesubsp.macrocephalumAsap3A" />
+            <node id="_Node2132915" />
+            <node id="_Node2132917" otu="Dubautialaxasubsp.hirsutaAsap3A" />
+            <node id="_Node2132920" />
+            <node id="_Node2132922" />
+            <node id="_Node2132924" />
+            <node id="_Node2132926" />
+            <node id="_Node2132928" otu="DubautiaspAsap3Ahaplotype5" />
+            <node id="_Node2132931" otu="DubautiaspAsap3Ahaplotype4" />
+            <node id="_Node2132934" otu="DubautiaspAsap3Ahaplotype1" />
+            <node id="_Node2132937" otu="DubautiaspAsap3Ahaplotype2" />
+            <node id="_Node2132940" otu="DubautiaspAsap3Ahaplotype3" />
+            <node id="_Node2132943" otu="DubautiaspAsap3Ahaplotype6" />
+            <node id="_Node2132946" />
+            <node id="_Node2132948" otu="DubautiaspAsap3Ahaplotype7" />
+            <node id="_Node2132951" otu="DubautiaspAsap3Ahaplotype8" />
+            <rootedge id="_Edge2132911" target="_Node2132910" />
+            <edge id="_Edge2132913" source="_Node2132910" target="_Node2132912" />
+            <edge id="_Edge2132916" source="_Node2132910" target="_Node2132915" />
+            <edge id="_Edge2132918" source="_Node2132915" target="_Node2132917" />
+            <edge id="_Edge2132921" source="_Node2132915" target="_Node2132920" />
+            <edge id="_Edge2132923" source="_Node2132920" target="_Node2132922" />
+            <edge id="_Edge2132925" source="_Node2132922" target="_Node2132924" />
+            <edge id="_Edge2132927" source="_Node2132924" target="_Node2132926" />
+            <edge id="_Edge2132929" source="_Node2132926" target="_Node2132928" />
+            <edge id="_Edge2132932" source="_Node2132926" target="_Node2132931" />
+            <edge id="_Edge2132935" source="_Node2132924" target="_Node2132934" />
+            <edge id="_Edge2132938" source="_Node2132924" target="_Node2132937" />
+            <edge id="_Edge2132941" source="_Node2132924" target="_Node2132940" />
+            <edge id="_Edge2132944" source="_Node2132922" target="_Node2132943" />
+            <edge id="_Edge2132947" source="_Node2132920" target="_Node2132946" />
+            <edge id="_Edge2132949" source="_Node2132946" target="_Node2132948" />
+            <edge id="_Edge2132952" source="_Node2132946" target="_Node2132951" />
         </tree>
     </trees>
 </nex:nexml>
