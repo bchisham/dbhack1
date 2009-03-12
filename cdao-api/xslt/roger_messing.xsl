@@ -266,7 +266,7 @@
                 <xsl:when test="contains(../../../@xsi:type, 'StandardCells')">
                     <cdao:has_Standard_State>
                         <xsl:attribute name="rdf:about">#<xsl:value-of
-                                select="../../../format/states/@id"/>_<xsl:value-of select="@state"
+                                select="../../../nex:format/nex:states/@id"/>_<xsl:value-of select="@state"
                             /></xsl:attribute>
                     </cdao:has_Standard_State>
                 </xsl:when>
