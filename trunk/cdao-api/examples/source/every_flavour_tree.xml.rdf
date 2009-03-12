@@ -1,0 +1,890 @@
+<rdf:RDF xmlns:cdao="http://www.evolutionaryontology.org/cdao.owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_e2">
+    <cdao:has_Annotation rdf:nodeID="A0"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_n7">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree2"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n7</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_e2">
+    <cdao:has_Annotation rdf:nodeID="A1"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree4_tree4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_n8">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t5"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n8</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree6_e3">
+    <cdao:has_Annotation rdf:nodeID="A2"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree6_tree6"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree6_n2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree6_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_e3">
+    <cdao:has_Annotation rdf:nodeID="A3"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree2_tree2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1">
+    <cdao:has_Root rdf:resource="http://example.com/tree1_"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#RootedTree"/>
+    <dc:label>Float Tree</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_n8">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t5"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n8</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.2342</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_e1">
+    <cdao:has_Annotation rdf:nodeID="A6"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.3247</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree6_n3">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree6"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>Node 3</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_n6">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax2_t2b"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees2_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n6</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_n5">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t3"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n5</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_e1">
+    <cdao:has_Annotation rdf:nodeID="A10"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_e1">
+    <cdao:has_Annotation rdf:nodeID="A11"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree4_tree4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_e9">
+    <cdao:has_Annotation rdf:nodeID="A5"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree3_tree3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n8"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_n8">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t5"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree2"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n8</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_n7">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n7</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#tax1_t5">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_e4">
+    <cdao:has_Annotation rdf:nodeID="A12"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree2_tree2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n7"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_e2">
+    <cdao:has_Annotation rdf:nodeID="A14"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_n7">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n7</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_n5">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax2_t3c"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees2_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n5</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.234</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_n6">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t2"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n6</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1">
+    <cdao:has_Root rdf:resource="http://example.com/tree1_"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#RootedTree"/>
+    <dc:label>Another tree in another block</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_n9">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t4"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree2"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n9</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.32443</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree5_n2">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t2"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree5"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>Node 2</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_e4">
+    <cdao:has_Annotation rdf:nodeID="A20"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n7"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.34534</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#tax2_t2b">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_e1">
+    <cdao:has_Annotation rdf:nodeID="A15"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree2_tree2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.4353</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#tax1_t4">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_n2">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t1"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n2</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >2</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_n1">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n1</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_e3">
+    <cdao:has_Annotation rdf:nodeID="A22"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_n2">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t1"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree2"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n2</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_n4">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees2_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n4</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >3</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_e4">
+    <cdao:has_Annotation rdf:nodeID="A24"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree4_tree4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n7"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree6_n1">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t1"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree6"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>Node 1</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_n3">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n3</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.3243</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#tax1_t3">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.3243</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree5_n1">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t1"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree5"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>Node 1</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#tax2_t1a">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_e3">
+    <cdao:has_Annotation rdf:nodeID="A28"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.324</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_e2">
+    <cdao:has_Annotation rdf:nodeID="A21"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree2_tree2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree6_e2">
+    <cdao:has_Annotation rdf:nodeID="A29"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree6_tree6"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree6_n1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree6_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >3</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_n9">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t4"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n9</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_n1">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n1</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_n2">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t1"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n2</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#tax2_t4d">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_e4">
+    <cdao:has_Annotation rdf:nodeID="A7"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n7"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_n9">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t4"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n9</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >2</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree6_n2">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t2"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree6"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>Node 2</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_n3">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees2_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n3</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >2</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.32443</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_n1">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree2"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n1</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree6">
+    <cdao:has_Root rdf:resource="http://example.com/tree6_"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#RootedTree"/>
+    <dc:label>A float tree with a RootEdge</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_n4">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n4</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_e3">
+    <cdao:has_Annotation rdf:nodeID="A33"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree4_tree4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_e7">
+    <cdao:has_Annotation rdf:nodeID="A34"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree2_tree2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n8"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >2.000028374628</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree5">
+    <cdao:has_Root rdf:resource="http://example.com/tree5_"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#RootedTree"/>
+    <dc:label>An Int Tree with a root edge</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_n2">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax2_t1a"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees2_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n2</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_e3">
+    <cdao:has_Annotation rdf:nodeID="A23"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree3_tree3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_n3">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree2"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n3</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#tax2_t5e">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_e6">
+    <cdao:has_Annotation rdf:nodeID="A35"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree3_tree3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n6"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_n1">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n1</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_e6">
+    <cdao:has_Annotation rdf:nodeID="A25"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree4_tree4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n6"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_n3">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n3</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A36">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >2</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_n9">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t4"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n9</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_e5">
+    <cdao:has_Annotation rdf:nodeID="A17"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n5"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#tax1_t2">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A37">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.234</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_e6">
+    <cdao:has_Annotation rdf:nodeID="A27"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n6"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_n4">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n4</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_e8">
+    <cdao:has_Annotation rdf:nodeID="A9"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree2_tree2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n9"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A38">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >2</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.34534</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Network"/>
+    <dc:label>Float net e.g.</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_n1">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees2_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n1</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_n4">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree2"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n4</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_e5">
+    <cdao:has_Annotation rdf:nodeID="A36"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree3_tree3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n5"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_e4">
+    <cdao:has_Annotation rdf:nodeID="A39"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree3_tree3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n7"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree5_n3">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree5"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>Node 3</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_n4">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n4</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_e5">
+    <cdao:has_Annotation rdf:nodeID="A30"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree4_tree4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n5"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_n2">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t1"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n2</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_n3">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n3</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A39">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >3</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.3247</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A40">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.2342</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_e6">
+    <cdao:has_Annotation rdf:nodeID="A26"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n6"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree5_e2">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree5_tree5"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree5_n1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree5_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_n9">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax2_t4d"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees2_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n9</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#tax1_t1">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_e5">
+    <cdao:has_Annotation rdf:nodeID="A37"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n5"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Network"/>
+    <dc:label>Integer Network Example</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A41">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_n7">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n7</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_e5">
+    <cdao:has_Annotation rdf:nodeID="A38"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree2_tree2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n5"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_e8">
+    <cdao:has_Annotation rdf:nodeID="A13"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree3_tree3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n9"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_n5">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t3"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree2"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n5</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >2</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_e1">
+    <cdao:has_Annotation rdf:nodeID="A18"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree3_tree3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_e8">
+    <cdao:has_Annotation rdf:nodeID="A42"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree4_tree4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n9"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#tax2_t3c">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#TU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_n8">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax2_t5e"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees2_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n8</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A43">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_e8">
+    <cdao:has_Annotation rdf:nodeID="A4"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n9"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_n5">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t3"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n5</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_n6">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t2"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n6</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree5_e3">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree5_tree5"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree5_n2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree5_n3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_e7">
+    <cdao:has_Annotation rdf:nodeID="A32"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n8"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.324</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_e8">
+    <cdao:has_Annotation rdf:nodeID="A40"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n9"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees2_tree1_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_n8">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t5"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n8</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2">
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#UnrootedTree"/>
+    <dc:label>Int Tree</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A34">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_e6">
+    <cdao:has_Annotation rdf:nodeID="A41"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree2_tree2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n6"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree2_n4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.137693629</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree2_n6">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t2"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree2"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n6</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_e7">
+    <cdao:has_Annotation rdf:nodeID="A43"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree3_tree3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n6"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_e2">
+    <cdao:has_Annotation rdf:nodeID="A31"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree3_tree3"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n2"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree3_n1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_e9">
+    <cdao:has_Annotation rdf:nodeID="A8"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree4_tree4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n8"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_e7">
+    <cdao:has_Annotation rdf:nodeID="A16"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree4_tree4"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n6"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree4_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree3_n6">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t2"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree3"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n6</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A35">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees2_tree1_n7">
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees2_tree1"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n7</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree4_n5">
+    <cdao:represents_TU rdf:resource="http://example.com/ontology#tax1_t3"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#Trees_tree4"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Node"/>
+    <dc:label>n5</dc:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/ontology#Trees_tree1_e7">
+    <cdao:has_Annotation rdf:nodeID="A19"/>
+    <cdao:belongs_to_Tree rdf:resource="http://example.com/ontology#tree1_tree1"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n8"/>
+    <cdao:has_Node rdf:resource="http://example.com/ontology#Trees_tree1_n7"/>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#Edge"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A42">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >1</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <cdao:has_Float_Value rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#float"
+      >0.4353</cdao:has_Float_Value>
+    <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao.owl#EdgeLength"/>
+  </rdf:Description>
+</rdf:RDF>

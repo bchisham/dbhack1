@@ -1,0 +1,28 @@
+--------------------------------------------------
+ How to Generate IDs for Objects in NeXML Files
+--------------------------------------------------
+
+Problem: NeXML files have block scoped @ids for most of the components. If processors need ids for objects at document or global scope they need to generate these ids based on the contents of the document such as identifying a tree node by concatenating the trees @id, tree @id, node @id. Unfortunately any two processors may choose different ways of doing this so when the results of the two processors are combined they may have different identifiers for the same objects in the same file. It would be 'nice' is they had the same ids so that they could be combined in subsequent analyses.
+
+This document defines a recommended way of generating what should be semantic web friendly identifiers.
+
+Methodology. We need to avoid the danger of collisions. As we can't know ahead of time the contents of any local id it is difficult to guarantee that any global id will be unique by concatenating local ids. The local ids may contain the separator used in the concatenation. There are many possible solutions to this but the simplest that minimizes the chances of collision whilst maximizing the implementability is to just have a complex separator. The separator should be:
+
+_%$%_
+
+The algorithm for generating the id of an object in pseudo code is as follows.
+
+* Take the value of the @id attribute for the current element as the global_id
+* if the parent element has @id attribute prepend the global_id with parent @id + '_%$%_'. Repeat for parent node.
+* If parent node does not have @id or is root node then stop.
+* finally prepend the name of the element you are identifying and  '_%$%_'.
+
+In a template matching a node in xslt the id gen line looks like this.
+node_%$%_<xsl:value-of select="../../@id"/>_%$%_<xsl:value-of select="../@id"/>_%$%_<xsl:value-of
+                    select="@id"/>
+
+Generating it more dynamically in a language of your choice is an exercise left to the reader.
+
+Roger Hyam 2009-03-12
+
+  
