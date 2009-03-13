@@ -36,6 +36,10 @@ function loadTree(tree) {
   widget.updateTree(tree);
 }
 
+function transformTree (url) {
+  var applet = pw.getApplet();
+  applet.transformTree(url);  
+}
 
 // AJAX stuff for the tree database search
 window.onload = function() {
