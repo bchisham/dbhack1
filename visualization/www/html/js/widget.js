@@ -124,7 +124,7 @@ PWidget.prototype.getLayout = function() {
   this.treeText = document.getElementById('pw_treetext');
 
   // remote service container
-  this.panelConfig('other',panelParams,[left3,top4-5,narrow,grande+5],cookie);
+  this.panelConfig('remote',panelParams,[left3,top4-5,narrow,grande+5],cookie);
 
   // node info
   this.panelConfig('node',panelParams,[left2,top3-25,narrow,venti-20],cookie);

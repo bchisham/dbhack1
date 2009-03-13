@@ -37,6 +37,7 @@ function loadTree(tree) {
 }
 
 function transformTree (url) {
+  widget.go=1;
   var applet = pw.getApplet();
   applet.transformTree(url);  
 }
@@ -229,7 +230,7 @@ pw_hover = function(json_data) {
   for (var key in cal) {
     var val = cal[key];
     if (val) {
-      if (Math.round(val) > 10) {
+      if (Math.round(val) > 1) {
         val = Math.round(val);
       }
       annotation_display_row(key,val,tab1);
