@@ -1,0 +1,753 @@
+<nex:nexml version="0.8" xmlns="http://www.nexml.org/1.0" xmlns:nex="http://www.nexml.org/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.nexml.org/1.0 http://www.nexml.org/1.0/nexml.xsd"  >
+  <otus id="otus1" label="onlyOtus">
+    <otu id="otu0" label="ENSGACP00000011978"/>
+    <otu id="otu1" label="ENSORLP00000018775"/>
+    <otu id="otu2" label="ENSTRUP00000008762"/>
+    <otu id="otu3" label="ENSTNIP00000020440"/>
+    <otu id="otu4" label="ENSDARP00000083236"/>
+    <otu id="otu5" label="ENSTRUP00000038570"/>
+    <otu id="otu6" label="ENSTNIP00000005379"/>
+    <otu id="otu7" label="ENSGACP00000015553"/>
+    <otu id="otu8" label="ENSORLP00000021648"/>
+    <otu id="otu9" label="ENSDARP00000079693"/>
+    <otu id="otu10" label="ENSMICP00000011302"/>
+    <otu id="otu11" label="ENSOGAP00000009403"/>
+    <otu id="otu12" label="ENSMUSP00000108893"/>
+    <otu id="otu13" label="ENSRNOP00000016428"/>
+    <otu id="otu14" label="ENSCPOP00000006321"/>
+    <otu id="otu15" label="ENSPTRP00000042221"/>
+    <otu id="otu16" label="ENSP00000358994"/>
+    <otu id="otu17" label="ENSPPYP00000018788"/>
+    <otu id="otu18" label="ENSMMUP00000006661"/>
+    <otu id="otu19" label="ENSSTOP00000012607"/>
+    <otu id="otu20" label="ENSTBEP00000008873"/>
+    <otu id="otu21" label="ENSECAP00000021858"/>
+    <otu id="otu22" label="ENSBTAP00000022276"/>
+    <otu id="otu23" label="ENSMLUP00000014379"/>
+    <otu id="otu24" label="ENSFCAP00000013818"/>
+    <otu id="otu25" label="ENSCAFP00000004053"/>
+    <otu id="otu26" label="ENSSARP00000009744"/>
+    <otu id="otu27" label="ENSEEUP00000005720"/>
+    <otu id="otu28" label="ENSLAFP00000006926"/>
+    <otu id="otu29" label="ENSETEP00000015138"/>
+    <otu id="otu30" label="ENSDNOP00000011411"/>
+    <otu id="otu31" label="ENSMODP00000023052"/>
+    <otu id="otu32" label="ENSOANP00000001477"/>
+    <otu id="otu33" label="ENSGALP00000031021"/>
+    <otu id="otu34" label="ENSXETP00000007788"/>
+    <otu id="otu35" label="ENSCINP00000007407"/>
+    <otu id="otu36" label="ENSCSAVP00000008304"/>
+    <otu id="otu37" label="AAEL004227PA"/>
+    <otu id="otu38" label="AGAP000776PA"/>
+    <otu id="otu39" label="FBpp0099527"/>
+    <otu id="otu40" label="F47G6.4"/>
+    <otu id="otu41" label="Y66H1A.6b"/>
+  </otus>
+  <trees id="trees1" otus="otus1" label="onlyTrees">
+    <tree id="tree1" label="onlyTree" xsi:type="nex:FloatTree" >
+      <node id="node1"  label="Bilateria"  root="true" >
+        <dict id="dict1">
+          <d id="dummy1">N</d>
+          <t id="dummy2">33213</t>
+        </dict>
+      </node>
+      <node id="node2"  label="Bilateria" >
+        <dict id="dict2">
+          <d id="dummy3">N</d>
+          <t id="dummy4">33213</t>
+          <b id="dummy5">100</b>
+          <first id="dummy6">y</first>
+        </dict>
+      </node>
+      <node id="node3"  label="Chordata" >
+        <dict id="dict3">
+          <d id="dummy7">N</d>
+          <t id="dummy8">7711</t>
+          <b id="dummy9">100</b>
+          <first id="dummy10">y</first>
+        </dict>
+      </node>
+      <node id="node4"  label="Euteleostomi" >
+        <dict id="dict4">
+          <d id="dummy11">N</d>
+          <t id="dummy12">117571</t>
+          <b id="dummy13">100</b>
+        </dict>
+      </node>
+      <node id="node5"  label="Clupeocephala" >
+        <dict id="dict5">
+          <d id="dummy14">Y</d>
+          <t id="dummy15">186625</t>
+          <b id="dummy16">97</b>
+        </dict>
+      </node>
+      <node id="node6"  label="Clupeocephala" >
+        <dict id="dict6">
+          <d id="dummy17">N</d>
+          <t id="dummy18">186625</t>
+          <b id="dummy19">97</b>
+          <first id="dummy20">y</first>
+        </dict>
+      </node>
+      <node id="node7"  label="Percomorpha" >
+        <dict id="dict7">
+          <d id="dummy21">N</d>
+          <t id="dummy22">32485</t>
+          <b id="dummy23">94</b>
+        </dict>
+      </node>
+      <node id="node8"  label="Percomorpha" >
+        <dict id="dict8">
+          <d id="dummy24">N</d>
+          <t id="dummy25">32485</t>
+          <b id="dummy26">94</b>
+        </dict>
+      </node>
+      <node id="node9"  label="ENSGACP00000011978"  otu="otu0" >
+        <dict id="dict9">
+          <g id="dummy27">ENSGACG00000009073</g>
+          <d id="dummy28">N</d>
+          <t id="dummy29">69293</t>
+        </dict>
+      </node>
+      <node id="node10"  label="ENSORLP00000018775"  otu="otu1" >
+        <dict id="dict10">
+          <g id="dummy30">ENSORLG00000014977</g>
+          <d id="dummy31">N</d>
+          <t id="dummy32">8090</t>
+          <first id="dummy33">y</first>
+        </dict>
+      </node>
+      <node id="node11"  label="Tetraodontidae" >
+        <dict id="dict11">
+          <d id="dummy34">N</d>
+          <t id="dummy35">31031</t>
+          <b id="dummy36">100</b>
+          <first id="dummy37">y</first>
+        </dict>
+      </node>
+      <node id="node12"  label="ENSTRUP00000008762"  otu="otu2" >
+        <dict id="dict12">
+          <g id="dummy38">ENSTRUG00000003728</g>
+          <d id="dummy39">N</d>
+          <t id="dummy40">31033</t>
+          <first id="dummy41">y</first>
+        </dict>
+      </node>
+      <node id="node13"  label="ENSTNIP00000020440"  otu="otu3" >
+        <dict id="dict13">
+          <g id="dummy42">ENSTNIG00000017302</g>
+          <d id="dummy43">N</d>
+          <t id="dummy44">99883</t>
+        </dict>
+      </node>
+      <node id="node14"  label="ENSDARP00000083236"  otu="otu4" >
+        <dict id="dict14">
+          <g id="dummy45">ENSDARG00000042141</g>
+          <d id="dummy46">N</d>
+          <t id="dummy47">7955</t>
+          <first id="dummy48">y</first>
+        </dict>
+      </node>
+      <node id="node15"  label="Clupeocephala" >
+        <dict id="dict15">
+          <d id="dummy49">N</d>
+          <t id="dummy50">186625</t>
+          <b id="dummy51">97</b>
+        </dict>
+      </node>
+      <node id="node16"  label="Percomorpha" >
+        <dict id="dict16">
+          <d id="dummy52">N</d>
+          <t id="dummy53">32485</t>
+          <b id="dummy54">100</b>
+        </dict>
+      </node>
+      <node id="node17"  label="Percomorpha" >
+        <dict id="dict17">
+          <d id="dummy55">N</d>
+          <t id="dummy56">32485</t>
+          <b id="dummy57">100</b>
+        </dict>
+      </node>
+      <node id="node18"  label="Tetraodontidae" >
+        <dict id="dict18">
+          <d id="dummy58">N</d>
+          <t id="dummy59">31031</t>
+          <b id="dummy60">100</b>
+        </dict>
+      </node>
+      <node id="node19"  label="ENSTRUP00000038570"  otu="otu5" >
+        <dict id="dict19">
+          <g id="dummy61">ENSTRUG00000015100</g>
+          <d id="dummy62">N</d>
+          <t id="dummy63">31033</t>
+          <first id="dummy64">y</first>
+        </dict>
+      </node>
+      <node id="node20"  label="ENSTNIP00000005379"  otu="otu6" >
+        <dict id="dict20">
+          <g id="dummy65">ENSTNIG00000002816</g>
+          <d id="dummy66">N</d>
+          <t id="dummy67">99883</t>
+        </dict>
+      </node>
+      <node id="node21"  label="ENSGACP00000015553"  otu="otu7" >
+        <dict id="dict21">
+          <g id="dummy68">ENSGACG00000011732</g>
+          <d id="dummy69">N</d>
+          <t id="dummy70">69293</t>
+          <first id="dummy71">y</first>
+        </dict>
+      </node>
+      <node id="node22"  label="ENSORLP00000021648"  otu="otu8" >
+        <dict id="dict22">
+          <g id="dummy72">ENSORLG00000017306</g>
+          <d id="dummy73">N</d>
+          <t id="dummy74">8090</t>
+          <first id="dummy75">y</first>
+        </dict>
+      </node>
+      <node id="node23"  label="ENSDARP00000079693"  otu="otu9" >
+        <dict id="dict23">
+          <g id="dummy76">ENSDARG00000044016</g>
+          <d id="dummy77">N</d>
+          <t id="dummy78">7955</t>
+          <first id="dummy79">y</first>
+        </dict>
+      </node>
+      <node id="node24"  label="Tetrapoda" >
+        <dict id="dict24">
+          <d id="dummy80">N</d>
+          <t id="dummy81">32523</t>
+          <b id="dummy82">100</b>
+          <first id="dummy83">y</first>
+        </dict>
+      </node>
+      <node id="node25"  label="Amniota" >
+        <dict id="dict25">
+          <d id="dummy84">N</d>
+          <t id="dummy85">32524</t>
+          <b id="dummy86">100</b>
+          <first id="dummy87">y</first>
+        </dict>
+      </node>
+      <node id="node26"  label="Mammalia" >
+        <dict id="dict26">
+          <d id="dummy88">N</d>
+          <t id="dummy89">40674</t>
+          <b id="dummy90">100</b>
+        </dict>
+      </node>
+      <node id="node27"  label="Theria" >
+        <dict id="dict27">
+          <d id="dummy91">N</d>
+          <t id="dummy92">32525</t>
+          <b id="dummy93">100</b>
+        </dict>
+      </node>
+      <node id="node28"  label="Eutheria" >
+        <dict id="dict28">
+          <d id="dummy94">N</d>
+          <t id="dummy95">9347</t>
+          <b id="dummy96">1</b>
+        </dict>
+      </node>
+      <node id="node29"  label="Eutheria" >
+        <dict id="dict29">
+          <d id="dummy97">N</d>
+          <t id="dummy98">9347</t>
+          <b id="dummy99">0</b>
+        </dict>
+      </node>
+      <node id="node30"  label="Eutheria" >
+        <dict id="dict30">
+          <d id="dummy100">N</d>
+          <t id="dummy101">9347</t>
+          <b id="dummy102">0</b>
+        </dict>
+      </node>
+      <node id="node31"  label="Euarchontoglires" >
+        <dict id="dict31">
+          <d id="dummy103">N</d>
+          <t id="dummy104">314146</t>
+          <b id="dummy105">0</b>
+          <first id="dummy106">y</first>
+        </dict>
+      </node>
+      <node id="node32"  label="Euarchontoglires" >
+        <dict id="dict32">
+          <d id="dummy107">Y</d>
+          <t id="dummy108">314146</t>
+          <b id="dummy109">0</b>
+        </dict>
+      </node>
+      <node id="node33"  label="Euarchontoglires" >
+        <dict id="dict33">
+          <d id="dummy110">Y</d>
+          <t id="dummy111">314146</t>
+          <b id="dummy112">0</b>
+        </dict>
+      </node>
+      <node id="node34"  label="Euarchontoglires" >
+        <dict id="dict34">
+          <d id="dummy113">N</d>
+          <t id="dummy114">314146</t>
+          <b id="dummy115">0</b>
+        </dict>
+      </node>
+      <node id="node35"  label="Strepsirrhini" >
+        <dict id="dict35">
+          <d id="dummy116">N</d>
+          <t id="dummy117">376911</t>
+          <b id="dummy118">30</b>
+          <first id="dummy119">y</first>
+        </dict>
+      </node>
+      <node id="node36"  label="ENSMICP00000011302"  otu="otu10" >
+        <dict id="dict36">
+          <g id="dummy120">ENSMICG00000012391</g>
+          <d id="dummy121">N</d>
+          <t id="dummy122">30608</t>
+        </dict>
+      </node>
+      <node id="node37"  label="ENSOGAP00000009403"  otu="otu11" >
+        <dict id="dict37">
+          <g id="dummy123">ENSOGAG00000010499</g>
+          <d id="dummy124">N</d>
+          <t id="dummy125">30611</t>
+          <first id="dummy126">y</first>
+        </dict>
+      </node>
+      <node id="node38"  label="Rodentia" >
+        <dict id="dict38">
+          <d id="dummy127">N</d>
+          <t id="dummy128">9989</t>
+          <b id="dummy129">8</b>
+        </dict>
+      </node>
+      <node id="node39"  label="Murinae" >
+        <dict id="dict39">
+          <d id="dummy130">N</d>
+          <t id="dummy131">39107</t>
+          <b id="dummy132">98</b>
+        </dict>
+      </node>
+      <node id="node40"  label="ENSMUSP00000108893"  otu="otu12" >
+        <dict id="dict40">
+          <g id="dummy133">ENSMUSG00000033577</g>
+          <d id="dummy134">N</d>
+          <t id="dummy135">10090</t>
+        </dict>
+      </node>
+      <node id="node41"  label="ENSRNOP00000016428"  otu="otu13" >
+        <dict id="dict41">
+          <g id="dummy136">ENSRNOG00000011852</g>
+          <d id="dummy137">N</d>
+          <t id="dummy138">10116</t>
+          <first id="dummy139">y</first>
+        </dict>
+      </node>
+      <node id="node42"  label="ENSCPOP00000006321"  otu="otu14" >
+        <dict id="dict42">
+          <g id="dummy140">ENSCPOG00000007009</g>
+          <d id="dummy141">N</d>
+          <t id="dummy142">10141</t>
+          <first id="dummy143">y</first>
+        </dict>
+      </node>
+      <node id="node43"  label="Catarrhini" >
+        <dict id="dict43">
+          <d id="dummy144">N</d>
+          <t id="dummy145">9526</t>
+          <b id="dummy146">100</b>
+          <first id="dummy147">y</first>
+        </dict>
+      </node>
+      <node id="node44"  label="Hominidae" >
+        <dict id="dict44">
+          <d id="dummy148">N</d>
+          <t id="dummy149">9604</t>
+          <b id="dummy150">100</b>
+        </dict>
+      </node>
+      <node id="node45"  label="HomoPanGorilla group" >
+        <dict id="dict45">
+          <d id="dummy151">N</d>
+          <t id="dummy152">207598</t>
+          <b id="dummy153">100</b>
+        </dict>
+      </node>
+      <node id="node46"  label="ENSPTRP00000042221"  otu="otu15" >
+        <dict id="dict46">
+          <g id="dummy154">ENSPTRG00000023525</g>
+          <d id="dummy155">N</d>
+          <t id="dummy156">9598</t>
+          <first id="dummy157">y</first>
+        </dict>
+      </node>
+      <node id="node47"  label="ENSP00000358994"  otu="otu16" >
+        <dict id="dict47">
+          <g id="dummy158">ENSG00000196586</g>
+          <d id="dummy159">N</d>
+          <t id="dummy160">9606</t>
+        </dict>
+      </node>
+      <node id="node48"  label="ENSPPYP00000018788"  otu="otu17" >
+        <dict id="dict48">
+          <g id="dummy161">ENSPPYG00000016785</g>
+          <d id="dummy162">N</d>
+          <t id="dummy163">9600</t>
+          <first id="dummy164">y</first>
+        </dict>
+      </node>
+      <node id="node49"  label="ENSMMUP00000006661"  otu="otu18" >
+        <dict id="dict49">
+          <g id="dummy165">ENSMMUG00000005032</g>
+          <d id="dummy166">N</d>
+          <t id="dummy167">9544</t>
+          <first id="dummy168">y</first>
+        </dict>
+      </node>
+      <node id="node50"  label="ENSSTOP00000012607"  otu="otu19" >
+        <dict id="dict50">
+          <g id="dummy169">ENSSTOG00000014060</g>
+          <d id="dummy170">N</d>
+          <t id="dummy171">43179</t>
+          <first id="dummy172">y</first>
+        </dict>
+      </node>
+      <node id="node51"  label="ENSTBEP00000008873"  otu="otu20" >
+        <dict id="dict51">
+          <g id="dummy173">ENSTBEG00000010182</g>
+          <d id="dummy174">N</d>
+          <t id="dummy175">37347</t>
+          <first id="dummy176">y</first>
+        </dict>
+      </node>
+      <node id="node52"  label="Laurasiatheria" >
+        <dict id="dict52">
+          <d id="dummy177">N</d>
+          <t id="dummy178">314145</t>
+          <b id="dummy179">0</b>
+        </dict>
+      </node>
+      <node id="node53"  label="Laurasiatheria" >
+        <dict id="dict53">
+          <d id="dummy180">N</d>
+          <t id="dummy181">314145</t>
+          <b id="dummy182">1</b>
+        </dict>
+      </node>
+      <node id="node54"  label="Laurasiatheria" >
+        <dict id="dict54">
+          <d id="dummy183">N</d>
+          <t id="dummy184">314145</t>
+          <b id="dummy185">3</b>
+        </dict>
+      </node>
+      <node id="node55"  label="Laurasiatheria" >
+        <dict id="dict55">
+          <d id="dummy186">N</d>
+          <t id="dummy187">314145</t>
+          <b id="dummy188">39</b>
+        </dict>
+      </node>
+      <node id="node56"  label="ENSECAP00000021858"  otu="otu21" >
+        <dict id="dict56">
+          <g id="dummy189">ENSECAG00000024053</g>
+          <d id="dummy190">N</d>
+          <t id="dummy191">9796</t>
+          <first id="dummy192">y</first>
+        </dict>
+      </node>
+      <node id="node57"  label="ENSBTAP00000022276"  otu="otu22" >
+        <dict id="dict57">
+          <g id="dummy193">ENSBTAG00000016751</g>
+          <d id="dummy194">N</d>
+          <t id="dummy195">9913</t>
+        </dict>
+      </node>
+      <node id="node58"  label="ENSMLUP00000014379"  otu="otu23" >
+        <dict id="dict58">
+          <g id="dummy196">ENSMLUG00000015766</g>
+          <d id="dummy197">N</d>
+          <t id="dummy198">59463</t>
+          <first id="dummy199">y</first>
+        </dict>
+      </node>
+      <node id="node59"  label="Carnivora" >
+        <dict id="dict59">
+          <d id="dummy200">N</d>
+          <t id="dummy201">33554</t>
+          <b id="dummy202">42</b>
+          <first id="dummy203">y</first>
+        </dict>
+      </node>
+      <node id="node60"  label="ENSFCAP00000013818"  otu="otu24" >
+        <dict id="dict60">
+          <g id="dummy204">ENSFCAG00000014897</g>
+          <d id="dummy205">N</d>
+          <t id="dummy206">9685</t>
+          <first id="dummy207">y</first>
+        </dict>
+      </node>
+      <node id="node61"  label="ENSCAFP00000004053"  otu="otu25" >
+        <dict id="dict61">
+          <g id="dummy208">ENSCAFG00000002741</g>
+          <d id="dummy209">N</d>
+          <t id="dummy210">9615</t>
+        </dict>
+      </node>
+      <node id="node62"  label="Insectivora" >
+        <dict id="dict62">
+          <d id="dummy211">N</d>
+          <t id="dummy212">9362</t>
+          <b id="dummy213">15</b>
+          <first id="dummy214">y</first>
+        </dict>
+      </node>
+      <node id="node63"  label="ENSSARP00000009744"  otu="otu26" >
+        <dict id="dict63">
+          <g id="dummy215">ENSSARG00000010741</g>
+          <d id="dummy216">N</d>
+          <t id="dummy217">42254</t>
+          <first id="dummy218">y</first>
+        </dict>
+      </node>
+      <node id="node64"  label="ENSEEUP00000005720"  otu="otu27" >
+        <dict id="dict64">
+          <g id="dummy219">ENSEEUG00000006176</g>
+          <d id="dummy220">N</d>
+          <t id="dummy221">9365</t>
+        </dict>
+      </node>
+      <node id="node65"  label="Afrotheria" >
+        <dict id="dict65">
+          <d id="dummy222">N</d>
+          <t id="dummy223">311790</t>
+          <b id="dummy224">78</b>
+          <first id="dummy225">y</first>
+        </dict>
+      </node>
+      <node id="node66"  label="ENSLAFP00000006926"  otu="otu28" >
+        <dict id="dict66">
+          <g id="dummy226">ENSLAFG00000008249</g>
+          <d id="dummy227">N</d>
+          <t id="dummy228">9785</t>
+          <first id="dummy229">y</first>
+        </dict>
+      </node>
+      <node id="node67"  label="ENSETEP00000015138"  otu="otu29" >
+        <dict id="dict67">
+          <g id="dummy230">ENSETEG00000018626</g>
+          <d id="dummy231">N</d>
+          <t id="dummy232">9371</t>
+        </dict>
+      </node>
+      <node id="node68"  label="ENSDNOP00000011411"  otu="otu30" >
+        <dict id="dict68">
+          <g id="dummy233">ENSDNOG00000014711</g>
+          <d id="dummy234">N</d>
+          <t id="dummy235">9361</t>
+          <first id="dummy236">y</first>
+        </dict>
+      </node>
+      <node id="node69"  label="ENSMODP00000023052"  otu="otu31" >
+        <dict id="dict69">
+          <g id="dummy237">ENSMODG00000018489</g>
+          <d id="dummy238">N</d>
+          <t id="dummy239">13616</t>
+          <first id="dummy240">y</first>
+        </dict>
+      </node>
+      <node id="node70"  label="ENSOANP00000001477"  otu="otu32" >
+        <dict id="dict70">
+          <g id="dummy241">ENSOANG00000000943</g>
+          <d id="dummy242">N</d>
+          <t id="dummy243">9258</t>
+          <first id="dummy244">y</first>
+        </dict>
+      </node>
+      <node id="node71"  label="ENSGALP00000031021"  otu="otu33" >
+        <dict id="dict71">
+          <g id="dummy245">ENSGALG00000015898</g>
+          <d id="dummy246">N</d>
+          <t id="dummy247">9031</t>
+          <first id="dummy248">y</first>
+        </dict>
+      </node>
+      <node id="node72"  label="ENSXETP00000007788"  otu="otu34" >
+        <dict id="dict72">
+          <g id="dummy249">ENSXETG00000003610</g>
+          <d id="dummy250">N</d>
+          <t id="dummy251">8364</t>
+        </dict>
+      </node>
+      <node id="node73"  label="Ciona" >
+        <dict id="dict73">
+          <d id="dummy252">N</d>
+          <t id="dummy253">7718</t>
+          <b id="dummy254">100</b>
+          <first id="dummy255">y</first>
+        </dict>
+      </node>
+      <node id="node74"  label="ENSCINP00000007407"  otu="otu35" >
+        <dict id="dict74">
+          <g id="dummy256">ENSCING00000003599</g>
+          <d id="dummy257">N</d>
+          <t id="dummy258">7719</t>
+        </dict>
+      </node>
+      <node id="node75"  label="ENSCSAVP00000008304"  otu="otu36" >
+        <dict id="dict75">
+          <g id="dummy259">ENSCSAVG00000004941</g>
+          <d id="dummy260">N</d>
+          <t id="dummy261">51511</t>
+          <first id="dummy262">y</first>
+        </dict>
+      </node>
+      <node id="node76"  label="Diptera" >
+        <dict id="dict76">
+          <d id="dummy263">N</d>
+          <t id="dummy264">7147</t>
+          <b id="dummy265">100</b>
+        </dict>
+      </node>
+      <node id="node77"  label="Culicidae" >
+        <dict id="dict77">
+          <d id="dummy266">N</d>
+          <t id="dummy267">7157</t>
+          <b id="dummy268">100</b>
+          <first id="dummy269">y</first>
+        </dict>
+      </node>
+      <node id="node78"  label="AAEL004227PA"  otu="otu37" >
+        <dict id="dict78">
+          <g id="dummy270">AAEL004227</g>
+          <d id="dummy271">N</d>
+          <t id="dummy272">7159</t>
+        </dict>
+      </node>
+      <node id="node79"  label="AGAP000776PA"  otu="otu38" >
+        <dict id="dict79">
+          <g id="dummy273">AGAP000776</g>
+          <d id="dummy274">N</d>
+          <t id="dummy275">7165</t>
+          <first id="dummy276">y</first>
+        </dict>
+      </node>
+      <node id="node80"  label="FBpp0099527"  otu="otu39" >
+        <dict id="dict80">
+          <g id="dummy277">FBgn0011225</g>
+          <d id="dummy278">N</d>
+          <t id="dummy279">7227</t>
+        </dict>
+      </node>
+      <node id="node81"  label="Caenorhabditis elegans" >
+        <dict id="dict81">
+          <d id="dummy280">Y</d>
+          <t id="dummy281">6239</t>
+          <b id="dummy282">100</b>
+        </dict>
+      </node>
+      <node id="node82"  label="F47G6.4"  otu="otu40" >
+        <dict id="dict82">
+          <g id="dummy283">F47G6.4</g>
+          <d id="dummy284">N</d>
+          <t id="dummy285">6239</t>
+        </dict>
+      </node>
+      <node id="node83"  label="Y66H1A.6b"  otu="otu41" >
+        <dict id="dict83">
+          <g id="dummy286">Y66H1A.6</g>
+          <d id="dummy287">N</d>
+          <t id="dummy288">6239</t>
+          <first id="dummy289">y</first>
+        </dict>
+      </node>
+      <edge id="edge1"  source="node1" target="node2"  length="0.0863" />
+      <edge id="edge2"  source="node2" target="node3"  length="0.1747" />
+      <edge id="edge3"  source="node3" target="node4"  length="0.1983" />
+      <edge id="edge4"  source="node4" target="node5"  length="0.0484" />
+      <edge id="edge5"  source="node5" target="node6"  length="0.0439" />
+      <edge id="edge6"  source="node6" target="node7"  length="0.0793" />
+      <edge id="edge7"  source="node7" target="node8"  length="0.033" />
+      <edge id="edge8"  source="node8" target="node9"  length="0.1027" />
+      <edge id="edge9"  source="node8" target="node10"  length="0.1565" />
+      <edge id="edge10"  source="node7" target="node11"  length="0.059" />
+      <edge id="edge11"  source="node11" target="node12"  length="0.0686" />
+      <edge id="edge12"  source="node11" target="node13"  length="0.0883" />
+      <edge id="edge13"  source="node6" target="node14"  length="0.1531" />
+      <edge id="edge14"  source="node5" target="node15"  length="0.0333" />
+      <edge id="edge15"  source="node15" target="node16"  length="0.074" />
+      <edge id="edge16"  source="node16" target="node17"  length="0.0101" />
+      <edge id="edge17"  source="node17" target="node18"  length="0.05" />
+      <edge id="edge18"  source="node18" target="node19"  length="0.0496" />
+      <edge id="edge19"  source="node18" target="node20"  length="0.0944" />
+      <edge id="edge20"  source="node17" target="node21"  length="0.1188" />
+      <edge id="edge21"  source="node16" target="node22"  length="0.1445" />
+      <edge id="edge22"  source="node15" target="node23"  length="0.1539" />
+      <edge id="edge23"  source="node4" target="node24"  length="0.1142" />
+      <edge id="edge24"  source="node24" target="node25"  length="0.0707" />
+      <edge id="edge25"  source="node25" target="node26"  length="0.039" />
+      <edge id="edge26"  source="node26" target="node27"  length="0.0382" />
+      <edge id="edge27"  source="node27" target="node28"  length="0.0521" />
+      <edge id="edge28"  source="node28" target="node29"  length="0.0052" />
+      <edge id="edge29"  source="node29" target="node30"  length="0.0057" />
+      <edge id="edge30"  source="node30" target="node31"  length="0.0042" />
+      <edge id="edge31"  source="node31" target="node32"  length="0.0013" />
+      <edge id="edge32"  source="node32" target="node33"  length="0.0038" />
+      <edge id="edge33"  source="node33" target="node34"  length="0.0080" />
+      <edge id="edge34"  source="node34" target="node35"  length="0.0096" />
+      <edge id="edge35"  source="node35" target="node36"  length="0.0331" />
+      <edge id="edge36"  source="node35" target="node37"  length="0.0726" />
+      <edge id="edge37"  source="node34" target="node38"  length="0.02" />
+      <edge id="edge38"  source="node38" target="node39"  length="0.0691" />
+      <edge id="edge39"  source="node39" target="node40"  length="0.024" />
+      <edge id="edge40"  source="node39" target="node41"  length="0.0512" />
+      <edge id="edge41"  source="node38" target="node42"  length="0.0632" />
+      <edge id="edge42"  source="node33" target="node43"  length="0.0216" />
+      <edge id="edge43"  source="node43" target="node44"  length="0.0043" />
+      <edge id="edge44"  source="node44" target="node45"  length="0.0033" />
+      <edge id="edge45"  source="node45" target="node46"  length="8.0E-4" />
+      <edge id="edge46"  source="node45" target="node47"  length="0.0014" />
+      <edge id="edge47"  source="node44" target="node48"  length="0.0045" />
+      <edge id="edge48"  source="node43" target="node49"  length="0.0094" />
+      <edge id="edge49"  source="node32" target="node50"  length="0.0525" />
+      <edge id="edge50"  source="node31" target="node51"  length="0.0464" />
+      <edge id="edge51"  source="node30" target="node52"  length="0.0042" />
+      <edge id="edge52"  source="node52" target="node53"  length="5.0E-4" />
+      <edge id="edge53"  source="node53" target="node54"  length="0.0031" />
+      <edge id="edge54"  source="node54" target="node55"  length="0.0087" />
+      <edge id="edge55"  source="node55" target="node56"  length="0.0411" />
+      <edge id="edge56"  source="node55" target="node57"  length="0.0534" />
+      <edge id="edge57"  source="node54" target="node58"  length="0.0323" />
+      <edge id="edge58"  source="node53" target="node59"  length="0.0066" />
+      <edge id="edge59"  source="node59" target="node60"  length="0.0291" />
+      <edge id="edge60"  source="node59" target="node61"  length="0.052" />
+      <edge id="edge61"  source="node52" target="node62"  length="0.011" />
+      <edge id="edge62"  source="node62" target="node63"  length="0.0598" />
+      <edge id="edge63"  source="node62" target="node64"  length="0.0682" />
+      <edge id="edge64"  source="node29" target="node65"  length="0.0108" />
+      <edge id="edge65"  source="node65" target="node66"  length="0.0328" />
+      <edge id="edge66"  source="node65" target="node67"  length="0.0573" />
+      <edge id="edge67"  source="node28" target="node68"  length="0.0454" />
+      <edge id="edge68"  source="node27" target="node69"  length="0.0833" />
+      <edge id="edge69"  source="node26" target="node70"  length="0.1152" />
+      <edge id="edge70"  source="node25" target="node71"  length="0.1282" />
+      <edge id="edge71"  source="node24" target="node72"  length="0.1434" />
+      <edge id="edge72"  source="node3" target="node73"  length="0.3566" />
+      <edge id="edge73"  source="node73" target="node74"  length="0.2439" />
+      <edge id="edge74"  source="node73" target="node75"  length="0.2489" />
+      <edge id="edge75"  source="node2" target="node76"  length="0.3533" />
+      <edge id="edge76"  source="node76" target="node77"  length="0.0907" />
+      <edge id="edge77"  source="node77" target="node78"  length="0.2029" />
+      <edge id="edge78"  source="node77" target="node79"  length="0.274" />
+      <edge id="edge79"  source="node76" target="node80"  length="0.2338" />
+      <edge id="edge80"  source="node1" target="node81"  length="0.4533" />
+      <edge id="edge81"  source="node81" target="node82"  length="0.2781" />
+      <edge id="edge82"  source="node81" target="node83"  length="0.4886" />
+    </tree>
+  </trees>
+</nex:nexml>
