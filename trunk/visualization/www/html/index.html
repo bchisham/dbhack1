@@ -77,7 +77,7 @@
         widget.addButton('Save Tree',clickMe,'treeButtons');
         clickMe = function(){widget.updateTree('http://www.ebi.ac.uk/~greg/bbcdemo/smalltree.nhx')};
         widget.addButton('Example Tree',clickMe,'treeButtons');
-        clickMe = widget.updateTree;
+        clickMe = function(){return false};
         widget.addButton('Update Tree',clickMe,'treeButtons');
       </script>
     </span>
