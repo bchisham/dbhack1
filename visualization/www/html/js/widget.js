@@ -260,14 +260,12 @@ PWidget.prototype.panelInit = function(panel,params) {
 
   
   // Now, make draggable with the drag warning inserted
-  var leftConstraint = widget.getLoc('widget','x2');
   if (!isWidget) {
     pnl.beforeRenderEvent.subscribe(function() {
       var dd = new YAHOO.util.DDOnTop(panel);
       dd.setHandleElId(pnl.header);
       // can't drag over page header
       dd.setYConstraint( params['xy'][1]-80 , 5000 , 10 );
-      dd.setXConstraint( leftConstraint, 5000, 10 );
     }, pnl, true);
   }
 
@@ -283,6 +281,7 @@ PWidget.prototype.panelInit = function(panel,params) {
       widget.widgetContainer.innerHTML = '';
     }
     p.hide.call(this);
+    widget.saveDesktop();
   };
   pnl.show = function() {
     widget.hidden[panel] = false;
@@ -291,6 +290,7 @@ PWidget.prototype.panelInit = function(panel,params) {
       widget.loadWidget();
     }
     p.show.call(this);
+    widget.saveDesktop();
   }
 
   pnl.render();
@@ -373,6 +373,7 @@ YAHOO.extend(YAHOO.util.DDOnTop, YAHOO.util.DD, {
     // the panel.hide method.
     widget.setStyle(container,'visibility','inherit');
     widget.setStyle('widgetContainer','visibility','inherit');
+    widget.saveDesktop();
   }
 });
 
@@ -513,6 +514,10 @@ PWidget.prototype.hideMenu = function() {
 }
 
 PWidget.prototype.saveDesktop = function() {
+
+  // Work on this later!
+  return false;
+
   var c = YAHOO.util.Cookie;
 
   // expire in one month
@@ -521,37 +526,34 @@ PWidget.prototype.saveDesktop = function() {
   bestBefore = {expires:bestBefore};
 
   // save the coordinates and dimensions of all panels
+  for (var i=0;i<this.panels.length;i++) {
+    var el = this.panels[i].id;
+    var t  = this.getLoc(el,'y1');
+    var l  = this.getLoc(el,'x1');
+    var w  = this.getLoc(el,'width') - 20;
+    var h  = this.getLoc(el,'height');
 
-    for (var i=0;i<this.panels.length;i++) {
-      var el = this.panels[i].id;
-      var t  = this.getLoc(el,'y1');
-      var l  = this.getLoc(el,'x1');
-      var w  = this.getLoc(el,'width');
-      var h  = this.getLoc(el,'height') - 10;
-      c.setSub("panels", el, l+','+t+','+w+','+h, bestBefore);
+    var args = l+','+t+','+w+','+h;
+    c.setSub("panels", el, args, bestBefore);
 
-      // also remember who is hidden
-      if (this.hidden[el]) {
-        c.setSub("hidden",el,1,bestBefore);
-      }
-      else {
-        c.removeSub("hidden",el);
-      }
+    // also remember who is hidden
+    if (this.hidden[el]) {
+      c.setSub("hidden",el,1,bestBefore);
     }
+    else {
+      c.removeSub("hidden",el);
+    }
+  }
 
 
   // save data and query string if requested
-
-    if (this.treeText.value) {
-      c.set("tree", this.treeText.value, bestBefore);
-    }
-    if (this.clipText.value) {
-      c.set("clip", this.clipText.value, bestBefore);
-    }
-    var searchBox = document.getElementById('searchInput');
-    if (searchBox && searchBox.value) {
-      c.set("search", searchBox.value, bestBefore);
-    }
+  if (this.treeText.value) {
+    c.set("tree", this.treeText.value, bestBefore);
+  }
+  var searchBox = document.getElementById('searchInput');
+  if (searchBox && searchBox.value) {
+    c.set("search", searchBox.value, bestBefore);
+  }
 	
 }
 
