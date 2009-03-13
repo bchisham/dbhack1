@@ -11,7 +11,7 @@ var PWidget = function() {
 PWidget.prototype.saveTreeForm = function(evt) {
   var treeID = widget.treeID || widget.getTreeID();
   widget.saveTree();
-  window.open('/cgi-bin/hackathon/tree_save.pl?query='
+  window.open('/cgi-bin/tree_save.pl?query='
     +treeID,'saveTree','scrollbars=1,width=800,height=600,resizable=1,location=0,status=1');
 }
 

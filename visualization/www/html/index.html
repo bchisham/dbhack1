@@ -10,7 +10,7 @@
     BalloonConfig(box,"GBox");
     var pw = new PhyloWidget.object();
     pw.codebase = "./phylowidget/lib"; 
-    var widget  = new PWidget;  
+    var widget  = new PWidget();  
   </script>
 </head>
 
@@ -28,10 +28,10 @@
    <div id="searchAutocompleteContainer"></div>
    <div style="float:right" id="searchButton">
      <script type="text/javascript">
-       clickMe = widget.doSearch;;
+       clickMe = function(){widget.doSearch()};
        widget.addButton('Search',clickMe,'searchButton');
      </script>
-    <!--<input type="submit" value="Search" onclick="widget.doSearch()">-->
+<!--    <input type="submit" value="Search" onclick="widget.doSearch()"> -->
    </div>
   </div>
   <div id="searchResultsContainer"></div>
@@ -55,7 +55,7 @@
   <div id="otherTitle" class="hd">Other Operations</div>
   <div id="otherContainer" class="bd">
     <span style="font-size:10pt">Click a link for remote web services.</span><br>
-    <a href="javascript:alert('to be implemented')">Random Decoration</a><br>
+    <a href="javascript:pw.transformTree('http://mckay.cshl.edu/cgi-bin/hackathon/random_mess.pl')">Random Decoration</a><br>
     <a href="javascript:alert('to be implemented')">Bootstrap Value Heatmap</a><br>
     <a href="javascript:alert('to be implemented')">Add MorphBank Images</a><br>
     <a href="javascript:alert('to be implemented')">Some other thing...</a><br>
@@ -123,7 +123,7 @@
 
   YAHOO.example.BasicRemote = function() {
     // Use an XHRDataSource
-    var oDS = new YAHOO.util.XHRDataSource("/cgi-bin/hackathon/species_search.pl");
+    var oDS = new YAHOO.util.XHRDataSource("/cgi-bin/species_search.pl");
     // Set the responseType
     oDS.responseType = YAHOO.util.XHRDataSource.TYPE_TEXT;
     // Define the schema of the delimited results
