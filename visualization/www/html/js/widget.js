@@ -1,7 +1,6 @@
 var PWidget = function() {
   this.params = {
-    nodeSize: '4f',
-    enforceUniqueLabels: true
+    nodeSize: '3f',
   };
   this.panels = [];
   this.panelObjects = {};
@@ -17,6 +16,11 @@ PWidget.prototype.saveTreeForm = function(evt) {
 }
 
 PWidget.prototype.loadWidget  = function(force) {
+
+  if (!this.go) {
+    return false;
+  }
+
   this.keepWidgetInBox();
 
   var c = YAHOO.util.Cookie;
@@ -42,7 +46,7 @@ PWidget.prototype.loadWidget  = function(force) {
 
   // NO! I will not load you without a tree!
   if (!tree) {
-    this.params['tree'] = c.get('tree') || 'http://www.ebi.ac.uk/~greg/bbcdemo/smalltree.nhx';
+    this.params['tree'] = c.get('tree') || '(a,((b,c),(d,e)));';
   }
   
   pw.loadWidget('widgetContainer',this.params);
@@ -77,6 +81,7 @@ PWidget.prototype.setStyle = function(el,att,val) {
 
 PWidget.prototype.getLayout = function() {
   var pageWidth   = YAHOO.util.Dom.getViewportWidth();
+  if (pageWidth < 1024) { pageWidth = 1024 }
   var left1  = 10;
   var narrow = parseInt(0.30 * pageWidth) - 20;
   var wide   = parseInt(0.40 * pageWidth) - 20;
@@ -106,26 +111,29 @@ PWidget.prototype.getLayout = function() {
   this.rendered = this.panels.length > 0;
 
   // search box
-  this.panelConfig('search',panelParams,[left3,top1,narrow,venti],cookie); 
+  this.panelConfig('search',panelParams,[left3,top1,narrow,venti-100],cookie); 
   this.searchText = document.getElementById('searchInput');
 
   // tree decoration
   this.panelConfig('decoration',panelParams,[left2,top1,narrow,grande+20],cookie);
 
   // tree data container
-  this.panelConfig('tree',panelParams,[left3,top4,narrow,grande],cookie);
+  this.panelConfig('tree',panelParams,[left3,top3+25,narrow,grande-50],cookie);
   this.treeText = document.getElementById('pw_treetext');
+
+  // remote service container
+  this.panelConfig('other',panelParams,[left3,top4-5,narrow,grande+5],cookie);
 
   // node info
   this.panelConfig('node',panelParams,[left2,top3-25,narrow,venti-20],cookie);
 
   // the container for phylowidget
-  this.panelConfig('widget',panelParams,[left1,top1,wide,440],cookie);
+  this.panelConfig('widget',panelParams,[left1,top1,wide,445],cookie);
   this.widgetTitle = document.getElementById('widgetTitle');
   this.widgetLabel = this.widgetTitle.innerHTML;
   this.widgetContainer = document.getElementById('widgetContainer');
 
-  this.treeText.value   = cookie.get('tree')   || 'http://www.ebi.ac.uk/~greg/bbcdemo/smalltree.nhx';
+  this.treeText.value   = cookie.get('tree')   || 'Paste Newick, NeXML or a URL here';
   //this.clipText.value   = cookie.get('clip')   || '';
   this.searchText.value = cookie.get('search') || 'Species name';
 
@@ -266,6 +274,9 @@ PWidget.prototype.panelInit = function(panel,params) {
       dd.setHandleElId(pnl.header);
       // can't drag over page header
       dd.setYConstraint( params['xy'][1]-80 , 5000 , 10 );
+      var badX = widget.getLoc('widget','x2');
+      var extremeX = params['xy'][0] - badX - 10;
+      dd.setXConstraint( 0, 5000, 10 );
     }, pnl, true);
   }
 
@@ -298,7 +309,7 @@ PWidget.prototype.panelInit = function(panel,params) {
   return pnl;
 }
 
-PWidget.prototype.addButton = function(label,onButtonClick,container) {
+PWidget.prototype.addButton = function(label,onButtonClick,container,disable) {
   var buttonId = label+'Button';
   buttonId = buttonId.replace(/\s+/,'','g');
   var realButtonId = buttonId+'-button';
@@ -315,6 +326,10 @@ PWidget.prototype.addButton = function(label,onButtonClick,container) {
     name:      buttonId,
     value:     '1',
     container: (container || 'showhide')
+  }
+
+  if (disable) {
+    bParams['disabled'] = true;
   }
 
   var myButton = new Button(bParams);
@@ -384,7 +399,7 @@ YAHOO.extend(YAHOO.util.DDOnTop, YAHOO.util.DD, {
 PWidget.prototype.dragWarn = function(panel) {
   if (widget.isOverlap(widget.widgetContainer,panel)) {
     widget.widgetTitle.innerHTML = '<b style="color:red">Note: The PhyloWidget panel is always on top</b>';
-    widget.setStyle('widgetContainer','visibility','hidden');
+    widget.setStyle('widgetContainer','visibility','none');
   }
   else {
     widget.widgetTitle.innerHTML = widget.widgetLabel;
@@ -456,7 +471,7 @@ PWidget.prototype.updateTree = function(newText) {
   setTimeout( function() { 
     document.getElementById('pw_treetext').value = treeData;
     widget.updateJavaTree(treeData);
-  },100);
+  },50);
 }
 
 // Push back to the applet

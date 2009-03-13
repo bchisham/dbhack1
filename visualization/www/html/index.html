@@ -15,9 +15,8 @@
 </head>
 
 <body class="yui-skin-sam">
-<div id="header">
-<img src="./images/phylowidget/pw_small_transparent.png">
-</div>
+<div id="header"></div>
+<div id="showhide"></div>
 
 <div id="panels">
 
@@ -27,8 +26,12 @@
   <div id="searchAutoComplete" class="searchbar">
    <input id="searchInput" />
    <div id="searchAutocompleteContainer"></div>
-   <div style="float:right">
-    <input type="submit" value="Search" onclick="widget.doSearch()">
+   <div style="float:right" id="searchButton">
+     <script type="text/javascript">
+       clickMe = widget.doSearch;;
+       widget.addButton('Search',clickMe,'searchButton');
+     </script>
+    <!--<input type="submit" value="Search" onclick="widget.doSearch()">-->
    </div>
   </div>
   <div id="searchResultsContainer"></div>
@@ -38,12 +41,24 @@
 
 
 <div id="tree">
-  <div id="treeTitle" class="hd">Newick Data or URL</div>
+  <div id="treeTitle" class="hd">Tree Data or URL</div>
   <div id="treeContainer" class="bd">
     <textarea onblur="widget.updateTree(this.value)"
               style="font-size:10px;width:100%;height:100%" 
               id="pw_treetext">
     </textarea>
+  </div>
+ <div class="ft"></div>
+</div>
+
+<div id="other">
+  <div id="otherTitle" class="hd">Other Operations</div>
+  <div id="otherContainer" class="bd">
+    <span style="font-size:10pt">Click a link for remote web services.</span><br>
+    <a href="javascript:alert('to be implemented')">Random Decoration</a><br>
+    <a href="javascript:alert('to be implemented')">Bootstrap Value Heatmap</a><br>
+    <a href="javascript:alert('to be implemented')">Add MorphBank Images</a><br>
+    <a href="javascript:alert('to be implemented')">Some other thing...</a><br>
   </div>
  <div class="ft"></div>
 </div>
@@ -64,20 +79,34 @@
  <div class="ft"></div>
 </div>
 
-
 <div id="widget">
  <div id="widgetTitle" class="hd">Phylowidget</div>
- <div id="widgetContainer" class="bd" style="text-align:center;font-size:10pt"></div>
+ <div id="widgetContainer" class="bd" style="text-align:center;font-size:10pt">
+  <div style="padding-top:30%">
+     <p>
+       <img src="./images/phylowidget/pw-icon.png" />
+       PhyloWidget is Java Applet.<br>
+       <a href="javascript:widget.go=1;loadTree('(a,((b,c),(e,f)))')">Click here to launch.</a>
+     </p>
+  </div>
+ </div>
  <div class="ft" style="height:17px">
    <div style="height:2px;width:100%"></div> <!-- Needed for layout! -->
    <div class="footerText">
     <span id="treeButtons">
       <script type="text/javascript">
-        var clickMe = function(){widget.saveTreeForm(event)};
+        //var clickMe = function(){widget.saveTreeForm(event)};
+        var clickMe = function(){alert('This will trigger a PUT operation (When I finish it)')};
         widget.addButton('Save Tree',clickMe,'treeButtons');
-        clickMe = function(){widget.updateTree('http://www.ebi.ac.uk/~greg/bbcdemo/smalltree.nhx')};
+        clickMe = function(){
+	  if (!widget.go) { widget.go = 1; loadTree('http://www.ebi.ac.uk/~greg/bbcdemo/smalltree.nhx') }
+          else { widget.updateTree('http://www.ebi.ac.uk/~greg/bbcdemo/smalltree.nhx') }
+        }
         widget.addButton('Example Tree',clickMe,'treeButtons');
-        clickMe = function(){return false};
+        clickMe = function(){
+          if (!widget.go) { widget.go = 1; loadTree('') }
+          else {}
+        }
         widget.addButton('Update Tree',clickMe,'treeButtons');
       </script>
     </span>
@@ -87,9 +116,6 @@
 
 </div> <!-- end 'panels' div -->
 
-<!-- The conatiner for show/hide buttons -->
-<div id="showhide">
-</div>
 
 <!-- Move this stuff to widget.js and fire with a window.onload event handler -->
 <script type="text/javascript">
