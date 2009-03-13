@@ -73,7 +73,7 @@
                 ======= In unrooted trees every node is a direct subclass of the tree =======
             </xsl:comment>
             
-            <xsl:apply-templates select="descendant::nex:tree[not (@root = 'true')]" mode="rooting-unrooted"/>
+            <xsl:apply-templates select="descendant::nex:tree[not (nex:node/@root = 'true')]" mode="rooting-unrooted"/>
             
         </rdf:RDF>
     </xsl:template>
@@ -135,7 +135,7 @@
         </owl:Class>
     </xsl:template>
 
-    <!-- The root node is a subclass of TaxonConcept -->
+    <!-- The root node is a subclass of the tree -->
     <xsl:template match="nex:node[@root = 'true']" mode="rooting">
         <owl:Class>
             <!-- the rdf:about for this class -->
@@ -209,12 +209,13 @@
 
     <xsl:template name="label">
         <xsl:if test="@label">
-            <dc:label>
+            <rdfs:label>
                 <xsl:value-of select="@label"/>
-            </dc:label>
+            </rdfs:label>
         </xsl:if>
     </xsl:template>
     
-    
+    <!-- Do nothing with the things we aren't interested in processing. -->
+    <xsl:template match="*" priority="-1"/>
 
 </xsl:stylesheet>
