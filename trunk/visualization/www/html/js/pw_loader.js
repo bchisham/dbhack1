@@ -54,7 +54,7 @@ window.onload = function() {
     argument:['foo','bar']
   };
 
-  widget.sUrl = "/cgi-bin/hackathon/tree_search.pl";
+  widget.sUrl = "/cgi-bin/tree_search.pl";
 
 }
 
@@ -172,6 +172,7 @@ annotation_input_row = function(key,val,table) {
   var sz = val.length >= 10 ? val.length : 10;
   v.setAttribute('size',sz);
   v.setAttribute('id',key);
+  v.setAttribute('onchange','pw_updateNode()');
   _annotation_table_row(key,v,table);
 }
 
@@ -236,6 +237,13 @@ pw_hover = function(json_data) {
       annotation_input_row(key,val,tab2);
     }
   }
+  tab2.innerHTML += '\
+  <tr class="value"> \
+    <td colspan=2>   \
+      <textarea onchange="pw_updateNode()" id="newAnnotations" rows=3 style="width:100%"> \
+      </textarea>     \
+    </td>            \
+  </tr>';
 
   decoration_table(nodeDec,dec,decLabels);
   pw_WTF_is_wrong_with_IE(nodeInf);
@@ -263,6 +271,13 @@ pw_updateNode = function() {
       var val = el.value;
       if (val) {widget.nodeJSON['annotations'][key] = val;}
     }
+  }
+
+  // parse any new annotations
+  var newAnn = getObject('newAnnotations');
+  if (newAnn && newAnn.value) {
+    var vals = newAnn.value;
+    //alert("NOt yet implemented, but the value is: "+vals);
   }
 
   var jData = YAHOO.lang.JSON.stringify(widget.nodeJSON['annotations']);
