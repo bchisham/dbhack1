@@ -99,6 +99,7 @@ PWidget.prototype.getLayout = function() {
   var small  = 75;  
 
   var cookie = YAHOO.util.Cookie;  
+  this.widgetRight = left1 + wide;
 
   // The core config for yahoo panels
   var panelParams = {
@@ -276,9 +277,10 @@ PWidget.prototype.panelInit = function(panel,params) {
       dd.setHandleElId(pnl.header);
       // can't drag over page header
       dd.setYConstraint( params['xy'][1]-80 , 5000 , 10 );
-      var badX = widget.getLoc('widget','x2');
+      var badX = widget.widgetRight;
       var extremeX = params['xy'][0] - badX - 10;
-      dd.setXConstraint( 0, 5000, 10 );
+      if (extremeX < 1) extremeX = 0;
+      dd.setXConstraint( extremeX, 5000, 10 );
     }, pnl, true);
   }
 
