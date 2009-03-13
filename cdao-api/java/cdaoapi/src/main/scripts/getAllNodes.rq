@@ -1,0 +1,18 @@
+# Simple SPARQL query to get the node resource and tree resource
+# from the CDAO data.
+
+PREFIX cdao: <http://localhost/~vivek/cdao.owl#>
+PREFIX dc:   <http://purl.org/dc/elements/1.1/>PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX : <.>
+SELECT *
+FROM <trees_original-local.rdf>
+WHERE { 
+    ?nodeResource dc:label ?nodeName
+    { 
+        { ?nodeResource cdao:belongs_to_Tree ?treeResource .}
+        UNION
+        { ?nodeResource cdao:part_of         ?treeResource .}
+    }
+} 

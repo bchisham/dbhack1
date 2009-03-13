@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.cdao</groupId>
+  <artifactId>cdaoapi</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>cdaoapi</name>
+  <url>http://maven.apache.org</url>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+  <!--  Jena plugin links - Obtained from http://jena.sourceforge.net/downloads.html (Vivek) -->
+    <dependency>
+      <groupId>com.hp.hpl.jena</groupId>
+      <artifactId>jena</artifactId>
+      <version>2.5.7</version>
+    </dependency>
+    
+  <!--  Jastor plugin links - local directory (Vivek) -->
+ <dependency>
+      <groupId>jastor</groupId>
+      <artifactId>jdbc-stdext</artifactId>
+      <version>1.0.4</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/src/main/local-lib/jastor-1.0.4.jar</systemPath> 
+    </dependency>
+   
+  </dependencies>
+  
+	<repositories>
+		<!-- Generic maven repository -->
+		<repository>
+			<id>Codehaus Snapshots</id>
+			<url>http://snapshots.repository.codehaus.org/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>
+		
+		<!-- Jena library (Obtained from http://jena.sourceforge.net/downloads.html) -->
+		<repository>
+			<id>jena</id>
+			<name>Jena Semantic Web API</name>
+			<url>http://jena.hpl.hp.com/repo</url>
+		</repository>
+	</repositories>
+<build>
+  <plugins>
+  
+  
+  <!--  Java compiler to allow JDK 5.0 sources - Obtained from http://maven.apache.org/guides/getting-started/index.html (Vivek) -->
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>2.0.2</version>
+      <configuration>
+        <source>1.5</source>
+        <target>1.5</target>
+      </configuration>
+    </plugin>
+    
+    
+  </plugins>
+</build>
+
+</project>
