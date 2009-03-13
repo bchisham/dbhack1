@@ -1,6 +1,6 @@
 var PWidget = function() {
   this.params = {
-    nodeSize: '3f',
+    nodeSize: '3f'
   };
   this.panels = [];
   this.panelObjects = {};
