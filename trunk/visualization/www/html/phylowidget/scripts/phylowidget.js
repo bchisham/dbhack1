@@ -164,7 +164,7 @@ var PhyloWidget = window.PhyloWidget || {
 			archive:'core.jar,phylowidget.jar',
 			cache_archive:'core.jar,phylowidget.jar',
 			cache_archive_ex:'core.jar,phylowidget.jar',
-			splash:'img/splash.gif',
+			splash:'http://www.phylowidget.org/beta/full/img/splash.gif',
 			play_splash:'img/play.gif',
 			width: '500',
 			height: '500',
