@@ -3,7 +3,7 @@ body {
 }
 
 /* Take Note: must list all buttons by name */
-#otherButton-button,
+#remoteButton-button,
 #searchButton-button,
 #treeButton-button,
 #nodeButton-button,
@@ -145,7 +145,7 @@ h1,h2,h3 {
 
 #nodeContainer,
 #decorationContainer,
-#otherContainer {
+#remoteContainer {
   font-size: 10pt;
   height:100%;
   overflow:auto;
