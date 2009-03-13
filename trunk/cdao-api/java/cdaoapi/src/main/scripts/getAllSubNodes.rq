@@ -1,0 +1,14 @@
+PREFIX cdao: <http://localhost/~vivek/cdao.owl#>
+PREFIX dc:   <http://purl.org/dc/elements/1.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX : <.>
+SELECT *
+WHERE { 
+        { ?edgeResource cdao:belongs_to_Tree ?xx .}
+        { ?edgeResource cdao:has_Parent_Node ?nodeResource .}
+        { ?edgeResource cdao:has_Child_Node ?nodeResource1 .}
+        { ?nodeResource dc:label ?parentName.}
+        { ?nodeResource1  dc:label ?childName.}
+} 
