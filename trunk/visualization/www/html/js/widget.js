@@ -49,6 +49,8 @@ PWidget.prototype.loadWidget  = function(force) {
     this.params['tree'] = c.get('tree') || '(a,((b,c),(d,e)));';
   }
   
+  this.params['menus'] = "phylowidget/pw_toolbar.xml;phylowidget/pw_dock.xml;phylowidget/pw_context.xml;phylowidget/pw_callbacks.xml";
+
   pw.loadWidget('widgetContainer',this.params);
 
 }
