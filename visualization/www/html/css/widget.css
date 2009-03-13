@@ -11,7 +11,7 @@ body {
 #UpdateTreeButton-button,
 #SaveTreeButton-button,
 #ExampleTreeButton-button,
-#SearchButton-button
+#SearchDatabaseButton-button
 {
   background:url(../images/phylowidget/sprite.png) repeat-x 0 -1400px;
   color:white;
