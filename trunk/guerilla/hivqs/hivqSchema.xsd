@@ -1,0 +1,12 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://fortinbras.us/HIVDBSchema/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="hivqSimpleTypes.xsd"/>
+  <xs:include schemaLocation="hivqComplexTypes.xsd"/>
+  <xs:include schemaLocation="hivqAnnotSeqType.xsd"/>
+  <xs:element name="HivqSeqs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" minOccurs="0" name="annotHivqSeq" type="tns:annotSeqType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
