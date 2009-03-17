@@ -18,21 +18,21 @@
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element minOccurs="0" name="LanlPatientId" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="LanlLocationID" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="LanlPubInfo">
+      <xs:element minOccurs="0" name="LANLPatientId" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="LANLLocationID" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="LANLPubInfo">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="LanlPersonID" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-            <xs:element minOccurs="0" name="LanlPubID" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-            <xs:element minOccurs="0" name="LanlPubLink" type="xs:anyURI"/>
+            <xs:element minOccurs="0" name="LANLPersonID" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+            <xs:element minOccurs="0" name="LANLPubID" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+            <xs:element minOccurs="0" name="LANLPubLink" type="xs:anyURI"/>
           </xs:sequence>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="annotSeqType">
-    <xs:sequence>
+    <xs:all>
       <xs:element maxOccurs="1" minOccurs="1" name="registration" type="tns:registrationType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="author" type="tns:authorType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="location2" type="tns:location2Type" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
@@ -45,6 +45,6 @@
       <xs:element minOccurs="0" name="sequencefeature2" type="tns:sequencefeature2Type" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="sequencemap" type="tns:sequencemapType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element maxOccurs="1" minOccurs="0" name="genomic_region" type="tns:genomic_regionType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-    </xs:sequence>
+    </xs:all>
   </xs:complexType>
 </xs:schema>
