@@ -14,22 +14,35 @@
                 </xs:restriction>
               </xs:simpleType>
             </xs:element>
+            <xs:element minOccurs="0" name="SeqVersion" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
             <xs:element minOccurs="0" name="GI" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element minOccurs="0" name="LANLPatientId" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="LANLLocationID" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="LANLPubInfo">
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="commentType">
+    <xs:all>
+      <xs:element maxOccurs="1" minOccurs="0" name="LANLDBComment" type="xs:string"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="GenBankComment" type="xs:string"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="LANLPatComment" type="xs:string"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="LANLProblematicSeq">
         <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="LANLPersonID" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-            <xs:element minOccurs="0" name="LANLPubID" type="tns:integerGt0" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-            <xs:element minOccurs="0" name="LANLPubLink" type="xs:anyURI"/>
-          </xs:sequence>
+          <xs:all>
+            <xs:element maxOccurs="1" minOccurs="1" name="problematicValue">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:maxLength value="50"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+          </xs:all>
+          <xs:attribute name="problemcode" type="tns:ssam_badseqCodeType" use="required" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
         </xs:complexType>
       </xs:element>
-    </xs:sequence>
+    </xs:all>
   </xs:complexType>
   <xs:complexType name="annotSeqType">
     <xs:all>
@@ -38,7 +51,6 @@
       <xs:element minOccurs="0" name="location2" type="tns:location2Type" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="patient" type="tns:patientType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="person" type="tns:personType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="publication" type="tns:publicationType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="se_pub_link" type="tns:se_pub_linkType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="seq_sample" type="tns:seq_sampleType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="seqentryfeature" type="tns:seqentryfeatureType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
