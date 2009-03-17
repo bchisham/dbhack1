@@ -53,8 +53,9 @@ my %xmlns = (
     'NeXML'        => "http://www.nexml.org/1.0"
     );
 
-my @skip_tables = qw(sequenceentry sequenceaccessions mapimage); 
+my @skip_tables = qw(sequenceentry sequenceaccessions mapimage publication); 
 # skip sequenceentry, casting sequence in NeXML
+# publication db is not worth it; better to slurp from genbank with the gbacc
 # create the id + "registration" elements
 # by hand
 
@@ -129,8 +130,8 @@ foreach my $fld ($sch->fields) {
 			  'base'=>[$xs, 'string']);
 	{ # 2-letter country code as attribute
 	    map { 
-		$_ && $writer->emptyTag([$xs, 'enumeration'],
-					'value' => $_) 
+		($_ ne 'Any') ? $writer->emptyTag([$xs, 'enumeration'],
+					'value' => $_) : ()
 	    } ($sch->options($fld));
 	}
 	$writer->endTag([$xs, 'restriction']);
@@ -160,11 +161,12 @@ foreach my $fld ($sch->fields) {
 		$writer->endTag([$xs, 'element']);
 	    }
 	    $writer->endTag([$xs, 'all']);
+
+	    $writer->emptyTag([$xs, 'attribute'],
+			      'name' => 'ccode',
+			      'type' => [$tns, 'countryCodeType'],
+			      'use' => 'required');
 	}
-	$writer->emptyTag([$xs, 'attribute'],
-			  'name' => 'ccode',
-			  'type' => [$tns, 'countryCodeType'],
-			  'use' => 'required');
 	$writer->endTag([$xs, 'complexType']);
 	next;
     };
@@ -176,8 +178,8 @@ foreach my $fld ($sch->fields) {
 			  'base'=>[$xs, 'string']);
 	{
 	    map {
-		$_ && $writer->emptyTag([$xs, 'enumeration'],
-					'value'=>$_)
+		($_ ne 'Any') ? $writer->emptyTag([$xs, 'enumeration'],
+					'value'=>$_) : ()
 	    } ($sch->options($fld));
 	}
 	$writer->endTag([$xs, 'restriction']);
@@ -397,7 +399,10 @@ $writer->startTag([$xs, 'sequence']);
 		$writer->endTag([$xs, 'simpleType']);
 	    }
 	    $writer->endTag([$xs, 'element']);
-	    
+	    $writer->emptyTag([$xs, 'element'],
+			      'name' => 'SeqVersion',
+			      'type' => [$tns, 'integerGt0'],
+			      'minOccurs' => 0);
 	    $writer->emptyTag([$xs, 'element'],
 			      'name' => 'GI',
 			      'type' => [$tns, 'integerGt0'],
@@ -417,34 +422,70 @@ $writer->startTag([$xs, 'sequence']);
 		      'name'      => 'LANLLocationID',
 		      'type'      => [$tns, 'integerGt0'],
 		      'minOccurs' => 0);
-    $writer->startTag([$xs, 'element'],
-		      'name'      => 'LANLPubInfo',
-		      'minOccurs' => 0);
-    $writer->startTag([$xs, 'complexType']);
-    {
-	$writer->startTag([$xs, 'sequence']);
-	{
-	    $writer->emptyTag([$xs, 'element'],
-			      'name'      => 'LANLPersonID',
-			      'type'      => [$tns, 'integerGt0'],
-			      'minOccurs' => 0);
-	    $writer->emptyTag([$xs, 'element'],
-			      'name'      => 'LANLPubID',
-			      'type'      => [$tns, 'integerGt0'],
-			      'minOccurs' => 0);
-	    $writer->emptyTag([$xs, 'element'],
-			      'name'      => 'LANLPubLink',
-			      'type'      => [$xs, 'anyURI'],
-			      'minOccurs' => 0);
-	}
-	$writer->endTag([$xs, 'sequence']);
-    }
-    $writer->endTag([$xs, 'complexType']);
-    $writer->endTag([$xs, 'element']); # LanlPubInfo
-
 }
 $writer->endTag([$xs, 'sequence']);
 $writer->endTag([$xs, 'complexType']); # registrationType
+
+# type for commenty things
+
+$writer->startTag([$xs, 'complexType'],
+		  'name' => 'commentType');
+$writer->startTag([$xs, 'all']);
+{
+    $writer->emptyTag([$xs, 'element'],
+		      'name'=>'LANLDBComment',
+		      'type'=>[$xs,'string'],
+		      'minOccurs' => 0,
+		      'maxOccurs' => 1);
+    $writer->emptyTag([$xs, 'element'],
+		      'name'=>'GenBankComment',
+		      'type'=>[$xs, 'string'],
+		      'minOccurs' => 0,
+		      'maxOccurs' => 1);
+    $writer->emptyTag([$xs,'element'],
+		      'name'=>'LANLPatComment',
+		      'type'=>[$xs, 'string'],
+		      'minOccurs' => 0,
+		      'maxOccurs' => 1);
+    $writer->startTag([$xs, 'element'],
+		      'name'=>'LANLProblematicSeq',
+		      'minOccurs' => 0,
+		      'maxOccurs' => 1);
+    {
+	$writer->startTag([$xs, 'complexType']);
+	{
+	    $writer->startTag([$xs, 'all']);
+	    {
+		$writer->startTag([$xs, 'element'],
+				  'name' => 'problematicValue',
+				  'minOccurs' => 1,
+				  'maxOccurs' => 1);
+		$writer->startTag([$xs, 'simpleType']);
+		{
+		    $writer->startTag([$xs, 'restriction'],
+				      'base'=>[$xs,'string']);
+		    $writer->emptyTag([$xs, 'maxLength'],
+				      'value' => 50);
+		    $writer->endTag([$xs, 'restriction']);
+		}
+		$writer->endTag([$xs, 'simpleType']);
+		$writer->endTag([$xs, 'element']);
+	    }
+	    $writer->endTag([$xs, 'all']);
+
+	    $writer->emptyTag([$xs, 'attribute'],
+			      'name' => 'problemcode',
+			      'type' => [$tns, 'ssam_badseqCodeType'],
+			      'use'  => 'required');
+	}
+	$writer->endTag([$xs, 'complexType']);
+    }
+    $writer->endTag([$xs, 'element']);
+}
+$writer->endTag([$xs, 'all']);
+$writer->endTag([$xs, 'complexType']);
+	
+		      
 
 # create the final schema element type
 # how does this work? 
@@ -502,7 +543,7 @@ $writer->startTag([$xs, 'element'],
 		  'name'=>'HivqSeqs');
 $writer->startTag([$xs, 'complexType']);
 {
-    $writer->startTag([$xs, 'all']);
+    $writer->startTag([$xs, 'sequence']);
     {
 	$writer->emptyTag([$xs, 'element'],
 			  'name'=>'annotHivqSeq',
@@ -510,7 +551,7 @@ $writer->startTag([$xs, 'complexType']);
 			  'minOccurs'=>0,
 			  'maxOccurs'=>'unbounded');
     }
-    $writer->endTag([$xs, 'all']);
+    $writer->endTag([$xs, 'sequence']);
 }
 $writer->endTag([$xs, 'complexType']);
 $writer->endTag([$xs, 'element']);
