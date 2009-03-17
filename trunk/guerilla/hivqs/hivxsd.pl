@@ -505,6 +505,11 @@ $writer->startTag([$xs, 'all']);
 		      'type' => [$tns,'registrationType'],
 		      'minOccurs' => 1,
 		      'maxOccurs' => 1); # must have one and only one per rec
+    $writer->emptyTag([$xs, 'element'],
+		      'name' => 'comments',
+		      'type' => [$tns, 'commentType'],
+		      'minOccurs' => 0,
+		      'maxOccurs' => 1); # optional
     foreach my $ctype (@cTypes) {
 	my ($tn) = ($ctype =~ /^(.*)Type$/);
 	$writer->emptyTag([$xs, 'element'],
