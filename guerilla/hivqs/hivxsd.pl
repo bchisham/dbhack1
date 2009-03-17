@@ -7,8 +7,31 @@
 #
 # MAJ 11 Mar 09
 
-# try this: don't qualify the names in the type definitions, but qualify
-# in 
+# fix the coreceptor type
+# countrySimpleType for all fields matching /_country$/
+
+# some annotations are returned as expansions of codes
+# that are contained in the actual db cells...
+# find these and create attributes for the codes, 
+# and contain the returned values in the element
+# for which that code is an attribute.
+# call the code an 'alt' attribute
+#
+# in the custom xml, these are 'option' elements with 
+# a 'desc' attribute: the elt text is the DB celldata,
+# the 'desc' value is the returned info
+#
+# the fields to handle like this:
+#  patient.pat_risk_factor
+#  seq_sample.ssam_badseq
+#  seq_sample.ssam_sample_georegion
+
+# the attribute thing:
+# define a simpleType to specific the option elts for the attribute
+#   (simpleType, restriction/base, enumeration)
+# define a complexType to contain the data:
+#  FIRST, (all, element)
+#  THEN, (attribute name='the_name' type='simple_type_defined_above' use='required')
 
 $|=1;
 use strict;
@@ -56,7 +79,8 @@ my %pfmap = (  $xs => 'xs',
 
 # create the simpleTypes .xsd
 
-open my $st, ">$fnames{simpleTypes}" or die $!;
+my $pp = "| xml_pp -s indented ";
+open my $st, "$pp > $fnames{simpleTypes}" or die $!;
 
 my $writer = XML::Writer->new( OUTPUT => $st, NAMESPACES => 1, PREFIX_MAP => \%pfmap, 'FORCED_NS_DECLS');
 
@@ -77,6 +101,8 @@ $writer->startTag([$xs, 'simpleType'],
 }
 $writer->endTag([$xs, 'simpleType']);
 
+my $got_country = 0;
+
 foreach my $fld ($sch->fields) {
     my $tn = $sch->col($fld);
     my $tbl = $sch->tbl($fld);
@@ -87,28 +113,123 @@ foreach my $fld ($sch->fields) {
     next if grep /^$tbl$/, @skip_tables; # skip this table
     next if grep /^$tn$/, @skip_cols; # skip this column
 
-
-    my $h = $sch->_sfieldh($fld); # attribute hash
+    if ($fld =~ /_country$/) {
+	next if $got_country;
+	$got_country = 1;
+	$tn = 'country';
+    }
 	
+    my $h = $sch->_sfieldh($fld); # attribute hash
+    # handle the attribute/element specials described in comments above...
+    ($tn eq 'country') && do {
+	# define the countryCodeType
+	$writer->startTag([$xs, 'simpleType'],
+			  'name'=>'countryCodeType');
+	$writer->startTag([$xs, 'restriction'],
+			  'base'=>[$xs, 'string']);
+	{ # 2-letter country code as attribute
+	    map { 
+		$_ && $writer->emptyTag([$xs, 'enumeration'],
+					'value' => $_) 
+	    } ($sch->options($fld));
+	}
+	$writer->endTag([$xs, 'restriction']);
+	$writer->endTag([$xs, 'simpleType']);
+
+	# define the countryType, has ccode attribute, contains 
+	# the 'countryString' element
+	$writer->startTag([$xs, 'complexType'], 
+			  'name' => 'countryType');
+	{
+	    # country name as returned, element text
+	    $writer->startTag([$xs, 'all']);
+	    {
+		$writer->startTag([$xs, 'element'],
+				  'name'=>'countryString',
+				  'minOccurs' => 1,
+				  'maxOccurs' => 1);
+		$writer->startTag([$xs, 'simpleType']);
+		{
+		    $writer->startTag([$xs, 'restriction'],
+				      'base'=>[$xs,'string']);
+		    $writer->emptyTag([$xs, 'maxLength'],
+				      'value' => 50);
+		    $writer->endTag([$xs, 'restriction']);
+		}
+		$writer->endTag([$xs, 'simpleType']);
+		$writer->endTag([$xs, 'element']);
+	    }
+	    $writer->endTag([$xs, 'all']);
+	}
+	$writer->emptyTag([$xs, 'attribute'],
+			  'name' => 'ccode',
+			  'type' => [$tns, 'countryCodeType'],
+			  'use' => 'required');
+	$writer->endTag([$xs, 'complexType']);
+	next;
+    };
+
+    ($tn =~ /risk_factor$|badseq$|georegion$/) && do {
+	$writer->startTag([$xs, 'simpleType'],
+			  'name' => $tn.'CodeType');
+	$writer->startTag([$xs, 'restriction'],
+			  'base'=>[$xs, 'string']);
+	{
+	    map {
+		$_ && $writer->emptyTag([$xs, 'enumeration'],
+					'value'=>$_)
+	    } ($sch->options($fld));
+	}
+	$writer->endTag([$xs, 'restriction']);
+	$writer->endTag([$xs, 'simpleType']);
+
+	$writer->startTag([$xs, 'complexType'],
+			  'name' => $tn.'Type');
+	{
+	    $writer->startTag([$xs, 'all']);
+	    {
+		$writer->startTag([$xs, 'element'],
+				  'name' => $tn.'String',
+				  'minOccurs'=>1,
+				  'maxOccurs'=>1);
+		$writer->startTag([$xs, 'simpleType']);
+		{
+		    $writer->startTag([$xs, 'restriction'],
+				      'base'=>[$xs, 'string']);
+		    $writer->emptyTag([$xs, 'maxLength'],
+				      'value' => 50);
+		    $writer->endTag([$xs, 'restriction']);
+		}
+		$writer->endTag([$xs, 'simpleType']);
+		$writer->endTag([$xs, 'element']);
+	    }
+	    $writer->endTag([$xs, 'all']);
+	}
+	$writer->emptyTag([$xs, 'attribute'],
+			  'name' => 'LANLcode',
+			  'type' => [$tns, $tn.'CodeType'],
+			  'use' => 'required');
+	$writer->endTag([$xs, 'complexType']);
+	next;
+    };
     ($$h{type} eq 'option') && do { # fields with option list
 	# change the type for certain fields
 	$writer->startTag([$xs, 'simpleType'],
 			  'name' => $tn.'Type');
 	if ($tn =~ m{number|_num_}) { # to xs:integer base
 	    $writer->startTag([$xs, 'restriction'],
-			      'base' => [$xs, "integer"]);
+			      'base' => [$xs, 'integer']);
 	    $writer->emptyTag([$xs, 'minInclusive'],
 			      'value' => 0);
 	    $writer->endTag([$xs, 'restriction']);
 	}
 	elsif ($tn =~ m{year$}) { # to xs:gYear base
-	    $writer->startTag([$xs, 'restriction'],
+	    $writer->emptyTag([$xs, 'restriction'],
 			      'base' => [$xs,'gYear']);
-	    $writer->endTag;
 	}
 	else { # default: create an "enum type"
 	    $writer->startTag([$xs, 'restriction'],
-			      'base' => [$xs, "string"]);
+			      'base' => [$xs, 'string']);
 	    $writer->emptyTag([$xs, 'maxLength'],
 			      'value' => 100);
 	    foreach my $opt ($sch->options($fld)) {
@@ -152,7 +273,7 @@ close($st);
 
 # create complexTypes .xsd
 
-open my $ct, ">$fnames{complexTypes}" or die $!; 
+open my $ct, "$pp > $fnames{complexTypes}" or die $!; 
 
 $writer = XML::Writer->new( OUTPUT => $ct, NAMESPACES => 1, PREFIX_MAP => \%pfmap, 'FORCED_NS_DECLS');
 
@@ -171,16 +292,25 @@ foreach my $tbl ($sch->tables) {
     $writer->startTag([$xs, 'complexType'],
 		      'name' => $tbl.'Type');
     push @cTypes, $tbl.'Type';
-    $writer->startTag([$xs, 'sequence']);
+    $writer->startTag([$xs, 'all']);
     foreach my $col (@cols) {
 	next if $col=~/_id$/; # skip ids
-#	$col =~ s/^[a-z]{1,4}_//;
-	$writer->emptyTag([$xs, 'element'],
-			  'name' => $col,
-			  'type' => [$tns, $col."Type"],
-			  'minOccurs' => 0);
+	# handle specials
+	if ($col =~ /country$/) {
+	    $writer->emptyTag([$xs,'element'],
+			      'name'=>$col,
+			      'type'=>[$tns, 'countryType'],
+			      'minOccurs' => 0);
+	}
+	# default
+	else {
+	    $writer->emptyTag([$xs, 'element'],
+			      'name' => $col,
+			      'type' => [$tns, $col."Type"],
+			      'minOccurs' => 0);
+	}
     }
-    $writer->endTag([$xs, 'sequence']);
+    $writer->endTag([$xs, 'all']);
     $writer->endTag([$xs, 'complexType']);
 }
 
@@ -190,7 +320,7 @@ close($ct);
 
 # create the 'annotationSequence' .xsd
 
-open my $at, ">$fnames{annotSeqType}" or die $@;
+open my $at, "$pp > $fnames{annotSeqType}" or die $@;
 
 $writer = XML::Writer->new( OUTPUT => $at, NAMESPACES => 1, PREFIX_MAP => \%pfmap, 'FORCED_NS_DECLS');
 
@@ -280,30 +410,30 @@ $writer->startTag([$xs, 'sequence']);
     $writer->endTag([$xs, 'element']); # sequenceIds
 
     $writer->emptyTag([$xs, 'element'],
-		      'name'      => 'LanlPatientId',
+		      'name'      => 'LANLPatientId',
 		      'type'      => [$tns, 'integerGt0'],
 		      'minOccurs' => 0);
     $writer->emptyTag([$xs, 'element'],
-		      'name'      => 'LanlLocationID',
+		      'name'      => 'LANLLocationID',
 		      'type'      => [$tns, 'integerGt0'],
 		      'minOccurs' => 0);
     $writer->startTag([$xs, 'element'],
-		      'name'      => 'LanlPubInfo',
+		      'name'      => 'LANLPubInfo',
 		      'minOccurs' => 0);
     $writer->startTag([$xs, 'complexType']);
     {
 	$writer->startTag([$xs, 'sequence']);
 	{
 	    $writer->emptyTag([$xs, 'element'],
-			      'name'      => 'LanlPersonID',
+			      'name'      => 'LANLPersonID',
 			      'type'      => [$tns, 'integerGt0'],
 			      'minOccurs' => 0);
 	    $writer->emptyTag([$xs, 'element'],
-			      'name'      => 'LanlPubID',
+			      'name'      => 'LANLPubID',
 			      'type'      => [$tns, 'integerGt0'],
 			      'minOccurs' => 0);
 	    $writer->emptyTag([$xs, 'element'],
-			      'name'      => 'LanlPubLink',
+			      'name'      => 'LANLPubLink',
 			      'type'      => [$xs, 'anyURI'],
 			      'minOccurs' => 0);
 	}
@@ -327,7 +457,7 @@ $writer->endTag([$xs, 'complexType']); # registrationType
 
 $writer->startTag([$xs, 'complexType'],
 		  'name' => 'annotSeqType');
-$writer->startTag([$xs, 'sequence']);
+$writer->startTag([$xs, 'all']);
 {
     $writer->emptyTag([$xs, 'element'],
 		      'name' => 'registration',
@@ -349,13 +479,13 @@ $writer->startTag([$xs, 'sequence']);
 		      'maxOccurs' => 1 # may need to be more liberal here?
 	);
 }
-$writer->endTag([$xs, 'sequence']);
+$writer->endTag([$xs, 'all']);
 $writer->endTag([$xs, 'complexType']);	# annotSeqType
 
 $writer->endTag([$xs, 'schema']); # annotSeqType .xsd
 close($at);
 
-open my $scht, ">$fnames{main}" or die $!;
+open my $scht, "$pp > $fnames{main}" or die $!;
 $writer = XML::Writer->new( OUTPUT => $scht, NAMESPACES => 1, PREFIX_MAP => \%pfmap, 'FORCED_NS_DECLS');
 
 $writer->startTag([$xs, 'schema'],
@@ -372,7 +502,7 @@ $writer->startTag([$xs, 'element'],
 		  'name'=>'HivqSeqs');
 $writer->startTag([$xs, 'complexType']);
 {
-    $writer->startTag([$xs, 'sequence']);
+    $writer->startTag([$xs, 'all']);
     {
 	$writer->emptyTag([$xs, 'element'],
 			  'name'=>'annotHivqSeq',
@@ -380,7 +510,7 @@ $writer->startTag([$xs, 'complexType']);
 			  'minOccurs'=>0,
 			  'maxOccurs'=>'unbounded');
     }
-    $writer->endTag([$xs, 'sequence']);
+    $writer->endTag([$xs, 'all']);
 }
 $writer->endTag([$xs, 'complexType']);
 $writer->endTag([$xs, 'element']);

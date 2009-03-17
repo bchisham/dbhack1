@@ -132,9 +132,8 @@
       <xs:maxLength value="100"/>
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="pat_infection_countryType">
+  <xs:simpleType name="countryCodeType">
     <xs:restriction base="xs:string">
-      <xs:maxLength value="100"/>
       <xs:enumeration value="KH"/>
       <xs:enumeration value="DJ"/>
       <xs:enumeration value="TG"/>
@@ -209,6 +208,7 @@
       <xs:enumeration value="US"/>
       <xs:enumeration value="PE"/>
       <xs:enumeration value="SL"/>
+      <xs:enumeration value="Any"/>
       <xs:enumeration value="CY"/>
       <xs:enumeration value="NULL"/>
       <xs:enumeration value="GE"/>
@@ -239,8 +239,20 @@
       <xs:enumeration value="UG"/>
     </xs:restriction>
   </xs:simpleType>
+  <xs:complexType name="countryType">
+    <xs:all>
+      <xs:element maxOccurs="1" minOccurs="1" name="countryString">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="ccode" type="tns:countryCodeType" use="required" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+  </xs:complexType>
   <xs:simpleType name="pat_infection_yearType">
-    <xs:restriction base="xs:gYear"></xs:restriction>
+    <xs:restriction base="xs:gYear"/>
   </xs:simpleType>
   <xs:simpleType name="pat_num_seqType">
     <xs:restriction base="xs:integer">
@@ -321,9 +333,8 @@
       <xs:enumeration value="Bonn Cohort"/>
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="pat_risk_factorType">
+  <xs:simpleType name="pat_risk_factorCodeType">
     <xs:restriction base="xs:string">
-      <xs:maxLength value="100"/>
       <xs:enumeration value="SH"/>
       <xs:enumeration value="PH"/>
       <xs:enumeration value="EX"/>
@@ -337,9 +348,22 @@
       <xs:enumeration value="NR"/>
       <xs:enumeration value="SB"/>
       <xs:enumeration value="PI"/>
+      <xs:enumeration value="Any"/>
       <xs:enumeration value="OT"/>
     </xs:restriction>
   </xs:simpleType>
+  <xs:complexType name="pat_risk_factorType">
+    <xs:all>
+      <xs:element maxOccurs="1" minOccurs="1" name="pat_risk_factorString">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="LANLcode" type="tns:pat_risk_factorCodeType" use="required" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+  </xs:complexType>
   <xs:simpleType name="pat_sexType">
     <xs:restriction base="xs:string">
       <xs:maxLength value="100"/>
@@ -399,18 +423,29 @@
       <xs:enumeration value="0"/>
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="ssam_badseqType">
+  <xs:simpleType name="ssam_badseqCodeType">
     <xs:restriction base="xs:string">
-      <xs:maxLength value="100"/>
       <xs:enumeration value="6"/>
       <xs:enumeration value="4"/>
       <xs:enumeration value="1"/>
       <xs:enumeration value="3"/>
-      <xs:enumeration value="0"/>
+      <xs:enumeration value="Any"/>
       <xs:enumeration value="2"/>
       <xs:enumeration value="5"/>
     </xs:restriction>
   </xs:simpleType>
+  <xs:complexType name="ssam_badseqType">
+    <xs:all>
+      <xs:element maxOccurs="1" minOccurs="1" name="ssam_badseqString">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="LANLcode" type="tns:ssam_badseqCodeType" use="required" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+  </xs:complexType>
   <xs:simpleType name="ssam_cd4countType">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="0"/>
@@ -546,168 +581,8 @@
       <xs:maxLength value="100"/>
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="ssam_sample_countryType">
+  <xs:simpleType name="ssam_sample_georegionCodeType">
     <xs:restriction base="xs:string">
-      <xs:maxLength value="100"/>
-      <xs:enumeration value="GL"/>
-      <xs:enumeration value="DJ"/>
-      <xs:enumeration value="JM"/>
-      <xs:enumeration value="PG"/>
-      <xs:enumeration value="AT"/>
-      <xs:enumeration value="SZ"/>
-      <xs:enumeration value="ZM"/>
-      <xs:enumeration value="CD"/>
-      <xs:enumeration value="BW"/>
-      <xs:enumeration value="AO"/>
-      <xs:enumeration value="ZW"/>
-      <xs:enumeration value="VC"/>
-      <xs:enumeration value="PR"/>
-      <xs:enumeration value="JP"/>
-      <xs:enumeration value="LC"/>
-      <xs:enumeration value="MA"/>
-      <xs:enumeration value="IT"/>
-      <xs:enumeration value="RE"/>
-      <xs:enumeration value="FR"/>
-      <xs:enumeration value="EG"/>
-      <xs:enumeration value="UZ"/>
-      <xs:enumeration value="LR"/>
-      <xs:enumeration value="RW"/>
-      <xs:enumeration value="TN"/>
-      <xs:enumeration value="BE"/>
-      <xs:enumeration value="EE"/>
-      <xs:enumeration value="BY"/>
-      <xs:enumeration value="SA"/>
-      <xs:enumeration value="NO"/>
-      <xs:enumeration value="KR"/>
-      <xs:enumeration value="ZA"/>
-      <xs:enumeration value="PT"/>
-      <xs:enumeration value="BF"/>
-      <xs:enumeration value="CA"/>
-      <xs:enumeration value="CM"/>
-      <xs:enumeration value="SR"/>
-      <xs:enumeration value="MG"/>
-      <xs:enumeration value="NP"/>
-      <xs:enumeration value="PL"/>
-      <xs:enumeration value="GA"/>
-      <xs:enumeration value="CF"/>
-      <xs:enumeration value="TH"/>
-      <xs:enumeration value="PH"/>
-      <xs:enumeration value="KZ"/>
-      <xs:enumeration value="MM"/>
-      <xs:enumeration value="NE"/>
-      <xs:enumeration value="DM"/>
-      <xs:enumeration value="SE"/>
-      <xs:enumeration value="AZ"/>
-      <xs:enumeration value="AF"/>
-      <xs:enumeration value="NG"/>
-      <xs:enumeration value="KE"/>
-      <xs:enumeration value="BJ"/>
-      <xs:enumeration value="VN"/>
-      <xs:enumeration value="YE"/>
-      <xs:enumeration value="CI"/>
-      <xs:enumeration value="DZ"/>
-      <xs:enumeration value="ID"/>
-      <xs:enumeration value="GE"/>
-      <xs:enumeration value="GM"/>
-      <xs:enumeration value="LV"/>
-      <xs:enumeration value="RU"/>
-      <xs:enumeration value="LB"/>
-      <xs:enumeration value="DE"/>
-      <xs:enumeration value="FI"/>
-      <xs:enumeration value="LU"/>
-      <xs:enumeration value="VE"/>
-      <xs:enumeration value="RO"/>
-      <xs:enumeration value="VI"/>
-      <xs:enumeration value="IN"/>
-      <xs:enumeration value="AR"/>
-      <xs:enumeration value="GP"/>
-      <xs:enumeration value="SN"/>
-      <xs:enumeration value="MX"/>
-      <xs:enumeration value="CS"/>
-      <xs:enumeration value="HN"/>
-      <xs:enumeration value="BR"/>
-      <xs:enumeration value="IL"/>
-      <xs:enumeration value="NZ"/>
-      <xs:enumeration value="HU"/>
-      <xs:enumeration value="DO"/>
-      <xs:enumeration value="UG"/>
-      <xs:enumeration value="KH"/>
-      <xs:enumeration value="YU"/>
-      <xs:enumeration value="TG"/>
-      <xs:enumeration value="GB"/>
-      <xs:enumeration value="BB"/>
-      <xs:enumeration value="HT"/>
-      <xs:enumeration value="DK"/>
-      <xs:enumeration value="PA"/>
-      <xs:enumeration value="CV"/>
-      <xs:enumeration value="GD"/>
-      <xs:enumeration value="GF"/>
-      <xs:enumeration value="KW"/>
-      <xs:enumeration value="MQ"/>
-      <xs:enumeration value="CZ"/>
-      <xs:enumeration value="ES"/>
-      <xs:enumeration value="MZ"/>
-      <xs:enumeration value="BO"/>
-      <xs:enumeration value="AU"/>
-      <xs:enumeration value="AL"/>
-      <xs:enumeration value="IR"/>
-      <xs:enumeration value="CG"/>
-      <xs:enumeration value="TR"/>
-      <xs:enumeration value="MD"/>
-      <xs:enumeration value="BI"/>
-      <xs:enumeration value="GW"/>
-      <xs:enumeration value="GR"/>
-      <xs:enumeration value="AG"/>
-      <xs:enumeration value="CO"/>
-      <xs:enumeration value="SI"/>
-      <xs:enumeration value="AN"/>
-      <xs:enumeration value="UA"/>
-      <xs:enumeration value="CL"/>
-      <xs:enumeration value="CU"/>
-      <xs:enumeration value="ML"/>
-      <xs:enumeration value="ET"/>
-      <xs:enumeration value="SC"/>
-      <xs:enumeration value="MS"/>
-      <xs:enumeration value="NL"/>
-      <xs:enumeration value="EC"/>
-      <xs:enumeration value="HK"/>
-      <xs:enumeration value="MY"/>
-      <xs:enumeration value="CR"/>
-      <xs:enumeration value="SD"/>
-      <xs:enumeration value="CN"/>
-      <xs:enumeration value="BG"/>
-      <xs:enumeration value="UY"/>
-      <xs:enumeration value="BS"/>
-      <xs:enumeration value="PY"/>
-      <xs:enumeration value="CH"/>
-      <xs:enumeration value="LI"/>
-      <xs:enumeration value="GH"/>
-      <xs:enumeration value="US"/>
-      <xs:enumeration value="PE"/>
-      <xs:enumeration value="SL"/>
-      <xs:enumeration value="CY"/>
-      <xs:enumeration value="FJ"/>
-      <xs:enumeration value="IE"/>
-      <xs:enumeration value="NULL"/>
-      <xs:enumeration value="TW"/>
-      <xs:enumeration value="ER"/>
-      <xs:enumeration value="TZ"/>
-      <xs:enumeration value="MW"/>
-      <xs:enumeration value="LY"/>
-      <xs:enumeration value="GY"/>
-      <xs:enumeration value="GQ"/>
-      <xs:enumeration value="LT"/>
-      <xs:enumeration value="SG"/>
-      <xs:enumeration value="TT"/>
-      <xs:enumeration value="TD"/>
-      <xs:enumeration value="SO"/>
-      <xs:enumeration value="SK"/>
-      <xs:enumeration value="BD"/>
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="ssam_sample_georegionType">
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="100"/>
       <xs:enumeration value="AFR SSA"/>
       <xs:enumeration value="NULL"/>
       <xs:enumeration value="FUS"/>
@@ -719,9 +594,22 @@
       <xs:enumeration value="NAM"/>
       <xs:enumeration value="CAM"/>
       <xs:enumeration value="AFR"/>
+      <xs:enumeration value="Any"/>
       <xs:enumeration value="CRB"/>
     </xs:restriction>
   </xs:simpleType>
+  <xs:complexType name="ssam_sample_georegionType">
+    <xs:all>
+      <xs:element maxOccurs="1" minOccurs="1" name="ssam_sample_georegionString">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="LANLcode" type="tns:ssam_sample_georegionCodeType" use="required" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+  </xs:complexType>
   <xs:simpleType name="ssam_sample_tissueType">
     <xs:restriction base="xs:string">
       <xs:maxLength value="100"/>
@@ -798,7 +686,7 @@
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ssam_sample_yearType">
-    <xs:restriction base="xs:gYear"></xs:restriction>
+    <xs:restriction base="xs:gYear"/>
   </xs:simpleType>
   <xs:simpleType name="ssam_sample_year_upperType">
     <xs:restriction base="xs:string">
