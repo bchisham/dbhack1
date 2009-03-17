@@ -47,6 +47,7 @@
   <xs:complexType name="annotSeqType">
     <xs:all>
       <xs:element maxOccurs="1" minOccurs="1" name="registration" type="tns:registrationType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element maxOccurs="1" minOccurs="0" name="comments" type="tns:commentType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="author" type="tns:authorType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="location2" type="tns:location2Type" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
       <xs:element minOccurs="0" name="patient" type="tns:patientType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
