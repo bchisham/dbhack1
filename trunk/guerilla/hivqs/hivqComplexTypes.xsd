@@ -34,14 +34,6 @@
       <xs:element minOccurs="0" name="per_lname" type="tns:per_lnameType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
     </xs:all>
   </xs:complexType>
-  <xs:complexType name="publicationType">
-    <xs:all>
-      <xs:element minOccurs="0" name="pub_articletitle" type="tns:pub_articletitleType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pub_consortium" type="tns:pub_consortiumType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pub_pubmedentry" type="tns:pub_pubmedentryType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pub_sourcetitle" type="tns:pub_sourcetitleType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-    </xs:all>
-  </xs:complexType>
   <xs:complexType name="se_pub_linkType">
     <xs:all>
       <xs:element minOccurs="0" name="spl_pubnumber" type="tns:spl_pubnumberType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>

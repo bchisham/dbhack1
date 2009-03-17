@@ -208,7 +208,6 @@
       <xs:enumeration value="US"/>
       <xs:enumeration value="PE"/>
       <xs:enumeration value="SL"/>
-      <xs:enumeration value="Any"/>
       <xs:enumeration value="CY"/>
       <xs:enumeration value="NULL"/>
       <xs:enumeration value="GE"/>
@@ -348,7 +347,6 @@
       <xs:enumeration value="NR"/>
       <xs:enumeration value="SB"/>
       <xs:enumeration value="PI"/>
-      <xs:enumeration value="Any"/>
       <xs:enumeration value="OT"/>
     </xs:restriction>
   </xs:simpleType>
@@ -382,26 +380,6 @@
       <xs:maxLength value="100"/>
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="pub_articletitleType">
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="100"/>
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="pub_consortiumType">
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="100"/>
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="pub_pubmedentryType">
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="100"/>
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="pub_sourcetitleType">
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="100"/>
-    </xs:restriction>
-  </xs:simpleType>
   <xs:simpleType name="spl_pubnumberType">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="0"/>
@@ -429,7 +407,7 @@
       <xs:enumeration value="4"/>
       <xs:enumeration value="1"/>
       <xs:enumeration value="3"/>
-      <xs:enumeration value="Any"/>
+      <xs:enumeration value="0"/>
       <xs:enumeration value="2"/>
       <xs:enumeration value="5"/>
     </xs:restriction>
@@ -594,7 +572,6 @@
       <xs:enumeration value="NAM"/>
       <xs:enumeration value="CAM"/>
       <xs:enumeration value="AFR"/>
-      <xs:enumeration value="Any"/>
       <xs:enumeration value="CRB"/>
     </xs:restriction>
   </xs:simpleType>
