@@ -85,6 +85,7 @@ open my $st, "$pp > $fnames{simpleTypes}" or die $!;
 
 my $writer = XML::Writer->new( OUTPUT => $st, NAMESPACES => 1, PREFIX_MAP => \%pfmap, 'FORCED_NS_DECLS');
 
+$writer->xmlDecl("UTF-8");
 $writer->startTag([$xs, 'schema'],
 		  'targetNamespace' => $tns,
 		  'elementFormDefault' => 'qualified',
@@ -279,6 +280,7 @@ open my $ct, "$pp > $fnames{complexTypes}" or die $!;
 
 $writer = XML::Writer->new( OUTPUT => $ct, NAMESPACES => 1, PREFIX_MAP => \%pfmap, 'FORCED_NS_DECLS');
 
+$writer->xmlDecl("UTF-8");
 $writer->startTag([$xs, 'schema'],
 		 'targetNamespace' => $tns,
 		 'elementFormDefault' => 'qualified',
@@ -326,7 +328,7 @@ open my $at, "$pp > $fnames{annotSeqType}" or die $@;
 
 $writer = XML::Writer->new( OUTPUT => $at, NAMESPACES => 1, PREFIX_MAP => \%pfmap, 'FORCED_NS_DECLS');
 
-# what namespaces, includes, schemaLocations here??
+$writer->xmlDecl("UTF-8");
 $writer->startTag([$xs, 'schema'],
 		  'targetNamespace'    => $xmlns{HIVDBSchema},
 		  'elementFormDefault' => 'qualified',
@@ -533,7 +535,7 @@ close($at);
 
 open my $scht, "$pp > $fnames{main}" or die $!;
 $writer = XML::Writer->new( OUTPUT => $scht, NAMESPACES => 1, PREFIX_MAP => \%pfmap, 'FORCED_NS_DECLS');
-
+$writer->xmlDecl("UTF-8");
 $writer->startTag([$xs, 'schema'],
 		  'targetNamespace' => $tns,
 		  'elementFormDefault' => 'qualified',
