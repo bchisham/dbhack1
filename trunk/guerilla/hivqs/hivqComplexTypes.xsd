@@ -3,95 +3,95 @@
   <xs:include schemaLocation="hivqSimpleTypes.xsd"></xs:include>
   <xs:complexType name="authorType">
     <xs:all>
-      <xs:element minOccurs="0" name="au_authornumber" type="tns:au_authornumberType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="au_authornumber" nillable="true" type="tns:au_authornumberType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
     </xs:all>
   </xs:complexType>
   <xs:complexType name="location2Type">
     <xs:all>
-      <xs:element minOccurs="0" name="loc_description" type="tns:loc_descriptionType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="loc_entryfeaturetype" type="tns:loc_entryfeaturetypeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="loc_description" nillable="true" type="tns:loc_descriptionType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="loc_entryfeaturetype" nillable="true" type="tns:loc_entryfeaturetypeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
     </xs:all>
   </xs:complexType>
   <xs:complexType name="patientType">
     <xs:all>
-      <xs:element minOccurs="0" name="pat_code" type="tns:pat_codeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_comment" type="tns:pat_commentType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_ethnicity" type="tns:pat_ethnicityType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_hla_type" type="tns:pat_hla_typeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_infection_city" type="tns:pat_infection_cityType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_infection_country" type="tns:countryType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_infection_year" type="tns:pat_infection_yearType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_num_seq" type="tns:pat_num_seqType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_num_timepoints" type="tns:pat_num_timepointsType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_progression" type="tns:pat_progressionType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_project" type="tns:pat_projectType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_risk_factor" type="tns:pat_risk_factorType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_sex" type="tns:pat_sexType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="pat_species" type="tns:pat_speciesType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_code" nillable="true" type="tns:pat_codeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_comment" nillable="true" type="tns:pat_commentType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_ethnicity" nillable="true" type="tns:pat_ethnicityType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_hla_type" nillable="true" type="tns:pat_hla_typeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_infection_city" nillable="true" type="tns:pat_infection_cityType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_infection_country" nillable="true" type="tns:countryType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_infection_year" nillable="true" type="tns:pat_infection_yearType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_num_seq" nillable="true" type="tns:pat_num_seqType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_num_timepoints" nillable="true" type="tns:pat_num_timepointsType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_progression" nillable="true" type="tns:pat_progressionType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_project" nillable="true" type="tns:pat_projectType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_risk_factor" nillable="true" type="tns:pat_risk_factorType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_sex" nillable="true" type="tns:pat_sexType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="pat_species" nillable="true" type="tns:pat_speciesType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
     </xs:all>
   </xs:complexType>
   <xs:complexType name="personType">
     <xs:all>
-      <xs:element minOccurs="0" name="per_lname" type="tns:per_lnameType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="per_lname" nillable="true" type="tns:per_lnameType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
     </xs:all>
   </xs:complexType>
   <xs:complexType name="se_pub_linkType">
     <xs:all>
-      <xs:element minOccurs="0" name="spl_pubnumber" type="tns:spl_pubnumberType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="spl_pubnumber" nillable="true" type="tns:spl_pubnumberType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
     </xs:all>
   </xs:complexType>
   <xs:complexType name="seq_sampleType">
     <xs:all>
-      <xs:element minOccurs="0" name="ssam_amplification_strategy" type="tns:ssam_amplification_strategyType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_annotated" type="tns:ssam_annotatedType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_badseq" type="tns:ssam_badseqType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_cd4count" type="tns:ssam_cd4countType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_cd8count" type="tns:ssam_cd8countType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_clone_name_number" type="tns:ssam_clone_name_numberType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_common_name" type="tns:ssam_common_nameType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_culture_method" type="tns:ssam_culture_methodType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_drug_naive" type="tns:ssam_drug_naiveType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_fiebig" type="tns:ssam_fiebigType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_health_status" type="tns:ssam_health_statusType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_isolate_name_number" type="tns:ssam_isolate_name_numberType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_locus_name" type="tns:ssam_locus_nameType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_molecule_type" type="tns:ssam_molecule_typeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_organism" type="tns:ssam_organismType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_patient_age" type="tns:ssam_patient_ageType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_phenotype" type="tns:ssam_phenotypeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_postendtreatment_days" type="tns:ssam_postendtreatment_daysType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_postfirstsample_days" type="tns:ssam_postfirstsample_daysType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_postinfect_days" type="tns:ssam_postinfect_daysType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_postseroconv_days" type="tns:ssam_postseroconv_daysType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_poststarttreatment_days" type="tns:ssam_poststarttreatment_daysType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_sample_city" type="tns:ssam_sample_cityType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_sample_country" type="tns:countryType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_sample_georegion" type="tns:ssam_sample_georegionType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_sample_tissue" type="tns:ssam_sample_tissueType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_sample_year" type="tns:ssam_sample_yearType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_sample_year_upper" type="tns:ssam_sample_year_upperType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_second_receptor" type="tns:ssam_second_receptorType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_sequencing_method" type="tns:ssam_sequencing_methodType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_subtype" type="tns:ssam_subtypeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="ssam_viralload" type="tns:ssam_viralloadType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_amplification_strategy" nillable="true" type="tns:ssam_amplification_strategyType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_annotated" nillable="true" type="tns:ssam_annotatedType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_badseq" nillable="true" type="tns:ssam_badseqType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_cd4count" nillable="true" type="tns:ssam_cd4countType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_cd8count" nillable="true" type="tns:ssam_cd8countType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_clone_name_number" nillable="true" type="tns:ssam_clone_name_numberType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_common_name" nillable="true" type="tns:ssam_common_nameType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_culture_method" nillable="true" type="tns:ssam_culture_methodType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_drug_naive" nillable="true" type="tns:ssam_drug_naiveType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_fiebig" nillable="true" type="tns:ssam_fiebigType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_health_status" nillable="true" type="tns:ssam_health_statusType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_isolate_name_number" nillable="true" type="tns:ssam_isolate_name_numberType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_locus_name" nillable="true" type="tns:ssam_locus_nameType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_molecule_type" nillable="true" type="tns:ssam_molecule_typeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_organism" nillable="true" type="tns:ssam_organismType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_patient_age" nillable="true" type="tns:ssam_patient_ageType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_phenotype" nillable="true" type="tns:ssam_phenotypeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_postendtreatment_days" nillable="true" type="tns:ssam_postendtreatment_daysType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_postfirstsample_days" nillable="true" type="tns:ssam_postfirstsample_daysType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_postinfect_days" nillable="true" type="tns:ssam_postinfect_daysType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_postseroconv_days" nillable="true" type="tns:ssam_postseroconv_daysType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_poststarttreatment_days" nillable="true" type="tns:ssam_poststarttreatment_daysType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_sample_city" nillable="true" type="tns:ssam_sample_cityType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_sample_country" nillable="true" type="tns:countryType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_sample_georegion" nillable="true" type="tns:ssam_sample_georegionType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_sample_tissue" nillable="true" type="tns:ssam_sample_tissueType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_sample_year" nillable="true" type="tns:ssam_sample_yearType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_sample_year_upper" nillable="true" type="tns:ssam_sample_year_upperType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_second_receptor" nillable="true" type="tns:ssam_second_receptorType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_sequencing_method" nillable="true" type="tns:ssam_sequencing_methodType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_subtype" nillable="true" type="tns:ssam_subtypeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="ssam_viralload" nillable="true" type="tns:ssam_viralloadType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
     </xs:all>
   </xs:complexType>
   <xs:complexType name="seqentryfeatureType">
     <xs:all>
-      <xs:element minOccurs="0" name="sef_description" type="tns:sef_descriptionType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="sef_entryfeaturetype" type="tns:sef_entryfeaturetypeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="sef_description" nillable="true" type="tns:sef_descriptionType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="sef_entryfeaturetype" nillable="true" type="tns:sef_entryfeaturetypeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
     </xs:all>
   </xs:complexType>
   <xs:complexType name="sequencefeature2Type">
     <xs:all>
-      <xs:element minOccurs="0" name="sf_featuretype" type="tns:sf_featuretypeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="sf_featurevalue" type="tns:sf_featurevalueType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="sf_featuretype" nillable="true" type="tns:sf_featuretypeType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="sf_featurevalue" nillable="true" type="tns:sf_featurevalueType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
     </xs:all>
   </xs:complexType>
   <xs:complexType name="sequencemapType">
     <xs:all>
-      <xs:element minOccurs="0" name="sm_start" type="tns:sm_startType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
-      <xs:element minOccurs="0" name="sm_stop" type="tns:sm_stopType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="sm_start" nillable="true" type="tns:sm_startType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+      <xs:element minOccurs="0" name="sm_stop" nillable="true" type="tns:sm_stopType" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
     </xs:all>
   </xs:complexType>
 </xs:schema>

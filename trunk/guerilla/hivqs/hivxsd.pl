@@ -33,6 +33,19 @@
 #  FIRST, (all, element)
 #  THEN, (attribute name='the_name' type='simple_type_defined_above' use='required')
 
+# what about the following situation; a user has requested an annotation field
+# the query, but a returned item does not have data for this field. The 
+# message returned should indicate this: i.e., the slot or element should
+# be present for this item, but contain a null value. 
+# elements can have the attribute 'nillable', which apparently specifies that
+# an instance of the element can be valid with no content if the instance
+# has an attribute of xsi:nil="true", where
+# xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+#
+# so - decide which elements get to be nillable
+#
+#
+
 $|=1;
 use strict;
 use Bio::DB::HIV::HIVQueryHelper;
@@ -302,15 +315,17 @@ foreach my $tbl ($sch->tables) {
 	# handle specials
 	if ($col =~ /country$/) {
 	    $writer->emptyTag([$xs,'element'],
-			      'name'=>$col,
-			      'type'=>[$tns, 'countryType'],
+			      'name'      => $col,
+			      'type'      => [$tns, 'countryType'],
+			      'nillable'  => 'true',
 			      'minOccurs' => 0);
 	}
 	# default
 	else {
 	    $writer->emptyTag([$xs, 'element'],
-			      'name' => $col,
-			      'type' => [$tns, $col."Type"],
+			      'name'      => $col,
+			      'type'      => [$tns, $col."Type"],
+			      'nillable'  => 'true',
 			      'minOccurs' => 0);
 	}
     }
@@ -330,8 +345,8 @@ $writer = XML::Writer->new( OUTPUT => $at, NAMESPACES => 1, PREFIX_MAP => \%pfma
 
 $writer->xmlDecl("UTF-8");
 $writer->startTag([$xs, 'schema'],
-		  'targetNamespace'    => $xmlns{HIVDBSchema},
-		  'elementFormDefault' => 'qualified',
+		  'targetNamespace'      => $xmlns{HIVDBSchema},
+		  'elementFormDefault'   => 'qualified',
 		  'attributeFormDefault' => 'unqualified');
 # include types by reference 
 # (might not need the simpleTypes here...)
@@ -435,22 +450,26 @@ $writer->startTag([$xs, 'complexType'],
 $writer->startTag([$xs, 'all']);
 {
     $writer->emptyTag([$xs, 'element'],
-		      'name'=>'LANLDBComment',
-		      'type'=>[$xs,'string'],
+		      'name'      => 'LANLDBComment',
+		      'type'      => [$xs,'string'],
+		      'nillable'  => 'true',
 		      'minOccurs' => 0,
 		      'maxOccurs' => 1);
     $writer->emptyTag([$xs, 'element'],
-		      'name'=>'GenBankComment',
-		      'type'=>[$xs, 'string'],
+		      'name'      => 'GenBankComment',
+		      'type'      => [$xs, 'string'],
+		      'nillable'  => 'true',
 		      'minOccurs' => 0,
 		      'maxOccurs' => 1);
     $writer->emptyTag([$xs,'element'],
-		      'name'=>'LANLPatComment',
-		      'type'=>[$xs, 'string'],
+		      'name'      => 'LANLPatComment',
+		      'type'      => [$xs, 'string'],
+		      'nillable'  => 'true',
 		      'minOccurs' => 0,
 		      'maxOccurs' => 1);
     $writer->startTag([$xs, 'element'],
-		      'name'=>'LANLProblematicSeq',
+		      'name'      => 'LANLProblematicSeq',
+		      'nillable'  => 'true',
 		      'minOccurs' => 0,
 		      'maxOccurs' => 1);
     {
@@ -460,7 +479,7 @@ $writer->startTag([$xs, 'all']);
 	    {
 		$writer->startTag([$xs, 'element'],
 				  'name' => 'problematicValue',
-				  'minOccurs' => 1,
+				  'minOccurs' => 0,
 				  'maxOccurs' => 1);
 		$writer->startTag([$xs, 'simpleType']);
 		{
@@ -503,26 +522,29 @@ $writer->startTag([$xs, 'complexType'],
 $writer->startTag([$xs, 'all']);
 {
     $writer->emptyTag([$xs, 'element'],
-		      'name' => 'registration',
-		      'type' => [$tns,'registrationType'],
+		      'name'      => 'registration',
+		      'type'      => [$tns,'registrationType'],
 		      'minOccurs' => 1,
 		      'maxOccurs' => 1); # must have one and only one per rec
     $writer->emptyTag([$xs, 'element'],
-		      'name' => 'comments',
-		      'type' => [$tns, 'commentType'],
+		      'name'      => 'comments',
+		      'type'      => [$tns, 'commentType'],
+		      'nillable'  => 'true',
 		      'minOccurs' => 0,
 		      'maxOccurs' => 1); # optional
     foreach my $ctype (@cTypes) {
 	my ($tn) = ($ctype =~ /^(.*)Type$/);
 	$writer->emptyTag([$xs, 'element'],
-			  'name'=>$tn,
-			  'type'=>[$tns, $ctype],
-			  'minOccurs'=>0); # all lower level annotations are
-	                                   # optional
+			  'name'      => $tn,
+			  'type'      => [$tns, $ctype],
+			  'nillable'  => 'true',
+			  'minOccurs' =>0); # all lower level annotations are
+	                                    # optional
     }
     $writer->emptyTag([$xs, 'element'],
-		      'name' => 'genomic_region',
-		      'type' => [$tns, 'genomic_regionType'],
+		      'name'      => 'genomic_region',
+		      'type'      => [$tns, 'genomic_regionType'],
+		      'nillable'  => 'true',
 		      'minOccurs' => 0,
 		      'maxOccurs' => 1 # may need to be more liberal here?
 	);
