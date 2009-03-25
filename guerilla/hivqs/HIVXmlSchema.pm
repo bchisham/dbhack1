@@ -1,6 +1,4 @@
 #$Id$#
-package HIVXmlSchema;
-use strict;
 
 =head1 NAME
 
@@ -8,6 +6,9 @@ Bio::DB::HIV::HIVXmlSchema - routines to convert LANL HIV sequence DB data into 
 (This package eventually bound for bioperl-dev)
 
 =head1 SYNOPSIS
+
+use HIVXmlSchema qw(HIVNS);
+print HIVNS;                  # returns "http://fortinbras.us/HIVDBSchema/1.0"
 
 =head1 DESCRIPTION
 
@@ -19,6 +20,8 @@ Laboratories' CGI interface to their HIV Sequence Database.  The
 custom XML namespace to which these routines correspond is
 L<http://fortinbras.us/HIVDBSchema/1.0>. Schema definition files can
 be obtained at that URL.
+
+The namespace constant C<HIVNS> is exportable.
 
 =head1 IMPORTANT CAVEAT
 
@@ -41,6 +44,61 @@ The rest of the documentation details each of the contained packages.
 Internal methods are usually preceded with a _
 
 =cut
+
+# put the following addition to Bio::HIV::Query::HIVQuery here, since 
+# it's the workhorse
+    1;
+package Bio::HIV::Query::HIVQuery;
+use strict;
+use HIVXmlSchemaHelper; # fully qualify the ns when necessary
+use XML::LibXML;
+use Log::Report;
+
+=head2 get_XML_by_id
+
+ Title   : get_XML_by_id
+ Usage   : $q->get_XML_by_id( @ids )
+ Function: Obtain LANL annotations from sequences in XML, according to
+           the XML Schema namespace http://fortinbras.us/HIVDBSchema/1.0
+ Example :
+ Returns : a[n array of] scalar string[s] (formatted XML)
+ Args    : a[n array of] LANL id[s] (scalar[s])
+
+=cut
+
+sub get_XML_by_id {
+    my $self = shift;
+    my @ids = @_;
+    my @ret;
+    my $sch = Bio::DB::HIV::HIVXmlSchema->new();
+    my $wri = $sch->make_writer;
+    my $doc = XML::LibXML->new();
+    # want to make a single XML file with multiple annotHivqSeq
+    # elts 
+    foreach (@ids) {
+	my $xml;
+	my $h = $self->_xml_hashref_from_id($_);
+	next unless $h; # skip on dne
+	# this is a Log::Report try block...
+	push @ret, $h;
+    }
+    if (@ret) {
+	# string the returned hashes together correctly into
+	# a single file; may require moving to a child elt of
+	# the Element object returned by the writer...
+	# in fact, maybe better to build the entire document
+	# using DOM manipulations, and return the XML 
+	# with a single toString on the Document object.
+    }
+    else {
+	# dude, no data!
+    }
+    return 1; # something...
+}
+    
+
+package Bio::DB::HIV::HIVXmlSchema;
+use strict;
 
 use strict;
 use constant HIVNS => 'http://fortinbras.us/HIVDBSchema/1.0';
