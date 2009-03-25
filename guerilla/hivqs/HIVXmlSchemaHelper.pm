@@ -151,6 +151,7 @@ sub _xml_hashref_from_id {
     my @annotTypes = ('Geo', 'Patient', 'Sample', 'StdMap', 'Virus');
     foreach my $id (@id) {
 	my $ac = $self->get_annotations_by_id($id);
+	next unless $ac; # dne
 	my %h; # 
 	# create 'registration' element
 
