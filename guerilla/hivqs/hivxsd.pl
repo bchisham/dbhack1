@@ -51,7 +51,11 @@ use strict;
 use Bio::DB::HIV::HIVQueryHelper;
 use XML::Writer;
 
+use constant MAKE_NILLABLE => 0;
+
 # add a countrySimpleType "by hand"
+
+my $nillable = sub { return MAKE_NILLABLE ? ('nillable', 'true') : (); };
 
 my %fnames = (
     'simpleTypes'  => 'hivqSimpleTypes.xsd',
@@ -63,6 +67,9 @@ my %fnames = (
 my %xmlns = (
     'XMLSchema'    => "http://www.w3.org/2001/XMLSchema",
     'HIVDBSchema'  => "http://fortinbras.us/HIVDBSchema/1.0",
+    'HIVDBAnnotSeq' => "http://fortinbras.us/HIVDBSchema/1.0/AnnotSeq",
+    'HIVDBST'      => "http://fortinbras.us/HIVDBSchema/1.0/ST",
+    'HIVDBCT'      => "http://fortinbras.us/HIVDBSchema/1.0/CT",
     'NeXML'        => "http://www.nexml.org/1.0"
     );
 
@@ -85,11 +92,19 @@ my $sch = HIVSchema->new( './lanl-schema.xml' );
 # use _sfieldh() method on field names to check specials
 # i.e., look at attribute 'type', e.g.
 
-my $xs = $xmlns{XMLSchema};
-my $tns = $xmlns{HIVDBSchema};
+my ($xs, $hivq, $has, $hct, $hst, $nex) = @xmlns{qw(XMLSchema 
+                                              HIVDBSchema
+                                              HIVDBAnnotSeq
+                                              HIVDBCT
+                                              HIVDBST
+                                              NeXML)};
 
-my %pfmap = (  $xs => 'xs',
-	       $tns => 'tns');
+my %pfmap = (  $xs   => 'xs',
+	       $hivq => 'hivq',
+	       $has  => 'has',
+	       $hct  => 'hct',
+	       $hst  => 'hst',
+               $nex  => 'nex');
 
 # create the simpleTypes .xsd
 
@@ -100,7 +115,7 @@ my $writer = XML::Writer->new( OUTPUT => $st, NAMESPACES => 1, PREFIX_MAP => \%p
 
 $writer->xmlDecl("UTF-8");
 $writer->startTag([$xs, 'schema'],
-		  'targetNamespace' => $tns,
+		  'targetNamespace' => $hst,
 		  'elementFormDefault' => 'qualified',
 		  'attributeFormDefault' => 'unqualified');
 
@@ -178,7 +193,7 @@ foreach my $fld ($sch->fields) {
 
 	    $writer->emptyTag([$xs, 'attribute'],
 			      'name' => 'ccode',
-			      'type' => [$tns, 'countryCodeType'],
+			      'type' => [$hst, 'countryCodeType'],
 			      'use' => 'required');
 	}
 	$writer->endTag([$xs, 'complexType']);
@@ -223,7 +238,7 @@ foreach my $fld ($sch->fields) {
 	}
 	$writer->emptyTag([$xs, 'attribute'],
 			  'name' => 'LANLcode',
-			  'type' => [$tns, $tn.'CodeType'],
+			  'type' => [$hst, $tn.'CodeType'],
 			  'use' => 'required');
 	$writer->endTag([$xs, 'complexType']);
 	next;
@@ -295,11 +310,12 @@ $writer = XML::Writer->new( OUTPUT => $ct, NAMESPACES => 1, PREFIX_MAP => \%pfma
 
 $writer->xmlDecl("UTF-8");
 $writer->startTag([$xs, 'schema'],
-		 'targetNamespace' => $tns,
+		 'targetNamespace' => $hct,
 		 'elementFormDefault' => 'qualified',
 		 'attributeFormDefault' => 'unqualified');
-$writer->startTag([$xs, 'include'],
-		 'schemaLocation' => $fnames{'simpleTypes'});
+$writer->startTag([$xs, 'import'],
+		  'namespace'      => $xmlns{HIVDBST},
+		  'schemaLocation' => $fnames{'simpleTypes'});
 $writer->endTag;
 
 foreach my $tbl ($sch->tables) {
@@ -316,16 +332,16 @@ foreach my $tbl ($sch->tables) {
 	if ($col =~ /country$/) {
 	    $writer->emptyTag([$xs,'element'],
 			      'name'      => $col,
-			      'type'      => [$tns, 'countryType'],
-			      'nillable'  => 'true',
-			      'minOccurs' => 0);
+			      'type'      => [$hst, 'countryType'],
+			      $nillable->(),
+			      'minOccurs'       => 0);
 	}
 	# default
 	else {
 	    $writer->emptyTag([$xs, 'element'],
 			      'name'      => $col,
-			      'type'      => [$tns, $col."Type"],
-			      'nillable'  => 'true',
+			      'type'      => [$hst, $col."Type"],
+			      $nillable->(),
 			      'minOccurs' => 0);
 	}
     }
@@ -345,14 +361,14 @@ $writer = XML::Writer->new( OUTPUT => $at, NAMESPACES => 1, PREFIX_MAP => \%pfma
 
 $writer->xmlDecl("UTF-8");
 $writer->startTag([$xs, 'schema'],
-		  'targetNamespace'      => $xmlns{HIVDBSchema},
+		  'targetNamespace'      => $has,
 		  'elementFormDefault'   => 'qualified',
 		  'attributeFormDefault' => 'unqualified');
-# include types by reference 
-# (might not need the simpleTypes here...)
-$writer->emptyTag([$xs, 'include'], 
+$writer->emptyTag([$xs, 'import'], 
+		  'namespace'      => $xmlns{HIVDBST},
 		  'schemaLocation' => $fnames{simpleTypes});
-$writer->emptyTag([$xs, 'include'], 
+$writer->emptyTag([$xs, 'import'], 
+		  'namespace'      => $xmlns{HIVDBCT},
 		  'schemaLocation' => $fnames{complexTypes});
 # need a 'registration' type
 # all the issues of ids start to come into play here.?
@@ -401,11 +417,11 @@ $writer->startTag([$xs, 'sequence']);
 	{
 	    $writer->emptyTag([$xs, 'element'],
 			      'name' => 'LANLSeqId',
-			      'type' => [$tns, 'integerGt0'],
+			      'type' => [$hst, 'integerGt0'],
 			      'minOccurs'=>1); # must have
 	    $writer->startTag([$xs, 'element'],
 			      'name' => 'GenBankAccn',
-			      'minOccurs' => 0);
+			      'minOccurs'  => 0);
 	    {
 		$writer->startTag([$xs, 'simpleType']);
 		$writer->startTag([$xs, 'restriction'],
@@ -418,12 +434,12 @@ $writer->startTag([$xs, 'sequence']);
 	    $writer->endTag([$xs, 'element']);
 	    $writer->emptyTag([$xs, 'element'],
 			      'name' => 'SeqVersion',
-			      'type' => [$tns, 'integerGt0'],
-			      'minOccurs' => 0);
+			      'type' => [$hst, 'integerGt0'],
+			      'minOccurs'  => 0);
 	    $writer->emptyTag([$xs, 'element'],
 			      'name' => 'GI',
-			      'type' => [$tns, 'integerGt0'],
-			      'minOccurs' => 0);
+			      'type' => [$hst, 'integerGt0'],
+			      'minOccurs'  => 0);
 
 	}
 	$writer->endTag([$xs, 'sequence']);
@@ -433,12 +449,12 @@ $writer->startTag([$xs, 'sequence']);
 
     $writer->emptyTag([$xs, 'element'],
 		      'name'      => 'LANLPatientId',
-		      'type'      => [$tns, 'integerGt0'],
-		      'minOccurs' => 0);
+		      'type'      => [$hst, 'integerGt0'],
+		      'minOccurs'       => 0);
     $writer->emptyTag([$xs, 'element'],
 		      'name'      => 'LANLLocationID',
-		      'type'      => [$tns, 'integerGt0'],
-		      'minOccurs' => 0);
+		      'type'      => [$hst, 'integerGt0'],
+		      'minOccurs'       => 0);
 }
 $writer->endTag([$xs, 'sequence']);
 $writer->endTag([$xs, 'complexType']); # registrationType
@@ -447,56 +463,60 @@ $writer->endTag([$xs, 'complexType']); # registrationType
 
 $writer->startTag([$xs, 'complexType'],
 		  'name' => 'commentType');
-$writer->startTag([$xs, 'all']);
+$writer->startTag([$xs, 'all'],
+		  'minOccurs' => 0);
 {
     $writer->emptyTag([$xs, 'element'],
 		      'name'      => 'LANLDBComment',
 		      'type'      => [$xs,'string'],
-		      'nillable'  => 'true',
-		      'minOccurs' => 0,
+		      $nillable->(),
+                      'minOccurs'       => 0,
 		      'maxOccurs' => 1);
     $writer->emptyTag([$xs, 'element'],
 		      'name'      => 'GenBankComment',
 		      'type'      => [$xs, 'string'],
-		      'nillable'  => 'true',
-		      'minOccurs' => 0,
+		      $nillable->(),
+                      'minOccurs'       => 0,
 		      'maxOccurs' => 1);
     $writer->emptyTag([$xs,'element'],
 		      'name'      => 'LANLPatComment',
 		      'type'      => [$xs, 'string'],
-		      'nillable'  => 'true',
-		      'minOccurs' => 0,
+		      $nillable->(),
+                      'minOccurs'       => 0,
 		      'maxOccurs' => 1);
     $writer->startTag([$xs, 'element'],
 		      'name'      => 'LANLProblematicSeq',
-		      'nillable'  => 'true',
-		      'minOccurs' => 0,
+		      $nillable->(),
+                      'minOccurs'       => 0,
 		      'maxOccurs' => 1);
     {
 	$writer->startTag([$xs, 'complexType']);
 	{
-	    $writer->startTag([$xs, 'all']);
+	    $writer->startTag([$xs, 'all'],
+			      'minOccurs' => 0);
 	    {
 		$writer->startTag([$xs, 'element'],
 				  'name' => 'problematicValue',
-				  'minOccurs' => 0,
+                                  'minOccurs'  => 0,
 				  'maxOccurs' => 1);
-		$writer->startTag([$xs, 'simpleType']);
 		{
-		    $writer->startTag([$xs, 'restriction'],
-				      'base'=>[$xs,'string']);
-		    $writer->emptyTag([$xs, 'maxLength'],
-				      'value' => 50);
-		    $writer->endTag([$xs, 'restriction']);
+		    $writer->startTag([$xs, 'simpleType']);
+		    {
+			$writer->startTag([$xs, 'restriction'],
+					  'base'=>[$xs,'string']);
+			$writer->emptyTag([$xs, 'maxLength'],
+					  'value' => 50);
+			$writer->endTag([$xs, 'restriction']);
+		    }
+		    $writer->endTag([$xs, 'simpleType']);
 		}
-		$writer->endTag([$xs, 'simpleType']);
 		$writer->endTag([$xs, 'element']);
 	    }
 	    $writer->endTag([$xs, 'all']);
 
 	    $writer->emptyTag([$xs, 'attribute'],
 			      'name' => 'problemcode',
-			      'type' => [$tns, 'ssam_badseqCodeType'],
+			      'type' => [$hst, 'ssam_badseqCodeType'],
 			      'use'  => 'required');
 	}
 	$writer->endTag([$xs, 'complexType']);
@@ -523,29 +543,29 @@ $writer->startTag([$xs, 'all']);
 {
     $writer->emptyTag([$xs, 'element'],
 		      'name'      => 'registration',
-		      'type'      => [$tns,'registrationType'],
+		      'type'      => [$has,'registrationType'],
 		      'minOccurs' => 1,
 		      'maxOccurs' => 1); # must have one and only one per rec
     $writer->emptyTag([$xs, 'element'],
 		      'name'      => 'comments',
-		      'type'      => [$tns, 'commentType'],
-		      'nillable'  => 'true',
-		      'minOccurs' => 0,
+		      'type'      => [$has, 'commentType'],
+		      $nillable->(),
+                      'minOccurs'       => 0,
 		      'maxOccurs' => 1); # optional
     foreach my $ctype (@cTypes) {
 	my ($tn) = ($ctype =~ /^(.*)Type$/);
 	$writer->emptyTag([$xs, 'element'],
 			  'name'      => $tn,
-			  'type'      => [$tns, $ctype],
-			  'nillable'  => 'true',
-			  'minOccurs' =>0); # all lower level annotations are
-	                                    # optional
+			  'type'      => [$hct, $ctype],
+			  $nillable->(),
+			  'minOccurs'       => 0); 
+        # all lower level annotations are optional
     }
     $writer->emptyTag([$xs, 'element'],
 		      'name'      => 'genomic_region',
-		      'type'      => [$tns, 'genomic_regionType'],
-		      'nillable'  => 'true',
-		      'minOccurs' => 0,
+		      'type'      => [$hst, 'genomic_regionType'],
+		      $nillable->(),
+                      'minOccurs'       => 0,
 		      'maxOccurs' => 1 # may need to be more liberal here?
 	);
 }
@@ -559,14 +579,17 @@ open my $scht, "$pp > $fnames{main}" or die $!;
 $writer = XML::Writer->new( OUTPUT => $scht, NAMESPACES => 1, PREFIX_MAP => \%pfmap, 'FORCED_NS_DECLS');
 $writer->xmlDecl("UTF-8");
 $writer->startTag([$xs, 'schema'],
-		  'targetNamespace' => $tns,
+		  'targetNamespace' => $hivq,
 		  'elementFormDefault' => 'qualified',
 		  'attributeFormDefault' => 'unqualified');
-$writer->emptyTag([$xs, 'include'], 
+$writer->emptyTag([$xs, 'import'], 
+		  'namespace'      => $xmlns{HIVDBST},
 		  'schemaLocation' => $fnames{simpleTypes});
-$writer->emptyTag([$xs, 'include'], 
+$writer->emptyTag([$xs, 'import'], 
+		  'namespace'      => $xmlns{HIVDBCT},
 		  'schemaLocation' => $fnames{complexTypes});
-$writer->emptyTag([$xs, 'include'], 
+$writer->emptyTag([$xs, 'import'], 
+		  'namespace'      => $xmlns{HIVDBAnnotSeq},
 		  'schemaLocation' => $fnames{annotSeqType});
 $writer->startTag([$xs, 'element'],
 		  'name'=>'HivqSeqs');
@@ -575,10 +598,11 @@ $writer->startTag([$xs, 'complexType']);
     $writer->startTag([$xs, 'sequence']);
     {
 	$writer->emptyTag([$xs, 'element'],
-			  'name'=>'annotHivqSeq',
-			  'type'=>[$tns, 'annotSeqType'],
-			  'minOccurs'=>0,
-			  'maxOccurs'=>'unbounded');
+			  'name'      => 'annotHivqSeq',
+			  'type'      => [$has, 'annotSeqType'],
+			  'nillable'  => 'true',
+                          'minOccurs'       => 1,
+			  'maxOccurs' => 'unbounded');
     }
     $writer->endTag([$xs, 'sequence']);
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://fortinbras.us/HIVDBSchema/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://fortinbras.us/HIVDBSchema/1.0/ST" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:simpleType name="integerGt0">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="0"/>
@@ -249,7 +249,7 @@
         </xs:simpleType>
       </xs:element>
     </xs:all>
-    <xs:attribute name="ccode" type="tns:countryCodeType" use="required" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+    <xs:attribute name="ccode" type="hst:countryCodeType" use="required" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
   </xs:complexType>
   <xs:simpleType name="pat_infection_yearType">
     <xs:restriction base="xs:gYear"/>
@@ -361,7 +361,7 @@
         </xs:simpleType>
       </xs:element>
     </xs:all>
-    <xs:attribute name="LANLcode" type="tns:pat_risk_factorCodeType" use="required" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+    <xs:attribute name="LANLcode" type="hst:pat_risk_factorCodeType" use="required" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
   </xs:complexType>
   <xs:simpleType name="pat_sexType">
     <xs:restriction base="xs:string">
@@ -423,7 +423,7 @@
         </xs:simpleType>
       </xs:element>
     </xs:all>
-    <xs:attribute name="LANLcode" type="tns:ssam_badseqCodeType" use="required" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+    <xs:attribute name="LANLcode" type="hst:ssam_badseqCodeType" use="required" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
   </xs:complexType>
   <xs:simpleType name="ssam_cd4countType">
     <xs:restriction base="xs:integer">
@@ -586,7 +586,7 @@
         </xs:simpleType>
       </xs:element>
     </xs:all>
-    <xs:attribute name="LANLcode" type="tns:ssam_sample_georegionCodeType" use="required" xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0"/>
+    <xs:attribute name="LANLcode" type="hst:ssam_sample_georegionCodeType" use="required" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
   </xs:complexType>
   <xs:simpleType name="ssam_sample_tissueType">
     <xs:restriction base="xs:string">
