@@ -287,20 +287,20 @@ use strict;
  Arguments: an [array of] LANL sequence id number[s]
  Returns:   an array of {hash of hashes ... of hashes}
  Note:      When an annotation is returned whose value is the empty
-            string (i.e. get_value($level1,$tag) is ''), its value
-            in the returned hash is 'xsi:nil'. Whether the annotation
-            is nillable under the schema or not is checked downstream
-            from this method.
-  
-
+            string (i.e. get_value($level1,$tag) is ''), the attribute
+            'xsi:nil' => 'true' is returned in the hash describing the
+            annotation. Whether the annotation is nillable under the
+            schema or not is checked downstream from this method.
  
 =cut
 
-# todo: do not add element when all contained members are 'xsi:nil'
+# todo: do not add element when all contained members are 'xsi:nil'--nah, 
+# if the annotations were requested, user should know they came back empty.
+
 # weird thing: writer thinks that the 'comments' element requires data, 
 #  but its should be an optional element. So, if child elements (LANLComment, e.g
 # are required, but the parent is not, you still get dinged if the parent
-# element instance does not appear??
+# element instance does not appear?? evidently.hmm
 
 sub _xml_hashref_from_id {
     my ($self, @id) = @_;
@@ -343,7 +343,7 @@ sub _xml_hashref_from_id {
 		# get the fieldname from the annotation key
 		my $fld = $sch->_field_from_ankey($ankey);
 		my $val = $ac->get_value($antype, $ankey);
-		$val ||= "xsi:nil";
+
 		# now parse the fieldname to acquire the correct
 		# hashref keys for an XML::Compile write for the 
 		# hivqSchema...
@@ -355,9 +355,14 @@ sub _xml_hashref_from_id {
 			m/db_comment/  && do {$$comments_acc{LANLDBComment}=$val;};
 			m/gb_comment/  && do {$$comments_acc{GenBankComment}=$val;};
 			m/badseq/      && do {
-			    $$comments_acc{LANLProblematicSeq} = {
-				'problematicValue' => $val,
-				'problemcode' => $sch->_code_from_value($fld, $val)
+			    $$comments_acc{LANLProblematicSeq} = 
+			    {
+				$val ? 
+				    (
+				     'problematicValue' => $val,
+				     'problemcode' => $sch->_code_from_value($fld, $val)
+				    ) :
+				    ('xsi:nil' => 'true')
 			    };
 			};
 			last;
@@ -366,27 +371,36 @@ sub _xml_hashref_from_id {
 			# has attributes...
 			my $tbl = $sch->tbl($fld);
 			my $col = $sch->col($fld);
-			$$entry{$tbl}->{$col} = (
-			    ($val eq 'xsi:nil') ? 'xsi:nil' : {
-				'countryString' => $val,
-				'ccode' => $sch->_code_from_value($fld, $val)
-			    });
+			$$entry{$tbl}->{$col} = 
+			{
+			    $val ? 
+			     (
+				 'countryString' => $val,
+				 'ccode' => $sch->_code_from_value($fld, $val)
+			     ) :
+			     ( 'xsi:nil' => 'true' )
+			};
 			last;
 		    };
 		    (/risk_factor$|country$|georegion$/) && do { 
                         # have attributes...
 			my $tbl = $sch->tbl($fld);
 			my $col = $sch->col($fld);
-			$$entry{$tbl}->{$col} = (
-			    ($val eq 'xsi:nil') ? 'xsi:nil' : {
-				$col.'String' => $val,
-				'LANLCode' => $sch->_code_from_value($fld, $val)
-			    });
+			$$entry{$tbl}->{$col} = 
+			{
+			    $val ? 
+			     (
+				 $col.'String' => $val,
+				 'LANLCode' => $sch->_code_from_value($fld, $val)
+			     ) :
+			     ( 'xsi:nil' => 'true' )
+			};
 			last;
 		    };
 		    do { 
                         # default formatted elements...
-			$$entry{$sch->tbl($fld)}->{$sch->col($fld)} = $val;
+			$$entry{$sch->tbl($fld)}->{$sch->col($fld)} = 
+			    $val || { 'xsi:nil' => 'true' };
 			last;
 		    };
 		} # for ($fld)
