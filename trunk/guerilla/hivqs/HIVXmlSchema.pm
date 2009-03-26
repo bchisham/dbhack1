@@ -47,18 +47,18 @@ Internal methods are usually preceded with a _
 
 # put the following addition to Bio::HIV::Query::HIVQuery here, since 
 # it's the workhorse
-    1;
-package Bio::HIV::Query::HIVQuery;
+
+package Bio::DB::Query::HIVQuery;
 use strict;
 use HIVXmlSchemaHelper; # fully qualify the ns when necessary
 use XML::LibXML;
 use Log::Report;
 
-=head2 get_XML_by_id
+=head2 Bio::DB::HIV::HIVQuery::make_XML_with_ids
 
- Title   : get_XML_by_id
- Usage   : $q->get_XML_by_id( @ids )
- Function: Obtain LANL annotations from sequences in XML, according to
+ Title   : make_XML_with_ids
+ Usage   : $q->make_XML_with_ids( @ids )
+ Function: Create an XML document of sequence annotations, according to
            the XML Schema namespace http://fortinbras.us/HIVDBSchema/1.0
  Example :
  Returns : a[n array of] scalar string[s] (formatted XML)
@@ -66,44 +66,52 @@ use Log::Report;
 
 =cut
 
-sub get_XML_by_id {
+sub make_XML_with_ids {
     my $self = shift;
     my @ids = @_;
-    my @ret;
-    my $sch = Bio::DB::HIV::HIVXmlSchema->new();
-    my $wri = $sch->make_writer;
-    my $doc = XML::LibXML->new();
-    # want to make a single XML file with multiple annotHivqSeq
-    # elts 
+    my (@hashes, $xml);
+    unless ($self->_run_option == 2) {
+	$self->warn("Method requires that query be run at level 2");
+	return undef;
+    }
     foreach (@ids) {
-	my $xml;
 	my $h = $self->_xml_hashref_from_id($_);
 	next unless $h; # skip on dne
-	# this is a Log::Report try block...
-	push @ret, $h;
+	push @hashes, $h;
     }
-    if (@ret) {
-	# string the returned hashes together correctly into
-	# a single file; may require moving to a child elt of
-	# the Element object returned by the writer...
-	# in fact, maybe better to build the entire document
-	# using DOM manipulations, and return the XML 
-	# with a single toString on the Document object.
+    if (@hashes) {
+	my $sch = Bio::DB::HIV::HIVXmlSchema->new();
+	my $doc = XML::LibXML::Document->new();
+	my ($wri, $guts);
+
+	# use the Log::Report try block around $wri->() and check
+	# $@; throw BP error if set.
+	try {
+	    $wri = $sch->make_writer;
+	    $guts = $wri->($doc, { 'annotHivqSeq' => [@hashes] })
+	};
+	if ($@) {
+	    $@->reportAll;
+	    exit(0);
+	    # handle XML::Compile::Schema error
+	}
+	else {
+	    $doc->addChild($guts);
+	    $xml = $doc->toString(1);
+	}
     }
     else {
 	# dude, no data!
+	$self->warn("No XML was generated for this query");
     }
-    return 1; # something...
+    return $xml;
 }
     
+1;
 
 package Bio::DB::HIV::HIVXmlSchema;
 use strict;
-
-use strict;
 use constant HIVNS => 'http://fortinbras.us/HIVDBSchema/1.0';
-# change below to directory finder...
-use constant XSDDIR => '~/fortinbras/hackathon/code/dbhack-live/guerilla/hivqs/';
 
 use XML::LibXML;
 use XML::Compile;
@@ -132,7 +140,7 @@ our @schemata = qw(
  Example :
  Returns : a new HIVXmlSchema object (is-a XML::Compile::Schema, and
            is-a Bio::Root::Root)
- Args    : -SCHEMADIR => $dir_containing_xsd_files
+ Args    : -SCHEMADIR => $dir_containing_xsd_files or [@dirs]
            -XSCARGS   => \@array_of_XML_Compile_Schema_constructor_args
 
 =cut
@@ -143,8 +151,10 @@ our @schemata = qw(
 sub new{
    my ($class,@args) = @_;
    my ($schema_dir,$XSC_args) = $class->SUPER::_rearrange([qw(SCHEMADIR,XSCARGS)], @args);
-   $schema_dir ||= XSDDIR;
+   my @XSDDIRs = ($schema_dir and ref($schema_dir) eq 'ARRAY') ? @$schema_dir : ($schema_dir);
+   my @XSDDIRS = (@INC, $schema_dir);
    my $self = $class->SUPER::new([SCHEMA2001,SCHEMA2001i, @schemata],
+				 'schema_dirs' => [@XSDDIRS],
 				 @$XSC_args);
 
    # now,can do other stuff here using XML::Compile:Schema instance methods:
@@ -165,18 +175,20 @@ sub new{
  Usage   : $hivq_wri = $obj->make_writer
  Function: compile and return an XML::Compile writer based on the HIVQ schema,
            add ref to parent object
- Example :
+ Example : 
  Returns : a coderef (see XML::Compile manpage)
- Args    : -XSCARGS => [@args_to_pass_to_compiler]
+ Args    : -AT_ELT => $fully_qualified_element_name_in_hivq_ns 
+           -XSCARGS => [@args_to_pass_to_compiler]
 
 =cut
 
 sub make_writer{
    my ($self,@args) = @_;
-   my ($XSC_args) = $self->_rearrange([qw(XSCARGS)], @args);
+   my ($at_elt, $XSC_args) = $self->_rearrange([qw(AT_ELT XSCARGS)], @args);
+   $at_elt ||= pack_type(HIVNS, 'HivqSeqs');
    $XSC_args ||= [];
    return $self->_hivq_writer( $self->compile('WRITER',
-					      pack_type(HIVNS,'HivqSeqs'),
+					      $at_elt,
 					      prefixes => [ 
 						  'xs'  => SCHEMA2001,
 						  'xsi' => SCHEMA2001i,
@@ -193,16 +205,18 @@ sub make_writer{
            add ref to parent object
  Example :
  Returns : a coderef (see XML::Compile manpage)
- Args    : -XSCARGS => [@args_to_pass_to_compiler]
+ Args    : -AT_ELT => $fully_qualified_element_name_in_hivq_ns 
+           -XSCARGS => [@args_to_pass_to_compiler]
 
 =cut
 
 sub make_reader{
    my ($self,@args) = @_;
-   my ($XSC_args) = $self->_rearrange([qw(XSCARGS)], @args);
+   my ($at_elt, $XSC_args) = $self->_rearrange([qw(AT_ELT XSCARGS)], @args);
+   $at_elt ||= 'HivqSeqs';
    $XSC_args ||= [];
    return $self->_hivq_reader( $self->compile('READER',
-					      pack_type(HIVNS,'HivqSeqs'),
+					      $at_elt,
 					      prefixes => [
 						  'xs'   => SCHEMA2001,
 						  'xsi'  => SCHEMA2001i,
