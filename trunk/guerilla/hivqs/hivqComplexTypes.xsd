@@ -1,5 +1,5 @@
-<!-- $Id$ -->
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
 <xs:schema attributeFormDefault="unqualified" 
 	   elementFormDefault="qualified" 
 	   targetNamespace="http://fortinbras.us/HIVDBSchema/1.0/CT" 
