@@ -270,7 +270,7 @@ sub _xml_hashref_from_id {
 	push @ret, $entry;
 	
     }
-    return @ret;
+    return wantarray ? @ret : $ret[0];
 }
 
 1;
