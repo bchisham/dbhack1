@@ -1,5 +1,9 @@
+<!-- $Id -->
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://fortinbras.us/HIVDBSchema/1.0/ST" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema attributeFormDefault="unqualified" 
+	   elementFormDefault="qualified" 
+	   targetNamespace="http://fortinbras.us/HIVDBSchema/1.0/ST" 
+	   xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:simpleType name="integerGt0">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="0"/>

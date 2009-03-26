@@ -1,6 +1,11 @@
+<!-- $Id -->
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://fortinbras.us/HIVDBSchema/1.0/CT" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import namespace="http://fortinbras.us/HIVDBSchema/1.0/ST" schemaLocation="hivqSimpleTypes.xsd"></xs:import>
+<xs:schema attributeFormDefault="unqualified" 
+	   elementFormDefault="qualified" 
+	   targetNamespace="http://fortinbras.us/HIVDBSchema/1.0/CT" 
+	   xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://fortinbras.us/HIVDBSchema/1.0/ST" 
+	     schemaLocation="hivqSimpleTypes.xsd"/>
   <xs:complexType name="authorType">
     <xs:all>
       <xs:element minOccurs="0" name="au_authornumber" type="hst:au_authornumberType" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
