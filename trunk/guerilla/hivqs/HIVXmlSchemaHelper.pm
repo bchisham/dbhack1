@@ -85,7 +85,7 @@ sub _field_from_ankey {
  Usage:    $schema->_code_from_value($fieldname, @field_values);
  Function: Convert a LANL annotation return value (encoded in the 
            C<Bio::DB::HIV> custom schema as "desc" attributes to 
-           <option> elements) to the *Code attribute for the 
+           <option> elements) to the *code attribute for the 
            XSD element associated with the (custom schema) <sfield>
            field name.
  Returns:  [an array of] code[s] (= "option" elts) looked up by field 
@@ -149,6 +149,8 @@ sub _xml_hashref_from_id {
     my $sch = $self->_schema;
     my @ret;
     my @annotTypes = ('Geo', 'Patient', 'Sample', 'StdMap', 'Virus');
+    my @skip_flds = ($sch->pk('patient'),  map { $sch->foreignkey($_) } $sch->tables);
+
     foreach my $id (@id) {
 	my $ac = $self->get_annotations_by_id($id);
 	next unless $ac; # dne
@@ -192,6 +194,8 @@ sub _xml_hashref_from_id {
 		# hivqSchema...
 		# handle the specials
 		for ($fld) {
+		    # skip the foreign key fields, pat_id (already handled)...
+		    last if grep /$fld/, @skip_flds; 
 		    (/comment$|badseq$/) && do { 
                         # comments
 			m/pat_comment/ && do {$$comments_acc{LANLPatComment}=$val;};
@@ -232,7 +236,7 @@ sub _xml_hashref_from_id {
 			    ($val ?
 			     {
 				 $col.'String' => $val,
-				 'LANLCode' => $sch->_code_from_value($fld, $val)
+				 'LANLcode' => $sch->_code_from_value($fld, $val)
 			     } :
 			     undef
 			    );
