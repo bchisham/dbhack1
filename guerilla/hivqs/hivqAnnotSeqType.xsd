@@ -1,13 +1,16 @@
-<!-- $Id$ -->
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- $Id$ -->
 <xs:schema attributeFormDefault="unqualified" 
 	   elementFormDefault="qualified" 
 	   targetNamespace="http://fortinbras.us/HIVDBSchema/1.0/AnnotSeq" 
+	   xmlns:nex="http://www.nexml.org/nexml/1.0"
 	   xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:import schemaLocation="hivqSimpleTypes.xsd" 
 	     namespace="http://fortinbras.us/HIVDBSchema/1.0/ST" />
   <xs:import schemaLocation="hivqComplexTypes.xsd" 
 	     namespace="http://fortinbras.us/HIVDBSchema/1.0/CT" />
+  <xs:import schemaLocation="nexml.xsd"
+	     namespace="http://www.nexml.org/nexml/1.0" />
   <xs:complexType name="registrationType">
     <xs:sequence>
       <xs:element name="sequenceIds">
@@ -53,6 +56,7 @@
   </xs:complexType>
   <xs:complexType name="annotSeqType">
     <xs:all>
+      <xs:element />
       <xs:element xmlns:has="http://fortinbras.us/HIVDBSchema/1.0/AnnotSeq" minOccurs="1" maxOccurs="1" name="registration" type="has:registrationType" />
       <xs:element xmlns:has="http://fortinbras.us/HIVDBSchema/1.0/AnnotSeq" minOccurs="0" maxOccurs="1" name="comments" type="has:commentType" />
       <xs:element xmlns:hct="http://fortinbras.us/HIVDBSchema/1.0/CT" minOccurs="0" name="author" type="hct:authorType" />
