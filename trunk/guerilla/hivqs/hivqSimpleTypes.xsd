@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Id$ -->
-<xs:schema attributeFormDefault="unqualified" 
-	   elementFormDefault="qualified" 
-	   targetNamespace="http://fortinbras.us/HIVDBSchema/1.0/ST" 
-	   xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema 
+   attributeFormDefault="unqualified" elementFormDefault="qualified"
+   targetNamespace="http://fortinbras.us/HIVDBSchema/1.0/ST"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:tns="http://fortinbras.us/HIVDBSchema/1.0/ST" >
   <xs:simpleType name="integerGt0">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="0"/>
@@ -253,7 +253,7 @@
         </xs:simpleType>
       </xs:element>
     </xs:all>
-    <xs:attribute name="ccode" type="hst:countryCodeType" use="required" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
+    <xs:attribute name="ccode" type="tns:countryCodeType" use="required" />
   </xs:complexType>
   <xs:simpleType name="pat_infection_yearType">
     <xs:restriction base="xs:gYear"/>
@@ -365,7 +365,7 @@
         </xs:simpleType>
       </xs:element>
     </xs:all>
-    <xs:attribute name="LANLcode" type="hst:pat_risk_factorCodeType" use="required" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
+    <xs:attribute name="LANLcode" type="tns:pat_risk_factorCodeType" use="required" />
   </xs:complexType>
   <xs:simpleType name="pat_sexType">
     <xs:restriction base="xs:string">
@@ -427,7 +427,7 @@
         </xs:simpleType>
       </xs:element>
     </xs:all>
-    <xs:attribute name="LANLcode" type="hst:ssam_badseqCodeType" use="required" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
+    <xs:attribute name="LANLcode" type="tns:ssam_badseqCodeType" use="required" />
   </xs:complexType>
   <xs:simpleType name="ssam_cd4countType">
     <xs:restriction base="xs:integer">
@@ -590,7 +590,7 @@
         </xs:simpleType>
       </xs:element>
     </xs:all>
-    <xs:attribute name="LANLcode" type="hst:ssam_sample_georegionCodeType" use="required" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
+    <xs:attribute name="LANLcode" type="tns:ssam_sample_georegionCodeType" use="required" />
   </xs:complexType>
   <xs:simpleType name="ssam_sample_tissueType">
     <xs:restriction base="xs:string">
@@ -671,45 +671,30 @@
     <xs:restriction base="xs:gYear"/>
   </xs:simpleType>
   <xs:simpleType name="ssam_sample_year_upperType">
+    <xs:restriction base="xs:gYear"/>
+  </xs:simpleType>
+  <xs:simpleType name="coreceptorType">
     <xs:restriction base="xs:string">
-      <xs:maxLength value="100"/>
-      <xs:enumeration value="2005"/>
-      <xs:enumeration value="1980"/>
-      <xs:enumeration value="1990"/>
-      <xs:enumeration value="2007"/>
-      <xs:enumeration value="1960"/>
-      <xs:enumeration value="1996"/>
-      <xs:enumeration value="1999"/>
-      <xs:enumeration value="1995"/>
-      <xs:enumeration value="1993"/>
-      <xs:enumeration value="2008"/>
-      <xs:enumeration value="2001"/>
-      <xs:enumeration value="1997"/>
-      <xs:enumeration value="1998"/>
-      <xs:enumeration value="1983"/>
-      <xs:enumeration value="1977"/>
-      <xs:enumeration value="1986"/>
-      <xs:enumeration value="1984"/>
-      <xs:enumeration value="1987"/>
-      <xs:enumeration value="2004"/>
-      <xs:enumeration value="1975"/>
-      <xs:enumeration value="1989"/>
-      <xs:enumeration value="1991"/>
-      <xs:enumeration value="2002"/>
-      <xs:enumeration value="1982"/>
-      <xs:enumeration value="2000"/>
-      <xs:enumeration value="1976"/>
-      <xs:enumeration value="1959"/>
-      <xs:enumeration value="1981"/>
-      <xs:enumeration value="1994"/>
-      <xs:enumeration value="1978"/>
-      <xs:enumeration value="1988"/>
-      <xs:enumeration value="1979"/>
-      <xs:enumeration value="1985"/>
-      <xs:enumeration value="1992"/>
-      <xs:enumeration value="2006"/>
-      <xs:enumeration value="2003"/>
+      <xs:enumeration value="CCR1"/>
+      <xs:enumeration value="CCR2B"/>
+      <xs:enumeration value="CCR2b"/>
+      <xs:enumeration value="CCR3"/>
+      <xs:enumeration value="CCR4"/>
+      <xs:enumeration value="CCR5"/>
+      <xs:enumeration value="CCR8"/>
+      <xs:enumeration value="CSCR4"/>
+      <xs:enumeration value="CXCR4"/>
+      <xs:enumeration value="ChemR23"/>
+      <xs:enumeration value="GPR1"/>
+      <xs:enumeration value="GPR15"/>
+      <xs:enumeration value="STRL33"/>
+      <xs:enumeration value="UNK"/>
+      <xs:enumeration value="US28"/>
+      <xs:enumeration value="V28"/>
     </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ssam_second_receptorListType">
+    <xs:list itemType="tns:coreceptorType"/>
   </xs:simpleType>
   <xs:simpleType name="ssam_second_receptorType">
     <xs:restriction base="xs:string">

@@ -76,6 +76,7 @@
       <xs:element minOccurs="0" name="ssam_sample_year" type="hst:ssam_sample_yearType" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
       <xs:element minOccurs="0" name="ssam_sample_year_upper" type="hst:ssam_sample_year_upperType" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
       <xs:element minOccurs="0" name="ssam_second_receptor" type="hst:ssam_second_receptorType" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
+     <xs:element minOccurs="0" name="coreceptor_list" type="hst:ssam_second_receptorListType" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
       <xs:element minOccurs="0" name="ssam_sequencing_method" type="hst:ssam_sequencing_methodType" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
       <xs:element minOccurs="0" name="ssam_subtype" type="hst:ssam_subtypeType" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
       <xs:element minOccurs="0" name="ssam_viralload" type="hst:ssam_viralloadType" xmlns:hst="http://fortinbras.us/HIVDBSchema/1.0/ST"/>
