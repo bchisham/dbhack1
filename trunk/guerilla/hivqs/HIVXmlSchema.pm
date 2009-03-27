@@ -10,6 +10,14 @@ Bio::DB::HIV::HIVXmlSchema - routines to convert LANL HIV sequence DB data into 
 use HIVXmlSchema qw(HIVNS);
 print HIVNS;                  # returns "http://fortinbras.us/HIVDBSchema/1.0"
 
+my $q = Bio::DB::Query::HIVQuery->new( 
+    -query => "(F)[subtype] (Env)[gene] (BR ZA)[country]"
+    ."{ pat_id risk_factor project }"
+    );
+my $xml_seq_doc   = $db->make_nexml_from_query( $q );
+my $xml_annot_doc = $q->make_XML_with_ids( $q->ids );
+
+
 =head1 DESCRIPTION
 
 This package contains internal methods assigned to existing module
@@ -107,6 +115,92 @@ sub make_XML_with_ids {
     return $xml;
 }
     
+1;
+
+package Bio::DB::HIV;
+use strict;
+use HIVXmlSchemaHelper; # fully qualify the ns when necessary
+use Bio::Phylo::Factory;
+
+=head2 make_nexml_from_query
+
+ Title   : make_nexml_from_query
+ Usage   : $db->make_nexml_from_query( $hiv_query_object )
+ Function: Create a NeXML-compliant XML document containing 
+           sequences (not annotations; see 
+           Bio::DB::Query::HIV::make_XML_with_ids()
+           for that) associated with a Bio::DB::Query::HIVQuery
+           object
+ Example :
+ Returns : NeXML-compliant XML document as string
+ Args    : Bio::DB::Query::HIVQuery object; [optional] array of
+           LANL sequence ids.
+ Note    : Requires Rutger Vos' external package Bio::Phylo 
+
+=cut
+
+sub make_nexml_from_query{
+   my ($self,@args) = @_;
+   my ($q)  = @args;
+   
+   my $bpf = Bio::Phylo::Factory->new;
+   my $seqio = $self->get_Stream_by_query( $q );
+   my $dat_obj   = $bpf->create_datum();
+   my $taxon_obj = $bpf->create_taxon();
+   my $taxa  = $bpf->create_taxa();
+
+   # keep in mind handling the possibility that both dna and aa 
+   # data maybe present, so would require a "mixed matrix" approach
+   # in Bio::Phylo
+   my $mx;
+
+   while ( my $seq = $seqio->next_seq ) {
+       # need a taxon (otus) elt with the LANL id + GB accn.
+       # 
+       # linking a taxon to its datum? $taxon->set_data($datum)
+       # put LANL ID into -name
+       # put GenBank Accn into -desc
+       # putting a taxon into a "taxa block"? $taxa->insert($taxon)
+       # linking a 
+
+# check first seq and make matrix (but this won't work if we have mixed data)
+       $mx ||= $bpf->create_matrix( -type=>$seq->alphabet ); 
+       
+       my ($taxon, $datum);
+       #create elements...
+       $taxon = $taxon_obj->new( -name => $seq->id, 
+				 -desc => $seq->annotation->get_value('Special','accession'));
+
+       $datum = $dat_obj->new_from_bioperl($seq);
+       $taxon->set_data($datum);
+       #organize into containers...
+       $taxa->insert( $taxon );
+       $mx->insert( $datum);
+       1;
+   }
+   
+   # so if @dna != 0 and @aa != 0, we require a mixed matrix.
+   # link the matrix to the taxa 'block'
+   $mx->set_taxa( $taxa) 
+
+   #!!! there's a problem: the -desc field of taxon, set to 
+   # the genbank accession, does not appear in the rendered
+   # XML. May require a <dict> elt or something to hold it. 
+   # is it a bug; should there be a @desc attribute??
+
+   # to deliver the XML document, need to return
+   # xml header
+   # Nexml root element 
+   # taxa 'block' $taxa->to_xml
+   # matrix 'block' $mx->to_xml(-compact=>1)
+   # end Nexml root element
+
+
+   1;
+}
+
+
+
 1;
 
 package Bio::DB::HIV::HIVXmlSchema;
