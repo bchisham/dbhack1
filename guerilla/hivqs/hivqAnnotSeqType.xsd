@@ -55,7 +55,6 @@
   </xs:complexType>
   <xs:complexType name="annotSeqType">
     <xs:all>
-      <xs:element />
       <xs:element xmlns:has="http://fortinbras.us/HIVDBSchema/1.0/AnnotSeq" minOccurs="1" maxOccurs="1" name="registration" type="has:registrationType" />
       <xs:element xmlns:has="http://fortinbras.us/HIVDBSchema/1.0/AnnotSeq" minOccurs="0" maxOccurs="1" name="comments" type="has:commentType" />
       <xs:element xmlns:hct="http://fortinbras.us/HIVDBSchema/1.0/CT" minOccurs="0" name="author" type="hct:authorType" />
