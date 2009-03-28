@@ -7,34 +7,50 @@ Bio::DB::HIV::HIVXmlSchema - routines to convert LANL HIV sequence DB data into 
 
 =head1 SYNOPSIS
 
-use HIVXmlSchema qw(HIVNS);
-print HIVNS;                  # returns "http://fortinbras.us/HIVDBSchema/1.0"
+ use HIVXmlSchema qw(HIVNS);
+ print HIVNS;                  # returns "http://fortinbras.us/HIVDBSchema/1.0"
 
-my $q = Bio::DB::Query::HIVQuery->new( 
-    -query => "(F)[subtype] (Env)[gene] (BR ZA)[country]"
-    ."{ pat_id risk_factor project }"
-    );
-my $xml_seq_doc   = $db->make_nexml_from_query( $q );
-my $xml_annot_doc = $q->make_XML_with_ids( $q->ids );
-
+ my $q = Bio::DB::Query::HIVQuery->new( 
+     -query => "(F)[subtype] (Env)[gene] (BR ZA)[country]"
+              ."{ pat_id risk_factor project }"
+     );
+ my $xml_seq_doc   = $db->make_nexml_from_query( $q );
+ my $xml_annot_doc = $q->make_xml_from_query( $q->ids );
 
 =head1 DESCRIPTION
 
-This package contains internal methods assigned to existing module
-namespaces in BioPerl modules C<Bio::DB::HIV> and
-C<Bio::DB::Query>. They are used to help create schema-valid XML
-messages from sequence metadata returned by the Los Alamos National
-Laboratories' CGI interface to their HIV Sequence Database.  The
-custom XML namespace to which these routines correspond is
-L<http://fortinbras.us/HIVDBSchema/1.0>. Schema definition files can
-be obtained at that URL.
+This package contains the definition of the
+C<Bio::DB::HIV::HIVXmlSchema> class, and also internal methods
+assigned to existing module namespaces in BioPerl modules
+C<Bio::DB::HIV> and C<Bio::DB::Query>. They are used to help create
+schema-valid XML messages from sequences and their metadata as
+returned by the Los Alamos National Laboratories' CGI interface to
+their HIV Sequence Database.  Annotations can be returned as an XML
+document in the custom namespace
+L<http://fortinbras.us/HIVDBSchema/1.0>. The schema definition files
+can be obtained at that URL. Sequences can be returned as an XML
+document in the NeXML format (namespace L<http://www.nexml.org/1.0>).
+Voluminous details on the NeXML standard can be obtained at
+L<http://www.nexml.org>.
 
-The namespace constant C<HIVNS> is exportable.
+The namespace constants C<HIVNS> and C<NEXML> are exportable from 
+C<Bio::DB::HIV::HIVXmlSchema>.
 
 =head1 IMPORTANT CAVEAT
 
-These routines are dependent upon revision 15594 of C<Bio::DB::Query::HIVQuery>
-and revision 15593 of C<Bio::DB::HIV::HIVQueryHelper>.
+These routines are dependent upon revision 15594 of
+C<Bio::DB::Query::HIVQuery> and revision 15593 of
+C<Bio::DB::HIV::HIVQueryHelper>. The most recent versions of these
+modules are available by SVN checkout from the trunk at
+L<svn://code.open-bio.org/bioperl/bioperl-live/trunk/>
+
+=head1 IMPLEMENTATION NOTES
+
+These routines depend on the NeXML parser/writers in the C<Bio::Phylo> package
+by Rutger Vos. It can be obtained at L<http://phylo.sourceforge.net>.
+
+XML manipulations here currently employ the C<XML::LibXML> package of Petr Pajas and C<XML::Compile> and C<XML::Compile::Schema> of Mark Overbeek. These require the presence of C<libxml2> libraries, which can be obtained for many platforms 
+at L<http://xmlsoft.org/index.html>
 
 =head1 AUTHOR - Mark A. Jensen
 
@@ -44,7 +60,8 @@ Email maj@fortinbras.us
 
 Many thanks to the knowledgeable and patient participants of the 
 National Center for Evolutionary Synthesis' Database Interoperability
-Hackthon, Durham, NC, USA, March 2009.
+Hackthon, Durham, NC, USA, March 2009. See their work at
+L<http://www.nescent.org/wg_evoinfo/Category:DB_Interop_Hackathon>.
 
 =head1 APPENDIX
 
@@ -53,31 +70,45 @@ Internal methods are usually preceded with a _
 
 =cut
 
-# put the following addition to Bio::HIV::Query::HIVQuery here, since 
-# it's the workhorse
-
 package Bio::DB::Query::HIVQuery;
 use strict;
 use HIVXmlSchemaHelper; # fully qualify the ns when necessary
 use XML::LibXML;
 use Log::Report;
 
-=head2 Bio::DB::HIV::HIVQuery::make_XML_with_ids
+=head2 Bio::DB::HIV::HIVQuery::make_xml_from_query
 
- Title   : make_XML_with_ids
- Usage   : $q->make_XML_with_ids( @ids )
+ Title   : make_XML_from_query
+ Usage   : $q->make_XML_from_query()
  Function: Create an XML document of sequence annotations, according to
            the XML Schema namespace http://fortinbras.us/HIVDBSchema/1.0
  Example :
- Returns : a[n array of] scalar string[s] (formatted XML)
+ Returns : HIVDBSchema-compliant XML document as string
+ Args    : none
+
+=cut
+
+sub make_xml_from_query {
+    my $self = shift;
+    return $self->make_xml_with_ids( $self->ids );
+}
+
+=head2 Bio::DB::HIV::HIVQuery::make_XML_with_ids
+
+ Title   : make_xml_with_ids
+ Usage   : $q->make_xml_with_ids( @ids )
+ Function: Create an XML document of sequence annotations, according to
+           the XML Schema namespace http://fortinbras.us/HIVDBSchema/1.0
+ Example :
+ Returns : HIVDBSchema-compliant XML document as string
  Args    : a[n array of] LANL id[s] (scalar[s])
 
 =cut
 
-sub make_XML_with_ids {
+sub make_xml_with_ids {
     my $self = shift;
     my @ids = @_;
-    my (@hashes, $xml);
+    my @hashes;
     unless ($self->_run_option == 2) {
 	$self->warn("Method requires that query be run at level 2");
 	return undef;
@@ -105,14 +136,13 @@ sub make_XML_with_ids {
 	}
 	else {
 	    $doc->addChild($guts);
-	    $xml = $doc->toString(1);
+	    return $doc->toString(1);
 	}
     }
     else {
 	# dude, no data!
 	$self->warn("No XML was generated for this query");
     }
-    return $xml;
 }
     
 1;
@@ -120,7 +150,10 @@ sub make_XML_with_ids {
 package Bio::DB::HIV;
 use strict;
 use HIVXmlSchemaHelper; # fully qualify the ns when necessary
+use XML::LibXML::Reader;
+use XML::LibXML;
 use Bio::Phylo::Factory;
+use constant NEXML => 'http://www.nexml.org/1.0';
 
 =head2 make_nexml_from_query
 
@@ -143,27 +176,28 @@ sub make_nexml_from_query{
    my ($self,@args) = @_;
    my ($q)  = @args;
    
-   my $bpf = Bio::Phylo::Factory->new;
-   my $seqio = $self->get_Stream_by_query( $q );
+   my $bpf       = Bio::Phylo::Factory->new;
+   my $seqio     = $self->get_Stream_by_query( $q );
    my $dat_obj   = $bpf->create_datum();
    my $taxon_obj = $bpf->create_taxon();
-   my $taxa  = $bpf->create_taxa();
+   my $taxa      = $bpf->create_taxa();
+   my ($xrdr, $dom);
 
-   # keep in mind handling the possibility that both dna and aa 
-   # data maybe present, so would require a "mixed matrix" approach
-   # in Bio::Phylo
-   my $mx;
+   my $doc = XML::LibXML::Document->new();
+   my ($mx, $alphabet);
 
    while ( my $seq = $seqio->next_seq ) {
-       # need a taxon (otus) elt with the LANL id + GB accn.
-       # 
-       # linking a taxon to its datum? $taxon->set_data($datum)
-       # put LANL ID into -name
-       # put GenBank Accn into -desc
-       # putting a taxon into a "taxa block"? $taxa->insert($taxon)
-       # linking a 
 
-# check first seq and make matrix (but this won't work if we have mixed data)
+       # check first seq and make matrix (note this won't 
+       # work if we have mixed data)
+       if ($mx) {
+	   $self->throw( "Mixed data NeXML not currently implemented" ) if
+	       $seq->alphabet ne $alphabet;
+       }
+       else {
+	   $alphabet = $seq->alphabet;
+       }
+
        $mx ||= $bpf->create_matrix( -type=>$seq->alphabet ); 
        
        my ($taxon, $datum);
@@ -181,31 +215,62 @@ sub make_nexml_from_query{
    
    # so if @dna != 0 and @aa != 0, we require a mixed matrix.
    # link the matrix to the taxa 'block'
-   $mx->set_taxa( $taxa) 
+   $mx->set_taxa( $taxa);
+   $xrdr = XML::LibXML::Reader->new( string => join('', '<fake>',
+						    $taxa->to_xml,
+						    $mx->to_xml(-compact => 1),
+				     '</fake>'));
+   $xrdr->read;
+   my ( $otus_node, $characters_node ) = $xrdr->copyCurrentNode(1)->childNodes;
+   
+   # build the DOM
+   foreach my $otu_node ( $otus_node->childNodes ) {
+       next unless $otu_node->nodeName eq 'otu';
+       my ($lanlid, $tmp, $lanlid_node, $gbaccn_node);
 
-   #!!! there's a problem: the -desc field of taxon, set to 
-   # the genbank accession, does not appear in the rendered
-   # XML. May require a <dict> elt or something to hold it. 
-   # is it a bug; should there be a @desc attribute??
+       $lanlid_node = XML::LibXML::Element->new('dict');
+       $lanlid_node->setAttribute('id', "dict$$lanlid_node"); # uniquify
 
-   # to deliver the XML document, need to return
-   # xml header
-   # Nexml root element 
-   # taxa 'block' $taxa->to_xml
-   # matrix 'block' $mx->to_xml(-compact=>1)
-   # end Nexml root element
+       $lanlid = $otu_node->getAttribute('label');
+       $tmp = XML::LibXML::Element->new('string');
+       $tmp->setAttribute('id', "LANLSeqId_$$lanlid_node");
+       $tmp->addChild( XML::LibXML::Text->new($lanlid ) );
+       $lanlid_node->addChild($tmp);
+       
+       $gbaccn_node =  XML::LibXML::Element->new('dict');
+       $gbaccn_node->setAttribute('id', "dict$$gbaccn_node");
 
+       $tmp = XML::LibXML::Element->new('string');
+       $tmp->setAttribute('id', "GenBankAccn_$$gbaccn_node");
+       $tmp->addChild( XML::LibXML::Text->new($q->get_accessions_by_id($lanlid)));
+       $gbaccn_node->addChild($tmp);
 
-   1;
+       $otu_node->addChild($lanlid_node);
+       $otu_node->addChild($gbaccn_node);
+
+   }
+   
+   # create the NexML doc
+   $dom = XML::LibXML::Element->new('nexml');
+   $dom->setNamespace(NEXML, 'nex');
+   $dom->setAttribute('version', '0.8');
+   $dom->setAttribute('generator', 'Bio::DB::HIVXmlSchema');
+   $dom->setAttribute('xmlns', NEXML);
+   $dom->addChild($otus_node);
+   $dom->addChild($characters_node);
+
+   $doc->setDocumentElement($dom);
+
+   return $doc->toString(1);
+
 }
-
-
 
 1;
 
 package Bio::DB::HIV::HIVXmlSchema;
 use strict;
 use constant HIVNS => 'http://fortinbras.us/HIVDBSchema/1.0';
+use constant NEXML => 'http://www.nexml.org/1.0';
 
 use XML::LibXML;
 use XML::Compile;
@@ -216,7 +281,7 @@ use base qw(XML::Compile::Schema Bio::Root::Root);
 BEGIN {
     our (@ISA, @EXPORT_OK);
     push @ISA, qw( Exporter );
-    @EXPORT_OK = qw( HIVNS );
+    @EXPORT_OK = qw( HIVNS NEXML );
 }
 
 our @schemata = qw(
