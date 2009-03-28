@@ -1,5 +1,5 @@
 #$Id$#
-package HIVXmlSchemaHelper;
+package HIVXmlSchemaHelper; # fully qualify namespace eventually
 use strict;
 
 =head1 NAME
@@ -24,8 +24,11 @@ be obtained at that URL.
 
 =head1 IMPORTANT CAVEAT
 
-These routines are dependent upon revision 15594 of C<Bio::DB::Query::HIVQuery>
-and revision 15593 of C<Bio::DB::HIV::HIVQueryHelper>.
+These routines are dependent upon revision >= 15594 of
+C<Bio::DB::Query::HIVQuery> and revision >= 15593 of
+C<Bio::DB::HIV::HIVQueryHelper>. The most recent versions of these
+modules are available by SVN checkout from the trunk at
+L<svn://code.open-bio.org/bioperl/bioperl-live/trunk/>
 
 =head1 AUTHOR - Mark A. Jensen
 
@@ -35,7 +38,8 @@ Email maj@fortinbras.us
 
 Many thanks to the knowledgeable and patient participants of the 
 National Center for Evolutionary Synthesis' Database Interoperability
-Hackthon, Durham, NC, USA, March 2009.
+Hackthon, Durham, NC, USA, March 2009. See their work at
+L<http://www.nescent.org/wg_evoinfo/Category:DB_Interop_Hackathon>.
 
 =head1 APPENDIX
 
@@ -241,6 +245,14 @@ sub _xml_hashref_from_id {
 			     undef
 			    );
 #			     ( 'xsi:nil' => 'true' )
+			last;
+		    };
+		    (/second_receptor/) && do {
+			my @cr = split(/\s+/,$val);
+			$$entry{$sch->tbl($fld)}->{'coreceptor_list'} =
+			    [@cr] || undef;
+			$$entry{$sch->tbl($fld)}->{$sch->col($fld)} = 
+			    $val || undef;
 			last;
 		    };
 		    do { 
