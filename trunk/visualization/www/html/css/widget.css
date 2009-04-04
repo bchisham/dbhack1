@@ -4,14 +4,14 @@ body {
 
 /* Take Note: must list all buttons by name */
 #remoteButton-button,
-#searchButton-button,
+#databaseButton-button,
 #treeButton-button,
 #nodeButton-button,
 #decorationButton-button,
 #UpdateTreeButton-button,
 #SaveTreeButton-button,
 #ExampleTreeButton-button,
-#SearchDatabaseButton-button
+#SearchButton-button
 {
   background:url(../images/phylowidget/sprite.png) repeat-x 0 -1400px;
   color:white;
