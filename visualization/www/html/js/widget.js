@@ -114,7 +114,7 @@ PWidget.prototype.getLayout = function() {
   this.rendered = this.panels.length > 0;
 
   // search box
-  this.panelConfig('search',panelParams,[left3,top1,narrow,venti-100],cookie); 
+  this.panelConfig('database',panelParams,[left3,top1,narrow,venti-100],cookie); 
   this.searchText = document.getElementById('searchInput');
 
   // tree decoration
