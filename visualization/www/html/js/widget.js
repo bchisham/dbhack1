@@ -1,6 +1,7 @@
 var PWidget = function() {
   this.params = {
-    nodeSize: '3f'
+    nodeSize: '3f',
+    Type: 'Circular'
   };
   this.panels = [];
   this.panelObjects = {};
@@ -52,7 +53,8 @@ PWidget.prototype.loadWidget  = function(force) {
   this.params['menus'] = "phylowidget/pw_toolbar.xml;phylowidget/pw_dock.xml;phylowidget/pw_context.xml;phylowidget/pw_callbacks.xml";
 
   pw.loadWidget('widgetContainer',this.params);
-
+  // This should destroy the applet
+  window.onbeforeunload = pw.stopApplet;
 }
 
 // We must always cram the applet into its box.

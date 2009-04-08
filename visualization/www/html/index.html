@@ -101,8 +101,8 @@
         var clickMe = function(){alert('This will trigger a PUT operation (When I finish it)')};
         widget.addButton('Save Tree',clickMe,'treeButtons');
         clickMe = function(){
-	  if (!widget.go) { widget.go = 1; loadTree('http://www.ebi.ac.uk/~greg/bbcdemo/smalltree.nhx') }
-          else { widget.updateTree('http://www.ebi.ac.uk/~greg/bbcdemo/smalltree.nhx') }
+	  if (!widget.go) { widget.go = 1; loadTree('http://iptol.iplantcollaborative.org/hackathon/example_tree.txt') }
+          else { widget.updateTree('http://iptol.iplantcollaborative.org/hackathon/example_tree.txt') }
         }
         widget.addButton('Example Tree',clickMe,'treeButtons');
         clickMe = function(){

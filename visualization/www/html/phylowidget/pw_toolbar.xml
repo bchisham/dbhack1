@@ -1,4 +1,4 @@
-<menu type="Toolbar" x="2" y="2" autoDim="true">
+<menu type="Toolbar" x="2" y="2" autoDim="false">
 	<item name="File" description="">
 		<item name="New Tree" action="treeNew" shortcut="control-n"/>
 		<item name="Load Tree">
